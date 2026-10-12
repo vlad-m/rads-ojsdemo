@@ -233,6 +233,18 @@ class DemoSeedTool extends CommandLineTool
         $request = Application::get()->getRequest();
         if ($existing) {
             unset($props['urlPath']);
+            // Leftovers of a previous design would override the demo look:
+            // header logo, homepage image, custom stylesheet, extra homepage
+            // content and custom <head> tags.
+            $leftovers = ['pageHeaderLogoImage', 'homepageImage', 'styleSheet', 'additionalHomeContent', 'customHeaders', 'journalThumbnail'];
+            $cleared = DB::table('journal_settings')
+                ->where('journal_id', $existing->getId())
+                ->whereIn('setting_name', $leftovers)
+                ->delete();
+            if ($cleared) {
+                $this->line("  cleared {$cleared} leftover appearance setting(s) (logo, homepage image, stylesheet…)");
+                $existing = $contextDao->getById($existing->getId());
+            }
             $this->journal = $contextService->edit($existing, $props, $request);
             $this->line('  using existing journal #' . $this->journal->getId() . ' (' . $this->journal->getPath() . '), settings updated');
         } else {
@@ -339,6 +351,9 @@ class DemoSeedTool extends CommandLineTool
         $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'enabled', true, 'bool');
         $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'showHero', true, 'bool');
         $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'showJournalStats', true, 'bool');
+        // Options inherited from the default theme
+        $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'showDescriptionInJournalIndex', false, 'bool');
+        $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'useHomepageImageAsHeader', false, 'bool');
         if (!empty($this->content['journal']['tagline'])) {
             $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'heroTagline', $this->content['journal']['tagline'], 'object');
         }
