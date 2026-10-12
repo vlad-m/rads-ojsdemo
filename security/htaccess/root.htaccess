@@ -26,7 +26,7 @@ ServerSignature Off
 # --- Sensitive files ---------------------------------------------------------
 # Configuration, templates, translations, schemas, scripts, dumps, backups,
 # VCS/editor leftovers and dot-files.
-<FilesMatch "(?i)^(config\.(inc|TEMPLATE\.inc)\.php.*|composer\.(json|lock)|package(-lock)?\.json|phpunit.*|phpdoc.*|cypress.*|vite\.config.*|jsconfig\.json|.*\.(tpl|po|pot|mo|xsd|dtd|lock|md|sh|bash|sql|sql\.gz|log|bak|backup|old|orig|save|swp|swo|dist|yml|yaml|ini|less|neon|phar|tar|tgz|gz|zip|7z|rar)|\..+)$">
+<FilesMatch "(?i)^(config\.(inc|TEMPLATE\.inc)\.php.*|composer\.(json|lock)|installed\.json|package(-lock)?\.json|phpunit.*|phpdoc.*|cypress.*|vite\.config.*|jsconfig\.json|.*\.(tpl|po|pot|mo|xsd|dtd|lock|md|sh|bash|sql|sql\.gz|log|bak|backup|old|orig|save|swp|swo|dist|yml|yaml|ini|less|neon|phar|tar|tgz|gz|zip|7z|rar)|\..+)$">
 	Require all denied
 </FilesMatch>
 <FilesMatch "(?i)^(robots\.txt|favicon\.ico)$">
@@ -48,6 +48,8 @@ ServerSignature Off
 	RewriteRule ^lib/pkp/(classes|controllers|pages|api|dbscripts|locale|registry|schemas|tests|tools|xml|jobs)(/|$) - [F,L,NC]
 	RewriteRule ^plugins/[^/]+/[^/]+/(classes|controllers|pages|locale|schemas|tests|filter|templates|vendor)(/|$) - [F,L,NC]
 	RewriteRule ^files(/|$) - [F,L,NC]
+	# Library metadata (exact versions) and docs; the libraries' JS/CSS stay public
+	RewriteRule ^(lib/pkp/lib/vendor|plugins/[^/]+/[^/]+/(lib/)?vendor)/.*\.(json|lock|md|txt|xml|dist|neon|yml|yaml)$ - [F,L,NC]
 
 	# Only index.php may be executed. Everything else ending in a PHP-like
 	# extension (incl. uploaded web shells) is refused.

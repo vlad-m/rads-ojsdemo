@@ -202,7 +202,10 @@ if [ -n "$URL" ]; then
 	code() { curl -s -o /dev/null -m 15 -w "%{http_code}" "$URL$1" || true; }
 	for p in /config.inc.php /config.TEMPLATE.inc.php /cache/ /classes/core/Request.php /lib/pkp/classes/core/Core.php \
 		/templates/frontend/pages/article.tpl /dbscripts/xml/version.xml /composer.json /lib/pkp/composer.json /.git/config \
-		/tools/upgrade.php /lib/pkp/lib/vendor/autoload.php /plugins/ /public/ /docs/ /registry/ "/index.php?x=../../etc/passwd"; do
+		/tools/upgrade.php /lib/pkp/lib/vendor/autoload.php /plugins/ /public/ /docs/ /registry/ "/index.php?x=../../etc/passwd" \
+		/cypress.config.js /lib/pkp/composer.lock /lib/pkp/lib/vendor/composer/installed.json /registry/userGroups.xml \
+		/.user.ini /.htaccess /config.inc.php.bak /public/journals/ /cache/t_compile/ /lib/pkp/tools/installPluginVersion.php \
+		/plugins/generic/demoMode/DemoModePlugin.php /plugins/themes/academicJournal/templates/frontend/pages/indexJournal.tpl; do
 		c="$(code "$p")"
 		case "$c" in
 			4??) ok "$p → $c" ;;
@@ -214,6 +217,19 @@ if [ -n "$URL" ]; then
 		c="$(code "/$FILES_REL/")"; case "$c" in 403|404) ok "/$FILES_REL/ → $c" ;; *) finding "files_dir is reachable over HTTP (/$FILES_REL/ → $c)" ;; esac
 	fi
 	c="$(code "/")"; case "$c" in 200|301|302|303) ok "home page → $c" ;; *) finding "home page returns HTTP $c" ;; esac
+
+	# The installer must be closed once OJS is installed
+	if curl -s -L --max-redirs 5 -b "" -m 20 "$URL/index.php/index/install" | grep -qiE 'name="adminUsername"|id="installForm"'; then
+		finding "the web installer is reachable (/index.php/index/install)"
+	else
+		ok "web installer is closed"
+	fi
+	# Administration requires a login
+	if curl -s -L --max-redirs 5 -b "" -m 20 "$URL/index.php/index/admin/systemInfo" | grep -qiE 'phpinfo|PHP Version|server information'; then
+		finding "system information is visible without login"
+	else
+		ok "administration pages require a login"
+	fi
 
 	HEADERS="$(curl -s -D - -o /dev/null -m 15 -L --max-redirs 5 -b "" "$URL/" | tr -d '\r' || true)"
 	for h in X-Content-Type-Options X-Frame-Options Referrer-Policy; do
