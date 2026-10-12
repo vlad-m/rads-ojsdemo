@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: mk\n"
+
+msgid "plugins.generic.demoMode.displayName"
+msgstr "Демо режим"
+
+msgid "plugins.generic.demoMode.description"
+msgstr "Демонстрациски режим само за читање: демо сметките можат да ја отворат секоја страница и формулар, но промените никогаш не се зачувуваат. Се контролира од config.inc.php (делот [demo])."
+
+msgid "plugins.generic.demoMode.title"
+msgstr "Демо режим"
+
+msgid "plugins.generic.demoMode.refused"
+msgstr "Ова е демонстрациска инсталација: промените не се зачувуваат. Можете да ја истражите секоја страница и формулар, но зачувувањето, прикачувањето и испраќањето е-пошта се оневозможени."
+
+msgid "plugins.generic.demoMode.back"
+msgstr "Назад"
+
+msgid "plugins.generic.demoMode.banner"
+msgstr "Демо режим — истражувајте слободно, промените не се зачувуваат."
+
+msgid "plugins.generic.demoMode.banner.reset"
+msgstr "Демо податоците се враќаат на секои {$hours} ч."
+
+msgid "plugins.generic.demoMode.banner.superuser"
+msgstr "Демо режимот е вклучен, но сте најавени како суперкорисник: вашите промени СЕ ЗАЧУВУВААТ."
+
+msgid "plugins.generic.demoMode.login.title"
+msgstr "Демо сметки"
+
+msgid "plugins.generic.demoMode.login.hint"
+msgstr "Изберете улога за најава. Лозинка за сите сметки:"
+
+msgid "plugins.generic.demoMode.account.admin"
+msgstr "Администратор"
+
+msgid "plugins.generic.demoMode.account.editor"
+msgstr "Уредник"
+
+msgid "plugins.generic.demoMode.account.reviewer"
+msgstr "Рецензент"
+
+msgid "plugins.generic.demoMode.account.author"
+msgstr "Автор"

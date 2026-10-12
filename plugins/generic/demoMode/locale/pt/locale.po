@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: pt\n"
+
+msgid "plugins.generic.demoMode.displayName"
+msgstr "Modo de demonstração"
+
+msgid "plugins.generic.demoMode.description"
+msgstr "Modo de demonstração só de leitura: as contas de demonstração podem abrir todas as páginas e formulários, mas as alterações nunca são guardadas. Controlado a partir de config.inc.php (secção [demo])."
+
+msgid "plugins.generic.demoMode.title"
+msgstr "Modo de demonstração"
+
+msgid "plugins.generic.demoMode.refused"
+msgstr "Esta é uma instalação de demonstração: as alterações não são guardadas. Pode explorar todas as páginas e formulários, mas guardar, carregar ficheiros e enviar e-mails estão desativados."
+
+msgid "plugins.generic.demoMode.back"
+msgstr "Voltar"
+
+msgid "plugins.generic.demoMode.banner"
+msgstr "Modo de demonstração — explore à vontade, as alterações não são guardadas."
+
+msgid "plugins.generic.demoMode.banner.reset"
+msgstr "Os dados de demonstração são repostos a cada {$hours} h."
+
+msgid "plugins.generic.demoMode.banner.superuser"
+msgstr "O modo de demonstração está ativo, mas tem sessão iniciada como superutilizador: as suas alterações SÃO guardadas."
+
+msgid "plugins.generic.demoMode.login.title"
+msgstr "Contas de demonstração"
+
+msgid "plugins.generic.demoMode.login.hint"
+msgstr "Escolha uma função para iniciar sessão. Palavra-passe de todas as contas:"
+
+msgid "plugins.generic.demoMode.account.admin"
+msgstr "Administrador"
+
+msgid "plugins.generic.demoMode.account.editor"
+msgstr "Editor"
+
+msgid "plugins.generic.demoMode.account.reviewer"
+msgstr "Revisor"
+
+msgid "plugins.generic.demoMode.account.author"
+msgstr "Autor"

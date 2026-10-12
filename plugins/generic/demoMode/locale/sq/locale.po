@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: sq\n"
+
+msgid "plugins.generic.demoMode.displayName"
+msgstr "Modaliteti demo"
+
+msgid "plugins.generic.demoMode.description"
+msgstr "Modalitet demonstrimi vetëm për lexim: llogaritë demo mund të hapin çdo faqe dhe formular, por ndryshimet nuk ruhen kurrë. Kontrollohet nga config.inc.php (seksioni [demo])."
+
+msgid "plugins.generic.demoMode.title"
+msgstr "Modaliteti demo"
+
+msgid "plugins.generic.demoMode.refused"
+msgstr "Ky është një instalim demonstrues: ndryshimet nuk ruhen. Mund të eksploroni çdo faqe dhe formular, por ruajtja, ngarkimi dhe dërgimi i e-mail-eve janë çaktivizuar."
+
+msgid "plugins.generic.demoMode.back"
+msgstr "Kthehu"
+
+msgid "plugins.generic.demoMode.banner"
+msgstr "Modaliteti demo — eksploroni lirshëm, ndryshimet nuk ruhen."
+
+msgid "plugins.generic.demoMode.banner.reset"
+msgstr "Të dhënat demo rikthehen çdo {$hours} orë."
+
+msgid "plugins.generic.demoMode.banner.superuser"
+msgstr "Modaliteti demo është aktiv, por jeni identifikuar si superpërdorues: ndryshimet tuaja RUHEN."
+
+msgid "plugins.generic.demoMode.login.title"
+msgstr "Llogari demo"
+
+msgid "plugins.generic.demoMode.login.hint"
+msgstr "Zgjidhni një rol për t'u identifikuar. Fjalëkalimi për të gjitha llogaritë:"
+
+msgid "plugins.generic.demoMode.account.admin"
+msgstr "Administrator"
+
+msgid "plugins.generic.demoMode.account.editor"
+msgstr "Redaktor"
+
+msgid "plugins.generic.demoMode.account.reviewer"
+msgstr "Recensues"
+
+msgid "plugins.generic.demoMode.account.author"
+msgstr "Autor"

@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: sr_Cyrl\n"
+
+msgid "plugins.themes.academicJournal.name"
+msgstr "Тема Академски часопис"
+
+msgid "plugins.themes.academicJournal.description"
+msgstr "Класична, типографска тема за научне часописе: наслови са серифима, почетна страница часописа са изјавом о мисији, статистиком и најновијим бројем, и богато подножје."
+
+msgid "plugins.themes.academicJournal.option.primaryColour.label"
+msgstr "Основна боја"
+
+msgid "plugins.themes.academicJournal.option.primaryColour.description"
+msgstr "Користи се за заглавље, подножје и наслове. Изаберите тамну боју."
+
+msgid "plugins.themes.academicJournal.option.accentColour.label"
+msgstr "Боја нагласка"
+
+msgid "plugins.themes.academicJournal.option.accentColour.description"
+msgstr "Користи се за линкове, дугмад и истакнуте елементе."
+
+msgid "plugins.themes.academicJournal.option.showHero.label"
+msgstr "Увод на почетној страници"
+
+msgid "plugins.themes.academicJournal.option.showHero.option"
+msgstr "Прикажи уводни блок са мисијом часописа и позивима на акцију"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.label"
+msgstr "Слоган почетне странице"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.description"
+msgstr "Кратка изјава о мисији приказана у уводу почетне странице. Ако је празно, користи се почетак сажетка часописа."
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.label"
+msgstr "Статистика часописа"
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.option"
+msgstr "Прикажи укупан број бројева, чланака и аутора на почетној страници"
+
+msgid "plugins.themes.academicJournal.issnOnline"
+msgstr "ISSN (онлајн)"
+
+msgid "plugins.themes.academicJournal.issnPrint"
+msgstr "ISSN (штампано)"
+
+msgid "plugins.themes.academicJournal.openAccess"
+msgstr "Отворени приступ"
+
+msgid "plugins.themes.academicJournal.publisher"
+msgstr "Издавач"
+
+msgid "plugins.themes.academicJournal.forReaders"
+msgstr "За читаоце"
+
+msgid "plugins.themes.academicJournal.forAuthors"
+msgstr "За ауторе"
+
+msgid "plugins.themes.academicJournal.license"
+msgstr "Лиценца"
+
+msgid "plugins.themes.academicJournal.licenseText"
+msgstr "Сви чланци се објављују у отвореном приступу под лиценцом Creative Commons Ауторство 4.0 Међународна."
+
+msgid "plugins.themes.academicJournal.kicker"
+msgstr "Рецензирани часопис у отвореном приступу"
+
+msgid "plugins.themes.academicJournal.submitManuscript"
+msgstr "Пошаљите рукопис"
+
+msgid "plugins.themes.academicJournal.readCurrentIssue"
+msgstr "Читајте најновији број"
+
+msgid "plugins.themes.academicJournal.aboutJournal"
+msgstr "О часопису"
+
+msgid "plugins.themes.academicJournal.stats.issues"
+msgstr "објављених бројева"
+
+msgid "plugins.themes.academicJournal.stats.articles"
+msgstr "рецензираних чланака"
+
+msgid "plugins.themes.academicJournal.stats.authors"
+msgstr "аутора"
+
+msgid "plugins.themes.academicJournal.stats.peerReview"
+msgstr "рецензија"
+
+msgid "plugins.themes.academicJournal.stats.peerReviewValue"
+msgstr "Двострука слепа"
+
+msgid "plugins.themes.academicJournal.editorialBoard"
+msgstr "Уређивачки одбор"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.label"
+msgstr "Боја истицања"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.description"
+msgstr "Танке линије, прстен печата, надназив у уводу и подвлачење активне навигације."
+
+msgid "plugins.themes.academicJournal.option.headingFont.label"
+msgstr "Фонт наслова"
+
+msgid "plugins.themes.academicJournal.option.headingFont.serif"
+msgstr "Серифни (Source Serif) — класичан академски"
+
+msgid "plugins.themes.academicJournal.option.headingFont.sans"
+msgstr "Геометријски бесерифни (Montserrat) — модеран"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.label"
+msgstr "Положај логотипа"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.description"
+msgstr "Где се приказује логотип отпремљен у Сајт > Изглед."
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.beside"
+msgstr "Поред назива часописа (назив остаје видљив)"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.replace"
+msgstr "Уместо назива часописа"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.label"
+msgstr "Надназив почетне странице"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.description"
+msgstr "Ред малим верзалом изнад назива часописа у уводу почетне странице. Подразумевано: \"Рецензирани часопис у отвореном приступу\"."
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.label"
+msgstr "Дугме навигације: текст"
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.description"
+msgstr "Истакнуто дугме у главној навигацији (нпр. линк ка вашим услугама). Оставите празно да бисте га сакрили."
+
+msgid "plugins.themes.academicJournal.option.ctaUrl.label"
+msgstr "Дугме навигације: линк (https://…)"
+
+# Missing in the default theme translation of OJS 3.5
+msgid "plugins.themes.default.nextSlide"
+msgstr "Следећи слајд"
+
+msgid "plugins.themes.default.prevSlide"
+msgstr "Претходни слајд"

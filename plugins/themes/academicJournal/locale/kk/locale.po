@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: kk\n"
+
+msgid "plugins.themes.academicJournal.name"
+msgstr "Академиялық журнал тақырыбы"
+
+msgid "plugins.themes.academicJournal.description"
+msgstr "Ғылыми журналдарға арналған классикалық типографиялық тақырып: серифті тақырыптар, журнал миссиясы, статистикасы және ағымдағы басылымы көрсетілген басты бет, сондай-ақ мазмұнды төменгі бөлік."
+
+msgid "plugins.themes.academicJournal.option.primaryColour.label"
+msgstr "Негізгі түс"
+
+msgid "plugins.themes.academicJournal.option.primaryColour.description"
+msgstr "Жоғарғы бөлікте, төменгі бөлікте және тақырыптарда қолданылады. Қою түсті таңдаңыз."
+
+msgid "plugins.themes.academicJournal.option.accentColour.label"
+msgstr "Екпін түсі"
+
+msgid "plugins.themes.academicJournal.option.accentColour.description"
+msgstr "Сілтемелерде, түймелерде және ерекшеленген элементтерде қолданылады."
+
+msgid "plugins.themes.academicJournal.option.showHero.label"
+msgstr "Басты беттегі кіріспе"
+
+msgid "plugins.themes.academicJournal.option.showHero.option"
+msgstr "Журнал миссиясы мен әрекетке шақырулары бар кіріспе блогын көрсету"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.label"
+msgstr "Басты беттегі ұран"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.description"
+msgstr "Басты беттегі кіріспеде көрсетілетін қысқа миссия мәлімдемесі. Бос болса, журнал сипаттамасының басы қолданылады."
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.label"
+msgstr "Журнал статистикасы"
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.option"
+msgstr "Басты бетте басылымдар, мақалалар және авторлар санын көрсету"
+
+msgid "plugins.themes.academicJournal.issnOnline"
+msgstr "ISSN (онлайн)"
+
+msgid "plugins.themes.academicJournal.issnPrint"
+msgstr "ISSN (баспа)"
+
+msgid "plugins.themes.academicJournal.openAccess"
+msgstr "Ашық қолжетімділік"
+
+msgid "plugins.themes.academicJournal.publisher"
+msgstr "Баспагер"
+
+msgid "plugins.themes.academicJournal.forReaders"
+msgstr "Оқырмандарға"
+
+msgid "plugins.themes.academicJournal.forAuthors"
+msgstr "Авторларға"
+
+msgid "plugins.themes.academicJournal.license"
+msgstr "Лицензия"
+
+msgid "plugins.themes.academicJournal.licenseText"
+msgstr "Барлық мақалалар Creative Commons Атрибуция 4.0 Халықаралық лицензиясы бойынша ашық қолжетімділікте жарияланады."
+
+msgid "plugins.themes.academicJournal.kicker"
+msgstr "Рецензияланатын ашық қолжетімді журнал"
+
+msgid "plugins.themes.academicJournal.submitManuscript"
+msgstr "Қолжазба жіберу"
+
+msgid "plugins.themes.academicJournal.readCurrentIssue"
+msgstr "Ағымдағы басылымды оқу"
+
+msgid "plugins.themes.academicJournal.aboutJournal"
+msgstr "Журнал туралы"
+
+msgid "plugins.themes.academicJournal.stats.issues"
+msgstr "жарияланған басылым"
+
+msgid "plugins.themes.academicJournal.stats.articles"
+msgstr "рецензияланған мақала"
+
+msgid "plugins.themes.academicJournal.stats.authors"
+msgstr "автор"
+
+msgid "plugins.themes.academicJournal.stats.peerReview"
+msgstr "рецензиялау"
+
+msgid "plugins.themes.academicJournal.stats.peerReviewValue"
+msgstr "Екі жақты жасырын"
+
+msgid "plugins.themes.academicJournal.editorialBoard"
+msgstr "Редакциялық алқа"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.label"
+msgstr "Ерекшелеу түсі"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.description"
+msgstr "Жіңішке сызықтар, мөр сақинасы, кіріспедегі үстіңгі жол және белсенді навигацияның асты сызылуы."
+
+msgid "plugins.themes.academicJournal.option.headingFont.label"
+msgstr "Тақырыптар қаріпі"
+
+msgid "plugins.themes.academicJournal.option.headingFont.serif"
+msgstr "Серифті (Source Serif) — классикалық академиялық"
+
+msgid "plugins.themes.academicJournal.option.headingFont.sans"
+msgstr "Геометриялық серифсіз (Montserrat) — заманауи"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.label"
+msgstr "Логотип орны"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.description"
+msgstr "Веб-сайт > Сыртқы түрі бөлімінде жүктелген логотиптің көрсетілетін орны."
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.beside"
+msgstr "Журнал атауының жанында (атау көрініп тұрады)"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.replace"
+msgstr "Журнал атауының орнына"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.label"
+msgstr "Басты беттегі үстіңгі жол"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.description"
+msgstr "Басты беттегі кіріспеде журнал атауының үстінде кіші бас әріптермен жазылған жол. Әдепкі: \"Рецензияланатын ашық қолжетімді журнал\"."
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.label"
+msgstr "Навигация түймесі: мәтін"
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.description"
+msgstr "Негізгі навигациядағы ерекшеленген түйме (мысалы, қызметтеріңізге сілтеме). Жасыру үшін бос қалдырыңыз."
+
+msgid "plugins.themes.academicJournal.option.ctaUrl.label"
+msgstr "Навигация түймесі: сілтеме (https://…)"
+
+# Missing in the default theme translation of OJS 3.5
+msgid "plugins.themes.default.nextSlide"
+msgstr "Келесі слайд"
+
+msgid "plugins.themes.default.prevSlide"
+msgstr "Алдыңғы слайд"

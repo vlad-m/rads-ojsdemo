@@ -2,3 +2,6 @@
 node_modules/
 __pycache__/
 .DS_Store
+
+# generated on the server by scripts/lib/build-locale-fallback.php
+plugins/generic/ruLocaleCompletion/fallback/

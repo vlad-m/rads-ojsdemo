@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: el\n"
+
+msgid "plugins.themes.academicJournal.name"
+msgstr "Θέμα Ακαδημαϊκού Περιοδικού"
+
+msgid "plugins.themes.academicJournal.description"
+msgstr "Ένα κλασικό, τυπογραφικό θέμα για επιστημονικά περιοδικά: επικεφαλίδες με πατούρες (serif), αρχική σελίδα περιοδικού με δήλωση αποστολής, στατιστικά και τρέχον τεύχος, και πλούσιο υποσέλιδο."
+
+msgid "plugins.themes.academicJournal.option.primaryColour.label"
+msgstr "Κύριο χρώμα"
+
+msgid "plugins.themes.academicJournal.option.primaryColour.description"
+msgstr "Χρησιμοποιείται για την κεφαλίδα, το υποσέλιδο και τις επικεφαλίδες. Επιλέξτε ένα σκούρο χρώμα."
+
+msgid "plugins.themes.academicJournal.option.accentColour.label"
+msgstr "Χρώμα έμφασης"
+
+msgid "plugins.themes.academicJournal.option.accentColour.description"
+msgstr "Χρησιμοποιείται για συνδέσμους, κουμπιά και επισημάνσεις."
+
+msgid "plugins.themes.academicJournal.option.showHero.label"
+msgstr "Εισαγωγή αρχικής σελίδας"
+
+msgid "plugins.themes.academicJournal.option.showHero.option"
+msgstr "Εμφάνιση του εισαγωγικού μπλοκ με την αποστολή του περιοδικού και τις προσκλήσεις για δράση"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.label"
+msgstr "Σύνθημα αρχικής σελίδας"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.description"
+msgstr "Σύντομη δήλωση αποστολής που εμφανίζεται στην εισαγωγή της αρχικής σελίδας. Αν μείνει κενό, χρησιμοποιείται η αρχή της περίληψης του περιοδικού."
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.label"
+msgstr "Στατιστικά περιοδικού"
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.option"
+msgstr "Εμφάνιση του αριθμού τευχών, άρθρων και συγγραφέων στην αρχική σελίδα"
+
+msgid "plugins.themes.academicJournal.issnOnline"
+msgstr "ISSN (ηλεκτρονικό)"
+
+msgid "plugins.themes.academicJournal.issnPrint"
+msgstr "ISSN (έντυπο)"
+
+msgid "plugins.themes.academicJournal.openAccess"
+msgstr "Ανοικτή πρόσβαση"
+
+msgid "plugins.themes.academicJournal.publisher"
+msgstr "Εκδότης"
+
+msgid "plugins.themes.academicJournal.forReaders"
+msgstr "Για αναγνώστες"
+
+msgid "plugins.themes.academicJournal.forAuthors"
+msgstr "Για συγγραφείς"
+
+msgid "plugins.themes.academicJournal.license"
+msgstr "Άδεια χρήσης"
+
+msgid "plugins.themes.academicJournal.licenseText"
+msgstr "Όλα τα άρθρα δημοσιεύονται με ανοικτή πρόσβαση υπό την άδεια Creative Commons Αναφορά Δημιουργού 4.0 Διεθνές."
+
+msgid "plugins.themes.academicJournal.kicker"
+msgstr "Περιοδικό ανοικτής πρόσβασης με αξιολόγηση από ομότιμους"
+
+msgid "plugins.themes.academicJournal.submitManuscript"
+msgstr "Υποβολή χειρογράφου"
+
+msgid "plugins.themes.academicJournal.readCurrentIssue"
+msgstr "Διαβάστε το τρέχον τεύχος"
+
+msgid "plugins.themes.academicJournal.aboutJournal"
+msgstr "Σχετικά με το περιοδικό"
+
+msgid "plugins.themes.academicJournal.stats.issues"
+msgstr "δημοσιευμένα τεύχη"
+
+msgid "plugins.themes.academicJournal.stats.articles"
+msgstr "άρθρα με αξιολόγηση από ομότιμους"
+
+msgid "plugins.themes.academicJournal.stats.authors"
+msgstr "συγγραφείς"
+
+msgid "plugins.themes.academicJournal.stats.peerReview"
+msgstr "αξιολόγηση από ομότιμους"
+
+msgid "plugins.themes.academicJournal.stats.peerReviewValue"
+msgstr "Διπλά τυφλή"
+
+msgid "plugins.themes.academicJournal.editorialBoard"
+msgstr "Συντακτική επιτροπή"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.label"
+msgstr "Χρώμα επισήμανσης"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.description"
+msgstr "Λεπτές γραμμές, ο δακτύλιος της σφραγίδας, ο υπέρτιτλος της εισαγωγής και η υπογράμμιση της ενεργής πλοήγησης."
+
+msgid "plugins.themes.academicJournal.option.headingFont.label"
+msgstr "Γραμματοσειρά επικεφαλίδων"
+
+msgid "plugins.themes.academicJournal.option.headingFont.serif"
+msgstr "Με πατούρες (Source Serif) — κλασική ακαδημαϊκή"
+
+msgid "plugins.themes.academicJournal.option.headingFont.sans"
+msgstr "Γεωμετρική χωρίς πατούρες (Montserrat) — σύγχρονη"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.label"
+msgstr "Θέση λογότυπου"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.description"
+msgstr "Πού εμφανίζεται το λογότυπο που μεταφορτώθηκε στο Δικτυακός τόπος > Εμφάνιση."
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.beside"
+msgstr "Δίπλα στον τίτλο του περιοδικού (ο τίτλος παραμένει ορατός)"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.replace"
+msgstr "Στη θέση του τίτλου του περιοδικού"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.label"
+msgstr "Υπέρτιτλος αρχικής σελίδας"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.description"
+msgstr "Γραμμή με μικρά κεφαλαία πάνω από τον τίτλο του περιοδικού στην εισαγωγή της αρχικής σελίδας. Προεπιλογή: \"Περιοδικό ανοικτής πρόσβασης με αξιολόγηση από ομότιμους\"."
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.label"
+msgstr "Κουμπί πλοήγησης: ετικέτα"
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.description"
+msgstr "Επισημασμένο κουμπί στην κύρια πλοήγηση (π.χ. σύνδεσμος προς τις υπηρεσίες σας). Αφήστε το κενό για να αποκρυφτεί."
+
+msgid "plugins.themes.academicJournal.option.ctaUrl.label"
+msgstr "Κουμπί πλοήγησης: σύνδεσμος (https://…)"
+
+# Missing in the default theme translation of OJS 3.5
+msgid "plugins.themes.default.nextSlide"
+msgstr "Επόμενη διαφάνεια"
+
+msgid "plugins.themes.default.prevSlide"
+msgstr "Προηγούμενη διαφάνεια"

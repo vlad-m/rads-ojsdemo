@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: el\n"
+
+msgid "plugins.generic.demoMode.displayName"
+msgstr "Λειτουργία επίδειξης"
+
+msgid "plugins.generic.demoMode.description"
+msgstr "Λειτουργία επίδειξης μόνο για ανάγνωση: οι λογαριασμοί επίδειξης μπορούν να ανοίξουν κάθε σελίδα και φόρμα, αλλά οι αλλαγές δεν αποθηκεύονται ποτέ. Ρυθμίζεται από το config.inc.php (ενότητα [demo])."
+
+msgid "plugins.generic.demoMode.title"
+msgstr "Λειτουργία επίδειξης"
+
+msgid "plugins.generic.demoMode.refused"
+msgstr "Αυτή είναι μια εγκατάσταση επίδειξης: οι αλλαγές δεν αποθηκεύονται. Μπορείτε να εξερευνήσετε κάθε σελίδα και φόρμα, αλλά η αποθήκευση, η μεταφόρτωση αρχείων και η αποστολή e-mail είναι απενεργοποιημένες."
+
+msgid "plugins.generic.demoMode.back"
+msgstr "Πίσω"
+
+msgid "plugins.generic.demoMode.banner"
+msgstr "Λειτουργία επίδειξης — εξερευνήστε ελεύθερα, οι αλλαγές δεν αποθηκεύονται."
+
+msgid "plugins.generic.demoMode.banner.reset"
+msgstr "Τα δεδομένα επίδειξης επαναφέρονται κάθε {$hours} ώρες."
+
+msgid "plugins.generic.demoMode.banner.superuser"
+msgstr "Η λειτουργία επίδειξης είναι ενεργή, αλλά έχετε συνδεθεί ως υπερχρήστης: οι αλλαγές σας ΑΠΟΘΗΚΕΥΟΝΤΑΙ."
+
+msgid "plugins.generic.demoMode.login.title"
+msgstr "Λογαριασμοί επίδειξης"
+
+msgid "plugins.generic.demoMode.login.hint"
+msgstr "Επιλέξτε ρόλο για να συνδεθείτε. Κωδικός πρόσβασης για όλους τους λογαριασμούς:"
+
+msgid "plugins.generic.demoMode.account.admin"
+msgstr "Διαχειριστής"
+
+msgid "plugins.generic.demoMode.account.editor"
+msgstr "Επιμελητής"
+
+msgid "plugins.generic.demoMode.account.reviewer"
+msgstr "Αξιολογητής"
+
+msgid "plugins.generic.demoMode.account.author"
+msgstr "Συγγραφέας"

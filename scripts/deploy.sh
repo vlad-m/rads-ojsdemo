@@ -64,6 +64,12 @@ for plugin in themes/academicJournal generic/demoMode generic/ruLocaleCompletion
 	ok "$plugin"
 done
 
+step "Translations"
+# Interface languages: journal.json uiLocales (installed by --seed)
+LOCALES="$("$PHP" -r '$j = json_decode(file_get_contents($argv[1]), true); echo implode(" ", $j["journal"]["uiLocales"] ?? ["ru", "en"]);' "$REPO_DIR/seed/content/journal.json")"
+# shellcheck disable=SC2086
+"$PHP" "$REPO_DIR/scripts/lib/build-locale-fallback.php" "$OJS_DIR" "$OJS_DIR/plugins/generic/ruLocaleCompletion/fallback" $LOCALES
+
 if [ "$DEMO" = 1 ]; then
 	step "Demo mode (config.inc.php)"
 	# Keep the superuser chosen on a previous run

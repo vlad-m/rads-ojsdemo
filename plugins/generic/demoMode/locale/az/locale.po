@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: az\n"
+
+msgid "plugins.generic.demoMode.displayName"
+msgstr "Demo rejimi"
+
+msgid "plugins.generic.demoMode.description"
+msgstr "Yalnız oxumaq üçün nümayiş rejimi: demo hesablar bütün səhifələri və formaları aça bilər, lakin dəyişikliklər heç vaxt yadda saxlanılmır. config.inc.php faylından ([demo] bölməsi) idarə olunur."
+
+msgid "plugins.generic.demoMode.title"
+msgstr "Demo rejimi"
+
+msgid "plugins.generic.demoMode.refused"
+msgstr "Bu, nümayiş quraşdırmasıdır: dəyişikliklər yadda saxlanılmır. Bütün səhifələri və formaları nəzərdən keçirə bilərsiniz, lakin yadda saxlama, fayl yükləmə və e-poçt göndərmə deaktiv edilib."
+
+msgid "plugins.generic.demoMode.back"
+msgstr "Geri"
+
+msgid "plugins.generic.demoMode.banner"
+msgstr "Demo rejimi — sərbəst araşdırın, dəyişikliklər yadda saxlanılmır."
+
+msgid "plugins.generic.demoMode.banner.reset"
+msgstr "Demo məlumatları hər {$hours} saatdan bir bərpa olunur."
+
+msgid "plugins.generic.demoMode.banner.superuser"
+msgstr "Demo rejimi aktivdir, lakin siz superistifadəçi kimi daxil olmusunuz: dəyişiklikləriniz YADDA SAXLANILIR."
+
+msgid "plugins.generic.demoMode.login.title"
+msgstr "Demo hesablar"
+
+msgid "plugins.generic.demoMode.login.hint"
+msgstr "Daxil olmaq üçün rol seçin. Bütün hesablar üçün şifrə:"
+
+msgid "plugins.generic.demoMode.account.admin"
+msgstr "İdarəçi"
+
+msgid "plugins.generic.demoMode.account.editor"
+msgstr "Redaktor"
+
+msgid "plugins.generic.demoMode.account.reviewer"
+msgstr "Rəyçi"
+
+msgid "plugins.generic.demoMode.account.author"
+msgstr "Müəllif"

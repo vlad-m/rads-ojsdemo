@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: fr\n"
+
+msgid "plugins.generic.demoMode.displayName"
+msgstr "Mode démo"
+
+msgid "plugins.generic.demoMode.description"
+msgstr "Mode de démonstration en lecture seule : les comptes de démonstration peuvent ouvrir toutes les pages et tous les formulaires, mais les modifications ne sont jamais enregistrées. Configuré dans config.inc.php (section [demo])."
+
+msgid "plugins.generic.demoMode.title"
+msgstr "Mode démo"
+
+msgid "plugins.generic.demoMode.refused"
+msgstr "Ceci est une installation de démonstration : les modifications ne sont pas enregistrées. Vous pouvez explorer toutes les pages et tous les formulaires, mais l'enregistrement, le téléversement de fichiers et l'envoi de courriels sont désactivés."
+
+msgid "plugins.generic.demoMode.back"
+msgstr "Retour"
+
+msgid "plugins.generic.demoMode.banner"
+msgstr "Mode démo — explorez librement, les modifications ne sont pas enregistrées."
+
+msgid "plugins.generic.demoMode.banner.reset"
+msgstr "Les données de démonstration sont restaurées toutes les {$hours} h."
+
+msgid "plugins.generic.demoMode.banner.superuser"
+msgstr "Le mode démo est activé, mais vous êtes connecté en tant que superutilisateur : vos modifications SONT enregistrées."
+
+msgid "plugins.generic.demoMode.login.title"
+msgstr "Comptes de démonstration"
+
+msgid "plugins.generic.demoMode.login.hint"
+msgstr "Choisissez un rôle pour vous connecter. Mot de passe de tous les comptes :"
+
+msgid "plugins.generic.demoMode.account.admin"
+msgstr "Administrateur"
+
+msgid "plugins.generic.demoMode.account.editor"
+msgstr "Rédacteur"
+
+msgid "plugins.generic.demoMode.account.reviewer"
+msgstr "Évaluateur"
+
+msgid "plugins.generic.demoMode.account.author"
+msgstr "Auteur"

@@ -4,7 +4,7 @@ msgstr ""
 "Language: en\n"
 
 msgid "plugins.generic.ruLocaleCompletion.displayName"
-msgstr "Russian translation completion"
+msgstr "Translation completion"
 
 msgid "plugins.generic.ruLocaleCompletion.description"
-msgstr "Adds Russian translations for interface strings missing from the official OJS 3.5 Russian locale."
+msgstr "Fills gaps in the OJS translations: Russian strings are translated, missing strings of other interface languages are shown in English instead of ##key##."

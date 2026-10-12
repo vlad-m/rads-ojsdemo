@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: uz_Latn\n"
+
+msgid "plugins.themes.academicJournal.name"
+msgstr "Akademik jurnal mavzusi"
+
+msgid "plugins.themes.academicJournal.description"
+msgstr "Ilmiy jurnallar uchun klassik, tipografik mavzu: serifli sarlavhalar, jurnal missiyasi, statistikasi va joriy soni aks etgan bosh sahifa hamda boy pastki qism."
+
+msgid "plugins.themes.academicJournal.option.primaryColour.label"
+msgstr "Asosiy rang"
+
+msgid "plugins.themes.academicJournal.option.primaryColour.description"
+msgstr "Yuqori qism, pastki qism va sarlavhalar uchun ishlatiladi. To'q rangni tanlang."
+
+msgid "plugins.themes.academicJournal.option.accentColour.label"
+msgstr "Urg'u rangi"
+
+msgid "plugins.themes.academicJournal.option.accentColour.description"
+msgstr "Havolalar, tugmalar va ajratib ko'rsatilgan elementlar uchun ishlatiladi."
+
+msgid "plugins.themes.academicJournal.option.showHero.label"
+msgstr "Bosh sahifa kirish qismi"
+
+msgid "plugins.themes.academicJournal.option.showHero.option"
+msgstr "Jurnal missiyasi va harakatga chorlovlar bilan kirish blokini ko'rsatish"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.label"
+msgstr "Bosh sahifa shiori"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.description"
+msgstr "Bosh sahifaning kirish qismida ko'rsatiladigan qisqa missiya bayonoti. Bo'sh bo'lsa, jurnal tavsifining boshlanishi ishlatiladi."
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.label"
+msgstr "Jurnal statistikasi"
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.option"
+msgstr "Bosh sahifada sonlar, maqolalar va mualliflar sonini ko'rsatish"
+
+msgid "plugins.themes.academicJournal.issnOnline"
+msgstr "ISSN (onlayn)"
+
+msgid "plugins.themes.academicJournal.issnPrint"
+msgstr "ISSN (bosma)"
+
+msgid "plugins.themes.academicJournal.openAccess"
+msgstr "Ochiq kirish"
+
+msgid "plugins.themes.academicJournal.publisher"
+msgstr "Nashriyot"
+
+msgid "plugins.themes.academicJournal.forReaders"
+msgstr "O'quvchilar uchun"
+
+msgid "plugins.themes.academicJournal.forAuthors"
+msgstr "Mualliflar uchun"
+
+msgid "plugins.themes.academicJournal.license"
+msgstr "Litsenziya"
+
+msgid "plugins.themes.academicJournal.licenseText"
+msgstr "Barcha maqolalar Creative Commons Attribution 4.0 International litsenziyasi asosida ochiq kirishda nashr etiladi."
+
+msgid "plugins.themes.academicJournal.kicker"
+msgstr "Taqrizlanadigan ochiq kirishli jurnal"
+
+msgid "plugins.themes.academicJournal.submitManuscript"
+msgstr "Qo'lyozma yuborish"
+
+msgid "plugins.themes.academicJournal.readCurrentIssue"
+msgstr "Joriy sonni o'qish"
+
+msgid "plugins.themes.academicJournal.aboutJournal"
+msgstr "Jurnal haqida"
+
+msgid "plugins.themes.academicJournal.stats.issues"
+msgstr "nashr etilgan son"
+
+msgid "plugins.themes.academicJournal.stats.articles"
+msgstr "taqrizdan o'tgan maqola"
+
+msgid "plugins.themes.academicJournal.stats.authors"
+msgstr "muallif"
+
+msgid "plugins.themes.academicJournal.stats.peerReview"
+msgstr "taqriz"
+
+msgid "plugins.themes.academicJournal.stats.peerReviewValue"
+msgstr "Ikki tomonlama yashirin"
+
+msgid "plugins.themes.academicJournal.editorialBoard"
+msgstr "Tahririyat hay'ati"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.label"
+msgstr "Ajratish rangi"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.description"
+msgstr "Ingichka chiziqlar, muhr halqasi, kirish qismidagi ustki satr va faol navigatsiya tagidagi chiziq."
+
+msgid "plugins.themes.academicJournal.option.headingFont.label"
+msgstr "Sarlavha shrifti"
+
+msgid "plugins.themes.academicJournal.option.headingFont.serif"
+msgstr "Serifli (Source Serif) — klassik akademik"
+
+msgid "plugins.themes.academicJournal.option.headingFont.sans"
+msgstr "Geometrik serifsiz (Montserrat) — zamonaviy"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.label"
+msgstr "Logotip joylashuvi"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.description"
+msgstr "Veb-sayt > Tashqi ko'rinish bo'limida yuklangan logotip qayerda ko'rsatilishi."
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.beside"
+msgstr "Jurnal nomi yonida (nom ko'rinib turadi)"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.replace"
+msgstr "Jurnal nomi o'rniga"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.label"
+msgstr "Bosh sahifa ustki satri"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.description"
+msgstr "Bosh sahifaning kirish qismida jurnal nomi ustidagi kichik bosh harflar bilan yozilgan satr. Standart: \"Taqrizlanadigan ochiq kirishli jurnal\"."
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.label"
+msgstr "Navigatsiya tugmasi: matn"
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.description"
+msgstr "Asosiy navigatsiyadagi ajratib ko'rsatilgan tugma (masalan, xizmatlaringizga havola). Yashirish uchun bo'sh qoldiring."
+
+msgid "plugins.themes.academicJournal.option.ctaUrl.label"
+msgstr "Navigatsiya tugmasi: havola (https://…)"
+
+# Missing in the default theme translation of OJS 3.5
+msgid "plugins.themes.default.nextSlide"
+msgstr "Keyingi slayd"
+
+msgid "plugins.themes.default.prevSlide"
+msgstr "Oldingi slayd"

@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: zh_Hans\n"
+
+msgid "plugins.generic.demoMode.displayName"
+msgstr "演示模式"
+
+msgid "plugins.generic.demoMode.description"
+msgstr "只读演示模式：演示账户可以打开所有页面和表单，但更改永远不会被保存。通过 config.inc.php（[demo] 部分）进行控制。"
+
+msgid "plugins.generic.demoMode.title"
+msgstr "演示模式"
+
+msgid "plugins.generic.demoMode.refused"
+msgstr "这是一个演示站点：更改不会被保存。您可以浏览所有页面和表单，但保存、上传和发送电子邮件功能已被禁用。"
+
+msgid "plugins.generic.demoMode.back"
+msgstr "返回"
+
+msgid "plugins.generic.demoMode.banner"
+msgstr "演示模式 — 可随意浏览，更改不会被保存。"
+
+msgid "plugins.generic.demoMode.banner.reset"
+msgstr "演示数据每 {$hours} 小时恢复一次。"
+
+msgid "plugins.generic.demoMode.banner.superuser"
+msgstr "演示模式已开启，但您以超级用户身份登录：您的更改确实会被保存。"
+
+msgid "plugins.generic.demoMode.login.title"
+msgstr "演示账户"
+
+msgid "plugins.generic.demoMode.login.hint"
+msgstr "选择一个角色登录。所有账户的密码："
+
+msgid "plugins.generic.demoMode.account.admin"
+msgstr "管理员"
+
+msgid "plugins.generic.demoMode.account.editor"
+msgstr "编辑"
+
+msgid "plugins.generic.demoMode.account.reviewer"
+msgstr "审稿人"
+
+msgid "plugins.generic.demoMode.account.author"
+msgstr "作者"

@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: uz_Latn\n"
+
+msgid "plugins.generic.demoMode.displayName"
+msgstr "Demo rejimi"
+
+msgid "plugins.generic.demoMode.description"
+msgstr "Faqat o'qish uchun namoyish rejimi: demo hisoblar barcha sahifa va shakllarni ochishi mumkin, ammo o'zgarishlar hech qachon saqlanmaydi. config.inc.php faylidan ([demo] bo'limi) boshqariladi."
+
+msgid "plugins.generic.demoMode.title"
+msgstr "Demo rejimi"
+
+msgid "plugins.generic.demoMode.refused"
+msgstr "Bu namoyish o'rnatmasi: o'zgarishlar saqlanmaydi. Barcha sahifa va shakllarni ko'rib chiqishingiz mumkin, ammo saqlash, fayl yuklash va elektron xat yuborish o'chirilgan."
+
+msgid "plugins.generic.demoMode.back"
+msgstr "Orqaga"
+
+msgid "plugins.generic.demoMode.banner"
+msgstr "Demo rejimi — bemalol tanishing, o'zgarishlar saqlanmaydi."
+
+msgid "plugins.generic.demoMode.banner.reset"
+msgstr "Demo ma'lumotlar har {$hours} soatda tiklanadi."
+
+msgid "plugins.generic.demoMode.banner.superuser"
+msgstr "Demo rejimi yoqilgan, lekin siz superfoydalanuvchi sifatida kirgansiz: o'zgarishlaringiz SAQLANADI."
+
+msgid "plugins.generic.demoMode.login.title"
+msgstr "Demo hisoblar"
+
+msgid "plugins.generic.demoMode.login.hint"
+msgstr "Kirish uchun rolni tanlang. Barcha hisoblar uchun parol:"
+
+msgid "plugins.generic.demoMode.account.admin"
+msgstr "Administrator"
+
+msgid "plugins.generic.demoMode.account.editor"
+msgstr "Muharrir"
+
+msgid "plugins.generic.demoMode.account.reviewer"
+msgstr "Taqrizchi"
+
+msgid "plugins.generic.demoMode.account.author"
+msgstr "Muallif"

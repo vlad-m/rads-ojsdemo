@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: pt\n"
+
+msgid "plugins.themes.academicJournal.name"
+msgstr "Tema Revista Académica"
+
+msgid "plugins.themes.academicJournal.description"
+msgstr "Um tema clássico e tipográfico para revistas científicas: títulos com serifa, página inicial da revista com declaração de missão, estatísticas e edição atual, e um rodapé completo."
+
+msgid "plugins.themes.academicJournal.option.primaryColour.label"
+msgstr "Cor principal"
+
+msgid "plugins.themes.academicJournal.option.primaryColour.description"
+msgstr "Utilizada no cabeçalho, no rodapé e nos títulos. Escolha uma cor escura."
+
+msgid "plugins.themes.academicJournal.option.accentColour.label"
+msgstr "Cor de destaque"
+
+msgid "plugins.themes.academicJournal.option.accentColour.description"
+msgstr "Utilizada em ligações, botões e elementos destacados."
+
+msgid "plugins.themes.academicJournal.option.showHero.label"
+msgstr "Introdução da página inicial"
+
+msgid "plugins.themes.academicJournal.option.showHero.option"
+msgstr "Mostrar o bloco de introdução com a missão da revista e os apelos à ação"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.label"
+msgstr "Lema da página inicial"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.description"
+msgstr "Breve declaração de missão apresentada na introdução da página inicial. Se estiver vazio, é utilizado o início do resumo da revista."
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.label"
+msgstr "Estatísticas da revista"
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.option"
+msgstr "Mostrar o número de edições, artigos e autores na página inicial"
+
+msgid "plugins.themes.academicJournal.issnOnline"
+msgstr "ISSN (eletrónico)"
+
+msgid "plugins.themes.academicJournal.issnPrint"
+msgstr "ISSN (impresso)"
+
+msgid "plugins.themes.academicJournal.openAccess"
+msgstr "Acesso aberto"
+
+msgid "plugins.themes.academicJournal.publisher"
+msgstr "Editora"
+
+msgid "plugins.themes.academicJournal.forReaders"
+msgstr "Para leitores"
+
+msgid "plugins.themes.academicJournal.forAuthors"
+msgstr "Para autores"
+
+msgid "plugins.themes.academicJournal.license"
+msgstr "Licença"
+
+msgid "plugins.themes.academicJournal.licenseText"
+msgstr "Todos os artigos são publicados em acesso aberto ao abrigo da licença Creative Commons Atribuição 4.0 Internacional."
+
+msgid "plugins.themes.academicJournal.kicker"
+msgstr "Revista de acesso aberto com revisão por pares"
+
+msgid "plugins.themes.academicJournal.submitManuscript"
+msgstr "Submeter um manuscrito"
+
+msgid "plugins.themes.academicJournal.readCurrentIssue"
+msgstr "Ler a edição atual"
+
+msgid "plugins.themes.academicJournal.aboutJournal"
+msgstr "Sobre a revista"
+
+msgid "plugins.themes.academicJournal.stats.issues"
+msgstr "edições publicadas"
+
+msgid "plugins.themes.academicJournal.stats.articles"
+msgstr "artigos revistos por pares"
+
+msgid "plugins.themes.academicJournal.stats.authors"
+msgstr "autores"
+
+msgid "plugins.themes.academicJournal.stats.peerReview"
+msgstr "revisão por pares"
+
+msgid "plugins.themes.academicJournal.stats.peerReviewValue"
+msgstr "Duplamente cega"
+
+msgid "plugins.themes.academicJournal.editorialBoard"
+msgstr "Conselho editorial"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.label"
+msgstr "Cor de realce"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.description"
+msgstr "Filetes finos, o anel do selo, o antetítulo da introdução e o sublinhado da navegação ativa."
+
+msgid "plugins.themes.academicJournal.option.headingFont.label"
+msgstr "Tipo de letra dos títulos"
+
+msgid "plugins.themes.academicJournal.option.headingFont.serif"
+msgstr "Com serifa (Source Serif) — académico clássico"
+
+msgid "plugins.themes.academicJournal.option.headingFont.sans"
+msgstr "Sem serifa geométrico (Montserrat) — moderno"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.label"
+msgstr "Posição do logótipo"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.description"
+msgstr "Onde é apresentado o logótipo carregado em Website > Aparência."
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.beside"
+msgstr "Ao lado do título da revista (o título continua visível)"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.replace"
+msgstr "Em vez do título da revista"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.label"
+msgstr "Antetítulo da página inicial"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.description"
+msgstr "Linha em versaletes acima do título da revista na introdução da página inicial. Predefinição: \"Revista de acesso aberto com revisão por pares\"."
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.label"
+msgstr "Botão de navegação: texto"
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.description"
+msgstr "Botão destacado na navegação principal (por exemplo, uma ligação para os seus serviços). Deixe vazio para o ocultar."
+
+msgid "plugins.themes.academicJournal.option.ctaUrl.label"
+msgstr "Botão de navegação: ligação (https://…)"

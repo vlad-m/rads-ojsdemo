@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: it\n"
+
+msgid "plugins.generic.demoMode.displayName"
+msgstr "Modalità demo"
+
+msgid "plugins.generic.demoMode.description"
+msgstr "Modalità dimostrativa in sola lettura: gli account demo possono aprire ogni pagina e modulo, ma le modifiche non vengono mai salvate. Controllata da config.inc.php (sezione [demo])."
+
+msgid "plugins.generic.demoMode.title"
+msgstr "Modalità demo"
+
+msgid "plugins.generic.demoMode.refused"
+msgstr "Questa è un'installazione dimostrativa: le modifiche non vengono salvate. Puoi esplorare ogni pagina e modulo, ma il salvataggio, il caricamento di file e l'invio di e-mail sono disabilitati."
+
+msgid "plugins.generic.demoMode.back"
+msgstr "Indietro"
+
+msgid "plugins.generic.demoMode.banner"
+msgstr "Modalità demo — esplora liberamente, le modifiche non vengono salvate."
+
+msgid "plugins.generic.demoMode.banner.reset"
+msgstr "I dati demo vengono ripristinati ogni {$hours} h."
+
+msgid "plugins.generic.demoMode.banner.superuser"
+msgstr "La modalità demo è attiva, ma hai effettuato l'accesso come superutente: le tue modifiche VENGONO salvate."
+
+msgid "plugins.generic.demoMode.login.title"
+msgstr "Account demo"
+
+msgid "plugins.generic.demoMode.login.hint"
+msgstr "Scegli un ruolo per accedere. Password per tutti gli account:"
+
+msgid "plugins.generic.demoMode.account.admin"
+msgstr "Amministratore"
+
+msgid "plugins.generic.demoMode.account.editor"
+msgstr "Editor"
+
+msgid "plugins.generic.demoMode.account.reviewer"
+msgstr "Revisore"
+
+msgid "plugins.generic.demoMode.account.author"
+msgstr "Autore"

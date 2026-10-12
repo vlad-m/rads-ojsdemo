@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: sq\n"
+
+msgid "plugins.themes.academicJournal.name"
+msgstr "Tema Revistë Akademike"
+
+msgid "plugins.themes.academicJournal.description"
+msgstr "Një temë klasike, tipografike për revista shkencore: tituj me serifë, faqe kryesore e revistës me deklaratën e misionit, statistika dhe numrin aktual, si dhe një fund faqeje të pasur."
+
+msgid "plugins.themes.academicJournal.option.primaryColour.label"
+msgstr "Ngjyra kryesore"
+
+msgid "plugins.themes.academicJournal.option.primaryColour.description"
+msgstr "Përdoret për kokën e faqes, fundin e faqes dhe titujt. Zgjidhni një ngjyrë të errët."
+
+msgid "plugins.themes.academicJournal.option.accentColour.label"
+msgstr "Ngjyra theksuese"
+
+msgid "plugins.themes.academicJournal.option.accentColour.description"
+msgstr "Përdoret për lidhjet, butonat dhe elementet e theksuara."
+
+msgid "plugins.themes.academicJournal.option.showHero.label"
+msgstr "Hyrja e faqes kryesore"
+
+msgid "plugins.themes.academicJournal.option.showHero.option"
+msgstr "Shfaq bllokun hyrës me misionin e revistës dhe thirrjet për veprim"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.label"
+msgstr "Slogani i faqes kryesore"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.description"
+msgstr "Deklaratë e shkurtër e misionit që shfaqet në hyrjen e faqes kryesore. Nëse lihet bosh, përdoret fillimi i përmbledhjes së revistës."
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.label"
+msgstr "Statistikat e revistës"
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.option"
+msgstr "Shfaq sa numra, artikuj dhe autorë ka revista në faqen kryesore"
+
+msgid "plugins.themes.academicJournal.issnOnline"
+msgstr "ISSN (elektronik)"
+
+msgid "plugins.themes.academicJournal.issnPrint"
+msgstr "ISSN (i shtypur)"
+
+msgid "plugins.themes.academicJournal.openAccess"
+msgstr "Qasje e hapur"
+
+msgid "plugins.themes.academicJournal.publisher"
+msgstr "Botuesi"
+
+msgid "plugins.themes.academicJournal.forReaders"
+msgstr "Për lexuesit"
+
+msgid "plugins.themes.academicJournal.forAuthors"
+msgstr "Për autorët"
+
+msgid "plugins.themes.academicJournal.license"
+msgstr "Licenca"
+
+msgid "plugins.themes.academicJournal.licenseText"
+msgstr "Të gjithë artikujt botohen me qasje të hapur sipas licencës Creative Commons Attribution 4.0 International."
+
+msgid "plugins.themes.academicJournal.kicker"
+msgstr "Revistë me qasje të hapur dhe rishikim nga kolegët"
+
+msgid "plugins.themes.academicJournal.submitManuscript"
+msgstr "Dërgoni një dorëshkrim"
+
+msgid "plugins.themes.academicJournal.readCurrentIssue"
+msgstr "Lexoni numrin aktual"
+
+msgid "plugins.themes.academicJournal.aboutJournal"
+msgstr "Rreth revistës"
+
+msgid "plugins.themes.academicJournal.stats.issues"
+msgstr "numra të botuar"
+
+msgid "plugins.themes.academicJournal.stats.articles"
+msgstr "artikuj të rishikuar nga kolegët"
+
+msgid "plugins.themes.academicJournal.stats.authors"
+msgstr "autorë"
+
+msgid "plugins.themes.academicJournal.stats.peerReview"
+msgstr "rishikim nga kolegët"
+
+msgid "plugins.themes.academicJournal.stats.peerReviewValue"
+msgstr "Dyfish i verbër"
+
+msgid "plugins.themes.academicJournal.editorialBoard"
+msgstr "Bordi editorial"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.label"
+msgstr "Ngjyra e theksimit"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.description"
+msgstr "Vijat e holla, unaza e vulës, mbititulli i hyrjes dhe nënvizimi i navigimit aktiv."
+
+msgid "plugins.themes.academicJournal.option.headingFont.label"
+msgstr "Shkronjat e titujve"
+
+msgid "plugins.themes.academicJournal.option.headingFont.serif"
+msgstr "Me serifë (Source Serif) — akademike klasike"
+
+msgid "plugins.themes.academicJournal.option.headingFont.sans"
+msgstr "Pa serifë, gjeometrike (Montserrat) — moderne"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.label"
+msgstr "Vendndodhja e logos"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.description"
+msgstr "Ku shfaqet logoja e ngarkuar te Uebfaqja > Pamja."
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.beside"
+msgstr "Pranë titullit të revistës (titulli mbetet i dukshëm)"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.replace"
+msgstr "Në vend të titullit të revistës"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.label"
+msgstr "Mbititulli i faqes kryesore"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.description"
+msgstr "Rresht me shkronja të vogla kapitale mbi titullin e revistës në hyrjen e faqes kryesore. Parazgjedhje: \"Revistë me qasje të hapur dhe rishikim nga kolegët\"."
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.label"
+msgstr "Butoni i navigimit: teksti"
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.description"
+msgstr "Buton i theksuar në navigimin kryesor (p.sh. një lidhje te shërbimet tuaja). Lëreni bosh për ta fshehur."
+
+msgid "plugins.themes.academicJournal.option.ctaUrl.label"
+msgstr "Butoni i navigimit: lidhja (https://…)"
+
+# Missing in the default theme translation of OJS 3.5
+msgid "plugins.themes.default.nextSlide"
+msgstr "Slajdi tjetër"
+
+msgid "plugins.themes.default.prevSlide"
+msgstr "Slajdi i mëparshëm"

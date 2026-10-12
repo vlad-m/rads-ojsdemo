@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: az\n"
+
+msgid "plugins.themes.academicJournal.name"
+msgstr "Akademik Jurnal teması"
+
+msgid "plugins.themes.academicJournal.description"
+msgstr "Elmi jurnallar üçün klassik, tipoqrafik tema: serifli başlıqlar, jurnalın missiyası, statistikası və son nömrəsi olan ana səhifə, həmçinin zəngin alt hissə."
+
+msgid "plugins.themes.academicJournal.option.primaryColour.label"
+msgstr "Əsas rəng"
+
+msgid "plugins.themes.academicJournal.option.primaryColour.description"
+msgstr "Yuxarı hissə, alt hissə və başlıqlar üçün istifadə olunur. Tünd rəng seçin."
+
+msgid "plugins.themes.academicJournal.option.accentColour.label"
+msgstr "Vurğu rəngi"
+
+msgid "plugins.themes.academicJournal.option.accentColour.description"
+msgstr "Keçidlər, düymələr və vurğulanan elementlər üçün istifadə olunur."
+
+msgid "plugins.themes.academicJournal.option.showHero.label"
+msgstr "Ana səhifə girişi"
+
+msgid "plugins.themes.academicJournal.option.showHero.option"
+msgstr "Jurnalın missiyası və fəaliyyətə çağırışlar olan giriş blokunu göstər"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.label"
+msgstr "Ana səhifə şüarı"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.description"
+msgstr "Ana səhifə girişində göstərilən qısa missiya bəyanatı. Boş qalarsa, jurnal xülasəsinin əvvəli istifadə olunur."
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.label"
+msgstr "Jurnal statistikası"
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.option"
+msgstr "Ana səhifədə nömrələrin, məqalələrin və müəlliflərin sayını göstər"
+
+msgid "plugins.themes.academicJournal.issnOnline"
+msgstr "ISSN (onlayn)"
+
+msgid "plugins.themes.academicJournal.issnPrint"
+msgstr "ISSN (çap)"
+
+msgid "plugins.themes.academicJournal.openAccess"
+msgstr "Açıq giriş"
+
+msgid "plugins.themes.academicJournal.publisher"
+msgstr "Naşir"
+
+msgid "plugins.themes.academicJournal.forReaders"
+msgstr "Oxucular üçün"
+
+msgid "plugins.themes.academicJournal.forAuthors"
+msgstr "Müəlliflər üçün"
+
+msgid "plugins.themes.academicJournal.license"
+msgstr "Lisenziya"
+
+msgid "plugins.themes.academicJournal.licenseText"
+msgstr "Bütün məqalələr Creative Commons Attribution 4.0 International lisenziyası əsasında açıq girişdə dərc olunur."
+
+msgid "plugins.themes.academicJournal.kicker"
+msgstr "Resenziyalı açıq girişli jurnal"
+
+msgid "plugins.themes.academicJournal.submitManuscript"
+msgstr "Əlyazma göndər"
+
+msgid "plugins.themes.academicJournal.readCurrentIssue"
+msgstr "Son nömrəni oxu"
+
+msgid "plugins.themes.academicJournal.aboutJournal"
+msgstr "Jurnal haqqında"
+
+msgid "plugins.themes.academicJournal.stats.issues"
+msgstr "dərc olunmuş nömrə"
+
+msgid "plugins.themes.academicJournal.stats.articles"
+msgstr "resenziyalı məqalə"
+
+msgid "plugins.themes.academicJournal.stats.authors"
+msgstr "müəllif"
+
+msgid "plugins.themes.academicJournal.stats.peerReview"
+msgstr "resenziyalama"
+
+msgid "plugins.themes.academicJournal.stats.peerReviewValue"
+msgstr "İkitərəfli anonim"
+
+msgid "plugins.themes.academicJournal.editorialBoard"
+msgstr "Redaksiya heyəti"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.label"
+msgstr "Vurğulama rəngi"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.description"
+msgstr "Nazik xətlər, möhür halqası, girişdəki üst sətir və aktiv naviqasiyanın alt xətti."
+
+msgid "plugins.themes.academicJournal.option.headingFont.label"
+msgstr "Başlıq şrifti"
+
+msgid "plugins.themes.academicJournal.option.headingFont.serif"
+msgstr "Serifli (Source Serif) — klassik akademik"
+
+msgid "plugins.themes.academicJournal.option.headingFont.sans"
+msgstr "Həndəsi serifsiz (Montserrat) — müasir"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.label"
+msgstr "Loqonun yeri"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.description"
+msgstr "Veb sayt > Görünüş bölməsində yüklənmiş loqonun göstərildiyi yer."
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.beside"
+msgstr "Jurnal adının yanında (ad görünür qalır)"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.replace"
+msgstr "Jurnal adının əvəzinə"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.label"
+msgstr "Ana səhifənin üst sətri"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.description"
+msgstr "Ana səhifə girişində jurnal adının üstündə kiçik baş hərflərlə yazılmış sətir. Standart: \"Resenziyalı açıq girişli jurnal\"."
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.label"
+msgstr "Naviqasiya düyməsi: mətn"
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.description"
+msgstr "Əsas naviqasiyada vurğulanmış düymə (məs., xidmətlərinizə keçid). Gizlətmək üçün boş buraxın."
+
+msgid "plugins.themes.academicJournal.option.ctaUrl.label"
+msgstr "Naviqasiya düyməsi: keçid (https://…)"
+
+# Missing in the default theme translation of OJS 3.5
+msgid "plugins.themes.default.nextSlide"
+msgstr "Növbəti slayd"
+
+msgid "plugins.themes.default.prevSlide"
+msgstr "Əvvəlki slayd"

@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: zh_Hans\n"
+
+msgid "plugins.themes.academicJournal.name"
+msgstr "学术期刊主题"
+
+msgid "plugins.themes.academicJournal.description"
+msgstr "适用于学术期刊的经典排版主题：衬线标题、包含办刊宗旨、统计数据和最新一期的期刊首页，以及内容丰富的页脚。"
+
+msgid "plugins.themes.academicJournal.option.primaryColour.label"
+msgstr "主色"
+
+msgid "plugins.themes.academicJournal.option.primaryColour.description"
+msgstr "用于页眉、页脚和标题。请选择深色。"
+
+msgid "plugins.themes.academicJournal.option.accentColour.label"
+msgstr "强调色"
+
+msgid "plugins.themes.academicJournal.option.accentColour.description"
+msgstr "用于链接、按钮和突出显示的元素。"
+
+msgid "plugins.themes.academicJournal.option.showHero.label"
+msgstr "首页简介"
+
+msgid "plugins.themes.academicJournal.option.showHero.option"
+msgstr "显示包含期刊宗旨和行动号召的简介区块"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.label"
+msgstr "首页标语"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.description"
+msgstr "在首页简介中显示的简短办刊宗旨。若留空，则使用期刊简介的开头部分。"
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.label"
+msgstr "期刊统计"
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.option"
+msgstr "在首页显示期次、文章和作者的数量"
+
+msgid "plugins.themes.academicJournal.issnOnline"
+msgstr "ISSN（在线版）"
+
+msgid "plugins.themes.academicJournal.issnPrint"
+msgstr "ISSN（印刷版）"
+
+msgid "plugins.themes.academicJournal.openAccess"
+msgstr "开放获取"
+
+msgid "plugins.themes.academicJournal.publisher"
+msgstr "出版社"
+
+msgid "plugins.themes.academicJournal.forReaders"
+msgstr "面向读者"
+
+msgid "plugins.themes.academicJournal.forAuthors"
+msgstr "面向作者"
+
+msgid "plugins.themes.academicJournal.license"
+msgstr "许可协议"
+
+msgid "plugins.themes.academicJournal.licenseText"
+msgstr "所有文章均以开放获取方式发表，采用 Creative Commons 署名 4.0 国际许可协议。"
+
+msgid "plugins.themes.academicJournal.kicker"
+msgstr "同行评审开放获取期刊"
+
+msgid "plugins.themes.academicJournal.submitManuscript"
+msgstr "提交稿件"
+
+msgid "plugins.themes.academicJournal.readCurrentIssue"
+msgstr "阅读最新一期"
+
+msgid "plugins.themes.academicJournal.aboutJournal"
+msgstr "关于期刊"
+
+msgid "plugins.themes.academicJournal.stats.issues"
+msgstr "已出版期次"
+
+msgid "plugins.themes.academicJournal.stats.articles"
+msgstr "同行评审文章"
+
+msgid "plugins.themes.academicJournal.stats.authors"
+msgstr "作者"
+
+msgid "plugins.themes.academicJournal.stats.peerReview"
+msgstr "同行评审"
+
+msgid "plugins.themes.academicJournal.stats.peerReviewValue"
+msgstr "双盲"
+
+msgid "plugins.themes.academicJournal.editorialBoard"
+msgstr "编委会"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.label"
+msgstr "高亮色"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.description"
+msgstr "细线、印章圆环、首页简介的引题以及当前导航项的下划线。"
+
+msgid "plugins.themes.academicJournal.option.headingFont.label"
+msgstr "标题字体"
+
+msgid "plugins.themes.academicJournal.option.headingFont.serif"
+msgstr "衬线体（Source Serif）— 经典学术"
+
+msgid "plugins.themes.academicJournal.option.headingFont.sans"
+msgstr "几何无衬线体（Montserrat）— 现代"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.label"
+msgstr "标志位置"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.description"
+msgstr "在“网站 > 外观”中上传的标志的显示位置。"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.beside"
+msgstr "期刊标题旁（标题保持可见）"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.replace"
+msgstr "替代期刊标题"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.label"
+msgstr "首页引题"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.description"
+msgstr "首页简介中期刊标题上方的小型大写字母行。默认值：\"同行评审开放获取期刊\"。"
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.label"
+msgstr "导航按钮：文字"
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.description"
+msgstr "主导航中突出显示的按钮（例如指向您服务页面的链接）。留空则隐藏。"
+
+msgid "plugins.themes.academicJournal.option.ctaUrl.label"
+msgstr "导航按钮：链接（https://…）"

@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ky\n"
+
+msgid "plugins.generic.demoMode.displayName"
+msgstr "Демо режими"
+
+msgid "plugins.generic.demoMode.description"
+msgstr "Окуу үчүн гана демонстрациялык режим: демо аккаунттар бардык барактарды жана формаларды ача алат, бирок өзгөртүүлөр эч качан сакталбайт. config.inc.php файлынан ([demo] бөлүмү) башкарылат."
+
+msgid "plugins.generic.demoMode.title"
+msgstr "Демо режими"
+
+msgid "plugins.generic.demoMode.refused"
+msgstr "Бул демонстрациялык орнотуу: өзгөртүүлөр сакталбайт. Бардык барактарды жана формаларды карап чыгууга болот, бирок сактоо, файл жүктөө жана электрондук кат жөнөтүү өчүрүлгөн."
+
+msgid "plugins.generic.demoMode.back"
+msgstr "Артка"
+
+msgid "plugins.generic.demoMode.banner"
+msgstr "Демо режими — эркин карап чыгыңыз, өзгөртүүлөр сакталбайт."
+
+msgid "plugins.generic.demoMode.banner.reset"
+msgstr "Демо маалыматтар ар бир {$hours} саатта калыбына келтирилет."
+
+msgid "plugins.generic.demoMode.banner.superuser"
+msgstr "Демо режими күйгүзүлгөн, бирок сиз суперколдонуучу катары кирдиңиз: өзгөртүүлөрүңүз САКТАЛАТ."
+
+msgid "plugins.generic.demoMode.login.title"
+msgstr "Демо аккаунттар"
+
+msgid "plugins.generic.demoMode.login.hint"
+msgstr "Кирүү үчүн ролду тандаңыз. Бардык аккаунттар үчүн сырсөз:"
+
+msgid "plugins.generic.demoMode.account.admin"
+msgstr "Администратор"
+
+msgid "plugins.generic.demoMode.account.editor"
+msgstr "Редактор"
+
+msgid "plugins.generic.demoMode.account.reviewer"
+msgstr "Рецензент"
+
+msgid "plugins.generic.demoMode.account.author"
+msgstr "Автор"
