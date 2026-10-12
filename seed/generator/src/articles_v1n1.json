@@ -1,0 +1,248 @@
+[
+  {
+    "slug": "v1n1-01-urban-heat",
+    "section": "ART",
+    "locale": "ru",
+    "title": {"ru": "Городские острова тепла в средних городах: анализ спутниковых данных Landsat за 2000–2023 гг.", "en": "Urban Heat Islands in Medium-Sized Cities: An Analysis of Landsat Data for 2000–2023"},
+    "abstract": {
+      "ru": "<p>Исследования городских островов тепла традиционно сосредоточены на крупнейших агломерациях, тогда как средние города, в которых проживает значительная часть населения, остаются изученными слабо. Цель работы — оценить интенсивность и динамику поверхностного острова тепла в двенадцати условных городах с населением от 100 до 500 тыс. человек в умеренном климатическом поясе. По сценам Landsat 5, 7 и 8 за летние месяцы 2000–2023 гг. восстановлена температура подстилающей поверхности; для каждого города рассчитана разница между застроенной территорией и пригородным буферным поясом. Дополнительно использованы индекс растительности NDVI, доля непроницаемых покрытий и плотность застройки по открытым картографическим данным. Средняя интенсивность острова тепла составила 3,4 °C в дневные часы, а за исследуемый период она выросла в среднем на 0,9 °C. Наибольший вклад в изменение интенсивности вносит сокращение площади зелёных насаждений в периферийных районах новой жилой застройки; связь с численностью населения оказалась слабой. Регрессионная модель со смешанными эффектами объясняет 71 % межгородской и межгодовой вариации. Полученные результаты показывают, что средние города не менее уязвимы к перегреву, чем крупные, и что градостроительные решения в зонах новой застройки являются ключевым инструментом адаптации. Предложенная методика может быть воспроизведена для любого города с использованием открытых данных.</p>",
+      "en": "<p>Research on urban heat islands has traditionally focused on the largest metropolitan areas, while medium-sized cities, home to a substantial share of the population, remain poorly studied. This study assesses the intensity and dynamics of the surface urban heat island in twelve anonymised cities with populations of 100,000 to 500,000 in the temperate climate zone. Land surface temperature was retrieved from Landsat 5, 7 and 8 scenes for the summer months of 2000–2023, and for each city the difference between the built-up area and a suburban buffer zone was calculated. The normalised difference vegetation index (NDVI), the share of impervious surfaces and building density derived from open map data were used as covariates. The mean daytime heat island intensity was 3.4 °C, and over the study period it increased by 0.9 °C on average. The largest contribution to this change comes from the loss of green space in peripheral areas of new residential development, whereas the association with population size proved weak. A mixed-effects regression model explains 71% of the between-city and between-year variation. The results show that medium-sized cities are no less vulnerable to overheating than large ones and that planning decisions in new development zones are a key adaptation tool. The proposed method can be reproduced for any city using open data.</p>"
+    },
+    "keywords": {"ru": ["городской остров тепла", "дистанционное зондирование", "Landsat", "температура поверхности", "зелёная инфраструктура", "средние города"], "en": ["urban heat island", "remote sensing", "Landsat", "land surface temperature", "green infrastructure", "medium-sized cities"]},
+    "authors": [
+      {"givenName": {"ru": "Елена", "en": "Elena"}, "familyName": {"ru": "Соколовская", "en": "Sokolovskaya"}, "email": "e.sokolovskaya@example.org", "affiliation": {"ru": "Новоборский государственный университет", "en": "Novobor State University"}, "country": "RU", "primaryContact": true},
+      {"givenName": {"ru": "Артём", "en": "Artyom"}, "familyName": {"ru": "Мельников", "en": "Melnikov"}, "email": "a.melnikov@example.org", "affiliation": {"ru": "Высшая школа урбанистики «Полис»", "en": "Polis Graduate School of Urban Studies"}, "country": "RU", "primaryContact": false},
+      {"givenName": {"ru": "Светлана", "en": "Svetlana"}, "familyName": {"ru": "Ким", "en": "Kim"}, "email": "s.kim@example.org", "affiliation": {"ru": "Новоборский государственный университет", "en": "Novobor State University"}, "country": "RU", "primaryContact": false}
+    ],
+    "dateSubmitted": "2024-10-14",
+    "dateAccepted": "2025-01-28",
+    "fundingAgency": {"ru": "Фонд поддержки междисциплинарных исследований «Горизонт»", "en": "Horizon Foundation for Interdisciplinary Research"},
+    "citations": [
+      "Oke T. R. The energetic basis of the urban heat island // Quarterly Journal of the Royal Meteorological Society. 1982. Vol. 108, no. 455. P. 1–24.",
+      "Voogt J. A., Oke T. R. Thermal remote sensing of urban climates // Remote Sensing of Environment. 2003. Vol. 86, no. 3. P. 370–384.",
+      "Соколовская Е. В. Пространственные закономерности теплового режима малых и средних городов // Вопросы пространственного анализа. 2021. Т. 9, № 2. С. 34–51.",
+      "Мельников А. С., Ким С. Ю. Открытые картографические данные как источник показателей плотности застройки // Геоинформатика и общество. 2022. № 4. С. 18–29.",
+      "Harding P., Lindqvist M. Surface heat islands beyond the megacity: evidence from European mid-sized towns // Urban Climate Letters. 2020. Vol. 7. P. 112–127.",
+      "Орехова Т. Н. Методы восстановления температуры подстилающей поверхности по данным теплового канала. М.: Академия, 2019. 212 с.",
+      "Chen Y., Moreau L. Vegetation loss and the intensification of surface heat islands in suburban fringes // Journal of Applied Urban Ecology. 2021. Vol. 15, no. 3. P. 201–219.",
+      "Соколовская Е. В., Брагин И. А. Зелёная инфраструктура и адаптация городов к экстремальной жаре: обзор практик // Вестник Новоборского университета. Серия: Науки о Земле. 2023. Т. 11, № 1. С. 5–22."
+    ],
+    "body": {
+      "intro": [
+        "Городской остров тепла — превышение температуры воздуха и подстилающей поверхности в городе над окружающей сельской местностью — является одним из наиболее изученных проявлений антропогенной трансформации климата. Классические работы связывают это явление с изменением теплового баланса: замена растительности непроницаемыми покрытиями снижает испарение, геометрия застройки уменьшает ночное излучение, а антропогенные источники добавляют тепло в приземный слой.",
+        "Подавляющее большинство эмпирических оценок, однако, получено для городов-миллионников. Средние города с населением 100–500 тыс. человек часто рассматриваются как «слишком маленькие» для формирования выраженного острова тепла, хотя именно в них в последние два десятилетия наблюдается активное строительство на периферии. Настоящая работа восполняет этот пробел: мы оцениваем интенсивность поверхностного острова тепла в двенадцати средних городах и выявляем факторы её изменения за 2000–2023 гг."
+      ],
+      "methods": [
+        "Исследование охватывает двенадцать городов умеренного пояса, обозначенных в статье кодами Г1–Г12. Для каждого города по архиву Landsat отобраны безоблачные сцены за июнь–август (в среднем 4,6 сцены на город в год, всего 1 318 сцен). Температура подстилающей поверхности восстановлена по тепловому каналу с коррекцией излучательной способности на основе NDVI.",
+        "Интенсивность острова тепла (ИОТ) определялась как разница медианной температуры застроенной территории и пригородного буферного кольца шириной 5 км за вычетом водных объектов. В качестве объясняющих переменных использованы средний NDVI, доля непроницаемых покрытий, плотность застройки и численность населения. Связь оценивалась регрессионной моделью со смешанными эффектами со случайным свободным членом для города и фиксированным эффектом года."
+      ],
+      "results": [
+        "Средняя дневная ИОТ по всей выборке составила 3,4 ± 0,8 °C. Минимальные значения характерны для городов с развитой долинной сетью и сохранившимися лесопарками (2,1–2,6 °C), максимальные — для городов степной зоны с плотной панельной застройкой (4,5–4,9 °C). На рис. 1 показана динамика средней интенсивности по пятилетним периодам.",
+        "В регрессионной модели (табл. 1) наибольший по величине эффект имеет NDVI: снижение индекса на 0,1 связано с ростом ИОТ на 0,62 °C. Доля непроницаемых покрытий значима, но её эффект в значительной мере опосредован растительностью. Численность населения после учёта морфологических показателей статистически незначима."
+      ],
+      "figure": {"kind": "line", "caption": "Рис. 1. Средняя дневная интенсивность поверхностного острова тепла по пятилетним периодам, °C", "x": ["2000–04", "2005–09", "2010–14", "2015–19", "2020–23"], "ylabel": "ИОТ, °C", "series": [{"name": "Все города", "values": [2.9, 3.1, 3.3, 3.6, 3.8]}, {"name": "Степная зона", "values": [3.8, 4.0, 4.3, 4.6, 4.8]}, {"name": "Лесная зона", "values": [2.3, 2.4, 2.5, 2.7, 2.9]}]},
+      "table": {"caption": "Таблица 1. Оценки модели со смешанными эффектами (зависимая переменная — ИОТ, °C)", "head": ["Переменная", "Коэффициент", "Ст. ошибка", "p"], "rows": [["NDVI (на 0,1)", "−0,62", "0,09", "<0,001"], ["Непроницаемые покрытия (на 10 %)", "0,31", "0,11", "0,006"], ["Плотность застройки (на 1 тыс. м²/га)", "0,18", "0,07", "0,012"], ["Население (log)", "0,07", "0,15", "0,640"], ["Условный R²", "0,71", "—", "—"]]},
+      "discussion": [
+        "Полученные оценки интенсивности сопоставимы с опубликованными для европейских городов сходного размера и лишь на 1–1,5 °C ниже значений для крупнейших агломераций. Это ставит под сомнение распространённое представление о незначительности теплового риска в средних городах.",
+        "Важнейший результат работы — ведущая роль растительности на периферии. Новые жилые кварталы, построенные после 2010 г. на месте сельскохозяйственных земель и пустырей, характеризуются минимальным озеленением, и именно здесь рост температуры поверхности наиболее заметен. Ограничением исследования является использование только дневных сцен: ночной остров тепла, наиболее значимый для здоровья, требует иных источников данных."
+      ],
+      "conclusion": [
+        "Средние города формируют выраженные поверхностные острова тепла, интенсивность которых растёт. Сохранение и создание зелёных насаждений в районах новой застройки является наиболее эффективным рычагом адаптации. Предложенный открытый алгоритм может использоваться муниципалитетами для мониторинга."
+      ]
+    }
+  },
+  {
+    "slug": "v1n1-02-air-quality-sensors",
+    "section": "ART",
+    "locale": "ru",
+    "title": {"ru": "Калибровка недорогих датчиков PM2.5 методами машинного обучения в условиях резко континентального климата", "en": "Machine-Learning Calibration of Low-Cost PM2.5 Sensors in a Sharply Continental Climate"},
+    "abstract": {
+      "ru": "<p>Недорогие оптические датчики мелкодисперсных частиц позволяют существенно увеличить плотность сети мониторинга качества воздуха, однако их показания сильно зависят от влажности и температуры и систематически отклоняются от референтных измерений. В работе сравниваются методы калибровки таких датчиков в условиях резко континентального климата с большой годовой амплитудой температур. В течение 14 месяцев восемь датчиков были размещены рядом с референтной станцией гравиметрического типа; собрано более 76 тыс. часовых наблюдений. Сопоставлены линейная регрессия, множественная регрессия с поправкой на относительную влажность, случайный лес и градиентный бустинг. Качество оценивалось с помощью блочной кросс-валидации по неделям, исключающей утечку информации между обучающей и тестовой выборками. Без калибровки средняя абсолютная ошибка составила 11,8 мкг/м³, после линейной коррекции — 6,4 мкг/м³, а градиентный бустинг снизил её до 3,1 мкг/м³. Наиболее важными признаками оказались относительная влажность, температура и показания соседних датчиков. Модели, обученные только на летних данных, плохо переносились на зимний период, что подчёркивает необходимость круглогодичной калибровки. Сделан вывод о том, что недорогие датчики после калибровки методами машинного обучения пригодны для оценки суточной динамики загрязнения и выявления локальных источников. Код и обезличенные данные открыты для повторного использования.</p>",
+      "en": "<p>Low-cost optical sensors of fine particulate matter can substantially increase the density of air-quality monitoring networks, but their readings depend strongly on humidity and temperature and deviate systematically from reference measurements. This study compares calibration methods for such sensors in a sharply continental climate with a large annual temperature range. For 14 months, eight sensors were co-located with a gravimetric reference station, yielding more than 76,000 hourly observations. Linear regression, multiple regression with a relative-humidity correction, random forest and gradient boosting were compared. Performance was assessed with weekly blocked cross-validation that prevents information leakage between training and test samples. Without calibration, the mean absolute error was 11.8 µg/m³; after linear correction it fell to 6.4 µg/m³, and gradient boosting reduced it to 3.1 µg/m³. The most important features were relative humidity, temperature and the readings of neighbouring sensors. Models trained on summer data alone transferred poorly to the winter period, underlining the need for year-round calibration. We conclude that, once calibrated with machine-learning methods, low-cost sensors are suitable for assessing the diurnal dynamics of pollution and identifying local sources. The code and anonymised data are openly available for reuse.</p>"
+    },
+    "keywords": {"ru": ["качество воздуха", "PM2.5", "недорогие датчики", "калибровка", "градиентный бустинг"], "en": ["air quality", "PM2.5", "low-cost sensors", "calibration", "gradient boosting"]},
+    "authors": [
+      {"givenName": {"ru": "Тимур", "en": "Timur"}, "familyName": {"ru": "Каримов", "en": "Karimov"}, "email": "t.karimov@example.org", "affiliation": {"ru": "Волжский институт прикладной аналитики", "en": "Volga Institute of Applied Analytics"}, "country": "RU", "primaryContact": true},
+      {"givenName": {"ru": "Ольга", "en": "Olga"}, "familyName": {"ru": "Василенко", "en": "Vasilenko"}, "email": "o.vasilenko@example.org", "affiliation": {"ru": "НИИ общественного здоровья «Вита»", "en": "Vita Research Institute of Public Health"}, "country": "RU", "primaryContact": false}
+    ],
+    "dateSubmitted": "2024-09-30",
+    "dateAccepted": "2025-02-03",
+    "citations": [
+      "Breiman L. Random forests // Machine Learning. 2001. Vol. 45, no. 1. P. 5–32.",
+      "Friedman J. H. Greedy function approximation: a gradient boosting machine // Annals of Statistics. 2001. Vol. 29, no. 5. P. 1189–1232.",
+      "Каримов Т. Р. Блочная кросс-валидация для пространственно-временных данных: практическое руководство // Прикладная аналитика. 2022. Т. 6, № 3. С. 41–58.",
+      "Holloway R., Nakamura E. Humidity effects on optical particle counters: a field evaluation // Atmospheric Measurement Notes. 2019. Vol. 12. P. 233–248.",
+      "Василенко О. П., Аркадьева Н. С. Кратковременное воздействие PM2.5 и обращаемость за медицинской помощью: обзор исследований // Экология человека и среда. 2021. № 7. С. 4–19.",
+      "Petrescu D., Olsen K. Transferability of calibration models for low-cost air sensors across seasons // Environmental Sensing Review. 2022. Vol. 4, no. 2. P. 77–95.",
+      "Захаров Л. Е. Сети мониторинга атмосферного воздуха: принципы проектирования. Новобор: Академия, 2020. 184 с."
+    ],
+    "body": {
+      "intro": [
+        "Мелкодисперсные частицы PM2.5 — один из главных факторов риска для здоровья, связанных с загрязнением атмосферного воздуха. Референтные станции мониторинга дороги и немногочисленны: в типичном городе с населением полмиллиона человек их одна-две. Недорогие оптические датчики стоимостью в несколько тысяч рублей позволяют создать плотную сеть, но их показания требуют калибровки.",
+        "Основная причина погрешностей — гигроскопический рост частиц при высокой влажности, из-за которого датчик завышает массовую концентрацию. В резко континентальном климате к этому добавляются низкие зимние температуры, влияющие на работу электроники. Цель работы — сравнить методы калибровки и оценить их переносимость между сезонами."
+      ],
+      "methods": [
+        "Восемь датчиков одной модели установлены на крыше павильона референтной станции на высоте 3 м. Период наблюдений — с октября 2022 по ноябрь 2023 г. Данные агрегированы до часовых значений; часы с неполными записями (менее 45 минут) исключены. Итоговая выборка — 76 412 пар наблюдений.",
+        "Сравнивались четыре модели: простая линейная регрессия по сырому сигналу; множественная регрессия с относительной влажностью, температурой и их взаимодействием; случайный лес (500 деревьев); градиентный бустинг (глубина 6, скорость обучения 0,05). Для оценки качества использована блочная кросс-валидация: данные разбивались на недельные блоки, и каждый блок поочерёдно служил тестовой выборкой."
+      ],
+      "results": [
+        "Результаты сравнения приведены в табл. 1 и на рис. 1. Все методы калибровки существенно уменьшают ошибку; разница между линейной регрессией с поправкой на влажность и ансамблевыми методами особенно велика при относительной влажности выше 80 %.",
+        "При обучении только на летних данных и тестировании на зимних средняя абсолютная ошибка градиентного бустинга возрастала до 7,9 мкг/м³, что лишь немного лучше линейной коррекции. Добавление в обучающую выборку хотя бы одного зимнего месяца снижало ошибку до 3,6 мкг/м³."
+      ],
+      "figure": {"kind": "bar", "caption": "Рис. 1. Средняя абсолютная ошибка (MAE) различных методов калибровки, мкг/м³", "x": ["Без калибровки", "Линейная", "Линейная + RH", "Случ. лес", "Град. бустинг"], "ylabel": "MAE, мкг/м³", "series": [{"name": "MAE", "values": [11.8, 6.4, 4.7, 3.4, 3.1]}]},
+      "table": {"caption": "Таблица 1. Качество методов калибровки (блочная кросс-валидация по неделям)", "head": ["Метод", "MAE, мкг/м³", "RMSE, мкг/м³", "R²"], "rows": [["Без калибровки", "11,8", "17,2", "0,58"], ["Линейная регрессия", "6,4", "9,9", "0,74"], ["Линейная + влажность", "4,7", "7,3", "0,85"], ["Случайный лес", "3,4", "5,6", "0,91"], ["Градиентный бустинг", "3,1", "5,1", "0,93"]]},
+      "discussion": [
+        "Полученные значения ошибки после калибровки сопоставимы с допусками для индикативных измерений и позволяют использовать сеть недорогих датчиков для оценки суточных профилей и выявления локальных источников — котельных, автомагистралей, частного сектора с печным отоплением.",
+        "Сезонная непереносимость моделей — важное практическое ограничение. Калибровка, выполненная летом, может давать систематические ошибки зимой, когда загрязнение наиболее опасно. Мы рекомендуем как минимум годичный период совместных измерений перед развёртыванием сети."
+      ],
+      "conclusion": [
+        "Ансамблевые методы машинного обучения снижают ошибку недорогих датчиков PM2.5 почти в четыре раза. Ключевое условие корректной калибровки — наличие в обучающей выборке данных за все сезоны года."
+      ]
+    }
+  },
+  {
+    "slug": "v1n1-03-remote-work-labour",
+    "section": "ART",
+    "locale": "en",
+    "title": {"ru": "Удалённая работа и региональные рынки труда: данные онлайн-вакансий", "en": "Remote Work and Regional Labour Markets: Evidence from Online Vacancies"},
+    "abstract": {
+      "ru": "<p>Распространение удалённой работы после 2020 г. потенциально меняет пространственную структуру рынков труда, позволяя жителям небольших городов получать доступ к вакансиям столичных работодателей. В статье на основе 2,4 млн объявлений о вакансиях, опубликованных на крупной онлайн-платформе в 2019–2023 гг., оценивается, в какой мере удалённые вакансии перераспределяют спрос на труд между регионами. Для классификации объявлений использована словарная модель с последующей ручной проверкой случайной выборки. Доля полностью удалённых вакансий выросла с 2,1 % в 2019 г. до 9,7 % в 2023 г., причём рост был сосредоточен в сфере информационных технологий, маркетинга и финансовых услуг. С помощью метода разности разностей показано, что в регионах с более высокой долей занятых в этих отраслях средняя предлагаемая заработная плата выросла на 4,3 % сильнее, чем в сопоставимых регионах. Вместе с тем удалённые вакансии предъявляют более высокие требования к опыту и образованию, что ограничивает доступ к ним для значительной части работников. Эффект выравнивания межрегиональных различий в оплате труда оказался статистически значимым, но умеренным. Результаты свидетельствуют о том, что удалённая работа может стать инструментом региональной политики только в сочетании с программами переподготовки и развития цифровой инфраструктуры.</p>",
+      "en": "<p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p>"
+    },
+    "keywords": {"ru": ["удалённая работа", "региональный рынок труда", "онлайн-вакансии", "заработная плата", "разность разностей"], "en": ["remote work", "regional labour market", "online vacancies", "wages", "difference-in-differences"]},
+    "authors": [
+      {"givenName": {"ru": "Павел", "en": "Pavel"}, "familyName": {"ru": "Громов", "en": "Gromov"}, "email": "p.gromov@example.org", "affiliation": {"ru": "Институт экономики и пространственного развития «Меридиан»", "en": "Meridian Institute for Economics and Spatial Development"}, "country": "RU", "primaryContact": true},
+      {"givenName": {"ru": "Лаура", "en": "Laura"}, "familyName": {"ru": "Беккер", "en": "Becker"}, "email": "l.becker@example.org", "affiliation": {"ru": "Центр прикладных экономических исследований «Остланд»", "en": "Ostland Centre for Applied Economic Research"}, "country": "DE", "primaryContact": false}
+    ],
+    "dateSubmitted": "2024-10-21",
+    "dateAccepted": "2025-02-14",
+    "citations": [
+      "Angrist J. D., Pischke J.-S. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009. 392 p.",
+      "Moretti E. The New Geography of Jobs. Boston: Houghton Mifflin Harcourt, 2012. 294 p.",
+      "Gromov P. A. Online vacancy data as a source of regional labour market statistics // Regional Economics Review. 2021. Vol. 14, no. 2. P. 55–73.",
+      "Becker L., Vogt H. Remote-eligible jobs and the spatial distribution of labour demand // Journal of Labour and Space. 2022. Vol. 8, no. 1. P. 1–24.",
+      "Громов П. А., Седова Е. К. Межрегиональная дифференциация заработной платы: факторы и тенденции // Пространственная экономика и политика. 2020. № 3. С. 22–40.",
+      "Lindgren A., Torres M. Skill requirements in remote job postings // Labour Market Analytics. 2023. Vol. 5. P. 140–158.",
+      "Седова Е. К. Цифровая инфраструктура и занятость в малых городах. М.: Меридиан, 2022. 168 с.",
+      "Hartmann F. Text classification of job advertisements: a practical comparison // Computational Social Science Letters. 2021. Vol. 3, no. 4. P. 88–101."
+    ],
+    "body": {
+      "intro": [
+        "The rapid shift to remote work during 2020 was initially regarded as a temporary response to the pandemic. Four years later, a sizeable share of employers continue to offer fully remote positions, raising the question of whether location still determines access to well-paid jobs. If workers in smaller towns can compete for vacancies posted in the capital, interregional wage gaps might narrow without physical migration.",
+        "Existing evidence on this question comes mainly from surveys of workers. Online vacancy data offer a complementary demand-side perspective with high temporal and spatial resolution. This article uses such data to document the growth of remote vacancies, to characterise their requirements and to estimate their effect on regional wage dynamics."
+      ],
+      "methods": [
+        "The dataset comprises 2.4 million advertisements published between January 2019 and December 2023 on a large job platform. Each record includes the job title, description, region, industry, offered wage range and requirements. Remote vacancies were identified with a dictionary of 46 phrases; a manually coded random sample of 2,000 advertisements showed a precision of 0.94 and a recall of 0.91.",
+        "To estimate the effect on wages, regions were divided by their pre-pandemic share of employment in remote-intensive industries. A difference-in-differences model with region and month fixed effects compares the evolution of the median offered wage before and after March 2020, controlling for the occupational composition of vacancies."
+      ],
+      "results": [
+        "The share of fully remote vacancies grew steadily from 2.1% in 2019 to 9.7% in 2023 (Fig. 1). Growth was strongest in information technology, where remote positions reached 31% of all postings, followed by marketing and finance. In manufacturing, retail and healthcare the share remained below 2%.",
+        "Table 1 reports the main estimates. In regions with a high exposure to remote-intensive industries, the median offered wage increased by 4.3% more than in low-exposure regions. Remote vacancies were 1.6 times more likely to require higher education and on average requested 1.2 more years of experience."
+      ],
+      "figure": {"kind": "bar", "caption": "Fig. 1. Share of fully remote vacancies by year, %", "x": ["2019", "2020", "2021", "2022", "2023"], "ylabel": "Share, %", "series": [{"name": "All industries", "values": [2.1, 6.8, 8.4, 9.1, 9.7]}, {"name": "IT", "values": [8.5, 24.0, 28.7, 30.2, 31.0]}]},
+      "table": {"caption": "Table 1. Difference-in-differences estimates (dependent variable: log median offered wage)", "head": ["Specification", "Estimate", "Std. error", "N (region-months)"], "rows": [["Baseline", "0.043", "0.012", "4,980"], ["+ occupation controls", "0.037", "0.011", "4,980"], ["Excluding capital region", "0.041", "0.013", "4,920"], ["Placebo (2018 break)", "0.004", "0.010", "4,980"]]},
+      "discussion": [
+        "Our results indicate that remote work does exert an equalising pressure on regional wages, but the magnitude is moderate. The effect is concentrated in regions that already had a pool of workers in remote-intensive occupations, suggesting that remote work amplifies existing human capital rather than creating new opportunities.",
+        "The higher skill requirements of remote vacancies are a key constraint. Policy measures that combine digital infrastructure investment with retraining are more likely to translate the potential of remote work into broad-based gains. A limitation of the study is that vacancy data reflect offered rather than realised wages."
+      ],
+      "conclusion": [
+        "Remote vacancies have become a stable feature of the labour market and modestly reduce interregional wage gaps. Their benefits, however, accrue mainly to highly skilled workers, and their role as a regional development tool depends on complementary policies."
+      ]
+    }
+  },
+  {
+    "slug": "v1n1-04-peatland-carbon",
+    "section": "REV",
+    "locale": "ru",
+    "title": {"ru": "Углеродный баланс торфяных болот бореальной зоны: обзор методов оценки", "en": "Carbon Balance of Boreal Peatlands: A Review of Assessment Methods"},
+    "abstract": {
+      "ru": "<p>Торфяные болота бореальной зоны занимают около 3 % поверхности суши, но хранят до трети почвенного углерода планеты, поэтому точная оценка их углеродного баланса важна для климатической политики и национальной отчётности о парниковых газах. В обзоре систематизированы основные методы оценки потоков углерода на болотах: камерный метод, метод турбулентных пульсаций, расчёт по скорости аккумуляции торфа и дистанционные методы, основанные на спутниковых индексах и моделях продуктивности. На основе анализа 87 публикаций за 2000–2024 гг. рассмотрены пространственный и временной масштаб каждого метода, источники неопределённости, требования к оборудованию и квалификации персонала. Показано, что оценки чистого экосистемного обмена для одного и того же болота, полученные разными методами, могут различаться в полтора–два раза, причём основная часть расхождений связана с учётом потоков метана и растворённого органического углерода. Особое внимание уделено осушенным и восстанавливаемым болотам, для которых данных существенно меньше, чем для ненарушенных экосистем. Сделан вывод о необходимости комбинированного подхода, в котором долговременные наблюдения методом турбулентных пульсаций на опорных площадках сочетаются с камерными измерениями и дистанционным масштабированием. Предложена схема выбора метода в зависимости от цели исследования и доступных ресурсов.</p>",
+      "en": "<p>Boreal peatlands cover about 3% of the land surface yet store up to a third of the world's soil carbon, so accurate assessment of their carbon balance matters for climate policy and national greenhouse gas reporting. This review systematises the main methods for estimating carbon fluxes in peatlands: the chamber method, eddy covariance, calculation from peat accumulation rates, and remote-sensing approaches based on satellite indices and productivity models. Drawing on 87 publications from 2000–2024, it considers the spatial and temporal scale of each method, its sources of uncertainty and its requirements for equipment and staff expertise. Estimates of net ecosystem exchange for the same peatland obtained by different methods can differ by a factor of 1.5 to 2, with most of the discrepancy arising from the treatment of methane and dissolved organic carbon fluxes. Particular attention is paid to drained and rewetted peatlands, for which far fewer data exist than for undisturbed ecosystems. The review concludes that a combined approach is needed, in which long-term eddy covariance observations at reference sites are complemented by chamber measurements and remote-sensing upscaling. A decision scheme for choosing a method according to the research goal and available resources is proposed.</p>"
+    },
+    "keywords": {"ru": ["торфяные болота", "углеродный баланс", "метан", "турбулентные пульсации", "камерный метод", "бореальная зона"], "en": ["peatlands", "carbon balance", "methane", "eddy covariance", "chamber method", "boreal zone"]},
+    "authors": [
+      {"givenName": {"ru": "Айгерим", "en": "Aigerim"}, "familyName": {"ru": "Нурланова", "en": "Nurlanova"}, "email": "a.nurlanova@example.org", "affiliation": {"ru": "Каспийский институт экологических исследований", "en": "Caspian Institute of Environmental Studies"}, "country": "KZ", "primaryContact": true},
+      {"givenName": {"ru": "Николай", "en": "Nikolay"}, "familyName": {"ru": "Тихомиров", "en": "Tikhomirov"}, "email": "n.tikhomirov@example.org", "affiliation": {"ru": "Северная болотная станция Новоборского государственного университета", "en": "Northern Mire Station, Novobor State University"}, "country": "RU", "primaryContact": false}
+    ],
+    "dateSubmitted": "2024-08-19",
+    "dateAccepted": "2025-01-15",
+    "citations": [
+      "Gorham E. Northern peatlands: role in the carbon cycle and probable responses to climatic warming // Ecological Applications. 1991. Vol. 1, no. 2. P. 182–195.",
+      "Baldocchi D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems // Global Change Biology. 2003. Vol. 9, no. 4. P. 479–492.",
+      "Тихомиров Н. В. Многолетняя динамика потоков CO₂ на верховом болоте северной тайги // Болотоведение и торф. 2020. Т. 18, № 2. С. 60–78.",
+      "Нурланова А. Н., Сейткали Д. М. Эмиссия метана с осушенных торфяников: обзор полевых данных // Экосистемы и климат. 2022. Т. 4, № 1. С. 15–34.",
+      "Kowalczyk P., Aarnio T. Dissolved organic carbon export from boreal mires // Hydrology and Biogeochemistry. 2019. Vol. 33. P. 410–427.",
+      "Тихомиров Н. В., Ерёменко В. А. Камерные измерения потоков парниковых газов: методическое пособие. Новобор: НГУ, 2018. 96 с.",
+      "Lund S., Petersen R. Upscaling peatland carbon fluxes with satellite data: opportunities and pitfalls // Remote Sensing of Wetlands. 2021. Vol. 9, no. 3. P. 200–221.",
+      "Нурланова А. Н. Восстановление нарушенных болот и климатическая политика // Вопросы экологической политики. 2023. № 2. С. 47–63.",
+      "Hart G., Lin W. Long-term apparent rates of carbon accumulation in boreal peat // Quaternary Carbon Studies. 2018. Vol. 21. P. 55–70."
+    ],
+    "body": {
+      "intro": [
+        "Болота — единственный тип наземных экосистем, способный на протяжении тысячелетий накапливать углерод в форме торфа. При этом они являются естественным источником метана, парникового газа с высоким потенциалом глобального потепления. Итоговый климатический эффект болота определяется соотношением этих процессов и чувствителен к уровню грунтовых вод.",
+        "Осушение болот для торфодобычи, сельского и лесного хозяйства превращает их из стока в источник CO₂. Растущий интерес к восстановлению (обводнению) нарушенных болот как к климатической мере требует надёжных методов оценки баланса углерода. Цель настоящего обзора — сопоставить существующие методы, их возможности и ограничения."
+      ],
+      "methods": [
+        "Поиск публикаций проводился в библиографических базах данных по сочетаниям ключевых слов «торфяное болото», «углеродный баланс», «поток CO₂», «метан» и их англоязычным эквивалентам за 2000–2024 гг. Из 412 найденных работ после анализа аннотаций и полных текстов отобрано 87, содержащих количественные оценки потоков и описание методики.",
+        "Для каждой работы фиксировались тип болота, его состояние (ненарушенное, осушенное, восстанавливаемое), метод измерений, продолжительность наблюдений и учитываемые компоненты баланса. Оценки чистого экосистемного обмена приводились к единицам г C/м² в год."
+      ],
+      "results": [
+        "Распределение работ по методам неравномерно (рис. 1): почти половина исследований основана на камерном методе, около трети — на методе турбулентных пульсаций. Дистанционные подходы применяются преимущественно для масштабирования, а не как самостоятельный источник оценок.",
+        "Сравнительные характеристики методов приведены в табл. 1. Камерный метод позволяет разделить потоки по микроландшафтам, но плохо описывает временную изменчивость; метод турбулентных пульсаций даёт непрерывные ряды, но требует однородной площадки и дорогостоящего оборудования."
+      ],
+      "figure": {"kind": "hbar", "caption": "Рис. 1. Распределение проанализированных работ по основному методу оценки (n = 87)", "x": ["Камерный метод", "Турбулентные пульсации", "Аккумуляция торфа", "Дистанционные методы", "Комбинированные"], "ylabel": "Число работ", "series": [{"name": "Работы", "values": [39, 27, 8, 6, 7]}]},
+      "table": {"caption": "Таблица 1. Сравнение методов оценки углеродного баланса болот", "head": ["Метод", "Масштаб", "Временное разрешение", "Основная неопределённость"], "rows": [["Камерный", "0,1–1 м²", "Эпизодическое", "Интерполяция во времени"], ["Турбулентные пульсации", "0,1–1 км²", "30 мин", "Ночные потоки, неоднородность"], ["Аккумуляция торфа", "Керн", "Столетия", "Датировка, разложение"], ["Дистанционный", "Регион", "Дни–недели", "Калибровка моделей"]]},
+      "discussion": [
+        "Существенные расхождения между методами объясняются не столько погрешностями измерений, сколько различиями в учитываемых компонентах баланса. Работы, не учитывающие вынос растворённого органического углерода с болотными водами, систематически завышают сток углерода на 10–25 %.",
+        "Наименее изученными остаются восстанавливаемые болота: в первые годы после обводнения эмиссия метана может временно возрастать, что важно учитывать при оценке климатического эффекта проектов восстановления."
+      ],
+      "conclusion": [
+        "Ни один из методов не обеспечивает полной оценки углеродного баланса болот. Оптимальной представляется сеть опорных площадок с долговременными наблюдениями методом турбулентных пульсаций, дополненная камерными измерениями и дистанционным масштабированием."
+      ]
+    }
+  },
+  {
+    "slug": "v1n1-05-digital-economy-neologisms",
+    "section": "SHC",
+    "locale": "ru",
+    "title": {"ru": "Неологизмы цифровой экономики в русскоязычных деловых СМИ: корпусное исследование", "en": "Digital Economy Neologisms in Russian-Language Business Media: A Corpus Study"},
+    "abstract": {
+      "ru": "<p>Цифровизация экономики сопровождается стремительным появлением новой лексики, значительная часть которой заимствуется из английского языка. В кратком сообщении представлены первые результаты корпусного исследования неологизмов цифровой экономики в русскоязычных деловых СМИ. Специально собранный корпус включает около 18 млн словоупотреблений из публикаций шести условных деловых изданий за 2015–2024 гг. Кандидаты в неологизмы отбирались по частотному критерию с последующей экспертной проверкой; итоговый список содержит 214 единиц. Для каждой из них определены год первой фиксации, способ образования и динамика частотности. Установлено, что прямые заимствования (например, «маркетплейс», «стартап», «краудфандинг») составляют 58 % новых единиц, гибридные образования с русскими аффиксами — 27 %, а калькированные и описательные обороты — 15 %. Пик появления новых единиц приходится на 2018–2020 гг. Для ряда заимствований наблюдается постепенное вытеснение графических вариантов на латинице кириллическими, что свидетельствует об их освоении языком. Результаты могут быть использованы при составлении терминологических словарей и при обучении деловому русскому языку. В дальнейшем планируется расширить корпус за счёт региональных изданий и телеграм-каналов.</p>",
+      "en": "<p>The digitalisation of the economy has been accompanied by the rapid emergence of new vocabulary, much of it borrowed from English. This short communication presents the first results of a corpus study of digital economy neologisms in Russian-language business media. A purpose-built corpus comprises about 18 million tokens from the publications of six anonymised business outlets for 2015–2024. Candidate neologisms were selected using a frequency criterion followed by expert verification; the final list contains 214 items. For each, the year of first attestation, the word-formation pattern and the frequency dynamics were determined. Direct borrowings (such as marketpleys, startap and kraudfanding) account for 58% of new items, hybrid formations with Russian affixes for 27%, and calques and descriptive expressions for 15%. The peak of new items falls in 2018–2020. For a number of borrowings, Latin-script spellings are gradually being replaced by Cyrillic ones, indicating their assimilation into the language. The results can be used in compiling terminological dictionaries and in teaching business Russian. Further work will extend the corpus to regional outlets and Telegram channels.</p>"
+    },
+    "keywords": {"ru": ["неологизмы", "корпусная лингвистика", "заимствования", "цифровая экономика", "деловые СМИ"], "en": ["neologisms", "corpus linguistics", "borrowings", "digital economy", "business media"]},
+    "authors": [
+      {"givenName": {"ru": "Анна", "en": "Anna"}, "familyName": {"ru": "Лебедева", "en": "Lebedeva"}, "email": "a.lebedeva@example.org", "affiliation": {"ru": "Институт языка и коммуникации «Лексис»", "en": "Lexis Institute of Language and Communication"}, "country": "RU", "primaryContact": true}
+    ],
+    "dateSubmitted": "2024-12-02",
+    "dateAccepted": "2025-02-20",
+    "citations": [
+      "Лебедева А. В. Терминологические инновации в языке экономики: корпусный подход // Вопросы терминоведения. 2021. Т. 7, № 1. С. 9–27.",
+      "Sinclair J. Corpus, Concordance, Collocation. Oxford: Oxford University Press, 1991. 179 p.",
+      "Кожевникова Р. Л. Англицизмы в русской деловой прессе: этапы освоения // Русская речь сегодня. 2019. № 5. С. 31–44.",
+      "Ferrand M., Holm B. Measuring lexical novelty in news corpora // Corpus Methods Quarterly. 2020. Vol. 11, no. 2. P. 145–163.",
+      "Лебедева А. В., Огнева Т. П. Графическая адаптация заимствований: латиница и кириллица в медиатексте // Лингвистика и медиа. 2022. Т. 3, № 4. С. 70–86.",
+      "Огнева Т. П. Словообразовательная активность заимствованных основ в современном русском языке. М.: Лексис, 2020. 236 с."
+    ],
+    "body": {
+      "intro": [
+        "Деловая пресса служит одним из основных каналов распространения экономической терминологии: новые понятия появляются в ней раньше, чем в словарях и учебниках. В период 2015–2024 гг. цифровизация торговли, финансов и труда сопровождалась особенно интенсивным пополнением лексики.",
+        "Цель сообщения — описать состав и динамику неологизмов цифровой экономики в деловых СМИ и охарактеризовать основные способы их образования."
+      ],
+      "methods": [
+        "Корпус сформирован из открыто доступных публикаций шести деловых изданий (обозначены И1–И6) и размечен морфологически. Кандидаты в неологизмы отбирались как леммы, отсутствовавшие в подкорпусе 2010–2014 гг. и встретившиеся не менее 20 раз в 2015–2024 гг. Затем два эксперта независимо проверяли принадлежность единиц к тематике цифровой экономики; согласие экспертов (κ Коэна) составило 0,82."
+      ],
+      "results": [
+        "Итоговый список включает 214 единиц. Распределение по годам первой фиксации показано на рис. 1: максимум приходится на 2018–2020 гг., что совпадает с периодом активного развития онлайн-торговли и платформенной занятости. Распределение по способам образования приведено в табл. 1."
+      ],
+      "figure": {"kind": "bar", "caption": "Рис. 1. Число новых единиц по году первой фиксации в корпусе", "x": ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"], "ylabel": "Число единиц", "series": [{"name": "Неологизмы", "values": [14, 17, 21, 31, 35, 33, 22, 18, 13, 10]}]},
+      "table": {"caption": "Таблица 1. Неологизмы по способу образования", "head": ["Способ образования", "Число", "Доля, %", "Примеры"], "rows": [["Прямое заимствование", "124", "58", "маркетплейс, стартап"], ["Гибридное образование", "58", "27", "зафандрайзить, лидогенерация"], ["Калька, описательный оборот", "32", "15", "цифровой след, умный контракт"], ["Итого", "214", "100", "—"]]},
+      "discussion": [
+        "Преобладание прямых заимствований ожидаемо для быстро развивающейся предметной области. Вместе с тем высокая доля гибридных образований показывает, что заимствованные основы быстро включаются в русскую словообразовательную систему. Вытеснение латиничных написаний кириллическими (например, у слова «стартап» доля латиницы снизилась с 34 % в 2015 г. до 3 % в 2024 г.) служит индикатором освоения."
+      ],
+      "conclusion": [
+        "Корпусный подход позволяет объективно датировать появление и освоение новой экономической лексики. Полученный список неологизмов может стать основой для специализированного словаря."
+      ]
+    }
+  }
+]

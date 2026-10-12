@@ -1,0 +1,199 @@
+[
+  {
+    "slug": "sub-wind-power-forecast",
+    "stage": "submission",
+    "section": "ART",
+    "locale": "ru",
+    "title": {"ru": "Краткосрочный прогноз ветровой генерации с помощью градиентного бустинга и данных численных моделей погоды", "en": "Short-Term Wind Power Forecasting with Gradient Boosting and Numerical Weather Prediction Data"},
+    "abstract": {
+      "ru": "<p>Рост доли ветровой генерации в энергосистемах повышает требования к точности её краткосрочного прогноза, от которой зависят планирование режимов и стоимость балансирования. В работе предложен подход к прогнозу выработки ветровой электростанции на горизонте от 1 до 48 часов, сочетающий градиентный бустинг с признаками, извлечёнными из прогнозов численных моделей погоды. Использованы данные условной ветровой электростанции установленной мощностью 120 МВт за 2021–2025 гг. с часовым разрешением, а также прогнозы скорости и направления ветра на нескольких высотах для девяти узлов сетки вокруг станции. Помимо исходных метеорологических переменных, сформированы признаки пространственного градиента скорости ветра, сдвига ветра по высоте и устойчивости атмосферы. Сравнение проводилось с методом персистентности, моделью на основе паспортной кривой мощности и рекуррентной нейронной сетью. Предложенная модель снизила нормированную среднеквадратичную ошибку на горизонте 24 часа до 9,8 % против 12,6 % у модели на основе кривой мощности и 10,9 % у нейронной сети. Наибольший выигрыш достигается в периоды резких изменений скорости ветра при прохождении атмосферных фронтов. Анализ важности признаков показал, что пространственный градиент скорости ветра вносит существенный вклад в качество прогноза на горизонтах свыше 12 часов. Предложенный подход отличается невысокими вычислительными затратами и может быть внедрён в практику диспетчерских служб.</p>",
+      "en": "<p>The growing share of wind generation in power systems raises the requirements for the accuracy of its short-term forecasting, on which operational planning and balancing costs depend. This study proposes an approach to forecasting the output of a wind farm over horizons from 1 to 48 hours that combines gradient boosting with features extracted from numerical weather prediction forecasts. The data come from an anonymised wind farm with an installed capacity of 120 MW for 2021–2025 at hourly resolution, together with forecasts of wind speed and direction at several heights for nine grid nodes around the farm. In addition to the raw meteorological variables, features describing the spatial gradient of wind speed, vertical wind shear and atmospheric stability were constructed. The model was compared with persistence, a model based on the manufacturer's power curve and a recurrent neural network. The proposed model reduced the normalised root-mean-square error at the 24-hour horizon to 9.8%, compared with 12.6% for the power-curve model and 10.9% for the neural network. The largest gains are achieved during abrupt changes in wind speed associated with the passage of weather fronts. Feature importance analysis showed that the spatial wind speed gradient contributes substantially to forecast quality at horizons beyond 12 hours. The approach has low computational cost and can be deployed in dispatch practice.</p>"
+    },
+    "keywords": {"ru": ["ветровая энергетика", "прогноз генерации", "градиентный бустинг", "численный прогноз погоды", "временные ряды"], "en": ["wind energy", "power forecasting", "gradient boosting", "numerical weather prediction", "time series"]},
+    "authors": [
+      {"givenName": {"ru": "Кирилл", "en": "Kirill"}, "familyName": {"ru": "Зайцев", "en": "Zaitsev"}, "email": "k.zaitsev@example.org", "affiliation": {"ru": "Волжский институт прикладной аналитики", "en": "Volga Institute of Applied Analytics"}, "country": "RU", "primaryContact": true},
+      {"givenName": {"ru": "Алина", "en": "Alina"}, "familyName": {"ru": "Сафина", "en": "Safina"}, "email": "a.safina@example.org", "affiliation": {"ru": "Волжский институт прикладной аналитики", "en": "Volga Institute of Applied Analytics"}, "country": "RU", "primaryContact": false}
+    ],
+    "dateSubmitted": "2026-09-22",
+    "citations": [
+      "Friedman J. H. Greedy function approximation: a gradient boosting machine // Annals of Statistics. 2001. Vol. 29, no. 5. P. 1189–1232.",
+      "Hochreiter S., Schmidhuber J. Long short-term memory // Neural Computation. 1997. Vol. 9, no. 8. P. 1735–1780.",
+      "Зайцев К. А. Признаки атмосферной устойчивости в задачах прогноза ветровой генерации // Прикладная аналитика. 2025. Т. 9, № 2. С. 30–44.",
+      "Madsen H., Nielsen T. Standardizing the performance evaluation of short-term wind power prediction models // Wind Engineering Review. 2005. Vol. 29, no. 6. P. 475–489.",
+      "Сафина А. Р., Зайцев К. А. Оценка стоимости ошибок прогноза ВИЭ на балансирующем рынке // Энергетическая политика и рынки. 2024. № 3. С. 51–65.",
+      "Oyelaran T., Brandt J. Spatial features from NWP grids for wind power forecasting // Renewable Forecasting Letters. 2022. Vol. 5. P. 14–29.",
+      "Петрова Ю. С. Ветровая энергетика: ресурсы, технологии, интеграция в энергосистему. Новобор: Академия, 2023. 256 с."
+    ],
+    "body": {
+      "intro": [
+        "Выработка ветровых электростанций определяется скоростью ветра, которая изменяется быстро и плохо предсказуема. Ошибки прогноза приводят к необходимости резервирования мощностей и затратам на балансирование, поэтому повышение точности прогноза имеет прямой экономический эффект.",
+        "Прогнозы численных моделей погоды являются основным источником информации о будущем ветре, однако их пространственное разрешение недостаточно для учёта локальных условий. Цель работы — разработать модель, извлекающую из прогнозов погоды дополнительную информацию с помощью инженерии признаков и градиентного бустинга."
+      ],
+      "methods": [
+        "Использованы часовые данные о выработке 40 ветроустановок условной станции мощностью 120 МВт за январь 2021 — июнь 2025 г. и архив прогнозов численной модели погоды с заблаговременностью до 48 часов для девяти узлов сетки. Сформировано 86 признаков, включая скорость ветра на высотах 10, 100 и 150 м, сдвиг ветра, пространственный градиент скорости и индикатор устойчивости атмосферы.",
+        "Модель градиентного бустинга обучалась отдельно для каждой группы горизонтов прогноза. Данные 2021–2023 гг. использованы для обучения, 2024 г. — для подбора гиперпараметров, 2025 г. — для итоговой оценки. Качество измерялось нормированной среднеквадратичной ошибкой (NRMSE) относительно установленной мощности."
+      ],
+      "results": [
+        "Зависимость ошибки от горизонта прогноза для сравниваемых моделей показана на рис. 1. На горизонтах до трёх часов метод персистентности конкурентоспособен, однако уже с шести часов модели на основе прогнозов погоды существенно его превосходят.",
+        "Сводные результаты для горизонта 24 часа приведены в табл. 1. Предложенная модель превосходит все альтернативы, а в периоды прохождения атмосферных фронтов её преимущество над моделью кривой мощности достигает 4,5 процентного пункта."
+      ],
+      "figure": {"kind": "line", "caption": "Рис. 1. Нормированная среднеквадратичная ошибка прогноза в зависимости от горизонта, %", "x": ["1 ч", "3 ч", "6 ч", "12 ч", "24 ч", "48 ч"], "ylabel": "NRMSE, %", "series": [{"name": "Персистентность", "values": [5.1, 9.4, 14.2, 19.8, 24.5, 27.1]}, {"name": "Кривая мощности", "values": [9.9, 10.4, 11.0, 11.8, 12.6, 14.3]}, {"name": "Град. бустинг", "values": [4.8, 7.1, 8.2, 9.0, 9.8, 11.6]}]},
+      "table": {"caption": "Таблица 1. Качество прогноза на горизонте 24 часа (тестовый период 2025 г.)", "head": ["Модель", "NRMSE, %", "NMAE, %", "Время обучения"], "rows": [["Персистентность", "24,5", "18,2", "—"], ["Кривая мощности", "12,6", "9,1", "—"], ["Рекуррентная сеть", "10,9", "7,8", "3,5 ч"], ["Градиентный бустинг", "9,8", "7,0", "6 мин"]]},
+      "discussion": [
+        "Преимущество предложенной модели объясняется прежде всего использованием пространственных признаков: градиент скорости ветра между узлами сетки позволяет раньше «увидеть» приближение фронта. Рекуррентная сеть достигает близкого качества, но требует на порядок больше вычислительных ресурсов и сложнее в интерпретации.",
+        "Ограничением работы является использование данных одной станции; переносимость признаков на станции в иных климатических условиях требует проверки."
+      ],
+      "conclusion": [
+        "Градиентный бустинг с признаками, извлечёнными из прогнозов численных моделей погоды, обеспечивает точный и вычислительно эффективный краткосрочный прогноз ветровой генерации, пригодный для практического применения."
+      ]
+    }
+  },
+  {
+    "slug": "sub-museum-digital-audiences",
+    "stage": "submission",
+    "section": "ART",
+    "locale": "en",
+    "title": {"ru": "Цифровые аудитории музеев после пандемии: анализ поведения посетителей онлайн-коллекций", "en": "Digital Museum Audiences after the Pandemic: An Analysis of Online Collection Visitor Behaviour"},
+    "abstract": {
+      "ru": "<p>В период пандемии многие музеи резко расширили своё присутствие в интернете, открыв онлайн-доступ к коллекциям, виртуальным выставкам и образовательным программам. Вопрос о том, насколько устойчивой оказалась возросшая цифровая аудитория после возвращения к очной работе, остаётся открытым. В статье анализируются обезличенные журналы веб-аналитики онлайн-коллекций пяти условных региональных музеев за 2019–2025 гг., охватывающие около 3,1 млн сессий. Посетители сегментированы методом кластеризации по глубине просмотра, длительности сессии, источнику перехода и частоте возвращения. Выделено пять сегментов: случайные посетители из поисковых систем, учащиеся и преподаватели, исследователи, постоянные любители и посетители, планирующие очный визит. Общее число сессий после пика 2020 г. снизилось, но стабилизировалось на уровне, в 1,8 раза превышающем допандемийный. При этом доля исследователей и постоянных любителей выросла, а их сессии стали продолжительнее. Посетители, планирующие визит, чаще всего просматривают страницы с расписанием и текущими выставками, и именно их активность наиболее тесно связана с последующей посещаемостью музея. Результаты показывают, что онлайн-коллекции превратились в самостоятельный канал взаимодействия с аудиторией, требующий отдельной стратегии развития и метрик эффективности.</p>",
+      "en": "<p>During the pandemic, many museums rapidly expanded their online presence by opening access to collections, virtual exhibitions and educational programmes. Whether the enlarged digital audience has persisted since the return to in-person operations remains an open question. This article analyses anonymised web analytics logs of the online collections of five anonymised regional museums for 2019–2025, covering about 3.1 million sessions. Visitors were segmented by clustering on browsing depth, session duration, referral source and return frequency. Five segments were identified: casual visitors from search engines, students and teachers, researchers, regular enthusiasts and visitors planning an in-person visit. The total number of sessions declined after the 2020 peak but stabilised at a level 1.8 times higher than before the pandemic. Meanwhile, the share of researchers and regular enthusiasts increased, and their sessions became longer. Visitors planning a visit most often view pages with opening hours and current exhibitions, and their activity is most closely associated with subsequent museum attendance. The results show that online collections have become an independent channel of audience engagement that requires its own development strategy and performance metrics.</p>"
+    },
+    "keywords": {"ru": ["музеи", "цифровые коллекции", "веб-аналитика", "сегментация аудитории", "цифровые гуманитарные исследования"], "en": ["museums", "digital collections", "web analytics", "audience segmentation", "digital humanities"]},
+    "authors": [
+      {"givenName": {"ru": "Вероника", "en": "Veronika"}, "familyName": {"ru": "Крылова", "en": "Krylova"}, "email": "v.krylova@example.org", "affiliation": {"ru": "Центр истории науки и техники «Хронос»", "en": "Chronos Centre for the History of Science and Technology"}, "country": "RU", "primaryContact": true},
+      {"givenName": {"ru": "Томас", "en": "Thomas"}, "familyName": {"ru": "Хальворсен", "en": "Halvorsen"}, "email": "t.halvorsen@example.org", "affiliation": {"ru": "Северный институт музейных исследований", "en": "Nordic Institute for Museum Studies"}, "country": "NO", "primaryContact": false}
+    ],
+    "dateSubmitted": "2026-10-03",
+    "citations": [
+      "Falk J. H. Identity and the Museum Visitor Experience. Walnut Creek: Left Coast Press, 2009. 301 p.",
+      "MacQueen J. Some methods for classification and analysis of multivariate observations // Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability. Berkeley, 1967. Vol. 1. P. 281–297.",
+      "Krylova V. D. Online collections of regional museums: a typology // Museum and Society Review. 2023. Vol. 6, no. 2. P. 45–62.",
+      "Halvorsen T., Berg I. Measuring digital engagement in museums: beyond page views // Journal of Digital Heritage. 2022. Vol. 10. P. 101–120.",
+      "Крылова В. Д. Виртуальные выставки как жанр музейной коммуникации // Вопросы музеологии и наследия. 2021. Т. 12, № 1. С. 88–103.",
+      "Santos L., Reid A. From virtual to physical: online browsing and museum attendance // Cultural Analytics Letters. 2024. Vol. 4. P. 33–49."
+    ],
+    "body": {
+      "intro": [
+        "In spring 2020, museum closures forced institutions to move much of their public activity online. Collections databases that had previously served mainly specialists were redesigned for broader audiences, and many museums reported record numbers of website visits. As museums reopened, attention returned to physical attendance, and the fate of the digital audience became uncertain.",
+        "This study uses detailed web analytics data from five regional museums to examine how the size and composition of online collection audiences changed between 2019 and 2025, and how online behaviour relates to in-person visits."
+      ],
+      "methods": [
+        "Anonymised session-level logs were obtained from five regional museums (coded M1–M5) for January 2019 to June 2025. Each session was described by the number of object pages viewed, total duration, referral source, device type and whether the visitor had returned within 90 days. Bot traffic was filtered using standard heuristics.",
+        "Sessions were clustered using k-means on standardised features; the number of clusters was chosen using silhouette scores and interpretability. Monthly in-person attendance figures were used to assess the association between online segments and subsequent visits with lagged regression models."
+      ],
+      "results": [
+        "Annual session counts rose sharply in 2020 and then declined, stabilising from 2023 onwards at about 1.8 times the 2019 level (Fig. 1). The composition of the audience shifted: the share of researchers and regular enthusiasts grew from 14% to 23% of sessions.",
+        "Table 1 characterises the five segments. Visit planners account for only 11% of sessions, but their monthly activity was the strongest predictor of attendance in the following month."
+      ],
+      "figure": {"kind": "bar", "caption": "Fig. 1. Online collection sessions by year, index (2019 = 100)", "x": ["2019", "2020", "2021", "2022", "2023", "2024", "2025*"], "ylabel": "Index", "series": [{"name": "Sessions", "values": [100, 312, 241, 197, 184, 181, 179]}]},
+      "table": {"caption": "Table 1. Visitor segments of online collections (2023–2025)", "head": ["Segment", "Share, %", "Median pages", "Median duration"], "rows": [["Casual (search)", "46", "2", "1 min"], ["Students and teachers", "20", "7", "9 min"], ["Researchers", "9", "24", "31 min"], ["Regular enthusiasts", "14", "12", "14 min"], ["Visit planners", "11", "4", "3 min"]]},
+      "discussion": [
+        "The persistence of an enlarged digital audience suggests that the pandemic accelerated a structural change rather than causing a temporary spike. The growth of the researcher and enthusiast segments indicates that online collections increasingly serve as a destination in their own right.",
+        "For museums, this implies the need for separate metrics of digital engagement, such as depth and return frequency, rather than relying on page views or on online activity as a mere precursor of physical visits."
+      ],
+      "conclusion": [
+        "Online collections of regional museums have retained a substantially larger and more engaged audience than before the pandemic. They should be treated as an independent channel with its own goals and evaluation framework."
+      ]
+    }
+  },
+  {
+    "slug": "sub-flax-biocomposites",
+    "stage": "externalReview",
+    "section": "ART",
+    "locale": "ru",
+    "title": {"ru": "Механические свойства биокомпозитов на основе льняного волокна и полимолочной кислоты после ускоренного старения", "en": "Mechanical Properties of Flax Fibre and Polylactic Acid Biocomposites after Accelerated Ageing"},
+    "abstract": {
+      "ru": "<p>Биокомпозиты на основе натуральных волокон и биоразлагаемых полимеров рассматриваются как экологичная альтернатива стеклопластикам в автомобильной промышленности, строительстве и производстве потребительских товаров. Их широкому применению препятствует чувствительность к влаге и ультрафиолетовому излучению, приводящая к снижению прочности в процессе эксплуатации. В работе исследовано влияние щелочной и силановой обработки льняного волокна на механические свойства композитов с матрицей из полимолочной кислоты после ускоренного климатического старения. Образцы с массовой долей волокна 30 % изготовлены методом горячего прессования и подвергнуты циклическому воздействию ультрафиолета, повышенной температуры и влажности в течение 500 и 1000 часов. После 1000 часов старения прочность при растяжении композитов с необработанным волокном снизилась на 38 %, тогда как для композитов с силанизированным волокном снижение составило лишь 17 %. Щелочная обработка повышала исходную прочность, но слабо влияла на устойчивость к старению. Методами электронной микроскопии и инфракрасной спектроскопии показано, что силановая обработка уменьшает водопоглощение и предотвращает расслоение на границе волокна и матрицы. Полученные результаты позволяют рекомендовать силановую обработку для изделий, эксплуатируемых на открытом воздухе.</p>",
+      "en": "<p>Biocomposites based on natural fibres and biodegradable polymers are regarded as an environmentally friendly alternative to glass-fibre plastics in the automotive industry, construction and consumer goods. Their wider use is hindered by sensitivity to moisture and ultraviolet radiation, which reduces strength during service. This study examines the effect of alkaline and silane treatment of flax fibre on the mechanical properties of composites with a polylactic acid matrix after accelerated weathering. Samples with a fibre mass fraction of 30% were produced by hot pressing and subjected to cyclic exposure to ultraviolet radiation, elevated temperature and humidity for 500 and 1000 hours. After 1000 hours of ageing, the tensile strength of composites with untreated fibre decreased by 38%, whereas for composites with silane-treated fibre the decrease was only 17%. Alkaline treatment increased initial strength but had little effect on resistance to ageing. Electron microscopy and infrared spectroscopy showed that silane treatment reduces water uptake and prevents delamination at the fibre-matrix interface. The results support recommending silane treatment for products used outdoors.</p>"
+    },
+    "keywords": {"ru": ["биокомпозиты", "льняное волокно", "полимолочная кислота", "старение", "силановая обработка"], "en": ["biocomposites", "flax fibre", "polylactic acid", "ageing", "silane treatment"]},
+    "authors": [
+      {"givenName": {"ru": "Вера", "en": "Vera"}, "familyName": {"ru": "Шестакова", "en": "Shestakova"}, "email": "v.shestakova@example.org", "affiliation": {"ru": "Уральский центр материаловедения «Кристалл»", "en": "Kristall Ural Centre for Materials Science"}, "country": "RU", "primaryContact": true},
+      {"givenName": {"ru": "Олег", "en": "Oleg"}, "familyName": {"ru": "Трофимов", "en": "Trofimov"}, "email": "o.trofimov@example.org", "affiliation": {"ru": "Новоборский государственный университет", "en": "Novobor State University"}, "country": "RU", "primaryContact": false},
+      {"givenName": {"ru": "Ксения", "en": "Ksenia"}, "familyName": {"ru": "Лаптева", "en": "Lapteva"}, "email": "k.lapteva@example.org", "affiliation": {"ru": "Уральский центр материаловедения «Кристалл»", "en": "Kristall Ural Centre for Materials Science"}, "country": "RU", "primaryContact": false}
+    ],
+    "dateSubmitted": "2026-07-14",
+    "fundingAgency": {"ru": "Фонд поддержки междисциплинарных исследований «Горизонт»", "en": "Horizon Foundation for Interdisciplinary Research"},
+    "citations": [
+      "Bledzki A. K., Gassan J. Composites reinforced with cellulose based fibres // Progress in Polymer Science. 1999. Vol. 24, no. 2. P. 221–274.",
+      "Шестакова В. А., Лаптева К. С. Межфазная адгезия в композитах с натуральными волокнами: методы модификации // Композиционные материалы и технологии. 2024. Т. 16, № 1. С. 22–39.",
+      "Trofimov O. P. Hot pressing of natural fibre composites: process parameters and quality // Polymer Processing Notes. 2023. Vol. 11. P. 77–92.",
+      "Bergström E., Sato H. Hygrothermal ageing of flax/PLA composites // Green Materials Letters. 2021. Vol. 8, no. 3. P. 201–218.",
+      "Лаптева К. С. Ускоренные климатические испытания полимерных композитов: методика и интерпретация // Заводская лаборатория. Диагностика материалов. 2022. Т. 88, № 4. С. 45–53.",
+      "Ruiz M., Kessler D. Silane coupling agents for plant fibres: a review // Journal of Sustainable Composites. 2020. Vol. 5. P. 1–24.",
+      "Трофимов О. П., Шестакова В. А. Льняное волокно как армирующий материал: свойства и сырьевая база // Технический текстиль и материалы. 2023. № 2. С. 10–24."
+    ],
+    "body": {
+      "intro": [
+        "Натуральные волокна — лён, конопля, джут — обладают низкой плотностью, достаточной удельной прочностью и возобновляемой сырьевой базой. В сочетании с биоразлагаемыми полимерами, такими как полимолочная кислота, они позволяют получать полностью биооснованные композиты.",
+        "Главная проблема таких материалов — гидрофильность волокна, которая ухудшает адгезию к гидрофобной матрице и приводит к водопоглощению и деградации при эксплуатации. Цель работы — сравнить эффективность щелочной и силановой обработки волокна для повышения устойчивости композитов к климатическому старению."
+      ],
+      "methods": [
+        "Использовалось короткое льняное волокно длиной 3–5 мм. Щелочная обработка проводилась 5 %-ным раствором гидроксида натрия в течение 1 ч; силановая — 2 %-ным раствором аминосилана в водно-спиртовой смеси. Композиты с массовой долей волокна 30 % получены горячим прессованием при 185 °C.",
+        "Ускоренное старение проводилось в камере с циклами по 12 ч: 8 ч ультрафиолетового облучения при 60 °C и 4 ч конденсации влаги при 50 °C. Механические испытания на растяжение и изгиб выполнены после 0, 500 и 1000 ч; для каждого режима испытано не менее семи образцов."
+      ],
+      "results": [
+        "Изменение прочности при растяжении в процессе старения показано на рис. 1. Исходно наибольшую прочность имели композиты с щелочной обработкой волокна, однако после 1000 ч их преимущество исчезло.",
+        "Сводные механические характеристики и водопоглощение приведены в табл. 1. Силановая обработка снизила водопоглощение почти вдвое и обеспечила наилучшее сохранение свойств."
+      ],
+      "figure": {"kind": "line", "caption": "Рис. 1. Прочность при растяжении композитов в зависимости от продолжительности старения, МПа", "x": ["0 ч", "250 ч", "500 ч", "750 ч", "1000 ч"], "ylabel": "Прочность, МПа", "series": [{"name": "Без обработки", "values": [58, 51, 45, 40, 36]}, {"name": "Щелочная", "values": [66, 58, 51, 46, 42]}, {"name": "Силановая", "values": [63, 60, 57, 54, 52]}]},
+      "table": {"caption": "Таблица 1. Свойства композитов до и после 1000 ч старения", "head": ["Обработка", "Прочность, МПа (0 ч)", "Прочность, МПа (1000 ч)", "Снижение, %", "Водопоглощение, %"], "rows": [["Без обработки", "58", "36", "38", "6,8"], ["Щелочная", "66", "42", "36", "5,9"], ["Силановая", "63", "52", "17", "3,5"]]},
+      "discussion": [
+        "Повышение исходной прочности после щелочной обработки связано с удалением гемицеллюлоз и увеличением шероховатости волокна, однако гидрофильность волокна при этом сохраняется. Силановая обработка формирует на поверхности волокна гидрофобный слой, химически связанный с матрицей, что объясняет лучшее сохранение свойств при старении.",
+        "Электронная микроскопия поверхностей разрушения подтверждает это: в композитах без обработки после старения наблюдается вытягивание волокон из матрицы, тогда как в силанизированных образцах разрушение происходит преимущественно по волокну."
+      ],
+      "conclusion": [
+        "Силановая обработка льняного волокна существенно повышает устойчивость биокомпозитов на основе полимолочной кислоты к климатическому старению и может быть рекомендована для изделий наружного применения."
+      ]
+    }
+  },
+  {
+    "slug": "sub-school-wellbeing-measures",
+    "stage": "editorial",
+    "section": "REV",
+    "locale": "ru",
+    "title": {"ru": "Измерение благополучия школьников: обзор инструментов и их психометрических свойств", "en": "Measuring Schoolchildren's Wellbeing: A Review of Instruments and Their Psychometric Properties"},
+    "abstract": {
+      "ru": "<p>Благополучие школьников всё чаще рассматривается как самостоятельный результат образования наряду с академическими достижениями, и многие системы образования включают его в программы мониторинга. Вместе с тем понятие благополучия определяется по-разному, а инструменты его измерения существенно различаются по структуре, длине и качеству. В обзоре проанализированы 38 инструментов измерения субъективного благополучия детей и подростков в возрасте 8–18 лет, описанных в 116 публикациях за 2000–2025 гг. Для каждого инструмента оценены теоретическая основа, измеряемые компоненты, возрастной диапазон, доступность русскоязычной версии и психометрические характеристики по стандарту COSMIN: надёжность, структурная валидность, инвариантность измерения и чувствительность к изменениям. Показано, что большинство инструментов опираются на гедонистическую или эвдемоническую модель благополучия либо на их сочетание, а школьное благополучие как отдельный компонент выделяется лишь в трети из них. Надёжность внутренней согласованности приемлема для подавляющего большинства шкал, однако инвариантность измерения между возрастными группами и языковыми версиями проверялась лишь для 11 инструментов. Русскоязычные адаптации доступны для девяти инструментов, но их психометрические свойства изучены неполно. Сформулированы рекомендации по выбору инструментов для школьного мониторинга и намечены направления дальнейшей адаптации.</p>",
+      "en": "<p>Schoolchildren's wellbeing is increasingly regarded as an educational outcome in its own right alongside academic achievement, and many education systems include it in their monitoring programmes. However, wellbeing is defined in different ways, and the instruments used to measure it vary considerably in structure, length and quality. This review analyses 38 instruments for measuring the subjective wellbeing of children and adolescents aged 8–18, described in 116 publications from 2000–2025. For each instrument, the theoretical basis, measured components, age range, availability of a Russian-language version and psychometric properties were assessed according to the COSMIN standard: reliability, structural validity, measurement invariance and responsiveness. Most instruments draw on a hedonic or eudaimonic model of wellbeing or a combination of the two, and school wellbeing is identified as a separate component in only a third of them. Internal consistency is acceptable for the vast majority of scales, but measurement invariance across age groups and language versions has been tested for only 11 instruments. Russian-language adaptations are available for nine instruments, but their psychometric properties have been studied incompletely. Recommendations for selecting instruments for school monitoring are formulated and directions for further adaptation are outlined.</p>"
+    },
+    "keywords": {"ru": ["благополучие школьников", "психометрика", "инструменты измерения", "мониторинг образования", "COSMIN"], "en": ["student wellbeing", "psychometrics", "measurement instruments", "education monitoring", "COSMIN"]},
+    "authors": [
+      {"givenName": {"ru": "Ирина", "en": "Irina"}, "familyName": {"ru": "Федорова", "en": "Fedorova"}, "email": "i.fedorova@example.org", "affiliation": {"ru": "Лесногорский педагогический университет", "en": "Lesnogorsk Pedagogical University"}, "country": "RU", "primaryContact": false},
+      {"givenName": {"ru": "Елизавета", "en": "Elizaveta"}, "familyName": {"ru": "Морозова", "en": "Morozova"}, "email": "e.morozova@example.org", "affiliation": {"ru": "Лесногорский педагогический университет", "en": "Lesnogorsk Pedagogical University"}, "country": "RU", "primaryContact": true}
+    ],
+    "dateSubmitted": "2026-04-27",
+    "citations": [
+      "Diener E. Subjective well-being // Psychological Bulletin. 1984. Vol. 95, no. 3. P. 542–575.",
+      "Ryan R. M., Deci E. L. On happiness and human potentials: a review of research on hedonic and eudaimonic well-being // Annual Review of Psychology. 2001. Vol. 52. P. 141–166.",
+      "Mokkink L. B., Terwee C. B., Patrick D. L. et al. The COSMIN checklist for assessing the methodological quality of studies on measurement properties // Quality of Life Research. 2010. Vol. 19, no. 4. P. 539–549.",
+      "Морозова Е. А. Школьное благополучие: понятие и подходы к измерению // Психология образования и развития. 2024. Т. 11, № 2. С. 15–33.",
+      "Федорова И. С., Морозова Е. А. Адаптация опросника школьного благополучия: первые результаты // Образование и аналитика. 2025. № 3. С. 70–86.",
+      "Kerr A., Lindahl E. Measurement invariance of child wellbeing scales across countries // Child Indicators Review. 2022. Vol. 15, no. 4. P. 1201–1224.",
+      "Bauer S., Okonkwo D. School belonging and life satisfaction in adolescence // Journal of School Psychology Studies. 2021. Vol. 9. P. 88–107."
+    ],
+    "body": {
+      "intro": [
+        "В последние годы всё больше систем образования рассматривают благополучие учащихся как цель, сопоставимую по значимости с академическими результатами. Международные исследования включают вопросы о субъективном благополучии, а национальные и региональные системы мониторинга вводят собственные показатели.",
+        "Многообразие инструментов затрудняет выбор и сравнение результатов. Цель обзора — систематизировать существующие инструменты измерения субъективного благополучия школьников и оценить их психометрическое качество с точки зрения применимости в российских школах."
+      ],
+      "methods": [
+        "Поиск проводился в библиографических базах по психологии и образованию за 2000–2025 гг. Включались публикации, в которых описывается разработка или проверка психометрических свойств инструмента самоотчёта о субъективном благополучии для детей и подростков 8–18 лет. Из 1 420 записей отобрано 116 публикаций, описывающих 38 инструментов.",
+        "Методологическое качество исследований и психометрические свойства оценивались по чек-листу COSMIN двумя экспертами независимо. Для каждого свойства итоговая оценка формировалась как «достаточная», «недостаточная» или «неопределённая»."
+      ],
+      "results": [
+        "Распределение инструментов по теоретической основе и наличию отдельного компонента школьного благополучия представлено в табл. 1. Большинство инструментов многомерны и включают от трёх до семи субшкал.",
+        "Доля инструментов с достаточными доказательствами по каждому психометрическому свойству показана на рис. 1. Наиболее полно изучены надёжность и структурная валидность, наименее — чувствительность к изменениям и инвариантность измерения."
+      ],
+      "figure": {"kind": "hbar", "caption": "Рис. 1. Доля инструментов с достаточными доказательствами по психометрическим свойствам, % (n = 38)", "x": ["Внутренняя согласованность", "Структурная валидность", "Конвергентная валидность", "Ретестовая надёжность", "Инвариантность измерения", "Чувствительность к изменениям"], "ylabel": "Доля инструментов, %", "series": [{"name": "Доля", "values": [89, 66, 58, 37, 29, 13]}]},
+      "table": {"caption": "Таблица 1. Характеристики проанализированных инструментов", "head": ["Теоретическая основа", "Число инструментов", "Со шкалой школьного благополучия", "Русскоязычная версия"], "rows": [["Гедонистическая", "12", "3", "4"], ["Эвдемоническая", "9", "3", "2"], ["Интегративная", "13", "6", "3"], ["Иная / атеоретическая", "4", "1", "0"], ["Всего", "38", "13", "9"]]},
+      "discussion": [
+        "Недостаток данных об инвариантности измерения — главное ограничение для использования инструментов в мониторинге, где результаты сравниваются между возрастными группами, школами и регионами. Без такой проверки различия в баллах могут отражать особенности понимания вопросов, а не реальные различия в благополучии.",
+        "Для российских школ особенно актуальна полноценная валидизация существующих русскоязычных версий, включая проверку инвариантности между начальной, основной и старшей школой."
+      ],
+      "conclusion": [
+        "Существующие инструменты измерения благополучия школьников разнообразны, но их психометрические свойства изучены неравномерно. Для целей мониторинга рекомендуется использовать инструменты с подтверждённой инвариантностью измерения и продолжить валидизацию русскоязычных версий."
+      ]
+    }
+  }
+]

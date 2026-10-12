@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ru\n"
+
+msgid "plugins.themes.academicJournal.name"
+msgstr "Тема «Академический журнал»"
+
+msgid "plugins.themes.academicJournal.description"
+msgstr "Классическая типографская тема для научных журналов: заголовки с засечками, главная страница с миссией журнала, статистикой и текущим выпуском, информативный подвал."
+
+msgid "plugins.themes.academicJournal.option.primaryColour.label"
+msgstr "Основной цвет"
+
+msgid "plugins.themes.academicJournal.option.primaryColour.description"
+msgstr "Используется в шапке, подвале и заголовках. Выбирайте тёмный цвет."
+
+msgid "plugins.themes.academicJournal.option.accentColour.label"
+msgstr "Акцентный цвет"
+
+msgid "plugins.themes.academicJournal.option.accentColour.description"
+msgstr "Используется для ссылок, кнопок и выделений."
+
+msgid "plugins.themes.academicJournal.option.showHero.label"
+msgstr "Блок-приветствие на главной"
+
+msgid "plugins.themes.academicJournal.option.showHero.option"
+msgstr "Показывать блок с миссией журнала и кнопками действий"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.label"
+msgstr "Подзаголовок на главной"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.description"
+msgstr "Краткая миссия журнала для блока-приветствия. Если поле пустое, используется начало описания журнала."
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.label"
+msgstr "Статистика журнала"
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.option"
+msgstr "Показывать на главной количество выпусков, статей и авторов"
+
+msgid "plugins.themes.academicJournal.issnOnline"
+msgstr "ISSN (online)"
+
+msgid "plugins.themes.academicJournal.issnPrint"
+msgstr "ISSN (print)"
+
+msgid "plugins.themes.academicJournal.openAccess"
+msgstr "Открытый доступ"
+
+msgid "plugins.themes.academicJournal.publisher"
+msgstr "Издатель"
+
+msgid "plugins.themes.academicJournal.forReaders"
+msgstr "Читателям"
+
+msgid "plugins.themes.academicJournal.forAuthors"
+msgstr "Авторам"
+
+msgid "plugins.themes.academicJournal.license"
+msgstr "Лицензия"
+
+msgid "plugins.themes.academicJournal.licenseText"
+msgstr "Все статьи публикуются в открытом доступе на условиях лицензии Creative Commons Attribution 4.0 International."
+
+msgid "plugins.themes.academicJournal.kicker"
+msgstr "Рецензируемый журнал открытого доступа"
+
+msgid "plugins.themes.academicJournal.submitManuscript"
+msgstr "Отправить рукопись"
+
+msgid "plugins.themes.academicJournal.readCurrentIssue"
+msgstr "Читать текущий выпуск"
+
+msgid "plugins.themes.academicJournal.aboutJournal"
+msgstr "О журнале"
+
+msgid "plugins.themes.academicJournal.stats.issues"
+msgstr "выпусков опубликовано"
+
+msgid "plugins.themes.academicJournal.stats.articles"
+msgstr "рецензируемых статей"
+
+msgid "plugins.themes.academicJournal.stats.authors"
+msgstr "авторов"
+
+msgid "plugins.themes.academicJournal.stats.peerReview"
+msgstr "рецензирование"
+
+msgid "plugins.themes.academicJournal.stats.peerReviewValue"
+msgstr "Двойное слепое"
+
+msgid "plugins.themes.academicJournal.editorialBoard"
+msgstr "Редакция"
+

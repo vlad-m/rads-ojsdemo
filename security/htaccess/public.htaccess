@@ -1,0 +1,30 @@
+# BEGIN rads-ojsdemo hardening (public/)
+# -----------------------------------------------------------------------------
+# public/ holds files uploaded through the OJS interface (logos, covers,
+# images in rich-text fields). Nothing here may ever be executed.
+# -----------------------------------------------------------------------------
+Options -Indexes -ExecCGI -Includes
+RemoveHandler .php .php3 .php4 .php5 .php7 .php8 .phtml .pht .phar .cgi .pl .py .asp .aspx .jsp .sh
+RemoveType .php .php3 .php4 .php5 .php7 .php8 .phtml .pht .phar
+<IfModule mod_php.c>
+	php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+	php_flag engine off
+</IfModule>
+
+<FilesMatch "(?i)\.(php\d?|phtml|pht|phar|inc|cgi|pl|py|asp|aspx|jsp|sh|exe|bat|htaccess|htpasswd|ini|log|sql)$">
+	Require all denied
+</FilesMatch>
+<FilesMatch "^\.">
+	Require all denied
+</FilesMatch>
+
+# Uploaded SVG/HTML/XML must not run scripts in the site's origin
+<IfModule mod_headers.c>
+	<FilesMatch "(?i)\.(svg|svgz|html?|xhtml|xml)$">
+		Header always set Content-Security-Policy "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; sandbox"
+	</FilesMatch>
+	Header always set X-Content-Type-Options "nosniff"
+</IfModule>
+# END rads-ojsdemo hardening (public/)

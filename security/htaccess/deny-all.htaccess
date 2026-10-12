@@ -1,0 +1,8 @@
+# BEGIN rads-ojsdemo hardening (deny all)
+# This directory must never be served over HTTP.
+Require all denied
+Options -Indexes -ExecCGI
+<IfModule mod_php.c>
+	php_flag engine off
+</IfModule>
+# END rads-ojsdemo hardening (deny all)

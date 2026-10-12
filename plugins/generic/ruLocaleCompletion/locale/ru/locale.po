@@ -1,0 +1,1704 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+msgid "manager.setup.contextSummary.description"
+msgstr "Кратко опишите журнал, чтобы дать представление о его содержании и целях."
+
+msgid "manager.subscriptionPolicies.enableSubscriptionExpiryReminderBeforeMonthsValid"
+msgstr "Пожалуйста, используйте предусмотренный флажок."
+
+msgid "manager.subscriptionPolicies.numMonthsAfterSubscriptionExpiryReminderValid"
+msgstr "Пожалуйста, выберите допустимое количество месяцев после окончания подписки."
+
+msgid "manager.subscriptionPolicies.numMonthsBeforeSubscriptionExpiryReminderValid"
+msgstr "Пожалуйста, выберите допустимое количество месяцев до окончания подписки."
+
+msgid "manager.subscriptionPolicies.numWeeksAfterSubscriptionExpiryReminderValid"
+msgstr "Пожалуйста, выберите допустимое количество недель после окончания подписки."
+
+msgid "manager.subscriptionPolicies.numWeeksBeforeSubscriptionExpiryReminderValid"
+msgstr "Пожалуйста, выберите допустимое количество недель до окончания подписки."
+
+msgid "manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationPurchaseIndividual"
+msgstr "Уведомлять менеджера по подписке по электронной почте об онлайн-покупке индивидуальной подписки."
+
+msgid "manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationPurchaseInstitutional"
+msgstr "Уведомлять менеджера по подписке по электронной почте об онлайн-покупке подписки для организации (рекомендуется)."
+
+msgid "manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationRenewIndividual"
+msgstr "Уведомлять менеджера по подписке по электронной почте об онлайн-продлении индивидуальной подписки."
+
+msgid "manager.subscriptionPolicies.enableSubscriptionOnlinePaymentNotificationRenewInstitutional"
+msgstr "Уведомлять менеджера по подписке по электронной почте об онлайн-продлении подписки для организации."
+
+msgid "manager.subscriptionPolicies.onlinePaymentPurchaseInstitutionalDescription"
+msgstr "<strong>Примечание:</strong> подписки для организаций, купленные онлайн, требуют одобрения указанного домена и диапазонов IP-адресов, а также активации подписки менеджером по подписке."
+
+msgid "manager.subscriptionPolicies.subscriptionAdditionalInformationDescription"
+msgstr "Типы подписок и стоимость будут показаны на странице подписок вместе с именем и контактными данными менеджера по подписке. Здесь можно добавить дополнительную информацию о подписках, например о способах оплаты или о поддержке подписчиков из развивающихся стран."
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact.disabled.description"
+msgstr "Для этого журнала не указано основное контактное лицо. Вы можете указать его в <a href=\"{$url}\">настройках журнала</a>."
+
+msgid "emailTemplate.variable.issue.issueTableOfContents"
+msgstr "Содержание выпуска, например список всех связанных материалов."
+
+msgid "sushi.reports.pr.description"
+msgstr "Сводные данные об активности по всему журналу."
+
+msgid "sushi.reports.pr_p1.description"
+msgstr "Использование на уровне журнала, сгруппированное по Metric_Type."
+
+msgid "sushi.reports.tr.description"
+msgstr "Активность на уровне журнала."
+
+msgid "sushi.reports.tr_j3.description"
+msgstr "Отчет об использовании контента журнала по всем Metric_Type с разбивкой по Access_Type."
+
+msgid "sushi.reports.ir.description"
+msgstr "Активность на уровне статей."
+
+msgid "sushi.reports.ir_a1.description"
+msgstr "Отчеты о запросах статей журнала на уровне статей."
+
+msgid "search.journal"
+msgstr "По журналу"
+
+msgid "acceptInvitation.accountDetails.stepDescription"
+msgstr "Чтобы начать работу с OJS и принять новую роль, вам нужно создать учетную запись. Для этого введите имя пользователя и пароль."
+
+msgid "acceptInvitation.accountDetails.stepLabel"
+msgstr "{$step} — Создание учетной записи OJS"
+
+msgid "acceptInvitation.accountDetails.stepName"
+msgstr "Создание учетной записи OJS"
+
+msgid "acceptInvitation.detailsReview.nextButtonLabel"
+msgstr "Принять и перейти в OJS"
+
+msgid "acceptInvitation.detailsReview.stepDescription"
+msgstr "Проверьте данные, чтобы приступить к новым ролям в OJS"
+
+msgid "acceptInvitation.modal.message"
+msgstr "Поздравляем с новой ролью в OJS! Теперь вам могут быть доступны новые возможности. Если вам нужна помощь в работе с системой, нажимайте кнопку «Справка», доступную по всей системе."
+
+msgid "acceptInvitation.modal.title"
+msgstr "Вам назначена новая роль в OJS"
+
+msgid "acceptInvitation.verifyOrcid.stepDescription"
+msgstr "Вы можете подтвердить свой ORCID iD или пропустить этот шаг. Если вы пропустите его сейчас, то сможете подтвердить ORCID iD позже в разделе профиля в OJS"
+
+msgid "invitation.orcid.acceptInvitation.message"
+msgstr "Не подтвержден. Вы можете подтвердить свой ORCID iD в разделе профиля в OJS."
+
+msgid "invitation.role.masthead"
+msgstr "Состав редакции журнала"
+
+msgid "invitation.wizard.pageTitleDescription"
+msgstr "Вы приглашаете пользователя на роль в OJS с указанием в составе редакции журнала"
+
+msgid "userInvitation.enterDetails.stepDescription"
+msgstr "Вы можете пригласить пользователя на роль в OJS"
+
+msgid "userInvitation.modal.message"
+msgstr "Пользователь {$email} приглашен на новую роль в OJS. Узнать о решении пользователя можно на странице «Пользователи и роли», в уведомлениях OJS и/или по электронной почте"
+
+msgid "userInvitation.roleTable.journalMasthead"
+msgstr "Состав редакции журнала"
+
+msgid "userInvitation.search.userFound"
+msgstr "Пользователь уже существует в журнале"
+
+msgid "userInvitation.search.userNotFound"
+msgstr "У пользователя нет роли в этом журнале"
+
+msgid "userInvitation.searchUser.stepDescription"
+msgstr "Если пользователя нет в системе, вы можете пригласить его на роли. Если пользователь уже есть в системе, вы можете просмотреть его данные и пригласить его на дополнительные роли."
+
+msgid "userInvitation.sendMail.stepDescription"
+msgstr "Отправьте пользователю письмо с информацией о приглашении, дальнейших шагах, политике журнала в отношении GDPR и подтверждении ORCID"
+
+msgid "userAccess.tableHeader.startDate"
+msgstr "Дата начала"
+
+msgid "userAccess.tableHeader.name"
+msgstr "Имя"
+
+msgid "userAccess.search"
+msgstr "Введите имя пользователя, роль (например, редактор журнала) или организацию"
+
+msgid "installer.appKey.keyVariable.missing.instruction"
+msgstr "Добавьте переменную конфигурации `app_key` в раздел `general` вручную или выполните команду `php lib/pkp/tools/appKey.php configure`, чтобы задать ее из командной строки."
+
+msgid "installer.appKey.keyVariable.missing.error"
+msgstr "Переменная конфигурации `app_key` не определена в разделе `general`."
+
+msgid "installer.appKey.keyVariable.alreadyExist.notice"
+msgstr "Переменная конфигурации `app_key` уже определена в разделе `general`."
+
+msgid "installer.appKey.keyVariable.configFile.read.error"
+msgstr "Не удалось прочитать файл конфигурации, или файл отсутствует по ожидаемому пути."
+
+msgid "installer.appKey.keyVariable.configFile.parse.error"
+msgstr "Не удалось разобрать файл конфигурации."
+
+msgid "installer.appKey.keyVariable.configFile.write.error"
+msgstr "Не удалось записать переменную ключа приложения в файл конфигурации."
+
+msgid "installer.appKey.validate.error"
+msgstr "Неподдерживаемый шифр или неверная длина ключа. Поддерживаемые шифры: {$ciphers}."
+
+msgid "installer.appKey.write.error"
+msgstr "Не удалось записать ключ приложения в файл конфигурации."
+
+msgid "installer.appKey.set.value"
+msgstr "Задайте значение `app_key` в разделе `general` файла `config.inc.php` равным {$key} ."
+
+msgid "editor.submission.findAndSelectReviewerFromSuggestions"
+msgstr "Выбрать рецензента из предложенных"
+
+msgid "editor.review.importantDates.notice"
+msgstr "Срок представления рецензии должен быть не раньше срока ответа на запрос."
+
+msgid "editor.review.reviewViewed"
+msgstr "Рецензия просмотрена"
+
+msgid "editor.review.errorAddingReviewer.dateValidationFailed"
+msgstr "Ошибка при добавлении рецензента: срок представления рецензии должен быть не раньше срока ответа на запрос."
+
+msgid "editor.submission.search"
+msgstr "Поиск по материалам, ID, авторам, ключевым словам и т. д."
+
+msgid "editor.submission.days"
+msgstr "Дни"
+
+msgid "editor.submission.daysInStage"
+msgstr "Дней на этапе"
+
+msgid "editor.submission.viewSummary"
+msgstr "Сводка"
+
+msgid "editor.review.logResponse.for"
+msgstr "Записать ответ для"
+
+msgid "editor.review.logResponse"
+msgstr "Записать ответ"
+
+msgid "editor.review.logResponse.form.responseRequired"
+msgstr "Необходимо выбрать ответ"
+
+msgid "editor.review.logResponse.form.option.accepted"
+msgstr "Рецензент принял приглашение к рецензированию"
+
+msgid "editor.review.logResponse.form.option.declined"
+msgstr "Рецензент отклонил приглашение к рецензированию"
+
+msgid "editor.review.logResponse.form.detail"
+msgstr "Записать ответ от имени рецензента"
+
+msgid "editor.review.logResponse.form.subDetail"
+msgstr "Если рецензент связался с вами по электронной почте или иным способом, вы можете записать его ответ за него"
+
+msgid "editor.review.download"
+msgstr "Скачать форму рецензии"
+
+msgid "editor.review.authorOnly"
+msgstr "Показаны разделы только для автора"
+
+msgid "editor.review.allSections"
+msgstr "Форма редактора показывает все разделы рецензии"
+
+msgid "manager.language.websiteLanguages"
+msgstr "Языки сайта"
+
+msgid "manager.language.submissionLanguages"
+msgstr "Языки материалов"
+
+msgid "manager.language.gridAction.addLangauage"
+msgstr "Добавить/удалить языки"
+
+msgid "manager.language.submissionMetadata"
+msgstr "Метаданные"
+
+msgid "manager.language.submission.form.description"
+msgstr "Выберите языки материалов и метаданных."
+
+msgid "manager.language.submission.from.error"
+msgstr "Необходимо выбрать хотя бы один язык."
+
+msgid "manager.setup.reviewOptions.reminders"
+msgstr "Напоминания о рецензировании"
+
+msgid "manager.setup.reviewOptions.reminders.description"
+msgstr "Отправлять напоминание по электронной почте до или после срока ответа на запрос на рецензирование (если рецензент еще не ответил на запрос) или срока представления рецензии (если рецензент еще не представил рецензию)"
+
+msgid "manager.setup.reviewOptions.reminders.response.before"
+msgstr "Ответ на запрос на рецензирование — до срока"
+
+msgid "manager.setup.reviewOptions.reminders.response.after"
+msgstr "Ответ на запрос на рецензирование — после срока"
+
+msgid "manager.setup.reviewOptions.reminders.submit.before"
+msgstr "Представление рецензии — до срока"
+
+msgid "manager.setup.reviewOptions.reminders.submit.after"
+msgstr "Представление рецензии — после срока"
+
+msgid "manager.setup.reviewOptions.reminders.label.before.days"
+msgstr "За {$value} дн. до срока"
+
+msgid "manager.setup.reviewOptions.reminders.label.after.days"
+msgstr "Через {$value} дн. после срока"
+
+msgid "manager.setup.reviewOptions.reminders.min.label"
+msgstr "Нет"
+
+msgid "manager.setup.reviewOptions.reminders.disbale.label"
+msgstr "Напоминание не задано"
+
+msgid "manager.setup.reviewOptions.numReviewsPerSubmission"
+msgstr "Минимальное число подтвержденных рецензий"
+
+msgid "manager.setup.reviewOptions.numReviewsPerSubmission.description"
+msgstr "Минимальное число подтвержденных рецензий, необходимое для материала"
+
+msgid "manager.setup.reviewOptions.reviewerSuggestionEnabled"
+msgstr "Предложение рецензентов при отправке материала"
+
+msgid "manager.setup.reviewOptions.reviewerSuggestionEnabled.description"
+msgstr "Автор может предложить нескольких потенциальных рецензентов перед завершением отправки материала. Это может ускорить процесс рецензирования и дать редакции полезную информацию."
+
+msgid "manager.setup.reviewOptions.reviewerSuggestionEnabled.label"
+msgstr "Разрешить авторам предлагать потенциальных рецензентов при отправке материала"
+
+msgid "manager.setup.workflow.reviewerSuggestionsHelp.description"
+msgstr "Этот текст показывается авторам на шаге предложения рецензентов. Кратко объясните, какую информацию автор должен указать о себе, соавторах и других участниках."
+
+msgid "notification.defaultLocaleSettingsCannotBeSaved"
+msgstr "Не удалось сохранить настройку языка. Все параметры должны быть включены."
+
+msgid "notification.submissionLocales"
+msgstr "Языки материалов обновлены."
+
+msgid "settings.roles.masthead"
+msgstr "Учитывать роль в списке состава редакции"
+
+msgid "settings.roles.permitSettings"
+msgstr "Разрешить изменение настроек"
+
+msgid "manager.setup.appearance.editorialMasthead.description"
+msgstr "Задайте порядок ролей в составе редакции для публичного отображения."
+
+msgid "plugins.importexport.common.error.missingAffiliationName"
+msgstr "У автора {$authorName} не указано название организации на языке материала ({$localeName}). Материал не может быть импортирован без этой информации."
+
+msgid "manager.navigationMenus.editorialMasthead.description"
+msgstr "Ссылка на страницу со всеми действующими членами редакции."
+
+msgid "manager.navigationMenus.items.form.title.required"
+msgstr "Необходимо указать название пункта меню."
+
+msgid "emailTemplate.variable.reviewType"
+msgstr "Описание метода рецензирования по умолчанию, например двойное слепое или открытое"
+
+msgid "manager.setup.editorialMasthead.order.description"
+msgstr "Задайте порядок ролей в составе редакции для публичного отображения."
+
+msgid "manager.setup.editorialMasthead.order.reviewers.description"
+msgstr "Рецензенты будут показаны в этом разделе в стандартном формате для единообразия и удобства поиска."
+
+msgid "manager.setup.editorialMasthead.editorialHistory.description"
+msgstr "Укажите редакционную историю, включая полное имя, организацию, а также даты начала и окончания работы каждого редактора."
+
+msgid "mailable.changeProfileEmailInvitationNotify.name"
+msgstr "Приглашение на смену адреса электронной почты"
+
+msgid "sushi.status.description"
+msgstr "Отчеты об использовании COUNTER для {$contextName}."
+
+msgid "sushi.exception.1"
+msgstr "Запрошенная дата ({$beginDate} или {$endDate}) приходится на середину месяца, однако учитываются только полные месяцы."
+
+msgid "sushi.exception.2"
+msgstr "Запрошенный ID элемента ({$itemId}) не является числом. Этот параметр ожидает ID материала."
+
+msgid "sushi.exception.3"
+msgstr "Параметр item_id содержит более одного значения, однако допускается только одно. Следующие значения не учитываются: item_id={$itemIdValues}"
+
+msgid "sushi.exception.1030.missing"
+msgstr "Отсутствует {$params}."
+
+msgid "sushi.exception.1030.invalid"
+msgstr "Недопустимое значение {$params}."
+
+msgid "sushi.exception.3020.dateFormat"
+msgstr "Недопустимый формат begin_date или end_date."
+
+msgid "sushi.exception.3020.dateRange"
+msgstr "Недопустимый диапазон дат."
+
+msgid "sushi.exception.3030"
+msgstr "Нет данных об использовании за запрошенные даты. Запрос был с {$beginDate} по {$endDate}."
+
+msgid "sushi.exception.3031"
+msgstr "Запрос был с {$beginDate} по {$endDate}, однако данные об использовании доступны только по {$lastDate}."
+
+msgid "sushi.exception.3032"
+msgstr "Запрос был с {$beginDate} по {$endDate}, однако данные об использовании доступны только начиная с {$earliestDate}."
+
+msgid "sushi.exception.3050"
+msgstr "Запрос содержит параметры ({$params}), которые не распознаются в контексте запрашиваемого отчета."
+
+msgid "sushi.exception.3060"
+msgstr "Следующие значения фильтра не поддерживаются: {$filterValues}"
+
+msgid "sushi.exception.3062"
+msgstr "Следующие значения атрибутов не поддерживаются: {$attributeValues}"
+
+msgid "grid.action.addReviewerSuggestion"
+msgstr "Добавить предложенного рецензента"
+
+msgid "grid.action.deleteReviewerSuggestion"
+msgstr "Удалить предложенного рецензента"
+
+msgid "grid.action.deleteReviewerSuggestion.confirmationMessage"
+msgstr "Вы уверены, что хотите удалить это предложение? Это действие нельзя отменить."
+
+msgid "grid.user.userRoles.masthead"
+msgstr "Указывать в составе редакции"
+
+msgid "grid.user.remove"
+msgstr "Удалить пользователя"
+
+msgid "grid.user.logInAs"
+msgstr "Войти как"
+
+msgid "grid.user.enableReasonDescription"
+msgstr "После включения пользователь снова получит доступ к сайту, и вы сможете приглашать его на роли по мере необходимости."
+
+msgid "grid.user.disableReasonDescription"
+msgstr "Обратите внимание: после отключения пользователя вы не сможете назначать его на роли, пока он не будет снова включен."
+
+msgid "emails.changeProfileEmailInvitationNotify.subject"
+msgstr "Подтвердите запрос на смену контактного адреса электронной почты"
+
+msgid "emails.changeProfileEmailInvitationNotify.description"
+msgstr "Это письмо отправляется пользователям, которые запросили смену адреса электронной почты."
+
+msgid "emails.changeProfileEmailInvitationNotify.body"
+msgstr "<p>Здравствуйте, {$recipientName}!</p><p>Вы получили это письмо, потому что кто-то запросил смену вашего адреса электронной почты на {$newEmail}.</p><p>Если этот запрос сделали вы, пожалуйста, <a href=\"{$acceptInvitationUrl}\">подтвердите</a> смену адреса.</p><p>Вы всегда можете <a href=\"{$declineInvitationUrl}\">отклонить</a> эту смену адреса.</p><p>Если у вас есть вопросы о материале или процессе рецензирования, пожалуйста, свяжитесь со мной.</p><p>С уважением,</p>{$siteContactName}"
+
+msgid "emails.orcidRequestUpdateScope.description"
+msgstr "Это письмо отправляется для запроса области доступа OAuth API для членов ORCID."
+
+msgid "emails.orcidRequestUpdateScope.subject"
+msgstr "Запрос обновленного доступа к записи ORCID"
+
+msgid "emails.orcidRequestUpdateScope.body"
+msgstr "Здравствуйте, {$recipientName}!<br>\n<br>\nВы указаны как участник (автор или рецензент) материала «{$submissionTitle}», отправленного в {$contextName}.\n<br>\n<br>\nРанее вы разрешили {$contextName} указывать ваш ORCID id на сайте, а теперь нам требуются обновленные разрешения, чтобы добавить ваш вклад в ваш профиль ORCID.<br>\nПерейдите по ссылке на официальный сайт ORCID, войдите в свой профиль и разрешите доступ, следуя инструкциям.<br>\n<br>\n<a href=\"{$authorOrcidUrl}\" style=\"display: inline-flex; align-items: center; background-color: white; text-align: center; padding: 10px 20px; text-decoration: none; border-radius: 5px; border: 2px solid #d7d4d4;\"><img id=\"orcid-id-logo\" src=\"https://info.orcid.org/wp-content/uploads/2020/12/ORCIDiD_icon16x16.png\" width='16' height='16' alt=\"ORCID iD icon\" style=\"display: block; margin: 0 .5em 0 0; padding: 0; float: left;\"/>Зарегистрировать или подключить ORCID iD</a><br/>\n<br>\n<br>\nНажмите здесь, чтобы обновить вашу учетную запись в ORCID: <a href=\"{$authorOrcidUrl}\">{$authorOrcidUrl}.</a>\n<br>\n<br>\n<a href=\"{$orcidAboutUrl}\">Подробнее об ORCID в {$contextName}</a><br/>\n<br>\n<br>\nЕсли у вас есть вопросы, пожалуйста, свяжитесь со мной.<br>\n<br>\n{$principalContactSignature}<br>\n"
+
+msgid "orcid.orcidRequestAuthorAuthorization.name"
+msgstr "orcidRequestAuthorAuthorization"
+
+msgid "orcid.orcidRequestUpdateScope.name"
+msgstr "orcidRequestUpdateScope"
+
+msgid "orcid.orcidCollectAuthorId.name"
+msgstr "orcidCollectAuthorId"
+
+msgid "mailable.userRoleAssignmentInvitationNotify.name"
+msgstr "Уведомление о приглашении пользователя на роль"
+
+msgid "mailable.userRoleAssignmentInvitationNotify.description"
+msgstr "Это письмо отправляется пользователям, приглашенным на определенные роли"
+
+msgid "emails.userRoleAssignmentInvitationNotify.subject"
+msgstr "Вас приглашают на новые роли"
+
+msgid "emails.userRoleAssignmentInvitationNotify.body"
+msgstr "<div class='email-container'>    <div class='email-header'>        <h2>Приглашение на новую роль</h2>    </div>    <div class='email-content'>        <p>Здравствуйте, {$recipientName}!</p>        <p>Учитывая ваш опыт, {$inviterName} приглашает вас на новые роли в {$contextName}</p>        <p>В {$contextName} мы ценим вашу конфиденциальность. Поэтому мы приняли меры для полного соответствия требованиям GDPR. В частности, вы сами вводите свои данные и выбираете, кто и какую информацию может видеть. Подробнее о том, как мы обрабатываем ваши данные, см. в нашей Политике конфиденциальности.</p>        <div>{$existingRoles}</div>        <div>{$rolesAdded}</div>        <p>После принятия приглашения вы будете перенаправлены в {$contextName}.</p>        <p>Если у вас есть вопросы о процессе, пожалуйста, свяжитесь со мной.</p>        <p><a href='{$acceptUrl}' class='btn btn-accept'>Принять приглашение</a></p>        <p><a href='{$declineUrl}' class='btn btn-decline'>Отклонить приглашение</a></p>        <p>С уважением,</p>        <p>{$contextName}</p>    </div></div><style>{$emailTemplateStyle}</style>"
+
+msgid "emails.userRoleAssignmentInvitationNotify.userGroupSection"
+msgstr "<div class='section'>    <div class='section-number'>{$sectionNumber}.</div>    <div class='section-content'>        <h2>{$sectionName}</h2>        <p>Начиная с {$dateStart}</p>        <p>{$sectionEndingDate}</p>        <p>{$sectionMastheadAppear}</p>    </div></div>"
+
+msgid "mailable.userRoleEndNotify.name"
+msgstr "Уведомление о прекращении роли пользователя"
+
+msgid "mailable.userRoleEndNotify.description"
+msgstr "Уведомление по электронной почте, отправляемое пользователю, когда его снимают с роли."
+
+msgid "emails.userRoleEndNotify.subject"
+msgstr "Вы сняты с роли"
+
+msgid "emails.userRoleEndNotify.body"
+msgstr "<div class='email-container'>    <div class='email-header'>        <h2>Снятие с роли</h2>    </div>    <div class='email-content'>        <p>Здравствуйте, {$recipientName}!</p>        <p>Большое спасибо за ваше участие в роли «{$roleRemoved}» в {$contextName}.</p>        <p>Сообщаем, что вы сняты со следующей роли в {$contextName}: <b>{$roleRemoved}</b>.</p>        <p>Ваша учетная запись в {$contextName} по-прежнему активна, как и все другие роли, которые у вас были ранее.</p>        <p>Если у вас есть вопросы о процессе, пожалуйста, свяжитесь со мной.</p>        <p>С уважением,</p>        <p>{$contextName}</p>    </div></div><style>{$emailTemplateStyle}</style>"
+
+msgid "emailTemplate.variable.userRoleEnd.roleRemoved"
+msgstr "Название роли пользователя, с которой он снят"
+
+msgid "emails.userRoleAssignmentInvitationNotify.userGroupSectionEndingDate"
+msgstr "Окончание: {$dateEnd}"
+
+msgid "emails.userRoleAssignmentInvitationNotify.userGroupSectionWillNotAppear"
+msgstr "Ваше имя не будет указано в составе редакции {$contextName} в роли «{$sectionName}»."
+
+msgid "emails.userRoleAssignmentInvitationNotify.userGroupSectionWillAppear"
+msgstr "Ваше имя будет указано в составе редакции {$contextName} в роли «{$sectionName}»."
+
+msgid "emails.userRoleAssignmentInvitationNotify.newlyAssignedRoles"
+msgstr "<p><h2>Новые назначенные роли</h2></p>"
+
+msgid "emails.userRoleAssignmentInvitationNotify.alreadyAssignedRoles"
+msgstr "<p><h2>Уже назначенные роли</h2></p>"
+
+msgid "emailTemplate.variable.invitation.recipientName"
+msgstr "Имя получателя приглашения"
+
+msgid "emailTemplate.variable.invitation.inviterName"
+msgstr "Имя отправителя приглашения"
+
+msgid "emailTemplate.variable.invitation.inviterRole"
+msgstr "Роль отправителя приглашения"
+
+msgid "emailTemplate.variable.invitation.rolesAdded"
+msgstr "В этом разделе описаны роли, которые будут добавлены пользователю после принятия приглашения"
+
+msgid "emailTemplate.variable.invitation.existingRoles"
+msgstr "В этом разделе описаны роли, которые уже есть у пользователя."
+
+msgid "emailTemplate.variable.invitation.acceptUrl"
+msgstr "URL для принятия приглашения"
+
+msgid "emailTemplate.variable.invitation.declineUrl"
+msgstr "URL для отклонения приглашения"
+
+msgid "admin.scheduledTask.UpdateRorRegistryDataset"
+msgstr "Обновить кэш набора данных реестра ROR"
+
+msgid "admin.scheduledTask.removeExpiredInvitations"
+msgstr "Запустить задание для автоматического удаления просроченных приглашений"
+
+msgid "admin.cli.tool.appKey.options.usage.description"
+msgstr "Показать параметры использования AppKey"
+
+msgid "admin.cli.tool.appKey.options.validate.description"
+msgstr "Проверить текущий ключ приложения, если он найден в файле конфигурации"
+
+msgid "admin.cli.tool.appKey.options.configure.description"
+msgstr "Добавить переменную конфигурации app_key в файл config.inc.php."
+
+msgid "admin.cli.tool.appKey.options.generate.description"
+msgstr "Сгенерировать новый ключ приложения и заменить его в файле конфигурации. Используйте флаг --show только для просмотра и --force для перезаписи существующего действительного ключа."
+
+msgid "admin.cli.tool.appKey.mean.those"
+msgstr "Возможно, вы имели в виду одно из следующих?"
+
+msgid "admin.cli.tool.appKey.show"
+msgstr "Сгенерированный ключ приложения: {$appKey}"
+
+msgid "admin.cli.tool.appKey.error.missingKeyVariable"
+msgstr "В разделе `general` файла конфигурации не определена переменная ключа `app_key`. Обновите раздел general файла конфигурации, добавив строку `app_key = `, или выполните команду `php lib/pkp/tools/appKey.php configure`, чтобы задать ее."
+
+msgid "admin.cli.tool.appKey.error.alreadyKeyVariableExists"
+msgstr "Переменная `app_key` уже существует в разделе `general` файла конфигурации. Выполните команду `php lib/pkp/tools/appKey.php generate`, чтобы задать новый ключ приложения."
+
+msgid "admin.cli.tool.appKey.error.missingAppKey"
+msgstr "В файле конфигурации не задан ключ приложения."
+
+msgid "admin.cli.tool.appKey.error.InvalidAppKey"
+msgstr "Задан недействительный ключ приложения: неподдерживаемый шифр или неверная длина ключа. Поддерживаемые шифры: {$ciphers}."
+
+msgid "admin.cli.tool.appKey.warning.replaceValidKey"
+msgstr "В файле конфигурации уже задан действительный ключ приложения. Для перезаписи укажите в команде флаг --force."
+
+msgid "admin.cli.tool.appKey.success.writtenToConfig"
+msgstr "Ключ приложения успешно задан в файле конфигурации."
+
+msgid "admin.cli.tool.appKeyVariable.success.writtenToConfig"
+msgstr "Переменная ключа приложения успешно задана в файле конфигурации. Выполните команду `php lib/pkp/tools/appKey.php generate`, чтобы задать новый ключ приложения."
+
+msgid "admin.cli.tool.appKeyVariable.error.writtenToConfig"
+msgstr "Не удалось задать переменную `app_key` в файле конфигурации. Обновите раздел general файла конфигурации, добавив строку `app_key = `."
+
+msgid "admin.cli.tool.appKey.success.valid"
+msgstr "В файле конфигурации задан действительный ключ приложения"
+
+msgid "admin.cli.tool.scheduler.options.run.description"
+msgstr "Запустить планировщик."
+
+msgid "admin.cli.tool.scheduler.options.list.description"
+msgstr "Показать все запланированные задачи."
+
+msgid "admin.cli.tool.scheduler.options.work.description"
+msgstr "Запустить обработчик расписания."
+
+msgid "admin.cli.tool.scheduler.options.test.description"
+msgstr "Запустить определенную запланированную задачу из списка или указать --name для запуска конкретной задачи. Установите флаг --no-scroll, чтобы просмотреть весь список без прокрутки."
+
+msgid "admin.cli.tool.scheduler.options.usage.description"
+msgstr "Показать параметры использования планировщика."
+
+msgid "admin.cli.tool.scheduler.maintenance.message"
+msgstr "Невозможно запустить запланированные задачи, так как включен режим обслуживания приложения."
+
+msgid "admin.cli.tool.scheduler.mean.those"
+msgstr "Возможно, вы имели в виду одно из следующих?"
+
+msgid "admin.cli.tool.schedule.sandbox.message"
+msgstr "Невозможно запустить запланированные задачи, так как включен режим песочницы приложения."
+
+msgid "admin.cli.tool.scheduler.options.work.running.info"
+msgstr "Запланированные задачи выполняются каждую минуту."
+
+msgid "admin.cli.tool.scheduler.tasks.empty"
+msgstr "Запланированные задачи не зарегистрированы."
+
+msgid "admin.cli.tool.scheduler.tasks.notFound"
+msgstr "Подходящая запланированная задача не найдена."
+
+msgid "admin.cli.tool.scheduler.run.prompt"
+msgstr "Какую команду вы хотите запустить?"
+
+msgid "default.groups.name.editorialBoardMember"
+msgstr "Член редакционной коллегии"
+
+msgid "default.groups.plural.editorialBoardMember"
+msgstr "Члены редакционной коллегии"
+
+msgid "default.groups.abbrev.editorialBoardMember"
+msgstr "ЧРК"
+
+msgid "default.submission.step.reviewerSuggestions"
+msgstr "<p>При отправке материала вы можете предложить нескольких потенциальных рецензентов. Это может ускорить процесс рецензирования и дать редакции полезную информацию. Пожалуйста, выбирайте рецензентов, которые являются экспертами в вашей области и не имеют конфликта интересов в отношении вашей работы. Эта функция призвана улучшить процесс рецензирования и сделать его более эффективным как для авторов, так и для редакции.</p>"
+
+msgid "author.authorNotFound"
+msgstr "Автор, связанный с этой организацией, не найден."
+
+msgid "author.affiliationRorAndNameEmpty"
+msgstr "Укажите организацию из ROR или хотя бы одно название организации."
+
+msgid "author.affiliationNamePrimaryLocaleMissing"
+msgstr "Укажите название организации на основном языке материала."
+
+msgid "publication.editorEditWarning"
+msgstr "Внимание: эта версия опубликована. Ее редактирование может повлиять на опубликованный контент."
+
+msgid "ror.nameRequired"
+msgstr "Необходимо указать название ROR."
+
+msgid "ror.displayLocaleRequired"
+msgstr "Необходимо указать язык отображения ROR."
+
+msgid "submission.wizard.submissionCancelled"
+msgstr "Отправка материала отменена"
+
+msgid "submission.wizard.submissionCancel"
+msgstr "Отменить отправку"
+
+msgid "submission.wizard.submissionCancelled.description"
+msgstr "Отправка материала отменена, все связанные данные удалены."
+
+msgid "submission.forReviewerSuggestion"
+msgstr "Для предложенного рецензента"
+
+msgid "submission.reviewerSuggestions"
+msgstr "Предложенные рецензенты"
+
+msgid "editor.submission.roundStatus.recommendationMadeByYou"
+msgstr "Вы дали рекомендацию."
+
+msgid "editor.submission.reviewerSuggestions"
+msgstr "Рецензенты, предложенные автором"
+
+msgid "editor.submission.decision.reviewerUnassigned.notifyReviewers.description"
+msgstr "Отправить письмо назначенным рецензентам, чтобы сообщить им, что их задание на рецензию отменено."
+
+msgid "submission.review.status.viewed"
+msgstr "Редактор просмотрел рецензию."
+
+msgid "submission.list.changeSubmissionLanguage.currentLanguage"
+msgstr "Текущий язык материала:"
+
+msgid "submission.list.changeSubmissionLanguage.buttonLabel"
+msgstr "Изменить"
+
+msgid "submission.list.changeSubmissionLanguage.title"
+msgstr "Изменить язык материала для"
+
+msgid "submission.list.changeSubmissionLanguage.languageDescription"
+msgstr "Это основной язык материала. Его изменение повлияет на материал и введенные метаданные"
+
+msgid "submission.list.changeSubmissionLanguage.metadataDescription"
+msgstr "<strong>Перед изменением языка материала убедитесь, что заполнены следующие поля метаданных, чтобы сохранить целостность данных в системе. Также учтите, что сведения об авторах и имена файлов будут скопированы из ранее введенной информации.</strong>"
+
+msgid "submission.list.changeSubmissionLanguage.metadataDescription.title"
+msgstr "Введите здесь название материала на языке: {$language}. Название можно отформатировать по необходимости"
+
+msgid "submission.list.changeSubmissionLanguage.metadataDescription.abstract"
+msgstr "Рекомендуется добавить аннотацию на языке: {$language}. Это помогает обеспечить доступность контента"
+
+msgid "submission.list.viewSubmissionSummary"
+msgstr "Просмотреть сводку материала"
+
+msgid "submission.list.completeSubmission"
+msgstr "Завершить отправку"
+
+msgid "submission.wizard.cancel.confirmation"
+msgstr "Вы уверены, что хотите отменить отправку этого материала? Материал и все связанные данные будут удалены. Это действие нельзя отменить."
+
+msgid "submission.wizard.noReviewerSuggestions"
+msgstr "Для этого материала не предложено ни одного рецензента."
+
+msgid "submission.wizard.missingContributorAffiliationLanguage"
+msgstr "У одного или нескольких авторов для одной или нескольких организаций отсутствует название на языке: {$language}."
+
+msgid "submission.dashboard.view.assigned"
+msgstr "Назначенные мне"
+
+msgid "submission.dashboard.view.active"
+msgstr "Активные материалы"
+
+msgid "submission.dashboard.view.needsEditor"
+msgstr "Требуется редактор"
+
+msgid "submission.dashboard.view.submissionStageAll"
+msgstr "Все на этапе подачи"
+
+msgid "submission.dashboard.view.reviewExternal"
+msgstr "Все на рецензировании"
+
+msgid "submission.dashboard.view.reviewAll"
+msgstr "Все на этапе рецензирования"
+
+msgid "submission.dashboard.view.needsReviews"
+msgstr "Требуются рецензии"
+
+msgid "submission.dashboard.view.awaitingReviews"
+msgstr "Ожидают рецензий"
+
+msgid "submission.dashboard.view.reviewsSubmitted"
+msgstr "Рецензии представлены"
+
+msgid "submission.dashboard.view.reviewsOverdue"
+msgstr "Рецензии просрочены"
+
+msgid "submission.dashboard.view.copyediting"
+msgstr "Все на этапе литературного редактирования"
+
+msgid "submission.dashboard.view.production"
+msgstr "Все на этапе публикации"
+
+msgid "submission.dashboard.view.scheduled"
+msgstr "Запланированы к публикации"
+
+msgid "submission.dashboard.view.published"
+msgstr "Опубликованные"
+
+msgid "submission.dashboard.view.declined"
+msgstr "Отклоненные"
+
+msgid "submission.dashboard.view.revisionsRequested"
+msgstr "Запрошены исправления"
+
+msgid "submission.dashboard.view.revisionsSubmitted"
+msgstr "Исправления от автора получены"
+
+msgid "submission.dashboard.view.incompleteSubmissions"
+msgstr "Незавершенные материалы"
+
+msgid "submission.dashboard.view.reviewerAssignmentsAll"
+msgstr "Все задания"
+
+msgid "submission.dashboard.view.reviewerAssignmentsPending"
+msgstr "Ожидающие"
+
+msgid "submission.dashboard.view.reviewerAssignmentsFinished"
+msgstr "Завершенные / отклоненные"
+
+msgid "submission.dashboard.view.reviewAssignments.all"
+msgstr "Все задания"
+
+msgid "submission.dashboard.view.reviewAssignments.actionRequired"
+msgstr "Требуют моих действий"
+
+msgid "submission.dashboard.view.reviewAssignments.archived"
+msgstr "Архив"
+
+msgid "submission.dashboard.view.reviewAssignments.declined"
+msgstr "Отклоненные"
+
+msgid "submission.dashboard.view.reviewAssignments.completed"
+msgstr "Завершенные"
+
+msgid "submission.dashboard.view.reviewAssignments.published"
+msgstr "Опубликованные"
+
+msgid "submission.stage.externalReviewWithRound"
+msgstr "Рецензирование (раунд {$round})"
+
+msgid "submission.stage.scheduledForPublication"
+msgstr "Запланирован к публикации"
+
+msgid "submission.stage.published"
+msgstr "Опубликован"
+
+msgid "publication.jats"
+msgstr "JATS XML"
+
+msgid "publication.jats.confirmDeleteFileTitle"
+msgstr "Подтвердите удаление JATS XML"
+
+msgid "publication.jats.confirmDeleteFileMessage"
+msgstr "Вы собираетесь удалить существующий файл JATS XML из этой публикации. Вы уверены?"
+
+msgid "publication.jats.confirmDeleteFileButton"
+msgstr "Удалить файл JATS"
+
+msgid "publication.jats.autoCreatedMessage"
+msgstr "Этот файл JATS создан автоматически на основе метаданных материала"
+
+msgid "publication.jats.lastModified"
+msgstr "Последнее изменение: {$modificationDate}, пользователь {$username}"
+
+msgid "publication.jats.defaultContentCreationError"
+msgstr "При создании содержимого JATS по умолчанию произошла ошибка. Убедитесь, что установлен модуль JatsTemplate."
+
+msgid "submission.files.content.error"
+msgstr "Не удалось получить содержимое файла материала «{$fileName}»."
+
+msgid "reviewerSuggestion.suggestionReason"
+msgstr "Причины, по которым предлагается рецензент"
+
+msgid "reviewerSuggestion.suggestionReason.description"
+msgstr "Пожалуйста, объясните, почему вы рекомендуете этого рецензента, и укажите, есть ли потенциальный конфликт интересов."
+
+msgid "submission.localeNotSupported"
+msgstr "Язык материала ({$language}) не входит в число поддерживаемых языков материалов. Вы по-прежнему можете редактировать данные материала, но новые материалы на этом языке сейчас не принимаются."
+
+msgid "dashboard.reviewersAssigned"
+msgstr "Рецензенты назначены"
+
+msgid "dashboard.reviewUpdateCounts"
+msgstr "Ход рецензирования: {$reviewsCompletedCount}/{$reviewsTotalCount}"
+
+msgid "dashboard.applyFilters"
+msgstr "Применить фильтры"
+
+msgid "dashboard.startNewSubmission"
+msgstr "Начать новую отправку материала"
+
+msgid "dashboard.assignReviewers"
+msgstr "Назначить рецензентов"
+
+msgid "dashboard.revisionRequestedFromAuthor"
+msgstr "У автора запрошены исправления"
+
+msgid "dashboard.revisionsRequestedFromAuthorNextRound"
+msgstr "У автора запрошены исправления для нового раунда рецензирования"
+
+msgid "dashboard.newReviewRoundToBeCreated"
+msgstr "Будет создан новый раунд рецензирования"
+
+msgid "dashboard.toBePublishedInIssue"
+msgstr "Будет опубликован в выпуске {$issue}"
+
+msgid "dashboard.copyEditedFilesUploaded"
+msgstr "Загружено отредактированных файлов: {$count}"
+
+msgid "dashboard.revisionRequested"
+msgstr "Запрошены исправления"
+
+msgid "dashboard.submitRevisions"
+msgstr "Отправить исправления"
+
+msgid "workflow.uploadRevisions"
+msgstr "Загрузить исправления"
+
+msgid "dashboard.actions.respondToRequest"
+msgstr "Ответить на запрос"
+
+msgid "dashboard.actions.finishReview"
+msgstr "Завершить рецензию"
+
+msgid "dashboard.reviewAssignment.acceptOrDeclineRequestDate"
+msgstr "Пожалуйста, примите или отклоните этот запрос до {$date}"
+
+msgid "dashboard.reviewAssignment.declined"
+msgstr "Запрос отклонен {$date}"
+
+msgid "dashboard.reviewAssignment.reviewSubmitted"
+msgstr "Рецензия представлена {$date}"
+
+msgid "dashboard.reviewAssignment.deadlineForRespondingAcceptOrDecline"
+msgstr "Срок ответа на этот запрос истек. Пожалуйста, примите или отклоните запрос как можно скорее."
+
+msgid "dashboard.reviewAssignment.completeReviewByDate"
+msgstr "Пожалуйста, завершите эту рецензию до {$date}."
+
+msgid "dashboard.reviewAssignment.deadlineForCompletingReviewHasPassed"
+msgstr "Срок завершения этой рецензии истек. Пожалуйста, завершите рецензию как можно скорее."
+
+msgid "dashboard.reviewAssignment.statusAwaitingResponse.title"
+msgstr "Ожидается ответ рецензента"
+
+msgid "dashboard.reviewAssignment.statusAwaitingResponse.description"
+msgstr "Запрос на рецензирование отправлен рецензенту. Ответ ожидается через <b>{$days} дн., {$date}</b>"
+
+msgid "dashboard.reviewAssignment.statusDeclined.title"
+msgstr "Запрос на рецензирование отклонен {$date}"
+
+msgid "dashboard.reviewAssignment.statusDeclined.description"
+msgstr "Рецензент отклонил запрос на рецензирование <b>{$date}</b>"
+
+msgid "dashboard.reviewAssignment.statusResponseOverdue.title"
+msgstr "Ответ на запрос просрочен на {$days} дн."
+
+msgid "dashboard.reviewAssignment.statusResponseOverdue.description"
+msgstr "Рецензент не ответил на запрос на рецензирование. Срок ответа: <b>{$date}</b>"
+
+msgid "dashboard.reviewAssignment.statusAccepted.title"
+msgstr "Идет рецензирование — запрос принят"
+
+msgid "dashboard.reviewAssignment.statusAccepted.description"
+msgstr "Рецензент принял запрос на рецензирование. Рецензия ожидается через <b>{$days} дн., {$date}.</b>"
+
+msgid "dashboard.reviewAssignment.statusReviewOverdue.title"
+msgstr "Рецензия просрочена на {$days} дн."
+
+msgid "dashboard.reviewAssignment.statusReviewOverdue.description"
+msgstr "Рецензент не завершил рецензию. Срок был: <b>{$date}.</b>"
+
+msgid "dashboard.reviewAssignment.statusReceived.title"
+msgstr "Рецензия завершена {$date}"
+
+msgid "dashboard.reviewAssignment.statusReceived.description"
+msgstr "Рецензия завершена {$date} со следующей рекомендацией: <b>{$recommendation}</b>"
+
+msgid "dashboard.reviewAssignment.statusReceived.withoutRecommendation.description"
+msgstr "Рецензия завершена {$date}"
+
+msgid "dashboard.reviewAssignment.statusComplete.title"
+msgstr "Рецензия подтверждена редактором"
+
+msgid "dashboard.reviewAssignment.statusComplete.description"
+msgstr "Рецензия принята редактором <b>{$date}</b>."
+
+msgid "dashboard.reviewAssignment.statusCancelled.title"
+msgstr "Рецензент отменил запрос на рецензирование"
+
+msgid "dashboard.reviewAssignment.statusCancelled.description"
+msgstr "Рецензент отменил запрос на рецензирование <b>{$date}</b>."
+
+msgid "dashboard.reviewAssignment.statusRequestResend.title"
+msgstr "Ожидается ответ рецензента"
+
+msgid "dashboard.reviewAssignment.statusRequestResend.description"
+msgstr "Запрос на рецензирование отправлен рецензенту повторно. Ответ ожидается через {$days} дн., {$date}"
+
+msgid "dashboard.reviewAssignment.action.viewDetails"
+msgstr "Подробнее"
+
+msgid "dashboard.reviewAssignment.action.resendReviewRequest"
+msgstr "Отправить запрос на рецензирование повторно"
+
+msgid "dashboard.reviewAssignment.action.cancelReviewer"
+msgstr "Отменить рецензента"
+
+msgid "dashboard.reviewAssignment.action.unassignReviewer"
+msgstr "Отменить назначение"
+
+msgid "dashboard.reviewAssignment.action.editDueDate"
+msgstr "Изменить срок"
+
+msgid "dashboard.reviewAssignment.action.viewRecommendation"
+msgstr "Просмотреть рекомендацию"
+
+msgid "dashboard.reviewAssignment.action.viewUnreadRecommendation"
+msgstr "Просмотреть непрочитанную рекомендацию"
+
+msgid "dashboard.reviewAssignment.action.sendReviewToOrcid"
+msgstr "Отправить рецензию в ORCID"
+
+msgid "dashboard.reviewAssignment.action.sendReviewToOrcid.confirm"
+msgstr "Отправить эту рецензию в ORCID рецензента?"
+
+msgid "dashboard.declinedDuringStage"
+msgstr "Отклонен на этапе «{$stageName}»."
+
+msgid "dashboard.recommendOnly.pendingRecommendations"
+msgstr "Редакторы с правом рекомендации должны дать совет о дальнейших шагах по этому материалу"
+
+msgid "dashboard.recommendOnly.recommendationsReady"
+msgstr "Получена рекомендация редактора"
+
+msgid "dashboard.recommendOnly.recommendationsCompleted"
+msgstr "Все рекомендации редакторов получены, требуется решение."
+
+msgid "dashboard.noAccessBeingAuthor"
+msgstr "Вы не можете открыть этот материал как управляющий журнала, поскольку являетесь его автором. Чтобы просмотреть его, перейдите в раздел «Мои материалы»"
+
+msgid "dashboard.noAccessBeingReviewer"
+msgstr "Вы не можете открыть этот материал как управляющий журнала, поскольку являетесь его рецензентом. Чтобы просмотреть его, перейдите в раздел «Задания на рецензию»"
+
+msgid "dashboard.minimumReviewsConfirmedDecisionNeeded"
+msgstr "Минимальное необходимое число рецензий подтверждено. Требуется решение."
+
+msgid "dashboard.minimumConfirmedReviewsRequired"
+msgstr "Минимальное необходимое число подтвержденных рецензий: {$number}."
+
+msgid "dashboard.proceedWithoutMinimumReviews"
+msgstr "Продолжить без минимального числа подтвержденных рецензий?"
+
+msgid "dashboard.minimumConfirmedReviewsNotMet"
+msgstr "Минимальное число подтвержденных рецензий не достигнуто. Вы все равно хотите принять это редакторское решение?"
+
+msgid "participantManager.onlyAllowedToRecommend"
+msgstr "Разрешено только рекомендовать редакторское решение"
+
+msgid "workflow.stageNotStarted"
+msgstr "Этап «{$stage}» еще не начат."
+
+msgid "workflow.submissionInFutureStage"
+msgstr "Материал сейчас находится на этапе «{$stage}»."
+
+msgid "workflow.submissionNextReviewRoundInFutureStage"
+msgstr "Материал перешел в следующий раунд рецензирования, был принят и сейчас находится на этапе «{$stage}»."
+
+msgid "workflow.submissionInNextReviewRound"
+msgstr "Материал переведен в следующий раунд рецензирования"
+
+msgid "workflow.reviewRoundN"
+msgstr "Раунд рецензирования {$number}"
+
+msgid "fileManager.submissionFilesDescription"
+msgstr "Файлы, загруженные при отправке материала"
+
+msgid "fileManager.revisionsUploaded"
+msgstr "Исправления загружены"
+
+msgid "fileManager.revisionsUploadedDescription"
+msgstr "Эти файлы отправлены автором после запроса исправлений"
+
+msgid "fileManager.filesForReview"
+msgstr "Файлы для рецензирования"
+
+msgid "fileManager.filesForReviewDescription"
+msgstr "Эти файлы будут отправлены рецензентам на рецензирование"
+
+msgid "fileManager.copyeditedFiles"
+msgstr "Отредактированные файлы"
+
+msgid "fileManager.copyeditedFilesDescription"
+msgstr "Это отредактированные файлы, которые будут переданы на этап публикации"
+
+msgid "fileManager.draftFilesDescription"
+msgstr "Это файлы с этапа рецензирования, предназначенные для литературного редактирования"
+
+msgid "fileManager.productionReadyFilesDescription"
+msgstr "Это файлы, которые будут отправлены на публикацию"
+
+msgid "reviewerManager.reviewerStatus"
+msgstr "Статус рецензента"
+
+msgid "dashboard.submissions.incomplete.bulkDelete.confirm"
+msgstr "Подтвердите удаление незавершенных материалов"
+
+msgid "dashboard.submissions.incomplete.bulkDelete.body"
+msgstr "Вы уверены, что хотите удалить выбранные элементы? Это действие нельзя отменить. Подтвердите, чтобы продолжить."
+
+msgid "dashboard.submissions.incomplete.bulkDelete.column.description"
+msgstr "Выберите незавершенные материалы для удаления."
+
+msgid "dashboard.submissions.incomplete.bulkDelete.button"
+msgstr "Удалить незавершенные материалы"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.notExisting"
+msgstr "Необходимо указать хотя бы одну добавляемую группу пользователей"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupAssignedToUser"
+msgstr "Эта группа пользователей уже назначена приглашенному пользователю"
+
+msgid "invitation.userRoleAssignment.validation.error.removeUserRoles.notExisting"
+msgstr "Необходимо указать хотя бы одну удаляемую группу пользователей"
+
+msgid "invitation.userRoleAssignment.validation.error.removeUserRoles.cantRemoveFromNonExistingUser"
+msgstr "Удаление ролей нельзя задать для несуществующих пользователей."
+
+msgid "invitation.userRoleAssignment.validation.error.noUserGroupChanges"
+msgstr "Приглашение не может быть отправлено, так как вы не указали никаких изменений групп пользователей"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.duplicateUserGroupId"
+msgstr "Указанные группы пользователей содержат повторяющиеся записи."
+
+msgid "invitation.userRoleAssignment.validation.error.username.alreadyExisting"
+msgstr "Пользователь с именем {$username} уже существует. Попробуйте другое имя."
+
+msgid "invitation.userRoleAssignment.validation.error.user.mustExist"
+msgstr "Если приглашению назначен ID пользователя ({$userId}), соответствующий пользователь должен существовать."
+
+msgid "invitation.userRoleAssignment.validation.error.user.emailMustNotExist"
+msgstr "Если приглашению назначен адрес электронной почты ({$email}), этот адрес не должен использоваться другим пользователем."
+
+msgid "invitation.userRoleAssignment.validation.error.username.mandatory"
+msgstr "Необходимо указать имя пользователя"
+
+msgid "invitation.userRoleAssignment.validation.error.password.mandatory"
+msgstr "Необходимо указать пароль"
+
+msgid "invitation.userRoleAssignment.validation.error.affiliation.mandatory"
+msgstr "Необходимо указать организацию"
+
+msgid "invitation.userRoleAssignment.validation.error.country.mandatory"
+msgstr "Необходимо указать страну"
+
+msgid "invitation.userRoleAssignment.validation.error.givenName.mandatory"
+msgstr "Необходимо указать имя"
+
+msgid "invitation.userRoleAssignment.validation.error.familyName.mandatory"
+msgstr "Необходимо указать фамилию"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupIdMandatory"
+msgstr "Для добавляемых групп пользователей необходимо указать ID группы"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.dateStartMandatory"
+msgstr "Для добавляемых групп пользователей необходимо указать дату начала"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.mastheadMandatory"
+msgstr "Для добавляемых групп пользователей необходимо указать параметр состава редакции"
+
+msgid "invitation.api.error.invitationTypeNotHasMailable"
+msgstr "Для этого типа приглашения не определен шаблон письма"
+
+msgid "invitation.api.error.operationFailed"
+msgstr "Операция с приглашением не удалась"
+
+msgid "invitation.userRoleAssignment.validation.error.addUserRoles.userGroupNotExisting"
+msgstr "Указанный ID группы пользователей {$userGroupId} не существует"
+
+msgid "invitation.validation.required"
+msgstr "Поле {$attribute} обязательно для заполнения."
+
+msgid "invitation.userRoleAssignment.validation.error.userRoles.unexpectedProperties"
+msgstr "В элементе с индексом {$attribute} найдены неожиданные свойства: {$properties}."
+
+msgid "invitation.reviewerAccess.validation.error.reviewAssignmentId.notExisting"
+msgstr "ID {reviewAssignmentId} не соответствует действительному заданию на рецензию"
+
+msgid "invitation.api.error.invitationCantBeCanceled"
+msgstr "Это приглашение нельзя отменить"
+
+msgid "invitation.api.error.initialization.noUserIdAndEmailTogether"
+msgstr "Нельзя одновременно указывать email и userId."
+
+msgid "invitation.userRoleAssignment.error.update.prohibitedForExistingUser"
+msgstr "Доступ к этому атрибуту запрещен для существующих пользователей"
+
+msgid "invitation.userRoleAssignment.error.update.prohibitedForNonExistingUser"
+msgstr "Доступ к этому атрибуту запрещен для несуществующих пользователей"
+
+msgid "invitation.userRoleAssignment.userGroup.startDate.mustBeAfterToday"
+msgstr "Значение этого атрибута должно быть не раньше сегодняшней даты"
+
+msgid "invitation.validation.error.propertyProhibited"
+msgstr "Поле :attribute запрещено"
+
+msgid "invitation.userRoleAssignment.validation.error.multilingual.primaryLocaleRequired"
+msgstr "Необходимо указать значение для языка '{$primaryLocale}'"
+
+msgid "invitation.step"
+msgstr "ШАГ"
+
+msgid "invitation.header"
+msgstr "Приглашения"
+
+msgid "invitation.inviteToRole.btn"
+msgstr "Пригласить на роль"
+
+msgid "invitation.wizard.pageTitle"
+msgstr "Пригласить пользователя на роль"
+
+msgid "userInvitation.enterDetailsLabel"
+msgstr "Ввод данных"
+
+msgid "userInvitation.reviewAndInviteLabel"
+msgstr "Проверка и приглашение на роли"
+
+msgid "userInvitation.searchUser.stepName"
+msgstr "Поиск пользователя"
+
+msgid "userInvitation.searchUser.stepLabel"
+msgstr "{$step} — Поиск пользователя"
+
+msgid "userInvitation.searchUser.nextButtonLabel"
+msgstr "Найти пользователя"
+
+msgid "userInvitation.searchField.description"
+msgstr "например, aeinstein@example.com, aeinstein или 0000-0002-1825-0097"
+
+msgid "userInvitation.enterDetails.stepName"
+msgstr "Ввод данных"
+
+msgid "userInvitation.enterDetails.stepLabel"
+msgstr "{$step} — Ввод данных и приглашение на роли"
+
+msgid "userInvitation.enterDetails.nextButtonLabel"
+msgstr "Сохранить и продолжить"
+
+msgid "invitation.role.selectRole"
+msgstr "Выберите новую роль"
+
+msgid "invitation.role.dateStart"
+msgstr "Дата начала"
+
+msgid "invitation.role.dateEnd"
+msgstr "Дата окончания"
+
+msgid "invitation.role.addRole.button"
+msgstr "Добавить еще одну роль"
+
+msgid "userInvitation.roleTable.role"
+msgstr "Роль"
+
+msgid "userInvitation.roleTable.startDate"
+msgstr "Дата начала"
+
+msgid "userInvitation.roleTable.endDate"
+msgstr "Дата окончания"
+
+msgid "userInvitation.sendMail.stepName"
+msgstr "Проверка и приглашение на роли"
+
+msgid "userInvitation.sendMail.nextButtonLabel"
+msgstr "Пригласить пользователя на роль"
+
+msgid "userInvitation.sendMail.stepLabel"
+msgstr "{$step} — Изменение письма пользователю"
+
+msgid "userInvitation.modal.title"
+msgstr "Приглашение отправлено"
+
+msgid "userInvitation.modal.button"
+msgstr "Все пользователи"
+
+msgid "invitation.role.removeRole.button"
+msgstr "Удалить роль"
+
+msgid "invitation.email.description"
+msgstr "например, aeinstein@example.com"
+
+msgid "invitation.orcid.description"
+msgstr "После принятия приглашения пользователь будет перенаправлен в ORCID для подтверждения своей учетной записи, если пожелает."
+
+msgid "invitation.givenName.description"
+msgstr "Если вы знаете имя пользователя, вы можете его указать. Однако пользователь сможет изменить эту информацию."
+
+msgid "invitation.familyName.description"
+msgstr "Если вы знаете фамилию пользователя, вы можете ее указать. Однако пользователь сможет изменить эту информацию."
+
+msgid "acceptInvitation.verifyOrcid.stepName"
+msgstr "Подтверждение ORCID iD"
+
+msgid "acceptInvitation.verifyOrcid.stepLabel"
+msgstr "{$step} — Подтверждение ORCID iD"
+
+msgid "acceptInvitation.verifyOrcid.nextButtonLabel"
+msgstr "Сохранить и продолжить"
+
+msgid "acceptInvitation.accountDetails.nextButtonLabel"
+msgstr "Сохранить и продолжить"
+
+msgid "acceptInvitation.userDetails.stepName"
+msgstr "Ввод данных"
+
+msgid "acceptInvitation.userDetails.stepLabel"
+msgstr "{$step} — Ввод данных"
+
+msgid "acceptInvitation.userDetails.stepDescription"
+msgstr "Введите свои данные: адрес электронной почты, организацию и т. д. В соответствии с GDPR изменять эту информацию можете только вы. Вы также можете выбрать, будет ли эта информация видна редактору в вашем профиле."
+
+msgid "acceptInvitation.userDetails.nextButtonLabel"
+msgstr "Сохранить и продолжить"
+
+msgid "acceptInvitation.userDetails.form.name"
+msgstr "Форма данных пользователя для принятия приглашения"
+
+msgid "acceptInvitation.userDetails.form.description"
+msgstr "Пожалуйста, укажите следующие данные, чтобы мы могли управлять вашей учетной записью"
+
+msgid "acceptInvitation.detailsReview.stepName"
+msgstr "Проверка и создание учетной записи"
+
+msgid "acceptInvitation.detailsReview.stepLabel"
+msgstr "{$step} — Проверка и создание учетной записи"
+
+msgid "acceptInvitation.skipVerifyOrcid"
+msgstr "Пропустить подтверждение ORCID"
+
+msgid "acceptInvitation.verifyOrcid"
+msgstr "Подтвердить ORCID iD"
+
+msgid "acceptInvitation.usernameField.description"
+msgstr "Может состоять из прописных и строчных букв и цифр"
+
+msgid "acceptInvitation.passwordField.description"
+msgstr "Не менее 6 символов; может содержать прописные и строчные буквы, цифры и символы"
+
+msgid "acceptInvitation.privacyStatement.label"
+msgstr "Да, я согласен(-на) на сбор и хранение моих данных в соответствии с документом {$url}"
+
+msgid "acceptInvitation.privacyStatement.btn"
+msgstr "Заявление о конфиденциальности"
+
+msgid "acceptInvitation.userDetailsForm.givenName.description"
+msgstr "Имя — это часть личного имени, которая идентифицирует человека."
+
+msgid "acceptInvitation.userDetailsForm.familyName.description"
+msgstr "Фамилия — это, как правило, наследуемая часть личного имени, указывающая на семью человека."
+
+msgid "acceptInvitation.userDetailsForm.affiliation.description"
+msgstr "Организация, с которой вы связаны"
+
+msgid "acceptInvitation.userDetailsForm.countryOfAffiliation.description"
+msgstr "Страна, в которой находится ваша организация"
+
+msgid "acceptInvitation.userDetailsForm.countryOfAffiliation.label"
+msgstr "Страна организации"
+
+msgid "acceptInvitation.review.accountDetails"
+msgstr "Данные учетной записи"
+
+msgid "acceptInvitation.review.userDetails"
+msgstr "Данные пользователя"
+
+msgid "acceptInvitation.modal.button"
+msgstr "Все материалы"
+
+msgid "invitation.tableHeader.name"
+msgstr "Имя"
+
+msgid "invitation.searchForm.emptyError"
+msgstr "Укажите хотя бы один критерий поиска."
+
+msgid "invitation.wizard.viewPageTitleDescription"
+msgstr "Вы просматриваете данные пользователя {$name}"
+
+msgid "invitation.cancelInvite.actionName"
+msgstr "Отменить приглашение"
+
+msgid "invitation.cancelInvite.title"
+msgstr "Отмена приглашения"
+
+msgid "invitation.cancelInvite.message"
+msgstr "Отмена приглашения, отправленного пользователю {$givenName} {$familyName}, деактивирует ссылку для принятия, отправленную по электронной почте. Данные приглашения:"
+
+msgid "invitation.masthead.show"
+msgstr "Указывается в составе редакции"
+
+msgid "invitation.masthead.hidden"
+msgstr "Не указывается в составе редакции"
+
+msgid "invitation.role.modifyRole.button"
+msgstr "Изменить роль"
+
+msgid "invitation.management.options"
+msgstr "Параметры управления приглашением"
+
+msgid "userInvitation.cancel.message"
+msgstr "Вы уверены, что хотите отменить это приглашение?"
+
+msgid "userInvitation.cancel.goBack"
+msgstr "Назад"
+
+msgid "userInvitation.status.invited"
+msgstr "Приглашен {$date}"
+
+msgid "userInvitation.edit.title"
+msgstr "Изменить приглашение"
+
+msgid "userInvitation.edit.message"
+msgstr "Если вы измените существующее приглашение или добавите новую роль, текущее приглашение будет отменено и будет отправлено новое. Вы уверены, что хотите продолжить?"
+
+msgid "validation.after_or_equal"
+msgstr "Дата начала должна быть не раньше сегодняшней"
+
+msgid "invitation.removeRoles"
+msgstr "Пользователь снят с роли"
+
+msgid "acceptInvitation.privacyStatement.validation"
+msgstr "Пожалуйста, подтвердите, что вы прочитали заявление о конфиденциальности и согласны с ним"
+
+msgid "acceptInvitation.cancel.message"
+msgstr "Вы уверены, что хотите отменить? Отмена остановит процесс принятия роли, и для принятия роли вам придется начать заново из письма с приглашением. Если вы уже зарегистрированы, вы вернетесь в личный кабинет. Если нет, для повторного начала процесса вам нужно будет открыть письмо с приглашением."
+
+msgid "acceptInvitation.cancelInvite.title"
+msgstr "Отменить процесс принятия приглашения на роль?"
+
+msgid "acceptInvitation.cancelInvite.button"
+msgstr "Отменить процесс принятия приглашения"
+
+msgid "acceptInvitation.authorization.shouldBeAnonymous"
+msgstr "Приглашение не принято. Вы вошли в систему как другой пользователь."
+
+msgid "acceptInvitation.authorization.message"
+msgstr "Пожалуйста, выйдите из системы и войдите под нужной учетной записью, чтобы принять это приглашение."
+
+msgid "userInvitation.searchField"
+msgstr "Найдите пользователя по адресу электронной почты, имени пользователя или ORCID iD. Для начала введите что-то одно!"
+
+msgid "userInvitation.user.disableTitle"
+msgstr "Пользователь сейчас отключен."
+
+msgid "userInvitation.user.disableMessage"
+msgstr "Пользователь отключен. Вы не можете назначить ему роль, пока он отключен. Чтобы пригласить пользователя на роль, сначала включите его."
+
+msgid "acceptInvitation.privacyConsent"
+msgstr "Согласие на обработку данных"
+
+msgid "user.affiliations.description"
+msgstr "Введите ниже полное название организации без сокращений. Выберите название из выпадающего списка и нажмите «Добавить», чтобы добавить организацию в свой профиль. (например, «Simon Fraser University»)"
+
+msgid "user.affiliations.institution"
+msgstr "Организация"
+
+msgid "user.affiliations.translation"
+msgstr "Дополнительная информация"
+
+msgid "user.affiliations.translationEditActionLabel"
+msgstr "Изменить название организации"
+
+msgid "user.affiliations.translationDeleteActionLabel"
+msgstr "Удалить организацию"
+
+msgid "user.affiliations.translationActionsAriaLabel"
+msgstr "Нажмите, чтобы изменить или удалить"
+
+msgid "user.affiliations.translationsAllAvailable"
+msgstr "Все переводы доступны"
+
+msgid "user.affiliations.translationsSomeAvailable"
+msgstr "Заполнено языков: {$count} из {$total}"
+
+msgid "user.affiliations.typeTranslationNameInLanguageLabel"
+msgstr "Введите название организации на языке: {$language}"
+
+msgid "user.affiliations.translationNameInLanguage"
+msgstr "Название организации на языке: {$language}"
+
+msgid "user.affiliations.deleteModal.title"
+msgstr "Вы уверены?"
+
+msgid "user.affiliations.deleteModal.message"
+msgstr "Организация <strong>{$affiliation}</strong> будет удалена."
+
+msgid "user.affiliations.searchPhraseLabel"
+msgstr "Введите название организации на языке: {$language}"
+
+msgid "user.affiliations.searchPhraseNothingFound"
+msgstr "По вашему запросу ничего не найдено"
+
+msgid "user.affiliations.primaryLocaleRequired"
+msgstr "Необходимо заполнить основной язык {$primaryLocale}"
+
+msgid "user.authorization.submission.complete.reviewerSuggestionRestrict"
+msgstr "Добавление, изменение и удаление предложенных рецензентов для завершенного материала запрещено."
+
+msgid "user.authorization.shouldBeAnonymous"
+msgstr "Пользователь должен быть анонимным. Вы сейчас вошли в систему."
+
+msgid "user.preferredAvatarInitials"
+msgstr "Предпочитаемые инициалы для аватара"
+
+msgid "user.preferredAvatarInitials.description"
+msgstr "Введите две буквы, которые вы хотите использовать в качестве аватара. Эти инициалы будут отображаться вместо вас."
+
+msgid "user.profile.form.affiliationRequired.locale"
+msgstr "Пожалуйста, добавьте организацию на языке материала."
+
+msgid "user.role.ended"
+msgstr "Роль завершена"
+
+msgid "user.pendingEmailChange"
+msgstr "Вы запросили смену адреса электронной почты на «{$pendingEmail}». Мы уже отправили вам письмо с инструкциями по подтверждению нового адреса."
+
+msgid "orcid.unauthenticated"
+msgstr "(не аутентифицирован)"
+
+msgid "orcid.verify.success.redirect"
+msgstr "Сейчас вы будете автоматически перенаправлены обратно в {$contextName}."
+
+msgid "orcid.manager.context.enabled"
+msgstr "Включить функции ORCID"
+
+msgid "orcid.manager.siteWide.enabled"
+msgstr "Включить функции ORCID для всего сайта"
+
+msgid "orcid.manager.siteWide.description"
+msgstr "Функции ORCID можно при необходимости включить и настроить на уровне сайта для всех журналов/издательств/серверов. Если они включены, это переопределит все учетные данные на уровне отдельных журналов, и следующие учетные данные будут применяться ко всем журналам/издательствам/серверам этой установки."
+
+msgid "orcid.field.verification.request"
+msgstr "Запросить подтверждение"
+
+msgid "orcid.field.verification.requested"
+msgstr "Подтверждение ORCID запрошено!"
+
+msgid "orcid.field.verification.resendRequest"
+msgstr "Повторно отправить письмо для подтверждения"
+
+msgid "orcid.field.authorEmailModal.title"
+msgstr "Запросить подтверждение ORCID"
+
+msgid "orcid.field.authorEmailModal.message"
+msgstr "Отправить этому автору письмо с просьбой подтвердить свой ORCID?"
+
+msgid "orcid.field.authorEmailModal.message.noAuthor"
+msgstr "Письмо будет отправлено после создания автора."
+
+msgid "orcid.field.deleteOrcidModal.title"
+msgstr "Удалить ORCID"
+
+msgid "orcid.field.deleteOrcidModal.message"
+msgstr "Вы уверены, что хотите удалить этот ORCID?"
+
+msgid "orcid.field.unverified.shouldRequest"
+msgstr "Этот ORCID не подтвержден. Пожалуйста, удалите неподтвержденный ORCID и запросите подтверждение непосредственно у пользователя/автора."
+
+msgid "user.removeRole.message"
+msgstr "Вы уверены, что хотите окончательно удалить эту роль? Пользователь потеряет доступ ко всей информации и правам, связанным с этой ролью."
+
+msgid "user.futureRole.notification.message"
+msgstr "Ваша роль начнет действовать {$roleStartDate}"
+
+msgid "user.futureRole.notification.description"
+msgstr "До этого времени вы можете просмотреть и обновить свой профиль. Если вы считаете, что это ошибка, обратитесь к администратору."
+
+msgid "user.disabledModal.description"
+msgstr "Текущие роли: {$roles}"
+
+msgid "user.disabledModal.title"
+msgstr "Отключить пользователя {$fullName}"
+
+msgid "user.enabledModal.title"
+msgstr "Включить пользователя {$fullName}"
+
+msgid "user.bioStatement"
+msgstr "Биографическая справка"
+
+msgid "user.removeRole.roleRemainMessage"
+msgstr "Невозможно удалить роль. У пользователя должна быть хотя бы одна роль."
+
+msgid "reviewer.submission.reviewRound.info"
+msgstr "Предыдущие рецензии"
+
+msgid "reviewer.submission.reviewRound.info.submittedOn"
+msgstr "Рецензия раунда {$round} представлена {$submittedOn}"
+
+msgid "reviewer.submission.reviewRound.info.read"
+msgstr "Читать рецензию раунда {$round}"
+
+msgid "reviewer.submission.reviewRound.info.modal.title"
+msgstr "Ваша рецензия раунда {$round} для"
+
+msgid "reviewer.submission.reviewRound.comments"
+msgstr "Комментарии рецензента"
+
+msgid "reviewer.submission.reviewRound.comments.authorAndEditor"
+msgstr "Для редакторов и авторов"
+
+msgid "reviewer.submission.reviewRound.comments.editorOnly"
+msgstr "Только для редакторов"
+
+msgid "reviewer.submission.reviewRound.comments.prefix"
+msgstr "Комментарий {$index}:"
+
+msgid "reviewer.submission.reviewRound.emailLog"
+msgstr "Причина отказа отправлена по электронной почте"
+
+msgid "reviewer.submission.reviewRound.emailLog.defaultMessage"
+msgstr "Причина отказа от приглашения к рецензированию не указана."
+
+msgid "reviewer.submission.reviewRound.reviewDeclineDate"
+msgstr "Дата отказа"
+
+msgid "reviewer.submission.reviewRound.metadata"
+msgstr "Метаданные статьи"
+
+msgid "reviewer.submission.reviewRound.metadata.type"
+msgstr "Тип"
+
+msgid "reviewer.submission.reviewRound.metadata.abstract"
+msgstr "Аннотация"
+
+msgid "reviewer.submission.reviewRound.metadata.keywords"
+msgstr "Ключевые слова"
+
+msgid "reviewer.submission.reviewRound.general"
+msgstr "Общая информация"
+
+msgid "reviewer.submission.reviewRound.attachments"
+msgstr "Вложения"
+
+msgid "reviewer.submission.reviewRound.attachments.description"
+msgstr "Файлы, которые вы приложили к своей рецензии"
+
+msgid "reviewer.submission.reviewRound.files"
+msgstr "Файлы для рецензирования"
+
+msgid "reviewer.submission.reviewRound.files.description"
+msgstr "Эти файлы были отправлены вам на рецензирование"
+
+msgid "reviewer.submission.reviewRound.reviewNotCompleted"
+msgstr "Рецензия не была завершена."
+
+msgid "api.422.routeRequestUnableToProcess"
+msgstr "Не удалось обработать запрос к API."
+
+msgid "api.417.routeResponseIsNull"
+msgstr "Не удалось получить ожидаемый ответ."
+
+msgid "api.400.invalidAuthorFriendlyParameter"
+msgstr "Недопустимый параметр для авторов."
+
+msgid "api.400.routeNotDefined"
+msgstr "Маршрут API не указан."
+
+msgid "api.emailLogs.400.unrecognisedAuthorEmailEventType"
+msgstr "Вы указали недопустимый  \"eventType\",{$eventType}, для писем авторам."
+
+msgid "api.orcid.403.orcidNotEnabled"
+msgstr "Невозможно выполнить эту операцию, когда функции ORCID отключены."
+
+msgid "api.orcid.404.authorNotFound"
+msgstr "Запрошенный автор не найден"
+
+msgid "api.orcid.403.editWithoutPermission"
+msgstr "Вы не можете изменять авторов материалов, на которые вы не назначены."
+
+msgid "api.orcid.404.contextRequired"
+msgstr "Эта конечная точка недоступна в пространстве имен всего сайта и должна запрашиваться для конкретного контекста."
+
+msgid "api.submission.403.cantChangeSubmissionLanguage"
+msgstr "Невозможно изменить язык этого материала, так как у него уже есть более одной версии публикации или опубликованная публикация."
+
+msgid "api.reviews.assignments.invalidSubmission"
+msgstr "Материал для этого задания на рецензию не найден."
+
+msgid "api.reviews.assignments.invalidReviewer"
+msgstr "Рецензент для этого задания не найден"
+
+msgid "api.review.assignments.invalidInvitationResponse"
+msgstr "Допустимы только значения 'accept' и 'decline'"
+
+msgid "api.submission.400.sectionDoesNotExist"
+msgstr "Указанный раздел не существует."
+
+msgid "api.submission.400.missingQueryParam"
+msgstr "В запросе отсутствует обязательный параметр запроса `ids`. Укажите `ids` материалов, которые вы хотите удалить."
+
+msgid "api.submission.400.invalidId"
+msgstr "Указан недопустимый ID: \"{$id}\"."
+
+msgid "api.publications.403.noEnabledIdentifiers"
+msgstr "Форма идентификаторов публикации недоступна, так как не включен ни один идентификатор."
+
+msgid "api.rors.404.rorNotFound"
+msgstr "Запрошенный ROR не найден."
+
+msgid "api.409.resourceActionConflict"
+msgstr "Не удалось выполнить требуемое действие с ресурсом."
+
+msgid "about.editorialMasthead.linkToEditorialHistory"
+msgstr "Посмотреть <a href=\"{$url}\">редакционную историю</a>"
+
+msgid "common.moreActions"
+msgstr "Другие действия"
+
+msgid "common.editorialMasthead"
+msgstr "Состав редакции"
+
+msgid "common.editorialMasthead.peerReviewers"
+msgstr "Рецензенты за прошлый год"
+
+msgid "common.editorialHistory.peerReviewers"
+msgstr "Рецензенты за прошлые годы"
+
+msgid "common.editorialMasthead.peerReviewers.description"
+msgstr "Редакция выражает признательность перечисленным ниже рецензентам за {$year} год."
+
+msgid "common.editorialHistory"
+msgstr "Редакционная история"
+
+msgid "common.editorialHistory.page"
+msgstr "Страница редакционной истории"
+
+msgid "common.editorialHistory.page.description"
+msgstr "В этом разделе перечислены бывшие участники."
+
+msgid "common.editorialHistory.page.orcidLink"
+msgstr "Посмотреть профиль ORCID: {$name}"
+
+msgid "common.assignments"
+msgstr "Задания"
+
+msgid "common.yesContinue"
+msgstr "Да, продолжить"
+
+msgid "common.filtersClear"
+msgstr "Сбросить фильтры"
+
+msgid "common.showingXofX"
+msgstr "Показано <strong>с {$start} по {$finish}</strong> из {$total}"
+
+msgid "common.inParenthesis"
+msgstr "({$text})"
+
+msgid "common.loaded"
+msgstr "Загружено"
+
+msgid "form.errorSummaryOne"
+msgstr "Обнаружена 1 ошибка! Пожалуйста, исправьте ошибку ниже, прежде чем продолжить."
+
+msgid "form.errorSummaryMany"
+msgstr "Обнаружено ошибок: {$count}! Пожалуйста, исправьте ошибки ниже, прежде чем продолжить."
+
+msgid "navigation.dashboards"
+msgstr "Кабинет редактора"
+
+msgid "navigation.reviewAssignments"
+msgstr "Мои задания как рецензента"
+
+msgid "navigation.mySubmissions"
+msgstr "Мои материалы как автора"
+
+msgid "reviewer.submission.acceptedOn"
+msgstr "Рецензирование принято"
+
+msgid "reviewer.submission.submittedOn"
+msgstr "Рецензия представлена"
+
+msgid "validator.date.comparison"
+msgstr "Для сравнения указаны недопустимые даты."
+
+msgid "validator.multilingual"
+msgstr "Для этого поля не выполнено требование многоязычности."
+
+msgid "common.fromUntil"
+msgstr "{$from} &ndash; {$until}"
+
+msgid "common.numero"
+msgstr "№"
+
+msgid "common.refreshingData"
+msgstr "Обновление данных"
+
+msgid "common.viewMoreDetails"
+msgstr "Подробнее"
+
+
+msgid "plugins.generic.ruLocaleCompletion.displayName"
+msgstr "Дополнение русского перевода"
+
+msgid "plugins.generic.ruLocaleCompletion.description"
+msgstr "Добавляет русские переводы строк интерфейса, отсутствующих в официальной русской локализации OJS 3.5."

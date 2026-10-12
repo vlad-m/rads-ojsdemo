@@ -1,0 +1,201 @@
+[
+  {
+    "slug": "v2n1-01-transit-housing-prices",
+    "section": "ART",
+    "locale": "ru",
+    "title": {"ru": "Транспортная доступность и цены на жильё: гедонистическая модель для городской агломерации", "en": "Transit Accessibility and Housing Prices: A Hedonic Model for an Urban Agglomeration"},
+    "subtitle": {"ru": "На примере открытия новой линии скоростного трамвая", "en": "Evidence from the Opening of a New Light Rail Line"},
+    "abstract": {
+      "ru": "<p>Инвестиции в общественный транспорт меняют пространственную структуру города, и одним из наиболее наглядных проявлений этого является изменение цен на жильё вблизи новых станций. В статье оценивается влияние открытия линии скоростного трамвая протяжённостью 17 км на цены квартир в условной агломерации с населением около 1,2 млн человек. Использованы данные о 46 тыс. сделок и объявлений о продаже за 2018–2024 гг., геокодированные и дополненные характеристиками домов и окружающей среды. Показатель транспортной доступности рассчитан как число рабочих мест, достижимых за 45 минут на общественном транспорте, до и после открытия линии. Для идентификации эффекта применена гедонистическая модель с методом разности разностей, в которой экспериментальной группой служат квартиры в радиусе 800 м от новых станций. Установлено, что после открытия линии цены квартир в зоне влияния выросли на 6,8 % больше, чем в контрольной зоне, причём эффект начал проявляться уже после объявления о строительстве. Эффект сильнее для квартир в периферийных районах с исходно низкой доступностью и практически отсутствует в центре. Рост доступности на 10 тыс. рабочих мест связан с увеличением цены квадратного метра на 1,9 %. Результаты могут использоваться для обоснования механизмов возврата части прироста стоимости земли на финансирование транспортной инфраструктуры.</p>",
+      "en": "<p>Investment in public transport reshapes the spatial structure of a city, and one of the most visible manifestations of this is the change in housing prices near new stations. This article estimates the effect of opening a 17-km light rail line on apartment prices in an anonymised agglomeration with a population of about 1.2 million. The data comprise 46,000 transactions and sale listings for 2018–2024, geocoded and supplemented with building and neighbourhood characteristics. Transit accessibility was measured as the number of jobs reachable within 45 minutes by public transport before and after the opening of the line. The effect was identified with a hedonic difference-in-differences model in which the treatment group consists of apartments within 800 m of the new stations. After the line opened, apartment prices in the catchment area increased by 6.8% more than in the control area, and the effect began to appear as early as the announcement of construction. The effect is stronger for apartments in peripheral districts with initially low accessibility and practically absent in the centre. An increase in accessibility of 10,000 jobs is associated with a 1.9% increase in the price per square metre. The results can be used to justify land value capture mechanisms for financing transport infrastructure.</p>"
+    },
+    "keywords": {"ru": ["транспортная доступность", "гедонистическая модель", "рынок жилья", "скоростной трамвай", "возврат стоимости земли"], "en": ["transit accessibility", "hedonic model", "housing market", "light rail", "land value capture"]},
+    "authors": [
+      {"givenName": {"ru": "Артём", "en": "Artyom"}, "familyName": {"ru": "Мельников", "en": "Melnikov"}, "email": "a.melnikov@example.org", "affiliation": {"ru": "Высшая школа урбанистики «Полис»", "en": "Polis Graduate School of Urban Studies"}, "country": "RU", "primaryContact": true},
+      {"givenName": {"ru": "Павел", "en": "Pavel"}, "familyName": {"ru": "Громов", "en": "Gromov"}, "email": "p.gromov@example.org", "affiliation": {"ru": "Институт экономики и пространственного развития «Меридиан»", "en": "Meridian Institute for Economics and Spatial Development"}, "country": "RU", "primaryContact": false},
+      {"givenName": {"ru": "Дарья", "en": "Daria"}, "familyName": {"ru": "Полякова", "en": "Polyakova"}, "email": "d.polyakova@example.org", "affiliation": {"ru": "Высшая школа урбанистики «Полис»", "en": "Polis Graduate School of Urban Studies"}, "country": "RU", "primaryContact": false},
+      {"givenName": {"ru": "Евгений", "en": "Evgeny"}, "familyName": {"ru": "Седов", "en": "Sedov"}, "email": "e.sedov@example.org", "affiliation": {"ru": "Институт экономики и пространственного развития «Меридиан»", "en": "Meridian Institute for Economics and Spatial Development"}, "country": "RU", "primaryContact": false}
+    ],
+    "dateSubmitted": "2025-09-02",
+    "dateAccepted": "2026-01-19",
+    "citations": [
+      "Rosen S. Hedonic prices and implicit markets: product differentiation in pure competition // Journal of Political Economy. 1974. Vol. 82, no. 1. P. 34–55.",
+      "Hansen W. G. How accessibility shapes land use // Journal of the American Institute of Planners. 1959. Vol. 25, no. 2. P. 73–76.",
+      "Мельников А. С. Метрики транспортной доступности на основе расписаний общественного транспорта // Геоинформатика и общество. 2023. № 2. С. 5–21.",
+      "Громов П. А., Седов Е. В. Капитализация инфраструктурных инвестиций в цены жилья: обзор эмпирических исследований // Пространственная экономика и политика. 2022. № 4. С. 9–30.",
+      "Debrezion G., Pels E., Rietveld P. The impact of railway stations on residential and commercial property value: a meta-analysis // Journal of Real Estate Finance and Economics. 2007. Vol. 35, no. 2. P. 161–180.",
+      "Полякова Д. И. Анонсирование инфраструктурных проектов и ожидания рынка жилья // Городские исследования. 2024. Т. 8, № 1. С. 44–61.",
+      "Ng W., Carvalho F. Land value capture for light rail: international practice // Transport Finance Review. 2021. Vol. 10. P. 71–90.",
+      "Мельников А. С., Полякова Д. И. Геокодирование объявлений о продаже жилья: методы и ошибки // Прикладная аналитика. 2023. Т. 7, № 4. С. 63–79."
+    ],
+    "body": {
+      "intro": [
+        "Связь между транспортной доступностью и стоимостью недвижимости — один из фундаментальных сюжетов городской экономики. Классическая модель моноцентрического города предсказывает, что снижение транспортных издержек повышает ценность удалённых от центра участков. Эмпирические исследования, проведённые в разных странах, в целом подтверждают это, но оценки эффекта существенно различаются.",
+        "Открытие новой линии скоростного трамвая в исследуемой агломерации в 2022 г. создало естественный эксперимент. Цель работы — оценить вызванное им изменение цен на жильё, проследить его динамику во времени и пространстве и связать его с изменением доступности рабочих мест."
+      ],
+      "methods": [
+        "Исходные данные включают 18 тыс. зарегистрированных сделок и 28 тыс. объявлений о продаже квартир за 2018–2024 гг. Для объявлений использовались последние цены перед снятием с публикации. Все объекты геокодированы и дополнены характеристиками: площадь, этаж, год постройки и материал дома, расстояние до центра, парков и школ.",
+        "Доступность рабочих мест рассчитана по расписаниям общественного транспорта и данным о размещении занятости. Гедонистическая модель для логарифма цены квадратного метра включает характеристики объекта, фиксированные эффекты районов и кварталов-периодов, а также взаимодействие индикатора зоны влияния (до 800 м от станции) с периодами «объявление», «строительство» и «эксплуатация»."
+      ],
+      "results": [
+        "Динамика разницы цен между зоной влияния и контрольной зоной показана на рис. 1. До объявления о строительстве различия статистически незначимы, что подтверждает допущение о параллельных трендах. После объявления в 2019 г. разница начинает расти и достигает 6,8 % в период эксплуатации.",
+        "Оценки основной модели и её модификаций приведены в табл. 1. Эффект для периферийных районов почти втрое больше, чем для срединной зоны, а в центре он статистически не отличается от нуля."
+      ],
+      "figure": {"kind": "line", "caption": "Рис. 1. Разница цен квадратного метра между зоной влияния и контрольной зоной по годам, %", "x": ["2018", "2019", "2020", "2021", "2022", "2023", "2024"], "ylabel": "Разница, %", "series": [{"name": "Зона влияния vs контроль", "values": [0.2, 1.1, 2.4, 3.6, 5.2, 6.4, 6.8]}]},
+      "table": {"caption": "Таблица 1. Оценки гедонистической модели с разностью разностей (зависимая переменная — log цены м²)", "head": ["Спецификация", "Эффект, %", "Ст. ошибка", "N"], "rows": [["Все районы", "6,8", "1,3", "46 112"], ["Периферия", "11,2", "2,1", "17 840"], ["Срединная зона", "4,1", "1,6", "19 305"], ["Центр", "0,9", "2,4", "8 967"], ["Только сделки", "6,1", "1,8", "18 024"]]},
+      "discussion": [
+        "Величина эффекта находится в середине диапазона, характерного для зарубежных исследований скоростного рельсового транспорта. Рост цен ещё до открытия линии свидетельствует о том, что рынок капитализирует ожидания, и это важно для выбора момента применения механизмов возврата стоимости земли.",
+        "Неоднородность эффекта по зонам согласуется с теорией: там, где доступность уже была высокой, новая линия мало что добавляет. Ограничением работы является использование цен объявлений для части выборки, однако оценка только по сделкам близка к основной."
+      ],
+      "conclusion": [
+        "Открытие линии скоростного трамвая повысило цены жилья в зоне влияния на 6,8 %, причём наибольший эффект наблюдается на периферии. Это обосновывает применение инструментов возврата части прироста стоимости для финансирования транспортных проектов."
+      ]
+    }
+  },
+  {
+    "slug": "v2n1-02-machine-generated-abstracts",
+    "section": "ART",
+    "locale": "en",
+    "title": {"ru": "Распознавание машинно сгенерированных фрагментов в русскоязычных научных аннотациях", "en": "Detecting Machine-Generated Passages in Russian-Language Scientific Abstracts"},
+    "abstract": {
+      "ru": "<p>Широкое распространение больших языковых моделей поставило перед научными журналами задачу выявления текстов, полностью или частично созданных автоматически. Большинство существующих детекторов разработаны для английского языка, и их применимость к русскоязычным научным текстам изучена слабо. В статье представлен новый размеченный корпус из 12 тыс. аннотаций научных статей на русском языке, в котором половина текстов написана людьми, а половина содержит фрагменты, сгенерированные тремя различными языковыми моделями с разными инструкциями. На этом корпусе сравниваются четыре класса методов: статистические признаки перплексии, стилометрические признаки, дообученный классификатор на основе трансформера и коммерческий детектор общего назначения. Наилучшие результаты показал дообученный классификатор (F1 = 0,91 на уровне документа), однако его качество снижалось до 0,74 при тестировании на текстах, сгенерированных моделью, не встречавшейся при обучении. На уровне отдельных предложений все методы работают существенно хуже, а доля ложных срабатываний на аннотациях, написанных авторами, для которых русский язык не является родным, достигает 11 %. Эти результаты свидетельствуют о том, что автоматические детекторы не могут служить единственным основанием для редакционных решений. Корпус и код опубликованы в открытом доступе для дальнейших исследований.</p>",
+      "en": "<p>The widespread adoption of large language models has confronted scholarly journals with the task of identifying texts created wholly or partly by automated means. Most existing detectors were developed for English, and their applicability to Russian-language scientific texts is poorly understood. This article presents a new annotated corpus of 12,000 abstracts of scientific articles in Russian, half of which were written by humans and half of which contain passages generated by three different language models under different prompts. Four classes of methods are compared on this corpus: statistical perplexity features, stylometric features, a fine-tuned transformer-based classifier and a general-purpose commercial detector. The fine-tuned classifier performed best (document-level F1 = 0.91), but its performance fell to 0.74 when tested on texts generated by a model not seen during training. At the sentence level, all methods perform considerably worse, and the false-positive rate on abstracts written by authors for whom Russian is not a first language reaches 11%. These results indicate that automated detectors cannot serve as the sole basis for editorial decisions. The corpus and code are openly available for further research.</p>"
+    },
+    "keywords": {"ru": ["большие языковые модели", "детекция сгенерированного текста", "научные аннотации", "русский язык", "академическая этика"], "en": ["large language models", "machine-generated text detection", "scientific abstracts", "Russian language", "research integrity"]},
+    "authors": [
+      {"givenName": {"ru": "Тимур", "en": "Timur"}, "familyName": {"ru": "Каримов", "en": "Karimov"}, "email": "t.karimov@example.org", "affiliation": {"ru": "Волжский институт прикладной аналитики", "en": "Volga Institute of Applied Analytics"}, "country": "RU", "primaryContact": false},
+      {"givenName": {"ru": "Анна", "en": "Anna"}, "familyName": {"ru": "Лебедева", "en": "Lebedeva"}, "email": "a.lebedeva@example.org", "affiliation": {"ru": "Институт языка и коммуникации «Лексис»", "en": "Lexis Institute of Language and Communication"}, "country": "RU", "primaryContact": false},
+      {"givenName": {"ru": "Санжар", "en": "Sanzhar"}, "familyName": {"ru": "Абдуллаев", "en": "Abdullaev"}, "email": "s.abdullaev@example.org", "affiliation": {"ru": "Самаркандский институт вычислительной лингвистики", "en": "Samarkand Institute of Computational Linguistics"}, "country": "UZ", "primaryContact": true}
+    ],
+    "dateSubmitted": "2025-08-18",
+    "dateAccepted": "2026-01-27",
+    "citations": [
+      "Vaswani A., Shazeer N., Parmar N. et al. Attention is all you need // Advances in Neural Information Processing Systems. 2017. Vol. 30. P. 5998–6008.",
+      "Devlin J., Chang M.-W., Lee K., Toutanova K. BERT: pre-training of deep bidirectional transformers for language understanding // Proceedings of NAACL-HLT 2019. Minneapolis, 2019. P. 4171–4186.",
+      "Abdullaev S. R. Perplexity-based detection of generated text in morphologically rich languages // Computational Linguistics Letters. 2024. Vol. 9, no. 1. P. 22–37.",
+      "Lebedeva A. V., Karimov T. R. Stylometric profiles of Russian academic prose // Corpus Methods Quarterly. 2023. Vol. 14, no. 3. P. 201–219.",
+      "Moreau C., Banerjee R. Generalisation failures of machine-generated text detectors // Journal of AI Evaluation. 2024. Vol. 3. P. 77–96.",
+      "Каримов Т. Р., Лебедева А. В. Языковые модели в научной коммуникации: риски и редакционные политики // Научный редактор и издатель. 2024. Т. 9, № 2. С. 112–125.",
+      "Holt E., Nguyen T. Bias of AI-text detectors against non-native writers // Language and Technology Review. 2023. Vol. 12, no. 4. P. 300–318.",
+      "Абдуллаев С. Р. Корпусы для оценки детекторов сгенерированного текста: требования и практика // Вычислительная лингвистика и интеллектуальные технологии. 2025. Т. 4, № 1. С. 15–30."
+    ],
+    "body": {
+      "intro": [
+        "Since 2023, editors of scholarly journals have increasingly encountered manuscripts in which parts of the text appear to have been produced by large language models. While the use of such tools for language editing is often acceptable, undisclosed generation of substantive content raises concerns about research integrity. Many publishers have adopted policies requiring disclosure, and automated detectors are being marketed as a means of enforcement.",
+        "These detectors, however, have been developed and evaluated primarily on English text. Russian, with its rich morphology and distinctive academic register, presents a different challenge. The aims of this study are to build a realistic benchmark of Russian-language scientific abstracts and to evaluate how well current detection methods perform on it, with particular attention to generalisation and fairness."
+      ],
+      "methods": [
+        "Human-written abstracts (n = 6,000) were sampled from open-access Russian journals published before 2021, stratified across eight broad disciplines. For the generated half, three language models were prompted to write a full abstract from a title and keywords, to continue a human-written opening sentence, or to paraphrase a human-written abstract. Each generated text was checked by an annotator for fluency, and sentence-level labels were recorded for mixed texts.",
+        "We compared (i) a logistic regression on perplexity and burstiness features computed with an open Russian language model, (ii) a gradient-boosted classifier on 140 stylometric features, (iii) a multilingual transformer encoder fine-tuned on the training split and (iv) a commercial general-purpose detector. A leave-one-generator-out protocol was used to assess generalisation."
+      ],
+      "results": [
+        "Document-level results are summarised in Table 1. The fine-tuned classifier achieved the highest in-distribution F1 of 0.91, followed by the perplexity model (0.82). The commercial detector, not trained on Russian scientific text, reached 0.69. Paraphrased abstracts were the hardest category for all methods.",
+        "Generalisation to an unseen generator reduced performance substantially (Fig. 1). On a separate set of 400 human-written abstracts by authors for whom Russian is a second language, the fine-tuned classifier flagged 11% as machine-generated, compared with 3% for native-speaker abstracts."
+      ],
+      "figure": {"kind": "bar", "caption": "Fig. 1. Document-level F1 in-distribution and on an unseen generator", "x": ["Perplexity", "Stylometry", "Fine-tuned", "Commercial"], "ylabel": "F1", "series": [{"name": "Seen generators", "values": [0.82, 0.77, 0.91, 0.69]}, {"name": "Unseen generator", "values": [0.71, 0.66, 0.74, 0.64]}]},
+      "table": {"caption": "Table 1. Detection performance at document and sentence level", "head": ["Method", "F1 (doc)", "F1 (sentence)", "FPR, L2 authors"], "rows": [["Perplexity features", "0.82", "0.61", "0.14"], ["Stylometric features", "0.77", "0.55", "0.09"], ["Fine-tuned transformer", "0.91", "0.68", "0.11"], ["Commercial detector", "0.69", "—", "0.17"]]},
+      "discussion": [
+        "Our findings echo concerns raised for English: detectors that perform well on familiar generators degrade on new ones, and they disproportionately flag texts by non-native writers, whose prose tends to be lexically less varied. Given the rapid release of new models, in-distribution accuracy is a poor guide to real-world reliability.",
+        "For editorial practice, this implies that detector scores should at most prompt a conversation with authors, not trigger sanctions. Clear disclosure policies and attention to substantive scientific quality remain more robust safeguards."
+      ],
+      "conclusion": [
+        "We release a benchmark of 12,000 Russian scientific abstracts and show that current detectors, while useful, are neither robust to new generators nor fair to non-native authors. Automated detection should complement, not replace, editorial judgement."
+      ]
+    }
+  },
+  {
+    "slug": "v2n1-03-circular-economy-sme",
+    "section": "REV",
+    "locale": "ru",
+    "title": {"ru": "Циркулярная экономика в малом и среднем бизнесе: систематический обзор барьеров и драйверов", "en": "The Circular Economy in Small and Medium-Sized Enterprises: A Systematic Review of Barriers and Drivers"},
+    "abstract": {
+      "ru": "<p>Переход к циркулярной экономике, основанной на повторном использовании, ремонте и переработке ресурсов, требует участия не только крупных корпораций, но и малых и средних предприятий, на долю которых приходится значительная часть занятости и воздействия на окружающую среду. В систематическом обзоре обобщены результаты эмпирических исследований барьеров и драйверов внедрения циркулярных практик в малом и среднем бизнесе. Поиск по протоколу PRISMA выявил 1 146 публикаций за 2015–2025 гг., из которых по критериям включения отобрано 72 исследования из 28 стран. Барьеры и драйверы классифицированы по пяти группам: финансовые, технологические, рыночные, институциональные и организационно-культурные. Наиболее часто упоминаемыми барьерами оказались высокие первоначальные затраты и ограниченный доступ к финансированию (78 % исследований), недостаток технических компетенций (61 %) и низкий спрос потребителей на продукцию из вторичного сырья (47 %). Ключевыми драйверами выступают экономия затрат на сырьё и утилизацию, требования крупных заказчиков в цепочках поставок и личные ценности собственников. Показано, что роль государственной поддержки оценивается неоднозначно: субсидии эффективны прежде всего в сочетании с консультационными услугами. Выявлен существенный дефицит исследований из стран Восточной Европы и Центральной Азии. Сформулированы рекомендации для политики поддержки и направления дальнейших исследований.</p>",
+      "en": "<p>The transition to a circular economy based on the reuse, repair and recycling of resources requires the participation not only of large corporations but also of small and medium-sized enterprises, which account for a large share of employment and environmental impact. This systematic review synthesises empirical research on the barriers to and drivers of adopting circular practices in small and medium-sized businesses. A PRISMA-guided search identified 1,146 publications from 2015–2025, of which 72 studies from 28 countries met the inclusion criteria. Barriers and drivers were classified into five groups: financial, technological, market, institutional and organisational-cultural. The most frequently cited barriers were high upfront costs and limited access to finance (78% of studies), a lack of technical competence (61%) and low consumer demand for products made from secondary raw materials (47%). The key drivers are savings on raw material and disposal costs, requirements of large customers in supply chains and the personal values of owners. The role of government support is assessed ambiguously: subsidies are effective mainly in combination with advisory services. A substantial gap in research from Eastern Europe and Central Asia was identified. Recommendations for support policies and directions for further research are formulated.</p>"
+    },
+    "keywords": {"ru": ["циркулярная экономика", "малый и средний бизнес", "систематический обзор", "устойчивое развитие", "цепочки поставок"], "en": ["circular economy", "small and medium-sized enterprises", "systematic review", "sustainable development", "supply chains"]},
+    "authors": [
+      {"givenName": {"ru": "Евгений", "en": "Evgeny"}, "familyName": {"ru": "Седов", "en": "Sedov"}, "email": "e.sedov@example.org", "affiliation": {"ru": "Институт экономики и пространственного развития «Меридиан»", "en": "Meridian Institute for Economics and Spatial Development"}, "country": "RU", "primaryContact": true},
+      {"givenName": {"ru": "Татьяна", "en": "Tatiana"}, "familyName": {"ru": "Яковлева", "en": "Yakovleva"}, "email": "t.yakovleva@example.org", "affiliation": {"ru": "Белорусский институт устойчивого развития «Экополис»", "en": "Ecopolis Belarusian Institute for Sustainable Development"}, "country": "BY", "primaryContact": false}
+    ],
+    "dateSubmitted": "2025-07-07",
+    "dateAccepted": "2025-12-16",
+    "citations": [
+      "Page M. J., McKenzie J. E., Bossuyt P. M. et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews // BMJ. 2021. Vol. 372. Art. n71.",
+      "Kirchherr J., Reike D., Hekkert M. Conceptualizing the circular economy: an analysis of 114 definitions // Resources, Conservation and Recycling. 2017. Vol. 127. P. 221–232.",
+      "Седов Е. В. Циркулярные бизнес-модели: типология и экономические эффекты // Пространственная экономика и политика. 2023. № 1. С. 31–50.",
+      "Яковлева Т. Н. Политика поддержки зелёного предпринимательства в странах ЕАЭС // Экономика устойчивого развития. 2024. Т. 12, № 3. С. 66–83.",
+      "Rizos V., Behrens A., Kafyeke T. et al. The circular economy: barriers and opportunities for SMEs. Brussels: CEPS, 2015. 22 p.",
+      "Lindner P., Costa R. Supply-chain pressure and circular practices in small manufacturers // Journal of Sustainable Enterprise. 2022. Vol. 11, no. 2. P. 115–134.",
+      "Седов Е. В., Громов П. А. Малый бизнес и переработка отходов: результаты регионального обследования // Регион: экономика и общество. 2024. № 5. С. 20–37.",
+      "Oduya K., Brandt M. Owner values and environmental strategy in family firms // Small Business and Society. 2021. Vol. 7. P. 50–68."
+    ],
+    "body": {
+      "intro": [
+        "Концепция циркулярной экономики предполагает отказ от линейной модели «добыть — произвести — выбросить» в пользу замкнутых циклов, в которых продукты и материалы как можно дольше сохраняют свою ценность. Значительная часть исследований и политических программ ориентирована на крупные компании, обладающие ресурсами для перестройки производственных процессов.",
+        "Малые и средние предприятия сталкиваются с иными ограничениями: у них меньше капитала, компетенций и переговорной силы в цепочках поставок. Одновременно они более гибки и ближе к местным сообществам. Цель обзора — систематизировать эмпирические данные о факторах, препятствующих и способствующих внедрению циркулярных практик в малом и среднем бизнесе."
+      ],
+      "methods": [
+        "Обзор выполнен в соответствии с рекомендациями PRISMA 2020. Поиск проводился в библиографических базах данных по комбинациям терминов «циркулярная экономика», «малый и средний бизнес» и их англоязычных эквивалентов. Включались эмпирические исследования (опросы, кейс-стади, интервью, эконометрические работы), опубликованные в 2015–2025 гг. на английском или русском языке.",
+        "Из 1 146 найденных записей после удаления дубликатов и скрининга аннотаций полнотекстовую оценку прошли 214 работ, критериям включения соответствовали 72. Барьеры и драйверы кодировались двумя исследователями независимо по заранее разработанной схеме; согласие кодировщиков составило κ = 0,79."
+      ],
+      "results": [
+        "Включённые исследования охватывают 28 стран, однако 61 % из них выполнены на материале стран Западной Европы. Работ по странам Восточной Европы и Центральной Азии всего пять. Частота упоминания основных барьеров представлена на рис. 1.",
+        "Драйверы внедрения циркулярных практик сгруппированы в табл. 1. Экономические мотивы — снижение затрат на сырьё и утилизацию отходов — упоминаются чаще всего, однако в исследованиях семейных предприятий существенную роль играют ценности собственников."
+      ],
+      "figure": {"kind": "hbar", "caption": "Рис. 1. Частота упоминания барьеров во включённых исследованиях, % (n = 72)", "x": ["Затраты и финансирование", "Технические компетенции", "Низкий спрос", "Регулирование", "Инфраструктура переработки", "Организационная культура"], "ylabel": "Доля исследований, %", "series": [{"name": "Доля", "values": [78, 61, 47, 42, 36, 29]}]},
+      "table": {"caption": "Таблица 1. Основные драйверы внедрения циркулярных практик", "head": ["Группа драйверов", "Пример", "Число исследований", "Доля, %"], "rows": [["Финансовые", "Экономия на сырье и утилизации", "51", "71"], ["Рыночные", "Требования крупных заказчиков", "38", "53"], ["Организационно-культурные", "Ценности собственников", "31", "43"], ["Институциональные", "Субсидии и консультации", "26", "36"], ["Технологические", "Цифровые платформы обмена", "17", "24"]]},
+      "discussion": [
+        "Доминирование финансовых барьеров и драйверов показывает, что для малого бизнеса циркулярность — прежде всего вопрос экономики, а не экологической повестки. Поэтому меры поддержки, снижающие первоначальные затраты и риски, наиболее востребованы. Вместе с тем субсидии без консультационной поддержки часто не приводят к устойчивым изменениям.",
+        "Географический перекос доказательной базы ограничивает переносимость выводов: институциональная среда, доступ к финансированию и инфраструктура переработки в разных странах существенно различаются. Восполнение этого пробела — важная задача для региональных исследований."
+      ],
+      "conclusion": [
+        "Внедрение циркулярных практик в малом и среднем бизнесе определяется прежде всего экономическими стимулами и требованиями цепочек поставок. Эффективная политика должна сочетать финансовую поддержку с развитием компетенций и инфраструктуры."
+      ]
+    }
+  },
+  {
+    "slug": "v2n1-04-urban-soil-microbiome",
+    "section": "SHC",
+    "locale": "ru",
+    "title": {"ru": "Микробиом почв городских парков: первые результаты метабаркодинга", "en": "The Soil Microbiome of Urban Parks: First Results of Metabarcoding"},
+    "abstract": {
+      "ru": "<p>Почвы городских парков выполняют важные экосистемные функции — регулируют сток, депонируют углерод, поддерживают рост растений, — однако их микробные сообщества изучены значительно хуже, чем сообщества природных почв. В кратком сообщении представлены первые результаты метабаркодинга бактериальных сообществ почв шести парков условного крупного города, различающихся возрастом и интенсивностью рекреационной нагрузки. Отобрано 72 образца верхнего горизонта почвы с газонов, участков под древесной растительностью и вдоль пешеходных дорожек. Состав сообществ определён секвенированием вариабельного участка V4 гена 16S рРНК; параллельно измерены pH, содержание органического углерода, плотность почвы и концентрации тяжёлых металлов. Альфа-разнообразие бактерий оказалось максимальным под древесной растительностью в старых парках и минимальным вдоль уплотнённых дорожек. Структура сообществ достоверно различалась между типами участков (PERMANOVA, R² = 0,21) и в меньшей степени — между парками. Наиболее значимыми факторами, определяющими состав сообществ, были pH и плотность почвы, тогда как влияние тяжёлых металлов в исследованных концентрациях оказалось слабым. Полученные данные свидетельствуют о том, что режим содержания и планировка парков влияют на почвенное микробное разнообразие не меньше, чем загрязнение. Работа продолжается с расширением выборки и включением грибных сообществ.</p>",
+      "en": "<p>The soils of urban parks perform important ecosystem functions, regulating runoff, storing carbon and supporting plant growth, yet their microbial communities have been studied far less than those of natural soils. This short communication presents the first results of metabarcoding of bacterial communities in the soils of six parks in an anonymised large city that differ in age and intensity of recreational use. Seventy-two samples of the topsoil were collected from lawns, areas under tree cover and along footpaths. Community composition was determined by sequencing the V4 variable region of the 16S rRNA gene; pH, organic carbon content, soil bulk density and heavy metal concentrations were measured in parallel. Bacterial alpha diversity was highest under tree cover in older parks and lowest along compacted paths. Community structure differed significantly between site types (PERMANOVA, R² = 0.21) and to a lesser extent between parks. The most important factors shaping community composition were pH and bulk density, whereas the effect of heavy metals at the concentrations studied was weak. These data suggest that park management and layout influence soil microbial diversity at least as much as pollution does. Work is continuing with an expanded sample and the inclusion of fungal communities.</p>"
+    },
+    "keywords": {"ru": ["городские почвы", "микробиом", "метабаркодинг", "16S рРНК", "городские парки"], "en": ["urban soils", "microbiome", "metabarcoding", "16S rRNA", "urban parks"]},
+    "authors": [
+      {"givenName": {"ru": "Айгерим", "en": "Aigerim"}, "familyName": {"ru": "Нурланова", "en": "Nurlanova"}, "email": "a.nurlanova@example.org", "affiliation": {"ru": "Каспийский институт экологических исследований", "en": "Caspian Institute of Environmental Studies"}, "country": "KZ", "primaryContact": false},
+      {"givenName": {"ru": "Полина", "en": "Polina"}, "familyName": {"ru": "Гусева", "en": "Guseva"}, "email": "p.guseva@example.org", "affiliation": {"ru": "Новоборский государственный университет", "en": "Novobor State University"}, "country": "RU", "primaryContact": true}
+    ],
+    "dateSubmitted": "2025-10-28",
+    "dateAccepted": "2026-02-09",
+    "citations": [
+      "Fierer N., Jackson R. B. The diversity and biogeography of soil bacterial communities // Proceedings of the National Academy of Sciences of the USA. 2006. Vol. 103, no. 3. P. 626–631.",
+      "Anderson M. J. A new method for non-parametric multivariate analysis of variance // Austral Ecology. 2001. Vol. 26, no. 1. P. 32–46.",
+      "Гусева П. А. Физические свойства почв городских рекреационных территорий // Почвы и урбанизация. 2023. Т. 5, № 2. С. 40–55.",
+      "Нурланова А. Н., Гусева П. А. Тяжёлые металлы в почвах парков: пространственная изменчивость // Экосистемы и климат. 2024. Т. 6, № 3. С. 77–91.",
+      "Reese A., Kowal M. Trampling effects on soil bacterial diversity in recreational areas // Urban Ecosystems Letters. 2021. Vol. 9. P. 133–148.",
+      "Saldana P., Wu J. Park age and soil microbial community assembly // Journal of Urban Soil Science. 2022. Vol. 4, no. 1. P. 1–17."
+    ],
+    "body": {
+      "intro": [
+        "Почвенные микроорганизмы определяют круговорот углерода и азота, структуру почвы и здоровье растений. В городе почвы испытывают сильное антропогенное воздействие — уплотнение, загрязнение, привнесение насыпных грунтов, — однако парки, особенно старые, могут служить резерватами микробного разнообразия.",
+        "Цель сообщения — представить первые данные о составе и разнообразии бактериальных сообществ почв городских парков и выявить основные факторы, определяющие их структуру."
+      ],
+      "methods": [
+        "В шести парках (П1–П6) возрастом от 15 до 120 лет в каждом из трёх типов участков (газон, древесная растительность, обочина дорожки) отобрано по четыре смешанных образца из слоя 0–10 см. ДНК выделена коммерческим набором, участок V4 гена 16S рРНК амплифицирован и секвенирован. Последовательности обработаны с выделением вариантов ампликонов; разнообразие оценивалось индексом Шеннона, различия в структуре сообществ — методом PERMANOVA по матрице расстояний Брея — Кёртиса."
+      ],
+      "results": [
+        "Индекс Шеннона различался между типами участков (рис. 1): наибольшие значения отмечены под древесной растительностью, наименьшие — вдоль дорожек, где плотность почвы достигала 1,55 г/см³. Результаты анализа PERMANOVA приведены в табл. 1."
+      ],
+      "figure": {"kind": "bar", "caption": "Рис. 1. Индекс Шеннона бактериальных сообществ по типам участков в молодых и старых парках", "x": ["Газон", "Древесная растительность", "Обочина дорожки"], "ylabel": "Индекс Шеннона", "series": [{"name": "Молодые парки (< 40 лет)", "values": [6.1, 6.4, 5.3]}, {"name": "Старые парки (> 80 лет)", "values": [6.4, 7.0, 5.5]}]},
+      "table": {"caption": "Таблица 1. Факторы структуры бактериальных сообществ (PERMANOVA, 999 перестановок)", "head": ["Фактор", "R²", "F", "p"], "rows": [["Тип участка", "0,21", "9,4", "0,001"], ["Парк", "0,12", "2,1", "0,003"], ["pH", "0,09", "8,0", "0,001"], ["Плотность почвы", "0,07", "6,3", "0,001"], ["Сумма тяжёлых металлов", "0,02", "1,6", "0,092"]]},
+      "discussion": [
+        "Сильное влияние типа участка и плотности почвы указывает на рекреационное уплотнение как ведущий фактор обеднения микробных сообществ. Это согласуется с данными для природных рекреационных территорий. Слабое влияние тяжёлых металлов может объясняться их умеренными концентрациями в исследованных парках. Практический вывод — организация дорожно-тропиночной сети и защита корневых зон деревьев от вытаптывания способствуют сохранению почвенного биоразнообразия."
+      ],
+      "conclusion": [
+        "Бактериальное разнообразие почв городских парков определяется прежде всего типом участка, pH и уплотнением почвы. Старые парки с сохранившимся древостоем являются важными резерватами почвенного микробного разнообразия."
+      ]
+    }
+  }
+]

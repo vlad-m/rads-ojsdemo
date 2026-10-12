@@ -1,0 +1,10 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "plugins.generic.ruLocaleCompletion.displayName"
+msgstr "Russian translation completion"
+
+msgid "plugins.generic.ruLocaleCompletion.description"
+msgstr "Adds Russian translations for interface strings missing from the official OJS 3.5 Russian locale."

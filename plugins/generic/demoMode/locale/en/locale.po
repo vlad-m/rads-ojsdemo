@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "plugins.generic.demoMode.displayName"
+msgstr "Demo mode"
+
+msgid "plugins.generic.demoMode.description"
+msgstr "Read-only demonstration mode: demo accounts can open every page and form, but changes are never saved. Controlled from config.inc.php ([demo] section)."
+
+msgid "plugins.generic.demoMode.title"
+msgstr "Demo mode"
+
+msgid "plugins.generic.demoMode.refused"
+msgstr "This is a demo installation: changes are not saved. You can explore every page and form, but saving, uploading and sending e-mails are disabled."
+
+msgid "plugins.generic.demoMode.back"
+msgstr "Back"
+
+msgid "plugins.generic.demoMode.banner"
+msgstr "Demo mode — explore freely, changes are not saved."
+
+msgid "plugins.generic.demoMode.banner.reset"
+msgstr "Demo data is restored every {$hours} h."
+
+msgid "plugins.generic.demoMode.banner.superuser"
+msgstr "Demo mode is on, but you are signed in as a superuser: your changes ARE saved."
+
+msgid "plugins.generic.demoMode.login.title"
+msgstr "Demo accounts"
+
+msgid "plugins.generic.demoMode.login.hint"
+msgstr "Choose a role to sign in. Password for all accounts:"
+
+msgid "plugins.generic.demoMode.account.admin"
+msgstr "Administrator"
+
+msgid "plugins.generic.demoMode.account.editor"
+msgstr "Editor"
+
+msgid "plugins.generic.demoMode.account.reviewer"
+msgstr "Reviewer"
+
+msgid "plugins.generic.demoMode.account.author"
+msgstr "Author"

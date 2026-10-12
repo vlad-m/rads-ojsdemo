@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ru\n"
+
+msgid "plugins.generic.demoMode.displayName"
+msgstr "Демо-режим"
+
+msgid "plugins.generic.demoMode.description"
+msgstr "Демонстрационный режим «только чтение»: демо-пользователи видят все страницы и формы, но изменения не сохраняются. Управляется в config.inc.php (секция [demo])."
+
+msgid "plugins.generic.demoMode.title"
+msgstr "Демонстрационный режим"
+
+msgid "plugins.generic.demoMode.refused"
+msgstr "Это демонстрационная версия: изменения не сохраняются. Вы можете открыть любые страницы и формы, но сохранение, загрузка файлов и отправка писем отключены."
+
+msgid "plugins.generic.demoMode.back"
+msgstr "Назад"
+
+msgid "plugins.generic.demoMode.banner"
+msgstr "Демо-режим — изучайте систему свободно, изменения не сохраняются."
+
+msgid "plugins.generic.demoMode.banner.reset"
+msgstr "Данные восстанавливаются каждые {$hours} ч."
+
+msgid "plugins.generic.demoMode.banner.superuser"
+msgstr "Демо-режим включён, но вы вошли как суперпользователь: ваши изменения СОХРАНЯЮТСЯ."
+
+msgid "plugins.generic.demoMode.login.title"
+msgstr "Демо-доступ"
+
+msgid "plugins.generic.demoMode.login.hint"
+msgstr "Выберите роль для входа. Пароль для всех учётных записей:"
+
+msgid "plugins.generic.demoMode.account.admin"
+msgstr "Администратор"
+
+msgid "plugins.generic.demoMode.account.editor"
+msgstr "Редактор"
+
+msgid "plugins.generic.demoMode.account.reviewer"
+msgstr "Рецензент"
+
+msgid "plugins.generic.demoMode.account.author"
+msgstr "Автор"

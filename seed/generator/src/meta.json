@@ -1,0 +1,152 @@
+{
+  "journal": {
+    "path": "jir",
+    "name": {"ru": "Вестник междисциплинарных исследований", "en": "Journal of Interdisciplinary Research"},
+    "acronym": {"ru": "ВМИ", "en": "JIR"},
+    "abbreviation": {"ru": "Вестн. междисц. исслед.", "en": "J. Interdiscip. Res."},
+    "tagline": {"ru": "Рецензируемый журнал открытого доступа для исследований на стыке естественных, технических, социальных и гуманитарных наук: от моделей и данных — к практическим решениям.", "en": "A peer-reviewed open access journal for research at the intersection of the natural, technical, social sciences and humanities: from models and data to practical solutions."},
+    "description": {
+      "ru": "<p>«Вестник междисциплинарных исследований» — рецензируемый научный журнал открытого доступа, публикующий оригинальные исследования на стыке естественных, технических, социальных и гуманитарных наук. Журнал объединяет авторов, которые решают сложные практические и теоретические задачи с помощью методов нескольких дисциплин.</p><p>Тематика журнала охватывает науку о данных, экологию и климат, экономику, лингвистику, материаловедение, общественное здоровье, образовательные технологии, историю науки и урбанистику. Мы приветствуем работы, в которых методологическая строгость сочетается с ясным изложением и открытостью данных.</p>",
+      "en": "<p>The Journal of Interdisciplinary Research is a peer-reviewed open-access journal publishing original research at the intersection of the natural, technical, social sciences and the humanities. The journal brings together authors who address complex practical and theoretical problems with the methods of more than one discipline.</p><p>Its scope covers data science, ecology and climate, economics, linguistics, materials science, public health, educational technology, the history of science and urban studies. We welcome work that combines methodological rigour with clear writing and open data.</p>"
+    },
+    "about": {
+      "ru": "<h3>Цели и задачи</h3><p>Журнал создан для того, чтобы предоставить площадку исследованиям, которые не укладываются в рамки одной дисциплины. Мы публикуем оригинальные статьи, обзоры и краткие сообщения, в которых методы одной области применяются для решения задач другой, а результаты значимы для широкого круга специалистов.</p><h3>Рецензирование</h3><p>Все рукописи проходят двойное слепое рецензирование не менее чем двумя независимыми экспертами. Средний срок от подачи рукописи до первого решения составляет шесть недель. Окончательное решение о публикации принимает главный редактор на основании рецензий и рекомендации редактора раздела.</p><h3>Открытый доступ</h3><p>Все материалы журнала доступны бесплатно сразу после публикации и распространяются на условиях лицензии Creative Commons Attribution 4.0 International (CC BY 4.0).</p><h3>Индексирование</h3><p>Журнал зарегистрирован в Российском индексе научного цитирования (РИНЦ), метаданные статей депонируются в открытых научных каталогах и доступны по протоколу OAI-PMH.</p><h3>Периодичность</h3><p>Журнал выходит два раза в год — в марте и сентябре. Статьи публикуются в составе выпусков.</p><h3>Плата за публикацию</h3><p>Журнал не взимает плату ни за подачу, ни за рецензирование, ни за публикацию статей (APC отсутствует). Издание финансируется издателем — Научно-издательским центром «Академия».</p>",
+      "en": "<h3>Aims and Scope</h3><p>The journal was founded to provide a venue for research that does not fit within the boundaries of a single discipline. We publish original articles, reviews and short communications in which the methods of one field are applied to the problems of another and the results matter to a broad range of specialists.</p><h3>Peer Review</h3><p>All manuscripts undergo double-blind peer review by at least two independent experts. The median time from submission to first decision is six weeks. The final decision on publication is made by the Editor-in-Chief on the basis of the reviews and the recommendation of the section editor.</p><h3>Open Access</h3><p>All content is freely available immediately upon publication and is distributed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).</p><h3>Indexing</h3><p>The journal is registered in the Russian Science Citation Index (RSCI); article metadata are deposited in open scholarly catalogues and exposed via OAI-PMH.</p><h3>Frequency</h3><p>The journal is published twice a year, in March and September. Articles are published as part of issues.</p><h3>Article Processing Charges</h3><p>The journal charges no submission, review or publication fees (no APC). It is funded by its publisher, Academia Research Publishing Centre.</p>"
+    },
+    "authorGuidelines": {
+      "ru": "<p>Журнал принимает рукописи на русском и английском языках. Перед подачей ознакомьтесь с политикой разделов и требованиями к оформлению.</p><ul><li>Объём научной статьи — 25–45 тыс. знаков с пробелами, обзора — до 60 тыс., краткого сообщения — до 15 тыс.</li><li>Аннотация на русском и английском языках объёмом 150–250 слов; 4–6 ключевых слов на каждом языке.</li><li>Структура статьи: введение, материалы и методы, результаты, обсуждение, заключение, список литературы.</li><li>Список литературы оформляется по ГОСТ Р 7.0.5–2008; для всех источников, имеющих DOI, он указывается.</li><li>Рисунки предоставляются отдельными файлами (PNG, TIFF или SVG) с разрешением не менее 300 dpi.</li><li>Для двойного слепого рецензирования из рукописи удаляются сведения об авторах.</li></ul>",
+      "en": "<p>The journal accepts manuscripts in Russian and English. Before submitting, please read the section policies and formatting requirements.</p><ul><li>Length: research article 25,000–45,000 characters including spaces, review up to 60,000, short communication up to 15,000.</li><li>Abstract in Russian and English of 150–250 words; 4–6 keywords in each language.</li><li>Structure: introduction, materials and methods, results, discussion, conclusion, references.</li><li>References follow GOST R 7.0.5–2008; DOIs must be given wherever they exist.</li><li>Figures are supplied as separate files (PNG, TIFF or SVG) at a resolution of at least 300 dpi.</li><li>For double-blind review, all author information must be removed from the manuscript file.</li></ul>"
+    },
+    "submissionChecklist": [
+      {"ru": "Рукопись ранее не публиковалась и не находится на рассмотрении в другом журнале.", "en": "The manuscript has not been previously published and is not under consideration by another journal."},
+      {"ru": "Файл рукописи представлен в формате DOCX, ODT или RTF.", "en": "The manuscript file is in DOCX, ODT or RTF format."},
+      {"ru": "Аннотация и ключевые слова приведены на русском и английском языках.", "en": "The abstract and keywords are provided in both Russian and English."},
+      {"ru": "Текст оформлен в соответствии с требованиями журнала, список литературы — по ГОСТ Р 7.0.5–2008.", "en": "The text follows the journal's requirements, and references follow GOST R 7.0.5–2008."},
+      {"ru": "Из файла рукописи удалены сведения об авторах для обеспечения слепого рецензирования.", "en": "All author information has been removed from the manuscript file to ensure blind review."},
+      {"ru": "Все соавторы ознакомлены с рукописью и согласны с её подачей.", "en": "All co-authors have read the manuscript and agree to its submission."}
+    ],
+    "copyrightNotice": {
+      "ru": "<p>Авторы сохраняют авторские права на свои статьи и предоставляют журналу право первой публикации. Статьи распространяются на условиях лицензии Creative Commons Attribution 4.0 International (CC BY 4.0), которая разрешает копирование, распространение и адаптацию материала при условии указания авторства и ссылки на первоначальную публикацию в журнале.</p>",
+      "en": "<p>Authors retain copyright in their articles and grant the journal the right of first publication. Articles are distributed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0), which permits copying, distribution and adaptation provided that authorship is attributed and the original publication in the journal is cited.</p>"
+    },
+    "privacyStatement": {
+      "ru": "<p>Имена и адреса электронной почты, указанные на сайте журнала, используются исключительно для целей, связанных с работой журнала, и не передаются третьим лицам.</p>",
+      "en": "<p>The names and email addresses entered on this journal site will be used exclusively for the stated purposes of this journal and will not be made available for any other purpose or to any other party.</p>"
+    },
+    "openAccessPolicy": {
+      "ru": "<p>Журнал предоставляет немедленный открытый доступ к своему содержанию, исходя из принципа, что свободный доступ к результатам исследований способствует глобальному обмену знаниями. Читатели могут бесплатно читать, загружать, копировать, распространять и цитировать статьи.</p>",
+      "en": "<p>This journal provides immediate open access to its content on the principle that making research freely available to the public supports a greater global exchange of knowledge. Readers may read, download, copy, distribute and cite articles free of charge.</p>"
+    },
+    "reviewGuidelines": {
+      "ru": "<p>Рецензент оценивает новизну и значимость работы, корректность методов, обоснованность выводов, полноту обзора литературы и качество изложения. Просим указать, соответствует ли рукопись тематике журнала, и дать одну из рекомендаций: принять, принять после доработки, повторно рассмотреть после существенной доработки или отклонить. Комментарии для авторов должны быть конструктивными и конкретными; конфиденциальные замечания можно направить только редактору.</p>",
+      "en": "<p>Reviewers assess the novelty and significance of the work, the soundness of the methods, the validity of the conclusions, the completeness of the literature review and the quality of the writing. Please state whether the manuscript fits the scope of the journal and give one of the following recommendations: accept, minor revisions, major revisions (resubmit for review) or decline. Comments to authors should be constructive and specific; confidential remarks may be addressed to the editor only.</p>"
+    },
+    "pageFooter": {
+      "ru": "<p>Журнал зарегистрирован в РИНЦ. Материалы распространяются по лицензии CC BY 4.0. ISSN 2949-4176 (онлайн), ISSN 2949-4184 (печать).</p>",
+      "en": "<p>Indexed in RSCI. Content is licensed under CC BY 4.0. ISSN 2949-4176 (online), ISSN 2949-4184 (print).</p>"
+    },
+    "onlineIssn": "2949-4176",
+    "printIssn": "2949-4184",
+    "publisherInstitution": "Научно-издательский центр «Академия»",
+    "contactName": "Елена Соколовская",
+    "contactEmail": "editorial@example.org",
+    "contactPhone": "+7 (000) 000-00-00",
+    "contactAffiliation": {"ru": "Новоборский государственный университет", "en": "Novobor State University"},
+    "mailingAddress": "Научно-издательский центр «Академия», ул. Университетская, д. 12, офис 304, г. Новобор, 000000, Россия",
+    "supportName": "Мария Белова",
+    "supportEmail": "support@example.org"
+  },
+  "sections": [
+    {"ref": "ART", "title": {"ru": "Научные статьи", "en": "Research Articles"}, "abbrev": {"ru": "СТ", "en": "ART"},
+     "policy": {"ru": "Оригинальные исследования с новыми эмпирическими или теоретическими результатами. Рецензирование — двойное слепое, не менее двух рецензентов.", "en": "Original research presenting new empirical or theoretical results. Double-blind review by at least two reviewers."}},
+    {"ref": "REV", "title": {"ru": "Обзоры", "en": "Reviews"}, "abbrev": {"ru": "ОБЗ", "en": "REV"},
+     "policy": {"ru": "Систематические и аналитические обзоры, обобщающие состояние исследований в междисциплинарной области. Предварительное согласование темы с редакцией приветствуется.", "en": "Systematic and critical reviews summarising the state of research in an interdisciplinary field. Prior consultation with the editors on the topic is welcome."}},
+    {"ref": "SHC", "title": {"ru": "Краткие сообщения", "en": "Short Communications"}, "abbrev": {"ru": "КС", "en": "SHC"},
+     "policy": {"ru": "Краткие сообщения о предварительных результатах, новых методах или наборах данных объёмом до 15 тыс. знаков. Ускоренное рецензирование.", "en": "Brief reports of preliminary results, new methods or datasets of up to 15,000 characters. Fast-track review."}}
+  ],
+  "users": [
+    {"username": "sokolovskaya", "email": "e.sokolovskaya@example.org",
+     "givenName": {"ru": "Елена", "en": "Elena"}, "familyName": {"ru": "Соколовская", "en": "Sokolovskaya"},
+     "affiliation": {"ru": "Новоборский государственный университет", "en": "Novobor State University"}, "country": "RU",
+     "biography": {"ru": "<p>Доктор географических наук, профессор кафедры пространственного анализа. Специалист в области геоинформатики и устойчивого развития городов, автор более 120 научных работ.</p>", "en": "<p>Doctor of Sciences in Geography, Professor at the Department of Spatial Analysis. A specialist in geoinformatics and sustainable urban development, she has authored more than 120 scholarly works.</p>"},
+     "roles": ["editor-in-chief"]},
+    {"username": "karimov", "email": "t.karimov@example.org",
+     "givenName": {"ru": "Тимур", "en": "Timur"}, "familyName": {"ru": "Каримов", "en": "Karimov"},
+     "affiliation": {"ru": "Волжский институт прикладной аналитики", "en": "Volga Institute of Applied Analytics"}, "country": "RU",
+     "biography": {"ru": "<p>Кандидат физико-математических наук, заведующий лабораторией анализа данных. Научные интересы: машинное обучение, статистика пространственных данных, воспроизводимые исследования.</p>", "en": "<p>PhD in Physics and Mathematics, Head of the Data Analysis Laboratory. Research interests: machine learning, spatial statistics and reproducible research.</p>"},
+     "roles": ["section-editor", "reviewer"]},
+    {"username": "lebedeva", "email": "a.lebedeva@example.org",
+     "givenName": {"ru": "Анна", "en": "Anna"}, "familyName": {"ru": "Лебедева", "en": "Lebedeva"},
+     "affiliation": {"ru": "Институт языка и коммуникации «Лексис»", "en": "Lexis Institute of Language and Communication"}, "country": "RU",
+     "biography": {"ru": "<p>Доктор филологических наук, ведущий научный сотрудник. Занимается корпусной лингвистикой, терминоведением и цифровыми гуманитарными исследованиями.</p>", "en": "<p>Doctor of Sciences in Philology, Leading Researcher. Works in corpus linguistics, terminology studies and the digital humanities.</p>"},
+     "roles": ["section-editor", "reviewer"]},
+    {"username": "orlov", "email": "d.orlov@example.org",
+     "givenName": {"ru": "Дмитрий", "en": "Dmitry"}, "familyName": {"ru": "Орлов", "en": "Orlov"},
+     "affiliation": {"ru": "Уральский центр материаловедения «Кристалл»", "en": "Kristall Ural Centre for Materials Science"}, "country": "RU",
+     "biography": {"ru": "<p>Кандидат химических наук, старший научный сотрудник. Исследует тонкоплёночные функциональные материалы и методы их характеризации.</p>", "en": "<p>PhD in Chemistry, Senior Researcher. Studies thin-film functional materials and their characterisation techniques.</p>"},
+     "roles": ["reviewer"]},
+    {"username": "vasilenko", "email": "o.vasilenko@example.org",
+     "givenName": {"ru": "Ольга", "en": "Olga"}, "familyName": {"ru": "Василенко", "en": "Vasilenko"},
+     "affiliation": {"ru": "НИИ общественного здоровья «Вита»", "en": "Vita Research Institute of Public Health"}, "country": "RU",
+     "biography": {"ru": "<p>Кандидат медицинских наук, эпидемиолог. Научные интересы: факторы окружающей среды и здоровье населения, цифровое здравоохранение.</p>", "en": "<p>PhD in Medicine, epidemiologist. Research interests: environmental determinants of population health and digital health.</p>"},
+     "roles": ["reviewer"]},
+    {"username": "gromov", "email": "p.gromov@example.org",
+     "givenName": {"ru": "Павел", "en": "Pavel"}, "familyName": {"ru": "Громов", "en": "Gromov"},
+     "affiliation": {"ru": "Институт экономики и пространственного развития «Меридиан»", "en": "Meridian Institute for Economics and Spatial Development"}, "country": "RU",
+     "biography": {"ru": "<p>Кандидат экономических наук, доцент. Специализируется на региональной экономике, рынках труда и оценке государственных программ.</p>", "en": "<p>PhD in Economics, Associate Professor. Specialises in regional economics, labour markets and programme evaluation.</p>"},
+     "roles": ["reviewer"]},
+    {"username": "nurlanova", "email": "a.nurlanova@example.org",
+     "givenName": {"ru": "Айгерим", "en": "Aigerim"}, "familyName": {"ru": "Нурланова", "en": "Nurlanova"},
+     "affiliation": {"ru": "Каспийский институт экологических исследований", "en": "Caspian Institute of Environmental Studies"}, "country": "KZ",
+     "biography": {"ru": "<p>PhD в области экологии, руководитель группы биогеохимии. Изучает углеродный цикл наземных экосистем и почвенные микробные сообщества.</p>", "en": "<p>PhD in Ecology, head of the biogeochemistry group. Studies the carbon cycle of terrestrial ecosystems and soil microbial communities.</p>"},
+     "roles": ["reviewer"]},
+    {"username": "belova", "email": "m.belova@example.org",
+     "givenName": {"ru": "Мария", "en": "Maria"}, "familyName": {"ru": "Белова", "en": "Belova"},
+     "affiliation": {"ru": "Научно-издательский центр «Академия»", "en": "Academia Research Publishing Centre"}, "country": "RU",
+     "biography": {"ru": "<p>Выпускающий редактор и верстальщик журнала. Отвечает за литературное редактирование, вёрстку и техническую поддержку авторов.</p>", "en": "<p>Managing and layout editor of the journal. Responsible for copyediting, typesetting and technical support for authors.</p>"},
+     "roles": ["copyeditor", "layout-editor"]},
+    {"username": "zaitsev", "email": "k.zaitsev@example.org",
+     "givenName": {"ru": "Кирилл", "en": "Kirill"}, "familyName": {"ru": "Зайцев", "en": "Zaitsev"},
+     "affiliation": {"ru": "Волжский институт прикладной аналитики", "en": "Volga Institute of Applied Analytics"}, "country": "RU",
+     "biography": {"ru": "<p>Аспирант лаборатории анализа данных. Занимается прогнозированием временных рядов в энергетике.</p>", "en": "<p>Doctoral student at the Data Analysis Laboratory, working on time-series forecasting for the energy sector.</p>"},
+     "roles": ["author"]},
+    {"username": "fedorova", "email": "i.fedorova@example.org",
+     "givenName": {"ru": "Ирина", "en": "Irina"}, "familyName": {"ru": "Федорова", "en": "Fedorova"},
+     "affiliation": {"ru": "Лесногорский педагогический университет", "en": "Lesnogorsk Pedagogical University"}, "country": "RU",
+     "biography": {"ru": "<p>Кандидат педагогических наук, доцент кафедры цифровой дидактики. Исследует адаптивное обучение и аналитику учебных данных.</p>", "en": "<p>PhD in Education, Associate Professor at the Department of Digital Didactics. Researches adaptive learning and learning analytics.</p>"},
+     "roles": ["author"]}
+  ],
+  "issues": [
+    {"volume": 1, "number": "1", "year": 2025,
+     "title": {"ru": "Данные, среда и общество", "en": "Data, Environment and Society"},
+     "description": {"ru": "<p>Первый выпуск журнала посвящён тому, как новые источники данных меняют исследования городской среды, экологии и экономики. В выпуске представлены работы о городских островах тепла, калибровке датчиков качества воздуха, удалённой занятости, углеродном балансе болот и языке цифровой экономики.</p>", "en": "<p>The inaugural issue explores how new data sources are changing research on the urban environment, ecology and the economy. It features studies of urban heat islands, air-quality sensor calibration, remote employment, peatland carbon balance and the language of the digital economy.</p>"},
+     "datePublished": "2025-03-20", "current": false, "cover": "covers/v1n1.png", "articlesFile": "articles_v1n1.json"},
+    {"volume": 1, "number": "2", "year": 2025,
+     "title": {"ru": "Технологии и человек", "en": "Technology and the Human Dimension"},
+     "description": {"ru": "<p>Выпуск объединяет исследования о том, как технологии — от новых материалов до цифровых сервисов — встраиваются в повседневную жизнь. Авторы рассматривают стабильность перовскитных плёнок, адаптивное обучение, телемедицину для пожилых людей, историю вычислительных центров и повторное использование воды.</p>", "en": "<p>This issue brings together research on how technologies, from new materials to digital services, become part of everyday life. The authors examine the stability of perovskite films, adaptive learning, telemedicine for older adults, the history of computing centres and water reuse.</p>"},
+     "datePublished": "2025-09-25", "current": false, "cover": "covers/v1n2.png", "articlesFile": "articles_v1n2.json"},
+    {"volume": 2, "number": "1", "year": 2026,
+     "title": {"ru": "Устойчивое развитие: модели и практики", "en": "Sustainability: Models and Practices"},
+     "description": {"ru": "<p>Выпуск посвящён количественным моделям и практическим решениям в области устойчивого развития. В него вошли работы о транспортной доступности и рынке жилья, распознавании машинно сгенерированных научных текстов, циркулярной экономике малого бизнеса и микробиоме городских почв.</p>", "en": "<p>This issue is devoted to quantitative models and practical solutions for sustainable development. It includes studies of transit accessibility and housing markets, the detection of machine-generated scientific text, the circular economy in small businesses and the microbiome of urban soils.</p>"},
+     "datePublished": "2026-03-18", "current": true, "cover": "covers/v2n1.png", "articlesFile": "articles_v2n1.json"}
+  ],
+  "submissionsFile": "submissions.json",
+  "announcements": [
+    {"title": {"ru": "Приём статей в тематический выпуск «Климат и города»", "en": "Call for Papers: Special Issue on Climate and Cities"},
+     "descriptionShort": {"ru": "<p>Принимаются рукописи для выпуска т. 2, № 2 (сентябрь 2026). Срок подачи — 15 июня 2026 г.</p>", "en": "<p>Manuscripts are invited for Vol. 2, No. 2 (September 2026). Submission deadline: 15 June 2026.</p>"},
+     "description": {"ru": "<p>Редакция приглашает авторов к участию в тематическом выпуске «Климат и города», который выйдет в сентябре 2026 г. Приветствуются работы об адаптации городской среды к изменению климата, моделировании тепловых волн, зелёной инфраструктуре, энергоэффективности и социальных аспектах климатической политики.</p><p>Рукописи принимаются через электронную редакцию до 15 июня 2026 г. Все статьи проходят стандартное двойное слепое рецензирование. Плата за публикацию не взимается.</p>", "en": "<p>The editors invite contributions to the special issue on Climate and Cities, to be published in September 2026. We welcome papers on urban adaptation to climate change, heatwave modelling, green infrastructure, energy efficiency and the social dimensions of climate policy.</p><p>Manuscripts should be submitted through the online system by 15 June 2026. All papers undergo standard double-blind peer review. There are no publication fees.</p>"},
+     "datePosted": "2026-02-02"},
+    {"title": {"ru": "Журнал включён в РИНЦ", "en": "Journal Now Indexed in RSCI"},
+     "descriptionShort": {"ru": "<p>Все статьи журнала, начиная с первого выпуска, индексируются в Российском индексе научного цитирования.</p>", "en": "<p>All articles, starting from the first issue, are now indexed in the Russian Science Citation Index.</p>"},
+     "description": {"ru": "<p>Рады сообщить, что «Вестник междисциплинарных исследований» включён в Российский индекс научного цитирования. Метаданные всех опубликованных статей, начиная с т. 1, № 1 (2025), переданы в базу данных и доступны для поиска.</p><p>Благодарим авторов, рецензентов и членов редакционной коллегии за вклад в развитие журнала.</p>", "en": "<p>We are pleased to announce that the Journal of Interdisciplinary Research has been included in the Russian Science Citation Index. Metadata for all published articles, starting from Vol. 1, No. 1 (2025), have been transferred to the database and are now searchable.</p><p>We thank our authors, reviewers and editorial board members for their contribution to the journal.</p>"},
+     "datePosted": "2026-04-14"},
+    {"title": {"ru": "Новый член редакционной коллегии", "en": "New Editorial Board Member"},
+     "descriptionShort": {"ru": "<p>В состав редакционной коллегии вошла PhD Айгерим Нурланова (Каспийский институт экологических исследований).</p>", "en": "<p>Dr Aigerim Nurlanova (Caspian Institute of Environmental Studies) has joined the editorial board.</p>"},
+     "description": {"ru": "<p>Редакционная коллегия журнала пополнилась: к нам присоединилась PhD Айгерим Нурланова, руководитель группы биогеохимии Каспийского института экологических исследований. Её научные интересы — углеродный цикл наземных экосистем и почвенные микробные сообщества.</p><p>Айгерим Нурлановна будет курировать рукописи в области экологии и наук о Земле.</p>", "en": "<p>Our editorial board has been strengthened by Dr Aigerim Nurlanova, head of the biogeochemistry group at the Caspian Institute of Environmental Studies. Her research interests include the carbon cycle of terrestrial ecosystems and soil microbial communities.</p><p>Dr Nurlanova will oversee manuscripts in ecology and the Earth sciences.</p>"},
+     "datePosted": "2026-06-08"},
+    {"title": {"ru": "Конференция «Междисциплинарность в науке — 2026»", "en": "Conference: Interdisciplinarity in Science 2026"},
+     "descriptionShort": {"ru": "<p>27–28 ноября 2026 г. журнал проводит онлайн-конференцию для авторов и рецензентов. Регистрация открыта до 1 ноября.</p>", "en": "<p>On 27–28 November 2026 the journal will host an online conference for authors and reviewers. Registration is open until 1 November.</p>"},
+     "description": {"ru": "<p>Научно-издательский центр «Академия» и редакция журнала приглашают к участию в онлайн-конференции «Междисциплинарность в науке — 2026», которая пройдёт 27–28 ноября 2026 г.</p><p>В программе — пленарные доклады, секции по науке о данных, экологии, экономике и гуманитарным исследованиям, а также мастер-класс по подготовке рукописей и рецензий. Лучшие доклады будут рекомендованы к публикации в журнале после рецензирования. Участие бесплатное; регистрация открыта до 1 ноября 2026 г.</p>", "en": "<p>Academia Research Publishing Centre and the journal's editorial office invite you to the online conference Interdisciplinarity in Science 2026, to be held on 27–28 November 2026.</p><p>The programme includes plenary talks, sessions on data science, ecology, economics and the humanities, and a workshop on preparing manuscripts and peer reviews. The best papers will be recommended for publication in the journal after peer review. Participation is free; registration is open until 1 November 2026.</p>"},
+     "datePosted": "2026-09-01"}
+  ]
+}

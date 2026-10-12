@@ -1,0 +1,87 @@
+# BEGIN rads-ojsdemo hardening
+# -----------------------------------------------------------------------------
+# OJS root .htaccess (Apache 2.4). Installed by scripts/harden.sh.
+# Only index.php is executable; code, configuration, templates, caches and
+# development files are not reachable over HTTP; common attack payloads are
+# rejected before they reach PHP.
+# -----------------------------------------------------------------------------
+
+Options -Indexes -MultiViews
+DirectoryIndex index.php
+ServerSignature Off
+
+# --- Security headers --------------------------------------------------------
+<IfModule mod_headers.c>
+	Header always set X-Content-Type-Options "nosniff"
+	Header always set X-Frame-Options "SAMEORIGIN"
+	Header always set Referrer-Policy "strict-origin-when-cross-origin"
+	Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+	Header always set Cross-Origin-Opener-Policy "same-origin"
+	Header always set Strict-Transport-Security "max-age=31536000" "expr=%{HTTPS} == 'on'"
+	Header always unset X-Powered-By
+	Header unset X-Powered-By
+	#NOINDEX# Header always set X-Robots-Tag "noindex, nofollow"
+</IfModule>
+
+# --- Sensitive files ---------------------------------------------------------
+# Configuration, templates, translations, schemas, scripts, dumps, backups,
+# VCS/editor leftovers and dot-files.
+<FilesMatch "(?i)^(config\.(inc|TEMPLATE\.inc)\.php.*|composer\.(json|lock)|package(-lock)?\.json|phpunit.*|phpdoc.*|cypress.*|vite\.config.*|jsconfig\.json|.*\.(tpl|po|pot|mo|xsd|dtd|lock|md|sh|bash|sql|sql\.gz|log|bak|backup|old|orig|save|swp|swo|dist|yml|yaml|ini|less|neon|phar|tar|tgz|gz|zip|7z|rar)|\..+)$">
+	Require all denied
+</FilesMatch>
+<FilesMatch "(?i)^(robots\.txt|favicon\.ico)$">
+	Require all granted
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	# Let ACME / .well-known requests through (TLS certificates)
+	RewriteRule ^\.well-known/ - [L]
+
+	# Methods that OJS never needs
+	RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK|CONNECT|DEBUG)$ [NC]
+	RewriteRule .* - [F,L]
+
+	# Directories with code/data only (no public assets)
+	RewriteRule ^(cache|classes|controllers|dbscripts|docs|jobs|locale|pages|registry|schemas|tests|tools|api|cypress|node_modules|\.git|\.github)(/|$) - [F,L,NC]
+	RewriteRule ^lib/pkp/(classes|controllers|pages|api|dbscripts|locale|registry|schemas|tests|tools|xml|jobs)(/|$) - [F,L,NC]
+	RewriteRule ^plugins/[^/]+/[^/]+/(classes|controllers|pages|locale|schemas|tests|filter|templates|vendor)(/|$) - [F,L,NC]
+	RewriteRule ^files(/|$) - [F,L,NC]
+
+	# Only index.php may be executed. Everything else ending in a PHP-like
+	# extension (incl. uploaded web shells) is refused.
+	RewriteCond %{REQUEST_URI} !^(.*/)?index\.php(/|$) [NC]
+	RewriteRule \.(php\d?|phtml|pht|phar|inc|cgi|pl|py|asp|aspx|jsp|sh)(/|$) - [F,L,NC]
+
+	# Lightweight WAF: path traversal, file inclusion and injection probes
+	RewriteCond %{THE_REQUEST} (\.\./|\.\.%2f|%2e%2e%2f|%2e%2e/|%252e%252e) [NC,OR]
+	RewriteCond %{QUERY_STRING} (php|phar|zip|data|expect|glob|file|input)://  [NC,OR]
+	RewriteCond %{QUERY_STRING} (/etc/passwd|/proc/self/environ|boot\.ini|win\.ini) [NC,OR]
+	RewriteCond %{QUERY_STRING} (base64_(en|de)code|eval\(|assert\(|system\(|passthru\(|shell_exec\(|GLOBALS(=|\[)|_REQUEST(=|\[)) [NC,OR]
+	RewriteCond %{QUERY_STRING} (<|%3C)\s*(script|iframe|object|embed|svg|img[^>]+onerror) [NC,OR]
+	RewriteCond %{QUERY_STRING} (union(\s|\+|%20|/\*.*\*/)+(all(\s|\+|%20)+)?select|(sleep|benchmark|pg_sleep)(\s|%20)*\(|information_schema|load_file\() [NC]
+	RewriteRule .* - [F,L]
+
+	# Known vulnerability scanners and exploit kits
+	RewriteCond %{HTTP_USER_AGENT} (sqlmap|nikto|acunetix|nessus|wpscan|masscan|zgrab|nuclei|dirbuster|gobuster|ffuf|havij|netsparker|jorgee|fimap|w3af) [NC]
+	RewriteRule .* - [F,L]
+
+	# Standard OJS front controller (pretty URLs without index.php when
+	# restful_urls = On in config.inc.php)
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [QSA,L]
+</IfModule>
+
+# --- Caching of static assets ------------------------------------------------
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType text/css "access plus 7 days"
+	ExpiresByType application/javascript "access plus 7 days"
+	ExpiresByType font/woff2 "access plus 1 year"
+	ExpiresByType image/png "access plus 30 days"
+	ExpiresByType image/jpeg "access plus 30 days"
+	ExpiresByType image/svg+xml "access plus 30 days"
+</IfModule>
+# END rads-ojsdemo hardening

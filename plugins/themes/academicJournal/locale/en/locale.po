@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "plugins.themes.academicJournal.name"
+msgstr "Academic Journal Theme"
+
+msgid "plugins.themes.academicJournal.description"
+msgstr "A classic, typographic theme for scholarly journals: serif headings, a journal homepage with mission statement, statistics and current issue, and a rich footer."
+
+msgid "plugins.themes.academicJournal.option.primaryColour.label"
+msgstr "Primary colour"
+
+msgid "plugins.themes.academicJournal.option.primaryColour.description"
+msgstr "Used for the header, footer and headings. Choose a dark colour."
+
+msgid "plugins.themes.academicJournal.option.accentColour.label"
+msgstr "Accent colour"
+
+msgid "plugins.themes.academicJournal.option.accentColour.description"
+msgstr "Used for links, buttons and highlights."
+
+msgid "plugins.themes.academicJournal.option.showHero.label"
+msgstr "Homepage introduction"
+
+msgid "plugins.themes.academicJournal.option.showHero.option"
+msgstr "Show the introduction block with the journal mission and calls to action"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.label"
+msgstr "Homepage tagline"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.description"
+msgstr "Short mission statement shown in the homepage introduction. If empty, the beginning of the journal summary is used."
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.label"
+msgstr "Journal statistics"
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.option"
+msgstr "Show the number of issues, articles and authors on the homepage"
+
+msgid "plugins.themes.academicJournal.issnOnline"
+msgstr "ISSN (online)"
+
+msgid "plugins.themes.academicJournal.issnPrint"
+msgstr "ISSN (print)"
+
+msgid "plugins.themes.academicJournal.openAccess"
+msgstr "Open Access"
+
+msgid "plugins.themes.academicJournal.publisher"
+msgstr "Publisher"
+
+msgid "plugins.themes.academicJournal.forReaders"
+msgstr "For readers"
+
+msgid "plugins.themes.academicJournal.forAuthors"
+msgstr "For authors"
+
+msgid "plugins.themes.academicJournal.license"
+msgstr "Licence"
+
+msgid "plugins.themes.academicJournal.licenseText"
+msgstr "All articles are published in open access under the Creative Commons Attribution 4.0 International licence."
+
+msgid "plugins.themes.academicJournal.kicker"
+msgstr "Peer-reviewed open access journal"
+
+msgid "plugins.themes.academicJournal.submitManuscript"
+msgstr "Submit a manuscript"
+
+msgid "plugins.themes.academicJournal.readCurrentIssue"
+msgstr "Read the current issue"
+
+msgid "plugins.themes.academicJournal.aboutJournal"
+msgstr "About the journal"
+
+msgid "plugins.themes.academicJournal.stats.issues"
+msgstr "issues published"
+
+msgid "plugins.themes.academicJournal.stats.articles"
+msgstr "peer-reviewed articles"
+
+msgid "plugins.themes.academicJournal.stats.authors"
+msgstr "authors"
+
+msgid "plugins.themes.academicJournal.stats.peerReview"
+msgstr "peer review"
+
+msgid "plugins.themes.academicJournal.stats.peerReviewValue"
+msgstr "Double-blind"
+
+msgid "plugins.themes.academicJournal.editorialBoard"
+msgstr "Editorial board"
+

@@ -1,0 +1,2018 @@
+{
+  "journal": {
+    "path": "jir",
+    "name": {
+      "ru": "Вестник междисциплинарных исследований",
+      "en": "Journal of Interdisciplinary Research"
+    },
+    "acronym": {
+      "ru": "ВМИ",
+      "en": "JIR"
+    },
+    "abbreviation": {
+      "ru": "Вестн. междисц. исслед.",
+      "en": "J. Interdiscip. Res."
+    },
+    "tagline": {
+      "ru": "Рецензируемый журнал открытого доступа для исследований на стыке естественных, технических, социальных и гуманитарных наук: от моделей и данных — к практическим решениям.",
+      "en": "A peer-reviewed open access journal for research at the intersection of the natural, technical, social sciences and humanities: from models and data to practical solutions."
+    },
+    "description": {
+      "ru": "<p>«Вестник междисциплинарных исследований» — рецензируемый научный журнал открытого доступа, публикующий оригинальные исследования на стыке естественных, технических, социальных и гуманитарных наук. Журнал объединяет авторов, которые решают сложные практические и теоретические задачи с помощью методов нескольких дисциплин.</p><p>Тематика журнала охватывает науку о данных, экологию и климат, экономику, лингвистику, материаловедение, общественное здоровье, образовательные технологии, историю науки и урбанистику. Мы приветствуем работы, в которых методологическая строгость сочетается с ясным изложением и открытостью данных.</p>",
+      "en": "<p>The Journal of Interdisciplinary Research is a peer-reviewed open-access journal publishing original research at the intersection of the natural, technical, social sciences and the humanities. The journal brings together authors who address complex practical and theoretical problems with the methods of more than one discipline.</p><p>Its scope covers data science, ecology and climate, economics, linguistics, materials science, public health, educational technology, the history of science and urban studies. We welcome work that combines methodological rigour with clear writing and open data.</p>"
+    },
+    "about": {
+      "ru": "<h3>Цели и задачи</h3><p>Журнал создан для того, чтобы предоставить площадку исследованиям, которые не укладываются в рамки одной дисциплины. Мы публикуем оригинальные статьи, обзоры и краткие сообщения, в которых методы одной области применяются для решения задач другой, а результаты значимы для широкого круга специалистов.</p><h3>Рецензирование</h3><p>Все рукописи проходят двойное слепое рецензирование не менее чем двумя независимыми экспертами. Средний срок от подачи рукописи до первого решения составляет шесть недель. Окончательное решение о публикации принимает главный редактор на основании рецензий и рекомендации редактора раздела.</p><h3>Открытый доступ</h3><p>Все материалы журнала доступны бесплатно сразу после публикации и распространяются на условиях лицензии Creative Commons Attribution 4.0 International (CC BY 4.0).</p><h3>Индексирование</h3><p>Журнал зарегистрирован в Российском индексе научного цитирования (РИНЦ), метаданные статей депонируются в открытых научных каталогах и доступны по протоколу OAI-PMH.</p><h3>Периодичность</h3><p>Журнал выходит два раза в год — в марте и сентябре. Статьи публикуются в составе выпусков.</p><h3>Плата за публикацию</h3><p>Журнал не взимает плату ни за подачу, ни за рецензирование, ни за публикацию статей (APC отсутствует). Издание финансируется издателем — Научно-издательским центром «Академия».</p>",
+      "en": "<h3>Aims and Scope</h3><p>The journal was founded to provide a venue for research that does not fit within the boundaries of a single discipline. We publish original articles, reviews and short communications in which the methods of one field are applied to the problems of another and the results matter to a broad range of specialists.</p><h3>Peer Review</h3><p>All manuscripts undergo double-blind peer review by at least two independent experts. The median time from submission to first decision is six weeks. The final decision on publication is made by the Editor-in-Chief on the basis of the reviews and the recommendation of the section editor.</p><h3>Open Access</h3><p>All content is freely available immediately upon publication and is distributed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).</p><h3>Indexing</h3><p>The journal is registered in the Russian Science Citation Index (RSCI); article metadata are deposited in open scholarly catalogues and exposed via OAI-PMH.</p><h3>Frequency</h3><p>The journal is published twice a year, in March and September. Articles are published as part of issues.</p><h3>Article Processing Charges</h3><p>The journal charges no submission, review or publication fees (no APC). It is funded by its publisher, Academia Research Publishing Centre.</p>"
+    },
+    "authorGuidelines": {
+      "ru": "<p>Журнал принимает рукописи на русском и английском языках. Перед подачей ознакомьтесь с политикой разделов и требованиями к оформлению.</p><ul><li>Объём научной статьи — 25–45 тыс. знаков с пробелами, обзора — до 60 тыс., краткого сообщения — до 15 тыс.</li><li>Аннотация на русском и английском языках объёмом 150–250 слов; 4–6 ключевых слов на каждом языке.</li><li>Структура статьи: введение, материалы и методы, результаты, обсуждение, заключение, список литературы.</li><li>Список литературы оформляется по ГОСТ Р 7.0.5–2008; для всех источников, имеющих DOI, он указывается.</li><li>Рисунки предоставляются отдельными файлами (PNG, TIFF или SVG) с разрешением не менее 300 dpi.</li><li>Для двойного слепого рецензирования из рукописи удаляются сведения об авторах.</li></ul>",
+      "en": "<p>The journal accepts manuscripts in Russian and English. Before submitting, please read the section policies and formatting requirements.</p><ul><li>Length: research article 25,000–45,000 characters including spaces, review up to 60,000, short communication up to 15,000.</li><li>Abstract in Russian and English of 150–250 words; 4–6 keywords in each language.</li><li>Structure: introduction, materials and methods, results, discussion, conclusion, references.</li><li>References follow GOST R 7.0.5–2008; DOIs must be given wherever they exist.</li><li>Figures are supplied as separate files (PNG, TIFF or SVG) at a resolution of at least 300 dpi.</li><li>For double-blind review, all author information must be removed from the manuscript file.</li></ul>"
+    },
+    "submissionChecklist": [
+      {
+        "ru": "Рукопись ранее не публиковалась и не находится на рассмотрении в другом журнале.",
+        "en": "The manuscript has not been previously published and is not under consideration by another journal."
+      },
+      {
+        "ru": "Файл рукописи представлен в формате DOCX, ODT или RTF.",
+        "en": "The manuscript file is in DOCX, ODT or RTF format."
+      },
+      {
+        "ru": "Аннотация и ключевые слова приведены на русском и английском языках.",
+        "en": "The abstract and keywords are provided in both Russian and English."
+      },
+      {
+        "ru": "Текст оформлен в соответствии с требованиями журнала, список литературы — по ГОСТ Р 7.0.5–2008.",
+        "en": "The text follows the journal's requirements, and references follow GOST R 7.0.5–2008."
+      },
+      {
+        "ru": "Из файла рукописи удалены сведения об авторах для обеспечения слепого рецензирования.",
+        "en": "All author information has been removed from the manuscript file to ensure blind review."
+      },
+      {
+        "ru": "Все соавторы ознакомлены с рукописью и согласны с её подачей.",
+        "en": "All co-authors have read the manuscript and agree to its submission."
+      }
+    ],
+    "copyrightNotice": {
+      "ru": "<p>Авторы сохраняют авторские права на свои статьи и предоставляют журналу право первой публикации. Статьи распространяются на условиях лицензии Creative Commons Attribution 4.0 International (CC BY 4.0), которая разрешает копирование, распространение и адаптацию материала при условии указания авторства и ссылки на первоначальную публикацию в журнале.</p>",
+      "en": "<p>Authors retain copyright in their articles and grant the journal the right of first publication. Articles are distributed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0), which permits copying, distribution and adaptation provided that authorship is attributed and the original publication in the journal is cited.</p>"
+    },
+    "privacyStatement": {
+      "ru": "<p>Имена и адреса электронной почты, указанные на сайте журнала, используются исключительно для целей, связанных с работой журнала, и не передаются третьим лицам.</p>",
+      "en": "<p>The names and email addresses entered on this journal site will be used exclusively for the stated purposes of this journal and will not be made available for any other purpose or to any other party.</p>"
+    },
+    "openAccessPolicy": {
+      "ru": "<p>Журнал предоставляет немедленный открытый доступ к своему содержанию, исходя из принципа, что свободный доступ к результатам исследований способствует глобальному обмену знаниями. Читатели могут бесплатно читать, загружать, копировать, распространять и цитировать статьи.</p>",
+      "en": "<p>This journal provides immediate open access to its content on the principle that making research freely available to the public supports a greater global exchange of knowledge. Readers may read, download, copy, distribute and cite articles free of charge.</p>"
+    },
+    "reviewGuidelines": {
+      "ru": "<p>Рецензент оценивает новизну и значимость работы, корректность методов, обоснованность выводов, полноту обзора литературы и качество изложения. Просим указать, соответствует ли рукопись тематике журнала, и дать одну из рекомендаций: принять, принять после доработки, повторно рассмотреть после существенной доработки или отклонить. Комментарии для авторов должны быть конструктивными и конкретными; конфиденциальные замечания можно направить только редактору.</p>",
+      "en": "<p>Reviewers assess the novelty and significance of the work, the soundness of the methods, the validity of the conclusions, the completeness of the literature review and the quality of the writing. Please state whether the manuscript fits the scope of the journal and give one of the following recommendations: accept, minor revisions, major revisions (resubmit for review) or decline. Comments to authors should be constructive and specific; confidential remarks may be addressed to the editor only.</p>"
+    },
+    "pageFooter": {
+      "ru": "<p>Журнал зарегистрирован в РИНЦ. Материалы распространяются по лицензии CC BY 4.0. ISSN 2949-4176 (онлайн), ISSN 2949-4184 (печать).</p>",
+      "en": "<p>Indexed in RSCI. Content is licensed under CC BY 4.0. ISSN 2949-4176 (online), ISSN 2949-4184 (print).</p>"
+    },
+    "onlineIssn": "2949-4176",
+    "printIssn": "2949-4184",
+    "publisherInstitution": "Научно-издательский центр «Академия»",
+    "contactName": "Елена Соколовская",
+    "contactEmail": "editorial@example.org",
+    "contactPhone": "+7 (000) 000-00-00",
+    "contactAffiliation": {
+      "ru": "Новоборский государственный университет",
+      "en": "Novobor State University"
+    },
+    "mailingAddress": "Научно-издательский центр «Академия», ул. Университетская, д. 12, офис 304, г. Новобор, 000000, Россия",
+    "supportName": "Мария Белова",
+    "supportEmail": "support@example.org"
+  },
+  "sections": [
+    {
+      "ref": "ART",
+      "title": {
+        "ru": "Научные статьи",
+        "en": "Research Articles"
+      },
+      "abbrev": {
+        "ru": "СТ",
+        "en": "ART"
+      },
+      "policy": {
+        "ru": "Оригинальные исследования с новыми эмпирическими или теоретическими результатами. Рецензирование — двойное слепое, не менее двух рецензентов.",
+        "en": "Original research presenting new empirical or theoretical results. Double-blind review by at least two reviewers."
+      }
+    },
+    {
+      "ref": "REV",
+      "title": {
+        "ru": "Обзоры",
+        "en": "Reviews"
+      },
+      "abbrev": {
+        "ru": "ОБЗ",
+        "en": "REV"
+      },
+      "policy": {
+        "ru": "Систематические и аналитические обзоры, обобщающие состояние исследований в междисциплинарной области. Предварительное согласование темы с редакцией приветствуется.",
+        "en": "Systematic and critical reviews summarising the state of research in an interdisciplinary field. Prior consultation with the editors on the topic is welcome."
+      }
+    },
+    {
+      "ref": "SHC",
+      "title": {
+        "ru": "Краткие сообщения",
+        "en": "Short Communications"
+      },
+      "abbrev": {
+        "ru": "КС",
+        "en": "SHC"
+      },
+      "policy": {
+        "ru": "Краткие сообщения о предварительных результатах, новых методах или наборах данных объёмом до 15 тыс. знаков. Ускоренное рецензирование.",
+        "en": "Brief reports of preliminary results, new methods or datasets of up to 15,000 characters. Fast-track review."
+      }
+    }
+  ],
+  "users": [
+    {
+      "username": "sokolovskaya",
+      "email": "e.sokolovskaya@example.org",
+      "givenName": {
+        "ru": "Елена",
+        "en": "Elena"
+      },
+      "familyName": {
+        "ru": "Соколовская",
+        "en": "Sokolovskaya"
+      },
+      "affiliation": {
+        "ru": "Новоборский государственный университет",
+        "en": "Novobor State University"
+      },
+      "country": "RU",
+      "biography": {
+        "ru": "<p>Доктор географических наук, профессор кафедры пространственного анализа. Специалист в области геоинформатики и устойчивого развития городов, автор более 120 научных работ.</p>",
+        "en": "<p>Doctor of Sciences in Geography, Professor at the Department of Spatial Analysis. A specialist in geoinformatics and sustainable urban development, she has authored more than 120 scholarly works.</p>"
+      },
+      "roles": [
+        "editor-in-chief"
+      ]
+    },
+    {
+      "username": "karimov",
+      "email": "t.karimov@example.org",
+      "givenName": {
+        "ru": "Тимур",
+        "en": "Timur"
+      },
+      "familyName": {
+        "ru": "Каримов",
+        "en": "Karimov"
+      },
+      "affiliation": {
+        "ru": "Волжский институт прикладной аналитики",
+        "en": "Volga Institute of Applied Analytics"
+      },
+      "country": "RU",
+      "biography": {
+        "ru": "<p>Кандидат физико-математических наук, заведующий лабораторией анализа данных. Научные интересы: машинное обучение, статистика пространственных данных, воспроизводимые исследования.</p>",
+        "en": "<p>PhD in Physics and Mathematics, Head of the Data Analysis Laboratory. Research interests: machine learning, spatial statistics and reproducible research.</p>"
+      },
+      "roles": [
+        "section-editor",
+        "reviewer"
+      ]
+    },
+    {
+      "username": "lebedeva",
+      "email": "a.lebedeva@example.org",
+      "givenName": {
+        "ru": "Анна",
+        "en": "Anna"
+      },
+      "familyName": {
+        "ru": "Лебедева",
+        "en": "Lebedeva"
+      },
+      "affiliation": {
+        "ru": "Институт языка и коммуникации «Лексис»",
+        "en": "Lexis Institute of Language and Communication"
+      },
+      "country": "RU",
+      "biography": {
+        "ru": "<p>Доктор филологических наук, ведущий научный сотрудник. Занимается корпусной лингвистикой, терминоведением и цифровыми гуманитарными исследованиями.</p>",
+        "en": "<p>Doctor of Sciences in Philology, Leading Researcher. Works in corpus linguistics, terminology studies and the digital humanities.</p>"
+      },
+      "roles": [
+        "section-editor",
+        "reviewer"
+      ]
+    },
+    {
+      "username": "orlov",
+      "email": "d.orlov@example.org",
+      "givenName": {
+        "ru": "Дмитрий",
+        "en": "Dmitry"
+      },
+      "familyName": {
+        "ru": "Орлов",
+        "en": "Orlov"
+      },
+      "affiliation": {
+        "ru": "Уральский центр материаловедения «Кристалл»",
+        "en": "Kristall Ural Centre for Materials Science"
+      },
+      "country": "RU",
+      "biography": {
+        "ru": "<p>Кандидат химических наук, старший научный сотрудник. Исследует тонкоплёночные функциональные материалы и методы их характеризации.</p>",
+        "en": "<p>PhD in Chemistry, Senior Researcher. Studies thin-film functional materials and their characterisation techniques.</p>"
+      },
+      "roles": [
+        "reviewer"
+      ]
+    },
+    {
+      "username": "vasilenko",
+      "email": "o.vasilenko@example.org",
+      "givenName": {
+        "ru": "Ольга",
+        "en": "Olga"
+      },
+      "familyName": {
+        "ru": "Василенко",
+        "en": "Vasilenko"
+      },
+      "affiliation": {
+        "ru": "НИИ общественного здоровья «Вита»",
+        "en": "Vita Research Institute of Public Health"
+      },
+      "country": "RU",
+      "biography": {
+        "ru": "<p>Кандидат медицинских наук, эпидемиолог. Научные интересы: факторы окружающей среды и здоровье населения, цифровое здравоохранение.</p>",
+        "en": "<p>PhD in Medicine, epidemiologist. Research interests: environmental determinants of population health and digital health.</p>"
+      },
+      "roles": [
+        "reviewer"
+      ]
+    },
+    {
+      "username": "gromov",
+      "email": "p.gromov@example.org",
+      "givenName": {
+        "ru": "Павел",
+        "en": "Pavel"
+      },
+      "familyName": {
+        "ru": "Громов",
+        "en": "Gromov"
+      },
+      "affiliation": {
+        "ru": "Институт экономики и пространственного развития «Меридиан»",
+        "en": "Meridian Institute for Economics and Spatial Development"
+      },
+      "country": "RU",
+      "biography": {
+        "ru": "<p>Кандидат экономических наук, доцент. Специализируется на региональной экономике, рынках труда и оценке государственных программ.</p>",
+        "en": "<p>PhD in Economics, Associate Professor. Specialises in regional economics, labour markets and programme evaluation.</p>"
+      },
+      "roles": [
+        "reviewer"
+      ]
+    },
+    {
+      "username": "nurlanova",
+      "email": "a.nurlanova@example.org",
+      "givenName": {
+        "ru": "Айгерим",
+        "en": "Aigerim"
+      },
+      "familyName": {
+        "ru": "Нурланова",
+        "en": "Nurlanova"
+      },
+      "affiliation": {
+        "ru": "Каспийский институт экологических исследований",
+        "en": "Caspian Institute of Environmental Studies"
+      },
+      "country": "KZ",
+      "biography": {
+        "ru": "<p>PhD в области экологии, руководитель группы биогеохимии. Изучает углеродный цикл наземных экосистем и почвенные микробные сообщества.</p>",
+        "en": "<p>PhD in Ecology, head of the biogeochemistry group. Studies the carbon cycle of terrestrial ecosystems and soil microbial communities.</p>"
+      },
+      "roles": [
+        "reviewer"
+      ]
+    },
+    {
+      "username": "belova",
+      "email": "m.belova@example.org",
+      "givenName": {
+        "ru": "Мария",
+        "en": "Maria"
+      },
+      "familyName": {
+        "ru": "Белова",
+        "en": "Belova"
+      },
+      "affiliation": {
+        "ru": "Научно-издательский центр «Академия»",
+        "en": "Academia Research Publishing Centre"
+      },
+      "country": "RU",
+      "biography": {
+        "ru": "<p>Выпускающий редактор и верстальщик журнала. Отвечает за литературное редактирование, вёрстку и техническую поддержку авторов.</p>",
+        "en": "<p>Managing and layout editor of the journal. Responsible for copyediting, typesetting and technical support for authors.</p>"
+      },
+      "roles": [
+        "copyeditor",
+        "layout-editor"
+      ]
+    },
+    {
+      "username": "zaitsev",
+      "email": "k.zaitsev@example.org",
+      "givenName": {
+        "ru": "Кирилл",
+        "en": "Kirill"
+      },
+      "familyName": {
+        "ru": "Зайцев",
+        "en": "Zaitsev"
+      },
+      "affiliation": {
+        "ru": "Волжский институт прикладной аналитики",
+        "en": "Volga Institute of Applied Analytics"
+      },
+      "country": "RU",
+      "biography": {
+        "ru": "<p>Аспирант лаборатории анализа данных. Занимается прогнозированием временных рядов в энергетике.</p>",
+        "en": "<p>Doctoral student at the Data Analysis Laboratory, working on time-series forecasting for the energy sector.</p>"
+      },
+      "roles": [
+        "author"
+      ]
+    },
+    {
+      "username": "fedorova",
+      "email": "i.fedorova@example.org",
+      "givenName": {
+        "ru": "Ирина",
+        "en": "Irina"
+      },
+      "familyName": {
+        "ru": "Федорова",
+        "en": "Fedorova"
+      },
+      "affiliation": {
+        "ru": "Лесногорский педагогический университет",
+        "en": "Lesnogorsk Pedagogical University"
+      },
+      "country": "RU",
+      "biography": {
+        "ru": "<p>Кандидат педагогических наук, доцент кафедры цифровой дидактики. Исследует адаптивное обучение и аналитику учебных данных.</p>",
+        "en": "<p>PhD in Education, Associate Professor at the Department of Digital Didactics. Researches adaptive learning and learning analytics.</p>"
+      },
+      "roles": [
+        "author"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "volume": 1,
+      "number": "1",
+      "year": 2025,
+      "title": {
+        "ru": "Данные, среда и общество",
+        "en": "Data, Environment and Society"
+      },
+      "description": {
+        "ru": "<p>Первый выпуск журнала посвящён тому, как новые источники данных меняют исследования городской среды, экологии и экономики. В выпуске представлены работы о городских островах тепла, калибровке датчиков качества воздуха, удалённой занятости, углеродном балансе болот и языке цифровой экономики.</p>",
+        "en": "<p>The inaugural issue explores how new data sources are changing research on the urban environment, ecology and the economy. It features studies of urban heat islands, air-quality sensor calibration, remote employment, peatland carbon balance and the language of the digital economy.</p>"
+      },
+      "datePublished": "2025-03-20",
+      "current": false,
+      "cover": "covers/v1n1.png",
+      "articles": [
+        {
+          "slug": "v1n1-01-urban-heat",
+          "section": "ART",
+          "locale": "ru",
+          "title": {
+            "ru": "Городские острова тепла в средних городах: анализ спутниковых данных Landsat за 2000–2023 гг.",
+            "en": "Urban Heat Islands in Medium-Sized Cities: An Analysis of Landsat Data for 2000–2023"
+          },
+          "abstract": {
+            "ru": "<p>Исследования городских островов тепла традиционно сосредоточены на крупнейших агломерациях, тогда как средние города, в которых проживает значительная часть населения, остаются изученными слабо. Цель работы — оценить интенсивность и динамику поверхностного острова тепла в двенадцати условных городах с населением от 100 до 500 тыс. человек в умеренном климатическом поясе. По сценам Landsat 5, 7 и 8 за летние месяцы 2000–2023 гг. восстановлена температура подстилающей поверхности; для каждого города рассчитана разница между застроенной территорией и пригородным буферным поясом. Дополнительно использованы индекс растительности NDVI, доля непроницаемых покрытий и плотность застройки по открытым картографическим данным. Средняя интенсивность острова тепла составила 3,4 °C в дневные часы, а за исследуемый период она выросла в среднем на 0,9 °C. Наибольший вклад в изменение интенсивности вносит сокращение площади зелёных насаждений в периферийных районах новой жилой застройки; связь с численностью населения оказалась слабой. Регрессионная модель со смешанными эффектами объясняет 71 % межгородской и межгодовой вариации. Полученные результаты показывают, что средние города не менее уязвимы к перегреву, чем крупные, и что градостроительные решения в зонах новой застройки являются ключевым инструментом адаптации. Предложенная методика может быть воспроизведена для любого города с использованием открытых данных.</p>",
+            "en": "<p>Research on urban heat islands has traditionally focused on the largest metropolitan areas, while medium-sized cities, home to a substantial share of the population, remain poorly studied. This study assesses the intensity and dynamics of the surface urban heat island in twelve anonymised cities with populations of 100,000 to 500,000 in the temperate climate zone. Land surface temperature was retrieved from Landsat 5, 7 and 8 scenes for the summer months of 2000–2023, and for each city the difference between the built-up area and a suburban buffer zone was calculated. The normalised difference vegetation index (NDVI), the share of impervious surfaces and building density derived from open map data were used as covariates. The mean daytime heat island intensity was 3.4 °C, and over the study period it increased by 0.9 °C on average. The largest contribution to this change comes from the loss of green space in peripheral areas of new residential development, whereas the association with population size proved weak. A mixed-effects regression model explains 71% of the between-city and between-year variation. The results show that medium-sized cities are no less vulnerable to overheating than large ones and that planning decisions in new development zones are a key adaptation tool. The proposed method can be reproduced for any city using open data.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "городской остров тепла",
+              "дистанционное зондирование",
+              "Landsat",
+              "температура поверхности",
+              "зелёная инфраструктура",
+              "средние города"
+            ],
+            "en": [
+              "urban heat island",
+              "remote sensing",
+              "Landsat",
+              "land surface temperature",
+              "green infrastructure",
+              "medium-sized cities"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Елена",
+                "en": "Elena"
+              },
+              "familyName": {
+                "ru": "Соколовская",
+                "en": "Sokolovskaya"
+              },
+              "email": "e.sokolovskaya@example.org",
+              "affiliation": {
+                "ru": "Новоборский государственный университет",
+                "en": "Novobor State University"
+              },
+              "country": "RU",
+              "primaryContact": true
+            },
+            {
+              "givenName": {
+                "ru": "Артём",
+                "en": "Artyom"
+              },
+              "familyName": {
+                "ru": "Мельников",
+                "en": "Melnikov"
+              },
+              "email": "a.melnikov@example.org",
+              "affiliation": {
+                "ru": "Высшая школа урбанистики «Полис»",
+                "en": "Polis Graduate School of Urban Studies"
+              },
+              "country": "RU",
+              "primaryContact": false
+            },
+            {
+              "givenName": {
+                "ru": "Светлана",
+                "en": "Svetlana"
+              },
+              "familyName": {
+                "ru": "Ким",
+                "en": "Kim"
+              },
+              "email": "s.kim@example.org",
+              "affiliation": {
+                "ru": "Новоборский государственный университет",
+                "en": "Novobor State University"
+              },
+              "country": "RU",
+              "primaryContact": false
+            }
+          ],
+          "pages": "5-8",
+          "dateSubmitted": "2024-10-14",
+          "dateAccepted": "2025-01-28",
+          "citations": [
+            "Oke T. R. The energetic basis of the urban heat island // Quarterly Journal of the Royal Meteorological Society. 1982. Vol. 108, no. 455. P. 1–24.",
+            "Voogt J. A., Oke T. R. Thermal remote sensing of urban climates // Remote Sensing of Environment. 2003. Vol. 86, no. 3. P. 370–384.",
+            "Соколовская Е. В. Пространственные закономерности теплового режима малых и средних городов // Вопросы пространственного анализа. 2021. Т. 9, № 2. С. 34–51.",
+            "Мельников А. С., Ким С. Ю. Открытые картографические данные как источник показателей плотности застройки // Геоинформатика и общество. 2022. № 4. С. 18–29.",
+            "Harding P., Lindqvist M. Surface heat islands beyond the megacity: evidence from European mid-sized towns // Urban Climate Letters. 2020. Vol. 7. P. 112–127.",
+            "Орехова Т. Н. Методы восстановления температуры подстилающей поверхности по данным теплового канала. М.: Академия, 2019. 212 с.",
+            "Chen Y., Moreau L. Vegetation loss and the intensification of surface heat islands in suburban fringes // Journal of Applied Urban Ecology. 2021. Vol. 15, no. 3. P. 201–219.",
+            "Соколовская Е. В., Брагин И. А. Зелёная инфраструктура и адаптация городов к экстремальной жаре: обзор практик // Вестник Новоборского университета. Серия: Науки о Земле. 2023. Т. 11, № 1. С. 5–22."
+          ],
+          "pdf": "pdf/v1n1-01-urban-heat.pdf",
+          "fundingAgency": {
+            "ru": "Фонд поддержки междисциплинарных исследований «Горизонт»",
+            "en": "Horizon Foundation for Interdisciplinary Research"
+          }
+        },
+        {
+          "slug": "v1n1-02-air-quality-sensors",
+          "section": "ART",
+          "locale": "ru",
+          "title": {
+            "ru": "Калибровка недорогих датчиков PM2.5 методами машинного обучения в условиях резко континентального климата",
+            "en": "Machine-Learning Calibration of Low-Cost PM2.5 Sensors in a Sharply Continental Climate"
+          },
+          "abstract": {
+            "ru": "<p>Недорогие оптические датчики мелкодисперсных частиц позволяют существенно увеличить плотность сети мониторинга качества воздуха, однако их показания сильно зависят от влажности и температуры и систематически отклоняются от референтных измерений. В работе сравниваются методы калибровки таких датчиков в условиях резко континентального климата с большой годовой амплитудой температур. В течение 14 месяцев восемь датчиков были размещены рядом с референтной станцией гравиметрического типа; собрано более 76 тыс. часовых наблюдений. Сопоставлены линейная регрессия, множественная регрессия с поправкой на относительную влажность, случайный лес и градиентный бустинг. Качество оценивалось с помощью блочной кросс-валидации по неделям, исключающей утечку информации между обучающей и тестовой выборками. Без калибровки средняя абсолютная ошибка составила 11,8 мкг/м³, после линейной коррекции — 6,4 мкг/м³, а градиентный бустинг снизил её до 3,1 мкг/м³. Наиболее важными признаками оказались относительная влажность, температура и показания соседних датчиков. Модели, обученные только на летних данных, плохо переносились на зимний период, что подчёркивает необходимость круглогодичной калибровки. Сделан вывод о том, что недорогие датчики после калибровки методами машинного обучения пригодны для оценки суточной динамики загрязнения и выявления локальных источников. Код и обезличенные данные открыты для повторного использования.</p>",
+            "en": "<p>Low-cost optical sensors of fine particulate matter can substantially increase the density of air-quality monitoring networks, but their readings depend strongly on humidity and temperature and deviate systematically from reference measurements. This study compares calibration methods for such sensors in a sharply continental climate with a large annual temperature range. For 14 months, eight sensors were co-located with a gravimetric reference station, yielding more than 76,000 hourly observations. Linear regression, multiple regression with a relative-humidity correction, random forest and gradient boosting were compared. Performance was assessed with weekly blocked cross-validation that prevents information leakage between training and test samples. Without calibration, the mean absolute error was 11.8 µg/m³; after linear correction it fell to 6.4 µg/m³, and gradient boosting reduced it to 3.1 µg/m³. The most important features were relative humidity, temperature and the readings of neighbouring sensors. Models trained on summer data alone transferred poorly to the winter period, underlining the need for year-round calibration. We conclude that, once calibrated with machine-learning methods, low-cost sensors are suitable for assessing the diurnal dynamics of pollution and identifying local sources. The code and anonymised data are openly available for reuse.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "качество воздуха",
+              "PM2.5",
+              "недорогие датчики",
+              "калибровка",
+              "градиентный бустинг"
+            ],
+            "en": [
+              "air quality",
+              "PM2.5",
+              "low-cost sensors",
+              "calibration",
+              "gradient boosting"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Тимур",
+                "en": "Timur"
+              },
+              "familyName": {
+                "ru": "Каримов",
+                "en": "Karimov"
+              },
+              "email": "t.karimov@example.org",
+              "affiliation": {
+                "ru": "Волжский институт прикладной аналитики",
+                "en": "Volga Institute of Applied Analytics"
+              },
+              "country": "RU",
+              "primaryContact": true
+            },
+            {
+              "givenName": {
+                "ru": "Ольга",
+                "en": "Olga"
+              },
+              "familyName": {
+                "ru": "Василенко",
+                "en": "Vasilenko"
+              },
+              "email": "o.vasilenko@example.org",
+              "affiliation": {
+                "ru": "НИИ общественного здоровья «Вита»",
+                "en": "Vita Research Institute of Public Health"
+              },
+              "country": "RU",
+              "primaryContact": false
+            }
+          ],
+          "pages": "9-11",
+          "dateSubmitted": "2024-09-30",
+          "dateAccepted": "2025-02-03",
+          "citations": [
+            "Breiman L. Random forests // Machine Learning. 2001. Vol. 45, no. 1. P. 5–32.",
+            "Friedman J. H. Greedy function approximation: a gradient boosting machine // Annals of Statistics. 2001. Vol. 29, no. 5. P. 1189–1232.",
+            "Каримов Т. Р. Блочная кросс-валидация для пространственно-временных данных: практическое руководство // Прикладная аналитика. 2022. Т. 6, № 3. С. 41–58.",
+            "Holloway R., Nakamura E. Humidity effects on optical particle counters: a field evaluation // Atmospheric Measurement Notes. 2019. Vol. 12. P. 233–248.",
+            "Василенко О. П., Аркадьева Н. С. Кратковременное воздействие PM2.5 и обращаемость за медицинской помощью: обзор исследований // Экология человека и среда. 2021. № 7. С. 4–19.",
+            "Petrescu D., Olsen K. Transferability of calibration models for low-cost air sensors across seasons // Environmental Sensing Review. 2022. Vol. 4, no. 2. P. 77–95.",
+            "Захаров Л. Е. Сети мониторинга атмосферного воздуха: принципы проектирования. Новобор: Академия, 2020. 184 с."
+          ],
+          "pdf": "pdf/v1n1-02-air-quality-sensors.pdf"
+        },
+        {
+          "slug": "v1n1-03-remote-work-labour",
+          "section": "ART",
+          "locale": "en",
+          "title": {
+            "ru": "Удалённая работа и региональные рынки труда: данные онлайн-вакансий",
+            "en": "Remote Work and Regional Labour Markets: Evidence from Online Vacancies"
+          },
+          "abstract": {
+            "ru": "<p>Распространение удалённой работы после 2020 г. потенциально меняет пространственную структуру рынков труда, позволяя жителям небольших городов получать доступ к вакансиям столичных работодателей. В статье на основе 2,4 млн объявлений о вакансиях, опубликованных на крупной онлайн-платформе в 2019–2023 гг., оценивается, в какой мере удалённые вакансии перераспределяют спрос на труд между регионами. Для классификации объявлений использована словарная модель с последующей ручной проверкой случайной выборки. Доля полностью удалённых вакансий выросла с 2,1 % в 2019 г. до 9,7 % в 2023 г., причём рост был сосредоточен в сфере информационных технологий, маркетинга и финансовых услуг. С помощью метода разности разностей показано, что в регионах с более высокой долей занятых в этих отраслях средняя предлагаемая заработная плата выросла на 4,3 % сильнее, чем в сопоставимых регионах. Вместе с тем удалённые вакансии предъявляют более высокие требования к опыту и образованию, что ограничивает доступ к ним для значительной части работников. Эффект выравнивания межрегиональных различий в оплате труда оказался статистически значимым, но умеренным. Результаты свидетельствуют о том, что удалённая работа может стать инструментом региональной политики только в сочетании с программами переподготовки и развития цифровой инфраструктуры.</p>",
+            "en": "<p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "удалённая работа",
+              "региональный рынок труда",
+              "онлайн-вакансии",
+              "заработная плата",
+              "разность разностей"
+            ],
+            "en": [
+              "remote work",
+              "regional labour market",
+              "online vacancies",
+              "wages",
+              "difference-in-differences"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Павел",
+                "en": "Pavel"
+              },
+              "familyName": {
+                "ru": "Громов",
+                "en": "Gromov"
+              },
+              "email": "p.gromov@example.org",
+              "affiliation": {
+                "ru": "Институт экономики и пространственного развития «Меридиан»",
+                "en": "Meridian Institute for Economics and Spatial Development"
+              },
+              "country": "RU",
+              "primaryContact": true
+            },
+            {
+              "givenName": {
+                "ru": "Лаура",
+                "en": "Laura"
+              },
+              "familyName": {
+                "ru": "Беккер",
+                "en": "Becker"
+              },
+              "email": "l.becker@example.org",
+              "affiliation": {
+                "ru": "Центр прикладных экономических исследований «Остланд»",
+                "en": "Ostland Centre for Applied Economic Research"
+              },
+              "country": "DE",
+              "primaryContact": false
+            }
+          ],
+          "pages": "12-14",
+          "dateSubmitted": "2024-10-21",
+          "dateAccepted": "2025-02-14",
+          "citations": [
+            "Angrist J. D., Pischke J.-S. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009. 392 p.",
+            "Moretti E. The New Geography of Jobs. Boston: Houghton Mifflin Harcourt, 2012. 294 p.",
+            "Gromov P. A. Online vacancy data as a source of regional labour market statistics // Regional Economics Review. 2021. Vol. 14, no. 2. P. 55–73.",
+            "Becker L., Vogt H. Remote-eligible jobs and the spatial distribution of labour demand // Journal of Labour and Space. 2022. Vol. 8, no. 1. P. 1–24.",
+            "Громов П. А., Седова Е. К. Межрегиональная дифференциация заработной платы: факторы и тенденции // Пространственная экономика и политика. 2020. № 3. С. 22–40.",
+            "Lindgren A., Torres M. Skill requirements in remote job postings // Labour Market Analytics. 2023. Vol. 5. P. 140–158.",
+            "Седова Е. К. Цифровая инфраструктура и занятость в малых городах. М.: Меридиан, 2022. 168 с.",
+            "Hartmann F. Text classification of job advertisements: a practical comparison // Computational Social Science Letters. 2021. Vol. 3, no. 4. P. 88–101."
+          ],
+          "pdf": "pdf/v1n1-03-remote-work-labour.pdf"
+        },
+        {
+          "slug": "v1n1-04-peatland-carbon",
+          "section": "REV",
+          "locale": "ru",
+          "title": {
+            "ru": "Углеродный баланс торфяных болот бореальной зоны: обзор методов оценки",
+            "en": "Carbon Balance of Boreal Peatlands: A Review of Assessment Methods"
+          },
+          "abstract": {
+            "ru": "<p>Торфяные болота бореальной зоны занимают около 3 % поверхности суши, но хранят до трети почвенного углерода планеты, поэтому точная оценка их углеродного баланса важна для климатической политики и национальной отчётности о парниковых газах. В обзоре систематизированы основные методы оценки потоков углерода на болотах: камерный метод, метод турбулентных пульсаций, расчёт по скорости аккумуляции торфа и дистанционные методы, основанные на спутниковых индексах и моделях продуктивности. На основе анализа 87 публикаций за 2000–2024 гг. рассмотрены пространственный и временной масштаб каждого метода, источники неопределённости, требования к оборудованию и квалификации персонала. Показано, что оценки чистого экосистемного обмена для одного и того же болота, полученные разными методами, могут различаться в полтора–два раза, причём основная часть расхождений связана с учётом потоков метана и растворённого органического углерода. Особое внимание уделено осушенным и восстанавливаемым болотам, для которых данных существенно меньше, чем для ненарушенных экосистем. Сделан вывод о необходимости комбинированного подхода, в котором долговременные наблюдения методом турбулентных пульсаций на опорных площадках сочетаются с камерными измерениями и дистанционным масштабированием. Предложена схема выбора метода в зависимости от цели исследования и доступных ресурсов.</p>",
+            "en": "<p>Boreal peatlands cover about 3% of the land surface yet store up to a third of the world's soil carbon, so accurate assessment of their carbon balance matters for climate policy and national greenhouse gas reporting. This review systematises the main methods for estimating carbon fluxes in peatlands: the chamber method, eddy covariance, calculation from peat accumulation rates, and remote-sensing approaches based on satellite indices and productivity models. Drawing on 87 publications from 2000–2024, it considers the spatial and temporal scale of each method, its sources of uncertainty and its requirements for equipment and staff expertise. Estimates of net ecosystem exchange for the same peatland obtained by different methods can differ by a factor of 1.5 to 2, with most of the discrepancy arising from the treatment of methane and dissolved organic carbon fluxes. Particular attention is paid to drained and rewetted peatlands, for which far fewer data exist than for undisturbed ecosystems. The review concludes that a combined approach is needed, in which long-term eddy covariance observations at reference sites are complemented by chamber measurements and remote-sensing upscaling. A decision scheme for choosing a method according to the research goal and available resources is proposed.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "торфяные болота",
+              "углеродный баланс",
+              "метан",
+              "турбулентные пульсации",
+              "камерный метод",
+              "бореальная зона"
+            ],
+            "en": [
+              "peatlands",
+              "carbon balance",
+              "methane",
+              "eddy covariance",
+              "chamber method",
+              "boreal zone"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Айгерим",
+                "en": "Aigerim"
+              },
+              "familyName": {
+                "ru": "Нурланова",
+                "en": "Nurlanova"
+              },
+              "email": "a.nurlanova@example.org",
+              "affiliation": {
+                "ru": "Каспийский институт экологических исследований",
+                "en": "Caspian Institute of Environmental Studies"
+              },
+              "country": "KZ",
+              "primaryContact": true
+            },
+            {
+              "givenName": {
+                "ru": "Николай",
+                "en": "Nikolay"
+              },
+              "familyName": {
+                "ru": "Тихомиров",
+                "en": "Tikhomirov"
+              },
+              "email": "n.tikhomirov@example.org",
+              "affiliation": {
+                "ru": "Северная болотная станция Новоборского государственного университета",
+                "en": "Northern Mire Station, Novobor State University"
+              },
+              "country": "RU",
+              "primaryContact": false
+            }
+          ],
+          "pages": "15-17",
+          "dateSubmitted": "2024-08-19",
+          "dateAccepted": "2025-01-15",
+          "citations": [
+            "Gorham E. Northern peatlands: role in the carbon cycle and probable responses to climatic warming // Ecological Applications. 1991. Vol. 1, no. 2. P. 182–195.",
+            "Baldocchi D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems // Global Change Biology. 2003. Vol. 9, no. 4. P. 479–492.",
+            "Тихомиров Н. В. Многолетняя динамика потоков CO₂ на верховом болоте северной тайги // Болотоведение и торф. 2020. Т. 18, № 2. С. 60–78.",
+            "Нурланова А. Н., Сейткали Д. М. Эмиссия метана с осушенных торфяников: обзор полевых данных // Экосистемы и климат. 2022. Т. 4, № 1. С. 15–34.",
+            "Kowalczyk P., Aarnio T. Dissolved organic carbon export from boreal mires // Hydrology and Biogeochemistry. 2019. Vol. 33. P. 410–427.",
+            "Тихомиров Н. В., Ерёменко В. А. Камерные измерения потоков парниковых газов: методическое пособие. Новобор: НГУ, 2018. 96 с.",
+            "Lund S., Petersen R. Upscaling peatland carbon fluxes with satellite data: opportunities and pitfalls // Remote Sensing of Wetlands. 2021. Vol. 9, no. 3. P. 200–221.",
+            "Нурланова А. Н. Восстановление нарушенных болот и климатическая политика // Вопросы экологической политики. 2023. № 2. С. 47–63.",
+            "Hart G., Lin W. Long-term apparent rates of carbon accumulation in boreal peat // Quaternary Carbon Studies. 2018. Vol. 21. P. 55–70."
+          ],
+          "pdf": "pdf/v1n1-04-peatland-carbon.pdf"
+        },
+        {
+          "slug": "v1n1-05-digital-economy-neologisms",
+          "section": "SHC",
+          "locale": "ru",
+          "title": {
+            "ru": "Неологизмы цифровой экономики в русскоязычных деловых СМИ: корпусное исследование",
+            "en": "Digital Economy Neologisms in Russian-Language Business Media: A Corpus Study"
+          },
+          "abstract": {
+            "ru": "<p>Цифровизация экономики сопровождается стремительным появлением новой лексики, значительная часть которой заимствуется из английского языка. В кратком сообщении представлены первые результаты корпусного исследования неологизмов цифровой экономики в русскоязычных деловых СМИ. Специально собранный корпус включает около 18 млн словоупотреблений из публикаций шести условных деловых изданий за 2015–2024 гг. Кандидаты в неологизмы отбирались по частотному критерию с последующей экспертной проверкой; итоговый список содержит 214 единиц. Для каждой из них определены год первой фиксации, способ образования и динамика частотности. Установлено, что прямые заимствования (например, «маркетплейс», «стартап», «краудфандинг») составляют 58 % новых единиц, гибридные образования с русскими аффиксами — 27 %, а калькированные и описательные обороты — 15 %. Пик появления новых единиц приходится на 2018–2020 гг. Для ряда заимствований наблюдается постепенное вытеснение графических вариантов на латинице кириллическими, что свидетельствует об их освоении языком. Результаты могут быть использованы при составлении терминологических словарей и при обучении деловому русскому языку. В дальнейшем планируется расширить корпус за счёт региональных изданий и телеграм-каналов.</p>",
+            "en": "<p>The digitalisation of the economy has been accompanied by the rapid emergence of new vocabulary, much of it borrowed from English. This short communication presents the first results of a corpus study of digital economy neologisms in Russian-language business media. A purpose-built corpus comprises about 18 million tokens from the publications of six anonymised business outlets for 2015–2024. Candidate neologisms were selected using a frequency criterion followed by expert verification; the final list contains 214 items. For each, the year of first attestation, the word-formation pattern and the frequency dynamics were determined. Direct borrowings (such as marketpleys, startap and kraudfanding) account for 58% of new items, hybrid formations with Russian affixes for 27%, and calques and descriptive expressions for 15%. The peak of new items falls in 2018–2020. For a number of borrowings, Latin-script spellings are gradually being replaced by Cyrillic ones, indicating their assimilation into the language. The results can be used in compiling terminological dictionaries and in teaching business Russian. Further work will extend the corpus to regional outlets and Telegram channels.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "неологизмы",
+              "корпусная лингвистика",
+              "заимствования",
+              "цифровая экономика",
+              "деловые СМИ"
+            ],
+            "en": [
+              "neologisms",
+              "corpus linguistics",
+              "borrowings",
+              "digital economy",
+              "business media"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Анна",
+                "en": "Anna"
+              },
+              "familyName": {
+                "ru": "Лебедева",
+                "en": "Lebedeva"
+              },
+              "email": "a.lebedeva@example.org",
+              "affiliation": {
+                "ru": "Институт языка и коммуникации «Лексис»",
+                "en": "Lexis Institute of Language and Communication"
+              },
+              "country": "RU",
+              "primaryContact": true
+            }
+          ],
+          "pages": "18-20",
+          "dateSubmitted": "2024-12-02",
+          "dateAccepted": "2025-02-20",
+          "citations": [
+            "Лебедева А. В. Терминологические инновации в языке экономики: корпусный подход // Вопросы терминоведения. 2021. Т. 7, № 1. С. 9–27.",
+            "Sinclair J. Corpus, Concordance, Collocation. Oxford: Oxford University Press, 1991. 179 p.",
+            "Кожевникова Р. Л. Англицизмы в русской деловой прессе: этапы освоения // Русская речь сегодня. 2019. № 5. С. 31–44.",
+            "Ferrand M., Holm B. Measuring lexical novelty in news corpora // Corpus Methods Quarterly. 2020. Vol. 11, no. 2. P. 145–163.",
+            "Лебедева А. В., Огнева Т. П. Графическая адаптация заимствований: латиница и кириллица в медиатексте // Лингвистика и медиа. 2022. Т. 3, № 4. С. 70–86.",
+            "Огнева Т. П. Словообразовательная активность заимствованных основ в современном русском языке. М.: Лексис, 2020. 236 с."
+          ],
+          "pdf": "pdf/v1n1-05-digital-economy-neologisms.pdf"
+        }
+      ]
+    },
+    {
+      "volume": 1,
+      "number": "2",
+      "year": 2025,
+      "title": {
+        "ru": "Технологии и человек",
+        "en": "Technology and the Human Dimension"
+      },
+      "description": {
+        "ru": "<p>Выпуск объединяет исследования о том, как технологии — от новых материалов до цифровых сервисов — встраиваются в повседневную жизнь. Авторы рассматривают стабильность перовскитных плёнок, адаптивное обучение, телемедицину для пожилых людей, историю вычислительных центров и повторное использование воды.</p>",
+        "en": "<p>This issue brings together research on how technologies, from new materials to digital services, become part of everyday life. The authors examine the stability of perovskite films, adaptive learning, telemedicine for older adults, the history of computing centres and water reuse.</p>"
+      },
+      "datePublished": "2025-09-25",
+      "current": false,
+      "cover": "covers/v1n2.png",
+      "articles": [
+        {
+          "slug": "v1n2-01-perovskite-stability",
+          "section": "ART",
+          "locale": "ru",
+          "title": {
+            "ru": "Стабильность перовскитных плёнок при термоциклировании: роль органических добавок",
+            "en": "Stability of Perovskite Films under Thermal Cycling: The Role of Organic Additives"
+          },
+          "abstract": {
+            "ru": "<p>Галогенидные перовскиты рассматриваются как один из наиболее перспективных материалов для тонкоплёночной фотовольтаики, однако их практическое применение сдерживается недостаточной стабильностью при перепадах температуры, характерных для реальных условий эксплуатации. В работе исследовано влияние трёх органических добавок — фенилэтиламмония, тиомочевины и поливинилпирролидона — на деградацию плёнок смешанного катионного перовскита при термоциклировании в диапазоне от −20 до +85 °C. Плёнки получены методом центрифугирования с антирастворителем и охарактеризованы методами рентгеновской дифракции, сканирующей электронной микроскопии и спектроскопии фотолюминесценции после 0, 50, 100 и 200 циклов. Установлено, что в контрольных образцах уже после 100 циклов появляется фаза иодида свинца и формируются микротрещины по границам зёрен, а интенсивность фотолюминесценции снижается почти вдвое. Добавление фенилэтиламмония в концентрации 1,5 мол. % замедляет деградацию: после 200 циклов сохраняется 87 % исходной интенсивности фотолюминесценции, а образование побочных фаз не обнаруживается. Тиомочевина увеличивает размер зёрен, но слабо влияет на устойчивость к термоциклированию, тогда как поливинилпирролидон эффективно подавляет растрескивание. Предложен механизм, связывающий стабилизирующее действие добавок с пассивацией поверхностных дефектов и релаксацией механических напряжений. Результаты могут быть использованы при разработке составов для гибких солнечных модулей.</p>",
+            "en": "<p>Halide perovskites are regarded as one of the most promising materials for thin-film photovoltaics, but their practical use is held back by insufficient stability under the temperature fluctuations typical of real operating conditions. This study examines the effect of three organic additives, phenethylammonium, thiourea and polyvinylpyrrolidone, on the degradation of mixed-cation perovskite films under thermal cycling between −20 and +85 °C. Films were prepared by antisolvent-assisted spin coating and characterised by X-ray diffraction, scanning electron microscopy and photoluminescence spectroscopy after 0, 50, 100 and 200 cycles. In control samples, a lead iodide phase appears after only 100 cycles, microcracks form along grain boundaries, and photoluminescence intensity drops by almost half. Adding phenethylammonium at 1.5 mol% slows degradation: after 200 cycles, 87% of the initial photoluminescence intensity is retained and no secondary phases are detected. Thiourea increases grain size but has little effect on resistance to thermal cycling, whereas polyvinylpyrrolidone effectively suppresses cracking. A mechanism is proposed that links the stabilising effect of the additives to the passivation of surface defects and the relaxation of mechanical stress. The results can inform the development of formulations for flexible solar modules.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "перовскиты",
+              "тонкие плёнки",
+              "термоциклирование",
+              "деградация",
+              "пассивация дефектов",
+              "фотовольтаика"
+            ],
+            "en": [
+              "perovskites",
+              "thin films",
+              "thermal cycling",
+              "degradation",
+              "defect passivation",
+              "photovoltaics"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Дмитрий",
+                "en": "Dmitry"
+              },
+              "familyName": {
+                "ru": "Орлов",
+                "en": "Orlov"
+              },
+              "email": "d.orlov@example.org",
+              "affiliation": {
+                "ru": "Уральский центр материаловедения «Кристалл»",
+                "en": "Kristall Ural Centre for Materials Science"
+              },
+              "country": "RU",
+              "primaryContact": true
+            },
+            {
+              "givenName": {
+                "ru": "Вера",
+                "en": "Vera"
+              },
+              "familyName": {
+                "ru": "Шестакова",
+                "en": "Shestakova"
+              },
+              "email": "v.shestakova@example.org",
+              "affiliation": {
+                "ru": "Уральский центр материаловедения «Кристалл»",
+                "en": "Kristall Ural Centre for Materials Science"
+              },
+              "country": "RU",
+              "primaryContact": false
+            },
+            {
+              "givenName": {
+                "ru": "Георгий",
+                "en": "Georgy"
+              },
+              "familyName": {
+                "ru": "Аветисян",
+                "en": "Avetisyan"
+              },
+              "email": "g.avetisyan@example.org",
+              "affiliation": {
+                "ru": "Ереванский институт физики конденсированных сред",
+                "en": "Yerevan Institute of Condensed Matter Physics"
+              },
+              "country": "AM",
+              "primaryContact": false
+            }
+          ],
+          "pages": "5-7",
+          "dateSubmitted": "2025-03-11",
+          "dateAccepted": "2025-07-22",
+          "citations": [
+            "Kojima A., Teshima K., Shirai Y., Miyasaka T. Organometal halide perovskites as visible-light sensitizers for photovoltaic cells // Journal of the American Chemical Society. 2009. Vol. 131, no. 17. P. 6050–6051.",
+            "Орлов Д. С., Шестакова В. А. Морфология плёнок смешанных галогенидных перовскитов, полученных с антирастворителем // Неорганические материалы и покрытия. 2022. Т. 14, № 5. С. 412–423.",
+            "Brenner M., Ito K. Thermal stress and grain-boundary cracking in hybrid perovskite films // Thin Film Engineering. 2021. Vol. 28, no. 3. P. 301–315.",
+            "Аветисян Г. Р. Пассивация поверхностных дефектов в перовскитах органическими катионами // Физика конденсированных сред. 2023. Т. 9, № 2. С. 88–104.",
+            "Liang Q., Fischer A. Polymer additives for mechanically robust perovskite layers // Advanced Coatings Letters. 2022. Vol. 6. P. 55–67.",
+            "Шестакова В. А. Методы ускоренных климатических испытаний тонкоплёночных солнечных элементов. Екатеринбург: Кристалл, 2021. 148 с.",
+            "Okafor C., Duarte P. Photoluminescence as a probe of perovskite degradation // Optical Materials Review. 2020. Vol. 17, no. 4. P. 220–236.",
+            "Орлов Д. С. Рентгенофазовый анализ продуктов деградации галогенидных перовскитов // Заводская лаборатория. Диагностика материалов. 2021. Т. 87, № 9. С. 31–38."
+          ],
+          "pdf": "pdf/v1n2-01-perovskite-stability.pdf",
+          "fundingAgency": {
+            "ru": "Фонд поддержки междисциплинарных исследований «Горизонт»",
+            "en": "Horizon Foundation for Interdisciplinary Research"
+          }
+        },
+        {
+          "slug": "v1n2-02-adaptive-courses",
+          "section": "ART",
+          "locale": "ru",
+          "title": {
+            "ru": "Адаптивные онлайн-курсы и академическая успеваемость первокурсников: квазиэкспериментальное исследование",
+            "en": "Adaptive Online Courses and First-Year Students' Academic Performance: A Quasi-Experimental Study"
+          },
+          "abstract": {
+            "ru": "<p>Первый год обучения в университете отличается наибольшим риском академической неуспеваемости и отчисления, особенно по математическим дисциплинам, где различия в школьной подготовке студентов особенно велики. В статье оценивается влияние адаптивного онлайн-курса по математическому анализу на успеваемость первокурсников педагогического университета. Адаптивная система подбирала задания и учебные материалы на основе диагностики текущего уровня знаний и ошибок студента. Исследование выполнено в квазиэкспериментальном дизайне: студенты двух потоков 2023/24 учебного года (n = 214) использовали адаптивный курс, а студенты двух потоков предыдущего года (n = 198) обучались по традиционной схеме с теми же преподавателями. Для повышения сопоставимости групп применялось сопоставление по индексу склонности с учётом результатов вступительных испытаний, пола и типа школы. Средний балл за итоговый экзамен в экспериментальной группе оказался выше на 7,4 балла из 100, а доля студентов, не сдавших экзамен с первой попытки, снизилась с 23 % до 14 %. Наибольший эффект наблюдался у студентов с низкими вступительными баллами. Анализ цифровых следов показал, что ключевым предиктором успеха была регулярность работы с системой, а не общее время, проведённое в ней. Сделан вывод о целесообразности использования адаптивных курсов как инструмента выравнивания стартовых возможностей первокурсников.</p>",
+            "en": "<p>The first year at university carries the highest risk of academic failure and dropout, especially in mathematics, where differences in students' school preparation are particularly large. This article evaluates the effect of an adaptive online course in calculus on the performance of first-year students at a pedagogical university. The adaptive system selected exercises and learning materials based on a diagnosis of the student's current level of knowledge and errors. The study used a quasi-experimental design: students in two cohorts of the 2023/24 academic year (n = 214) used the adaptive course, while students in two cohorts of the previous year (n = 198) studied under the traditional scheme with the same instructors. To improve group comparability, propensity score matching was applied on entrance examination results, gender and school type. The mean final examination score in the experimental group was 7.4 points higher out of 100, and the share of students failing the examination at the first attempt fell from 23% to 14%. The largest effect was observed among students with low entrance scores. Analysis of digital traces showed that the key predictor of success was the regularity of work with the system rather than the total time spent in it. We conclude that adaptive courses are a worthwhile tool for levelling first-year students' starting opportunities.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "адаптивное обучение",
+              "онлайн-курсы",
+              "академическая успеваемость",
+              "первокурсники",
+              "учебная аналитика"
+            ],
+            "en": [
+              "adaptive learning",
+              "online courses",
+              "academic performance",
+              "first-year students",
+              "learning analytics"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Ирина",
+                "en": "Irina"
+              },
+              "familyName": {
+                "ru": "Федорова",
+                "en": "Fedorova"
+              },
+              "email": "i.fedorova@example.org",
+              "affiliation": {
+                "ru": "Лесногорский педагогический университет",
+                "en": "Lesnogorsk Pedagogical University"
+              },
+              "country": "RU",
+              "primaryContact": true
+            },
+            {
+              "givenName": {
+                "ru": "Максим",
+                "en": "Maxim"
+              },
+              "familyName": {
+                "ru": "Коваленко",
+                "en": "Kovalenko"
+              },
+              "email": "m.kovalenko@example.org",
+              "affiliation": {
+                "ru": "Лесногорский педагогический университет",
+                "en": "Lesnogorsk Pedagogical University"
+              },
+              "country": "RU",
+              "primaryContact": false
+            }
+          ],
+          "pages": "8-10",
+          "dateSubmitted": "2025-02-26",
+          "dateAccepted": "2025-07-01",
+          "citations": [
+            "Bloom B. S. The 2 sigma problem: the search for methods of group instruction as effective as one-to-one tutoring // Educational Researcher. 1984. Vol. 13, no. 6. P. 4–16.",
+            "Rosenbaum P. R., Rubin D. B. The central role of the propensity score in observational studies for causal effects // Biometrika. 1983. Vol. 70, no. 1. P. 41–55.",
+            "Федорова И. С. Адаптивные системы обучения в высшей школе: модели и практики // Цифровая дидактика. 2022. Т. 5, № 2. С. 7–25.",
+            "Коваленко М. Ю., Федорова И. С. Цифровые следы студентов как источник данных для прогнозирования успеваемости // Образование и аналитика. 2023. № 1. С. 44–59.",
+            "Reyes M., Ahlberg J. Adaptive practice and mathematics achievement in higher education: a meta-analysis // Journal of Learning Technologies. 2021. Vol. 19, no. 2. P. 133–152.",
+            "Тарасова Н. В. Математическая подготовка первокурсников: проблемы перехода от школы к вузу. Лесногорск: ЛПУ, 2020. 176 с.",
+            "Hughes D., Varga E. Spacing and regularity in online learning: evidence from log data // Learning Analytics Review. 2022. Vol. 8. P. 60–79."
+          ],
+          "pdf": "pdf/v1n2-02-adaptive-courses.pdf"
+        },
+        {
+          "slug": "v1n2-03-telemedicine-older-adults",
+          "section": "ART",
+          "locale": "en",
+          "title": {
+            "ru": "Использование телемедицины пожилыми людьми в малых городах: исследование смешанными методами",
+            "en": "Telemedicine Uptake among Older Adults in Small Towns: A Mixed-Methods Study"
+          },
+          "abstract": {
+            "ru": "<p>Телемедицинские консультации способны повысить доступность медицинской помощи для пожилых жителей малых городов, где нехватка врачей-специалистов особенно ощутима. Вместе с тем уровень использования таких услуг пожилыми людьми остаётся низким, а причины этого изучены недостаточно. В исследовании смешанными методами проанализированы факторы использования телемедицины людьми в возрасте 60 лет и старше в четырёх условных малых городах. Количественный этап включал телефонный опрос 812 респондентов, качественный — 28 полуструктурированных интервью с пациентами и 9 интервью с медицинскими работниками. За последний год телемедицинскими услугами воспользовались 19 % опрошенных. В многомерной логистической модели вероятность использования была связана с наличием смартфона, проживанием с родственниками младшего возраста и наличием хронических заболеваний, требующих регулярного наблюдения, тогда как связь с возрастом после учёта этих факторов ослабевала. Интервью выявили три ключевых барьера: недоверие к дистанционной оценке состояния здоровья, сложность процедур записи и авторизации, а также опасение «занять время врача» без очного визита. Медицинские работники отмечали, что наибольшую ценность телемедицина имеет для повторных консультаций и коррекции терапии. Сделан вывод о том, что упрощение интерфейсов и поддержка со стороны медицинских сестёр могут существенно расширить использование телемедицины пожилыми людьми.</p>",
+            "en": "<p>Telemedicine consultations can improve access to healthcare for older residents of small towns, where the shortage of specialist physicians is particularly acute. However, uptake of such services among older people remains low, and the reasons are insufficiently understood. This mixed-methods study analyses the factors associated with telemedicine use among people aged 60 and over in four anonymised small towns. The quantitative phase comprised a telephone survey of 812 respondents; the qualitative phase consisted of 28 semi-structured interviews with patients and 9 interviews with healthcare workers. Over the past year, 19% of respondents had used telemedicine services. In a multivariable logistic model, the probability of use was associated with smartphone ownership, living with younger relatives and having chronic conditions requiring regular monitoring, whereas the association with age weakened after adjustment for these factors. Interviews revealed three key barriers: distrust of remote assessment of health status, complex booking and authentication procedures, and a fear of wasting the doctor's time without an in-person visit. Healthcare workers noted that telemedicine is most valuable for follow-up consultations and adjusting treatment. We conclude that simplified interfaces and support from nurses could substantially broaden telemedicine use among older adults.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "телемедицина",
+              "пожилые люди",
+              "малые города",
+              "цифровое неравенство",
+              "смешанные методы"
+            ],
+            "en": [
+              "telemedicine",
+              "older adults",
+              "small towns",
+              "digital divide",
+              "mixed methods"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Ольга",
+                "en": "Olga"
+              },
+              "familyName": {
+                "ru": "Василенко",
+                "en": "Vasilenko"
+              },
+              "email": "o.vasilenko@example.org",
+              "affiliation": {
+                "ru": "НИИ общественного здоровья «Вита»",
+                "en": "Vita Research Institute of Public Health"
+              },
+              "country": "RU",
+              "primaryContact": false
+            },
+            {
+              "givenName": {
+                "ru": "Мирослав",
+                "en": "Miroslav"
+              },
+              "familyName": {
+                "ru": "Йованович",
+                "en": "Jovanović"
+              },
+              "email": "m.jovanovic@example.org",
+              "affiliation": {
+                "ru": "Дунайский центр исследований здоровья населения",
+                "en": "Danube Centre for Population Health Research"
+              },
+              "country": "RS",
+              "primaryContact": true
+            },
+            {
+              "givenName": {
+                "ru": "Наталья",
+                "en": "Natalia"
+              },
+              "familyName": {
+                "ru": "Аркадьева",
+                "en": "Arkadyeva"
+              },
+              "email": "n.arkadyeva@example.org",
+              "affiliation": {
+                "ru": "НИИ общественного здоровья «Вита»",
+                "en": "Vita Research Institute of Public Health"
+              },
+              "country": "RU",
+              "primaryContact": false
+            }
+          ],
+          "pages": "11-13",
+          "dateSubmitted": "2025-03-04",
+          "dateAccepted": "2025-07-15",
+          "citations": [
+            "Creswell J. W., Plano Clark V. L. Designing and Conducting Mixed Methods Research. 3rd ed. Thousand Oaks: SAGE, 2017. 492 p.",
+            "Braun V., Clarke V. Using thematic analysis in psychology // Qualitative Research in Psychology. 2006. Vol. 3, no. 2. P. 77–101.",
+            "Vasilenko O. P., Arkadyeva N. S. Access to specialist care in small towns: a regional survey // Public Health Perspectives. 2022. Vol. 11, no. 3. P. 201–214.",
+            "Jovanović M., Petrović S. Digital health literacy among older Europeans // Ageing and Technology. 2021. Vol. 6, no. 1. P. 15–33.",
+            "Hale R., Moreno C. Barriers to video consultations in rural primary care: a qualitative synthesis // Rural Health Review. 2022. Vol. 14. P. 88–104.",
+            "Аркадьева Н. С. Телемедицина в системе первичной медико-санитарной помощи: организационные модели // Здравоохранение и общество. 2023. № 2. С. 26–41.",
+            "Lindholm K., Saar T. Nurse-facilitated telehealth for older patients: a pilot evaluation // Journal of Community Nursing Research. 2020. Vol. 9, no. 4. P. 310–322.",
+            "Vasilenko O. P. Chronic disease monitoring and remote consultations: early evidence // Digital Health Notes. 2023. Vol. 2. P. 40–52."
+          ],
+          "pdf": "pdf/v1n2-03-telemedicine-older-adults.pdf"
+        },
+        {
+          "slug": "v1n2-04-computing-centres-history",
+          "section": "REV",
+          "locale": "ru",
+          "title": {
+            "ru": "Вычислительные центры 1950–1970-х гг. как научные институты: обзор историографии",
+            "en": "Computing Centres of the 1950s–1970s as Scientific Institutions: A Historiographical Review"
+          },
+          "abstract": {
+            "ru": "<p>Вычислительные центры, возникшие в середине XX в. при научных институтах, университетах и промышленных предприятиях, сыграли ключевую роль в превращении вычислений в самостоятельный инструмент научного познания. В обзоре рассматривается, как историки науки и техники изучали эти учреждения на протяжении последних пятидесяти лет. На основе анализа 64 монографий, статей и сборников выделены три основных историографических подхода. Первый, технико-биографический, сосредоточен на создании конкретных вычислительных машин и деятельности их конструкторов. Второй, институциональный, рассматривает вычислительные центры как организации со своей структурой, кадровой политикой и отношениями с заказчиками. Третий, сложившийся в последние два десятилетия, исследует вычислительные практики: как программисты, операторы и пользователи взаимодействовали с машинами и как вычисления меняли методы отдельных дисциплин — от метеорологии до лингвистики. Показано, что наименее изученными остаются повседневная работа вычислительных центров, роль женщин-программистов и операторов, а также региональные центры за пределами крупнейших научных городов. Отдельно обсуждаются проблемы источниковой базы: сохранность технической документации, журналов машинного времени и программ. Сделан вывод о перспективности сочетания архивных исследований с методами устной истории, пока ещё живы участники событий.</p>",
+            "en": "<p>Computing centres, established in the mid-twentieth century at research institutes, universities and industrial enterprises, played a key role in turning computation into an independent instrument of scientific inquiry. This review examines how historians of science and technology have studied these institutions over the past fifty years. Based on an analysis of 64 monographs, articles and edited volumes, three main historiographical approaches are identified. The first, technical-biographical, focuses on the construction of particular computers and the work of their designers. The second, institutional, treats computing centres as organisations with their own structure, staffing policies and relations with clients. The third, which has emerged over the last two decades, investigates computing practices: how programmers, operators and users interacted with machines and how computation transformed the methods of individual disciplines, from meteorology to linguistics. The least studied topics remain the everyday work of computing centres, the role of women programmers and operators, and regional centres outside the largest science cities. Problems of the source base are discussed separately, including the preservation of technical documentation, machine-time logs and programs. The review concludes that combining archival research with oral history methods is promising while participants in these events are still alive.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "история науки",
+              "история вычислительной техники",
+              "вычислительные центры",
+              "историография",
+              "устная история"
+            ],
+            "en": [
+              "history of science",
+              "history of computing",
+              "computing centres",
+              "historiography",
+              "oral history"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Леонид",
+                "en": "Leonid"
+              },
+              "familyName": {
+                "ru": "Вершинин",
+                "en": "Vershinin"
+              },
+              "email": "l.vershinin@example.org",
+              "affiliation": {
+                "ru": "Центр истории науки и техники «Хронос»",
+                "en": "Chronos Centre for the History of Science and Technology"
+              },
+              "country": "RU",
+              "primaryContact": true
+            }
+          ],
+          "pages": "14-16",
+          "dateSubmitted": "2025-01-20",
+          "dateAccepted": "2025-06-10",
+          "citations": [
+            "Campbell-Kelly M., Aspray W., Ensmenger N., Yost J. R. Computer: A History of the Information Machine. 3rd ed. Boulder: Westview Press, 2014. 360 p.",
+            "Ensmenger N. The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise. Cambridge, MA: MIT Press, 2010. 336 p.",
+            "Вершинин Л. А. Вычислительный центр как научное учреждение: опыт институционального анализа // Вопросы истории науки и техники. 2019. Т. 40, № 3. С. 77–96.",
+            "Вершинин Л. А., Гладкова З. Н. Журналы машинного времени как исторический источник // Архивы и история техники. 2021. № 2. С. 12–29.",
+            "Haigh T., Priestley M. Computing practices and the history of software: an agenda // Annals of Computing History Review. 2020. Vol. 12, no. 1. P. 3–21.",
+            "Гладкова З. Н. Женщины в программировании 1950–1970-х гг.: материалы устной истории // Наука и общество в истории. 2022. Т. 6, № 4. С. 101–118.",
+            "Abbate J. Recoding Gender: Women's Changing Participation in Computing. Cambridge, MA: MIT Press, 2012. 264 p.",
+            "Мирский Е. Б. Региональные вычислительные центры и научная политика. М.: Хронос, 2018. 304 с.",
+            "Dahl K., Ostrowski P. Numerical weather prediction and the making of a computing community // Science in Context Studies. 2019. Vol. 27. P. 210–233."
+          ],
+          "pdf": "pdf/v1n2-04-computing-centres-history.pdf"
+        },
+        {
+          "slug": "v1n2-05-greywater-reuse",
+          "section": "SHC",
+          "locale": "ru",
+          "title": {
+            "ru": "Повторное использование серых вод в многоквартирном жилом квартале: пилотная оценка",
+            "en": "Greywater Reuse in a Multi-Apartment Residential Block: A Pilot Assessment"
+          },
+          "abstract": {
+            "ru": "<p>Повторное использование слабозагрязнённых бытовых сточных вод, или серых вод, рассматривается как один из способов снижения нагрузки на системы городского водоснабжения и водоотведения. В кратком сообщении представлены результаты пилотной эксплуатации системы очистки серых вод в жилом квартале из трёх многоквартирных домов (412 жителей). Серые воды от душевых и умывальников очищались на компактной установке, включающей механическую фильтрацию, мембранный биореактор и ультрафиолетовое обеззараживание, после чего подавались на смыв унитазов и полив придомовой территории. В течение 12 месяцев проводился ежедневный учёт объёмов и еженедельный контроль качества очищенной воды. Повторное использование позволило сократить потребление питьевой воды в среднем на 27 %, а в летние месяцы — до 34 % за счёт полива. Очищенная вода стабильно соответствовала нормативам для технического водоснабжения по мутности, биохимическому потреблению кислорода и микробиологическим показателям. Удельные эксплуатационные затраты составили около 38 руб. за кубический метр, срок окупаемости при действующих тарифах оценивается в 9–11 лет. Опрос жителей показал высокий уровень принятия технологии (82 % положительных оценок) при условии отсутствия запаха и окрашивания воды. Сделан вывод о целесообразности включения систем повторного использования серых вод в проекты новой жилой застройки.</p>",
+            "en": "<p>The reuse of lightly polluted domestic wastewater, or greywater, is regarded as one way to reduce the load on urban water supply and sewerage systems. This short communication presents the results of a pilot operation of a greywater treatment system in a residential block of three multi-apartment buildings (412 residents). Greywater from showers and washbasins was treated in a compact unit comprising mechanical filtration, a membrane bioreactor and ultraviolet disinfection, and then supplied for toilet flushing and irrigation of the surrounding grounds. Over 12 months, volumes were recorded daily and the quality of treated water was monitored weekly. Reuse reduced potable water consumption by 27% on average and by up to 34% in summer months owing to irrigation. Treated water consistently met the standards for non-potable water supply in terms of turbidity, biochemical oxygen demand and microbiological indicators. Specific operating costs were about 38 roubles per cubic metre, and the payback period at current tariffs is estimated at 9–11 years. A survey of residents showed a high level of acceptance of the technology (82% positive ratings), provided the water had no odour or discolouration. We conclude that greywater reuse systems are worth including in new residential development projects.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "серые воды",
+              "повторное использование воды",
+              "мембранный биореактор",
+              "водосбережение",
+              "жилая застройка"
+            ],
+            "en": [
+              "greywater",
+              "water reuse",
+              "membrane bioreactor",
+              "water saving",
+              "residential development"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Роман",
+                "en": "Roman"
+              },
+              "familyName": {
+                "ru": "Дьяконов",
+                "en": "Dyakonov"
+              },
+              "email": "r.dyakonov@example.org",
+              "affiliation": {
+                "ru": "Высшая школа урбанистики «Полис»",
+                "en": "Polis Graduate School of Urban Studies"
+              },
+              "country": "RU",
+              "primaryContact": true
+            },
+            {
+              "givenName": {
+                "ru": "Алина",
+                "en": "Alina"
+              },
+              "familyName": {
+                "ru": "Сафина",
+                "en": "Safina"
+              },
+              "email": "a.safina@example.org",
+              "affiliation": {
+                "ru": "Волжский институт прикладной аналитики",
+                "en": "Volga Institute of Applied Analytics"
+              },
+              "country": "RU",
+              "primaryContact": false
+            }
+          ],
+          "pages": "17-19",
+          "dateSubmitted": "2025-05-14",
+          "dateAccepted": "2025-08-05",
+          "citations": [
+            "Дьяконов Р. В. Децентрализованные системы водоотведения в жилой застройке: зарубежный опыт // Городское хозяйство и инфраструктура. 2022. № 6. С. 33–47.",
+            "Eriksson E., Auffarth K., Henze M., Ledin A. Characteristics of grey wastewater // Urban Water. 2002. Vol. 4, no. 1. P. 85–104.",
+            "Сафина А. Р., Дьяконов Р. В. Экономическая оценка проектов водосбережения в многоквартирных домах // Пространственная экономика и политика. 2023. № 2. С. 58–72.",
+            "Okoro N., Lindahl S. Membrane bioreactors for decentralised greywater treatment: a performance review // Water Technology Letters. 2021. Vol. 13. P. 140–158.",
+            "Mendes T., Haas R. Public acceptance of recycled water for domestic uses // Journal of Water and Society. 2020. Vol. 8, no. 2. P. 99–117.",
+            "Дьяконов Р. В. Водный баланс жилого квартала: методика расчёта. Новобор: Полис, 2021. 92 с."
+          ],
+          "pdf": "pdf/v1n2-05-greywater-reuse.pdf"
+        }
+      ]
+    },
+    {
+      "volume": 2,
+      "number": "1",
+      "year": 2026,
+      "title": {
+        "ru": "Устойчивое развитие: модели и практики",
+        "en": "Sustainability: Models and Practices"
+      },
+      "description": {
+        "ru": "<p>Выпуск посвящён количественным моделям и практическим решениям в области устойчивого развития. В него вошли работы о транспортной доступности и рынке жилья, распознавании машинно сгенерированных научных текстов, циркулярной экономике малого бизнеса и микробиоме городских почв.</p>",
+        "en": "<p>This issue is devoted to quantitative models and practical solutions for sustainable development. It includes studies of transit accessibility and housing markets, the detection of machine-generated scientific text, the circular economy in small businesses and the microbiome of urban soils.</p>"
+      },
+      "datePublished": "2026-03-18",
+      "current": true,
+      "cover": "covers/v2n1.png",
+      "articles": [
+        {
+          "slug": "v2n1-01-transit-housing-prices",
+          "section": "ART",
+          "locale": "ru",
+          "title": {
+            "ru": "Транспортная доступность и цены на жильё: гедонистическая модель для городской агломерации",
+            "en": "Transit Accessibility and Housing Prices: A Hedonic Model for an Urban Agglomeration"
+          },
+          "subtitle": {
+            "ru": "На примере открытия новой линии скоростного трамвая",
+            "en": "Evidence from the Opening of a New Light Rail Line"
+          },
+          "abstract": {
+            "ru": "<p>Инвестиции в общественный транспорт меняют пространственную структуру города, и одним из наиболее наглядных проявлений этого является изменение цен на жильё вблизи новых станций. В статье оценивается влияние открытия линии скоростного трамвая протяжённостью 17 км на цены квартир в условной агломерации с населением около 1,2 млн человек. Использованы данные о 46 тыс. сделок и объявлений о продаже за 2018–2024 гг., геокодированные и дополненные характеристиками домов и окружающей среды. Показатель транспортной доступности рассчитан как число рабочих мест, достижимых за 45 минут на общественном транспорте, до и после открытия линии. Для идентификации эффекта применена гедонистическая модель с методом разности разностей, в которой экспериментальной группой служат квартиры в радиусе 800 м от новых станций. Установлено, что после открытия линии цены квартир в зоне влияния выросли на 6,8 % больше, чем в контрольной зоне, причём эффект начал проявляться уже после объявления о строительстве. Эффект сильнее для квартир в периферийных районах с исходно низкой доступностью и практически отсутствует в центре. Рост доступности на 10 тыс. рабочих мест связан с увеличением цены квадратного метра на 1,9 %. Результаты могут использоваться для обоснования механизмов возврата части прироста стоимости земли на финансирование транспортной инфраструктуры.</p>",
+            "en": "<p>Investment in public transport reshapes the spatial structure of a city, and one of the most visible manifestations of this is the change in housing prices near new stations. This article estimates the effect of opening a 17-km light rail line on apartment prices in an anonymised agglomeration with a population of about 1.2 million. The data comprise 46,000 transactions and sale listings for 2018–2024, geocoded and supplemented with building and neighbourhood characteristics. Transit accessibility was measured as the number of jobs reachable within 45 minutes by public transport before and after the opening of the line. The effect was identified with a hedonic difference-in-differences model in which the treatment group consists of apartments within 800 m of the new stations. After the line opened, apartment prices in the catchment area increased by 6.8% more than in the control area, and the effect began to appear as early as the announcement of construction. The effect is stronger for apartments in peripheral districts with initially low accessibility and practically absent in the centre. An increase in accessibility of 10,000 jobs is associated with a 1.9% increase in the price per square metre. The results can be used to justify land value capture mechanisms for financing transport infrastructure.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "транспортная доступность",
+              "гедонистическая модель",
+              "рынок жилья",
+              "скоростной трамвай",
+              "возврат стоимости земли"
+            ],
+            "en": [
+              "transit accessibility",
+              "hedonic model",
+              "housing market",
+              "light rail",
+              "land value capture"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Артём",
+                "en": "Artyom"
+              },
+              "familyName": {
+                "ru": "Мельников",
+                "en": "Melnikov"
+              },
+              "email": "a.melnikov@example.org",
+              "affiliation": {
+                "ru": "Высшая школа урбанистики «Полис»",
+                "en": "Polis Graduate School of Urban Studies"
+              },
+              "country": "RU",
+              "primaryContact": true
+            },
+            {
+              "givenName": {
+                "ru": "Павел",
+                "en": "Pavel"
+              },
+              "familyName": {
+                "ru": "Громов",
+                "en": "Gromov"
+              },
+              "email": "p.gromov@example.org",
+              "affiliation": {
+                "ru": "Институт экономики и пространственного развития «Меридиан»",
+                "en": "Meridian Institute for Economics and Spatial Development"
+              },
+              "country": "RU",
+              "primaryContact": false
+            },
+            {
+              "givenName": {
+                "ru": "Дарья",
+                "en": "Daria"
+              },
+              "familyName": {
+                "ru": "Полякова",
+                "en": "Polyakova"
+              },
+              "email": "d.polyakova@example.org",
+              "affiliation": {
+                "ru": "Высшая школа урбанистики «Полис»",
+                "en": "Polis Graduate School of Urban Studies"
+              },
+              "country": "RU",
+              "primaryContact": false
+            },
+            {
+              "givenName": {
+                "ru": "Евгений",
+                "en": "Evgeny"
+              },
+              "familyName": {
+                "ru": "Седов",
+                "en": "Sedov"
+              },
+              "email": "e.sedov@example.org",
+              "affiliation": {
+                "ru": "Институт экономики и пространственного развития «Меридиан»",
+                "en": "Meridian Institute for Economics and Spatial Development"
+              },
+              "country": "RU",
+              "primaryContact": false
+            }
+          ],
+          "pages": "5-7",
+          "dateSubmitted": "2025-09-02",
+          "dateAccepted": "2026-01-19",
+          "citations": [
+            "Rosen S. Hedonic prices and implicit markets: product differentiation in pure competition // Journal of Political Economy. 1974. Vol. 82, no. 1. P. 34–55.",
+            "Hansen W. G. How accessibility shapes land use // Journal of the American Institute of Planners. 1959. Vol. 25, no. 2. P. 73–76.",
+            "Мельников А. С. Метрики транспортной доступности на основе расписаний общественного транспорта // Геоинформатика и общество. 2023. № 2. С. 5–21.",
+            "Громов П. А., Седов Е. В. Капитализация инфраструктурных инвестиций в цены жилья: обзор эмпирических исследований // Пространственная экономика и политика. 2022. № 4. С. 9–30.",
+            "Debrezion G., Pels E., Rietveld P. The impact of railway stations on residential and commercial property value: a meta-analysis // Journal of Real Estate Finance and Economics. 2007. Vol. 35, no. 2. P. 161–180.",
+            "Полякова Д. И. Анонсирование инфраструктурных проектов и ожидания рынка жилья // Городские исследования. 2024. Т. 8, № 1. С. 44–61.",
+            "Ng W., Carvalho F. Land value capture for light rail: international practice // Transport Finance Review. 2021. Vol. 10. P. 71–90.",
+            "Мельников А. С., Полякова Д. И. Геокодирование объявлений о продаже жилья: методы и ошибки // Прикладная аналитика. 2023. Т. 7, № 4. С. 63–79."
+          ],
+          "pdf": "pdf/v2n1-01-transit-housing-prices.pdf"
+        },
+        {
+          "slug": "v2n1-02-machine-generated-abstracts",
+          "section": "ART",
+          "locale": "en",
+          "title": {
+            "ru": "Распознавание машинно сгенерированных фрагментов в русскоязычных научных аннотациях",
+            "en": "Detecting Machine-Generated Passages in Russian-Language Scientific Abstracts"
+          },
+          "abstract": {
+            "ru": "<p>Широкое распространение больших языковых моделей поставило перед научными журналами задачу выявления текстов, полностью или частично созданных автоматически. Большинство существующих детекторов разработаны для английского языка, и их применимость к русскоязычным научным текстам изучена слабо. В статье представлен новый размеченный корпус из 12 тыс. аннотаций научных статей на русском языке, в котором половина текстов написана людьми, а половина содержит фрагменты, сгенерированные тремя различными языковыми моделями с разными инструкциями. На этом корпусе сравниваются четыре класса методов: статистические признаки перплексии, стилометрические признаки, дообученный классификатор на основе трансформера и коммерческий детектор общего назначения. Наилучшие результаты показал дообученный классификатор (F1 = 0,91 на уровне документа), однако его качество снижалось до 0,74 при тестировании на текстах, сгенерированных моделью, не встречавшейся при обучении. На уровне отдельных предложений все методы работают существенно хуже, а доля ложных срабатываний на аннотациях, написанных авторами, для которых русский язык не является родным, достигает 11 %. Эти результаты свидетельствуют о том, что автоматические детекторы не могут служить единственным основанием для редакционных решений. Корпус и код опубликованы в открытом доступе для дальнейших исследований.</p>",
+            "en": "<p>The widespread adoption of large language models has confronted scholarly journals with the task of identifying texts created wholly or partly by automated means. Most existing detectors were developed for English, and their applicability to Russian-language scientific texts is poorly understood. This article presents a new annotated corpus of 12,000 abstracts of scientific articles in Russian, half of which were written by humans and half of which contain passages generated by three different language models under different prompts. Four classes of methods are compared on this corpus: statistical perplexity features, stylometric features, a fine-tuned transformer-based classifier and a general-purpose commercial detector. The fine-tuned classifier performed best (document-level F1 = 0.91), but its performance fell to 0.74 when tested on texts generated by a model not seen during training. At the sentence level, all methods perform considerably worse, and the false-positive rate on abstracts written by authors for whom Russian is not a first language reaches 11%. These results indicate that automated detectors cannot serve as the sole basis for editorial decisions. The corpus and code are openly available for further research.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "большие языковые модели",
+              "детекция сгенерированного текста",
+              "научные аннотации",
+              "русский язык",
+              "академическая этика"
+            ],
+            "en": [
+              "large language models",
+              "machine-generated text detection",
+              "scientific abstracts",
+              "Russian language",
+              "research integrity"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Тимур",
+                "en": "Timur"
+              },
+              "familyName": {
+                "ru": "Каримов",
+                "en": "Karimov"
+              },
+              "email": "t.karimov@example.org",
+              "affiliation": {
+                "ru": "Волжский институт прикладной аналитики",
+                "en": "Volga Institute of Applied Analytics"
+              },
+              "country": "RU",
+              "primaryContact": false
+            },
+            {
+              "givenName": {
+                "ru": "Анна",
+                "en": "Anna"
+              },
+              "familyName": {
+                "ru": "Лебедева",
+                "en": "Lebedeva"
+              },
+              "email": "a.lebedeva@example.org",
+              "affiliation": {
+                "ru": "Институт языка и коммуникации «Лексис»",
+                "en": "Lexis Institute of Language and Communication"
+              },
+              "country": "RU",
+              "primaryContact": false
+            },
+            {
+              "givenName": {
+                "ru": "Санжар",
+                "en": "Sanzhar"
+              },
+              "familyName": {
+                "ru": "Абдуллаев",
+                "en": "Abdullaev"
+              },
+              "email": "s.abdullaev@example.org",
+              "affiliation": {
+                "ru": "Самаркандский институт вычислительной лингвистики",
+                "en": "Samarkand Institute of Computational Linguistics"
+              },
+              "country": "UZ",
+              "primaryContact": true
+            }
+          ],
+          "pages": "8-10",
+          "dateSubmitted": "2025-08-18",
+          "dateAccepted": "2026-01-27",
+          "citations": [
+            "Vaswani A., Shazeer N., Parmar N. et al. Attention is all you need // Advances in Neural Information Processing Systems. 2017. Vol. 30. P. 5998–6008.",
+            "Devlin J., Chang M.-W., Lee K., Toutanova K. BERT: pre-training of deep bidirectional transformers for language understanding // Proceedings of NAACL-HLT 2019. Minneapolis, 2019. P. 4171–4186.",
+            "Abdullaev S. R. Perplexity-based detection of generated text in morphologically rich languages // Computational Linguistics Letters. 2024. Vol. 9, no. 1. P. 22–37.",
+            "Lebedeva A. V., Karimov T. R. Stylometric profiles of Russian academic prose // Corpus Methods Quarterly. 2023. Vol. 14, no. 3. P. 201–219.",
+            "Moreau C., Banerjee R. Generalisation failures of machine-generated text detectors // Journal of AI Evaluation. 2024. Vol. 3. P. 77–96.",
+            "Каримов Т. Р., Лебедева А. В. Языковые модели в научной коммуникации: риски и редакционные политики // Научный редактор и издатель. 2024. Т. 9, № 2. С. 112–125.",
+            "Holt E., Nguyen T. Bias of AI-text detectors against non-native writers // Language and Technology Review. 2023. Vol. 12, no. 4. P. 300–318.",
+            "Абдуллаев С. Р. Корпусы для оценки детекторов сгенерированного текста: требования и практика // Вычислительная лингвистика и интеллектуальные технологии. 2025. Т. 4, № 1. С. 15–30."
+          ],
+          "pdf": "pdf/v2n1-02-machine-generated-abstracts.pdf"
+        },
+        {
+          "slug": "v2n1-03-circular-economy-sme",
+          "section": "REV",
+          "locale": "ru",
+          "title": {
+            "ru": "Циркулярная экономика в малом и среднем бизнесе: систематический обзор барьеров и драйверов",
+            "en": "The Circular Economy in Small and Medium-Sized Enterprises: A Systematic Review of Barriers and Drivers"
+          },
+          "abstract": {
+            "ru": "<p>Переход к циркулярной экономике, основанной на повторном использовании, ремонте и переработке ресурсов, требует участия не только крупных корпораций, но и малых и средних предприятий, на долю которых приходится значительная часть занятости и воздействия на окружающую среду. В систематическом обзоре обобщены результаты эмпирических исследований барьеров и драйверов внедрения циркулярных практик в малом и среднем бизнесе. Поиск по протоколу PRISMA выявил 1 146 публикаций за 2015–2025 гг., из которых по критериям включения отобрано 72 исследования из 28 стран. Барьеры и драйверы классифицированы по пяти группам: финансовые, технологические, рыночные, институциональные и организационно-культурные. Наиболее часто упоминаемыми барьерами оказались высокие первоначальные затраты и ограниченный доступ к финансированию (78 % исследований), недостаток технических компетенций (61 %) и низкий спрос потребителей на продукцию из вторичного сырья (47 %). Ключевыми драйверами выступают экономия затрат на сырьё и утилизацию, требования крупных заказчиков в цепочках поставок и личные ценности собственников. Показано, что роль государственной поддержки оценивается неоднозначно: субсидии эффективны прежде всего в сочетании с консультационными услугами. Выявлен существенный дефицит исследований из стран Восточной Европы и Центральной Азии. Сформулированы рекомендации для политики поддержки и направления дальнейших исследований.</p>",
+            "en": "<p>The transition to a circular economy based on the reuse, repair and recycling of resources requires the participation not only of large corporations but also of small and medium-sized enterprises, which account for a large share of employment and environmental impact. This systematic review synthesises empirical research on the barriers to and drivers of adopting circular practices in small and medium-sized businesses. A PRISMA-guided search identified 1,146 publications from 2015–2025, of which 72 studies from 28 countries met the inclusion criteria. Barriers and drivers were classified into five groups: financial, technological, market, institutional and organisational-cultural. The most frequently cited barriers were high upfront costs and limited access to finance (78% of studies), a lack of technical competence (61%) and low consumer demand for products made from secondary raw materials (47%). The key drivers are savings on raw material and disposal costs, requirements of large customers in supply chains and the personal values of owners. The role of government support is assessed ambiguously: subsidies are effective mainly in combination with advisory services. A substantial gap in research from Eastern Europe and Central Asia was identified. Recommendations for support policies and directions for further research are formulated.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "циркулярная экономика",
+              "малый и средний бизнес",
+              "систематический обзор",
+              "устойчивое развитие",
+              "цепочки поставок"
+            ],
+            "en": [
+              "circular economy",
+              "small and medium-sized enterprises",
+              "systematic review",
+              "sustainable development",
+              "supply chains"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Евгений",
+                "en": "Evgeny"
+              },
+              "familyName": {
+                "ru": "Седов",
+                "en": "Sedov"
+              },
+              "email": "e.sedov@example.org",
+              "affiliation": {
+                "ru": "Институт экономики и пространственного развития «Меридиан»",
+                "en": "Meridian Institute for Economics and Spatial Development"
+              },
+              "country": "RU",
+              "primaryContact": true
+            },
+            {
+              "givenName": {
+                "ru": "Татьяна",
+                "en": "Tatiana"
+              },
+              "familyName": {
+                "ru": "Яковлева",
+                "en": "Yakovleva"
+              },
+              "email": "t.yakovleva@example.org",
+              "affiliation": {
+                "ru": "Белорусский институт устойчивого развития «Экополис»",
+                "en": "Ecopolis Belarusian Institute for Sustainable Development"
+              },
+              "country": "BY",
+              "primaryContact": false
+            }
+          ],
+          "pages": "11-13",
+          "dateSubmitted": "2025-07-07",
+          "dateAccepted": "2025-12-16",
+          "citations": [
+            "Page M. J., McKenzie J. E., Bossuyt P. M. et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews // BMJ. 2021. Vol. 372. Art. n71.",
+            "Kirchherr J., Reike D., Hekkert M. Conceptualizing the circular economy: an analysis of 114 definitions // Resources, Conservation and Recycling. 2017. Vol. 127. P. 221–232.",
+            "Седов Е. В. Циркулярные бизнес-модели: типология и экономические эффекты // Пространственная экономика и политика. 2023. № 1. С. 31–50.",
+            "Яковлева Т. Н. Политика поддержки зелёного предпринимательства в странах ЕАЭС // Экономика устойчивого развития. 2024. Т. 12, № 3. С. 66–83.",
+            "Rizos V., Behrens A., Kafyeke T. et al. The circular economy: barriers and opportunities for SMEs. Brussels: CEPS, 2015. 22 p.",
+            "Lindner P., Costa R. Supply-chain pressure and circular practices in small manufacturers // Journal of Sustainable Enterprise. 2022. Vol. 11, no. 2. P. 115–134.",
+            "Седов Е. В., Громов П. А. Малый бизнес и переработка отходов: результаты регионального обследования // Регион: экономика и общество. 2024. № 5. С. 20–37.",
+            "Oduya K., Brandt M. Owner values and environmental strategy in family firms // Small Business and Society. 2021. Vol. 7. P. 50–68."
+          ],
+          "pdf": "pdf/v2n1-03-circular-economy-sme.pdf"
+        },
+        {
+          "slug": "v2n1-04-urban-soil-microbiome",
+          "section": "SHC",
+          "locale": "ru",
+          "title": {
+            "ru": "Микробиом почв городских парков: первые результаты метабаркодинга",
+            "en": "The Soil Microbiome of Urban Parks: First Results of Metabarcoding"
+          },
+          "abstract": {
+            "ru": "<p>Почвы городских парков выполняют важные экосистемные функции — регулируют сток, депонируют углерод, поддерживают рост растений, — однако их микробные сообщества изучены значительно хуже, чем сообщества природных почв. В кратком сообщении представлены первые результаты метабаркодинга бактериальных сообществ почв шести парков условного крупного города, различающихся возрастом и интенсивностью рекреационной нагрузки. Отобрано 72 образца верхнего горизонта почвы с газонов, участков под древесной растительностью и вдоль пешеходных дорожек. Состав сообществ определён секвенированием вариабельного участка V4 гена 16S рРНК; параллельно измерены pH, содержание органического углерода, плотность почвы и концентрации тяжёлых металлов. Альфа-разнообразие бактерий оказалось максимальным под древесной растительностью в старых парках и минимальным вдоль уплотнённых дорожек. Структура сообществ достоверно различалась между типами участков (PERMANOVA, R² = 0,21) и в меньшей степени — между парками. Наиболее значимыми факторами, определяющими состав сообществ, были pH и плотность почвы, тогда как влияние тяжёлых металлов в исследованных концентрациях оказалось слабым. Полученные данные свидетельствуют о том, что режим содержания и планировка парков влияют на почвенное микробное разнообразие не меньше, чем загрязнение. Работа продолжается с расширением выборки и включением грибных сообществ.</p>",
+            "en": "<p>The soils of urban parks perform important ecosystem functions, regulating runoff, storing carbon and supporting plant growth, yet their microbial communities have been studied far less than those of natural soils. This short communication presents the first results of metabarcoding of bacterial communities in the soils of six parks in an anonymised large city that differ in age and intensity of recreational use. Seventy-two samples of the topsoil were collected from lawns, areas under tree cover and along footpaths. Community composition was determined by sequencing the V4 variable region of the 16S rRNA gene; pH, organic carbon content, soil bulk density and heavy metal concentrations were measured in parallel. Bacterial alpha diversity was highest under tree cover in older parks and lowest along compacted paths. Community structure differed significantly between site types (PERMANOVA, R² = 0.21) and to a lesser extent between parks. The most important factors shaping community composition were pH and bulk density, whereas the effect of heavy metals at the concentrations studied was weak. These data suggest that park management and layout influence soil microbial diversity at least as much as pollution does. Work is continuing with an expanded sample and the inclusion of fungal communities.</p>"
+          },
+          "keywords": {
+            "ru": [
+              "городские почвы",
+              "микробиом",
+              "метабаркодинг",
+              "16S рРНК",
+              "городские парки"
+            ],
+            "en": [
+              "urban soils",
+              "microbiome",
+              "metabarcoding",
+              "16S rRNA",
+              "urban parks"
+            ]
+          },
+          "authors": [
+            {
+              "givenName": {
+                "ru": "Айгерим",
+                "en": "Aigerim"
+              },
+              "familyName": {
+                "ru": "Нурланова",
+                "en": "Nurlanova"
+              },
+              "email": "a.nurlanova@example.org",
+              "affiliation": {
+                "ru": "Каспийский институт экологических исследований",
+                "en": "Caspian Institute of Environmental Studies"
+              },
+              "country": "KZ",
+              "primaryContact": false
+            },
+            {
+              "givenName": {
+                "ru": "Полина",
+                "en": "Polina"
+              },
+              "familyName": {
+                "ru": "Гусева",
+                "en": "Guseva"
+              },
+              "email": "p.guseva@example.org",
+              "affiliation": {
+                "ru": "Новоборский государственный университет",
+                "en": "Novobor State University"
+              },
+              "country": "RU",
+              "primaryContact": true
+            }
+          ],
+          "pages": "14-16",
+          "dateSubmitted": "2025-10-28",
+          "dateAccepted": "2026-02-09",
+          "citations": [
+            "Fierer N., Jackson R. B. The diversity and biogeography of soil bacterial communities // Proceedings of the National Academy of Sciences of the USA. 2006. Vol. 103, no. 3. P. 626–631.",
+            "Anderson M. J. A new method for non-parametric multivariate analysis of variance // Austral Ecology. 2001. Vol. 26, no. 1. P. 32–46.",
+            "Гусева П. А. Физические свойства почв городских рекреационных территорий // Почвы и урбанизация. 2023. Т. 5, № 2. С. 40–55.",
+            "Нурланова А. Н., Гусева П. А. Тяжёлые металлы в почвах парков: пространственная изменчивость // Экосистемы и климат. 2024. Т. 6, № 3. С. 77–91.",
+            "Reese A., Kowal M. Trampling effects on soil bacterial diversity in recreational areas // Urban Ecosystems Letters. 2021. Vol. 9. P. 133–148.",
+            "Saldana P., Wu J. Park age and soil microbial community assembly // Journal of Urban Soil Science. 2022. Vol. 4, no. 1. P. 1–17."
+          ],
+          "pdf": "pdf/v2n1-04-urban-soil-microbiome.pdf"
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "slug": "sub-wind-power-forecast",
+      "section": "ART",
+      "locale": "ru",
+      "title": {
+        "ru": "Краткосрочный прогноз ветровой генерации с помощью градиентного бустинга и данных численных моделей погоды",
+        "en": "Short-Term Wind Power Forecasting with Gradient Boosting and Numerical Weather Prediction Data"
+      },
+      "abstract": {
+        "ru": "<p>Рост доли ветровой генерации в энергосистемах повышает требования к точности её краткосрочного прогноза, от которой зависят планирование режимов и стоимость балансирования. В работе предложен подход к прогнозу выработки ветровой электростанции на горизонте от 1 до 48 часов, сочетающий градиентный бустинг с признаками, извлечёнными из прогнозов численных моделей погоды. Использованы данные условной ветровой электростанции установленной мощностью 120 МВт за 2021–2025 гг. с часовым разрешением, а также прогнозы скорости и направления ветра на нескольких высотах для девяти узлов сетки вокруг станции. Помимо исходных метеорологических переменных, сформированы признаки пространственного градиента скорости ветра, сдвига ветра по высоте и устойчивости атмосферы. Сравнение проводилось с методом персистентности, моделью на основе паспортной кривой мощности и рекуррентной нейронной сетью. Предложенная модель снизила нормированную среднеквадратичную ошибку на горизонте 24 часа до 9,8 % против 12,6 % у модели на основе кривой мощности и 10,9 % у нейронной сети. Наибольший выигрыш достигается в периоды резких изменений скорости ветра при прохождении атмосферных фронтов. Анализ важности признаков показал, что пространственный градиент скорости ветра вносит существенный вклад в качество прогноза на горизонтах свыше 12 часов. Предложенный подход отличается невысокими вычислительными затратами и может быть внедрён в практику диспетчерских служб.</p>",
+        "en": "<p>The growing share of wind generation in power systems raises the requirements for the accuracy of its short-term forecasting, on which operational planning and balancing costs depend. This study proposes an approach to forecasting the output of a wind farm over horizons from 1 to 48 hours that combines gradient boosting with features extracted from numerical weather prediction forecasts. The data come from an anonymised wind farm with an installed capacity of 120 MW for 2021–2025 at hourly resolution, together with forecasts of wind speed and direction at several heights for nine grid nodes around the farm. In addition to the raw meteorological variables, features describing the spatial gradient of wind speed, vertical wind shear and atmospheric stability were constructed. The model was compared with persistence, a model based on the manufacturer's power curve and a recurrent neural network. The proposed model reduced the normalised root-mean-square error at the 24-hour horizon to 9.8%, compared with 12.6% for the power-curve model and 10.9% for the neural network. The largest gains are achieved during abrupt changes in wind speed associated with the passage of weather fronts. Feature importance analysis showed that the spatial wind speed gradient contributes substantially to forecast quality at horizons beyond 12 hours. The approach has low computational cost and can be deployed in dispatch practice.</p>"
+      },
+      "keywords": {
+        "ru": [
+          "ветровая энергетика",
+          "прогноз генерации",
+          "градиентный бустинг",
+          "численный прогноз погоды",
+          "временные ряды"
+        ],
+        "en": [
+          "wind energy",
+          "power forecasting",
+          "gradient boosting",
+          "numerical weather prediction",
+          "time series"
+        ]
+      },
+      "authors": [
+        {
+          "givenName": {
+            "ru": "Кирилл",
+            "en": "Kirill"
+          },
+          "familyName": {
+            "ru": "Зайцев",
+            "en": "Zaitsev"
+          },
+          "email": "k.zaitsev@example.org",
+          "affiliation": {
+            "ru": "Волжский институт прикладной аналитики",
+            "en": "Volga Institute of Applied Analytics"
+          },
+          "country": "RU",
+          "primaryContact": true
+        },
+        {
+          "givenName": {
+            "ru": "Алина",
+            "en": "Alina"
+          },
+          "familyName": {
+            "ru": "Сафина",
+            "en": "Safina"
+          },
+          "email": "a.safina@example.org",
+          "affiliation": {
+            "ru": "Волжский институт прикладной аналитики",
+            "en": "Volga Institute of Applied Analytics"
+          },
+          "country": "RU",
+          "primaryContact": false
+        }
+      ],
+      "dateSubmitted": "2026-09-22",
+      "citations": [
+        "Friedman J. H. Greedy function approximation: a gradient boosting machine // Annals of Statistics. 2001. Vol. 29, no. 5. P. 1189–1232.",
+        "Hochreiter S., Schmidhuber J. Long short-term memory // Neural Computation. 1997. Vol. 9, no. 8. P. 1735–1780.",
+        "Зайцев К. А. Признаки атмосферной устойчивости в задачах прогноза ветровой генерации // Прикладная аналитика. 2025. Т. 9, № 2. С. 30–44.",
+        "Madsen H., Nielsen T. Standardizing the performance evaluation of short-term wind power prediction models // Wind Engineering Review. 2005. Vol. 29, no. 6. P. 475–489.",
+        "Сафина А. Р., Зайцев К. А. Оценка стоимости ошибок прогноза ВИЭ на балансирующем рынке // Энергетическая политика и рынки. 2024. № 3. С. 51–65.",
+        "Oyelaran T., Brandt J. Spatial features from NWP grids for wind power forecasting // Renewable Forecasting Letters. 2022. Vol. 5. P. 14–29.",
+        "Петрова Ю. С. Ветровая энергетика: ресурсы, технологии, интеграция в энергосистему. Новобор: Академия, 2023. 256 с."
+      ],
+      "pdf": "pdf/sub-wind-power-forecast.pdf",
+      "stage": "submission"
+    },
+    {
+      "slug": "sub-museum-digital-audiences",
+      "section": "ART",
+      "locale": "en",
+      "title": {
+        "ru": "Цифровые аудитории музеев после пандемии: анализ поведения посетителей онлайн-коллекций",
+        "en": "Digital Museum Audiences after the Pandemic: An Analysis of Online Collection Visitor Behaviour"
+      },
+      "abstract": {
+        "ru": "<p>В период пандемии многие музеи резко расширили своё присутствие в интернете, открыв онлайн-доступ к коллекциям, виртуальным выставкам и образовательным программам. Вопрос о том, насколько устойчивой оказалась возросшая цифровая аудитория после возвращения к очной работе, остаётся открытым. В статье анализируются обезличенные журналы веб-аналитики онлайн-коллекций пяти условных региональных музеев за 2019–2025 гг., охватывающие около 3,1 млн сессий. Посетители сегментированы методом кластеризации по глубине просмотра, длительности сессии, источнику перехода и частоте возвращения. Выделено пять сегментов: случайные посетители из поисковых систем, учащиеся и преподаватели, исследователи, постоянные любители и посетители, планирующие очный визит. Общее число сессий после пика 2020 г. снизилось, но стабилизировалось на уровне, в 1,8 раза превышающем допандемийный. При этом доля исследователей и постоянных любителей выросла, а их сессии стали продолжительнее. Посетители, планирующие визит, чаще всего просматривают страницы с расписанием и текущими выставками, и именно их активность наиболее тесно связана с последующей посещаемостью музея. Результаты показывают, что онлайн-коллекции превратились в самостоятельный канал взаимодействия с аудиторией, требующий отдельной стратегии развития и метрик эффективности.</p>",
+        "en": "<p>During the pandemic, many museums rapidly expanded their online presence by opening access to collections, virtual exhibitions and educational programmes. Whether the enlarged digital audience has persisted since the return to in-person operations remains an open question. This article analyses anonymised web analytics logs of the online collections of five anonymised regional museums for 2019–2025, covering about 3.1 million sessions. Visitors were segmented by clustering on browsing depth, session duration, referral source and return frequency. Five segments were identified: casual visitors from search engines, students and teachers, researchers, regular enthusiasts and visitors planning an in-person visit. The total number of sessions declined after the 2020 peak but stabilised at a level 1.8 times higher than before the pandemic. Meanwhile, the share of researchers and regular enthusiasts increased, and their sessions became longer. Visitors planning a visit most often view pages with opening hours and current exhibitions, and their activity is most closely associated with subsequent museum attendance. The results show that online collections have become an independent channel of audience engagement that requires its own development strategy and performance metrics.</p>"
+      },
+      "keywords": {
+        "ru": [
+          "музеи",
+          "цифровые коллекции",
+          "веб-аналитика",
+          "сегментация аудитории",
+          "цифровые гуманитарные исследования"
+        ],
+        "en": [
+          "museums",
+          "digital collections",
+          "web analytics",
+          "audience segmentation",
+          "digital humanities"
+        ]
+      },
+      "authors": [
+        {
+          "givenName": {
+            "ru": "Вероника",
+            "en": "Veronika"
+          },
+          "familyName": {
+            "ru": "Крылова",
+            "en": "Krylova"
+          },
+          "email": "v.krylova@example.org",
+          "affiliation": {
+            "ru": "Центр истории науки и техники «Хронос»",
+            "en": "Chronos Centre for the History of Science and Technology"
+          },
+          "country": "RU",
+          "primaryContact": true
+        },
+        {
+          "givenName": {
+            "ru": "Томас",
+            "en": "Thomas"
+          },
+          "familyName": {
+            "ru": "Хальворсен",
+            "en": "Halvorsen"
+          },
+          "email": "t.halvorsen@example.org",
+          "affiliation": {
+            "ru": "Северный институт музейных исследований",
+            "en": "Nordic Institute for Museum Studies"
+          },
+          "country": "NO",
+          "primaryContact": false
+        }
+      ],
+      "dateSubmitted": "2026-10-03",
+      "citations": [
+        "Falk J. H. Identity and the Museum Visitor Experience. Walnut Creek: Left Coast Press, 2009. 301 p.",
+        "MacQueen J. Some methods for classification and analysis of multivariate observations // Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability. Berkeley, 1967. Vol. 1. P. 281–297.",
+        "Krylova V. D. Online collections of regional museums: a typology // Museum and Society Review. 2023. Vol. 6, no. 2. P. 45–62.",
+        "Halvorsen T., Berg I. Measuring digital engagement in museums: beyond page views // Journal of Digital Heritage. 2022. Vol. 10. P. 101–120.",
+        "Крылова В. Д. Виртуальные выставки как жанр музейной коммуникации // Вопросы музеологии и наследия. 2021. Т. 12, № 1. С. 88–103.",
+        "Santos L., Reid A. From virtual to physical: online browsing and museum attendance // Cultural Analytics Letters. 2024. Vol. 4. P. 33–49."
+      ],
+      "pdf": "pdf/sub-museum-digital-audiences.pdf",
+      "stage": "submission"
+    },
+    {
+      "slug": "sub-flax-biocomposites",
+      "section": "ART",
+      "locale": "ru",
+      "title": {
+        "ru": "Механические свойства биокомпозитов на основе льняного волокна и полимолочной кислоты после ускоренного старения",
+        "en": "Mechanical Properties of Flax Fibre and Polylactic Acid Biocomposites after Accelerated Ageing"
+      },
+      "abstract": {
+        "ru": "<p>Биокомпозиты на основе натуральных волокон и биоразлагаемых полимеров рассматриваются как экологичная альтернатива стеклопластикам в автомобильной промышленности, строительстве и производстве потребительских товаров. Их широкому применению препятствует чувствительность к влаге и ультрафиолетовому излучению, приводящая к снижению прочности в процессе эксплуатации. В работе исследовано влияние щелочной и силановой обработки льняного волокна на механические свойства композитов с матрицей из полимолочной кислоты после ускоренного климатического старения. Образцы с массовой долей волокна 30 % изготовлены методом горячего прессования и подвергнуты циклическому воздействию ультрафиолета, повышенной температуры и влажности в течение 500 и 1000 часов. После 1000 часов старения прочность при растяжении композитов с необработанным волокном снизилась на 38 %, тогда как для композитов с силанизированным волокном снижение составило лишь 17 %. Щелочная обработка повышала исходную прочность, но слабо влияла на устойчивость к старению. Методами электронной микроскопии и инфракрасной спектроскопии показано, что силановая обработка уменьшает водопоглощение и предотвращает расслоение на границе волокна и матрицы. Полученные результаты позволяют рекомендовать силановую обработку для изделий, эксплуатируемых на открытом воздухе.</p>",
+        "en": "<p>Biocomposites based on natural fibres and biodegradable polymers are regarded as an environmentally friendly alternative to glass-fibre plastics in the automotive industry, construction and consumer goods. Their wider use is hindered by sensitivity to moisture and ultraviolet radiation, which reduces strength during service. This study examines the effect of alkaline and silane treatment of flax fibre on the mechanical properties of composites with a polylactic acid matrix after accelerated weathering. Samples with a fibre mass fraction of 30% were produced by hot pressing and subjected to cyclic exposure to ultraviolet radiation, elevated temperature and humidity for 500 and 1000 hours. After 1000 hours of ageing, the tensile strength of composites with untreated fibre decreased by 38%, whereas for composites with silane-treated fibre the decrease was only 17%. Alkaline treatment increased initial strength but had little effect on resistance to ageing. Electron microscopy and infrared spectroscopy showed that silane treatment reduces water uptake and prevents delamination at the fibre-matrix interface. The results support recommending silane treatment for products used outdoors.</p>"
+      },
+      "keywords": {
+        "ru": [
+          "биокомпозиты",
+          "льняное волокно",
+          "полимолочная кислота",
+          "старение",
+          "силановая обработка"
+        ],
+        "en": [
+          "biocomposites",
+          "flax fibre",
+          "polylactic acid",
+          "ageing",
+          "silane treatment"
+        ]
+      },
+      "authors": [
+        {
+          "givenName": {
+            "ru": "Вера",
+            "en": "Vera"
+          },
+          "familyName": {
+            "ru": "Шестакова",
+            "en": "Shestakova"
+          },
+          "email": "v.shestakova@example.org",
+          "affiliation": {
+            "ru": "Уральский центр материаловедения «Кристалл»",
+            "en": "Kristall Ural Centre for Materials Science"
+          },
+          "country": "RU",
+          "primaryContact": true
+        },
+        {
+          "givenName": {
+            "ru": "Олег",
+            "en": "Oleg"
+          },
+          "familyName": {
+            "ru": "Трофимов",
+            "en": "Trofimov"
+          },
+          "email": "o.trofimov@example.org",
+          "affiliation": {
+            "ru": "Новоборский государственный университет",
+            "en": "Novobor State University"
+          },
+          "country": "RU",
+          "primaryContact": false
+        },
+        {
+          "givenName": {
+            "ru": "Ксения",
+            "en": "Ksenia"
+          },
+          "familyName": {
+            "ru": "Лаптева",
+            "en": "Lapteva"
+          },
+          "email": "k.lapteva@example.org",
+          "affiliation": {
+            "ru": "Уральский центр материаловедения «Кристалл»",
+            "en": "Kristall Ural Centre for Materials Science"
+          },
+          "country": "RU",
+          "primaryContact": false
+        }
+      ],
+      "dateSubmitted": "2026-07-14",
+      "citations": [
+        "Bledzki A. K., Gassan J. Composites reinforced with cellulose based fibres // Progress in Polymer Science. 1999. Vol. 24, no. 2. P. 221–274.",
+        "Шестакова В. А., Лаптева К. С. Межфазная адгезия в композитах с натуральными волокнами: методы модификации // Композиционные материалы и технологии. 2024. Т. 16, № 1. С. 22–39.",
+        "Trofimov O. P. Hot pressing of natural fibre composites: process parameters and quality // Polymer Processing Notes. 2023. Vol. 11. P. 77–92.",
+        "Bergström E., Sato H. Hygrothermal ageing of flax/PLA composites // Green Materials Letters. 2021. Vol. 8, no. 3. P. 201–218.",
+        "Лаптева К. С. Ускоренные климатические испытания полимерных композитов: методика и интерпретация // Заводская лаборатория. Диагностика материалов. 2022. Т. 88, № 4. С. 45–53.",
+        "Ruiz M., Kessler D. Silane coupling agents for plant fibres: a review // Journal of Sustainable Composites. 2020. Vol. 5. P. 1–24.",
+        "Трофимов О. П., Шестакова В. А. Льняное волокно как армирующий материал: свойства и сырьевая база // Технический текстиль и материалы. 2023. № 2. С. 10–24."
+      ],
+      "pdf": "pdf/sub-flax-biocomposites.pdf",
+      "fundingAgency": {
+        "ru": "Фонд поддержки междисциплинарных исследований «Горизонт»",
+        "en": "Horizon Foundation for Interdisciplinary Research"
+      },
+      "stage": "externalReview"
+    },
+    {
+      "slug": "sub-school-wellbeing-measures",
+      "section": "REV",
+      "locale": "ru",
+      "title": {
+        "ru": "Измерение благополучия школьников: обзор инструментов и их психометрических свойств",
+        "en": "Measuring Schoolchildren's Wellbeing: A Review of Instruments and Their Psychometric Properties"
+      },
+      "abstract": {
+        "ru": "<p>Благополучие школьников всё чаще рассматривается как самостоятельный результат образования наряду с академическими достижениями, и многие системы образования включают его в программы мониторинга. Вместе с тем понятие благополучия определяется по-разному, а инструменты его измерения существенно различаются по структуре, длине и качеству. В обзоре проанализированы 38 инструментов измерения субъективного благополучия детей и подростков в возрасте 8–18 лет, описанных в 116 публикациях за 2000–2025 гг. Для каждого инструмента оценены теоретическая основа, измеряемые компоненты, возрастной диапазон, доступность русскоязычной версии и психометрические характеристики по стандарту COSMIN: надёжность, структурная валидность, инвариантность измерения и чувствительность к изменениям. Показано, что большинство инструментов опираются на гедонистическую или эвдемоническую модель благополучия либо на их сочетание, а школьное благополучие как отдельный компонент выделяется лишь в трети из них. Надёжность внутренней согласованности приемлема для подавляющего большинства шкал, однако инвариантность измерения между возрастными группами и языковыми версиями проверялась лишь для 11 инструментов. Русскоязычные адаптации доступны для девяти инструментов, но их психометрические свойства изучены неполно. Сформулированы рекомендации по выбору инструментов для школьного мониторинга и намечены направления дальнейшей адаптации.</p>",
+        "en": "<p>Schoolchildren's wellbeing is increasingly regarded as an educational outcome in its own right alongside academic achievement, and many education systems include it in their monitoring programmes. However, wellbeing is defined in different ways, and the instruments used to measure it vary considerably in structure, length and quality. This review analyses 38 instruments for measuring the subjective wellbeing of children and adolescents aged 8–18, described in 116 publications from 2000–2025. For each instrument, the theoretical basis, measured components, age range, availability of a Russian-language version and psychometric properties were assessed according to the COSMIN standard: reliability, structural validity, measurement invariance and responsiveness. Most instruments draw on a hedonic or eudaimonic model of wellbeing or a combination of the two, and school wellbeing is identified as a separate component in only a third of them. Internal consistency is acceptable for the vast majority of scales, but measurement invariance across age groups and language versions has been tested for only 11 instruments. Russian-language adaptations are available for nine instruments, but their psychometric properties have been studied incompletely. Recommendations for selecting instruments for school monitoring are formulated and directions for further adaptation are outlined.</p>"
+      },
+      "keywords": {
+        "ru": [
+          "благополучие школьников",
+          "психометрика",
+          "инструменты измерения",
+          "мониторинг образования",
+          "COSMIN"
+        ],
+        "en": [
+          "student wellbeing",
+          "psychometrics",
+          "measurement instruments",
+          "education monitoring",
+          "COSMIN"
+        ]
+      },
+      "authors": [
+        {
+          "givenName": {
+            "ru": "Ирина",
+            "en": "Irina"
+          },
+          "familyName": {
+            "ru": "Федорова",
+            "en": "Fedorova"
+          },
+          "email": "i.fedorova@example.org",
+          "affiliation": {
+            "ru": "Лесногорский педагогический университет",
+            "en": "Lesnogorsk Pedagogical University"
+          },
+          "country": "RU",
+          "primaryContact": false
+        },
+        {
+          "givenName": {
+            "ru": "Елизавета",
+            "en": "Elizaveta"
+          },
+          "familyName": {
+            "ru": "Морозова",
+            "en": "Morozova"
+          },
+          "email": "e.morozova@example.org",
+          "affiliation": {
+            "ru": "Лесногорский педагогический университет",
+            "en": "Lesnogorsk Pedagogical University"
+          },
+          "country": "RU",
+          "primaryContact": true
+        }
+      ],
+      "dateSubmitted": "2026-04-27",
+      "citations": [
+        "Diener E. Subjective well-being // Psychological Bulletin. 1984. Vol. 95, no. 3. P. 542–575.",
+        "Ryan R. M., Deci E. L. On happiness and human potentials: a review of research on hedonic and eudaimonic well-being // Annual Review of Psychology. 2001. Vol. 52. P. 141–166.",
+        "Mokkink L. B., Terwee C. B., Patrick D. L. et al. The COSMIN checklist for assessing the methodological quality of studies on measurement properties // Quality of Life Research. 2010. Vol. 19, no. 4. P. 539–549.",
+        "Морозова Е. А. Школьное благополучие: понятие и подходы к измерению // Психология образования и развития. 2024. Т. 11, № 2. С. 15–33.",
+        "Федорова И. С., Морозова Е. А. Адаптация опросника школьного благополучия: первые результаты // Образование и аналитика. 2025. № 3. С. 70–86.",
+        "Kerr A., Lindahl E. Measurement invariance of child wellbeing scales across countries // Child Indicators Review. 2022. Vol. 15, no. 4. P. 1201–1224.",
+        "Bauer S., Okonkwo D. School belonging and life satisfaction in adolescence // Journal of School Psychology Studies. 2021. Vol. 9. P. 88–107."
+      ],
+      "pdf": "pdf/sub-school-wellbeing-measures.pdf",
+      "stage": "editorial"
+    }
+  ],
+  "announcements": [
+    {
+      "title": {
+        "ru": "Приём статей в тематический выпуск «Климат и города»",
+        "en": "Call for Papers: Special Issue on Climate and Cities"
+      },
+      "descriptionShort": {
+        "ru": "<p>Принимаются рукописи для выпуска т. 2, № 2 (сентябрь 2026). Срок подачи — 15 июня 2026 г.</p>",
+        "en": "<p>Manuscripts are invited for Vol. 2, No. 2 (September 2026). Submission deadline: 15 June 2026.</p>"
+      },
+      "description": {
+        "ru": "<p>Редакция приглашает авторов к участию в тематическом выпуске «Климат и города», который выйдет в сентябре 2026 г. Приветствуются работы об адаптации городской среды к изменению климата, моделировании тепловых волн, зелёной инфраструктуре, энергоэффективности и социальных аспектах климатической политики.</p><p>Рукописи принимаются через электронную редакцию до 15 июня 2026 г. Все статьи проходят стандартное двойное слепое рецензирование. Плата за публикацию не взимается.</p>",
+        "en": "<p>The editors invite contributions to the special issue on Climate and Cities, to be published in September 2026. We welcome papers on urban adaptation to climate change, heatwave modelling, green infrastructure, energy efficiency and the social dimensions of climate policy.</p><p>Manuscripts should be submitted through the online system by 15 June 2026. All papers undergo standard double-blind peer review. There are no publication fees.</p>"
+      },
+      "datePosted": "2026-02-02"
+    },
+    {
+      "title": {
+        "ru": "Журнал включён в РИНЦ",
+        "en": "Journal Now Indexed in RSCI"
+      },
+      "descriptionShort": {
+        "ru": "<p>Все статьи журнала, начиная с первого выпуска, индексируются в Российском индексе научного цитирования.</p>",
+        "en": "<p>All articles, starting from the first issue, are now indexed in the Russian Science Citation Index.</p>"
+      },
+      "description": {
+        "ru": "<p>Рады сообщить, что «Вестник междисциплинарных исследований» включён в Российский индекс научного цитирования. Метаданные всех опубликованных статей, начиная с т. 1, № 1 (2025), переданы в базу данных и доступны для поиска.</p><p>Благодарим авторов, рецензентов и членов редакционной коллегии за вклад в развитие журнала.</p>",
+        "en": "<p>We are pleased to announce that the Journal of Interdisciplinary Research has been included in the Russian Science Citation Index. Metadata for all published articles, starting from Vol. 1, No. 1 (2025), have been transferred to the database and are now searchable.</p><p>We thank our authors, reviewers and editorial board members for their contribution to the journal.</p>"
+      },
+      "datePosted": "2026-04-14"
+    },
+    {
+      "title": {
+        "ru": "Новый член редакционной коллегии",
+        "en": "New Editorial Board Member"
+      },
+      "descriptionShort": {
+        "ru": "<p>В состав редакционной коллегии вошла PhD Айгерим Нурланова (Каспийский институт экологических исследований).</p>",
+        "en": "<p>Dr Aigerim Nurlanova (Caspian Institute of Environmental Studies) has joined the editorial board.</p>"
+      },
+      "description": {
+        "ru": "<p>Редакционная коллегия журнала пополнилась: к нам присоединилась PhD Айгерим Нурланова, руководитель группы биогеохимии Каспийского института экологических исследований. Её научные интересы — углеродный цикл наземных экосистем и почвенные микробные сообщества.</p><p>Айгерим Нурлановна будет курировать рукописи в области экологии и наук о Земле.</p>",
+        "en": "<p>Our editorial board has been strengthened by Dr Aigerim Nurlanova, head of the biogeochemistry group at the Caspian Institute of Environmental Studies. Her research interests include the carbon cycle of terrestrial ecosystems and soil microbial communities.</p><p>Dr Nurlanova will oversee manuscripts in ecology and the Earth sciences.</p>"
+      },
+      "datePosted": "2026-06-08"
+    },
+    {
+      "title": {
+        "ru": "Конференция «Междисциплинарность в науке — 2026»",
+        "en": "Conference: Interdisciplinarity in Science 2026"
+      },
+      "descriptionShort": {
+        "ru": "<p>27–28 ноября 2026 г. журнал проводит онлайн-конференцию для авторов и рецензентов. Регистрация открыта до 1 ноября.</p>",
+        "en": "<p>On 27–28 November 2026 the journal will host an online conference for authors and reviewers. Registration is open until 1 November.</p>"
+      },
+      "description": {
+        "ru": "<p>Научно-издательский центр «Академия» и редакция журнала приглашают к участию в онлайн-конференции «Междисциплинарность в науке — 2026», которая пройдёт 27–28 ноября 2026 г.</p><p>В программе — пленарные доклады, секции по науке о данных, экологии, экономике и гуманитарным исследованиям, а также мастер-класс по подготовке рукописей и рецензий. Лучшие доклады будут рекомендованы к публикации в журнале после рецензирования. Участие бесплатное; регистрация открыта до 1 ноября 2026 г.</p>",
+        "en": "<p>Academia Research Publishing Centre and the journal's editorial office invite you to the online conference Interdisciplinarity in Science 2026, to be held on 27–28 November 2026.</p><p>The programme includes plenary talks, sessions on data science, ecology, economics and the humanities, and a workshop on preparing manuscripts and peer reviews. The best papers will be recommended for publication in the journal after peer review. Participation is free; registration is open until 1 November 2026.</p>"
+      },
+      "datePosted": "2026-09-01"
+    }
+  ]
+}
