@@ -1221,6 +1221,30 @@ body.academic_theme {
 		border-bottom: 0;
 	}
 
+	// The parent theme sizes the two columns in fixed pixels that only add up
+	// with its own column paddings; a flex row adapts to any column width.
+	@media (min-width: @screen-tablet) {
+		.row {
+			display: flex;
+			align-items: flex-start;
+		}
+
+		.main_entry {
+			float: none;
+			flex: 1 1 auto;
+			width: auto;
+			min-width: 0;
+		}
+
+		.entry_details {
+			float: none;
+			flex: 0 0 34%;
+			width: auto;
+			max-width: 300px;
+			margin: 0;
+		}
+	}
+
 	@media (min-width: @screen-tablet) {
 		.main_entry .item {
 			padding-left: 0;
