@@ -66,14 +66,18 @@ done
 
 if [ "$DEMO" = 1 ]; then
 	step "Demo mode (config.inc.php)"
+	# Keep the superuser chosen on a previous run
+	[ -n "$SUPERUSER" ] || SUPERUSER="$(cfg demo superusers)"
 	if [ -z "$SUPERUSER" ]; then
+		# first site administrator that is not one of the demo accounts
 		SUPERUSER="$(cd "$OJS_DIR" && "$PHP" -r '
 			$argv = ["x"]; require "tools/bootstrap.php";
-			$u = APP\facades\Repo::user()->getAdminUsers()->first();
-			echo $u ? $u->getUsername() : "";' 2>/dev/null | tail -1)"
+			foreach (APP\facades\Repo::user()->getAdminUsers() as $u) {
+				if (!preg_match("/^demo(-|$)/", $u->getUsername())) { echo $u->getUsername(); break; }
+			}' 2>/dev/null | tail -1)"
 		[ -n "$SUPERUSER" ] || die "Cannot detect the site administrator; pass --superuser=NAME."
 	fi
-	[ "$SUPERUSER" != "demo" ] || die "The superuser must not be a demo account."
+	case ",$SUPERUSER," in *,demo,*|*,demo-editor,*|*,demo-reviewer,*|*,demo-author,*) die "The superuser must not be a demo account (got: $SUPERUSER); pass --superuser=NAME." ;; esac
 	cfg_set demo enabled On
 	cfg_set demo superusers "\"$SUPERUSER\""
 	cfg_set demo password "\"$PASSWORD\""

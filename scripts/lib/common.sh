@@ -74,12 +74,24 @@ require_ojs() {
 	export OJS_DIR PHP
 }
 
-# cfg SECTION KEY — read a value from config.inc.php
+# cfg SECTION KEY — read a value from config.inc.php exactly like OJS does
+# (PKP\config\ConfigParser: quoted values are taken verbatim minus
+# backslash escapes, unquoted values end at the first whitespace)
 cfg() {
 	"$PHP" -r '
-		$c = @parse_ini_file($argv[1], true, INI_SCANNER_RAW);
-		$v = $c[$argv[2]][$argv[3]] ?? "";
-		echo trim($v, "\"'"'"'");
+		$section = null;
+		foreach (file($argv[1], FILE_IGNORE_NEW_LINES) ?: [] as $line) {
+			$line = trim($line);
+			if ($line === "" || $line[0] === ";") { continue; }
+			if (preg_match("/^\\[(.+)\\]/", $line, $m)) { $section = $m[1]; continue; }
+			if ($section !== $argv[2] || strpos($line, "=") === false) { continue; }
+			[$k, $v] = explode("=", $line, 2);
+			if (trim($k) !== $argv[3]) { continue; }
+			$v = trim($v);
+			if (preg_match("/^[\"\x27](.*)[\"\x27]$/", $v, $m)) { echo stripslashes($m[1]); }
+			else { preg_match("/^(\\S*)/", $v, $m); echo $m[1]; }
+			exit;
+		}
 	' "$OJS_DIR/config.inc.php" "$1" "$2"
 }
 
@@ -129,18 +141,16 @@ db_prepare() {
 			echo "host=$host"
 			[ -n "$port" ] && echo "port=$port"
 			echo "user=$(cfg database username)"
-			echo "password=\"$(cfg database password)\""
+			echo "password=\"$(cfg database password | sed 's/\\/\\\\/g; s/"/\\"/g')\""
 			echo "default-character-set=utf8mb4"
 		} > "$dir/my.cnf"
 		DB_CLI=(mysql --defaults-extra-file="$dir/my.cnf" "$DB_NAME")
 		DB_DUMP=(mysqldump --defaults-extra-file="$dir/my.cnf" --single-transaction --quick --no-tablespaces --skip-lock-tables --default-character-set=utf8mb4 "$DB_NAME")
 	else
 		command -v psql >/dev/null 2>&1 && command -v pg_dump >/dev/null 2>&1 || die "psql/pg_dump client not found."
-		# .pgpass format: host:port:db:user:password (":" and "\" escaped)
-		local pass; pass="$(cfg database password | sed 's/\\/\\\\/g; s/:/\\:/g')"
-		echo "$host:${port:-5432}:$DB_NAME:$(cfg database username):$pass" > "$dir/pgpass"
 		export PGOPTIONS="--client-min-messages=warning"
-		export PGPASSFILE="$dir/pgpass" PGHOST="$host" PGPORT="${port:-5432}" PGUSER="$(cfg database username)" PGDATABASE="$DB_NAME"
+		PGPASSWORD="$(cfg database password)"
+		export PGPASSWORD PGHOST="$host" PGPORT="${port:-5432}" PGUSER="$(cfg database username)" PGDATABASE="$DB_NAME"
 		DB_CLI=(psql -X -q -v ON_ERROR_STOP=1)
 		DB_DUMP=(pg_dump --no-owner --no-privileges)
 	fi

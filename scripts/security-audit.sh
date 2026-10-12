@@ -9,19 +9,22 @@
 #   --url URL        also probe the live site for exposed files and headers
 #   --days N         list PHP files modified in the last N days (default 7)
 #   --no-integrity   skip downloading the official release for comparison
+#   --trust-prepend=FILE  an auto_prepend_file you installed yourself (e.g. a
+#                    honeypot/tracer); directives pointing to it are not reported
 #
 # Exit code: 0 = clean, 1 = findings that need attention.
 #
 # shellcheck source=lib/common.sh
 source "$(dirname "$0")/lib/common.sh"
 
-URL=''; DAYS=7; INTEGRITY=1; ARGS=(); STATIC_LEAK=0
+URL=''; DAYS=7; INTEGRITY=1; ARGS=(); STATIC_LEAK=0; TRUSTED_PREPEND=()
 for arg in "$@"; do
 	case "$arg" in
 		--url=*) URL="${arg#*=}" ;;
 		--url) URL='__next__' ;;
 		--days=*) DAYS="${arg#*=}" ;;
 		--no-integrity) INTEGRITY=0 ;;
+		--trust-prepend=*) TRUSTED_PREPEND+=("${arg#*=}") ;;
 		-h|--help) sed -n '2,15p' "$0"; exit 0 ;;
 		-*) die "Unknown option: $arg" ;;
 		*) if [ "$URL" = '__next__' ]; then URL="$arg"; else ARGS+=("$arg"); fi ;;
@@ -166,11 +169,21 @@ fi
 # auto_prepend_file in .htaccess/.user.ini is a classic persistence trick
 PREPEND="$(grep -rlsiE 'auto_(prepend|append)_file' --include='.htaccess' --include='.user.ini' --include='php.ini' "$OJS_DIR" 2>/dev/null || true)"
 if [ -n "$PREPEND" ]; then
+	UNTRUSTED=0
 	while IFS= read -r f; do
-		finding "auto_prepend/append directive in ${f#"$OJS_DIR"/}:"
-		grep -niE 'auto_(prepend|append)_file' "$f" | sed 's/^/        /'
+		while IFS= read -r directive; do
+			target="$(printf '%s' "$directive" | sed -E 's/.*auto_(prepend|append)_file[[:space:]=]*["'"'"']?([^"'"'"' ;]*).*/\2/')"
+			trusted=0
+			for t in ${TRUSTED_PREPEND[@]+"${TRUSTED_PREPEND[@]}"}; do [ "$target" = "$t" ] && trusted=1; done
+			if [ "$trusted" = 1 ]; then
+				ok "trusted auto_prepend in ${f#"$OJS_DIR"/}: $target"
+			else
+				finding "auto_prepend/append directive in ${f#"$OJS_DIR"/}: $directive"
+				UNTRUSTED=1
+			fi
+		done < <(grep -iE 'auto_(prepend|append)_file' "$f" | sed 's/^[[:space:]]*//')
 	done <<< "$PREPEND"
-	warn "a prepended file runs before EVERY PHP request: make sure it is the hosting's own (antivirus/WAF), not something planted"
+	[ "$UNTRUSTED" = 1 ] && warn "a prepended file runs before EVERY PHP request: if it is yours, pass --trust-prepend=PATH; otherwise investigate"
 fi
 
 step "PHP files changed in the last $DAYS day(s) (outside cache/)"
