@@ -444,8 +444,11 @@ class DemoSeedTool extends CommandLineTool
             // Submitter: the author account whose email matches, else demo-author
             $submitterId = $this->userIdByEmail($data['authors'][0]['email'] ?? '') ?? $this->userIds['demo-author'];
             $this->assignToStage($submissionId, 'author', $submitterId);
-            if ($data['stage'] !== 'submission' && $editorId) {
-                $this->assignToStage($submissionId, 'editor-in-chief', $editorId);
+            if ($data['stage'] !== 'submission') {
+                // both editor demo accounts see these under "Assigned to me"
+                foreach (array_filter([$editorId, $this->userIds['demo'] ?? null]) as $id) {
+                    $this->assignToStage($submissionId, 'editor-in-chief', $id);
+                }
             }
             if (isset($this->userIds['demo-author']) && $submitterId !== $this->userIds['demo-author'] && $data['stage'] === 'editorial') {
                 $this->assignToStage($submissionId, 'author', $this->userIds['demo-author']);
@@ -552,11 +555,24 @@ class DemoSeedTool extends CommandLineTool
             }
         }
 
-        // Monthly aggregates used by the statistics UI
-        DB::statement('INSERT INTO metrics_submission_geo_monthly (context_id, submission_id, country, region, city, month, metric, metric_unique)
-            SELECT context_id, submission_id, ?, ?, ?, CAST(DATE_FORMAT(date, \'%Y%m\') AS UNSIGNED), SUM(metric), SUM(metric)
-            FROM metrics_submission WHERE context_id = ? AND load_id = ? AND assoc_type = ?
-            GROUP BY context_id, submission_id, CAST(DATE_FORMAT(date, \'%Y%m\') AS UNSIGNED)', ['RU', '', '', $contextId, 'demo_seed', Application::ASSOC_TYPE_SUBMISSION]);
+        // Monthly aggregates used by the statistics UI (computed here to stay
+        // independent of the database engine)
+        $monthly = [];
+        foreach ($rows['metrics_submission'] ?? [] as $row) {
+            if ($row['assoc_type'] !== Application::ASSOC_TYPE_SUBMISSION) {
+                continue;
+            }
+            $key = $row['submission_id'] . '-' . substr(str_replace('-', '', $row['date']), 0, 6);
+            $monthly[$key] ??= [
+                'context_id' => $contextId, 'submission_id' => $row['submission_id'], 'country' => 'RU', 'region' => '', 'city' => '',
+                'month' => (int) substr(str_replace('-', '', $row['date']), 0, 6), 'metric' => 0, 'metric_unique' => 0,
+            ];
+            $monthly[$key]['metric'] += $row['metric'];
+            $monthly[$key]['metric_unique'] += $row['metric'];
+        }
+        foreach (array_chunk(array_values($monthly), 1000) as $chunk) {
+            DB::table('metrics_submission_geo_monthly')->insert($chunk);
+        }
 
         $this->line('  ' . number_format($total) . ' abstract views');
     }
@@ -710,12 +726,16 @@ class DemoSeedTool extends CommandLineTool
         $plugin->executeCLI('seed.php', $args);
         $output = ob_get_clean();
 
+        // Success is judged by what actually landed in the database (the CLI
+        // messages are localized, and a failed import is rolled back).
         $deployment = $plugin->getDeployment();
-        if (stripos($output, 'The process failed') !== false || stripos($output, 'completed successfully') === false) {
+        $ids = $deployment ? array_values(array_filter((array) $deployment->getProcessedObjectsIds(Application::ASSOC_TYPE_SUBMISSION))) : [];
+        $imported = array_filter($ids, fn ($id) => (bool) Repo::submission()->get((int) $id));
+        if (!$imported) {
             fwrite(STDERR, $output . "\n");
             throw new RuntimeException('Native import failed for ' . basename($file));
         }
-        return $deployment ? array_values($deployment->getProcessedObjectsIds(Application::ASSOC_TYPE_SUBMISSION)) : [];
+        return array_values($imported);
     }
 
     protected function newDocument(string $root): array
@@ -739,6 +759,26 @@ class DemoSeedTool extends CommandLineTool
         }
         $parent->appendChild($node);
         return $node;
+    }
+
+    /**
+     * Controlled vocabulary entry (keyword, agency…). OJS 3.5.0-4 changed the
+     * native schema from <keyword>text</keyword> to
+     * <keyword><name>text</name></keyword> (also used inside <agencies>).
+     */
+    protected function vocabEntry(DOMDocument $doc, DOMElement $parent, string $legacyName, string $value): void
+    {
+        static $structured = null;
+        $structured ??= str_contains(
+            (string) @file_get_contents(Core::getBaseDir() . '/lib/pkp/plugins/importexport/native/pkp-native.xsd'),
+            'ControlledVocabEntryType'
+        );
+        if ($structured) {
+            $entry = $this->el($doc, $parent, 'keyword');
+            $this->el($doc, $entry, 'name', $value);
+        } else {
+            $this->el($doc, $parent, $legacyName, $value);
+        }
     }
 
     /** Append one element per locale for a {"ru": ..., "en": ...} value. */
@@ -882,14 +922,14 @@ class DemoSeedTool extends CommandLineTool
             if (!empty($data['keywords'][$l])) {
                 $keywords = $this->el($doc, $publication, 'keywords', null, ['locale' => $l]);
                 foreach ($data['keywords'][$l] as $keyword) {
-                    $this->el($doc, $keywords, 'keyword', $keyword);
+                    $this->vocabEntry($doc, $keywords, 'keyword', $keyword);
                 }
             }
         }
         foreach (self::LOCALES as $l) {
             if (!empty($data['fundingAgency'][$l])) {
                 $agencies = $this->el($doc, $publication, 'agencies', null, ['locale' => $l]);
-                $this->el($doc, $agencies, 'agency', $data['fundingAgency'][$l]);
+                $this->vocabEntry($doc, $agencies, 'agency', $data['fundingAgency'][$l]);
             }
         }
 

@@ -17,7 +17,7 @@ info "  extensions:  $("$PHP" -m | grep -ciE '^(bcmath|curl|gd|intl|mbstring|mys
 for ext in bcmath curl gd intl mbstring mysqli pdo_mysql xml zip fileinfo gettext; do
 	"$PHP" -m | grep -qi "^$ext$" || warn "missing PHP extension: $ext"
 done
-for tool in mysql mysqldump curl rsync flock gzip tar crontab git; do
+for tool in mysql mysqldump psql pg_dump curl rsync flock gzip tar crontab git; do
 	command -v "$tool" >/dev/null 2>&1 && ok "$tool" || warn "$tool not found"
 done
 

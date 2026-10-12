@@ -103,24 +103,72 @@ files_dir() {
 	esac
 }
 
-# mysql_defaults FILE — write a client option file with DB credentials (0600)
-mysql_defaults() {
-	local f="$1" driver
-	driver="$(cfg database driver)"
-	case "$driver" in
-		mysql|mysqli|mariadb) ;;
-		*) die "Only MySQL/MariaDB is supported by this script (driver: $driver)." ;;
+# db_engine — mysql | pgsql (from [database] driver)
+db_engine() {
+	case "$(cfg database driver)" in
+		mysql|mysqli|mariadb) echo mysql ;;
+		postgres|postgres9|postgresql|pgsql) echo pgsql ;;
+		*) die "Unsupported database driver: $(cfg database driver)" ;;
 	esac
-	umask 077
-	{
-		echo "[client]"
-		echo "host=$(cfg database host)"
-		echo "user=$(cfg database username)"
-		echo "password=\"$(cfg database password)\""
-		echo "default-character-set=utf8mb4"
-	} > "$f"
+}
+
+# db_prepare DIR — write private credential files into DIR and define
+#   DB_ENGINE, DB_NAME and the arrays DB_CLI (interactive client) and DB_DUMP
+db_prepare() {
+	local dir="$1" host port
+	DB_ENGINE="$(db_engine)"
 	DB_NAME="$(cfg database name)"
-	export DB_NAME
+	host="$(cfg database host)"
+	port=''
+	case "$host" in *:*) port="${host##*:}"; host="${host%:*}" ;; esac
+	umask 077
+	if [ "$DB_ENGINE" = mysql ]; then
+		command -v mysql >/dev/null 2>&1 && command -v mysqldump >/dev/null 2>&1 || die "mysql/mysqldump client not found."
+		{
+			echo "[client]"
+			echo "host=$host"
+			[ -n "$port" ] && echo "port=$port"
+			echo "user=$(cfg database username)"
+			echo "password=\"$(cfg database password)\""
+			echo "default-character-set=utf8mb4"
+		} > "$dir/my.cnf"
+		DB_CLI=(mysql --defaults-extra-file="$dir/my.cnf" "$DB_NAME")
+		DB_DUMP=(mysqldump --defaults-extra-file="$dir/my.cnf" --single-transaction --quick --no-tablespaces --skip-lock-tables --default-character-set=utf8mb4 "$DB_NAME")
+	else
+		command -v psql >/dev/null 2>&1 && command -v pg_dump >/dev/null 2>&1 || die "psql/pg_dump client not found."
+		# .pgpass format: host:port:db:user:password (":" and "\" escaped)
+		local pass; pass="$(cfg database password | sed 's/\\/\\\\/g; s/:/\\:/g')"
+		echo "$host:${port:-5432}:$DB_NAME:$(cfg database username):$pass" > "$dir/pgpass"
+		export PGOPTIONS="--client-min-messages=warning"
+		export PGPASSFILE="$dir/pgpass" PGHOST="$host" PGPORT="${port:-5432}" PGUSER="$(cfg database username)" PGDATABASE="$DB_NAME"
+		DB_CLI=(psql -X -q -v ON_ERROR_STOP=1)
+		DB_DUMP=(pg_dump --no-owner --no-privileges)
+	fi
+	export DB_ENGINE DB_NAME
+}
+
+# db_sql "SQL" — run a statement with the prepared client
+db_sql() {
+	if [ "$DB_ENGINE" = mysql ]; then "${DB_CLI[@]}" -N -B -e "$1"; else "${DB_CLI[@]}" -At -c "$1"; fi
+}
+
+# db_drop_all — drop every table (and sequence) of the database
+db_drop_all() {
+	local tables t
+	if [ "$DB_ENGINE" = mysql ]; then
+		tables="$(db_sql 'SHOW TABLES')"
+		[ -n "$tables" ] || return 0
+		{
+			echo 'SET FOREIGN_KEY_CHECKS=0;'
+			while IFS= read -r t; do printf 'DROP TABLE IF EXISTS `%s`;\n' "$t"; done <<< "$tables"
+			echo 'SET FOREIGN_KEY_CHECKS=1;'
+		} | "${DB_CLI[@]}"
+	else
+		{
+			db_sql "SELECT 'DROP TABLE IF EXISTS \"' || tablename || '\" CASCADE;' FROM pg_tables WHERE schemaname = current_schema()"
+			db_sql "SELECT 'DROP SEQUENCE IF EXISTS \"' || sequencename || '\" CASCADE;' FROM pg_sequences WHERE schemaname = current_schema()"
+		} | "${DB_CLI[@]}"
+	fi
 }
 
 # clear_cache — remove compiled templates, CSS and data caches

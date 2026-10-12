@@ -16,7 +16,6 @@ SNAP="${2:-$HOME/ojs-demo-snapshot}"
 for f in db.sql.gz files.tar.gz public.tar.gz; do
 	[ -s "$SNAP/$f" ] || die "Snapshot file missing: $SNAP/$f (run demo-snapshot.sh first)"
 done
-command -v mysql >/dev/null 2>&1 || die "mysql client not found."
 FILES_DIR="$(files_dir)"
 [ -n "$FILES_DIR" ] && [ "$FILES_DIR" != "/" ] && [ -d "$FILES_DIR" ] || die "Invalid files_dir: $FILES_DIR"
 
@@ -28,26 +27,22 @@ fi
 
 TMP="$(mktemp -d "$SNAP/.tmp.XXXXXX")"
 trap 'rm -rf "$TMP"' EXIT
-mysql_defaults "$TMP/my.cnf"
-MYSQL=(mysql --defaults-extra-file="$TMP/my.cnf" "$DB_NAME")
+db_prepare "$TMP"
+SNAP_ENGINE="$(sed -n 's/^db_engine=//p' "$SNAP/snapshot.info" 2>/dev/null)"
+[ -z "$SNAP_ENGINE" ] || [ "$SNAP_ENGINE" = "$DB_ENGINE" ] || die "Snapshot was taken from $SNAP_ENGINE, the site uses $DB_ENGINE."
 
 step "$(date '+%Y-%m-%d %H:%M:%S') reset from $SNAP ($(sed -n 's/^date=//p' "$SNAP/snapshot.info" 2>/dev/null))"
 
 # Database: drop every table (also ones created after the snapshot), then load
-TABLES="$("${MYSQL[@]}" -N -B -e 'SHOW TABLES')"
-if [ -n "$TABLES" ]; then
-	{
-		echo 'SET FOREIGN_KEY_CHECKS=0;'
-		while IFS= read -r t; do printf 'DROP TABLE IF EXISTS `%s`;\n' "$t"; done <<< "$TABLES"
-		echo 'SET FOREIGN_KEY_CHECKS=1;'
-	} | "${MYSQL[@]}"
-fi
-gzip -dc "$SNAP/db.sql.gz" | "${MYSQL[@]}"
+db_drop_all
+gzip -dc "$SNAP/db.sql.gz" | "${DB_CLI[@]}" >/dev/null
 # Keep open review requests "fresh" so the demo reviewer never sees them overdue
-"${MYSQL[@]}" -e "UPDATE review_assignments SET
-	date_assigned = NOW() - INTERVAL 3 DAY, date_notified = NOW() - INTERVAL 3 DAY,
-	date_response_due = NOW() + INTERVAL 4 DAY, date_due = NOW() + INTERVAL 25 DAY
-	WHERE date_confirmed IS NULL AND date_completed IS NULL AND declined = 0 AND cancelled = 0" || true
+if [ "$DB_ENGINE" = mysql ]; then
+	SHIFT="date_assigned = NOW() - INTERVAL 3 DAY, date_notified = NOW() - INTERVAL 3 DAY, date_response_due = NOW() + INTERVAL 4 DAY, date_due = NOW() + INTERVAL 25 DAY"
+else
+	SHIFT="date_assigned = NOW() - INTERVAL '3 days', date_notified = NOW() - INTERVAL '3 days', date_response_due = NOW() + INTERVAL '4 days', date_due = NOW() + INTERVAL '25 days'"
+fi
+db_sql "UPDATE review_assignments SET $SHIFT WHERE date_confirmed IS NULL AND date_completed IS NULL AND declined = 0 AND cancelled = 0" >/dev/null || true
 ok "database restored"
 
 # Files: extract next to the live directory, then swap
