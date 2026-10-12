@@ -154,7 +154,7 @@ class DemoSeedTool extends CommandLineTool
         $site = $siteDao->getSite();
         $installed = $site->getInstalledLocales();
         $supported = $site->getSupportedLocales();
-        foreach (self::LOCALES as $locale) {
+        foreach ($this->uiLocales() as $locale) {
             if (!in_array($locale, $installed)) {
                 Locale::installLocale($locale);
                 $installed[] = $locale;
@@ -209,7 +209,7 @@ class DemoSeedTool extends CommandLineTool
             'supportEmail' => $data['supportEmail'] ?? $data['contactEmail'],
             'country' => 'RU',
             'primaryLocale' => 'ru',
-            'supportedLocales' => self::LOCALES,
+            'supportedLocales' => $this->uiLocales(),
             'supportedFormLocales' => self::LOCALES,
             'supportedSubmissionLocales' => self::LOCALES,
             'supportedSubmissionMetadataLocales' => self::LOCALES,
@@ -230,6 +230,13 @@ class DemoSeedTool extends CommandLineTool
             'defaultReviewMode' => ReviewAssignment::SUBMISSION_REVIEW_METHOD_DOUBLEANONYMOUS,
             'themePluginPath' => 'academicJournal',
         ];
+
+        // Other interface languages show the English texts of the journal
+        foreach ($props as $key => $value) {
+            if (is_array($value) && isset($value['en']) && !array_is_list($value)) {
+                $props[$key] = $this->withFallbackLocales($value);
+            }
+        }
 
         $request = Application::get()->getRequest();
         if ($existing) {
@@ -272,9 +279,9 @@ class DemoSeedTool extends CommandLineTool
                 $section = $sections[0];
             }
             $section ??= Repo::section()->newDataObject(['contextId' => $this->journal->getId()]);
-            $section->setData('title', $sectionData['title']);
-            $section->setData('abbrev', $sectionData['abbrev']);
-            $section->setData('policy', $sectionData['policy'] ?? null);
+            $section->setData('title', $this->withFallbackLocales($sectionData['title']));
+            $section->setData('abbrev', $this->withFallbackLocales($sectionData['abbrev']));
+            $section->setData('policy', isset($sectionData['policy']) ? $this->withFallbackLocales($sectionData['policy']) : null);
             $section->setData('sequence', $i);
             $section->setData('metaIndexed', true);
             $section->setData('metaReviewed', true);
@@ -355,6 +362,10 @@ class DemoSeedTool extends CommandLineTool
         // Options inherited from the default theme
         $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'showDescriptionInJournalIndex', false, 'bool');
         $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'useHomepageImageAsHeader', false, 'bool');
+        if (!empty($this->content['journal']['cta']['url'])) {
+            $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'ctaUrl', $this->content['journal']['cta']['url'], 'string');
+            $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'ctaLabel', $this->content['journal']['cta']['label'] ?? [], 'object');
+        }
         if (!empty($this->content['journal']['kicker'])) {
             $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'heroKicker', $this->content['journal']['kicker'], 'object');
         }
@@ -421,8 +432,10 @@ class DemoSeedTool extends CommandLineTool
 
         $contextDao = Application::getContextDAO();
         $journal = $contextDao->getById($contextId);
-        foreach (self::LOCALES as $locale) {
-            if (!empty($branding['logo'][$locale]) && ($value = $install($branding['logo'][$locale], 'pageHeaderLogoImage', $locale, $branding['logoAltText'][$locale] ?? ''))) {
+        $logos = $this->withFallbackLocales($branding['logo'] ?? []);
+        $altTexts = $this->withFallbackLocales($branding['logoAltText'] ?? []);
+        foreach ($this->uiLocales() as $locale) {
+            if (!empty($logos[$locale]) && ($value = $install($logos[$locale], 'pageHeaderLogoImage', $locale, $altTexts[$locale] ?? ''))) {
                 $journal->setData('pageHeaderLogoImage', $value, $locale);
             }
             if (!empty($branding['favicon']) && ($value = $install($branding['favicon'], 'favicon', $locale))) {
@@ -1136,6 +1149,37 @@ class DemoSeedTool extends CommandLineTool
             $name = $names['en'] ?? (reset($names) ?: 'Article Text');
         }
         return $name;
+    }
+
+    /**
+     * Interface languages offered on the site (journal.json "uiLocales");
+     * content is bilingual (ru/en), other languages show the interface in
+     * that language and fall back to the primary locale for content.
+     */
+    /** Fill the extra interface languages with the English value. */
+    protected function withFallbackLocales(array $values): array
+    {
+        foreach ($this->uiLocales() as $locale) {
+            if (!isset($values[$locale]) && isset($values['en'])) {
+                $values[$locale] = $values['en'];
+            }
+        }
+        return $values;
+    }
+
+    protected function uiLocales(): array
+    {
+        $available = array_keys(Locale::getLocales());
+        $wanted = $this->content['journal']['uiLocales'] ?? self::LOCALES;
+        $missing = array_diff($wanted, $available);
+        if ($missing) {
+            static $reported = false;
+            if (!$reported) {
+                $this->line('  (locales not shipped with this OJS version, skipped: ' . join(', ', $missing) . ')');
+                $reported = true;
+            }
+        }
+        return array_values(array_unique(array_merge(self::LOCALES, array_intersect($wanted, $available))));
     }
 
     protected function checklistHtml(array $items): array

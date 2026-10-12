@@ -39,11 +39,26 @@
 						{/if}
 					</div>
 					{if $currentContext}
-						{assign var="acLocales" value=$currentContext->getSupportedLocaleNames()}
+						{assign var="acLocales" value=$academicLocaleNames|default:$currentContext->getSupportedLocaleNames()}
 					{else}
 						{assign var="acLocales" value=[]}
 					{/if}
 					{if $acLocales|@count > 1}
+						{if $acLocales|@count > 4}
+							<details class="ac_lang_menu">
+								<summary aria-label="{translate|escape key="common.language"}">
+									<span class="ac_lang_globe" aria-hidden="true"></span>
+									{$acLocales[$currentLocale]|default:$currentLocale|escape}
+								</summary>
+								<ul>
+									{foreach from=$acLocales key=acLocaleKey item=acLocaleName}
+										<li{if $acLocaleKey == $currentLocale} class="current"{/if}>
+											<a href="{url router=PKP\core\PKPApplication::ROUTE_PAGE page="user" op="setLocale" path=$acLocaleKey source=$smarty.server.SERVER_NAME|cat:$smarty.server.REQUEST_URI}" lang="{$acLocaleKey|replace:"_":"-"|escape}"{if $acLocaleKey == $currentLocale} aria-current="true"{/if}>{$acLocaleName|escape}</a>
+										</li>
+									{/foreach}
+								</ul>
+							</details>
+						{else}
 						<ul class="ac_lang" aria-label="{translate|escape key="common.language"}">
 							{foreach from=$acLocales key=acLocaleKey item=acLocaleName}
 								<li{if $acLocaleKey == $currentLocale} class="current"{/if}>
@@ -53,6 +68,7 @@
 								</li>
 							{/foreach}
 						</ul>
+						{/if}
 					{/if}
 				</div>
 			</div>
@@ -112,6 +128,12 @@
 					<div class="pkp_navigation_primary_row">
 						<div class="pkp_navigation_primary_wrapper">
 							{$primaryMenu}
+
+							{if $academicCtaUrl && $academicCtaLabel}
+								<div class="ac_nav_cta_wrapper">
+									<a class="ac_nav_cta" href="{$academicCtaUrl|escape}" target="_blank" rel="noopener">{$academicCtaLabel|escape}</a>
+								</div>
+							{/if}
 
 							{if $currentContext && $requestedPage !== 'search'}
 								<div class="pkp_navigation_search_wrapper">

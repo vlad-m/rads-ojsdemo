@@ -125,3 +125,12 @@ msgstr "Надпись над названием на главной"
 
 msgid "plugins.themes.academicJournal.option.heroKicker.description"
 msgstr "Строка капителью над названием журнала в блоке-приветствии. По умолчанию: «Рецензируемый журнал открытого доступа»."
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.label"
+msgstr "Кнопка в меню: текст"
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.description"
+msgstr "Выделенная кнопка в главном меню (например, ссылка на ваши услуги). Оставьте пустым, чтобы скрыть."
+
+msgid "plugins.themes.academicJournal.option.ctaUrl.label"
+msgstr "Кнопка в меню: ссылка (https://…)"

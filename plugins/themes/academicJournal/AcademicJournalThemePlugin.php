@@ -94,6 +94,18 @@ class AcademicJournalThemePlugin extends ThemePlugin
             'default' => 'beside',
         ]);
 
+        $this->addOption('ctaLabel', 'FieldText', [
+            'label' => __('plugins.themes.academicJournal.option.ctaLabel.label'),
+            'description' => __('plugins.themes.academicJournal.option.ctaLabel.description'),
+            'isMultilingual' => true,
+            'default' => '',
+        ]);
+
+        $this->addOption('ctaUrl', 'FieldText', [
+            'label' => __('plugins.themes.academicJournal.option.ctaUrl.label'),
+            'default' => '',
+        ]);
+
         $this->addOption('showHero', 'FieldOptions', [
             'label' => __('plugins.themes.academicJournal.option.showHero.label'),
             'options' => [
@@ -160,6 +172,7 @@ class AcademicJournalThemePlugin extends ThemePlugin
         $this->addScript('academicJournal', 'js/academic.js');
 
         Hook::add('TemplateManager::display', $this->assignTemplateData(...));
+        Hook::add('NavigationMenus::displaySettings', $this->localizeMenuItem(...));
     }
 
     /**
@@ -177,11 +190,13 @@ class AcademicJournalThemePlugin extends ThemePlugin
         $request = Application::get()->getRequest();
         $context = $request->getContext();
 
+        // current locale → English → journal primary locale → any
         $localized = function ($value): string {
             if (is_array($value)) {
                 $locale = \PKP\facades\Locale::getLocale();
                 $context = Application::get()->getRequest()->getContext();
-                $value = $value[$locale] ?? ($context ? ($value[$context->getPrimaryLocale()] ?? '') : '');
+                $value = array_filter($value, fn ($v) => is_string($v) && $v !== '');
+                $value = $value[$locale] ?? $value['en'] ?? ($context ? ($value[$context->getPrimaryLocale()] ?? null) : null) ?? (reset($value) ?: '');
             }
             return (string) $value;
         };
@@ -192,16 +207,52 @@ class AcademicJournalThemePlugin extends ThemePlugin
             'academicShowHero' => (bool) $this->getOption('showHero'),
             'academicHeroTagline' => $tagline,
             'academicHeroKicker' => $kicker,
+            'academicCtaLabel' => $localized($this->getOption('ctaLabel')),
+            'academicCtaUrl' => preg_match('#^https?://#i', (string) $this->getOption('ctaUrl')) ? (string) $this->getOption('ctaUrl') : '',
             'academicShowStats' => (bool) $this->getOption('showJournalStats'),
             'academicYear' => date('Y'),
             'academicLogoBeside' => $this->getOption('logoPlacement') !== 'replace',
         ]);
+
+        if ($context) {
+            $templateMgr->assign('academicLocaleNames', $this->nativeLocaleNames($context));
+        }
 
         if ($context && $template === 'frontend/pages/indexJournal.tpl' && $this->getOption('showJournalStats')) {
             $templateMgr->assign('academicStats', $this->getJournalStats($context->getId()));
         }
 
         return Hook::CONTINUE;
+    }
+
+    /**
+     * OJS builds menu item titles only for the journal's form languages, so
+     * in any other interface language the default items (Current, Archives…)
+     * fell back to the primary language. Translate them on the fly.
+     */
+    public function localizeMenuItem(string $hookName, array $args): bool
+    {
+        $item = $args[0];
+        $key = $item->getTitleLocaleKey();
+        $locale = \PKP\facades\Locale::getLocale();
+        if ($key && $key !== '{$loggedInUsername}' && !$item->getTitle($locale)) {
+            $item->setTitle(__($key), $locale);
+        }
+        return Hook::CONTINUE;
+    }
+
+    /**
+     * Each interface language named in that language ("Español", "中文"…).
+     */
+    protected function nativeLocaleNames($context): array
+    {
+        $names = [];
+        foreach ($context->getSupportedLocales() as $localeKey) {
+            $metadata = \PKP\facades\Locale::getMetadata($localeKey);
+            $name = $metadata ? $metadata->getDisplayName($localeKey) : $localeKey;
+            $names[$localeKey] = mb_strtoupper(mb_substr($name, 0, 1)) . mb_substr($name, 1);
+        }
+        return $names;
     }
 
     /**

@@ -125,3 +125,12 @@ msgstr "Homepage kicker"
 
 msgid "plugins.themes.academicJournal.option.heroKicker.description"
 msgstr "Small caps line above the journal title in the homepage introduction. Default: \"Peer-reviewed open access journal\"."
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.label"
+msgstr "Navigation button: label"
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.description"
+msgstr "Highlighted button in the main navigation (e.g. a link to your services). Leave empty to hide it."
+
+msgid "plugins.themes.academicJournal.option.ctaUrl.label"
+msgstr "Navigation button: link (https://…)"

@@ -138,6 +138,8 @@ body.academic_theme {
 .academic_theme {
 
 	.pkp_structure_head {
+		position: relative;
+		z-index: 100; // dropdowns stay above the page content
 		background: @ac-surface;
 		border-bottom: 0;
 		box-shadow: 0 1px 0 @ac-line;
@@ -365,25 +367,24 @@ body.academic_theme {
 		}
 
 		// Full-bleed navigation band under the masthead
+		// Full-bleed band: painted by a pseudo-element so that nothing clips
+		// the dropdown menus (no clip-path / overflow on the row itself)
 		.pkp_navigation_primary_row {
 			position: relative;
-			z-index: 0;
+			isolation: isolate;
 			display: flex;
 			align-items: center;
-
-			background: @ac-primary;
-			box-shadow: 0 0 0 100vmax @ac-primary;
-			clip-path: inset(0 -100vmax);
-			border-top: 3px solid @ac-gold;
 
 			&::before {
 				content: "";
 				position: absolute;
-				top: -3px;
+				z-index: -1;
+				top: 0;
+				bottom: 0;
 				left: -100vmax;
 				right: -100vmax;
-				height: 3px;
-				background: @ac-gold;
+				background: @ac-primary;
+				border-top: 3px solid @ac-gold;
 			}
 		}
 
@@ -402,7 +403,7 @@ body.academic_theme {
 			}
 
 			> li > a {
-				margin: 0 0.35rem;
+				margin: 3px 0.35rem 0;
 				padding: 0.95rem 0.45rem ~"calc(0.95rem - 3px)";
 				border-bottom: 3px solid transparent;
 				color: rgba(255, 255, 255, .92);
@@ -543,6 +544,132 @@ body.academic_theme {
 				max-height: 64px;
 				max-width: 300px;
 			}
+		}
+	}
+}
+
+// Call-to-action button in the navigation & language dropdown
+.academic_theme {
+
+	.ac_nav_cta_wrapper {
+		margin: 1rem 0;
+	}
+
+	.ac_nav_cta {
+		display: inline-block;
+		padding: 0.55rem 1.1rem;
+		border-radius: @ac-radius;
+		background: @ac-gold;
+		color: contrast(@ac-gold, #1c1c1e, #fff, 55%);
+		font-weight: 600;
+		font-size: 0.9rem;
+		line-height: 1.2;
+		text-decoration: none;
+		white-space: nowrap;
+		transition: background .15s;
+
+		&:hover,
+		&:focus {
+			background: lighten(@ac-gold, 6%);
+			color: contrast(@ac-gold, #1c1c1e, #fff, 55%);
+			text-decoration: none;
+		}
+	}
+
+	@media (min-width: @screen-desktop) {
+		.ac_nav_cta_wrapper {
+			flex: 0 0 auto;
+			margin: 0 0.75rem 0 0;
+		}
+	}
+
+	.ac_topbar {
+		position: relative;
+		z-index: 5;
+	}
+
+	.ac_lang_menu {
+		position: relative;
+
+		summary {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.4rem;
+			padding: 0.15rem 0.55rem;
+			border-radius: 3px;
+			color: #fff;
+			cursor: pointer;
+			list-style: none;
+			font-weight: 500;
+
+			&::-webkit-details-marker {
+				display: none;
+			}
+
+			&::after {
+				content: "";
+				border-top: 4px solid currentColor;
+				border-left: 4px solid transparent;
+				border-right: 4px solid transparent;
+			}
+
+			&:hover,
+			&:focus {
+				background: rgba(255, 255, 255, .14);
+			}
+		}
+
+		&[open] summary {
+			background: rgba(255, 255, 255, .18);
+		}
+
+		.ac_lang_globe {
+			width: 0.85em;
+			height: 0.85em;
+			border: 1.5px solid currentColor;
+			border-radius: 50%;
+			background: linear-gradient(currentColor, currentColor) center / 1.5px 100% no-repeat,
+				linear-gradient(currentColor, currentColor) center / 100% 1.5px no-repeat;
+			opacity: .85;
+		}
+
+		ul {
+			position: absolute;
+			right: 0;
+			top: calc(100% + 6px);
+			z-index: 1000;
+			display: grid;
+			grid-template-columns: repeat(2, minmax(9rem, 1fr));
+			gap: 1px;
+			margin: 0;
+			padding: 0.4rem;
+			list-style: none;
+			background: @ac-surface;
+			border: 1px solid @ac-line;
+			border-radius: @ac-radius;
+			box-shadow: @ac-shadow;
+		}
+
+		a {
+			display: block;
+			padding: 0.4rem 0.6rem;
+			border-radius: 3px;
+			color: @ac-ink;
+			font-size: 0.85rem;
+			letter-spacing: 0;
+			text-decoration: none;
+			white-space: nowrap;
+
+			&:hover,
+			&:focus {
+				background: @ac-primary-soft;
+				color: @ac-primary;
+			}
+		}
+
+		.current a {
+			color: @ac-primary;
+			font-weight: 600;
 		}
 	}
 }
@@ -1487,6 +1614,26 @@ body.academic_theme {
 @media (max-width: (@screen-desktop - 1px)) {
 
 	.academic_theme {
+
+		// mobile menu sits on the primary colour
+		.pkp_site_nav_menu a:not(.ac_nav_cta) {
+			color: #fff;
+
+			&:hover,
+			&:focus {
+				color: #fff;
+				text-decoration: underline;
+			}
+		}
+
+		.pkp_navigation_primary {
+			padding: 0.5rem 0;
+
+			> li > a {
+				padding: 0.35rem 0;
+				font-size: 1.05rem;
+			}
+		}
 
 		.ac_topbar_inner {
 			padding-left: 1rem;

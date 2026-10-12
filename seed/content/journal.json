@@ -110,6 +110,44 @@
     "kicker": {
       "ru": "Демонстрационная версия · Open Journal Systems",
       "en": "Demo version · Open Journal Systems"
+    },
+    "uiLocales": [
+      "ru",
+      "en",
+      "es",
+      "fr",
+      "el",
+      "it",
+      "pt",
+      "zh_Hans",
+      "kk",
+      "az",
+      "uz_Latn",
+      "ky",
+      "sr_Cyrl",
+      "mk",
+      "sq",
+      "tg"
+    ],
+    "cta": {
+      "url": "https://rads-doi.org/%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-ojs/",
+      "label": {
+        "ru": "Заказать установку OJS",
+        "en": "Order OJS installation",
+        "es": "Solicitar instalación de OJS",
+        "fr": "Commander l’installation d’OJS",
+        "el": "Παραγγελία εγκατάστασης OJS",
+        "it": "Ordina l’installazione di OJS",
+        "pt": "Encomendar a instalação do OJS",
+        "zh_Hans": "订购 OJS 安装",
+        "kk": "OJS орнатуға тапсырыс беру",
+        "az": "OJS quraşdırılmasını sifariş edin",
+        "uz_Latn": "OJS oʻrnatishga buyurtma berish",
+        "ky": "OJS орнотууга буйрутма берүү",
+        "sr_Cyrl": "Наручите инсталацију OJS-а",
+        "mk": "Нарачајте инсталација на OJS",
+        "sq": "Porositni instalimin e OJS"
+      }
     }
   },
   "sections": [
