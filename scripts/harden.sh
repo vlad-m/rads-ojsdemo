@@ -44,6 +44,9 @@ install_block() {
 	if [ "$NOINDEX" = 1 ]; then
 		block="${block//#NOINDEX# /}"
 	fi
+	if [ "$HTTPS" = 1 ]; then
+		block="${block//#HSTS# /}"
+	fi
 	if [ -f "$target" ] && grep -q '# BEGIN rads-ojsdemo hardening' "$target"; then
 		if [ "$(sed -n '/# BEGIN rads-ojsdemo hardening/,/# END rads-ojsdemo hardening/p' "$target")" = "$block" ]; then
 			ok "$target is up to date"

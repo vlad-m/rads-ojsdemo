@@ -110,7 +110,10 @@ if [ "$INTEGRITY" = 1 ]; then
 				GROUP["dir:$top"]=$(( ${GROUP["dir:$top"]:-0} + 1 ))
 			elif [[ "$f" == plugins/*/*/* ]]; then
 				pdir="$(printf '%s' "$f" | cut -d/ -f1-3)"
-				if grep -qxF "$pdir" "$WORK/ref.plugins"; then
+				if grep -qxF "$pdir" "$WORK/ref.plugins" && grep -q "^$pdir/" "$WORK/mod.plugins"; then
+					# new files of a bundled plugin that was updated (Plugin Gallery)
+					GROUP["updated:$pdir"]=$(( ${GROUP["updated:$pdir"]:-0} + 1 ))
+				elif grep -qxF "$pdir" "$WORK/ref.plugins"; then
 					echo "$f" >> "$WORK/extra.single"
 				else
 					GROUP["plugin:$pdir"]=$(( ${GROUP["plugin:$pdir"]:-0} + 1 ))
@@ -123,6 +126,7 @@ if [ "$INTEGRITY" = 1 ]; then
 			case "$key" in
 				dir:*) finding "directory not in the release: ${key#dir:}/ (${GROUP[$key]} executable files) — a copy/backup inside the web root? remove or move it out" ;;
 				plugin:*) warn "third-party plugin: ${key#plugin:} (${GROUP[$key]} executable files) — keep only if you know where it came from" ;;
+				updated:*) warn "updated bundled plugin ${key#updated:} also has ${GROUP[$key]} new executable file(s) — consistent with a Plugin Gallery update" ;;
 			esac
 		done
 		if [ -s "$WORK/extra.single" ]; then

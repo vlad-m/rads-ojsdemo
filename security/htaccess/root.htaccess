@@ -17,7 +17,9 @@ ServerSignature Off
 	Header always set Referrer-Policy "strict-origin-when-cross-origin"
 	Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
 	Header always set Cross-Origin-Opener-Policy "same-origin"
-	Header always set Strict-Transport-Security "max-age=31536000" "expr=%{HTTPS} == 'on'"
+	# HTTPS may end at the hosting's front proxy, so Apache cannot always see it;
+	# harden.sh enables HSTS for sites whose base_url is https://
+	#HSTS# Header always set Strict-Transport-Security "max-age=31536000"
 	Header always unset X-Powered-By
 	Header unset X-Powered-By
 	#NOINDEX# Header always set X-Robots-Tag "noindex, nofollow"
