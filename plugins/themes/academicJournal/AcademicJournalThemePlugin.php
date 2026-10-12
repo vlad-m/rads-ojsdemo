@@ -103,6 +103,7 @@ class AcademicJournalThemePlugin extends ThemePlugin
 
         $this->addOption('ctaUrl', 'FieldText', [
             'label' => __('plugins.themes.academicJournal.option.ctaUrl.label'),
+            'isMultilingual' => true,
             'default' => '',
         ]);
 
@@ -208,7 +209,7 @@ class AcademicJournalThemePlugin extends ThemePlugin
             'academicHeroTagline' => $tagline,
             'academicHeroKicker' => $kicker,
             'academicCtaLabel' => $localized($this->getOption('ctaLabel')),
-            'academicCtaUrl' => preg_match('#^https?://#i', (string) $this->getOption('ctaUrl')) ? (string) $this->getOption('ctaUrl') : '',
+            'academicCtaUrl' => preg_match('#^https?://#i', $ctaUrl = $localized($this->getOption('ctaUrl'))) ? $ctaUrl : '',
             'academicShowStats' => (bool) $this->getOption('showJournalStats'),
             'academicYear' => date('Y'),
             'academicLogoBeside' => $this->getOption('logoPlacement') !== 'replace',

@@ -363,7 +363,9 @@ class DemoSeedTool extends CommandLineTool
         $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'showDescriptionInJournalIndex', false, 'bool');
         $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'useHomepageImageAsHeader', false, 'bool');
         if (!empty($this->content['journal']['cta']['url'])) {
-            $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'ctaUrl', $this->content['journal']['cta']['url'], 'string');
+            // one URL for all languages, or {"ru": …, "en": …} per language
+            $ctaUrl = $this->content['journal']['cta']['url'];
+            $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'ctaUrl', is_array($ctaUrl) ? $ctaUrl : ['en' => $ctaUrl], 'object');
             $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'ctaLabel', $this->content['journal']['cta']['label'] ?? [], 'object');
         }
         if (!empty($this->content['journal']['kicker'])) {

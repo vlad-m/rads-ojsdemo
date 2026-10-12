@@ -133,4 +133,4 @@ msgid "plugins.themes.academicJournal.option.ctaLabel.description"
 msgstr "Highlighted button in the main navigation (e.g. a link to your services). Leave empty to hide it."
 
 msgid "plugins.themes.academicJournal.option.ctaUrl.label"
-msgstr "Navigation button: link (https://…)"
+msgstr "Navigation button: link (https://…), per language"

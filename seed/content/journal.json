@@ -130,7 +130,23 @@
       "tg"
     ],
     "cta": {
-      "url": "https://rads-doi.org/%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-ojs/",
+      "url": {
+        "ru": "https://rads-doi.org/%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-ojs/",
+        "en": "https://rads-doi.org/en/open-journal-systems-ojs-installation/",
+        "es": "https://rads-doi.org/es/instalacion-de-open-journal-systems-ojs/",
+        "fr": "https://rads-doi.org/fr/installation-dopen-journal-systems-ojs/",
+        "el": "https://rads-doi.org/el/open-journal-systems-ojs-installation-el/",
+        "it": "https://rads-doi.org/it/installazione-di-open-journal-systems-ojs/",
+        "pt": "https://rads-doi.org/pt-pt/instalacao-do-open-journal-systems-ojs/",
+        "zh_Hans": "https://rads-doi.org/zh-hans/open-journal-systems-ojs-installation-zh-hans/",
+        "kk": "https://rads-doi.org/kk/open-journal-systems-ojs-installation-kk/",
+        "az": "https://rads-doi.org/az/open-journal-systems-ojs-qurasdirilmasi/",
+        "uz_Latn": "https://rads-doi.org/uz/open-journal-systems-ojs-installation-uz/",
+        "ky": "https://rads-doi.org/ky/open-journal-systems-ojs-installation-ky/",
+        "sr_Cyrl": "https://rads-doi.org/sr/open-journal-systems-ojs-installation-sr/",
+        "mk": "https://rads-doi.org/mk/open-journal-systems-ojs-installation-mk/",
+        "sq": "https://rads-doi.org/sq/instalimi-i-open-journal-systems-ojs/"
+      },
       "label": {
         "ru": "Заказать установку OJS",
         "en": "Order OJS installation",
