@@ -583,9 +583,11 @@ body.academic_theme {
 		}
 	}
 
+	// above the user menu (z-index 1000 in the parent theme), so the
+	// language list is not covered by "Login"
 	.ac_topbar {
 		position: relative;
-		z-index: 5;
+		z-index: 1010;
 	}
 
 	.ac_lang_menu {
