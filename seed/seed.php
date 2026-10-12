@@ -355,6 +355,9 @@ class DemoSeedTool extends CommandLineTool
         // Options inherited from the default theme
         $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'showDescriptionInJournalIndex', false, 'bool');
         $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'useHomepageImageAsHeader', false, 'bool');
+        if (!empty($this->content['journal']['kicker'])) {
+            $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'heroKicker', $this->content['journal']['kicker'], 'object');
+        }
         if (!empty($this->content['journal']['tagline'])) {
             $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', 'heroTagline', $this->content['journal']['tagline'], 'object');
         }

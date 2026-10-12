@@ -119,3 +119,9 @@ msgstr "Рядом с названием журнала (название ост
 
 msgid "plugins.themes.academicJournal.option.logoPlacement.replace"
 msgstr "Вместо названия журнала"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.label"
+msgstr "Надпись над названием на главной"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.description"
+msgstr "Строка капителью над названием журнала в блоке-приветствии. По умолчанию: «Рецензируемый журнал открытого доступа»."

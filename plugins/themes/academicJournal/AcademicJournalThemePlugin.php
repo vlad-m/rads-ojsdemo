@@ -105,6 +105,13 @@ class AcademicJournalThemePlugin extends ThemePlugin
             'default' => true,
         ]);
 
+        $this->addOption('heroKicker', 'FieldText', [
+            'label' => __('plugins.themes.academicJournal.option.heroKicker.label'),
+            'description' => __('plugins.themes.academicJournal.option.heroKicker.description'),
+            'isMultilingual' => true,
+            'default' => '',
+        ]);
+
         $this->addOption('heroTagline', 'FieldText', [
             'label' => __('plugins.themes.academicJournal.option.heroTagline.label'),
             'description' => __('plugins.themes.academicJournal.option.heroTagline.description'),
@@ -170,15 +177,21 @@ class AcademicJournalThemePlugin extends ThemePlugin
         $request = Application::get()->getRequest();
         $context = $request->getContext();
 
-        $tagline = $this->getOption('heroTagline');
-        if (is_array($tagline)) {
-            $locale = \PKP\facades\Locale::getLocale();
-            $tagline = $tagline[$locale] ?? ($context ? ($tagline[$context->getPrimaryLocale()] ?? '') : '');
-        }
+        $localized = function ($value): string {
+            if (is_array($value)) {
+                $locale = \PKP\facades\Locale::getLocale();
+                $context = Application::get()->getRequest()->getContext();
+                $value = $value[$locale] ?? ($context ? ($value[$context->getPrimaryLocale()] ?? '') : '');
+            }
+            return (string) $value;
+        };
+        $tagline = $localized($this->getOption('heroTagline'));
+        $kicker = $localized($this->getOption('heroKicker'));
 
         $templateMgr->assign([
             'academicShowHero' => (bool) $this->getOption('showHero'),
-            'academicHeroTagline' => (string) $tagline,
+            'academicHeroTagline' => $tagline,
+            'academicHeroKicker' => $kicker,
             'academicShowStats' => (bool) $this->getOption('showJournalStats'),
             'academicYear' => date('Y'),
             'academicLogoBeside' => $this->getOption('logoPlacement') !== 'replace',

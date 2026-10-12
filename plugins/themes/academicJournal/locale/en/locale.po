@@ -119,3 +119,9 @@ msgstr "Next to the journal title (title stays visible)"
 
 msgid "plugins.themes.academicJournal.option.logoPlacement.replace"
 msgstr "Instead of the journal title"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.label"
+msgstr "Homepage kicker"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.description"
+msgstr "Small caps line above the journal title in the homepage introduction. Default: \"Peer-reviewed open access journal\"."

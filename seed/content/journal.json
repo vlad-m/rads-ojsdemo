@@ -2,28 +2,28 @@
   "journal": {
     "path": "jir",
     "name": {
-      "ru": "Вестник междисциплинарных исследований",
-      "en": "Journal of Interdisciplinary Research"
+      "ru": "Вестник междисциплинарных исследований (демоверсия)",
+      "en": "Journal of Interdisciplinary Research (Demo)"
     },
     "acronym": {
-      "ru": "ВМИ",
-      "en": "JIR"
+      "ru": "ДЕМО",
+      "en": "DEMO"
     },
     "abbreviation": {
-      "ru": "Вестн. междисц. исслед.",
-      "en": "J. Interdiscip. Res."
+      "ru": "Демоверсия журнала на Open Journal Systems",
+      "en": "Open Journal Systems demo journal"
     },
     "tagline": {
-      "ru": "Рецензируемый журнал открытого доступа для исследований на стыке естественных, технических, социальных и гуманитарных наук: от моделей и данных — к практическим решениям.",
-      "en": "A peer-reviewed open access journal for research at the intersection of the natural, technical, social sciences and humanities: from models and data to practical solutions."
+      "ru": "Демонстрационная версия научного журнала на платформе Open Journal Systems: посмотрите, как выглядят сайт, подача рукописи, рецензирование и выпуск номера.",
+      "en": "A demo scholarly journal on Open Journal Systems: see how the website, submission, peer review and issue publishing look and work."
     },
     "description": {
-      "ru": "<p>«Вестник междисциплинарных исследований» — рецензируемый научный журнал открытого доступа, публикующий оригинальные исследования на стыке естественных, технических, социальных и гуманитарных наук. Журнал объединяет авторов, которые решают сложные практические и теоретические задачи с помощью методов нескольких дисциплин.</p><p>Тематика журнала охватывает науку о данных, экологию и климат, экономику, лингвистику, материаловедение, общественное здоровье, образовательные технологии, историю науки и урбанистику. Мы приветствуем работы, в которых методологическая строгость сочетается с ясным изложением и открытостью данных.</p>",
-      "en": "<p>The Journal of Interdisciplinary Research is a peer-reviewed open-access journal publishing original research at the intersection of the natural, technical, social sciences and the humanities. The journal brings together authors who address complex practical and theoretical problems with the methods of more than one discipline.</p><p>Its scope covers data science, ecology and climate, economics, linguistics, materials science, public health, educational technology, the history of science and urban studies. We welcome work that combines methodological rigour with clear writing and open data.</p>"
+      "ru": "<p><strong>Это демонстрационная версия журнала.</strong> Сайт показывает, как работает научный журнал на платформе Open Journal Systems (OJS 3.5) с оформлением и настройками от RADS и ООО «Цифра»: публичная часть сайта, подача рукописей, редакционный процесс, рецензирование и публикация выпусков.</p><p>Все статьи, авторы, организации, выпуски и показатели здесь вымышлены и созданы только для демонстрации. Данные регулярно восстанавливаются, изменения в демо-режиме не сохраняются.</p>",
+      "en": "<p><strong>This is a demo journal.</strong> The site shows how a scholarly journal works on Open Journal Systems (OJS 3.5) with design and configuration by RADS and Tsifra LLC: the public website, manuscript submission, the editorial workflow, peer review and issue publishing.</p><p>All articles, authors, institutions, issues and figures are fictional and exist only for demonstration. The data is restored regularly; changes are not saved in demo mode.</p>"
     },
     "about": {
-      "ru": "<h3>Цели и задачи</h3><p>Журнал создан для того, чтобы предоставить площадку исследованиям, которые не укладываются в рамки одной дисциплины. Мы публикуем оригинальные статьи, обзоры и краткие сообщения, в которых методы одной области применяются для решения задач другой, а результаты значимы для широкого круга специалистов.</p><h3>Рецензирование</h3><p>Все рукописи проходят двойное слепое рецензирование не менее чем двумя независимыми экспертами. Средний срок от подачи рукописи до первого решения составляет шесть недель. Окончательное решение о публикации принимает главный редактор на основании рецензий и рекомендации редактора раздела.</p><h3>Открытый доступ</h3><p>Все материалы журнала доступны бесплатно сразу после публикации и распространяются на условиях лицензии Creative Commons Attribution 4.0 International (CC BY 4.0).</p><h3>Индексирование</h3><p>Журнал зарегистрирован в Российском индексе научного цитирования (РИНЦ), метаданные статей депонируются в открытых научных каталогах и доступны по протоколу OAI-PMH.</p><h3>Периодичность</h3><p>Журнал выходит два раза в год — в марте и сентябре. Статьи публикуются в составе выпусков.</p><h3>Плата за публикацию</h3><p>Журнал не взимает плату ни за подачу, ни за рецензирование, ни за публикацию статей (APC отсутствует). Издание финансируется издателем — ООО «Цифра».</p>",
-      "en": "<h3>Aims and Scope</h3><p>The journal was founded to provide a venue for research that does not fit within the boundaries of a single discipline. We publish original articles, reviews and short communications in which the methods of one field are applied to the problems of another and the results matter to a broad range of specialists.</p><h3>Peer Review</h3><p>All manuscripts undergo double-blind peer review by at least two independent experts. The median time from submission to first decision is six weeks. The final decision on publication is made by the Editor-in-Chief on the basis of the reviews and the recommendation of the section editor.</p><h3>Open Access</h3><p>All content is freely available immediately upon publication and is distributed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).</p><h3>Indexing</h3><p>The journal is registered in the Russian Science Citation Index (RSCI); article metadata are deposited in open scholarly catalogues and exposed via OAI-PMH.</p><h3>Frequency</h3><p>The journal is published twice a year, in March and September. Articles are published as part of issues.</p><h3>Article Processing Charges</h3><p>The journal charges no submission, review or publication fees (no APC). It is funded by its publisher, Tsifra LLC.</p>"
+      "ru": "<h3>О демоверсии</h3><p>Этот журнал — демонстрационный стенд. Он наполнен вымышленными, но реалистичными материалами, чтобы показать все возможности OJS: выпуски и архив, страницы статей с PDF, поиск, роли редактора, рецензента и автора, статистику. Войти можно под демо-учётными записями на странице «Вход»; изменения не сохраняются.</p><h3>Цели и задачи</h3><p>Журнал создан для того, чтобы предоставить площадку исследованиям, которые не укладываются в рамки одной дисциплины. Мы публикуем оригинальные статьи, обзоры и краткие сообщения, в которых методы одной области применяются для решения задач другой, а результаты значимы для широкого круга специалистов.</p><h3>Рецензирование</h3><p>Все рукописи проходят двойное слепое рецензирование не менее чем двумя независимыми экспертами. Средний срок от подачи рукописи до первого решения составляет шесть недель. Окончательное решение о публикации принимает главный редактор на основании рецензий и рекомендации редактора раздела.</p><h3>Открытый доступ</h3><p>Все материалы журнала доступны бесплатно сразу после публикации и распространяются на условиях лицензии Creative Commons Attribution 4.0 International (CC BY 4.0).</p><h3>Индексирование</h3><p>В реальном журнале здесь указываются базы индексирования (например, РИНЦ); метаданные статей депонируются в открытых научных каталогах и доступны по протоколу OAI-PMH.</p><h3>Периодичность</h3><p>Журнал выходит два раза в год — в марте и сентябре. Статьи публикуются в составе выпусков.</p><h3>Плата за публикацию</h3><p>Журнал не взимает плату ни за подачу, ни за рецензирование, ни за публикацию статей (APC отсутствует). Издание финансируется издателем — ООО «Цифра».</p>",
+      "en": "<h3>About this demo</h3><p>This journal is a demonstration site. It is filled with fictional but realistic content to show what OJS can do: issues and archive, article pages with PDFs, search, editor, reviewer and author roles, and statistics. Sign in with the demo accounts on the login page; changes are not saved.</p><h3>Aims and Scope</h3><p>The journal was founded to provide a venue for research that does not fit within the boundaries of a single discipline. We publish original articles, reviews and short communications in which the methods of one field are applied to the problems of another and the results matter to a broad range of specialists.</p><h3>Peer Review</h3><p>All manuscripts undergo double-blind peer review by at least two independent experts. The median time from submission to first decision is six weeks. The final decision on publication is made by the Editor-in-Chief on the basis of the reviews and the recommendation of the section editor.</p><h3>Open Access</h3><p>All content is freely available immediately upon publication and is distributed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).</p><h3>Indexing</h3><p>In a real journal this section lists indexing databases (e.g. RSCI); article metadata are deposited in open scholarly catalogues and exposed via OAI-PMH.</p><h3>Frequency</h3><p>The journal is published twice a year, in March and September. Articles are published as part of issues.</p><h3>Article Processing Charges</h3><p>The journal charges no submission, review or publication fees (no APC). It is funded by its publisher, Tsifra LLC.</p>"
     },
     "authorGuidelines": {
       "ru": "<p>Журнал принимает рукописи на русском и английском языках. Перед подачей ознакомьтесь с политикой разделов и требованиями к оформлению.</p><ul><li>Объём научной статьи — 25–45 тыс. знаков с пробелами, обзора — до 60 тыс., краткого сообщения — до 15 тыс.</li><li>Аннотация на русском и английском языках объёмом 150–250 слов; 4–6 ключевых слов на каждом языке.</li><li>Структура статьи: введение, материалы и методы, результаты, обсуждение, заключение, список литературы.</li><li>Список литературы оформляется по ГОСТ Р 7.0.5–2008; для всех источников, имеющих DOI, он указывается.</li><li>Рисунки предоставляются отдельными файлами (PNG, TIFF или SVG) с разрешением не менее 300 dpi.</li><li>Для двойного слепого рецензирования из рукописи удаляются сведения об авторах.</li></ul>",
@@ -72,11 +72,11 @@
       "en": "<p>Reviewers assess the novelty and significance of the work, the soundness of the methods, the validity of the conclusions, the completeness of the literature review and the quality of the writing. Please state whether the manuscript fits the scope of the journal and give one of the following recommendations: accept, minor revisions, major revisions (resubmit for review) or decline. Comments to authors should be constructive and specific; confidential remarks may be addressed to the editor only.</p>"
     },
     "pageFooter": {
-      "ru": "<p>Журнал зарегистрирован в РИНЦ. Материалы распространяются по лицензии CC BY 4.0. ISSN 2949-4176 (онлайн), ISSN 2949-4184 (печать).</p>",
-      "en": "<p>Indexed in RSCI. Content is licensed under CC BY 4.0. ISSN 2949-4176 (online), ISSN 2949-4184 (print).</p>"
+      "ru": "<p>Демонстрационный сайт на Open Journal Systems. Все материалы, авторы и организации вымышлены. ISSN указан условно.</p>",
+      "en": "<p>Demo website on Open Journal Systems. All content, authors and institutions are fictional. The ISSN is a placeholder.</p>"
     },
-    "onlineIssn": "2949-4176",
-    "printIssn": "2949-4184",
+    "onlineIssn": "0000-0000",
+    "printIssn": "",
     "branding": {
       "primaryColour": "#0072A6",
       "accentColour": "#0072A6",
@@ -102,7 +102,15 @@
     },
     "mailingAddress": "ООО «Цифра», ул. Университетская, д. 12, офис 304, г. Новобор, 000000, Россия",
     "supportName": "Мария Белова",
-    "supportEmail": "support@example.org"
+    "supportEmail": "support@example.org",
+    "coverName": {
+      "ru": "Вестник междисциплинарных исследований",
+      "en": "Journal of Interdisciplinary Research"
+    },
+    "kicker": {
+      "ru": "Демонстрационная версия · Open Journal Systems",
+      "en": "Demo version · Open Journal Systems"
+    }
   },
   "sections": [
     {

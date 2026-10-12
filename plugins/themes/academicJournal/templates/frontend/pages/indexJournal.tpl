@@ -20,7 +20,7 @@
 		{assign var="acDescription" value=$currentContext->getLocalizedData('description')|strip_tags|trim}
 		<section class="ac_hero">
 			<div class="ac_hero_text">
-				<p class="ac_hero_kicker">{translate key="plugins.themes.academicJournal.kicker"}</p>
+				<p class="ac_hero_kicker">{if $academicHeroKicker}{$academicHeroKicker|escape}{else}{translate key="plugins.themes.academicJournal.kicker"}{/if}</p>
 				<h2 class="ac_hero_title">{$currentContext->getLocalizedName()|escape}</h2>
 				{if $academicHeroTagline}
 					<p class="ac_hero_lead">{$academicHeroTagline|escape}</p>

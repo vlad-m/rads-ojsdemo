@@ -50,7 +50,7 @@ with open(os.path.join(SEED, "content", "journal.json"), encoding="utf-8") as f:
 walk(data)
 J = data["journal"]
 for k in ("onlineIssn", "printIssn"):
-    if not issn_ok(J[k]):
+    if J.get(k) and not issn_ok(J[k]):
         err(f"invalid ISSN {k}={J[k]}")
 
 text = json.dumps(data, ensure_ascii=False)

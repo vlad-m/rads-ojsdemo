@@ -327,7 +327,7 @@ body{background:linear-gradient(160deg,${C.burgundy} 0%,${C.navy} 100%);color:#f
 </style></head><body>
 <div class="frame"></div><div class="frame2"></div>
 <div class="top"><span>ISSN ${J.onlineIssn}</span><span>${esc(J.acronym.ru)} · Открытый доступ</span></div>
-<div class="name">${esc(J.name.ru)}</div>
+<div class="name">${esc((J.coverName || J.name).ru)}</div>
 <div class="rule"></div>
 <div class="vol">ТОМ ${issue.volume} · № ${issue.number} · ${issue.year}</div>
 <div class="motif">${motif}</div>
