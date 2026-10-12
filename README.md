@@ -32,7 +32,7 @@ scripts/inspect.sh ~/ojsdemo_new
 scripts/demo-snapshot.sh ~/ojsdemo_new ~/ojs-backup-before-demo
 
 # 2. Всё сразу: плагины, тема, наполнение, демо-режим, защита, эталонный снимок
-scripts/deploy.sh ~/ojsdemo_new --seed --demo --harden --snapshot
+scripts/deploy.sh ~/ojsdemo_new --journal=nj --seed --demo --harden --snapshot
 
 # 3. Проверка безопасности (подставьте адрес сайта)
 scripts/security-audit.sh ~/ojsdemo_new --url https://ВАШ-ДОМЕН
@@ -40,8 +40,13 @@ scripts/security-audit.sh ~/ojsdemo_new --url https://ВАШ-ДОМЕН
 
 Каждую команду — отдельной строкой.
 
-Если на sweb несколько версий PHP, укажите нужную явно: `PHP=/usr/local/bin/php8.3 scripts/deploy.sh …`
-(версия CLI должна совпадать с той, на которой работает сайт).
+`--journal=nj` — наполнить существующий журнал `nj`: его настройки (название, описание, ISSN, тема и т.д.)
+заменяются демонстрационными, добавляются выпуски, статьи, материалы в работе и объявления; уже существующие
+материалы журнала не удаляются, а повторный запуск ничего не дублирует. Без `--journal` создаётся новый журнал `jir`.
+
+**PHP.** На sweb `/usr/bin/php` в SSH — старый PHP 5.2, а OJS 3.5 нужен PHP 8.2+. Скрипты сами ищут
+`php8.x` (`/usr/local/bin/php8*` и др.). Если не нашли — укажите путь явно, версию берите ту же, что у сайта
+в панели: `PHP=/usr/local/bin/php8.2 scripts/deploy.sh …` (список: `ls /usr/local/bin/ | grep php`).
 
 ### Cron (панель sweb → «Планировщик задач» или `crontab -e`)
 
@@ -145,8 +150,11 @@ scripts/security-audit.sh ~/ojsdemo_new --url https://ВАШ-ДОМЕН
    и поправить `[files] files_dir`.
 4. Следить за обновлениями OJS 3.5.x (исправления безопасности): после обновления — `deploy.sh` (без `--seed`)
    и `demo-snapshot.sh`.
-5. Если сайт отдаётся через nginx sweb напрямую (без Apache), `.htaccess` не работает — проверьте это
-   `security-audit.sh --url`: все служебные пути должны давать 403/404.
+5. На sweb статические файлы (`.tpl`, `.xml`, `composer.json` …) отдаёт сам nginx, и `.htaccess` к ним
+   не применяется — аудит покажет их как «reachable». Отключите в панели для сайта обработку статики nginx
+   (или попросите поддержку запретить для сайта `*.tpl`, `*.xml`, `composer.*`, `/lib/pkp/`). PHP-файлы
+   и конфиг при этом уже защищены.
+6. Удалите из веб-каталога копии и бэкапы (аудит покажет их как «directory not in the release»).
 
 ---
 

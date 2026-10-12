@@ -6,7 +6,9 @@
 #
 # Options:
 #   --seed              fill the installation with demo content (seed/seed.php)
-#   --force             with --seed: delete and recreate the demo journal
+#   --journal=PATH      with --seed: journal to fill (default: jir); an existing
+#                       journal is reused and its settings replaced by the demo ones
+#   --force             with --seed: delete and recreate the journal
 #   --demo              enable read-only demo mode in config.inc.php
 #   --superuser=NAME    username that may still change the system (default: first admin)
 #   --password=PASS     password of the demo accounts (default: demo)
@@ -21,7 +23,7 @@
 source "$(dirname "$0")/lib/common.sh"
 
 SEED=0; FORCE=0; DEMO=0; HARDEN=0; SNAPSHOT=0
-SUPERUSER=''; PASSWORD='demo'; RESET_HOURS=3
+SUPERUSER=''; PASSWORD='demo'; RESET_HOURS=3; JOURNAL=''
 ARGS=()
 for arg in "$@"; do
 	case "$arg" in
@@ -33,7 +35,8 @@ for arg in "$@"; do
 		--superuser=*) SUPERUSER="${arg#*=}" ;;
 		--password=*) PASSWORD="${arg#*=}" ;;
 		--reset-hours=*) RESET_HOURS="${arg#*=}" ;;
-		-h|--help) sed -n '2,20p' "$0"; exit 0 ;;
+		--journal=*) JOURNAL="${arg#*=}" ;;
+		-h|--help) sed -n '2,24p' "$0"; exit 0 ;;
 		-*) die "Unknown option: $arg" ;;
 		*) ARGS+=("$arg") ;;
 	esac
@@ -85,6 +88,7 @@ if [ "$SEED" = 1 ]; then
 	step "Demo content"
 	seed_args=("$OJS_DIR" "--demo-password=$PASSWORD")
 	[ "$FORCE" = 1 ] && seed_args+=(--force)
+	[ -n "$JOURNAL" ] && seed_args+=("--journal=$JOURNAL")
 	"$PHP" "$REPO_DIR/seed/seed.php" "${seed_args[@]}"
 fi
 

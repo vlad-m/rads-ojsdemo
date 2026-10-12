@@ -4,7 +4,30 @@
 set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
-PHP="${PHP:-php}"
+
+# php_version_id BINARY — prints e.g. 80312, or nothing if it cannot run
+php_version_id() {
+	"$1" -r 'echo PHP_VERSION_ID;' 2>/dev/null || true
+}
+
+# find_php — choose a PHP CLI >= 8.2 (OJS 3.5 requirement). Shared hosting
+# often has an old /usr/bin/php plus versioned binaries (php8.2, php8.3 …).
+find_php() {
+	local candidate best='' best_id=0 id
+	if [ -n "${PHP:-}" ]; then
+		return 0
+	fi
+	for candidate in php php8.5 php8.4 php8.3 php8.2 \
+		/usr/local/bin/php8* /usr/bin/php8* /opt/php8*/bin/php /opt/alt/php8*/usr/bin/php \
+		/usr/local/php8*/bin/php /usr/local/php/8*/bin/php /opt/php/8*/bin/php; do
+		command -v "$candidate" >/dev/null 2>&1 || [ -x "$candidate" ] || continue
+		id="$(php_version_id "$candidate")"
+		case "$id" in ''|*[!0-9]*) continue ;; esac
+		if [ "$id" -gt "$best_id" ]; then best="$candidate"; best_id="$id"; fi
+	done
+	PHP="${best:-php}"
+}
+find_php
 
 if [ -t 1 ]; then
 	C_RED=$'\033[31m'; C_GREEN=$'\033[32m'; C_YELLOW=$'\033[33m'; C_BOLD=$'\033[1m'; C_RESET=$'\033[0m'
@@ -43,8 +66,12 @@ require_ojs() {
 		info "OJS found in $found"
 		OJS_DIR="$found"
 	fi
-	command -v "$PHP" >/dev/null 2>&1 || die "PHP CLI not found (set PHP=/path/to/php)."
-	export OJS_DIR
+	command -v "$PHP" >/dev/null 2>&1 || [ -x "$PHP" ] || die "PHP CLI not found (set PHP=/path/to/php)."
+	local id; id="$(php_version_id "$PHP")"
+	if [ -z "$id" ] || [ "$id" -lt 80200 ]; then
+		die "PHP CLI '$PHP' is $("$PHP" -v 2>/dev/null | head -1 | cut -d' ' -f2) — OJS 3.5 needs PHP 8.2+. No newer binary was found automatically; run with PHP=/path/to/php8.x (ask the hosting which path matches the site's PHP version, on sweb e.g. ls /usr/local/bin/php*)."
+	fi
+	export OJS_DIR PHP
 }
 
 # cfg SECTION KEY — read a value from config.inc.php

@@ -15,7 +15,7 @@
 # shellcheck source=lib/common.sh
 source "$(dirname "$0")/lib/common.sh"
 
-URL=''; DAYS=7; INTEGRITY=1; ARGS=()
+URL=''; DAYS=7; INTEGRITY=1; ARGS=(); STATIC_LEAK=0
 for arg in "$@"; do
 	case "$arg" in
 		--url=*) URL="${arg#*=}" ;;
@@ -64,28 +64,70 @@ if [ "$INTEGRITY" = 1 ]; then
 		(cd "$REF" && find . -type f | sed 's#^\./##' | sort) > "$WORK/ref.list"
 		(cd "$OJS_DIR" && find . -xdev -type f | sed 's#^\./##' | sort) > "$WORK/cur.list"
 
-		modified=0
+		# top-level entries and plugin directories that exist in the release
+		cut -d/ -f1 "$WORK/ref.list" | sort -u > "$WORK/ref.top"
+		awk -F/ '$1=="plugins" && NF>3 {print $1"/"$2"/"$3}' "$WORK/ref.list" | sort -u > "$WORK/ref.plugins"
+
+		# 1) files that differ from the release
+		: > "$WORK/mod.core"; : > "$WORK/mod.plugins"
 		while IFS= read -r f; do
 			is_local_path "$f" && continue
-			if [ ! -f "$OJS_DIR/$f" ]; then
-				continue
-			fi
-			if ! cmp -s "$REF/$f" "$OJS_DIR/$f"; then
-				finding "modified core file: $f"
-				modified=$((modified + 1))
-			fi
+			[ -f "$OJS_DIR/$f" ] || continue
+			cmp -s "$REF/$f" "$OJS_DIR/$f" && continue
+			case "$f" in
+				plugins/*) echo "$f" >> "$WORK/mod.plugins" ;;
+				*) echo "$f" >> "$WORK/mod.core" ;;
+			esac
 		done < "$WORK/ref.list"
-		[ "$modified" = 0 ] && ok "no core file is modified"
+		if [ -s "$WORK/mod.core" ]; then
+			while IFS= read -r f; do finding "modified core file: $f"; done < "$WORK/mod.core"
+		else
+			ok "no core file (outside plugins/) is modified"
+		fi
+		if [ -s "$WORK/mod.plugins" ]; then
+			# one line per bundled plugin: usually a plugin updated from the gallery
+			awk -F/ '{p=$1"/"$2"/"$3; n[p]++; if ($NF ~ /\.php$/) php[p]++} END {for (p in n) printf "%s\t%d\t%d\n", p, n[p], php[p]+0}' "$WORK/mod.plugins" | sort |
+			while IFS=$'\t' read -r p n php; do
+				warn "bundled plugin differs from the release: $p ($n files, $php PHP) — fine if it was updated from the Plugin Gallery, otherwise reinstall it"
+			done
+		fi
 
-		extra=0
-		while IFS= read -r f; do
+		# 2) executable files that are not part of the release
+		comm -13 "$WORK/ref.list" "$WORK/cur.list" | while IFS= read -r f; do
 			is_local_path "$f" && continue
 			case "$f" in
-				*.php|*.phtml|*.phar|*.php[0-9]|*.inc|*.pl|*.py|*.cgi|*.sh|.htaccess|*/.htaccess|.user.ini|*/.user.ini)
-					finding "file not in the release: $f"; extra=$((extra + 1)) ;;
+				*.php|*.phtml|*.phar|*.php[0-9]|*.inc|*.pl|*.py|*.cgi|*.sh|.htaccess|*/.htaccess|.user.ini|*/.user.ini) echo "$f" ;;
 			esac
-		done < <(comm -13 "$WORK/ref.list" "$WORK/cur.list")
-		[ "$extra" = 0 ] && ok "no unexpected executable files"
+		done > "$WORK/extra"
+		: > "$WORK/extra.single"
+		declare -A GROUP=()
+		while IFS= read -r f; do
+			top="${f%%/*}"
+			if [ "$top" != "$f" ] && ! grep -qxF "$top" "$WORK/ref.top"; then
+				GROUP["dir:$top"]=$(( ${GROUP["dir:$top"]:-0} + 1 ))
+			elif [[ "$f" == plugins/*/*/* ]]; then
+				pdir="$(printf '%s' "$f" | cut -d/ -f1-3)"
+				if grep -qxF "$pdir" "$WORK/ref.plugins"; then
+					echo "$f" >> "$WORK/extra.single"
+				else
+					GROUP["plugin:$pdir"]=$(( ${GROUP["plugin:$pdir"]:-0} + 1 ))
+				fi
+			else
+				echo "$f" >> "$WORK/extra.single"
+			fi
+		done < "$WORK/extra"
+		for key in "${!GROUP[@]}"; do
+			case "$key" in
+				dir:*) finding "directory not in the release: ${key#dir:}/ (${GROUP[$key]} executable files) — a copy/backup inside the web root? remove or move it out" ;;
+				plugin:*) warn "third-party plugin: ${key#plugin:} (${GROUP[$key]} executable files) — keep only if you know where it came from" ;;
+			esac
+		done
+		if [ -s "$WORK/extra.single" ]; then
+			total="$(wc -l < "$WORK/extra.single" | tr -d ' ')"
+			while IFS= read -r f; do finding "file not in the release: $f"; done < <(head -40 "$WORK/extra.single")
+			[ "$total" -gt 40 ] && { warn "… and $((total - 40)) more"; FINDINGS=$((FINDINGS + total - 40)); }
+		fi
+		[ ! -s "$WORK/extra" ] && ok "no unexpected executable files"
 	else
 		warn "could not download $DL — integrity check skipped (use --no-integrity to silence)"
 	fi
@@ -123,7 +165,13 @@ else
 fi
 # auto_prepend_file in .htaccess/.user.ini is a classic persistence trick
 PREPEND="$(grep -rlsiE 'auto_(prepend|append)_file' --include='.htaccess' --include='.user.ini' --include='php.ini' "$OJS_DIR" 2>/dev/null || true)"
-[ -n "$PREPEND" ] && while IFS= read -r f; do finding "auto_prepend/append directive: ${f#"$OJS_DIR"/}"; done <<< "$PREPEND"
+if [ -n "$PREPEND" ]; then
+	while IFS= read -r f; do
+		finding "auto_prepend/append directive in ${f#"$OJS_DIR"/}:"
+		grep -niE 'auto_(prepend|append)_file' "$f" | sed 's/^/        /'
+	done <<< "$PREPEND"
+	warn "a prepended file runs before EVERY PHP request: make sure it is the hosting's own (antivirus/WAF), not something planted"
+fi
 
 step "PHP files changed in the last $DAYS day(s) (outside cache/)"
 RECENT="$(find "$OJS_DIR" -xdev -type f \( -name '*.php' -o -name '.htaccess' -o -name '.user.ini' \) -mtime "-$DAYS" ! -path "$OJS_DIR/cache/*" 2>/dev/null | head -50)"
@@ -144,12 +192,12 @@ if [ -n "$URL" ]; then
 		/tools/upgrade.php /lib/pkp/lib/vendor/autoload.php /plugins/ /public/ /docs/ /registry/ "/index.php?x=../../etc/passwd"; do
 		c="$(code "$p")"
 		case "$c" in
-			403|404|400) ok "$p → $c" ;;
-			*) finding "$p is reachable (HTTP $c)" ;;
+			4??) ok "$p → $c" ;;
+			*) finding "$p is reachable (HTTP $c)"; STATIC_LEAK=1 ;;
 		esac
 	done
 	FILES_REL="${FILES_DIR#"$OJS_DIR"/}"
-	if [ "$FILES_REL" != "$FILES_DIR" ]; then
+	if [ "$FILES_REL" != "$FILES_DIR" ] && [ -n "$FILES_REL" ]; then
 		c="$(code "/$FILES_REL/")"; case "$c" in 403|404) ok "/$FILES_REL/ → $c" ;; *) finding "files_dir is reachable over HTTP (/$FILES_REL/ → $c)" ;; esac
 	fi
 	c="$(code "/")"; case "$c" in 200|301|302|303) ok "home page → $c" ;; *) finding "home page returns HTTP $c" ;; esac
@@ -160,6 +208,10 @@ if [ -n "$URL" ]; then
 	done
 	case "$URL" in https://*) printf '%s' "$HEADERS" | grep -qi '^Strict-Transport-Security:' && ok "header Strict-Transport-Security" || finding "missing header Strict-Transport-Security" ;; esac
 	printf '%s' "$HEADERS" | grep -qi '^X-Powered-By:' && finding "X-Powered-By header discloses the PHP version" || ok "no X-Powered-By header"
+	if [ "${STATIC_LEAK:-0}" = 1 ] && printf '%s' "$HEADERS" | grep -qi '^Server: *nginx'; then
+		warn "nginx serves static files itself, so .htaccess rules do not apply to them. In the hosting panel switch off"
+		warn "\"static files via nginx\" for this site (or ask support to deny *.tpl, *.xml, composer.json, /lib/pkp/ for it)."
+	fi
 	printf '%s' "$HEADERS" | grep -qiE '^Server:.*[0-9]' && warn "Server header discloses a version: $(printf '%s' "$HEADERS" | grep -i '^Server:' | head -1)" || true
 	case "$URL" in
 		https://*)

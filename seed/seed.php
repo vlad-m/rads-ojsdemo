@@ -11,12 +11,15 @@
  *  pending review for the demo reviewer), announcements and usage statistics.
  *
  * Usage:
- *   php seed/seed.php /path/to/ojs [--content=seed/content/journal.json]
+ *   php seed/seed.php /path/to/ojs [--journal=PATH] [--content=seed/content/journal.json]
  *        [--demo-password=demo] [--no-metrics] [--force]
  *
- * The script is idempotent at the journal level: it refuses to run when the
- * journal path already exists, unless --force is given (then the existing
- * journal is deleted first).
+ * --journal=PATH  journal (URL path) to fill; default: the path from journal.json.
+ *                 An existing journal is reused: its settings are replaced by the
+ *                 demo settings and the demo issues, submissions and
+ *                 announcements are added (items that already exist are skipped,
+ *                 so the script can be re-run).
+ * --force         delete the journal first and create it from scratch.
  */
 
 if (PHP_SAPI !== 'cli') {
@@ -36,6 +39,7 @@ $options = [
     'demo-password' => 'demo',
     'no-metrics' => false,
     'force' => false,
+    'journal' => null,
 ];
 foreach (array_slice($argv, 2) as $arg) {
     if (preg_match('/^--([a-z-]+)(?:=(.*))?$/', $arg, $m)) {
@@ -77,15 +81,15 @@ class DemoSeedTool extends CommandLineTool
         ['username' => 'demo-author', 'given' => ['ru' => 'Демо', 'en' => 'Demo'], 'family' => ['ru' => 'Автор', 'en' => 'Author'], 'roles' => ['author']],
     ];
 
-    /** Role keys used in journal.json mapped to [roleId, English default group name]. */
+    /** Role keys used in journal.json mapped to [roleId, default group locale key]. */
     public const ROLE_GROUPS = [
-        'manager' => [Role::ROLE_ID_MANAGER, 'Journal manager'],
-        'editor-in-chief' => [Role::ROLE_ID_MANAGER, 'Journal editor'],
-        'section-editor' => [Role::ROLE_ID_SUB_EDITOR, 'Section editor'],
-        'reviewer' => [Role::ROLE_ID_REVIEWER, 'Reviewer'],
-        'author' => [Role::ROLE_ID_AUTHOR, 'Author'],
-        'copyeditor' => [Role::ROLE_ID_ASSISTANT, 'Copyeditor'],
-        'layout-editor' => [Role::ROLE_ID_ASSISTANT, 'Layout Editor'],
+        'manager' => [Role::ROLE_ID_MANAGER, 'default.groups.name.manager'],
+        'editor-in-chief' => [Role::ROLE_ID_MANAGER, 'default.groups.name.editor'],
+        'section-editor' => [Role::ROLE_ID_SUB_EDITOR, 'default.groups.name.sectionEditor'],
+        'reviewer' => [Role::ROLE_ID_REVIEWER, 'default.groups.name.externalReviewer'],
+        'author' => [Role::ROLE_ID_AUTHOR, 'default.groups.name.author'],
+        'copyeditor' => [Role::ROLE_ID_ASSISTANT, 'default.groups.name.copyeditor'],
+        'layout-editor' => [Role::ROLE_ID_ASSISTANT, 'default.groups.name.layoutEditor'],
     ];
 
     protected array $options;
@@ -106,6 +110,9 @@ class DemoSeedTool extends CommandLineTool
     {
         $contentFile = $this->options['content'];
         $this->content = json_decode(file_get_contents($contentFile), true, 512, JSON_THROW_ON_ERROR);
+        if (!empty($this->options['journal']) && is_string($this->options['journal'])) {
+            $this->content['journal']['path'] = $this->options['journal'];
+        }
         $this->assetsDir = dirname($contentFile, 2) . '/assets';
         $this->workDir = sys_get_temp_dir() . '/ojs-demo-seed-' . getmypid();
         if (!is_dir($this->workDir)) {
@@ -168,12 +175,11 @@ class DemoSeedTool extends CommandLineTool
         $contextService = app()->get('context');
         $contextDao = Application::getContextDAO();
 
-        if ($existing = $contextDao->getByPath($data['path'])) {
-            if (!$this->options['force']) {
-                throw new RuntimeException("Journal '{$data['path']}' already exists. Re-run with --force to delete and recreate it.");
-            }
+        $existing = $contextDao->getByPath($data['path']);
+        if ($existing && $this->options['force']) {
             $this->line("  deleting existing journal '{$data['path']}'");
             $contextService->delete($existing);
+            $existing = null;
         }
 
         $props = [
@@ -224,16 +230,35 @@ class DemoSeedTool extends CommandLineTool
             'themePluginPath' => 'academicJournal',
         ];
 
-        $journal = $contextDao->newDataObject();
-        $journal->setAllData($props);
         $request = Application::get()->getRequest();
-        $this->journal = $contextService->add($journal, $request);
-        $this->line('  created journal #' . $this->journal->getId() . ' (' . $this->journal->getPath() . ')');
+        if ($existing) {
+            unset($props['urlPath']);
+            $this->journal = $contextService->edit($existing, $props, $request);
+            $this->line('  using existing journal #' . $this->journal->getId() . ' (' . $this->journal->getPath() . '), settings updated');
+        } else {
+            $journal = $contextDao->newDataObject();
+            $journal->setAllData($props);
+            $this->journal = $contextService->add($journal, $request);
+            $this->line('  created journal #' . $this->journal->getId() . ' (' . $this->journal->getPath() . ')');
+        }
 
-        // Sections: re-use the default "Articles" section as the first one.
+        // Sections: matched by abbreviation (any locale); a fresh journal's
+        // default "Articles" section is re-used as the first one.
         $sections = Repo::section()->getCollector()->filterByContextIds([$this->journal->getId()])->getMany()->values()->all();
+        $hasContent = Repo::submission()->getCollector()->filterByContextIds([$this->journal->getId()])->getCount() > 0;
         foreach ($this->content['sections'] as $i => $sectionData) {
-            $section = $sections[$i] ?? Repo::section()->newDataObject(['contextId' => $this->journal->getId()]);
+            $section = null;
+            foreach ($sections as $candidate) {
+                $abbrevs = array_map('mb_strtolower', array_filter((array) $candidate->getData('abbrev')));
+                if (array_intersect($abbrevs, array_map('mb_strtolower', array_values($sectionData['abbrev'])))) {
+                    $section = $candidate;
+                    break;
+                }
+            }
+            if (!$section && $i === 0 && !$hasContent && count($sections) === 1) {
+                $section = $sections[0];
+            }
+            $section ??= Repo::section()->newDataObject(['contextId' => $this->journal->getId()]);
             $section->setData('title', $sectionData['title']);
             $section->setData('abbrev', $sectionData['abbrev']);
             $section->setData('policy', $sectionData['policy'] ?? null);
@@ -334,6 +359,10 @@ class DemoSeedTool extends CommandLineTool
     protected function importIssues(): void
     {
         foreach ($this->content['issues'] as $issueData) {
+            if ($this->findIssue($issueData)) {
+                $this->line('  Vol. ' . $issueData['volume'] . ' No. ' . $issueData['number'] . ' already exists, skipped');
+                continue;
+            }
             $xml = $this->buildIssuesXml([$issueData]);
             $file = $this->workDir . '/issue-v' . $issueData['volume'] . 'n' . $issueData['number'] . '.xml';
             $xml->save($file);
@@ -349,13 +378,7 @@ class DemoSeedTool extends CommandLineTool
             }
         }
         $current ??= end($this->content['issues']);
-        $issue = Repo::issue()->getCollector()
-            ->filterByContextIds([$this->journal->getId()])
-            ->filterByVolumes([(int) $current['volume']])
-            ->filterByNumbers([(string) $current['number']])
-            ->filterByYears([(int) $current['year']])
-            ->getMany()
-            ->first();
+        $issue = $this->findIssue($current);
         if ($issue) {
             Repo::issue()->updateCurrent($this->journal->getId(), $issue);
         }
@@ -373,10 +396,36 @@ class DemoSeedTool extends CommandLineTool
         }
     }
 
+    protected function findIssue(array $issueData): ?\APP\issue\Issue
+    {
+        return Repo::issue()->getCollector()
+            ->filterByContextIds([$this->journal->getId()])
+            ->filterByVolumes([(int) $issueData['volume']])
+            ->filterByNumbers([(string) $issueData['number']])
+            ->filterByYears([(int) $issueData['year']])
+            ->getMany()
+            ->first();
+    }
+
+    protected function submissionExists(array $data): bool
+    {
+        return DB::table('publication_settings as ps')
+            ->join('publications as p', 'p.publication_id', '=', 'ps.publication_id')
+            ->join('submissions as s', 's.submission_id', '=', 'p.submission_id')
+            ->where('s.context_id', $this->journal->getId())
+            ->where('ps.setting_name', 'title')
+            ->whereIn('ps.setting_value', array_values($data['title']))
+            ->exists();
+    }
+
     protected function importSubmissions(): void
     {
         $editorId = $this->userIds['demo-editor'] ?? null;
         foreach ($this->content['submissions'] as $data) {
+            if ($this->submissionExists($data)) {
+                $this->line('  "' . $data['slug'] . '" already exists, skipped');
+                continue;
+            }
             $xml = $this->buildSubmissionXml($data);
             $file = $this->workDir . '/submission-' . $data['slug'] . '.xml';
             $xml->save($file);
@@ -412,6 +461,15 @@ class DemoSeedTool extends CommandLineTool
     protected function createAnnouncements(): void
     {
         foreach ($this->content['announcements'] as $data) {
+            $exists = DB::table('announcement_settings as s')
+                ->join('announcements as a', 'a.announcement_id', '=', 's.announcement_id')
+                ->where('a.assoc_id', $this->journal->getId())
+                ->where('s.setting_name', 'title')
+                ->whereIn('s.setting_value', array_values($data['title']))
+                ->exists();
+            if ($exists) {
+                continue;
+            }
             $announcement = Announcement::create([
                 'assocType' => Application::ASSOC_TYPE_JOURNAL,
                 'assocId' => $this->journal->getId(),
@@ -435,6 +493,11 @@ class DemoSeedTool extends CommandLineTool
             ->filterByContextIds([$contextId])
             ->filterByStatus([Submission::STATUS_PUBLISHED])
             ->getMany();
+
+        foreach (['metrics_submission', 'metrics_context'] as $table) {
+            DB::table($table)->where('context_id', $contextId)->where('load_id', 'demo_seed')->delete();
+        }
+        DB::table('metrics_submission_geo_monthly')->where('context_id', $contextId)->where('country', 'RU')->where('region', '')->delete();
 
         $rows = [];
         $total = 0;
@@ -550,17 +613,17 @@ class DemoSeedTool extends CommandLineTool
 
     protected function userGroup(string $roleKey): ?\PKP\userGroup\UserGroup
     {
-        [$roleId, $name] = self::ROLE_GROUPS[$roleKey] ?? [null, null];
+        [$roleId, $localeKey] = self::ROLE_GROUPS[$roleKey] ?? [null, null];
         if (!$roleId) {
             return null;
         }
         $groups = Repo::userGroup()->getByRoleIds([$roleId], $this->journal->getId());
-        foreach ($groups as $group) {
-            if ($group->getLocalizedData('name', 'en') === $name) {
-                return $group;
-            }
-        }
-        return $groups->first();
+        $groupId = DB::table('user_group_settings')
+            ->whereIn('user_group_id', $groups->map(fn ($g) => $g->id)->all() ?: [0])
+            ->where('setting_name', 'nameLocaleKey')
+            ->where('setting_value', $localeKey)
+            ->value('user_group_id');
+        return $groupId ? Repo::userGroup()->get((int) $groupId) : $groups->first();
     }
 
     protected function userIdByEmail(string $email): ?int
@@ -771,7 +834,7 @@ class DemoSeedTool extends CommandLineTool
                 'id' => $thisFileId,
                 'file_id' => $thisFileId,
                 'stage' => $published ? 'proof' : 'submission',
-                'genre' => 'Article Text',
+                'genre' => $this->genreName(),
                 'uploader' => $this->adminUsername,
                 'viewable' => 'false',
                 'created_at' => $data['dateSubmitted'],
@@ -834,7 +897,7 @@ class DemoSeedTool extends CommandLineTool
         foreach ($data['authors'] as $i => $authorData) {
             $author = $this->el($doc, $authors, 'author', null, [
                 'include_in_browse' => 'true',
-                'user_group_ref' => 'Author',
+                'user_group_ref' => $this->authorGroupName(),
                 'seq' => $i,
                 'id' => ++$authorId,
                 'primary_contact' => $i === $primaryIndex ? 'true' : 'false',
@@ -878,6 +941,31 @@ class DemoSeedTool extends CommandLineTool
     // -----------------------------------------------------------------------
     // Helpers
     // -----------------------------------------------------------------------
+
+    /** Name of the journal's author group as stored (native import matches by name). */
+    protected function authorGroupName(): string
+    {
+        static $name = null;
+        if ($name === null) {
+            $group = $this->userGroup('author');
+            $names = $group ? array_filter((array) $group->name) : [];
+            $name = $names['en'] ?? (reset($names) ?: 'Author');
+        }
+        return $name;
+    }
+
+    /** Name of the "Article Text" genre as stored in this journal. */
+    protected function genreName(): string
+    {
+        static $name = null;
+        if ($name === null) {
+            $genreDao = DAORegistry::getDAO('GenreDAO'); /** @var \PKP\submission\GenreDAO $genreDao */
+            $genre = $genreDao->getByKey('SUBMISSION', $this->journal->getId());
+            $names = $genre ? array_filter((array) $genre->getName(null)) : [];
+            $name = $names['en'] ?? (reset($names) ?: 'Article Text');
+        }
+        return $name;
+    }
 
     protected function checklistHtml(array $items): array
     {
