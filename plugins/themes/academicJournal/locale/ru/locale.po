@@ -93,3 +93,29 @@ msgstr "Двойное слепое"
 msgid "plugins.themes.academicJournal.editorialBoard"
 msgstr "Редакция"
 
+msgid "plugins.themes.academicJournal.option.highlightColour.label"
+msgstr "Цвет акцентных линий"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.description"
+msgstr "Тонкие линии, ободок эмблемы, подпись в блоке-приветствии и подчёркивание активного пункта меню."
+
+msgid "plugins.themes.academicJournal.option.headingFont.label"
+msgstr "Шрифт заголовков"
+
+msgid "plugins.themes.academicJournal.option.headingFont.serif"
+msgstr "С засечками (Source Serif) — классический академический"
+
+msgid "plugins.themes.academicJournal.option.headingFont.sans"
+msgstr "Геометрический гротеск (Montserrat) — современный"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.label"
+msgstr "Расположение логотипа"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.description"
+msgstr "Где показывать логотип, загруженный в «Веб-сайт → Оформление»."
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.beside"
+msgstr "Рядом с названием журнала (название остаётся)"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.replace"
+msgstr "Вместо названия журнала"

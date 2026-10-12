@@ -17,7 +17,7 @@
 <html lang="{$currentLocale|replace:"_":"-"}" xml:lang="{$currentLocale|replace:"_":"-"}">
 {if !$pageTitleTranslated}{capture assign="pageTitleTranslated"}{translate key=$pageTitle}{/capture}{/if}
 {include file="frontend/components/headerHead.tpl"}
-<body class="pkp_page_{$requestedPage|escape|default:"index"} pkp_op_{$requestedOp|escape|default:"index"}{if $showingLogo} has_site_logo{/if} academic_theme" dir="{$currentLocaleLangDir|escape|default:"ltr"}">
+<body class="pkp_page_{$requestedPage|escape|default:"index"} pkp_op_{$requestedOp|escape|default:"index"}{if $showingLogo && !$academicLogoBeside} has_site_logo{/if}{if $showingLogo && $academicLogoBeside} has_brand_logo{/if} academic_theme" dir="{$currentLocaleLangDir|escape|default:"ltr"}">
 
 	<div class="pkp_structure_page">
 
@@ -76,11 +76,11 @@
 					{capture assign="homeUrl"}
 						{url page="index" router=PKP\core\PKPApplication::ROUTE_PAGE}
 					{/capture}
-					{if $displayPageHeaderLogo}
+					{if $displayPageHeaderLogo && !$academicLogoBeside}
 						<a href="{$homeUrl}" class="is_img">
 							<img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" width="{$displayPageHeaderLogo.width|escape}" height="{$displayPageHeaderLogo.height|escape}" {if $displayPageHeaderLogo.altText != ''}alt="{$displayPageHeaderLogo.altText|escape}"{/if} />
 						</a>
-					{elseif $displayPageHeaderTitle}
+					{elseif $displayPageHeaderTitle || $currentContext}
 						<a href="{$homeUrl}" class="is_text">
 							<span class="ac_seal" aria-hidden="true">{if $currentContext && $currentContext->getLocalizedData('acronym')}{$currentContext->getLocalizedData('acronym')|escape|truncate:4:""}{else}{$displayPageHeaderTitle|escape|truncate:1:""}{/if}</span>
 							<span class="ac_title_text">
@@ -96,6 +96,11 @@
 						</a>
 					{/if}
 					</div>
+					{if $displayPageHeaderLogo && $academicLogoBeside}
+						<a href="{$homeUrl}" class="ac_brand_logo">
+							<img src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" width="{$displayPageHeaderLogo.width|escape}" height="{$displayPageHeaderLogo.height|escape}" alt="{$displayPageHeaderLogo.altText|escape|default:$displayPageHeaderTitle|escape}" />
+						</a>
+					{/if}
 				</div>
 
 				{capture assign="primaryMenu"}

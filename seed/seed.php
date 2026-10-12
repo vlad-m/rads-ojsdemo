@@ -129,6 +129,7 @@ class DemoSeedTool extends CommandLineTool
         $this->step('Journal', fn () => $this->createJournal());
         $this->step('Users', fn () => $this->createUsers());
         $this->step('Plugins & theme', fn () => $this->configurePlugins());
+        $this->step('Branding', fn () => $this->applyBranding());
         $this->step('Issues & articles', fn () => $this->importIssues());
         $this->step('Workflow submissions', fn () => $this->importSubmissions());
         $this->step('Announcements', fn () => $this->createAnnouncements());
@@ -371,11 +372,71 @@ class DemoSeedTool extends CommandLineTool
         $siteDao->updateObject($site);
     }
 
+    /**
+     * Corporate identity from journal.json "branding": theme colours and
+     * fonts, header logo (per locale) and favicon.
+     */
+    protected function applyBranding(): void
+    {
+        $branding = $this->content['journal']['branding'] ?? null;
+        if (!$branding) {
+            return;
+        }
+        $contextId = $this->journal->getId();
+        $pluginSettingsDao = DAORegistry::getDAO('PluginSettingsDAO'); /** @var \PKP\plugins\PluginSettingsDAO $pluginSettingsDao */
+        foreach (['primaryColour', 'accentColour', 'highlightColour', 'headingFont', 'logoPlacement'] as $option) {
+            if (!empty($branding[$option])) {
+                $pluginSettingsDao->updateSetting($contextId, 'academicjournalthemeplugin', $option, $branding[$option], 'string');
+                $this->line("  theme {$option} = {$branding[$option]}");
+            }
+        }
+
+        $publicFileManager = new \APP\file\PublicFileManager();
+        $publicDir = Core::getBaseDir() . '/' . $publicFileManager->getContextFilesPath($contextId);
+        if (!is_dir($publicDir)) {
+            mkdir($publicDir, 0755, true);
+        }
+        $install = function (string $relPath, string $setting, string $locale, string $altText = '') use ($publicDir): ?array {
+            $src = $this->assetsDir . '/' . $relPath;
+            if (!is_file($src)) {
+                $this->line("  (missing {$relPath}, skipped)");
+                return null;
+            }
+            $ext = strtolower(pathinfo($src, PATHINFO_EXTENSION));
+            $uploadName = "{$setting}_{$locale}.{$ext}";
+            copy($src, $publicDir . '/' . $uploadName);
+            [$width, $height] = getimagesize($src) ?: [0, 0];
+            return [
+                'name' => basename($src),
+                'uploadName' => $uploadName,
+                'width' => $width,
+                'height' => $height,
+                'dateUploaded' => Core::getCurrentDate(),
+                'altText' => $altText,
+            ];
+        };
+
+        $contextDao = Application::getContextDAO();
+        $journal = $contextDao->getById($contextId);
+        foreach (self::LOCALES as $locale) {
+            if (!empty($branding['logo'][$locale]) && ($value = $install($branding['logo'][$locale], 'pageHeaderLogoImage', $locale, $branding['logoAltText'][$locale] ?? ''))) {
+                $journal->setData('pageHeaderLogoImage', $value, $locale);
+            }
+            if (!empty($branding['favicon']) && ($value = $install($branding['favicon'], 'favicon', $locale))) {
+                $journal->setData('favicon', $value, $locale);
+            }
+        }
+        $contextDao->updateObject($journal);
+        $this->journal = $contextDao->getById($contextId);
+        $this->line('  logo and favicon installed');
+    }
+
     protected function importIssues(): void
     {
         foreach ($this->content['issues'] as $issueData) {
-            if ($this->findIssue($issueData)) {
-                $this->line('  Vol. ' . $issueData['volume'] . ' No. ' . $issueData['number'] . ' already exists, skipped');
+            if ($existingIssue = $this->findIssue($issueData)) {
+                $this->refreshIssueAssets($existingIssue, $issueData);
+                $this->line('  Vol. ' . $issueData['volume'] . ' No. ' . $issueData['number'] . ' already exists: cover and PDFs refreshed');
                 continue;
             }
             $xml = $this->buildIssuesXml([$issueData]);
@@ -411,6 +472,57 @@ class DemoSeedTool extends CommandLineTool
         }
     }
 
+    /**
+     * Re-running the seed after the assets were rebuilt (new design, publisher
+     * name…) replaces the cover image and the article PDFs of issues that
+     * already exist, without touching their metadata.
+     */
+    protected function refreshIssueAssets(\APP\issue\Issue $issue, array $issueData): void
+    {
+        $publicFileManager = new \APP\file\PublicFileManager();
+        $publicDir = Core::getBaseDir() . '/' . $publicFileManager->getContextFilesPath($this->journal->getId());
+        $coverSrc = $this->assetsDir . '/' . ($issueData['cover'] ?? '');
+        if (!empty($issueData['cover']) && is_file($coverSrc)) {
+            foreach ((array) $issue->getData('coverImage') as $name) {
+                if (is_string($name) && $name !== '' && basename($name) === $name && is_file($publicDir . '/' . $name)) {
+                    copy($coverSrc, $publicDir . '/' . $name);
+                }
+            }
+        }
+        foreach ($issueData['articles'] as $articleData) {
+            $this->refreshSubmissionPdf($articleData);
+        }
+    }
+
+    /** Replace the stored PDF(s) of an existing demo article with the current asset. */
+    protected function refreshSubmissionPdf(array $data): void
+    {
+        $src = $this->assetsDir . '/' . ($data['pdf'] ?? '');
+        if (empty($data['pdf']) || !is_file($src)) {
+            return;
+        }
+        $submissionIds = DB::table('publication_settings as ps')
+            ->join('publications as p', 'p.publication_id', '=', 'ps.publication_id')
+            ->join('submissions as s', 's.submission_id', '=', 'p.submission_id')
+            ->where('s.context_id', $this->journal->getId())
+            ->where('ps.setting_name', 'title')
+            ->whereIn('ps.setting_value', array_values($data['title']))
+            ->distinct()
+            ->pluck('s.submission_id');
+        if ($submissionIds->isEmpty()) {
+            return;
+        }
+        $fileService = app()->get('file');
+        $contents = file_get_contents($src);
+        $files = Repo::submissionFile()->getCollector()->filterBySubmissionIds($submissionIds->all())->getMany();
+        foreach ($files as $submissionFile) {
+            $file = $fileService->get((int) $submissionFile->getData('fileId'));
+            if ($file && str_ends_with(strtolower($file->path), '.pdf') && $fileService->fs->fileExists($file->path)) {
+                $fileService->fs->write($file->path, $contents);
+            }
+        }
+    }
+
     protected function findIssue(array $issueData): ?\APP\issue\Issue
     {
         return Repo::issue()->getCollector()
@@ -438,7 +550,8 @@ class DemoSeedTool extends CommandLineTool
         $editorId = $this->userIds['demo-editor'] ?? null;
         foreach ($this->content['submissions'] as $data) {
             if ($this->submissionExists($data)) {
-                $this->line('  "' . $data['slug'] . '" already exists, skipped');
+                $this->refreshSubmissionPdf($data);
+                $this->line('  "' . $data['slug'] . '" already exists: PDF refreshed');
                 continue;
             }
             $xml = $this->buildSubmissionXml($data);

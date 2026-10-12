@@ -30,7 +30,7 @@ const J = data.journal;
 
 // ---------------------------------------------------------------- helpers
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-const C = { navy: '#14213D', burgundy: '#8C1C2C', gold: '#B08D57', slate: '#5B6B8C', ink: '#1d1d1f', muted: '#6b6f7a', rule: '#d9d4c7' };
+const C = { navy: '#00507A', burgundy: '#0072A6', gold: '#F7901E', slate: '#5B7A91', ink: '#1d1d1f', muted: '#6b6f7a', rule: '#d9d4c7' };
 
 let FONT_CSS = null;
 function fontFaces() {
@@ -45,6 +45,9 @@ function fontFaces() {
   }
   for (const w of [400, 500, 600]) {
     for (const [sub, rng] of [['latin', LAT], ['cyrillic', CYR]]) out.push(`@font-face{font-family:'InterW';font-style:normal;font-weight:${w};src:url('${f(`inter-${sub}-${w}-normal.woff2`)}') format('woff2');unicode-range:${rng};}`);
+  }
+  for (const w of [500, 600, 700]) {
+    for (const [sub, rng] of [['latin', LAT], ['cyrillic', CYR]]) out.push(`@font-face{font-family:'BrandW';font-style:normal;font-weight:${w};src:url('${f(`montserrat-${sub}-${w}-normal.woff2`)}') format('woff2');unicode-range:${rng};}`);
   }
   FONT_CSS = out.join('\n');
   return FONT_CSS;
@@ -204,14 +207,14 @@ html { counter-reset: page ${first - 1}; }
 * { box-sizing: border-box; }
 body { margin: 0; font-family: 'Source Serif 4', serif; font-size: 9.3pt; line-height: 1.4; color: ${C.ink}; -webkit-print-color-adjust: exact; }
 .mast { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2.2pt solid ${C.navy}; padding-bottom: 2.4mm; margin-bottom: 1mm; }
-.mast .jn { font: 600 13pt 'Source Serif 4', serif; color: ${C.navy}; letter-spacing: .01em; }
+.mast .jn { font: 600 12.5pt BrandW, sans-serif; color: ${C.navy}; letter-spacing: .01em; }
 .mast .jn small { display: block; font: 500 7pt InterW, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: ${C.gold}; margin-bottom: 1mm; }
 .mast .meta { text-align: right; font: 400 7.6pt/1.5 InterW, sans-serif; color: ${C.navy}; }
 .mast .meta b { color: ${C.burgundy}; font-weight: 600; }
 .subrule { border-top: .6pt solid ${C.gold}; margin-bottom: 6mm; }
 .kind { font: 600 7.6pt InterW, sans-serif; letter-spacing: .16em; text-transform: uppercase; color: ${C.burgundy}; margin-bottom: 2.5mm; }
 .kind.ms { color: #fff; background: ${C.burgundy}; display: inline-block; padding: 1mm 2.5mm; border-radius: 1mm; margin-left: 2mm; letter-spacing: .1em; }
-h1 { font: 700 17pt/1.18 'Source Serif 4', serif; color: ${C.navy}; margin: 0 0 1.5mm; }
+h1 { font: 600 16pt/1.22 BrandW, sans-serif; color: ${C.navy}; margin: 0 0 1.5mm; }
 h2.subtitle { font: 400 italic 12pt/1.25 'Source Serif 4', serif; color: ${C.navy}; margin: 0 0 3mm; }
 .authors { font: 600 10.5pt 'Source Serif 4', serif; margin: 3.5mm 0 1.5mm; }
 .authors sup { font: 500 6.5pt InterW, sans-serif; color: ${C.burgundy}; margin-left: .3mm; }
@@ -263,7 +266,7 @@ ol.refs li::marker { color: ${C.burgundy}; font: 600 7.8pt InterW, sans-serif; }
   const sec = (n, key, html) => `<h3><span class="n">${n}</span>${T[key]}</h3>${html}`;
 
   return `<!doctype html><html lang="${loc}"><head><meta charset="utf-8"><title>${esc(a.title[loc])}</title><style>${css}</style></head><body>
-<header class="mast"><div class="jn"><small>${loc === 'ru' ? esc(J.publisherInstitution) : 'Academia Research Publishing Centre'}</small>${esc(J.name[loc])}</div><div class="meta">${mastMeta}</div></header>
+<header class="mast"><div class="jn"><small>${loc === 'ru' ? esc(J.publisherInstitution) : 'Tsifra LLC'}</small>${esc(J.name[loc])}</div><div class="meta">${mastMeta}</div></header>
 <div class="subrule"></div>
 <div class="kind">${T.sections[a.section]}${published ? '' : `<span class="kind ms">${T.manuscript}</span>`}</div>
 <h1>${esc(a.title[loc])}</h1>
@@ -305,22 +308,22 @@ async function renderPdf(page, html, out) {
 
 // ---------------------------------------------------------------- covers
 function coverHTML(issue, idx) {
-  const accents = ['#B08D57', '#5E9EA0', '#B4505E'];
+  const accents = ['#F7901E', '#5FC3EE', '#FFB25B'];
   const acc = accents[idx % accents.length];
   const motif = [motifContours, motifLattice, motifNetwork][idx % 3](acc);
   return `<!doctype html><html><head><meta charset="utf-8"><style>${fontFaces()}
 html,body{margin:0;width:600px;height:848px;overflow:hidden}
-body{background:${C.navy};color:#F3EEE3;font-family:'Source Serif 4',serif;position:relative}
+body{background:linear-gradient(160deg,${C.burgundy} 0%,${C.navy} 100%);color:#fff;font-family:'Source Serif 4',serif;position:relative}
 .frame{position:absolute;inset:22px;border:1px solid ${C.gold}}
-.frame2{position:absolute;inset:28px;border:.5px solid rgba(176,141,87,.55)}
+.frame2{position:absolute;inset:28px;border:.5px solid rgba(255,255,255,.35)}
 .top{position:absolute;top:58px;left:60px;right:60px;display:flex;justify-content:space-between;font:500 10.5px InterW,sans-serif;letter-spacing:.2em;color:${C.gold};text-transform:uppercase}
-.name{position:absolute;top:104px;left:60px;right:60px;font-weight:600;font-size:40px;line-height:1.12;letter-spacing:.005em}
+.name{position:absolute;top:104px;left:60px;right:60px;font-family:BrandW,sans-serif;font-weight:600;font-size:36px;line-height:1.12;letter-spacing:.005em}
 .rule{position:absolute;top:262px;left:60px;width:96px;height:2px;background:${acc}}
 .vol{position:absolute;top:282px;left:60px;font:500 15px InterW,sans-serif;letter-spacing:.16em;color:${C.gold}}
 .motif{position:absolute;top:322px;left:29px;right:29px;height:262px;overflow:hidden}.motif svg{margin-left:-29px;display:block;width:600px;height:262px}
 .theme{position:absolute;left:60px;right:60px;bottom:128px;font-style:italic;font-size:25px;line-height:1.25;color:#fff}
 .theme small{display:block;font:500 9.5px InterW,sans-serif;font-style:normal;letter-spacing:.24em;color:${acc};margin-bottom:10px;text-transform:uppercase}
-.pub{position:absolute;left:60px;right:60px;bottom:58px;border-top:1px solid ${C.gold};padding-top:14px;display:flex;justify-content:space-between;font:400 11px InterW,sans-serif;color:#D9D2C3;letter-spacing:.04em}
+.pub{position:absolute;left:60px;right:60px;bottom:58px;border-top:1px solid ${C.gold};padding-top:14px;display:flex;justify-content:space-between;font:400 11px InterW,sans-serif;color:rgba(255,255,255,.85);letter-spacing:.04em}
 </style></head><body>
 <div class="frame"></div><div class="frame2"></div>
 <div class="top"><span>ISSN ${J.onlineIssn}</span><span>${esc(J.acronym.ru)} · Открытый доступ</span></div>
@@ -345,7 +348,7 @@ function motifContours(acc) { // topographic contour lines
       const rr = r * (1 + 0.12 * Math.sin(3 * a + k * 0.35) + 0.06 * Math.cos(5 * a - k * 0.2));
       d += `${t ? 'L' : 'M'}${(400 + rr * 1.25 * Math.cos(a)).toFixed(1)},${(165 + rr * 0.8 * Math.sin(a)).toFixed(1)}`;
     }
-    p += `<path d="${d}Z" fill="none" stroke="${k % 4 === 0 ? acc : '#B08D57'}" stroke-opacity="${k % 4 === 0 ? 0.85 : 0.32}" stroke-width="${k % 4 === 0 ? 1.2 : 0.7}"/>`;
+    p += `<path d="${d}Z" fill="none" stroke="${k % 4 === 0 ? acc : C.gold}" stroke-opacity="${k % 4 === 0 ? 0.85 : 0.32}" stroke-width="${k % 4 === 0 ? 1.2 : 0.7}"/>`;
   }
   return `<svg viewBox="0 0 600 330" preserveAspectRatio="xMidYMid slice">${p}<circle cx="400" cy="165" r="3" fill="${acc}"/></svg>`;
 }
@@ -359,7 +362,7 @@ function motifLattice(acc) { // hexagonal crystal lattice fading to the left
     let d = '';
     for (let i = 0; i < 6; i++) { const a = (Math.PI / 3) * i; d += `${i ? 'L' : 'M'}${(cx + s * Math.cos(a)).toFixed(1)},${(cy + s * Math.sin(a)).toFixed(1)}`; }
     const hl = (row * 7 + col * 3) % 11 === 0;
-    p += `<path d="${d}Z" fill="${hl ? acc : 'none'}" fill-opacity="${hl ? 0.28 * op : 0}" stroke="${hl ? acc : '#B08D57'}" stroke-opacity="${(hl ? 0.9 : 0.38) * op}" stroke-width="${hl ? 1.1 : 0.7}"/>`;
+    p += `<path d="${d}Z" fill="${hl ? acc : 'none'}" fill-opacity="${hl ? 0.28 * op : 0}" stroke="${hl ? acc : C.gold}" stroke-opacity="${(hl ? 0.9 : 0.38) * op}" stroke-width="${hl ? 1.1 : 0.7}"/>`;
     if (hl) p += `<circle cx="${cx}" cy="${cy}" r="2.4" fill="${acc}" fill-opacity="${op}"/>`;
   }
   return `<svg viewBox="0 0 600 330" preserveAspectRatio="xMidYMid slice">${p}</svg>`;
@@ -371,12 +374,12 @@ function motifNetwork(acc) { // network of nodes over sine waves
   for (let w = 0; w < 6; w++) {
     let d = '';
     for (let x = 0; x <= 600; x += 10) d += `${x ? 'L' : 'M'}${x},${(250 + w * 11 + 14 * Math.sin(x / 55 + w * 0.6)).toFixed(1)}`;
-    p += `<path d="${d}" fill="none" stroke="#B08D57" stroke-opacity="${0.18 + w * 0.05}" stroke-width="0.8"/>`;
+    p += `<path d="${d}" fill="none" stroke="${C.gold}" stroke-opacity="${0.18 + w * 0.05}" stroke-width="0.8"/>`;
   }
   nodes.forEach((a, i) => nodes.forEach((b, j) => {
     if (j <= i) return;
     const dd = Math.hypot(a[0] - b[0], a[1] - b[1]);
-    if (dd < 88) p += `<line x1="${a[0].toFixed(1)}" y1="${a[1].toFixed(1)}" x2="${b[0].toFixed(1)}" y2="${b[1].toFixed(1)}" stroke="#B08D57" stroke-opacity="${(0.55 - dd / 200).toFixed(2)}" stroke-width="0.7"/>`;
+    if (dd < 88) p += `<line x1="${a[0].toFixed(1)}" y1="${a[1].toFixed(1)}" x2="${b[0].toFixed(1)}" y2="${b[1].toFixed(1)}" stroke="${C.gold}" stroke-opacity="${(0.55 - dd / 200).toFixed(2)}" stroke-width="0.7"/>`;
   }));
   nodes.forEach((a, i) => { p += `<circle cx="${a[0].toFixed(1)}" cy="${a[1].toFixed(1)}" r="${i % 5 === 0 ? 4 : 2.2}" fill="${i % 5 === 0 ? acc : '#E8DCC4'}" fill-opacity="${i % 5 === 0 ? 0.95 : 0.7}"/>`; });
   return `<svg viewBox="0 0 600 330" preserveAspectRatio="xMidYMid slice">${p}</svg>`;

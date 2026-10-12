@@ -22,8 +22,8 @@
       "en": "<p>The Journal of Interdisciplinary Research is a peer-reviewed open-access journal publishing original research at the intersection of the natural, technical, social sciences and the humanities. The journal brings together authors who address complex practical and theoretical problems with the methods of more than one discipline.</p><p>Its scope covers data science, ecology and climate, economics, linguistics, materials science, public health, educational technology, the history of science and urban studies. We welcome work that combines methodological rigour with clear writing and open data.</p>"
     },
     "about": {
-      "ru": "<h3>Цели и задачи</h3><p>Журнал создан для того, чтобы предоставить площадку исследованиям, которые не укладываются в рамки одной дисциплины. Мы публикуем оригинальные статьи, обзоры и краткие сообщения, в которых методы одной области применяются для решения задач другой, а результаты значимы для широкого круга специалистов.</p><h3>Рецензирование</h3><p>Все рукописи проходят двойное слепое рецензирование не менее чем двумя независимыми экспертами. Средний срок от подачи рукописи до первого решения составляет шесть недель. Окончательное решение о публикации принимает главный редактор на основании рецензий и рекомендации редактора раздела.</p><h3>Открытый доступ</h3><p>Все материалы журнала доступны бесплатно сразу после публикации и распространяются на условиях лицензии Creative Commons Attribution 4.0 International (CC BY 4.0).</p><h3>Индексирование</h3><p>Журнал зарегистрирован в Российском индексе научного цитирования (РИНЦ), метаданные статей депонируются в открытых научных каталогах и доступны по протоколу OAI-PMH.</p><h3>Периодичность</h3><p>Журнал выходит два раза в год — в марте и сентябре. Статьи публикуются в составе выпусков.</p><h3>Плата за публикацию</h3><p>Журнал не взимает плату ни за подачу, ни за рецензирование, ни за публикацию статей (APC отсутствует). Издание финансируется издателем — Научно-издательским центром «Академия».</p>",
-      "en": "<h3>Aims and Scope</h3><p>The journal was founded to provide a venue for research that does not fit within the boundaries of a single discipline. We publish original articles, reviews and short communications in which the methods of one field are applied to the problems of another and the results matter to a broad range of specialists.</p><h3>Peer Review</h3><p>All manuscripts undergo double-blind peer review by at least two independent experts. The median time from submission to first decision is six weeks. The final decision on publication is made by the Editor-in-Chief on the basis of the reviews and the recommendation of the section editor.</p><h3>Open Access</h3><p>All content is freely available immediately upon publication and is distributed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).</p><h3>Indexing</h3><p>The journal is registered in the Russian Science Citation Index (RSCI); article metadata are deposited in open scholarly catalogues and exposed via OAI-PMH.</p><h3>Frequency</h3><p>The journal is published twice a year, in March and September. Articles are published as part of issues.</p><h3>Article Processing Charges</h3><p>The journal charges no submission, review or publication fees (no APC). It is funded by its publisher, Academia Research Publishing Centre.</p>"
+      "ru": "<h3>Цели и задачи</h3><p>Журнал создан для того, чтобы предоставить площадку исследованиям, которые не укладываются в рамки одной дисциплины. Мы публикуем оригинальные статьи, обзоры и краткие сообщения, в которых методы одной области применяются для решения задач другой, а результаты значимы для широкого круга специалистов.</p><h3>Рецензирование</h3><p>Все рукописи проходят двойное слепое рецензирование не менее чем двумя независимыми экспертами. Средний срок от подачи рукописи до первого решения составляет шесть недель. Окончательное решение о публикации принимает главный редактор на основании рецензий и рекомендации редактора раздела.</p><h3>Открытый доступ</h3><p>Все материалы журнала доступны бесплатно сразу после публикации и распространяются на условиях лицензии Creative Commons Attribution 4.0 International (CC BY 4.0).</p><h3>Индексирование</h3><p>Журнал зарегистрирован в Российском индексе научного цитирования (РИНЦ), метаданные статей депонируются в открытых научных каталогах и доступны по протоколу OAI-PMH.</p><h3>Периодичность</h3><p>Журнал выходит два раза в год — в марте и сентябре. Статьи публикуются в составе выпусков.</p><h3>Плата за публикацию</h3><p>Журнал не взимает плату ни за подачу, ни за рецензирование, ни за публикацию статей (APC отсутствует). Издание финансируется издателем — ООО «Цифра».</p>",
+      "en": "<h3>Aims and Scope</h3><p>The journal was founded to provide a venue for research that does not fit within the boundaries of a single discipline. We publish original articles, reviews and short communications in which the methods of one field are applied to the problems of another and the results matter to a broad range of specialists.</p><h3>Peer Review</h3><p>All manuscripts undergo double-blind peer review by at least two independent experts. The median time from submission to first decision is six weeks. The final decision on publication is made by the Editor-in-Chief on the basis of the reviews and the recommendation of the section editor.</p><h3>Open Access</h3><p>All content is freely available immediately upon publication and is distributed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0).</p><h3>Indexing</h3><p>The journal is registered in the Russian Science Citation Index (RSCI); article metadata are deposited in open scholarly catalogues and exposed via OAI-PMH.</p><h3>Frequency</h3><p>The journal is published twice a year, in March and September. Articles are published as part of issues.</p><h3>Article Processing Charges</h3><p>The journal charges no submission, review or publication fees (no APC). It is funded by its publisher, Tsifra LLC.</p>"
     },
     "authorGuidelines": {
       "ru": "<p>Журнал принимает рукописи на русском и английском языках. Перед подачей ознакомьтесь с политикой разделов и требованиями к оформлению.</p><ul><li>Объём научной статьи — 25–45 тыс. знаков с пробелами, обзора — до 60 тыс., краткого сообщения — до 15 тыс.</li><li>Аннотация на русском и английском языках объёмом 150–250 слов; 4–6 ключевых слов на каждом языке.</li><li>Структура статьи: введение, материалы и методы, результаты, обсуждение, заключение, список литературы.</li><li>Список литературы оформляется по ГОСТ Р 7.0.5–2008; для всех источников, имеющих DOI, он указывается.</li><li>Рисунки предоставляются отдельными файлами (PNG, TIFF или SVG) с разрешением не менее 300 dpi.</li><li>Для двойного слепого рецензирования из рукописи удаляются сведения об авторах.</li></ul>",
@@ -77,7 +77,22 @@
     },
     "onlineIssn": "2949-4176",
     "printIssn": "2949-4184",
-    "publisherInstitution": "Научно-издательский центр «Академия»",
+    "branding": {
+      "primaryColour": "#0072A6",
+      "accentColour": "#0072A6",
+      "highlightColour": "#F7901E",
+      "headingFont": "sans",
+      "logo": {
+        "ru": "brand/rads-logo-ru.png",
+        "en": "brand/rads-logo-en.png"
+      },
+      "logoAltText": {
+        "ru": "Российское Агентство Цифровой Стандартизации",
+        "en": "Russian Agency for Digital Standardization"
+      },
+      "favicon": "brand/rads-mark.png"
+    },
+    "publisherInstitution": "ООО «Цифра»",
     "contactName": "Елена Соколовская",
     "contactEmail": "editorial@example.org",
     "contactPhone": "+7 (000) 000-00-00",
@@ -85,7 +100,7 @@
       "ru": "Новоборский государственный университет",
       "en": "Novobor State University"
     },
-    "mailingAddress": "Научно-издательский центр «Академия», ул. Университетская, д. 12, офис 304, г. Новобор, 000000, Россия",
+    "mailingAddress": "ООО «Цифра», ул. Университетская, д. 12, офис 304, г. Новобор, 000000, Россия",
     "supportName": "Мария Белова",
     "supportEmail": "support@example.org"
   },
@@ -319,8 +334,8 @@
         "en": "Belova"
       },
       "affiliation": {
-        "ru": "Научно-издательский центр «Академия»",
-        "en": "Academia Research Publishing Centre"
+        "ru": "ООО «Цифра»",
+        "en": "Tsifra LLC"
       },
       "country": "RU",
       "biography": {
@@ -2009,8 +2024,8 @@
         "en": "<p>On 27–28 November 2026 the journal will host an online conference for authors and reviewers. Registration is open until 1 November.</p>"
       },
       "description": {
-        "ru": "<p>Научно-издательский центр «Академия» и редакция журнала приглашают к участию в онлайн-конференции «Междисциплинарность в науке — 2026», которая пройдёт 27–28 ноября 2026 г.</p><p>В программе — пленарные доклады, секции по науке о данных, экологии, экономике и гуманитарным исследованиям, а также мастер-класс по подготовке рукописей и рецензий. Лучшие доклады будут рекомендованы к публикации в журнале после рецензирования. Участие бесплатное; регистрация открыта до 1 ноября 2026 г.</p>",
-        "en": "<p>Academia Research Publishing Centre and the journal's editorial office invite you to the online conference Interdisciplinarity in Science 2026, to be held on 27–28 November 2026.</p><p>The programme includes plenary talks, sessions on data science, ecology, economics and the humanities, and a workshop on preparing manuscripts and peer reviews. The best papers will be recommended for publication in the journal after peer review. Participation is free; registration is open until 1 November 2026.</p>"
+        "ru": "<p>ООО «Цифра» и редакция журнала приглашают к участию в онлайн-конференции «Междисциплинарность в науке — 2026», которая пройдёт 27–28 ноября 2026 г.</p><p>В программе — пленарные доклады, секции по науке о данных, экологии, экономике и гуманитарным исследованиям, а также мастер-класс по подготовке рукописей и рецензий. Лучшие доклады будут рекомендованы к публикации в журнале после рецензирования. Участие бесплатное; регистрация открыта до 1 ноября 2026 г.</p>",
+        "en": "<p>Tsifra LLC and the journal's editorial office invite you to the online conference Interdisciplinarity in Science 2026, to be held on 27–28 November 2026.</p><p>The programme includes plenary talks, sessions on data science, ecology, economics and the humanities, and a workshop on preparing manuscripts and peer reviews. The best papers will be recommended for publication in the journal after peer review. Participation is free; registration is open until 1 November 2026.</p>"
       },
       "datePosted": "2026-09-01"
     }

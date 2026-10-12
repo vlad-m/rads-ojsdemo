@@ -17,7 +17,7 @@
 @ac-line-strong:  #CFC8B8;
 @ac-ink:          #1C1C1E;
 @ac-muted:        #5F5B52;
-@ac-gold:         #B08D57;
+@ac-gold:         @ac-highlight;
 @ac-primary-soft: mix(@ac-primary, #fff, 8%);
 @ac-accent-soft:  mix(@ac-accent, #fff, 8%);
 @ac-serif:        "Source Serif 4", "PT Serif", Georgia, "Times New Roman", serif;
@@ -28,8 +28,8 @@
 
 // Parent variables
 @font:            @ac-sans;
-@font-heading:    @ac-serif;
-@font-site-title: @ac-serif;
+@font-heading:    @ac-heading;
+@font-site-title: @ac-heading;
 @text:            @ac-ink;
 @text-light:      @ac-muted;
 @bg-shade:        @ac-line;
@@ -56,7 +56,7 @@ body.academic_theme {
 
 	h1, h2, h3, h4, h5, h6,
 	.page_title {
-		font-family: @ac-serif;
+		font-family: @ac-heading;
 		font-weight: 600;
 		color: @ac-primary;
 		letter-spacing: -0.005em;
@@ -270,7 +270,7 @@ body.academic_theme {
 		background: @ac-primary;
 		box-shadow: inset 0 0 0 2px @ac-surface, 0 0 0 1.5px @ac-gold;
 		color: #fff;
-		font-family: @ac-serif;
+		font-family: @ac-heading;
 		font-weight: 700;
 		font-size: 0.85rem;
 		letter-spacing: 0.04em;
@@ -283,7 +283,7 @@ body.academic_theme {
 	}
 
 	.ac_title {
-		font-family: @ac-serif;
+		font-family: @ac-heading;
 		font-weight: 600;
 		font-size: 1.05rem;
 		transition: color .15s;
@@ -348,6 +348,11 @@ body.academic_theme {
 		.ac_title {
 			font-size: 2.05rem;
 			line-height: 1.15;
+		}
+
+		// a logo next to the title leaves less room
+		&.has_brand_logo .ac_title {
+			font-size: 1.6rem;
 		}
 
 		.ac_subtitle {
@@ -492,6 +497,56 @@ body.academic_theme {
 	}
 }
 
+// Brand/publisher logo shown next to the journal title
+.academic_theme {
+
+	.ac_brand_logo {
+		display: none;
+	}
+
+	.ac_footer_logo {
+		display: block;
+		width: auto;
+		max-width: 220px;
+		height: auto;
+		max-height: 56px;
+		margin-bottom: 1rem;
+		// one-colour logos turn white on the dark footer
+		filter: brightness(0) invert(1);
+		opacity: .95;
+	}
+
+	@media (min-width: @screen-desktop) {
+
+		.pkp_site_name_wrapper {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.pkp_site_name {
+			width: auto;
+			flex: 1 1 auto;
+		}
+
+		.ac_brand_logo {
+			display: block;
+			flex: 0 0 auto;
+			margin-left: 2rem;
+			padding-left: 2rem;
+			border-left: 1px solid @ac-line;
+
+			img {
+				display: block;
+				width: auto;
+				height: auto;
+				max-height: 64px;
+				max-width: 300px;
+			}
+		}
+	}
+}
+
 // ---------------------------------------------------------------------------
 // Buttons & generic components
 // ---------------------------------------------------------------------------
@@ -519,16 +574,17 @@ body.academic_theme {
 		transition: background .15s, color .15s, border-color .15s;
 	}
 
+	// Main call to action on the (primary-coloured) hero: highlight colour
 	.ac_btn_primary {
-		background: @ac-accent;
-		border-color: @ac-accent;
-		color: #fff;
+		background: @ac-gold;
+		border-color: @ac-gold;
+		color: contrast(@ac-gold, #1c1c1e, #fff, 55%);
 
 		&:hover,
 		&:focus {
-			background: darken(@ac-accent, 8%);
-			border-color: darken(@ac-accent, 8%);
-			color: #fff;
+			background: lighten(@ac-gold, 6%);
+			border-color: lighten(@ac-gold, 6%);
+			color: contrast(@ac-gold, #1c1c1e, #fff, 55%);
 		}
 	}
 
@@ -600,7 +656,7 @@ body.academic_theme {
 		border-radius: 6px;
 		background:
 			radial-gradient(circle at 85% 15%, fade(@ac-gold, 22%), transparent 45%),
-			linear-gradient(135deg, @ac-primary 0%, mix(@ac-primary, @ac-accent, 78%) 100%);
+			linear-gradient(135deg, @ac-primary 0%, darken(@ac-primary, 14%) 100%);
 		color: #fff;
 		overflow: hidden;
 
@@ -654,7 +710,7 @@ body.academic_theme {
 		font-weight: 600;
 
 		@media (min-width: @screen-desktop) {
-			font-size: 2.6rem;
+			font-size: 2.4rem;
 		}
 	}
 
@@ -738,7 +794,7 @@ body.academic_theme {
 		}
 
 		strong {
-			font-family: @ac-serif;
+			font-family: @ac-heading;
 			font-size: 1.7rem;
 			font-weight: 600;
 			line-height: 1.1;
@@ -781,7 +837,7 @@ body.academic_theme {
 
 		.current_issue_title {
 			margin: 1rem 0 1.5rem;
-			font-family: @ac-serif;
+			font-family: @ac-heading;
 			font-size: 1.25rem;
 			font-weight: 600;
 			color: @ac-ink;
@@ -960,7 +1016,7 @@ body.academic_theme {
 		border-bottom: 1px solid @ac-line;
 
 		> .title {
-			font-family: @ac-serif;
+			font-family: @ac-heading;
 			font-size: 1.2rem;
 			font-weight: 600;
 			line-height: 1.35;
@@ -1075,7 +1131,7 @@ body.academic_theme {
 		}
 
 		.name {
-			font-family: @ac-serif;
+			font-family: @ac-heading;
 			font-size: 1.08rem;
 			font-weight: 600;
 			color: @ac-primary;
@@ -1367,7 +1423,7 @@ body.academic_theme {
 
 	.ac_footer_title {
 		margin-bottom: 0.75rem;
-		font-family: @ac-serif;
+		font-family: @ac-heading;
 		font-size: 1.3rem;
 		font-weight: 600;
 		line-height: 1.3;

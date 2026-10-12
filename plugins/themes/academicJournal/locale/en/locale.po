@@ -93,3 +93,29 @@ msgstr "Double-blind"
 msgid "plugins.themes.academicJournal.editorialBoard"
 msgstr "Editorial board"
 
+msgid "plugins.themes.academicJournal.option.highlightColour.label"
+msgstr "Highlight colour"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.description"
+msgstr "Thin rules, the seal ring, the hero kicker and the active navigation underline."
+
+msgid "plugins.themes.academicJournal.option.headingFont.label"
+msgstr "Heading typeface"
+
+msgid "plugins.themes.academicJournal.option.headingFont.serif"
+msgstr "Serif (Source Serif) — classic academic"
+
+msgid "plugins.themes.academicJournal.option.headingFont.sans"
+msgstr "Geometric sans-serif (Montserrat) — modern"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.label"
+msgstr "Logo placement"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.description"
+msgstr "Where the logo uploaded in Website > Appearance is shown."
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.beside"
+msgstr "Next to the journal title (title stays visible)"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.replace"
+msgstr "Instead of the journal title"

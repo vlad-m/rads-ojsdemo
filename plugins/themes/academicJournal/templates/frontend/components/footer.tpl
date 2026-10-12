@@ -27,6 +27,9 @@
 		{if $currentContext}
 			<div class="ac_footer_grid">
 				<div class="ac_footer_col ac_footer_about">
+					{if $displayPageHeaderLogo}
+						<img class="ac_footer_logo" src="{$publicFilesDir}/{$displayPageHeaderLogo.uploadName|escape:"url"}" alt="" width="{$displayPageHeaderLogo.width|escape}" height="{$displayPageHeaderLogo.height|escape}" />
+					{/if}
 					<div class="ac_footer_title">{$currentContext->getLocalizedName()|escape}</div>
 					{if $currentContext->getLocalizedData('publisherInstitution') || $currentContext->getData('publisherInstitution')}
 						<p class="ac_footer_publisher">

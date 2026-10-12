@@ -25,6 +25,7 @@ class AcademicJournalThemePlugin extends ThemePlugin
 {
     public const DEFAULT_PRIMARY = '#14213D';
     public const DEFAULT_ACCENT = '#8C1C2C';
+    public const DEFAULT_HIGHLIGHT = '#B08D57';
 
     /**
      * @copydoc ThemePlugin::isActive()
@@ -66,6 +67,33 @@ class AcademicJournalThemePlugin extends ThemePlugin
             'default' => self::DEFAULT_ACCENT,
         ]);
 
+        $this->addOption('highlightColour', 'FieldColor', [
+            'label' => __('plugins.themes.academicJournal.option.highlightColour.label'),
+            'description' => __('plugins.themes.academicJournal.option.highlightColour.description'),
+            'default' => self::DEFAULT_HIGHLIGHT,
+        ]);
+
+        $this->addOption('headingFont', 'FieldOptions', [
+            'type' => 'radio',
+            'label' => __('plugins.themes.academicJournal.option.headingFont.label'),
+            'options' => [
+                ['value' => 'serif', 'label' => __('plugins.themes.academicJournal.option.headingFont.serif')],
+                ['value' => 'sans', 'label' => __('plugins.themes.academicJournal.option.headingFont.sans')],
+            ],
+            'default' => 'serif',
+        ]);
+
+        $this->addOption('logoPlacement', 'FieldOptions', [
+            'type' => 'radio',
+            'label' => __('plugins.themes.academicJournal.option.logoPlacement.label'),
+            'description' => __('plugins.themes.academicJournal.option.logoPlacement.description'),
+            'options' => [
+                ['value' => 'beside', 'label' => __('plugins.themes.academicJournal.option.logoPlacement.beside')],
+                ['value' => 'replace', 'label' => __('plugins.themes.academicJournal.option.logoPlacement.replace')],
+            ],
+            'default' => 'beside',
+        ]);
+
         $this->addOption('showHero', 'FieldOptions', [
             'label' => __('plugins.themes.academicJournal.option.showHero.label'),
             'options' => [
@@ -97,6 +125,10 @@ class AcademicJournalThemePlugin extends ThemePlugin
 
         $primary = $this->sanitizeColour($this->getOption('primaryColour'), self::DEFAULT_PRIMARY);
         $accent = $this->sanitizeColour($this->getOption('accentColour'), self::DEFAULT_ACCENT);
+        $highlight = $this->sanitizeColour($this->getOption('highlightColour'), self::DEFAULT_HIGHLIGHT);
+        $headingFont = $this->getOption('headingFont') === 'sans'
+            ? 'Montserrat, "Century Gothic", Inter, sans-serif'
+            : '"Source Serif 4", "PT Serif", Georgia, "Times New Roman", serif';
 
         // Compile our styles together with the parent stylesheet so that the
         // parent's LESS variables and mixins are available.
@@ -108,6 +140,8 @@ class AcademicJournalThemePlugin extends ThemePlugin
             'addLessVariables' => join("\n", [
                 '@ac-primary: ' . $primary . ';',
                 '@ac-accent: ' . $accent . ';',
+                '@ac-highlight: ' . $highlight . ';',
+                '@ac-heading: ' . $headingFont . ';',
                 '@bg-base: ' . $primary . ';',
                 '@primary: ' . $accent . ';',
             ]),
@@ -147,6 +181,7 @@ class AcademicJournalThemePlugin extends ThemePlugin
             'academicHeroTagline' => (string) $tagline,
             'academicShowStats' => (bool) $this->getOption('showJournalStats'),
             'academicYear' => date('Y'),
+            'academicLogoBeside' => $this->getOption('logoPlacement') !== 'replace',
         ]);
 
         if ($context && $template === 'frontend/pages/indexJournal.tpl' && $this->getOption('showJournalStats')) {
