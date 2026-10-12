@@ -16,7 +16,8 @@
 
 ## Быстрый старт (сервер sweb, по SSH)
 
-> На **ваших** путях: OJS лежит в `~/ojsdemo_new` (`/home/r/researcorg/ojsdemo_new`).
+> На **ваших** путях: сайт лежит в `~/ojsdemo_new`. На sweb файлы сайта обычно находятся в подкаталоге
+> `public_html` — скрипты находят его сами (можно указать и полный путь к каталогу с `config.inc.php`).
 
 ```bash
 ssh sweb
@@ -36,6 +37,8 @@ scripts/deploy.sh ~/ojsdemo_new --seed --demo --harden --snapshot
 # 3. Проверка безопасности (подставьте адрес сайта)
 scripts/security-audit.sh ~/ojsdemo_new --url https://ВАШ-ДОМЕН
 ```
+
+Каждую команду — отдельной строкой.
 
 Если на sweb несколько версий PHP, укажите нужную явно: `PHP=/usr/local/bin/php8.3 scripts/deploy.sh …`
 (версия CLI должна совпадать с той, на которой работает сайт).

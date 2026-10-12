@@ -19,12 +19,30 @@ warn()  { printf '  %s!%s %s\n' "$C_YELLOW" "$C_RESET" "$*"; }
 fail()  { printf '  %s✘%s %s\n' "$C_RED" "$C_RESET" "$*"; }
 die()   { printf '%sERROR:%s %s\n' "$C_RED" "$C_RESET" "$*" >&2; exit 1; }
 
+is_ojs_dir() {
+	[ -f "$1/config.inc.php" ] && [ -f "$1/lib/pkp/classes/core/Core.php" ]
+}
+
 # require_ojs DIR — validate an OJS installation directory, sets OJS_DIR
+# (DIR may also be the site directory that contains public_html/)
 require_ojs() {
 	[ -n "${1:-}" ] || die "Path to the OJS installation is required."
 	OJS_DIR="$(cd "$1" 2>/dev/null && pwd)" || die "Directory not found: $1"
-	[ -f "$OJS_DIR/config.inc.php" ] && [ -f "$OJS_DIR/lib/pkp/classes/core/Core.php" ] \
-		|| die "$OJS_DIR does not look like an OJS installation."
+	if ! is_ojs_dir "$OJS_DIR"; then
+		# Hosting panels (sweb, ISPmanager, cPanel…) keep the site in a subdirectory
+		local candidate found=''
+		for candidate in "$OJS_DIR"/public_html "$OJS_DIR"/www "$OJS_DIR"/htdocs "$OJS_DIR"/*/ "$OJS_DIR"/*/*/; do
+			candidate="${candidate%/}"
+			if is_ojs_dir "$candidate"; then found="$candidate"; break; fi
+		done
+		if [ -z "$found" ]; then
+			printf 'Contents of %s:\n' "$OJS_DIR" >&2
+			ls -la "$OJS_DIR" >&2 || true
+			die "$OJS_DIR does not look like an OJS installation (no config.inc.php + lib/pkp found up to two levels deep). Pass the directory that contains config.inc.php."
+		fi
+		info "OJS found in $found"
+		OJS_DIR="$found"
+	fi
 	command -v "$PHP" >/dev/null 2>&1 || die "PHP CLI not found (set PHP=/path/to/php)."
 	export OJS_DIR
 }

@@ -28,6 +28,7 @@ for arg in "$@"; do
 	esac
 done
 require_ojs "${ARGS[0]:-}"
+URL="${URL%%/index.php*}"
 URL="${URL%/}"
 FINDINGS=0
 finding() { fail "$*"; FINDINGS=$((FINDINGS + 1)); }
