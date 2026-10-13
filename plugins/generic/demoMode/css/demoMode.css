@@ -3,6 +3,8 @@
  *
  * Distributed under the GNU GPL v3.
  */
+/* Colours follow the Academic Journal theme (CSS variables), with the RADS
+   brand colours as the fallback for other themes. */
 .ojs-demo-banner {
 	position: fixed;
 	z-index: 100000;
@@ -11,18 +13,22 @@
 	transform: translateX(-50%);
 	display: flex;
 	align-items: center;
-	gap: 10px;
-	max-width: calc(100vw - 32px);
-	padding: 8px 8px 8px 10px;
-	background: #14213d;
+	gap: 12px;
+	max-width: min(760px, calc(100vw - 32px));
+	padding: 10px 10px 10px 12px;
+	background:
+		radial-gradient(circle at 92% 0%, rgba(247, 144, 30, .22), transparent 55%),
+		linear-gradient(135deg, var(--ac-primary, #0072A6) 0%, var(--ac-primary-dark, #00507A) 100%);
 	color: #fff;
-	border-radius: 999px;
-	box-shadow: 0 8px 24px rgba(0, 0, 0, .25);
-	font: 500 13px/1.35 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+	border-top: 3px solid var(--ac-highlight, #F7901E);
+	border-radius: 6px;
+	box-shadow: 0 10px 28px rgba(0, 40, 70, .28), 0 2px 6px rgba(0, 40, 70, .18);
+	font: 500 13px/1.4 var(--ac-sans-font, Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif);
 }
 
 .ojs-demo-banner.is-superuser {
-	background: #8c1c2c;
+	background: linear-gradient(135deg, #C0392B 0%, #8E2A1F 100%);
+	border-top-color: #FFD27A;
 }
 
 .ojs-demo-banner.is-hidden {
@@ -31,32 +37,39 @@
 
 .ojs-demo-banner__badge {
 	flex: 0 0 auto;
-	padding: 2px 8px;
-	background: #b08d57;
-	color: #14213d;
-	border-radius: 999px;
-	font-weight: 700;
-	font-size: 11px;
-	letter-spacing: .08em;
+	padding: 4px 10px;
+	background: var(--ac-highlight, #F7901E);
+	color: #fff;
+	border-radius: 4px;
+	font: 700 11px/1.2 var(--ac-heading-font, Montserrat, Inter, sans-serif);
+	letter-spacing: .12em;
+	text-transform: uppercase;
+}
+
+.ojs-demo-banner__text {
+	flex: 1 1 auto;
 }
 
 .ojs-demo-banner__close {
 	flex: 0 0 auto;
-	width: 24px;
-	height: 24px;
+	width: 28px;
+	height: 28px;
 	padding: 0;
-	border: 0;
-	border-radius: 50%;
-	background: rgba(255, 255, 255, .15);
+	border: 1px solid rgba(255, 255, 255, .35);
+	border-radius: 4px;
+	background: transparent;
 	color: #fff;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 26px;
 	cursor: pointer;
+	transition: background .15s, border-color .15s;
 }
 
 .ojs-demo-banner__close:hover,
 .ojs-demo-banner__close:focus {
-	background: rgba(255, 255, 255, .3);
+	background: rgba(255, 255, 255, .15);
+	border-color: #fff;
+	outline: none;
 }
 
 .ojs-demo-login {
@@ -64,14 +77,15 @@
 	padding: 1.25rem 1.25rem 1rem;
 	background: #fff;
 	border: 1px solid #e5e1d8;
-	border-top: 3px solid #b08d57;
+	border-top: 3px solid var(--ac-highlight, #F7901E);
 	border-radius: 6px;
 }
 
 .ojs-demo-login__title {
 	font-weight: 600;
 	font-size: 1.05rem;
-	color: #14213d;
+	font-family: var(--ac-heading-font, inherit);
+	color: var(--ac-primary, #0072A6);
 }
 
 .ojs-demo-login__hint {
@@ -84,7 +98,7 @@
 	padding: 1px 6px;
 	background: #f3efe6;
 	border-radius: 3px;
-	color: #8c1c2c;
+	color: var(--ac-primary, #0072A6);
 	font-weight: 600;
 }
 
@@ -111,7 +125,7 @@
 
 .ojs-demo-login__account strong {
 	font-size: .95rem;
-	color: #14213d;
+	color: var(--ac-primary, #0072A6);
 }
 
 .ojs-demo-login__account span {
@@ -122,7 +136,7 @@
 
 .ojs-demo-login__account:hover,
 .ojs-demo-login__account:focus {
-	border-color: #8c1c2c;
+	border-color: var(--ac-highlight, #F7901E);
 	background: #fff;
 }
 
@@ -133,7 +147,7 @@
 		bottom: 8px;
 		transform: none;
 		max-width: none;
-		border-radius: 10px;
+		border-radius: 6px;
 		font-size: 12px;
 	}
 }
