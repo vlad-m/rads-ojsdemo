@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: mn\n"
+
+msgid "plugins.themes.academicJournal.name"
+msgstr "Эрдэм шинжилгээний сэтгүүлийн загвар"
+
+msgid "plugins.themes.academicJournal.description"
+msgstr "Эрдэм шинжилгээний сэтгүүлд зориулсан сонгодог, хэвлэлийн хэв маягтай загвар: сериф гарчиг, зорилго, статистик болон одоогийн дугаар бүхий нүүр хуудас, дэлгэрэнгүй хөл хэсэг."
+
+msgid "plugins.themes.academicJournal.option.primaryColour.label"
+msgstr "Үндсэн өнгө"
+
+msgid "plugins.themes.academicJournal.option.primaryColour.description"
+msgstr "Толгой, хөл хэсэг болон гарчигт ашиглагдана. Бараан өнгө сонгоно уу."
+
+msgid "plugins.themes.academicJournal.option.accentColour.label"
+msgstr "Тодотгох өнгө"
+
+msgid "plugins.themes.academicJournal.option.accentColour.description"
+msgstr "Холбоос, товч болон тодотголд ашиглагдана."
+
+msgid "plugins.themes.academicJournal.option.showHero.label"
+msgstr "Нүүр хуудасны танилцуулга"
+
+msgid "plugins.themes.academicJournal.option.showHero.option"
+msgstr "Сэтгүүлийн зорилго болон үйлдлийн товчтой танилцуулгын хэсгийг харуулах"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.label"
+msgstr "Нүүр хуудасны уриа"
+
+msgid "plugins.themes.academicJournal.option.heroTagline.description"
+msgstr "Нүүр хуудасны танилцуулгад харагдах зорилгын товч тайлбар. Хоосон бол сэтгүүлийн товч танилцуулгын эхлэлийг ашиглана."
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.label"
+msgstr "Сэтгүүлийн статистик"
+
+msgid "plugins.themes.academicJournal.option.showJournalStats.option"
+msgstr "Нүүр хуудсанд дугаар, өгүүлэл, зохиогчдын тоог харуулах"
+
+msgid "plugins.themes.academicJournal.issnOnline"
+msgstr "ISSN (онлайн)"
+
+msgid "plugins.themes.academicJournal.issnPrint"
+msgstr "ISSN (хэвлэмэл)"
+
+msgid "plugins.themes.academicJournal.openAccess"
+msgstr "Нээлттэй хандалт"
+
+msgid "plugins.themes.academicJournal.publisher"
+msgstr "Хэвлэн нийтлэгч"
+
+msgid "plugins.themes.academicJournal.forReaders"
+msgstr "Уншигчдад"
+
+msgid "plugins.themes.academicJournal.forAuthors"
+msgstr "Зохиогчдод"
+
+msgid "plugins.themes.academicJournal.license"
+msgstr "Лиценз"
+
+msgid "plugins.themes.academicJournal.licenseText"
+msgstr "Бүх өгүүллийг Creative Commons Attribution 4.0 International лицензийн дагуу нээлттэй хандалттайгаар нийтэлдэг."
+
+msgid "plugins.themes.academicJournal.kicker"
+msgstr "Хянан магадлагдсан нээлттэй хандалттай сэтгүүл"
+
+msgid "plugins.themes.academicJournal.submitManuscript"
+msgstr "Бүтээл илгээх"
+
+msgid "plugins.themes.academicJournal.readCurrentIssue"
+msgstr "Одоогийн дугаарыг унших"
+
+msgid "plugins.themes.academicJournal.aboutJournal"
+msgstr "Сэтгүүлийн тухай"
+
+msgid "plugins.themes.academicJournal.stats.issues"
+msgstr "нийтлэгдсэн дугаар"
+
+msgid "plugins.themes.academicJournal.stats.articles"
+msgstr "хянан магадлагдсан өгүүлэл"
+
+msgid "plugins.themes.academicJournal.stats.authors"
+msgstr "зохиогч"
+
+msgid "plugins.themes.academicJournal.stats.peerReview"
+msgstr "хянан магадлагаа"
+
+msgid "plugins.themes.academicJournal.stats.peerReviewValue"
+msgstr "Давхар нууц"
+
+msgid "plugins.themes.academicJournal.editorialBoard"
+msgstr "Редакцийн зөвлөл"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.label"
+msgstr "Онцлох өнгө"
+
+msgid "plugins.themes.academicJournal.option.highlightColour.description"
+msgstr "Нимгэн шугам, тамганы хүрээ, танилцуулгын дээд мөр болон идэвхтэй цэсний доогуур зураас."
+
+msgid "plugins.themes.academicJournal.option.headingFont.label"
+msgstr "Гарчгийн фонт"
+
+msgid "plugins.themes.academicJournal.option.headingFont.serif"
+msgstr "Сериф (Source Serif) — сонгодог эрдэм шинжилгээний"
+
+msgid "plugins.themes.academicJournal.option.headingFont.sans"
+msgstr "Геометр санс-сериф (Montserrat) — орчин үеийн"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.label"
+msgstr "Логоны байршил"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.description"
+msgstr "Вэб сайт > Гадаад төрх хэсэгт байршуулсан лого хаана харагдах."
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.beside"
+msgstr "Сэтгүүлийн нэрийн хажууд (нэр харагдсаар байна)"
+
+msgid "plugins.themes.academicJournal.option.logoPlacement.replace"
+msgstr "Сэтгүүлийн нэрийн оронд"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.label"
+msgstr "Нүүр хуудасны дээд мөр"
+
+msgid "plugins.themes.academicJournal.option.heroKicker.description"
+msgstr "Нүүр хуудасны танилцуулгад сэтгүүлийн нэрийн дээрх жижиг томоор бичсэн мөр. Анхдагч: «Хянан магадлагдсан нээлттэй хандалттай сэтгүүл»."
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.label"
+msgstr "Цэсний товч: бичвэр"
+
+msgid "plugins.themes.academicJournal.option.ctaLabel.description"
+msgstr "Үндсэн цэсний тодруулсан товч (жишээ нь, таны үйлчилгээний холбоос). Нуухын тулд хоосон орхино уу."
+
+msgid "plugins.themes.academicJournal.option.ctaUrl.label"
+msgstr "Цэсний товч: холбоос (https://…), хэл тус бүрээр"
+
+msgid "plugins.themes.default.nextSlide"
+msgstr "Дараагийн слайд"
+
+msgid "plugins.themes.default.prevSlide"
+msgstr "Өмнөх слайд"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Бүрэн эхийг хэлээр"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "Өгүүлэл хэд хэдэн хэл дээрх PDF файлтай бол уншигч зөвхөн интерфейсийн хэл дээрхийг (байхгүй бол өгүүллийн хэл дээрхийг) харна."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Бүрэн эхийг зөвхөн уншигчийн хэлээр харуулах"

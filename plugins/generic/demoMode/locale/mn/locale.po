@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: mn\n"
+
+msgid "plugins.generic.demoMode.displayName"
+msgstr "Демо горим"
+
+msgid "plugins.generic.demoMode.description"
+msgstr "Зөвхөн унших боломжтой демо горим: демо бүртгэлүүд бүх хуудас, маягтыг нээж болох боловч өөрчлөлт хадгалагдахгүй. config.inc.php ([demo] хэсэг)-ээс удирдана."
+
+msgid "plugins.generic.demoMode.title"
+msgstr "Демо горим"
+
+msgid "plugins.generic.demoMode.refused"
+msgstr "Энэ бол демо суулгац: өөрчлөлт хадгалагдахгүй. Бүх хуудас, маягтыг үзэж болох ч хадгалах, файл байршуулах, имэйл илгээх боломжгүй."
+
+msgid "plugins.generic.demoMode.back"
+msgstr "Буцах"
+
+msgid "plugins.generic.demoMode.banner"
+msgstr "Демо горим — чөлөөтэй судлаарай, өөрчлөлт хадгалагдахгүй."
+
+msgid "plugins.generic.demoMode.banner.reset"
+msgstr "Демо өгөгдлийг {$hours} цаг тутамд сэргээдэг."
+
+msgid "plugins.generic.demoMode.banner.superuser"
+msgstr "Демо горим идэвхтэй боловч та супер хэрэглэгчээр нэвтэрсэн: таны өөрчлөлт ХАДГАЛАГДАНА."
+
+msgid "plugins.generic.demoMode.login.title"
+msgstr "Демо бүртгэлүүд"
+
+msgid "plugins.generic.demoMode.login.hint"
+msgstr "Нэвтрэх үүргээ сонгоно уу. Бүх бүртгэлийн нууц үг:"
+
+msgid "plugins.generic.demoMode.account.admin"
+msgstr "Администратор"
+
+msgid "plugins.generic.demoMode.account.editor"
+msgstr "Редактор"
+
+msgid "plugins.generic.demoMode.account.reviewer"
+msgstr "Хянан магадлагч"
+
+msgid "plugins.generic.demoMode.account.author"
+msgstr "Зохиогч"

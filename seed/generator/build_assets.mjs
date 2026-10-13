@@ -68,7 +68,7 @@ const L = Object.fromEntries(Object.entries(LABELS).map(([loc, t]) => [loc, {
   sections: { ART: t.ART, REV: t.REV, SHC: t.SHC },
 }]));
 const bcp47 = (loc) => loc.replace('_', '-');
-const DOT_DECIMAL = new Set(['en', 'zh_Hans']);
+const DOT_DECIMAL = new Set(['en', 'zh_Hans', 'mn']);
 
 function fmtDate(iso, loc) {
   const [y, m, d] = iso.split('-').map(Number);

@@ -127,6 +127,7 @@
       "sr_Cyrl",
       "mk",
       "sq",
+      "mn",
       "tg"
     ],
     "cta": {
@@ -145,7 +146,8 @@
         "ky": "https://rads-doi.org/ky/open-journal-systems-ojs-installation-ky/",
         "sr_Cyrl": "https://rads-doi.org/sr/open-journal-systems-ojs-installation-sr/",
         "mk": "https://rads-doi.org/mk/open-journal-systems-ojs-installation-mk/",
-        "sq": "https://rads-doi.org/sq/instalimi-i-open-journal-systems-ojs/"
+        "sq": "https://rads-doi.org/sq/instalimi-i-open-journal-systems-ojs/",
+        "mn": "https://rads-doi.org/en/open-journal-systems-ojs-installation/"
       },
       "label": {
         "ru": "Заказать установку OJS",
@@ -162,7 +164,8 @@
         "ky": "OJS орнотууга буйрутма берүү",
         "sr_Cyrl": "Наручите инсталацију OJS-а",
         "mk": "Нарачајте инсталација на OJS",
-        "sq": "Porositni instalimin e OJS"
+        "sq": "Porositni instalimin e OJS",
+        "mn": "OJS суулгах захиалга өгөх"
       }
     }
   },

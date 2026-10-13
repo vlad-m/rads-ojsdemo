@@ -16,8 +16,8 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "src")
 I18N = os.path.join(SRC, "i18n")
-EXTRA_LOCALES = ["es", "fr", "el", "it", "pt", "zh_Hans", "kk", "az", "uz_Latn", "ky", "sr_Cyrl", "mk", "sq"]
-CYRILLIC = {"kk", "ky", "sr_Cyrl", "mk"}
+EXTRA_LOCALES = ["es", "fr", "el", "it", "pt", "zh_Hans", "kk", "az", "uz_Latn", "ky", "sr_Cyrl", "mk", "sq", "mn"]
+CYRILLIC = {"kk", "ky", "sr_Cyrl", "mk", "mn"}
 # not translated: personal names (Cyrillic-script locales use the Russian form, the rest the English one)
 NAME_KEYS = {"givenName", "familyName"}
 SKIP_KEYS = {"cta", "logo", "uiLocales", "branding.logo"}
@@ -229,6 +229,7 @@ COVER_LABELS = {
     "sr_Cyrl": ["Том {volume} · бр. {number} · {year}", "Тема броја"],
     "mk": ["Том {volume} · бр. {number} · {year}", "Тема на бројот"],
     "sq": ["Vëll. {volume} · Nr. {number} · {year}", "Tema e numrit"],
+    "mn": ["{volume}-р боть · № {number} · {year}", "Дугаарын сэдэв"],
 }
 
 
