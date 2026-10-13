@@ -1811,6 +1811,8 @@
             "zh_Hans": "pdf/v1n1-01-urban-heat.zh_Hans.pdf",
             "kk": "pdf/v1n1-01-urban-heat.kk.pdf",
             "az": "pdf/v1n1-01-urban-heat.az.pdf",
+            "uz_Latn": "pdf/v1n1-01-urban-heat.uz_Latn.pdf",
+            "ky": "pdf/v1n1-01-urban-heat.ky.pdf",
             "sr_Cyrl": "pdf/v1n1-01-urban-heat.sr_Cyrl.pdf",
             "mk": "pdf/v1n1-01-urban-heat.mk.pdf",
             "sq": "pdf/v1n1-01-urban-heat.sq.pdf"
@@ -2115,6 +2117,8 @@
             "zh_Hans": "pdf/v1n1-02-air-quality-sensors.zh_Hans.pdf",
             "kk": "pdf/v1n1-02-air-quality-sensors.kk.pdf",
             "az": "pdf/v1n1-02-air-quality-sensors.az.pdf",
+            "uz_Latn": "pdf/v1n1-02-air-quality-sensors.uz_Latn.pdf",
+            "ky": "pdf/v1n1-02-air-quality-sensors.ky.pdf",
             "sr_Cyrl": "pdf/v1n1-02-air-quality-sensors.sr_Cyrl.pdf",
             "mk": "pdf/v1n1-02-air-quality-sensors.mk.pdf",
             "sq": "pdf/v1n1-02-air-quality-sensors.sq.pdf"
@@ -2403,6 +2407,8 @@
             "zh_Hans": "pdf/v1n1-03-remote-work-labour.zh_Hans.pdf",
             "kk": "pdf/v1n1-03-remote-work-labour.kk.pdf",
             "az": "pdf/v1n1-03-remote-work-labour.az.pdf",
+            "uz_Latn": "pdf/v1n1-03-remote-work-labour.uz_Latn.pdf",
+            "ky": "pdf/v1n1-03-remote-work-labour.ky.pdf",
             "sr_Cyrl": "pdf/v1n1-03-remote-work-labour.sr_Cyrl.pdf",
             "mk": "pdf/v1n1-03-remote-work-labour.mk.pdf",
             "sq": "pdf/v1n1-03-remote-work-labour.sq.pdf"
@@ -2701,9 +2707,17 @@
             "en": "pdf/v1n1-04-peatland-carbon.en.pdf",
             "es": "pdf/v1n1-04-peatland-carbon.es.pdf",
             "fr": "pdf/v1n1-04-peatland-carbon.fr.pdf",
+            "el": "pdf/v1n1-04-peatland-carbon.el.pdf",
             "it": "pdf/v1n1-04-peatland-carbon.it.pdf",
             "pt": "pdf/v1n1-04-peatland-carbon.pt.pdf",
-            "zh_Hans": "pdf/v1n1-04-peatland-carbon.zh_Hans.pdf"
+            "zh_Hans": "pdf/v1n1-04-peatland-carbon.zh_Hans.pdf",
+            "kk": "pdf/v1n1-04-peatland-carbon.kk.pdf",
+            "az": "pdf/v1n1-04-peatland-carbon.az.pdf",
+            "uz_Latn": "pdf/v1n1-04-peatland-carbon.uz_Latn.pdf",
+            "ky": "pdf/v1n1-04-peatland-carbon.ky.pdf",
+            "sr_Cyrl": "pdf/v1n1-04-peatland-carbon.sr_Cyrl.pdf",
+            "mk": "pdf/v1n1-04-peatland-carbon.mk.pdf",
+            "sq": "pdf/v1n1-04-peatland-carbon.sq.pdf"
           }
         },
         {
@@ -2925,9 +2939,17 @@
             "en": "pdf/v1n1-05-digital-economy-neologisms.en.pdf",
             "es": "pdf/v1n1-05-digital-economy-neologisms.es.pdf",
             "fr": "pdf/v1n1-05-digital-economy-neologisms.fr.pdf",
+            "el": "pdf/v1n1-05-digital-economy-neologisms.el.pdf",
             "it": "pdf/v1n1-05-digital-economy-neologisms.it.pdf",
             "pt": "pdf/v1n1-05-digital-economy-neologisms.pt.pdf",
-            "zh_Hans": "pdf/v1n1-05-digital-economy-neologisms.zh_Hans.pdf"
+            "zh_Hans": "pdf/v1n1-05-digital-economy-neologisms.zh_Hans.pdf",
+            "kk": "pdf/v1n1-05-digital-economy-neologisms.kk.pdf",
+            "az": "pdf/v1n1-05-digital-economy-neologisms.az.pdf",
+            "uz_Latn": "pdf/v1n1-05-digital-economy-neologisms.uz_Latn.pdf",
+            "ky": "pdf/v1n1-05-digital-economy-neologisms.ky.pdf",
+            "sr_Cyrl": "pdf/v1n1-05-digital-economy-neologisms.sr_Cyrl.pdf",
+            "mk": "pdf/v1n1-05-digital-economy-neologisms.mk.pdf",
+            "sq": "pdf/v1n1-05-digital-economy-neologisms.sq.pdf"
           }
         }
       ]
@@ -3338,9 +3360,17 @@
             "en": "pdf/v1n2-01-perovskite-stability.en.pdf",
             "es": "pdf/v1n2-01-perovskite-stability.es.pdf",
             "fr": "pdf/v1n2-01-perovskite-stability.fr.pdf",
+            "el": "pdf/v1n2-01-perovskite-stability.el.pdf",
             "it": "pdf/v1n2-01-perovskite-stability.it.pdf",
             "pt": "pdf/v1n2-01-perovskite-stability.pt.pdf",
-            "zh_Hans": "pdf/v1n2-01-perovskite-stability.zh_Hans.pdf"
+            "zh_Hans": "pdf/v1n2-01-perovskite-stability.zh_Hans.pdf",
+            "kk": "pdf/v1n2-01-perovskite-stability.kk.pdf",
+            "az": "pdf/v1n2-01-perovskite-stability.az.pdf",
+            "uz_Latn": "pdf/v1n2-01-perovskite-stability.uz_Latn.pdf",
+            "ky": "pdf/v1n2-01-perovskite-stability.ky.pdf",
+            "sr_Cyrl": "pdf/v1n2-01-perovskite-stability.sr_Cyrl.pdf",
+            "mk": "pdf/v1n2-01-perovskite-stability.mk.pdf",
+            "sq": "pdf/v1n2-01-perovskite-stability.sq.pdf"
           },
           "fundingAgency": {
             "ru": "Фонд поддержки междисциплинарных исследований «Горизонт»",
@@ -3636,9 +3666,17 @@
             "en": "pdf/v1n2-02-adaptive-courses.en.pdf",
             "es": "pdf/v1n2-02-adaptive-courses.es.pdf",
             "fr": "pdf/v1n2-02-adaptive-courses.fr.pdf",
+            "el": "pdf/v1n2-02-adaptive-courses.el.pdf",
             "it": "pdf/v1n2-02-adaptive-courses.it.pdf",
             "pt": "pdf/v1n2-02-adaptive-courses.pt.pdf",
-            "zh_Hans": "pdf/v1n2-02-adaptive-courses.zh_Hans.pdf"
+            "zh_Hans": "pdf/v1n2-02-adaptive-courses.zh_Hans.pdf",
+            "kk": "pdf/v1n2-02-adaptive-courses.kk.pdf",
+            "az": "pdf/v1n2-02-adaptive-courses.az.pdf",
+            "uz_Latn": "pdf/v1n2-02-adaptive-courses.uz_Latn.pdf",
+            "ky": "pdf/v1n2-02-adaptive-courses.ky.pdf",
+            "sr_Cyrl": "pdf/v1n2-02-adaptive-courses.sr_Cyrl.pdf",
+            "mk": "pdf/v1n2-02-adaptive-courses.mk.pdf",
+            "sq": "pdf/v1n2-02-adaptive-courses.sq.pdf"
           }
         },
         {
@@ -3974,9 +4012,17 @@
             "en": "pdf/v1n2-03-telemedicine-older-adults.en.pdf",
             "es": "pdf/v1n2-03-telemedicine-older-adults.es.pdf",
             "fr": "pdf/v1n2-03-telemedicine-older-adults.fr.pdf",
+            "el": "pdf/v1n2-03-telemedicine-older-adults.el.pdf",
             "it": "pdf/v1n2-03-telemedicine-older-adults.it.pdf",
             "pt": "pdf/v1n2-03-telemedicine-older-adults.pt.pdf",
-            "zh_Hans": "pdf/v1n2-03-telemedicine-older-adults.zh_Hans.pdf"
+            "zh_Hans": "pdf/v1n2-03-telemedicine-older-adults.zh_Hans.pdf",
+            "kk": "pdf/v1n2-03-telemedicine-older-adults.kk.pdf",
+            "az": "pdf/v1n2-03-telemedicine-older-adults.az.pdf",
+            "uz_Latn": "pdf/v1n2-03-telemedicine-older-adults.uz_Latn.pdf",
+            "ky": "pdf/v1n2-03-telemedicine-older-adults.ky.pdf",
+            "sr_Cyrl": "pdf/v1n2-03-telemedicine-older-adults.sr_Cyrl.pdf",
+            "mk": "pdf/v1n2-03-telemedicine-older-adults.mk.pdf",
+            "sq": "pdf/v1n2-03-telemedicine-older-adults.sq.pdf"
           }
         },
         {
@@ -4201,9 +4247,17 @@
             "en": "pdf/v1n2-04-computing-centres-history.en.pdf",
             "es": "pdf/v1n2-04-computing-centres-history.es.pdf",
             "fr": "pdf/v1n2-04-computing-centres-history.fr.pdf",
+            "el": "pdf/v1n2-04-computing-centres-history.el.pdf",
             "it": "pdf/v1n2-04-computing-centres-history.it.pdf",
             "pt": "pdf/v1n2-04-computing-centres-history.pt.pdf",
-            "zh_Hans": "pdf/v1n2-04-computing-centres-history.zh_Hans.pdf"
+            "zh_Hans": "pdf/v1n2-04-computing-centres-history.zh_Hans.pdf",
+            "kk": "pdf/v1n2-04-computing-centres-history.kk.pdf",
+            "az": "pdf/v1n2-04-computing-centres-history.az.pdf",
+            "uz_Latn": "pdf/v1n2-04-computing-centres-history.uz_Latn.pdf",
+            "ky": "pdf/v1n2-04-computing-centres-history.ky.pdf",
+            "sr_Cyrl": "pdf/v1n2-04-computing-centres-history.sr_Cyrl.pdf",
+            "mk": "pdf/v1n2-04-computing-centres-history.mk.pdf",
+            "sq": "pdf/v1n2-04-computing-centres-history.sq.pdf"
           }
         },
         {
@@ -4481,9 +4535,17 @@
             "en": "pdf/v1n2-05-greywater-reuse.en.pdf",
             "es": "pdf/v1n2-05-greywater-reuse.es.pdf",
             "fr": "pdf/v1n2-05-greywater-reuse.fr.pdf",
+            "el": "pdf/v1n2-05-greywater-reuse.el.pdf",
             "it": "pdf/v1n2-05-greywater-reuse.it.pdf",
             "pt": "pdf/v1n2-05-greywater-reuse.pt.pdf",
-            "zh_Hans": "pdf/v1n2-05-greywater-reuse.zh_Hans.pdf"
+            "zh_Hans": "pdf/v1n2-05-greywater-reuse.zh_Hans.pdf",
+            "kk": "pdf/v1n2-05-greywater-reuse.kk.pdf",
+            "az": "pdf/v1n2-05-greywater-reuse.az.pdf",
+            "uz_Latn": "pdf/v1n2-05-greywater-reuse.uz_Latn.pdf",
+            "ky": "pdf/v1n2-05-greywater-reuse.ky.pdf",
+            "sr_Cyrl": "pdf/v1n2-05-greywater-reuse.sr_Cyrl.pdf",
+            "mk": "pdf/v1n2-05-greywater-reuse.mk.pdf",
+            "sq": "pdf/v1n2-05-greywater-reuse.sq.pdf"
           }
         }
       ]
@@ -4949,7 +5011,20 @@
           ],
           "pdf": {
             "ru": "pdf/v2n1-01-transit-housing-prices.ru.pdf",
-            "en": "pdf/v2n1-01-transit-housing-prices.en.pdf"
+            "en": "pdf/v2n1-01-transit-housing-prices.en.pdf",
+            "es": "pdf/v2n1-01-transit-housing-prices.es.pdf",
+            "fr": "pdf/v2n1-01-transit-housing-prices.fr.pdf",
+            "el": "pdf/v2n1-01-transit-housing-prices.el.pdf",
+            "it": "pdf/v2n1-01-transit-housing-prices.it.pdf",
+            "pt": "pdf/v2n1-01-transit-housing-prices.pt.pdf",
+            "zh_Hans": "pdf/v2n1-01-transit-housing-prices.zh_Hans.pdf",
+            "kk": "pdf/v2n1-01-transit-housing-prices.kk.pdf",
+            "az": "pdf/v2n1-01-transit-housing-prices.az.pdf",
+            "uz_Latn": "pdf/v2n1-01-transit-housing-prices.uz_Latn.pdf",
+            "ky": "pdf/v2n1-01-transit-housing-prices.ky.pdf",
+            "sr_Cyrl": "pdf/v2n1-01-transit-housing-prices.sr_Cyrl.pdf",
+            "mk": "pdf/v2n1-01-transit-housing-prices.mk.pdf",
+            "sq": "pdf/v2n1-01-transit-housing-prices.sq.pdf"
           }
         },
         {
@@ -5282,7 +5357,20 @@
           ],
           "pdf": {
             "ru": "pdf/v2n1-02-machine-generated-abstracts.ru.pdf",
-            "en": "pdf/v2n1-02-machine-generated-abstracts.en.pdf"
+            "en": "pdf/v2n1-02-machine-generated-abstracts.en.pdf",
+            "es": "pdf/v2n1-02-machine-generated-abstracts.es.pdf",
+            "fr": "pdf/v2n1-02-machine-generated-abstracts.fr.pdf",
+            "el": "pdf/v2n1-02-machine-generated-abstracts.el.pdf",
+            "it": "pdf/v2n1-02-machine-generated-abstracts.it.pdf",
+            "pt": "pdf/v2n1-02-machine-generated-abstracts.pt.pdf",
+            "zh_Hans": "pdf/v2n1-02-machine-generated-abstracts.zh_Hans.pdf",
+            "kk": "pdf/v2n1-02-machine-generated-abstracts.kk.pdf",
+            "az": "pdf/v2n1-02-machine-generated-abstracts.az.pdf",
+            "uz_Latn": "pdf/v2n1-02-machine-generated-abstracts.uz_Latn.pdf",
+            "ky": "pdf/v2n1-02-machine-generated-abstracts.ky.pdf",
+            "sr_Cyrl": "pdf/v2n1-02-machine-generated-abstracts.sr_Cyrl.pdf",
+            "mk": "pdf/v2n1-02-machine-generated-abstracts.mk.pdf",
+            "sq": "pdf/v2n1-02-machine-generated-abstracts.sq.pdf"
           }
         },
         {
@@ -5559,7 +5647,20 @@
           ],
           "pdf": {
             "ru": "pdf/v2n1-03-circular-economy-sme.ru.pdf",
-            "en": "pdf/v2n1-03-circular-economy-sme.en.pdf"
+            "en": "pdf/v2n1-03-circular-economy-sme.en.pdf",
+            "es": "pdf/v2n1-03-circular-economy-sme.es.pdf",
+            "fr": "pdf/v2n1-03-circular-economy-sme.fr.pdf",
+            "el": "pdf/v2n1-03-circular-economy-sme.el.pdf",
+            "it": "pdf/v2n1-03-circular-economy-sme.it.pdf",
+            "pt": "pdf/v2n1-03-circular-economy-sme.pt.pdf",
+            "zh_Hans": "pdf/v2n1-03-circular-economy-sme.zh_Hans.pdf",
+            "kk": "pdf/v2n1-03-circular-economy-sme.kk.pdf",
+            "az": "pdf/v2n1-03-circular-economy-sme.az.pdf",
+            "uz_Latn": "pdf/v2n1-03-circular-economy-sme.uz_Latn.pdf",
+            "ky": "pdf/v2n1-03-circular-economy-sme.ky.pdf",
+            "sr_Cyrl": "pdf/v2n1-03-circular-economy-sme.sr_Cyrl.pdf",
+            "mk": "pdf/v2n1-03-circular-economy-sme.mk.pdf",
+            "sq": "pdf/v2n1-03-circular-economy-sme.sq.pdf"
           }
         },
         {
@@ -5834,7 +5935,20 @@
           ],
           "pdf": {
             "ru": "pdf/v2n1-04-urban-soil-microbiome.ru.pdf",
-            "en": "pdf/v2n1-04-urban-soil-microbiome.en.pdf"
+            "en": "pdf/v2n1-04-urban-soil-microbiome.en.pdf",
+            "es": "pdf/v2n1-04-urban-soil-microbiome.es.pdf",
+            "fr": "pdf/v2n1-04-urban-soil-microbiome.fr.pdf",
+            "el": "pdf/v2n1-04-urban-soil-microbiome.el.pdf",
+            "it": "pdf/v2n1-04-urban-soil-microbiome.it.pdf",
+            "pt": "pdf/v2n1-04-urban-soil-microbiome.pt.pdf",
+            "zh_Hans": "pdf/v2n1-04-urban-soil-microbiome.zh_Hans.pdf",
+            "kk": "pdf/v2n1-04-urban-soil-microbiome.kk.pdf",
+            "az": "pdf/v2n1-04-urban-soil-microbiome.az.pdf",
+            "uz_Latn": "pdf/v2n1-04-urban-soil-microbiome.uz_Latn.pdf",
+            "ky": "pdf/v2n1-04-urban-soil-microbiome.ky.pdf",
+            "sr_Cyrl": "pdf/v2n1-04-urban-soil-microbiome.sr_Cyrl.pdf",
+            "mk": "pdf/v2n1-04-urban-soil-microbiome.mk.pdf",
+            "sq": "pdf/v2n1-04-urban-soil-microbiome.sq.pdf"
           }
         }
       ]
@@ -5856,6 +5970,8 @@
         "zh_Hans": "基于梯度提升和数值天气预报数据的短期风电功率预测",
         "kk": "Градиенттік бустинг пен сандық ауа райы болжамы деректерін пайдалана отырып жел электр станциясының қуатын қысқа мерзімді болжау",
         "az": "Qradiyent bustinq və ədədi hava proqnozu məlumatları ilə külək generasiyasının qısamüddətli proqnozlaşdırılması",
+        "uz_Latn": "Gradiyentli busting va raqamli ob-havo prognozi maʼlumotlari yordamida shamol elektr stansiyasi quvvatini qisqa muddatli prognozlash",
+        "ky": "Градиенттик бустинг жана аба ырайын сандык болжолдоо маалыматтары аркылуу шамал электр станциясынын кубаттуулугун кыска мөөнөттүү болжолдоо",
         "sr_Cyrl": "Краткорочна прогноза производње електричне енергије из ветра помоћу градијентног бустинга и података нумеричке прогнозе времена",
         "mk": "Краткорочно прогнозирање на производството на ветерна енергија со градиентно засилување и податоци од нумеричка прогноза на времето",
         "sq": "Parashikimi afatshkurtër i fuqisë së erës me gradient boosting dhe të dhëna të parashikimit numerik të motit"
@@ -5871,6 +5987,8 @@
         "zh_Hans": "<p>风力发电在电力系统中所占比重不断增加，对其短期预测精度提出了更高要求，而运行计划和平衡成本均取决于这一精度。本研究提出了一种预测风电场 1 至 48 小时出力的方法，将梯度提升与从数值天气预报中提取的特征相结合。数据来自一座装机容量为 120 MW 的匿名风电场 2021—2025 年的小时分辨率记录，以及风电场周围九个格点在多个高度上的风速和风向预报。除原始气象变量外，还构建了描述风速空间梯度、垂直风切变和大气稳定度的特征。将该模型与持续性方法、基于制造商功率曲线的模型以及循环神经网络进行了比较。所提出的模型将 24 小时预测时长的归一化均方根误差降至 9.8%，而功率曲线模型和神经网络分别为 12.6% 和 10.9%。在与天气锋面过境相关的风速骤变期间，精度提升最为显著。特征重要性分析表明，在超过 12 小时的预测时长上，风速空间梯度对预测质量有重要贡献。该方法计算成本低，可应用于调度实践。</p>",
         "kk": "<p>Энергетикалық жүйелердегі жел генерациясы үлесінің өсуі оны қысқа мерзімді болжаудың дәлдігіне қойылатын талаптарды күшейтеді, ал жедел жоспарлау мен теңгерімдеу шығындары осы дәлдікке тәуелді. Бұл зерттеуде градиенттік бустингті сандық ауа райы болжамдарынан алынған белгілермен ұштастыратын, жел электр станциясының өндірісін 1 сағаттан 48 сағатқа дейінгі горизонттарда болжау тәсілі ұсынылады. Деректер белгіленген қуаты 120 МВт анонимделген жел электр станциясының 2021–2025 жылдардағы сағаттық ажыратымдылықтағы көрсеткіштерін, сондай-ақ станция маңындағы торның тоғыз түйіні үшін бірнеше биіктіктегі жел жылдамдығы мен бағытының болжамдарын қамтиды. Бастапқы метеорологиялық айнымалылардан бөлек, жел жылдамдығының кеңістіктік градиентін, желдің тік ығысуын және атмосфераның орнықтылығын сипаттайтын белгілер құрастырылды. Модель инерциялық болжаммен, өндірушінің қуат қисығына негізделген модельмен және рекурренттік нейрондық желімен салыстырылды. Ұсынылған модель 24 сағаттық горизонтта нормаланған орташа квадраттық қатені 9,8%-ға дейін төмендетті, ал қуат қисығы моделі үшін бұл көрсеткіш 12,6%, нейрондық желі үшін 10,9% болды. Ең үлкен ұтыс атмосфералық фронттардың өтуімен байланысты жел жылдамдығының күрт өзгерістері кезінде байқалады. Белгілердің маңыздылығын талдау 12 сағаттан асатын горизонттарда жел жылдамдығының кеңістіктік градиенті болжам сапасына елеулі үлес қосатынын көрсетті. Тәсілдің есептеу шығыны аз және оны диспетчерлік тәжірибеге енгізуге болады.</p>",
         "az": "<p>Enerji sistemlərində külək generasiyasının payının artması onun qısamüddətli proqnozunun dəqiqliyinə tələbləri yüksəldir; rejimlərin planlaşdırılması və balanslaşdırma xərcləri məhz bu dəqiqlikdən asılıdır. Bu tədqiqatda külək elektrik stansiyasının hasilatının 1 saatdan 48 saata qədər üfüqlərdə proqnozlaşdırılması üçün qradiyent bustinqi ədədi hava proqnozu modellərinin proqnozlarından çıxarılmış əlamətlərlə birləşdirən yanaşma təklif olunur. Quraşdırılmış gücü 120 MVt olan anonimləşdirilmiş külək elektrik stansiyasının 2021–2025-ci illərə aid saatlıq ayırdetmə ilə məlumatlarından, həmçinin stansiya ətrafındakı doqquz şəbəkə düyünü üçün bir neçə hündürlükdə küləyin sürəti və istiqamətinin proqnozlarından istifadə edilmişdir. İlkin meteoroloji dəyişənlərdən əlavə, küləyin sürətinin məkan qradiyentini, küləyin hündürlük üzrə sürüşməsini və atmosferin dayanıqlılığını təsvir edən əlamətlər formalaşdırılmışdır. Model persistentlik metodu, istehsalçının güc əyrisinə əsaslanan model və rekurrent neyron şəbəkəsi ilə müqayisə edilmişdir. Təklif olunan model 24 saatlıq üfüqdə normallaşdırılmış orta kvadratik xətanı 9,8%-ə qədər azaltmışdır; bu göstərici güc əyrisinə əsaslanan model üçün 12,6%, neyron şəbəkəsi üçün isə 10,9% olmuşdur. Ən böyük üstünlük atmosfer cəbhələrinin keçməsi ilə əlaqədar küləyin sürətinin kəskin dəyişdiyi dövrlərdə əldə edilir. Əlamətlərin əhəmiyyətinin təhlili göstərmişdir ki, küləyin sürətinin məkan qradiyenti 12 saatdan uzun üfüqlərdə proqnozun keyfiyyətinə əhəmiyyətli töhfə verir. Yanaşma aşağı hesablama xərcləri ilə seçilir və dispetçer xidmətlərinin praktikasına tətbiq edilə bilər.</p>",
+        "uz_Latn": "<p>Energetika tizimlarida shamol generatsiyasi ulushining oshishi uning qisqa muddatli prognozlari aniqligiga boʻlgan talablarni kuchaytiradi, chunki operativ rejalashtirish va balanslash xarajatlari aynan shunga bogʻliq. Ushbu tadqiqotda gradiyentli bustingni raqamli ob-havo prognozlaridan ajratib olingan belgilar bilan birlashtirgan holda shamol elektr stansiyasining 1 soatdan 48 soatgacha boʻlgan gorizontlardagi ishlab chiqarishini prognozlash yondashuvi taklif etiladi. Maʼlumotlar oʻrnatilgan quvvati 120 MW boʻlgan anonimlashtirilgan shamol elektr stansiyasidan 2021–2025-yillar uchun soatlik aniqlikda olingan boʻlib, ular stansiya atrofidagi toʻqqizta tarmoq tuguni uchun bir necha balandlikdagi shamol tezligi va yoʻnalishi prognozlari bilan toʻldirilgan. Dastlabki meteorologik oʻzgaruvchilarga qoʻshimcha ravishda shamol tezligining fazoviy gradiyenti, shamolning vertikal siljishi va atmosfera barqarorligini tavsiflovchi belgilar shakllantirildi. Model inersion prognoz, ishlab chiqaruvchining quvvat egri chizigʻiga asoslangan model va rekurrent neyron tarmoq bilan taqqoslandi. Taklif etilgan model 24 soatlik gorizontda normallashtirilgan oʻrtacha kvadratik xatoni 9,8% gacha kamaytirdi; bu koʻrsatkich quvvat egri chizigʻi modeli uchun 12,6%, neyron tarmoq uchun esa 10,9% ni tashkil etdi. Eng katta yutuqqa atmosfera frontlarining oʻtishi bilan bogʻliq shamol tezligining keskin oʻzgarishlari paytida erishiladi. Belgilar ahamiyatini tahlil qilish shamol tezligining fazoviy gradiyenti 12 soatdan ortiq gorizontlarda prognoz sifatiga sezilarli hissa qoʻshishini koʻrsatdi. Yondashuv kam hisoblash xarajatlarini talab qiladi va dispetcherlik amaliyotiga joriy etilishi mumkin.</p>",
+        "ky": "<p>Энергетикалык системалардагы шамал генерациясынын үлүшүнүн өсүшү анын кыска мөөнөттүү болжолдоосунун тактыгына карата талаптарды жогорулатат, ал эми оперативдүү пландаштыруу жана балансташтыруу чыгымдары ушул тактыкка көз каранды. Бул изилдөөдө градиенттик бустингди аба ырайын сандык болжолдоо прогноздорунан алынган белгилер менен айкалыштырган, шамал электр станциясынын өндүрүшүн 1 сааттан 48 саатка чейинки горизонттордо болжолдоо ыкмасы сунушталат. Маалыматтар белгиленген кубаттуулугу 120 МВт болгон анонимдештирилген шамал электр станциясынын 2021–2025-жылдардагы сааттык маалыматтарын, ошондой эле станциянын айланасындагы тордун тогуз түйүнү үчүн бир нече бийиктиктеги шамалдын ылдамдыгынын жана багытынын прогноздорун камтыйт. Баштапкы метеорологиялык өзгөрмөлөрдөн тышкары шамал ылдамдыгынын мейкиндик градиентин, шамалдын вертикалдык жылышын жана атмосферанын туруктуулугун сыпаттаган белгилер түзүлдү. Модель инерциялык болжолдоо, өндүрүүчүнүн кубаттуулук ийри сызыгына негизделген модель жана рекурренттик нейрондук тармак менен салыштырылды. Сунушталган модель 24 сааттык горизонтто нормалдаштырылган орточо квадраттык катаны 9,8% га чейин төмөндөттү, ал эми кубаттуулук ийри сызыгынын моделинде бул көрсөткүч 12,6%, нейрондук тармакта 10,9% болду. Эң чоң утуш атмосфералык фронттордун өтүшү менен байланышкан шамал ылдамдыгынын кескин өзгөрүүлөрүндө байкалат. Белгилердин маанилүүлүгүн талдоо шамал ылдамдыгынын мейкиндик градиенти 12 сааттан ашкан горизонттордо прогноздун сапатына олуттуу салым кошорун көрсөттү. Ыкма аз эсептөө чыгымдарын талап кылат жана диспетчердик практикага киргизилиши мүмкүн.</p>",
         "sr_Cyrl": "<p>Растући удео производње из ветра у електроенергетским системима повећава захтеве у погледу тачности њене краткорочне прогнозе, од које зависе оперативно планирање и трошкови балансирања. У овој студији предлаже се приступ прогнозирању производње ветроелектране за хоризонте од 1 до 48 сати који комбинује градијентни бустинг са обележјима издвојеним из прогноза нумеричких модела времена. Подаци потичу из анонимизоване ветроелектране инсталисане снаге 120 MW за период 2021–2025 са часовном резолуцијом, заједно са прогнозама брзине и смера ветра на неколико висина за девет чворова мреже око ветроелектране. Поред изворних метеоролошких променљивих, конструисана су обележја која описују просторни градијент брзине ветра, вертикално смицање ветра и стабилност атмосфере. Модел је упоређен са методом перзистентности, моделом заснованим на криви снаге произвођача и рекурентном неуронском мрежом. Предложени модел смањио је нормализовану корен средње квадратне грешке на хоризонту од 24 сата на 9,8%, у поређењу са 12,6% код модела заснованог на криви снаге и 10,9% код неуронске мреже. Највећа побољшања остварују се током наглих промена брзине ветра повезаних са проласком атмосферских фронтова. Анализа значаја обележја показала је да просторни градијент брзине ветра знатно доприноси квалитету прогнозе на хоризонтима дужим од 12 сати. Приступ има ниске рачунарске трошкове и може се применити у диспечерској пракси.</p>",
         "mk": "<p>Растечкиот удел на производството од ветер во електроенергетските системи ги зголемува барањата за точноста на неговото краткорочно прогнозирање, од која зависат оперативното планирање и трошоците за балансирање. Оваа студија предлага пристап за прогнозирање на производството на ветерен парк за хоризонти од 1 до 48 часа, кој комбинира градиентно засилување со обележја извлечени од прогнозите на нумеричкото предвидување на времето. Податоците потекнуваат од анонимизиран ветерен парк со инсталирана моќност од 120 MW за периодот 2021–2025 со часовна резолуција, заедно со прогнозите за брзината и насоката на ветерот на неколку височини за девет јазли на мрежата околу паркот. Покрај суровите метеоролошки променливи, беа конструирани обележја што го опишуваат просторниот градиент на брзината на ветерот, вертикалното смолкнување на ветерот и стабилноста на атмосферата. Моделот беше спореден со моделот на перзистентност, со модел заснован на кривата на моќност на производителот и со рекурентна невронска мрежа. Предложениот модел ја намали нормализираната средна квадратна грешка на 24-часовниот хоризонт на 9,8%, во споредба со 12,6% кај моделот на кривата на моќност и 10,9% кај невронската мрежа. Најголеми подобрувања се постигнуваат при нагли промени на брзината на ветерот поврзани со минувањето на атмосферски фронтови. Анализата на важноста на обележјата покажа дека просторниот градиент на брзината на ветерот значително придонесува за квалитетот на прогнозата на хоризонти подолги од 12 часа. Пристапот има ниски пресметковни трошоци и може да се примени во диспечерската практика.</p>",
         "sq": "<p>Rritja e pjesës së prodhimit nga era në sistemet energjetike i rrit kërkesat për saktësinë e parashikimit të tij afatshkurtër, nga i cili varen planifikimi operacional dhe kostot e balancimit. Ky studim propozon një qasje për parashikimin e prodhimit të një parku eolik për horizonte nga 1 deri në 48 orë, e cila kombinon gradient boosting me veçori të nxjerra nga parashikimet numerike të motit. Të dhënat vijnë nga një park eolik i anonimizuar me kapacitet të instaluar 120 MW për periudhën 2021–2025 me rezolucion orar, së bashku me parashikimet e shpejtësisë dhe të drejtimit të erës në disa lartësi për nëntë nyje të rrjetit përreth parkut. Përveç variablave meteorologjikë bruto, u ndërtuan veçori që përshkruajnë gradientin hapësinor të shpejtësisë së erës, prerjen vertikale të erës dhe qëndrueshmërinë atmosferike. Modeli u krahasua me modelin e vazhdimësisë (persistence), me një model të bazuar në kurbën e fuqisë së prodhuesit dhe me një rrjet neural rekurent. Modeli i propozuar e uli gabimin mesatar kuadratik të normalizuar në horizontin 24-orësh në 9,8%, krahasuar me 12,6% për modelin e kurbës së fuqisë dhe 10,9% për rrjetin neural. Përfitimet më të mëdha arrihen gjatë ndryshimeve të menjëhershme të shpejtësisë së erës që lidhen me kalimin e fronteve atmosferike. Analiza e rëndësisë së veçorive tregoi se gradienti hapësinor i shpejtësisë së erës kontribuon ndjeshëm në cilësinë e parashikimit në horizonte mbi 12 orë. Qasja ka kosto të ulët llogaritëse dhe mund të zbatohet në praktikën e dispeçerimit.</p>"
@@ -5946,6 +6064,20 @@
           "ədədi hava proqnozu",
           "zaman sıraları"
         ],
+        "uz_Latn": [
+          "shamol energetikasi",
+          "quvvatni prognozlash",
+          "gradiyentli busting",
+          "raqamli ob-havo prognozi",
+          "vaqt qatorlari"
+        ],
+        "ky": [
+          "шамал энергетикасы",
+          "кубаттуулукту болжолдоо",
+          "градиенттик бустинг",
+          "аба ырайын сандык болжолдоо",
+          "убакыт катарлары"
+        ],
         "sr_Cyrl": [
           "енергија ветра",
           "прогноза производње",
@@ -6016,6 +6148,8 @@
             "zh_Hans": "伏尔加应用分析研究所",
             "kk": "Волга қолданбалы аналитика институты",
             "az": "Volqaboyu Tətbiqi Analitika İnstitutu",
+            "uz_Latn": "Volga amaliy tahlil instituti",
+            "ky": "Волга колдонмо аналитика институту",
             "sr_Cyrl": "Волшки институт за примењену аналитику",
             "mk": "Волшки институт за применета аналитика",
             "sq": "Instituti i Analitikës së Aplikuar i Vollgës"
@@ -6070,6 +6204,8 @@
             "zh_Hans": "伏尔加应用分析研究所",
             "kk": "Волга қолданбалы аналитика институты",
             "az": "Volqaboyu Tətbiqi Analitika İnstitutu",
+            "uz_Latn": "Volga amaliy tahlil instituti",
+            "ky": "Волга колдонмо аналитика институту",
             "sr_Cyrl": "Волшки институт за примењену аналитику",
             "mk": "Волшки институт за применета аналитика",
             "sq": "Instituti i Analitikës së Aplikuar i Vollgës"
@@ -6090,7 +6226,20 @@
       ],
       "pdf": {
         "ru": "pdf/sub-wind-power-forecast.ru.pdf",
-        "en": "pdf/sub-wind-power-forecast.en.pdf"
+        "en": "pdf/sub-wind-power-forecast.en.pdf",
+        "es": "pdf/sub-wind-power-forecast.es.pdf",
+        "fr": "pdf/sub-wind-power-forecast.fr.pdf",
+        "el": "pdf/sub-wind-power-forecast.el.pdf",
+        "it": "pdf/sub-wind-power-forecast.it.pdf",
+        "pt": "pdf/sub-wind-power-forecast.pt.pdf",
+        "zh_Hans": "pdf/sub-wind-power-forecast.zh_Hans.pdf",
+        "kk": "pdf/sub-wind-power-forecast.kk.pdf",
+        "az": "pdf/sub-wind-power-forecast.az.pdf",
+        "uz_Latn": "pdf/sub-wind-power-forecast.uz_Latn.pdf",
+        "ky": "pdf/sub-wind-power-forecast.ky.pdf",
+        "sr_Cyrl": "pdf/sub-wind-power-forecast.sr_Cyrl.pdf",
+        "mk": "pdf/sub-wind-power-forecast.mk.pdf",
+        "sq": "pdf/sub-wind-power-forecast.sq.pdf"
       },
       "stage": "submission"
     },
@@ -6109,6 +6258,8 @@
         "zh_Hans": "疫情后的博物馆数字受众：在线馆藏访问者行为分析",
         "kk": "Пандемиядан кейінгі музейлердің цифрлық аудиториясы: онлайн коллекцияларға келушілердің мінез-құлқын талдау",
         "az": "Pandemiyadan sonra muzeylərin rəqəmsal auditoriyaları: onlayn kolleksiyaların ziyarətçilərinin davranışının təhlili",
+        "uz_Latn": "Pandemiyadan keyingi muzeylarning raqamli auditoriyasi: onlayn kolleksiyalar tashrifchilarining xulq-atvori tahlili",
+        "ky": "Пандемиядан кийинки музейлердин санариптик аудиториясы: онлайн коллекциялардын келүүчүлөрүнүн жүрүм-турумун талдоо",
         "sr_Cyrl": "Дигитална публика музеја после пандемије: анализа понашања посетилаца онлајн-збирки",
         "mk": "Дигиталната публика на музеите по пандемијата: анализа на однесувањето на посетителите на онлајн-збирките",
         "sq": "Audiencat dixhitale të muzeve pas pandemisë: një analizë e sjelljes së vizitorëve të koleksioneve në internet"
@@ -6124,9 +6275,11 @@
         "zh_Hans": "<p>疫情期间，许多博物馆通过开放馆藏、虚拟展览和教育项目的在线访问，迅速扩大了其网络影响力。恢复线下运营后，扩大了的数字受众是否得以保持，仍是一个悬而未决的问题。本文分析了五家匿名地区博物馆在线馆藏 2019—2025 年的匿名化网站分析日志，涵盖约 310 万次会话。根据浏览深度、会话时长、来源渠道和回访频率，采用聚类方法对访问者进行细分。共识别出五个细分群体：来自搜索引擎的随机访问者、学生和教师、研究人员、固定爱好者以及计划实地参观的访问者。会话总数在 2020 年达到峰值后有所下降，但稳定在疫情前水平的 1.8 倍。与此同时，研究人员和固定爱好者的比例有所上升，其会话时长也有所增加。计划参观的访问者最常浏览开放时间和当前展览页面，其活动与随后的博物馆实地参观量关联最为密切。结果表明，在线馆藏已成为一个独立的受众互动渠道，需要制定专门的发展战略和绩效指标。</p>",
         "kk": "<p>Пандемия кезінде көптеген музейлер коллекцияларға, виртуалды көрмелерге және білім беру бағдарламаларына қолжетімділік ашу арқылы онлайн қатысуын жедел кеңейтті. Бетпе-бет жұмыс режиміне қайта оралғаннан кейін ұлғайған цифрлық аудиторияның сақталған-сақталмағаны ашық мәселе болып қалып отыр. Бұл мақалада бес анонимделген өңірлік музейдің онлайн коллекцияларының 2019–2025 жылдардағы шамамен 3,1 миллион сессияны қамтитын анонимделген веб-аналитика журналдары талданады. Келушілер қарау тереңдігі, сессия ұзақтығы, өту көзі және қайта келу жиілігі бойынша кластерлеу арқылы сегменттелді. Бес сегмент анықталды: іздеу жүйелерінен келген кездейсоқ келушілер, студенттер мен оқытушылар, зерттеушілер, тұрақты әуесқойлар және музейге бетпе-бет баруды жоспарлап жүрген келушілер. Сессиялардың жалпы саны 2020 жылғы шыңнан кейін азайды, бірақ пандемияға дейінгіден 1,8 есе жоғары деңгейде тұрақталды. Сонымен бірге зерттеушілер мен тұрақты әуесқойлардың үлесі артып, олардың сессиялары ұзара түсті. Баруды жоспарлап жүрген келушілер көбінесе жұмыс уақыты мен ағымдағы көрмелер туралы беттерді қарайды, әрі олардың белсенділігі музейге кейінгі барумен ең тығыз байланысты. Нәтижелер онлайн коллекциялардың өзіндік даму стратегиясы мен тиімділік көрсеткіштерін қажет ететін аудиториямен жұмыстың дербес арнасына айналғанын көрсетеді.</p>",
         "az": "<p>Pandemiya dövründə bir çox muzeylər kolleksiyalara, virtual sərgilərə və təhsil proqramlarına onlayn giriş açmaqla internetdə mövcudluğunu sürətlə genişləndirmişdir. Əyani fəaliyyətə qayıdışdan sonra artmış rəqəmsal auditoriyanın nə dərəcədə qorunub saxlandığı sualı açıq qalır. Məqalədə beş anonimləşdirilmiş regional muzeyin onlayn kolleksiyalarının 2019–2025-ci illərə aid, təxminən 3,1 milyon sessiyanı əhatə edən anonimləşdirilmiş veb-analitika jurnalları təhlil edilir. Ziyarətçilər baxış dərinliyi, sessiyanın müddəti, keçid mənbəyi və qayıtma tezliyi üzrə klasterləşdirmə metodu ilə seqmentlərə bölünmüşdür. Beş seqment ayırd edilmişdir: axtarış sistemlərindən gələn təsadüfi ziyarətçilər, şagird, tələbə və müəllimlər, tədqiqatçılar, daimi həvəskarlar və əyani ziyarət planlaşdıran ziyarətçilər. Sessiyaların ümumi sayı 2020-ci ildəki pikdən sonra azalmış, lakin pandemiyadan əvvəlki səviyyədən 1,8 dəfə yüksək səviyyədə sabitləşmişdir. Bununla yanaşı, tədqiqatçıların və daimi həvəskarların payı artmış, onların sessiyaları isə daha uzun olmuşdur. Ziyarət planlaşdıran ziyarətçilər ən çox iş saatları və cari sərgilər olan səhifələrə baxır və məhz onların fəallığı muzeyin sonrakı ziyarətçi sayı ilə daha sıx əlaqəlidir. Nəticələr göstərir ki, onlayn kolleksiyalar ayrıca inkişaf strategiyası və səmərəlilik metrikləri tələb edən auditoriya ilə qarşılıqlı əlaqənin müstəqil kanalına çevrilmişdir.</p>",
+        "uz_Latn": "<p>Pandemiya davrida koʻplab muzeylar kolleksiyalar, virtual koʻrgazmalar va taʼlim dasturlariga kirishni ochib, oʻzlarining onlayn ishtirokini jadal kengaytirdilar. Odatiy faoliyatga qaytilgandan soʻng kengaygan raqamli auditoriya saqlanib qolganmi, degan savol ochiqligicha qolmoqda. Ushbu maqolada beshta anonimlashtirilgan mintaqaviy muzey onlayn kolleksiyalarining 2019–2025-yillardagi anonimlashtirilgan veb-analitika jurnallari tahlil qilinadi; ular taxminan 3,1 million seansni qamrab oladi. Tashrifchilar koʻrish chuqurligi, seans davomiyligi, oʻtish manbai va qaytish chastotasi boʻyicha klasterlash orqali segmentlarga ajratildi. Beshta segment aniqlandi: qidiruv tizimlaridan kelgan tasodifiy tashrifchilar, talabalar va oʻqituvchilar, tadqiqotchilar, doimiy ishqibozlar va muzeyga shaxsan tashrif buyurishni rejalashtirayotgan tashrifchilar. Seanslarning umumiy soni 2020-yildagi choʻqqidan keyin kamaydi, biroq pandemiyadan oldingisiga nisbatan 1,8 baravar yuqori darajada barqarorlashdi. Shu bilan birga, tadqiqotchilar va doimiy ishqibozlar ulushi ortdi, ularning seanslari esa uzoqroq davom eta boshladi. Tashrifni rejalashtirayotgan tashrifchilar koʻpincha ish vaqti va joriy koʻrgazmalar sahifalarini koʻradi, ularning faolligi esa keyinchalik muzeyga tashrif buyurish bilan eng chambarchas bogʻliq. Natijalar onlayn kolleksiyalar oʻz rivojlanish strategiyasi va samaradorlik koʻrsatkichlarini talab qiluvchi auditoriyani jalb qilishning mustaqil kanaliga aylanganini koʻrsatadi.</p>",
+        "ky": "<p>Пандемия учурунда көптөгөн музейлер коллекцияларга, виртуалдык көргөзмөлөргө жана билим берүү программаларына жеткиликтүүлүктү ачып, онлайн катышуусун тез кеңейтишкен. Жеке иштөөгө кайтып келгенден кийин кеңейген санариптик аудитория сакталып калдыбы деген суроо ачык бойдон калууда. Бул макалада беш анонимдештирилген аймактык музейдин онлайн коллекцияларынын 2019–2025-жылдардагы анонимдештирилген веб-аналитика журналдары талданат; алар болжол менен 3,1 миллион сессияны камтыйт. Келүүчүлөр карап чыгуунун тереңдиги, сессиянын узактыгы, өтүү булагы жана кайра келүү жыштыгы боюнча кластерлөө аркылуу сегменттелди. Беш сегмент аныкталды: издөө системаларынан кокус келгендер, студенттер жана мугалимдер, изилдөөчүлөр, туруктуу ышкыбоздор жана музейге жеке барууну пландаган келүүчүлөр. Сессиялардын жалпы саны 2020-жылдагы чокудан кийин азайды, бирок пандемияга чейинкиге караганда 1,8 эсе жогору деңгээлде турукташты. Ошол эле учурда изилдөөчүлөрдүн жана туруктуу ышкыбоздордун үлүшү көбөйүп, алардын сессиялары узарды. Барууну пландаган келүүчүлөр көбүнчө иштөө убактысы жана учурдагы көргөзмөлөр тууралуу барактарды карашат, ал эми алардын активдүүлүгү кийинки музейге барууга эң тыгыз байланыштуу. Натыйжалар онлайн коллекциялар өз алдынча өнүгүү стратегиясын жана натыйжалуулук көрсөткүчтөрүн талап кылган аудитория менен иштөөнүн өз алдынча каналына айланганын көрсөтөт.</p>",
         "sr_Cyrl": "<p>Током пандемије многи музеји убрзано су проширили своје присуство на интернету, отварајући приступ збиркама, виртуелним изложбама и образовним програмима. Да ли се увећана дигитална публика задржала и након повратка на рад уживо, и даље је отворено питање. У овом раду анализирају се анонимизовани записи веб-аналитике онлајн-збирки пет анонимизованих регионалних музеја за период 2019–2025, који обухватају око 3,1 милион сесија. Посетиоци су сегментирани кластеровањем према дубини прегледања, трајању сесије, извору упућивања и учесталости враћања. Издвојено је пет сегмената: повремени посетиоци из претраживача, ученици, студенти и наставници, истраживачи, редовни љубитељи и посетиоци који планирају долазак у музеј. Укупан број сесија опао је после врхунца из 2020. године, али се стабилизовао на нивоу 1,8 пута вишем него пре пандемије. Истовремено, удео истраживача и редовних љубитеља порастао је, а њихове сесије постале су дуже. Посетиоци који планирају долазак најчешће прегледају странице са радним временом и актуелним изложбама, а њихова активност најтешње је повезана са каснијом посетом музеју. Резултати показују да су онлајн-збирке постале самосталан канал ангажовања публике, који захтева сопствену стратегију развоја и показатеље учинка.</p>",
         "mk": "<p>За време на пандемијата многу музеи брзо го проширија своето онлајн-присуство со отворање пристап до збирките, виртуелни изложби и образовни програми. Дали зголемената дигитална публика се задржала по враќањето на работата со посетители во живо останува отворено прашање. Оваа статија ги анализира анонимизираните записи од веб-аналитиката на онлајн-збирките на пет анонимизирани регионални музеи за периодот 2019–2025, кои опфаќаат околу 3,1 милиони сесии. Посетителите беа сегментирани со кластерирање според длабочината на прегледувањето, времетраењето на сесијата, изворот на упатување и зачестеноста на враќање. Беа идентификувани пет сегменти: случајни посетители од пребарувачите, студенти и наставници, истражувачи, редовни ентузијасти и посетители што планираат лична посета. Вкупниот број сесии се намали по врвот во 2020 година, но се стабилизираше на ниво 1,8 пати повисоко отколку пред пандемијата. Притоа, уделот на истражувачите и на редовните ентузијасти се зголеми, а нивните сесии станаа подолги. Посетителите што планираат посета најчесто ги прегледуваат страниците со работното време и тековните изложби, а нивната активност е најтесно поврзана со подоцнежното посетување на музејот. Резултатите покажуваат дека онлајн-збирките станаа самостоен канал за вклучување на публиката, кој бара сопствена стратегија за развој и сопствени показатели за успешност.</p>",
-        "sq": "<p>Gjatë pandemisë, shumë muze e zgjeruan me shpejtësi praninë e tyre në internet duke hapur qasjen në koleksione, ekspozita virtuale dhe programe edukative. Nëse audienca dixhitale e zgjeruar është ruajtur pas rikthimit në funksionimin fizik mbetet një pyetje e hapur. Ky artikull analizon regjistrat e anonimizuar të analitikës së uebit të koleksioneve në internet të pesë muzeve rajonalë të anonimizuar për periudhën 2019–2025, që përfshijnë rreth 3,1 milionë seanca. Vizitorët u segmentuan me grupim (clustering) sipas thellësisë së shfletimit, kohëzgjatjes së seancës, burimit të referimit dhe shpeshtësisë së rikthimit. U identifikuan pesë segmente: vizitorë rastësorë nga motorët e kërkimit, studentë dhe mësues, studiues, entuziastë të rregullt dhe vizitorë që planifikojnë një vizitë fizike. Numri i përgjithshëm i seancave ra pas kulmit të vitit 2020, por u stabilizua në një nivel 1,8 herë më të lartë se para pandemisë. Ndërkohë, pjesa e studiuesve dhe e entuziastëve të rregullt u rrit dhe seancat e tyre u bënë më të gjata. Vizitorët që planifikojnë një vizitë shikojnë më shpesh faqet me oraret dhe ekspozitat aktuale, dhe aktiviteti i tyre lidhet më ngushtë me frekuentimin e mëpasshëm të muzeut. Rezultatet tregojnë se koleksionet në internet janë bërë një kanal i pavarur i angazhimit të audiencës, që kërkon strategjinë e vet të zhvillimit dhe tregues të vetë të performancës.</p>"
+        "sq": "<p>Gjatë pandemisë, shumë muze e zgjeruan me shpejtësi praninë e tyre në internet duke hapur qasjen në koleksione, ekspozita virtuale dhe programe edukative. Nëse audienca dixhitale e zgjeruar është ruajtur pas rikthimit në funksionimin fizik mbetet një pyetje e hapur. Ky artikull analizon regjistrat e anonimizuar të analitikës së uebit të koleksioneve në internet të pesë muzeve rajonalë të anonimizuar për periudhën 2019–2025, që përfshijnë rreth 3,1 milionë seanca. Vizitorët u segmentuan me grupim (clustering) sipas thellësisë së shfletimit, kohëzgjatjes së seancës, burimit të referimit dhe shpeshtësisë së rikthimit. U identifikuan pesë segmente: vizitorë rastësorë nga motorët e kërkimit, studentë dhe mësues, studiues, entuziastë të rregullt dhe vizitorë që planifikojnë një vizitë fizike. Numri i përgjithshëm i seancave ra pas kulmit të vitit 2020, por u stabilizua në një nivel 1,8 herë më të lartë se para pandemisë. Ndërkohë, pjesa e studiuesve dhe e entuziastëve të rregullt u rrit dhe seancat e tyre u bënë më të gjata. Vizitorët që planifikojnë një vizitë shikojnë më shpesh faqet me oraret dhe ekspozitat aktuale, dhe aktiviteti i tyre lidhet më ngushtë me frekuentimin e mëpasshëm të muzeut. Rezultatet tregojnë se koleksionet në internet janë bërë një kanal i pavarur i angazhimit të audiencës, që kërkon strategjinë e vet të zhvillimit dhe treguesit e vet të performancës.</p>"
       },
       "keywords": {
         "ru": [
@@ -6199,6 +6352,20 @@
           "auditoriyanın seqmentləşdirilməsi",
           "rəqəmsal humanitar tədqiqatlar"
         ],
+        "uz_Latn": [
+          "muzeylar",
+          "raqamli kolleksiyalar",
+          "veb-analitika",
+          "auditoriyani segmentlash",
+          "raqamli gumanitar fanlar"
+        ],
+        "ky": [
+          "музейлер",
+          "санариптик коллекциялар",
+          "веб-аналитика",
+          "аудиторияны сегменттөө",
+          "санариптик гуманитардык илимдер"
+        ],
         "sr_Cyrl": [
           "музеји",
           "дигиталне збирке",
@@ -6269,6 +6436,8 @@
             "zh_Hans": "“克洛诺斯”科学技术史中心",
             "kk": "«Хронос» ғылым және техника тарихы орталығы",
             "az": "«Xronos» Elm və Texnika Tarixi Mərkəzi",
+            "uz_Latn": "“Xronos” fan va texnika tarixi markazi",
+            "ky": "«Хронос» илим жана техника тарыхы борбору",
             "sr_Cyrl": "Центар за историју науке и технике „Хронос“",
             "mk": "Центар за историја на науката и технологијата „Хронос“",
             "sq": "Qendra «Chronos» për Historinë e Shkencës dhe të Teknologjisë"
@@ -6323,6 +6492,8 @@
             "zh_Hans": "北方博物馆学研究所",
             "kk": "Солтүстік музейтану институты",
             "az": "Şimal Muzeyşünaslıq Tədqiqatları İnstitutu",
+            "uz_Latn": "Shimoliy muzeyshunoslik instituti",
+            "ky": "Түндүк музей таануу институту",
             "sr_Cyrl": "Северни институт за музејске студије",
             "mk": "Нордиски институт за музејски студии",
             "sq": "Instituti Nordik i Studimeve Muzeore"
@@ -6342,7 +6513,20 @@
       ],
       "pdf": {
         "ru": "pdf/sub-museum-digital-audiences.ru.pdf",
-        "en": "pdf/sub-museum-digital-audiences.en.pdf"
+        "en": "pdf/sub-museum-digital-audiences.en.pdf",
+        "es": "pdf/sub-museum-digital-audiences.es.pdf",
+        "fr": "pdf/sub-museum-digital-audiences.fr.pdf",
+        "el": "pdf/sub-museum-digital-audiences.el.pdf",
+        "it": "pdf/sub-museum-digital-audiences.it.pdf",
+        "pt": "pdf/sub-museum-digital-audiences.pt.pdf",
+        "zh_Hans": "pdf/sub-museum-digital-audiences.zh_Hans.pdf",
+        "kk": "pdf/sub-museum-digital-audiences.kk.pdf",
+        "az": "pdf/sub-museum-digital-audiences.az.pdf",
+        "uz_Latn": "pdf/sub-museum-digital-audiences.uz_Latn.pdf",
+        "ky": "pdf/sub-museum-digital-audiences.ky.pdf",
+        "sr_Cyrl": "pdf/sub-museum-digital-audiences.sr_Cyrl.pdf",
+        "mk": "pdf/sub-museum-digital-audiences.mk.pdf",
+        "sq": "pdf/sub-museum-digital-audiences.sq.pdf"
       },
       "stage": "submission"
     },
@@ -6361,6 +6545,8 @@
         "zh_Hans": "亚麻纤维/聚乳酸生物复合材料加速老化后的力学性能",
         "kk": "Жедел ескіртуден кейінгі зығыр талшығы мен полисүт қышқылы негізіндегі биокомпозиттердің механикалық қасиеттері",
         "az": "Sürətləndirilmiş köhnəlmədən sonra kətan lifi və polilaktid turşusu əsaslı biokompozitlərin mexaniki xassələri",
+        "uz_Latn": "Tezlashtirilgan eskirishdan keyin zigʻir tolasi va polilaktid asosidagi biokompozitlarning mexanik xossalari",
+        "ky": "Тездетилген эскиртүүдөн кийинки зыгыр буласы жана полилактид негизиндеги биокомпозиттердин механикалык касиеттери",
         "sr_Cyrl": "Механичка својства биокомпозита од ланеног влакна и полимлечне киселине након убрзаног старења",
         "mk": "Механички својства на биокомпозити од ленено влакно и полимлечна киселина по забрзано стареење",
         "sq": "Vetitë mekanike të biokompozitëve me fibra liri dhe acid polilaktik pas plakjes së përshpejtuar"
@@ -6376,6 +6562,8 @@
         "zh_Hans": "<p>以天然纤维和可生物降解聚合物为基础的生物复合材料，被视为汽车工业、建筑业和消费品领域中玻璃纤维增强塑料的环保替代品。然而，这类材料对水分和紫外线辐射较为敏感，在使用过程中强度会下降，从而阻碍了其更广泛的应用。本研究考察了亚麻纤维的碱处理和硅烷处理对聚乳酸基复合材料加速气候老化后力学性能的影响。采用热压法制备纤维质量分数为 30% 的试样，并对其进行 500 小时和 1000 小时的紫外线辐射、高温和高湿循环暴露。老化 1000 小时后，未处理纤维复合材料的拉伸强度下降了 38%，而硅烷处理纤维复合材料的强度仅下降 17%。碱处理提高了初始强度，但对耐老化性能影响甚微。电子显微镜和红外光谱分析表明，硅烷处理可降低吸水率，并防止纤维—基体界面处发生分层。研究结果支持对户外使用的制品推荐采用硅烷处理。</p>",
         "kk": "<p>Табиғи талшықтар мен биологиялық ыдырайтын полимерлер негізіндегі биокомпозиттер автомобиль өнеркәсібінде, құрылыста және тұтыну тауарлары өндірісінде шыны талшықты пластиктерге экологиялық таза балама ретінде қарастырылады. Оларды кеңінен қолдануға ылғал мен ультракүлгін сәулеленуге сезімталдық кедергі келтіреді, бұл пайдалану барысында беріктікті төмендетеді. Бұл зерттеуде зығыр талшығын сілтілік және силандық өңдеудің полисүт қышқылы матрицасы бар композиттердің жедел климаттық ескіртуден кейінгі механикалық қасиеттеріне әсері қарастырылады. Талшықтың массалық үлесі 30% болатын үлгілер ыстықтай престеу арқылы дайындалып, 500 және 1000 сағат бойы ультракүлгін сәулеленудің, жоғары температура мен ылғалдылықтың циклдік әсеріне ұшыратылды. 1000 сағаттық ескіртуден кейін өңделмеген талшығы бар композиттердің созылу кезіндегі беріктігі 38%-ға төмендеді, ал силанмен өңделген талшығы бар композиттерде бұл төмендеу небәрі 17% болды. Сілтілік өңдеу бастапқы беріктікті арттырды, бірақ ескіртуге төзімділікке аз әсер етті. Электрондық микроскопия және инфрақызыл спектроскопия силандық өңдеудің су сіңіруді азайтатынын және талшық пен матрица шекарасындағы қабаттануға жол бермейтінін көрсетті. Нәтижелер ашық ауада пайдаланылатын бұйымдар үшін силандық өңдеуді ұсынуға негіз береді.</p>",
         "az": "<p>Təbii liflər və bioloji parçalanan polimerlər əsasında biokompozitlər avtomobil sənayesində, tikintidə və istehlak mallarının istehsalında şüşə plastiklərə ekoloji cəhətdən təmiz alternativ kimi nəzərdən keçirilir. Onların geniş tətbiqinə istismar zamanı möhkəmliyin azalmasına səbəb olan rütubətə və ultrabənövşəyi şüalanmaya həssaslıq mane olur. Bu tədqiqatda kətan lifinin qələvi və silan emalının sürətləndirilmiş iqlim köhnəlməsindən sonra polilaktid turşusu matrisli kompozitlərin mexaniki xassələrinə təsiri öyrənilir. Lifin kütlə payı 30% olan nümunələr isti presləmə üsulu ilə hazırlanmış və 500 və 1000 saat ərzində ultrabənövşəyi şüalanmanın, yüksək temperaturun və rütubətin tsiklik təsirinə məruz qoyulmuşdur. 1000 saatlıq köhnəlmədən sonra emal edilməmiş lifli kompozitlərin dartılmada möhkəmliyi 38% azalmış, silanla emal edilmiş lifli kompozitlərdə isə azalma cəmi 17% olmuşdur. Qələvi emal ilkin möhkəmliyi artırmış, lakin köhnəlməyə davamlılığa zəif təsir göstərmişdir. Elektron mikroskopiyası və infraqırmızı spektroskopiya göstərmişdir ki, silan emalı suudmanı azaldır və lif ilə matris arasındakı sərhəddə laylanmanın qarşısını alır. Nəticələr açıq havada istismar edilən məmulatlar üçün silan emalını tövsiyə etməyə əsas verir.</p>",
+        "uz_Latn": "<p>Tabiiy tolalar va biologik parchalanuvchi polimerlar asosidagi biokompozitlar avtomobilsozlik, qurilish va isteʼmol tovarlari ishlab chiqarishida shisha tolali plastiklarga ekologik toza muqobil sifatida qaraladi. Ularning kengroq qoʻllanilishiga namlik va ultrabinafsha nurlanishga sezgirlik toʻsqinlik qiladi, bu esa foydalanish jarayonida mustahkamlikni pasaytiradi. Ushbu tadqiqotda zigʻir tolasiga ishqoriy va silan bilan ishlov berishning polilaktid matritsali kompozitlarning tezlashtirilgan iqlimiy eskirishdan keyingi mexanik xossalariga taʼsiri oʻrganiladi. Tolaning massa ulushi 30% boʻlgan namunalar issiq presslash usulida tayyorlanib, 500 va 1000 soat davomida ultrabinafsha nurlanish, yuqori harorat va namlikning tsiklik taʼsiriga duchor qilindi. 1000 soatlik eskirishdan soʻng ishlov berilmagan tolali kompozitlarning choʻzilishdagi mustahkamligi 38% ga kamaydi, silan bilan ishlov berilgan tolali kompozitlarda esa bu pasayish atigi 17% ni tashkil etdi. Ishqoriy ishlov berish boshlangʻich mustahkamlikni oshirdi, biroq eskirishga chidamlilikka kam taʼsir koʻrsatdi. Elektron mikroskopiya va infraqizil spektroskopiya silan bilan ishlov berish suv yutilishini kamaytirishi va tola-matritsa chegarasida qatlamlarga ajralishning oldini olishini koʻrsatdi. Natijalar ochiq havoda foydalaniladigan buyumlar uchun silan bilan ishlov berishni tavsiya etishga asos boʻladi.</p>",
+        "ky": "<p>Табигый булалар жана биологиялык жол менен ажыроочу полимерлер негизиндеги биокомпозиттер автомобиль өнөр жайында, курулушта жана керектөө буюмдарында айнек буласы менен бекемделген пластиктерге экологиялык жактан коопсуз альтернатива катары каралат. Аларды кеңири колдонууга нымдуулукка жана ультрафиолет нурлануусуна сезгичтиги тоскоол болот, бул эксплуатация учурунда бекемдикти төмөндөтөт. Бул изилдөөдө зыгыр буласын щелочтуу жана силандык иштетүүнүн полилактид матрицасы бар композиттердин тездетилген климаттык эскиртүүдөн кийинки механикалык касиеттерине тийгизген таасири каралат. Буланын массалык үлүшү 30% болгон үлгүлөр ысык пресстөө ыкмасы менен даярдалып, 500 жана 1000 саат бою ультрафиолет нурлануусунун, жогорулатылган температуранын жана нымдуулуктун циклдик таасирине дуушар кылынды. 1000 саат эскиртүүдөн кийин иштетилбеген була менен жасалган композиттердин созулууга бекемдиги 38% га төмөндөдү, ал эми силан менен иштетилген була менен жасалган композиттерде бул төмөндөө болгону 17% ды түздү. Щелочтуу иштетүү баштапкы бекемдикти жогорулатты, бирок эскирүүгө туруктуулукка аз таасир этти. Электрондук микроскопия жана инфракызыл спектроскопия силандык иштетүү сууну сиңирүүнү азайтып, була менен матрицанын чек арасында катмарланууга жол бербей турганын көрсөттү. Натыйжалар ачык асман алдында колдонулуучу буюмдар үчүн силандык иштетүүнү сунуштоого негиз берет.</p>",
         "sr_Cyrl": "<p>Биокомпозити на бази природних влакана и биоразградивих полимера сматрају се еколошки прихватљивом алтернативом стаклопластици у аутомобилској индустрији, грађевинарству и производњи робе широке потрошње. Њихову ширу примену ограничава осетљивост на влагу и ултраљубичасто зрачење, која смањује чврстоћу током експлоатације. У овој студији испитује се утицај алкалног и силанског третмана ланеног влакна на механичка својства композита са матрицом од полимлечне киселине након убрзаног климатског старења. Узорци са масеним уделом влакана од 30% израђени су топлим пресовањем и подвргнути цикличном излагању ултраљубичастом зрачењу, повишеној температури и влажности у трајању од 500 и 1000 сати. Након 1000 сати старења затезна чврстоћа композита са нетретираним влакном смањила се за 38%, док је код композита са силански третираним влакном смањење износило само 17%. Алкални третман повећао је почетну чврстоћу, али је слабо утицао на отпорност на старење. Електронска микроскопија и инфрацрвена спектроскопија показале су да силански третман смањује упијање воде и спречава раслојавање на граничној површини влакна и матрице. Резултати оправдавају препоруку силанског третмана за производе који се користе на отвореном.</p>",
         "mk": "<p>Биокомпозитите засновани на природни влакна и биоразградливи полимери се сметаат за еколошки прифатлива алтернатива на стаклопластиките во автомобилската индустрија, градежништвото и производството на широка потрошувачка. Нивната поширока примена е попречена од чувствителноста на влага и ултравиолетово зрачење, што ја намалува јачината за време на употребата. Оваа студија го испитува влијанието на алкалниот и силанскиот третман на лененото влакно врз механичките својства на композитите со матрица од полимлечна киселина по забрзано атмосферско стареење. Примероците со масен удел на влакна од 30% беа произведени со топло пресување и беа подложени на циклична изложеност на ултравиолетово зрачење, покачена температура и влажност во траење од 500 и 1000 часа. По 1000 часа стареење, затезната јачина на композитите со нетретирано влакно се намали за 38%, додека кај композитите со влакно третирано со силан намалувањето изнесуваше само 17%. Алкалниот третман ја зголеми почетната јачина, но имаше мало влијание врз отпорноста на стареење. Електронската микроскопија и инфрацрвената спектроскопија покажаа дека силанскиот третман ја намалува апсорпцијата на вода и спречува раслојување на границата меѓу влакното и матрицата. Резултатите го оправдуваат препорачувањето на силанскиот третман за производи што се користат на отворено.</p>",
         "sq": "<p>Biokompozitët me bazë fibrash natyrore dhe polimeresh biodegraduese konsiderohen si një alternativë miqësore me mjedisin ndaj plastikave me fibra qelqi në industrinë e automjeteve, në ndërtim dhe në mallrat e konsumit. Përdorimi i tyre më i gjerë pengohet nga ndjeshmëria ndaj lagështisë dhe rrezatimit ultravjollcë, e cila e ul qëndrueshmërinë gjatë shfrytëzimit. Ky studim shqyrton efektin e trajtimit alkalin dhe me silan të fibrës së lirit mbi vetitë mekanike të kompozitëve me matricë acidi polilaktik pas plakjes së përshpejtuar klimatike. Mostrat me pjesë masive të fibrës 30% u prodhuan me presim të nxehtë dhe iu nënshtruan ekspozimit ciklik ndaj rrezatimit ultravjollcë, temperaturës së ngritur dhe lagështisë për 500 dhe 1000 orë. Pas 1000 orësh plakjeje, qëndrueshmëria në tërheqje e kompozitëve me fibër të patrajtuar u ul me 38%, ndërsa për kompozitët me fibër të trajtuar me silan ulja ishte vetëm 17%. Trajtimi alkalin rriti qëndrueshmërinë fillestare, por pati pak efekt mbi rezistencën ndaj plakjes. Mikroskopia elektronike dhe spektroskopia infra të kuqe treguan se trajtimi me silan ul thithjen e ujit dhe parandalon shtresëzimin në ndërfaqen fibër–matricë. Rezultatet mbështesin rekomandimin e trajtimit me silan për produktet që përdoren në ambient të jashtëm.</p>"
@@ -6451,6 +6639,20 @@
           "köhnəlmə",
           "silan emalı"
         ],
+        "uz_Latn": [
+          "biokompozitlar",
+          "zigʻir tolasi",
+          "polilaktid",
+          "eskirish",
+          "silan bilan ishlov berish"
+        ],
+        "ky": [
+          "биокомпозиттер",
+          "зыгыр буласы",
+          "полилактид",
+          "эскирүү",
+          "силандык иштетүү"
+        ],
         "sr_Cyrl": [
           "биокомпозити",
           "ланено влакно",
@@ -6521,6 +6723,8 @@
             "zh_Hans": "“克里斯塔尔”乌拉尔材料科学中心",
             "kk": "«Кристалл» Орал материалтану орталығы",
             "az": "«Kristall» Ural Materialşünaslıq Mərkəzi",
+            "uz_Latn": "“Kristall” Ural materialshunoslik markazi",
+            "ky": "«Кристалл» Урал материал таануу борбору",
             "sr_Cyrl": "Уралски центар за науку о материјалима „Кристал“",
             "mk": "Уралски центар за наука за материјалите „Кристал“",
             "sq": "Qendra Uralase e Shkencës së Materialeve «Kristall»"
@@ -6575,6 +6779,8 @@
             "zh_Hans": "诺沃博尔国立大学",
             "kk": "Новобор мемлекеттік университеті",
             "az": "Novobor Dövlət Universiteti",
+            "uz_Latn": "Novobor davlat universiteti",
+            "ky": "Новобор мамлекеттик университети",
             "sr_Cyrl": "Државни универзитет у Новобору",
             "mk": "Државен универзитет во Новобор",
             "sq": "Universiteti Shtetëror i Novoborit"
@@ -6629,6 +6835,8 @@
             "zh_Hans": "“克里斯塔尔”乌拉尔材料科学中心",
             "kk": "«Кристалл» Орал материалтану орталығы",
             "az": "«Kristall» Ural Materialşünaslıq Mərkəzi",
+            "uz_Latn": "“Kristall” Ural materialshunoslik markazi",
+            "ky": "«Кристалл» Урал материал таануу борбору",
             "sr_Cyrl": "Уралски центар за науку о материјалима „Кристал“",
             "mk": "Уралски центар за наука за материјалите „Кристал“",
             "sq": "Qendra Uralase e Shkencës së Materialeve «Kristall»"
@@ -6649,7 +6857,20 @@
       ],
       "pdf": {
         "ru": "pdf/sub-flax-biocomposites.ru.pdf",
-        "en": "pdf/sub-flax-biocomposites.en.pdf"
+        "en": "pdf/sub-flax-biocomposites.en.pdf",
+        "es": "pdf/sub-flax-biocomposites.es.pdf",
+        "fr": "pdf/sub-flax-biocomposites.fr.pdf",
+        "el": "pdf/sub-flax-biocomposites.el.pdf",
+        "it": "pdf/sub-flax-biocomposites.it.pdf",
+        "pt": "pdf/sub-flax-biocomposites.pt.pdf",
+        "zh_Hans": "pdf/sub-flax-biocomposites.zh_Hans.pdf",
+        "kk": "pdf/sub-flax-biocomposites.kk.pdf",
+        "az": "pdf/sub-flax-biocomposites.az.pdf",
+        "uz_Latn": "pdf/sub-flax-biocomposites.uz_Latn.pdf",
+        "ky": "pdf/sub-flax-biocomposites.ky.pdf",
+        "sr_Cyrl": "pdf/sub-flax-biocomposites.sr_Cyrl.pdf",
+        "mk": "pdf/sub-flax-biocomposites.mk.pdf",
+        "sq": "pdf/sub-flax-biocomposites.sq.pdf"
       },
       "fundingAgency": {
         "ru": "Фонд поддержки междисциплинарных исследований «Горизонт»",
@@ -6662,6 +6883,8 @@
         "zh_Hans": "“地平线”跨学科研究基金会",
         "kk": "«Горизонт» пәнаралық зерттеулерді қолдау қоры",
         "az": "«Horizont» Fənlərarası Tədqiqatlara Dəstək Fondu",
+        "uz_Latn": "“Gorizont” fanlararo tadqiqotlarni qoʻllab-quvvatlash jamgʻarmasi",
+        "ky": "«Горизонт» дисциплиналар аралык изилдөөлөр фонду",
         "sr_Cyrl": "Фондација за подршку интердисциплинарним истраживањима „Хоризонт“",
         "mk": "Фондација за интердисциплинарни истражувања „Хоризонт“",
         "sq": "Fondacioni «Horizont» për Kërkime Ndërdisiplinore"
@@ -6683,6 +6906,8 @@
         "zh_Hans": "中小学生幸福感的测量：测量工具及其心理测量学特性综述",
         "kk": "Оқушылардың әл-ауқатын өлшеу: құралдарға және олардың психометриялық қасиеттеріне шолу",
         "az": "Məktəblilərin rifahının ölçülməsi: alətlərin və onların psixometrik xüsusiyyətlərinin icmalı",
+        "uz_Latn": "Maktab oʻquvchilarining farovonligini oʻlchash: instrumentlar va ularning psixometrik xususiyatlari sharhi",
+        "ky": "Окуучулардын жыргалчылыгын өлчөө: инструменттердин жана алардын психометриялык касиеттеринин серептөөсү",
         "sr_Cyrl": "Мерење благостања ученика: преглед инструмената и њихових психометријских својстава",
         "mk": "Мерење на благосостојбата на учениците: преглед на инструментите и нивните психометриски својства",
         "sq": "Matja e mirëqenies së nxënësve: një vështrim i instrumenteve dhe i vetive të tyre psikometrike"
@@ -6698,6 +6923,8 @@
         "zh_Hans": "<p>中小学生的幸福感日益被视为与学业成就并列的一项独立教育成果，许多教育体系已将其纳入监测计划。然而，幸福感的定义不尽相同，用于测量幸福感的工具在结构、长度和质量方面差异很大。本综述分析了 2000—2025 年 116 篇文献中描述的 38 种用于测量 8～18 岁儿童和青少年主观幸福感的工具。依据 COSMIN 标准，对每种工具的理论基础、测量维度、适用年龄范围、俄语版本可得性以及心理测量学特性（信度、结构效度、测量不变性和反应度）进行了评估。大多数工具基于享乐主义或实现论幸福感模型或二者的结合，仅有三分之一的工具将学校幸福感列为独立维度。绝大多数量表的内部一致性可以接受，但仅有 11 种工具检验了跨年龄组和跨语言版本的测量不变性。九种工具已有俄语修订版，但其心理测量学特性研究尚不充分。本文提出了选择学校监测工具的建议，并指出了进一步修订的方向。</p>",
         "kk": "<p>Оқушылардың әл-ауқаты оқу жетістіктерімен қатар білім берудің дербес нәтижесі ретінде барған сайын жиі қарастырылуда, ал көптеген білім беру жүйелері оны өздерінің мониторинг бағдарламаларына енгізеді. Алайда әл-ауқат әртүрлі анықталады, ал оны өлшеуге арналған құралдар құрылымы, көлемі және сапасы бойынша айтарлықтай ерекшеленеді. Бұл шолуда 2000–2025 жылдардағы 116 жарияланымда сипатталған, 8–18 жастағы балалар мен жасөспірімдердің субъективті әл-ауқатын өлшеуге арналған 38 құрал талданады. Әр құрал үшін теориялық негізі, өлшенетін құрамдас бөліктері, жас ауқымы, орыс тіліндегі нұсқасының болуы және COSMIN стандартына сәйкес психометриялық қасиеттері бағаланды: сенімділік, құрылымдық валидтілік, өлшемдік инварианттылық және сезімталдық. Құралдардың көпшілігі әл-ауқаттың гедонистік немесе эвдемониялық моделіне не олардың үйлесіміне сүйенеді, ал мектептегі әл-ауқат олардың тек үштен бірінде ғана жеке құрамдас бөлік ретінде бөлінеді. Шкалалардың басым көпшілігінде ішкі келісімділік қолайлы деңгейде, бірақ жас топтары мен тілдік нұсқалар арасындағы өлшемдік инварианттылық тек 11 құрал үшін тексерілген. Тоғыз құралдың орыс тіліне бейімделген нұсқалары бар, бірақ олардың психометриялық қасиеттері толық зерттелмеген. Мектеп мониторингі үшін құралдарды таңдау бойынша ұсынымдар тұжырымдалып, әрі қарай бейімдеудің бағыттары белгіленді.</p>",
         "az": "<p>Məktəblilərin rifahı getdikcə daha çox akademik nailiyyətlərlə yanaşı təhsilin müstəqil nəticəsi kimi nəzərdən keçirilir və bir çox təhsil sistemləri onu monitorinq proqramlarına daxil edir. Bununla belə, rifah anlayışı müxtəlif cür müəyyən edilir və onu ölçən alətlər struktur, həcm və keyfiyyət baxımından əhəmiyyətli dərəcədə fərqlənir. Bu icmalda 2000–2025-ci illərə aid 116 nəşrdə təsvir edilmiş, 8–18 yaşlı uşaq və yeniyetmələrin subyektiv rifahını ölçən 38 alət təhlil edilir. Hər bir alət üçün nəzəri əsas, ölçülən komponentlər, yaş diapazonu, rusdilli versiyanın mövcudluğu və COSMIN standartı üzrə psixometrik xüsusiyyətlər qiymətləndirilmişdir: etibarlılıq, struktur validliyi, ölçmə invariantlığı və dəyişikliklərə həssaslıq. Alətlərin əksəriyyəti hedonik və ya evdemonik rifah modelinə, yaxud onların birləşməsinə əsaslanır, məktəb rifahı isə ayrıca komponent kimi onların yalnız üçdə birində ayırd edilir. Daxili uzlaşma şkalaların böyük əksəriyyəti üçün qənaətbəxşdir, lakin yaş qrupları və dil versiyaları arasında ölçmə invariantlığı yalnız 11 alət üçün yoxlanılmışdır. Doqquz alətin rusdilli adaptasiyaları mövcuddur, lakin onların psixometrik xüsusiyyətləri natamam öyrənilmişdir. Məktəb monitorinqi üçün alətlərin seçilməsinə dair tövsiyələr formalaşdırılmış və gələcək adaptasiya istiqamətləri müəyyən edilmişdir.</p>",
+        "uz_Latn": "<p>Maktab oʻquvchilarining farovonligi akademik yutuqlar bilan bir qatorda tobora mustaqil taʼlim natijasi sifatida qaralmoqda va koʻplab taʼlim tizimlari uni oʻz monitoring dasturlariga kiritmoqda. Biroq farovonlik turlicha taʼriflanadi, uni oʻlchash uchun qoʻllaniladigan instrumentlar esa tuzilishi, hajmi va sifati jihatidan sezilarli darajada farq qiladi. Ushbu sharhda 2000–2025-yillardagi 116 ta nashrda tavsiflangan, 8–18 yoshli bolalar va oʻsmirlarning subyektiv farovonligini oʻlchashga moʻljallangan 38 ta instrument tahlil qilinadi. Har bir instrument uchun nazariy asos, oʻlchanadigan komponentlar, yosh diapazoni, rus tilidagi versiyaning mavjudligi va COSMIN standartiga muvofiq psixometrik xususiyatlar — ishonchlilik, strukturaviy validlik, oʻlchov invariantligi va oʻzgarishlarga sezgirlik baholandi. Instrumentlarning aksariyati farovonlikning gedonik yoki evdemonik modeliga yoxud ularning kombinatsiyasiga tayanadi, maktabdagi farovonlik esa ularning faqat uchdan birida alohida komponent sifatida ajratilgan. Shkalalarning mutlaq koʻpchiligida ichki muvofiqlik maqbul darajada, biroq yosh guruhlari va til versiyalari boʻyicha oʻlchov invariantligi faqat 11 ta instrument uchun tekshirilgan. Toʻqqizta instrumentning rus tilidagi adaptatsiyalari mavjud, ammo ularning psixometrik xususiyatlari toʻliq oʻrganilmagan. Maktab monitoringi uchun instrumentlarni tanlash boʻyicha tavsiyalar ishlab chiqilgan va keyingi adaptatsiya yoʻnalishlari belgilab berilgan.</p>",
+        "ky": "<p>Окуучулардын жыргалчылыгы академиялык жетишкендиктер менен катар билим берүүнүн өз алдынча натыйжасы катары барган сайын көбүрөөк каралууда жана көптөгөн билим берүү системалары аны өз мониторинг программаларына киргизишет. Бирок жыргалчылык ар түрдүүчө аныкталат, ал эми аны өлчөө үчүн колдонулган инструменттер түзүлүшү, көлөмү жана сапаты боюнча бир топ айырмаланат. Бул серепте 2000–2025-жылдардагы 116 басылмада сыпатталган, 8–18 жаштагы балдардын жана өспүрүмдөрдүн субъективдүү жыргалчылыгын өлчөөнүн 38 инструменти талданат. Ар бир инструмент үчүн теориялык негизи, өлчөнүүчү компоненттери, жаш диапазону, орус тилдүү версиясынын болушу жана COSMIN стандарты боюнча психометриялык касиеттери бааланды: ишенимдүүлүк, структуралык валиддүүлүк, өлчөө инварианттуулугу жана өзгөрүүлөргө сезгичтик. Инструменттердин көпчүлүгү жыргалчылыктын гедонисттик же эвдемонисттик моделине же алардын айкалышына таянат, ал эми мектептеги жыргалчылык алардын үчтөн биринде гана өзүнчө компонент катары бөлүнүп көрсөтүлөт. Шкалалардын басымдуу көпчүлүгүндө ички шайкештик алгылыктуу, бирок жаш топтору жана тилдик версиялар боюнча өлчөө инварианттуулугу 11 инструмент үчүн гана текшерилген. Тогуз инструменттин орус тилдүү адаптациялары бар, бирок алардын психометриялык касиеттери толук изилденген эмес. Мектептик мониторинг үчүн инструменттерди тандоо боюнча сунуштар түзүлүп, андан аркы адаптациялоонун багыттары белгиленди.</p>",
         "sr_Cyrl": "<p>Благостање ученика све се чешће сматра самосталним образовним исходом, упоредо са академским постигнућем, а многи образовни системи укључују га у своје програме праћења. Међутим, благостање се дефинише на различите начине, а инструменти за његово мерење знатно се разликују по структури, дужини и квалитету. Овај прегледни рад анализира 38 инструмената за мерење субјективног благостања деце и адолесцената узраста 8–18 година, описаних у 116 публикација из периода 2000–2025. За сваки инструмент процењени су теоријска основа, мерене компоненте, узрасни распон, доступност верзије на руском језику и психометријска својства према стандарду COSMIN: поузданост, структурна валидност, инваријантност мерења и осетљивост на промене. Већина инструмената ослања се на хедонистички или еудаимонистички модел благостања или на њихову комбинацију, а школско благостање издвојено је као засебна компонента само у трећини њих. Унутрашња конзистентност прихватљива је за огромну већину скала, али је инваријантност мерења између узрасних група и језичких верзија проверена само за 11 инструмената. Адаптације на руском језику доступне су за девет инструмената, али су њихова психометријска својства непотпуно проучена. Формулисане су препоруке за избор инструмената за школско праћење и наговештени правци даље адаптације.</p>",
         "mk": "<p>Благосостојбата на учениците сè повеќе се смета за самостоен образовен исход покрај академските постигања, а многу образовни системи ја вклучуваат во своите програми за мониторинг. Сепак, благосостојбата се дефинира на различни начини, а инструментите што се користат за нејзино мерење значително се разликуваат по структурата, должината и квалитетот. Овој преглед анализира 38 инструменти за мерење на субјективната благосостојба на децата и адолесцентите на возраст од 8 до 18 години, опишани во 116 публикации од периодот 2000–2025. За секој инструмент беа оценети теоретската основа, мерените компоненти, возрасниот опсег, достапноста на верзија на руски јазик и психометриските својства според стандардот COSMIN: реливијабилност, структурна валидност, мерна инваријантност и чувствителност на промени. Повеќето инструменти се засноваат на хедонистички или еудаимонистички модел на благосостојба или на комбинација од двата, а училишната благосостојба е издвоена како посебна компонента само кај една третина од нив. Внатрешната конзистентност е прифатлива кај огромното мнозинство скали, но мерната инваријантност меѓу возрасните групи и јазичните верзии е тестирана само кај 11 инструменти. Адаптации на руски јазик се достапни за девет инструменти, но нивните психометриски својства се нецелосно проучени. Формулирани се препораки за избор на инструменти за училишен мониторинг и се оцртани насоки за понатамошна адаптација.</p>",
         "sq": "<p>Mirëqenia e nxënësve konsiderohet gjithnjë e më shumë si një rezultat arsimor më vete, krahas arritjeve akademike, dhe shumë sisteme arsimore e përfshijnë atë në programet e tyre të monitorimit. Megjithatë, mirëqenia përkufizohet në mënyra të ndryshme dhe instrumentet e përdorura për ta matur ndryshojnë ndjeshëm për nga struktura, gjatësia dhe cilësia. Ky vështrim analizon 38 instrumente për matjen e mirëqenies subjektive të fëmijëve dhe adoleshentëve të moshës 8–18 vjeç, të përshkruara në 116 botime të periudhës 2000–2025. Për secilin instrument u vlerësuan baza teorike, komponentët e matur, diapazoni i moshës, disponueshmëria e një versioni në gjuhën ruse dhe vetitë psikometrike sipas standardit COSMIN: besueshmëria, vlefshmëria strukturore, invarianca e matjes dhe ndjeshmëria ndaj ndryshimeve. Shumica e instrumenteve mbështeten në një model hedonik ose eudaimonik të mirëqenies ose në një kombinim të të dyve, dhe mirëqenia shkollore identifikohet si komponent i veçantë vetëm në një të tretën e tyre. Konsistenca e brendshme është e pranueshme për shumicën dërrmuese të shkallëve, por invarianca e matjes ndërmjet grupmoshave dhe versioneve gjuhësore është testuar vetëm për 11 instrumente. Përshtatje në gjuhën ruse ekzistojnë për nëntë instrumente, por vetitë e tyre psikometrike janë studiuar në mënyrë të paplotë. Formulohen rekomandime për përzgjedhjen e instrumenteve për monitorimin shkollor dhe përvijohen drejtime për përshtatje të mëtejshme.</p>"
@@ -6773,6 +7000,20 @@
           "təhsil monitorinqi",
           "COSMIN"
         ],
+        "uz_Latn": [
+          "oʻquvchilar farovonligi",
+          "psixometriya",
+          "oʻlchov instrumentlari",
+          "taʼlim monitoringi",
+          "COSMIN"
+        ],
+        "ky": [
+          "окуучулардын жыргалчылыгы",
+          "психометрия",
+          "өлчөө инструменттери",
+          "билим берүүнүн мониторинги",
+          "COSMIN"
+        ],
         "sr_Cyrl": [
           "благостање ученика",
           "психометрија",
@@ -6843,6 +7084,8 @@
             "zh_Hans": "列斯诺戈尔斯克师范大学",
             "kk": "Лесногорск педагогикалық университеті",
             "az": "Lesnoqorsk Pedaqoji Universiteti",
+            "uz_Latn": "Lesnogorsk pedagogika universiteti",
+            "ky": "Лесногорск педагогикалык университети",
             "sr_Cyrl": "Педагошки универзитет у Лесногорску",
             "mk": "Педагошки универзитет во Лесногорск",
             "sq": "Universiteti Pedagogjik i Lesnogorskut"
@@ -6897,6 +7140,8 @@
             "zh_Hans": "列斯诺戈尔斯克师范大学",
             "kk": "Лесногорск педагогикалық университеті",
             "az": "Lesnoqorsk Pedaqoji Universiteti",
+            "uz_Latn": "Lesnogorsk pedagogika universiteti",
+            "ky": "Лесногорск педагогикалык университети",
             "sr_Cyrl": "Педагошки универзитет у Лесногорску",
             "mk": "Педагошки универзитет во Лесногорск",
             "sq": "Universiteti Pedagogjik i Lesnogorskut"
@@ -6918,8 +7163,19 @@
       "pdf": {
         "ru": "pdf/sub-school-wellbeing-measures.ru.pdf",
         "en": "pdf/sub-school-wellbeing-measures.en.pdf",
+        "es": "pdf/sub-school-wellbeing-measures.es.pdf",
+        "fr": "pdf/sub-school-wellbeing-measures.fr.pdf",
+        "el": "pdf/sub-school-wellbeing-measures.el.pdf",
         "it": "pdf/sub-school-wellbeing-measures.it.pdf",
-        "az": "pdf/sub-school-wellbeing-measures.az.pdf"
+        "pt": "pdf/sub-school-wellbeing-measures.pt.pdf",
+        "zh_Hans": "pdf/sub-school-wellbeing-measures.zh_Hans.pdf",
+        "kk": "pdf/sub-school-wellbeing-measures.kk.pdf",
+        "az": "pdf/sub-school-wellbeing-measures.az.pdf",
+        "uz_Latn": "pdf/sub-school-wellbeing-measures.uz_Latn.pdf",
+        "ky": "pdf/sub-school-wellbeing-measures.ky.pdf",
+        "sr_Cyrl": "pdf/sub-school-wellbeing-measures.sr_Cyrl.pdf",
+        "mk": "pdf/sub-school-wellbeing-measures.mk.pdf",
+        "sq": "pdf/sub-school-wellbeing-measures.sq.pdf"
       },
       "stage": "editorial"
     }
