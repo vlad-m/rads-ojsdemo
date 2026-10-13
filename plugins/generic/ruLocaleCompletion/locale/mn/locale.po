@@ -1,0 +1,931 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: mn\n"
+
+msgid "navigation.breadcrumbLabel"
+msgstr "Та энд байна:"
+
+msgid "common.homepageNavigationLabel"
+msgstr "Нүүр"
+
+msgid "navigation.breadcrumbSeparator"
+msgstr "/"
+
+msgid "navigation.archives"
+msgstr "Архив"
+
+msgid "announcement.announcements"
+msgstr "Мэдээлэл"
+
+msgid "navigation.about"
+msgstr "Тухай"
+
+msgid "common.editorialMasthead"
+msgstr "Редакцийн бүрэлдэхүүн"
+
+msgid "navigation.skip.description"
+msgstr "Агуулга руу шилжих холбоосууд"
+
+msgid "navigation.skip.main"
+msgstr "Үндсэн агуулга руу шилжих"
+
+msgid "navigation.skip.nav"
+msgstr "Үндсэн цэс рүү шилжих"
+
+msgid "navigation.skip.announcements"
+msgstr "Мэдээлэл рүү шилжих"
+
+msgid "navigation.skip.footer"
+msgstr "Сайтын хөл хэсэг рүү шилжих"
+
+msgid "about.contact.phone"
+msgstr "Утас"
+
+msgid "submission.viewingPreview"
+msgstr "Энэ бол урьдчилан харах хувилбар бөгөөд хэвлэгдээгүй байна. <a href=\"{$url}\">Бүтээлийг харах</a>"
+
+msgid "submission.outdatedVersion"
+msgstr "Энэ бол {$datePublished}-нд хэвлэгдсэн хуучирсан хувилбар юм. <a href=\"{$urlRecentVersion}\">Хамгийн сүүлийн хувилбарыг</a> уншина уу."
+
+msgid "common.commaListSeparator"
+msgstr ", "
+
+msgid "plugins.themes.default.displayStats.downloads"
+msgstr "Татан авалт"
+
+msgid "plugins.themes.default.displayStats.noStats"
+msgstr "Татан авалтын мэдээлэл одоогоор байхгүй байна."
+
+msgid "submission.authorBiographies"
+msgstr "Зохиогчдын намтар"
+
+msgid "submission.authorBiography"
+msgstr "Зохиогчийн намтар"
+
+msgid "submission.authorWithAffiliation"
+msgstr "{$name}, {$affiliation}"
+
+msgid "submission.citations"
+msgstr "Ном зүй"
+
+msgid "submission.downloads"
+msgstr "Татан авах"
+
+msgid "submission.additionalFiles"
+msgstr "Нэмэлт файлууд"
+
+msgid "submission.updatedOn"
+msgstr "{$datePublished} — {$dateUpdated}-нд шинэчилсэн"
+
+msgid "submission.versions"
+msgstr "Хувилбарууд"
+
+msgid "submission.versionIdentity"
+msgstr "{$datePublished} ({$version})"
+
+msgid "submission.dataAvailability"
+msgstr "Өгөгдлийн хүртээмжийн мэдэгдэл"
+
+msgid "category.category"
+msgstr "Ангилал"
+
+msgid "submission.license"
+msgstr "Лиценз"
+
+msgid "submission.copyrightStatement"
+msgstr "Зохиогчийн эрх (c) {$copyrightYear} {$copyrightHolder}"
+
+msgid "catalog.category.subcategories"
+msgstr "Дэд ангилал"
+
+msgid "catalog.category.noItems"
+msgstr "Энэ ангилалд одоогоор юу ч хэвлэгдээгүй байна."
+
+msgid "common.save"
+msgstr "Хадгалах"
+
+msgid "common.required"
+msgstr "Заавал"
+
+msgid "user.subscriptions.form.domainInstructions"
+msgstr "Хэрэв энд домэйн оруулсан бол IP хүрээ заавал биш.<br />Зөвшөөрөгдөх утга нь домэйн нэр (жишээ нь: lib.sfu.ca)."
+
+msgid "user.subscriptions.form.ipRangeInstructions"
+msgstr "Хэрэв энд IP хүрээ оруулсан бол домэйн заавал биш.<br />Зөвшөөрөгдөх утгад IP хаяг (жишээ нь: 142.58.103.1), IP хүрээ (жишээ нь: 142.58.103.1 - 142.58.103.4), '*' тэмдэгттэй IP хүрээ (жишээ нь: 142.58.*.*) болон CIDR бүхий IP хүрээ (жишээ нь: 142.58.100.0/24) орно."
+
+msgid "common.continue"
+msgstr "Үргэлжлүүлэх"
+
+msgid "common.cancel"
+msgstr "Цуцлах"
+
+msgid "common.search"
+msgstr "Хайх"
+
+msgid "search.advancedFilters"
+msgstr "Нарийвчилсан шүүлтүүр"
+
+msgid "search.dateFrom"
+msgstr "Хэвлэгдсэн огноо (-с хойш)"
+
+msgid "search.dateTo"
+msgstr "Хэвлэгдсэн огноо (-с өмнө)"
+
+msgid "search.author"
+msgstr "Зохиогчоор"
+
+msgid "search.searchResults"
+msgstr "Хайлтын үр дүн"
+
+msgid "search.searchResults.foundPlural"
+msgstr "{$count} үр дүн олдлоо."
+
+msgid "search.searchResults.foundSingle"
+msgstr "Нэг үр дүн олдлоо."
+
+msgid "search.noResults"
+msgstr "Үр дүн олдсонгүй"
+
+msgid "subscriptions.institutionalDescription"
+msgstr "Байгууллагын захиалгад нэвтрэх шаардлагагүй. Захиалгат агуулгад хандахад хэрэглэгчийн домэйн болон/эсвэл IP хаягийг ашиглана."
+
+msgid "user.subscriptions.statusInformation"
+msgstr "Идэвхтэй болон хугацаа нь дууссан захиалгуудыг дуусах огнооны хамт доор харуулав. Мөн захиалга бүрт дараах төлөвийн мэдээлэл багтаж болно."
+
+msgid "subscriptions.institutionalOnlinePaymentDescription"
+msgstr "<strong>Анхаар:</strong> Онлайнаар худалдан авсан байгууллагын захиалга идэвхжихээс өмнө домэйн болон IP хүрээг баталгаажуулах шаардлагатай."
+
+msgid "common.edit"
+msgstr "Засах"
+
+msgid "about.aboutThisPublishingSystem"
+msgstr "Хэвлэлийн систем, OJS/PKP-ийн платформ болон ажлын урсгалын талаар дэлгэрэнгүй."
+
+msgid "common.navigation.site"
+msgstr "Сайтын навигаци"
+
+msgid "common.highlights"
+msgstr "Онцлох"
+
+msgid "common.pagination.label"
+msgstr "Бусад хуудсыг харах"
+
+msgid "help.previous"
+msgstr "Өмнөх"
+
+msgid "common.pagination"
+msgstr "{$start}-{$end} / {$total}"
+
+msgid "help.next"
+msgstr "Дараах"
+
+msgid "user.profile"
+msgstr "Профайл"
+
+msgid "user.givenName"
+msgstr "Нэр"
+
+msgid "user.familyName"
+msgstr "Овог"
+
+msgid "user.affiliation"
+msgstr "Харьяалал"
+
+msgid "common.country"
+msgstr "Улс"
+
+msgid "user.login"
+msgstr "Нэвтрэх"
+
+msgid "user.email"
+msgstr "Имэйл"
+
+msgid "user.username"
+msgstr "Хэрэглэгчийн нэр"
+
+msgid "user.password"
+msgstr "Нууц үг"
+
+msgid "user.repeatPassword"
+msgstr "Нууц үгээ давтах"
+
+msgid "user.register.form.privacyConsentThisContext"
+msgstr "Тийм, би өөрийн мэдээллийг энэхүү сэтгүүлийн <a href=\"{$privacyUrl}\" target=\"_blank\">нууцлалын бодлого</a>-ын дагуу цуглуулж, хадгалахыг зөвшөөрч байна."
+
+msgid "common.readMore"
+msgstr "Дэлгэрэнгүй"
+
+msgid "common.readMoreWithTitle"
+msgstr "{$title}-ийн талаар дэлгэрэнгүй"
+
+msgid "about.contact.principalContact"
+msgstr "Үндсэн холбоо барих хүн"
+
+msgid "about.contact.supportContact"
+msgstr "Техникийн туслалцаа"
+
+msgid "common.editorialHistory"
+msgstr "Редакцийн түүх"
+
+msgid "common.editorialHistory.page"
+msgstr "Редакцийн түүхийн хуудас"
+
+msgid "common.editorialHistory.page.description"
+msgstr "Энэ хэсэгт өмнө нь хамтран ажиллаж байсан хүмүүсийг жагсаав."
+
+msgid "common.fromUntil"
+msgstr "{$from} &ndash; {$until}"
+
+msgid "common.editorialHistory.page.orcidLink"
+msgstr "{$name}-ийн ORCID профайлыг харах"
+
+msgid "about.editorialMasthead.linkToEditorialHistory"
+msgstr "<a href=\"{$url}\">Редакцийн түүхийг</a> харах"
+
+msgid "common.editorialMasthead.peerReviewers"
+msgstr "Өмнөх жилийн хянан магадлагчид"
+
+msgid "common.editorialMasthead.peerReviewers.description"
+msgstr "Редакторууд {$year} онд ажилласан доорх хянан магадлагчдад талархал илэрхийлж байна."
+
+msgid "manager.website.information"
+msgstr "Мэдээлэл"
+
+msgid "orcid.about.title"
+msgstr "ORCID гэж юу вэ?"
+
+msgid "orcid.about.orcidExplanation"
+msgstr "ORCID нь таныг бусад судлаачдаас ялгах байнгын танигч буюу ORCID iD-г олгодог, мөн таны судалгааны бүтээл, үйл ажиллагааг iD-тай тань холбох боломж олгодог бие даасан ашгийн бус байгууллага юм. ORCID нь хэвлэн нийтлэгчид, санхүүжүүлэгчид, байгууллагууд болон судалгаатай холбоотой бусад үйлчилгээний олон системд нэгдсэн байдаг. Дэлгэрэнгүйг https://orcid.org хаягаас үзнэ үү."
+
+msgid "orcid.about.howAndWhy.title"
+msgstr "Бид ORCID iD-г хэрхэн, яагаад цуглуулдаг вэ?"
+
+msgid "orcid.about.display.title"
+msgstr "ORCID iD хаана харагддаг вэ?"
+
+msgid "orcid.verify.title"
+msgstr "ORCID баталгаажуулалт"
+
+msgid "orcid.verify.success"
+msgstr "Таны ORCID iD баталгаажиж, бүтээлтэй амжилттай холбогдлоо."
+
+msgid "orcid.verify.sendSubmissionToOrcid.success"
+msgstr "Бүтээл таны ORCID бүртгэлд нэмэгдлээ."
+
+msgid "orcid.verify.sendSubmissionToOrcid.failure"
+msgstr "Бүтээлийг таны ORCID бүртгэлд нэмж чадсангүй."
+
+msgid "orcid.verify.sendSubmissionToOrcid.notpublished"
+msgstr "Бүтээл хэвлэгдэх үед таны ORCID бүртгэлд нэмэгдэнэ."
+
+msgid "orcid.verify.success.redirect"
+msgstr "Та одоо {$contextName} руу автоматаар буцаж шилжинэ."
+
+msgid "orcid.invalidClient"
+msgstr "Клиентийн итгэмжлэл буруу байна"
+
+msgid "orcid.verify.duplicateOrcid"
+msgstr "Энэ бүтээлд ORCID iD аль хэдийн хадгалагдсан байна."
+
+msgid "orcid.authFailure"
+msgstr "ORCID баталгаажуулах холбоос аль хэдийн ашиглагдсан эсвэл хүчингүй байна."
+
+msgid "orcid.verify.failure"
+msgstr "Таны ORCID iD-г баталгаажуулж чадсангүй. Холбоос хүчингүй болсон байна."
+
+msgid "orcid.failure.contact"
+msgstr "Сэтгүүлийн менежертэй өөрийн нэр, ORCID iD болон бүтээлийн мэдээллээ дурдан холбогдоно уу."
+
+msgid "manager.setup.privacyStatement"
+msgstr "Нууцлалын бодлого"
+
+msgid "user.login.activate.description"
+msgstr "Бүртгэлээ баталгаажуулж идэвхжүүлэх"
+
+msgid "user.login.activate"
+msgstr "Бүртгэл идэвхжүүлэх"
+
+msgid "common.requiredField"
+msgstr "Заавал бөглөх талбарыг одоор тэмдэглэв: <abbr class=\"required\" title=\"заавал\">*</abbr>"
+
+msgid "user.usernameOrEmail"
+msgstr "Хэрэглэгчийн нэр эсвэл имэйл"
+
+msgid "user.login.forgotPassword"
+msgstr "Нууц үгээ мартсан уу?"
+
+msgid "user.login.rememberUsernameAndPassword"
+msgstr "Намайг сана"
+
+msgid "user.login.registerNewAccount"
+msgstr "Бүртгүүлэх"
+
+msgid "user.login.resetPassword"
+msgstr "Нууц үг сэргээх"
+
+msgid "user.login.registeredEmail"
+msgstr "Бүртгэлтэй хэрэглэгчийн имэйл"
+
+msgid "user.register"
+msgstr "Бүртгүүлэх"
+
+msgid "user.register.form.privacyConsentLabel"
+msgstr "Нууцлалын тохиргоо"
+
+msgid "user.interests"
+msgstr "Хянан магадлах сонирхол"
+
+msgid "user.register.noContextReviewerInterests"
+msgstr "Хэрэв та аль нэг сэтгүүлд хянан магадлагч болох хүсэлт гаргасан бол сонирхож буй сэдвээ оруулна уу."
+
+msgid "user.login.registrationComplete.instructions"
+msgstr "Бүртгүүлсэнд баярлалаа! Дараа нь юу хийх вэ?"
+
+msgid "user.login.registrationComplete.manageSubmissions"
+msgstr "Бүтээлүүдийг харах"
+
+msgid "user.login.registrationComplete.newSubmission"
+msgstr "Шинэ бүтээл илгээх"
+
+msgid "user.editMyProfile"
+msgstr "Профайлаа засах"
+
+msgid "user.login.registrationComplete.continueBrowsing"
+msgstr "Үргэлжлүүлэн үзэх"
+
+msgid "plugins.block.browse"
+msgstr "Үзэх"
+
+msgid "plugins.block.browse.category"
+msgstr "Ангилал"
+
+msgid "plugins.block.developedBy.blockTitle"
+msgstr "Хөгжүүлсэн"
+
+msgid "plugins.block.information.link"
+msgstr "Мэдээлэл"
+
+msgid "navigation.infoForReaders"
+msgstr "Уншигчдад"
+
+msgid "common.language"
+msgstr "Хэл"
+
+msgid "plugins.block.makeSubmission.linkLabel"
+msgstr "Бүтээл илгээх"
+
+msgid "plugins.block.subscription.blockTitle"
+msgstr "Захиалга"
+
+msgid "plugins.block.subscription.providedBy"
+msgstr "Хандалт олгосон: {$institutionName}"
+
+msgid "plugins.block.subscription.comingFromIP"
+msgstr "Хандсан хаяг: {$ip}"
+
+msgid "plugins.block.subscription.loginToVerifySubscription"
+msgstr "Зөвхөн захиалагчдад зориулсан нөөцөд хандахын тулд нэвтэрнэ үү."
+
+msgid "plugins.block.subscription.subscriptionRequired"
+msgstr "Зарим нөөцөд хандахын тулд захиалга шаардлагатай."
+
+msgid "plugins.block.subscription.subscriptionRequired.learnMore"
+msgstr "Дэлгэрэнгүй"
+
+msgid "plugins.generic.announcementfeed.atom.altText"
+msgstr "Atom лого"
+
+msgid "plugins.generic.announcementfeed.rss2.altText"
+msgstr "RSS2 лого"
+
+msgid "plugins.generic.announcementfeed.rss1.altText"
+msgstr "RSS1 лого"
+
+msgid "plugins.generic.announcementfeed.settings"
+msgstr "Тохиргоо"
+
+msgid "plugins.generic.announcementfeed.settings.all"
+msgstr "Сувгийн холбоосыг сэтгүүлийн бүх хуудсанд харуулах."
+
+msgid "plugins.generic.announcementfeed.settings.homepage"
+msgstr "Сувгийн холбоосыг зөвхөн нүүр хуудас болон мэдээллийн хуудсанд харуулах."
+
+msgid "plugins.generic.announcementfeed.settings.announcement"
+msgstr "Сувгийн холбоосыг зөвхөн мэдээллийн хуудсанд харуулах."
+
+msgid "plugins.generic.announcementfeed.settings.recentAnnouncements1"
+msgstr "Сувгийг хязгаарлах:"
+
+msgid "plugins.generic.announcementfeed.settings.recentAnnouncements2"
+msgstr "хамгийн сүүлийн мэдээлэл."
+
+msgid "submission.howToCite"
+msgstr "Иш татах хэлбэр"
+
+msgid "submission.howToCite.citationFormats"
+msgstr "Бусад ишлэлийн хэлбэр"
+
+msgid "submission.howToCite.downloadCitation"
+msgstr "Ишлэл татах"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimary"
+msgstr "Үндсэн ишлэлийн хэлбэр"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription.omp"
+msgstr "Номын хуудсанд анхдагчаар харуулах ишлэлийн хэлбэрийг сонгоно уу."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsPrimaryDescription"
+msgstr "Өгүүллийн хуудсанд анхдагчаар харуулах ишлэлийн хэлбэрийг сонгоно уу."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormats"
+msgstr "Нэмэлт ишлэлийн хэлбэрүүд"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationFormatsDescription"
+msgstr "Уншигчдад санал болгох нэмэлт хэлбэрүүдийг сонгоно уу."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloads"
+msgstr "Татаж авах хэлбэрүүд"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationDownloadsDescription"
+msgstr "Уншигчдад санал болгох татаж авах хэлбэрүүдийг сонгоно уу. Татаж авах хэлбэрүүдийг ихэвчлэн EndNote, Zotero зэрэг ном зүй удирдах гуравдагч талын программ руу импортлоход ашигладаг."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationUserGroups"
+msgstr "Оролцогчид"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationUserGroupsDescription"
+msgstr "Зарим ишлэлийн загварт оролцогчдыг үүргээс нь хамааран өөр өөрөөр тэмдэглэх шаардлагатай. Тохирох үүргүүдийг тодорхойлно уу."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseAuthor"
+msgstr "Зохиогчид"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseAuthor"
+msgstr "Зохиогч гэж тэмдэглэх үүргүүдийг сонгоно уу."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseChapterAuthor"
+msgstr "Бүлгийн зохиогчид"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseChapterAuthor"
+msgstr "Бүлгийн зохиогч гэж тэмдэглэх үүргүүдийг сонгоно уу."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseEditor"
+msgstr "Редакторууд"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseEditor"
+msgstr "Редактор гэж тэмдэглэх үүргүүдийг сонгоно уу."
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationChooseTranslator"
+msgstr "Орчуулагчид"
+
+msgid "plugins.generic.citationStyleLanguage.settings.citationOptionChooseTranslator"
+msgstr "Орчуулагч гэж тэмдэглэх үүргүүдийг сонгоно уу."
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation.description"
+msgstr "Зарим ишлэлийн хэлбэрт хэвлэн нийтлэгчийн газарзүйн байршил шаардагддаг, жишээ нь \"London, U.K.\"."
+
+msgid "plugins.generic.citationStyleLanguage.settings.publisherLocation"
+msgstr "Хэвлэн нийтлэгчийн байршил"
+
+msgid "plugins.generic.credit.settings.description"
+msgstr "CRediT толь бичиг нь OJS-тэй янз бүрийн байдлаар харилцан ажиллаж болно. Аль интеграцийг ашиглахыг энэ маягтаар сонгоно уу."
+
+msgid "plugins.generic.credit.showCreditRoles"
+msgstr "Өгүүллийн хуудсанд зохиогчийн нэрийн хажууд CRediT үүргийг харуулах."
+
+msgid "manager.dois.settings.relocated"
+msgstr "DOI удирдлага шилжсэн. <a href=\"{$doiManagementUrl}\">DOI удирдлага</a> болон <a href=\"{$doiSettingsUrl}\">DOI тохиргоо</a> хуудсыг үзнэ үү."
+
+msgid "plugins.generic.customBlockManager.blockName"
+msgstr "Блокийн нэр"
+
+msgid "plugins.generic.customBlock.content"
+msgstr "Агуулга"
+
+msgid "plugins.generic.customBlock.showName"
+msgstr "Нэрийг харуулах"
+
+msgid "plugins.generic.customBlock.showName.description"
+msgstr "Блокийн нэрийг агуулгын дээр харуулах."
+
+msgid "plugins.generic.googleAnalytics.manager.settings.googleAnalyticsSiteId"
+msgstr "Бүртгэлийн дугаар"
+
+msgid "submission.representationOfTitle"
+msgstr "{$title}-ийн {$representation}"
+
+msgid "common.download"
+msgstr "Татах"
+
+msgid "common.downloadPdf"
+msgstr "PDF татах"
+
+msgid "plugins.generic.pflPlugin.fundingPluginMissing"
+msgstr "Санхүүжилтийн плагин байхгүй"
+
+msgid "plugins.generic.pflPlugin.fundingPluginMissing.description"
+msgstr "Санхүүжилтийн (Funding) плагин суулгагдаагүй эсвэл идэвхгүй байна. Хэвлэлийн баримтын шошго (PFL) санхүүжилтийн мэдээллийг харуулахын тулд энэ плагиныг суулгаж идэвхжүүлэх, мөн бүтээл бүрт холбогдох мэдээллийг оруулах шаардлагатай. Плагины цомгоос энэ плагиныг шалгана уу."
+
+msgid "plugins.generic.pflPlugin.settings.journal"
+msgstr "Сэтгүүлийн мэдээлэл"
+
+msgid "plugins.generic.pfl.academicSociety.fieldLabel"
+msgstr "Нийгэмлэгийн нэр эсвэл товчлол"
+
+msgid "plugins.generic.pflPlugin.settings.academicSocietyUrl"
+msgstr "URL"
+
+msgid "plugins.generic.pflPlugin.settings.excludePrior"
+msgstr "Огноогоор хасах"
+
+msgid "plugins.generic.pflPlugin.settings.dateStart.description"
+msgstr "Хэрэв танай сэтгүүл тодорхой огнооноос өмнө OJS-ийн редакцийн ажлын урсгалыг ашиглаагүй бол өмнөх бүтээлүүдийг статистикаас хасахын тулд тэр огноог энд заана уу. Энэ огнооноос өмнөх бүтээлүүдэд Хэвлэлийн баримтын шошго харагдахгүй."
+
+msgid "plugins.generic.pflPlugin.settings.dateStart"
+msgstr "Эхлэх огноо"
+
+msgid "plugins.generic.pflPlugin.settings.indexes"
+msgstr "Сэтгүүлийн индексжүүлэлт"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.description"
+msgstr "Хэвлэлийн баримтын шошгын (PFL) \"Индексжсэн\" гарчгийн доор сэтгүүл бүртгэгдсэн дээд тал нь дөрвөн индексийг уншигчдад харуулна. Доорх индексүүдийн дөрөв нь өргөн хамрах хүрээтэй бол MEDLINE нь эрүүл мэндийн шинжлэх ухаан, Latindex нь Латин Америкийг хамардаг (доорх Мэдээллийг үзнэ үү). Эдгээр индекс нь сэтгүүлийн бүртгэлийг олон нийтэд харуулах боломж олгодог (индекс өөрөө хаалттай байсан ч). Хоёр индексийг автоматаар шалгах боломжтой бол бусад дөрөвт сэтгүүлийг индексээс хайж, олдвол PFL-д нэмэх шаардлагатай."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.automatic"
+msgstr "PFL дахь индексийн автомат жагсаалт"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.automatic.doaj"
+msgstr "Нээлттэй хандалтат сэтгүүлийн лавлах (DOAJ)"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.automatic.scholar"
+msgstr "Google Scholar"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.automatic.latindex"
+msgstr "Latindex"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.automatic.medline"
+msgstr "MEDLINE"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual"
+msgstr "PFL дахь индексийн гар жагсаалт"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.scopus"
+msgstr "<strong>Scopus</strong> (<a target=\"_new\" href=\"https://en.wikipedia.org/wiki/Scopus\">Мэдээлэл</a>)"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.scopus.step1"
+msgstr "Scopus-ийн <a href=\"https://www.scopus.com/sources.uri?zone=TopNavBar&origin=\" target=\"_new\">Sources</a> хуудас руу орж, унадаг цэснээс \"Title\"-г сонгоно уу."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.scopus.step2"
+msgstr "Сэтгүүлийн нэрийг оруулахад индексжсэн бол \"Result\" хэсэгт гарч ирнэ."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.scopus.step3"
+msgstr "Гарчиг дээр дарж, гарч ирсэн хуудасны URL-ийг энд буулгана уу:"
+
+msgid "common.url"
+msgstr "URL"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.scopus.step4"
+msgstr "Хэрэв сэтгүүл индексжээгүй бол бүртгүүлэх <a target=\"_new\" href=\"https://www.elsevier.com/solutions/scopus/how-scopus-works/content/content-policy-and-selection\">журам</a> энд байна."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.wos"
+msgstr "<strong>Web of Science</strong> (<a target=\"_new\" href=\"https://en.wikipedia.org/wiki/Web_of_Science\">Мэдээлэл</a>)"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.wos.step1"
+msgstr "<a href=\"https://mjl.clarivate.com/search-results\" target=\"_new\">Web of Science</a> руу орж, хайлтын талбарт сэтгүүлийн нэрийг оруулна уу."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.wos.step2"
+msgstr "Web of Science-д индексжсэн бол \"Result\" хэсэгт гарч ирнэ."
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.wos.step3"
+msgstr "\"Share This Journal\" хэсгээс URL-ийг хуулж, энд буулгана уу:"
+
+msgid "plugins.generic.pflPlugin.settings.indexes.manual.wos.step4"
+msgstr "Хэрэв сэтгүүл индексжээгүй бол бүртгүүлэх <a target=\"_new\" href=\"https://clarivate.com/products/scientific-and-academic-research/research-discovery-and-workflow-solutions/webofscience-platform/web-of-science-core-collection/editorial-selection-process/\">журам</a> энд байна."
+
+msgid "plugins.generic.recommendByAuthor.heading"
+msgstr "Ижил зохиогчийн хамгийн их уншигдсан өгүүллүүд"
+
+msgid "plugins.generic.recommendBySimilarity.heading"
+msgstr "Төстэй өгүүллүүд"
+
+msgid "plugins.generic.recommendBySimilarity.advancedSearch"
+msgstr "нарийвчилсан төстэй хайлт эхлүүлэх"
+
+msgid "plugins.generic.recommendBySimilarity.advancedSearchIntro"
+msgstr "Та мөн энэ өгүүлэлд {$advancedSearchLink} боломжтой."
+
+msgid "plugins.generic.staticPages.path"
+msgstr "Зам"
+
+msgid "plugins.generic.staticPages.pageTitle"
+msgstr "Гарчиг"
+
+msgid "plugins.generic.staticPages.content"
+msgstr "Агуулга"
+
+msgid "common.preview"
+msgstr "Урьдчилан харах"
+
+msgid "plugins.generic.staticPages.staticPages"
+msgstr "Статик хуудсууд"
+
+msgid "plugins.generic.webfeed.blockTitle"
+msgstr "Сүүлийн нийтлэлүүд"
+
+msgid "plugins.generic.webfeed.atom.altText"
+msgstr "Atom лого"
+
+msgid "plugins.generic.webfeed.rss2.altText"
+msgstr "RSS2 лого"
+
+msgid "plugins.generic.webfeed.rss1.altText"
+msgstr "RSS1 лого"
+
+msgid "plugins.generic.webfeed.settings"
+msgstr "Тохиргоо"
+
+msgid "plugins.generic.webfeed.settings.all"
+msgstr "Вэб сувгийн холбоосыг бүх хуудсанд харуулах."
+
+msgid "plugins.generic.webfeed.settings.homepageAndIssues"
+msgstr "Вэб сувгийн холбоосыг зөвхөн нүүр хуудас болон дугаарын хуудсанд харуулах."
+
+msgid "plugins.generic.webfeed.settings.homepage"
+msgstr "Вэб сувгийн холбоосыг зөвхөн нүүр хуудсанд харуулах."
+
+msgid "plugins.generic.webfeed.settings.issue"
+msgstr "Вэб сувгийн холбоосыг зөвхөн дугаарын хуудсанд харуулах."
+
+msgid "plugins.generic.webfeed.settings.currentIssue"
+msgstr "Одоогийн хэвлэгдсэн дугаарын бүтээлүүдийг харуулах."
+
+msgid "plugins.generic.webfeed.settings.recent"
+msgstr "Хамгийн сүүлийн тодорхой тооны нийтлэлийг харуулах."
+
+msgid "plugins.generic.webfeed.settings.recentArticles"
+msgstr "Харуулах нийтлэлийн тоо"
+
+msgid "plugins.generic.webfeed.settings.includeIdentifiers"
+msgstr "Сувгийн хураангуйд танигчид (ISBN, түлхүүр үг, ангилал гэх мэт)-ыг оруулах уу?"
+
+msgid "plugins.importexport.common.validation"
+msgstr "Экспорт болон бүртгэлээс өмнө XML-ийг шалгах."
+
+msgid "common.view"
+msgstr "Харах"
+
+msgid "common.selectNone"
+msgstr "Сонголтыг цуцлах"
+
+msgid "common.selectAll"
+msgstr "Бүгдийг сонгох"
+
+msgid "plugins.importexport.common.warningsEncountered"
+msgstr "Анхааруулга:"
+
+msgid "submission.submission"
+msgstr "Бүтээл"
+
+msgid "plugins.importexport.common.validationErrors"
+msgstr "Шалгалтын алдаа:"
+
+msgid "plugins.importexport.common.errorsOccured"
+msgstr "Алдаа гарлаа:"
+
+msgid "plugins.importexport.users.import.importUsers"
+msgstr "Хэрэглэгч импортлох"
+
+msgid "plugins.importexport.users.export.exportUsers"
+msgstr "Хэрэглэгч экспортлох"
+
+msgid "common.file"
+msgstr "Файл"
+
+msgid "plugins.importexport.user.importExportErrors"
+msgstr "Импорт/экспортын алдаа:"
+
+msgid "plugins.oaiMetadataFormats.oaiJats.description"
+msgstr "Энэ плагин нь OAI-PMH интерфейсээр дамжуулан гадаад үйлчилгээнд JATS XML хэлбэрээр мета өгөгдөл өгдөг. JATS Template плагинтай хамт ашиглавал JATS XML баримт OJS-д байршуулаагүй байсан ч ажиллах боломжтой."
+
+msgid "plugins.oaiMetadataFormats.oaiJats.settings"
+msgstr "Тохиргоо"
+
+msgid "plugins.oaiMetadataFormats.oaiJats.forceJatsTemplate"
+msgstr "Байршуулсан JATS XML баримтуудыг үл тоох"
+
+msgid "plugins.paymethod.manual"
+msgstr "Төлбөрийг гараар төлөх"
+
+msgid "plugins.paymethod.manual.purchase.title"
+msgstr "Гарчиг"
+
+msgid "plugins.paymethod.manual.purchase.fee"
+msgstr "Төлбөр"
+
+msgid "plugins.paymethod.manual.sendNotificationOfPayment"
+msgstr "Төлбөрийн мэдэгдэл илгээх"
+
+msgid "plugins.pubIds.urn.manager.settings.description"
+msgstr "OJS-д URN удирдаж, ашиглахын тулд URN плагиныг тохируулна уу:"
+
+msgid "plugins.pubIds.urn.manager.settings.urnObjects"
+msgstr "Сэтгүүлийн агуулга"
+
+msgid "plugins.pubIds.urn.manager.settings.explainURNs"
+msgstr "Нэгдсэн нөөцийн нэр (URN) олгох хэвлэлийн объектуудыг сонгоно уу:"
+
+msgid "plugins.pubIds.urn.manager.settings.enableIssueURN"
+msgstr "Дугаарууд"
+
+msgid "plugins.pubIds.urn.manager.settings.enablePublicationURN"
+msgstr "Өгүүллүүд"
+
+msgid "plugins.pubIds.urn.manager.settings.enableRepresentationURN"
+msgstr "Хувилбар файлууд"
+
+msgid "plugins.pubIds.urn.manager.settings.urnPrefix"
+msgstr "URN угтвар"
+
+msgid "plugins.pubIds.urn.manager.settings.urnPrefix.description"
+msgstr "URN угтвар нь URN-ийн тогтмол, хэзээ ч өөрчлөгддөггүй хэсэг юм (жишээ нь \"urn:nbn:de:0000-\")."
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffix"
+msgstr "URN дагавар"
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffix.description"
+msgstr "URN дагавар ямар ч хэлбэртэй байж болох ч ижил URN угтвар олгогдсон бүх хэвлэлийн объектуудын дунд давтагдашгүй байх ёстой:"
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixDefault"
+msgstr "Анхдагч загварыг ашиглах."
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixDefault.description"
+msgstr "%j.v%vi%i дугаарт<br />%j.v%vi%i.%a өгүүлэлд<br />%j.v%vi%i.%a.g%g хувилбар файлд."
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixCustomIdentifier"
+msgstr "Хэвлэгдсэн бүтээл бүрт тус тусдаа URN дагавар оруулна. Бүтээл бүрийн мета өгөгдлийн хуудсанд нэмэлт URN талбар гарна."
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixPattern"
+msgstr "URN дагаврыг үүсгэхдээ доор оруулсан загварыг ашиглах. %j — сэтгүүлийн товчлол, %v — ботийн дугаар, %i — дугаарын дугаар, %Y — он, %a — OJS өгүүллийн ID, %g — OJS хувилбар файлын ID, %f — OJS файлын ID, %p — хуудасны дугаар, %x — \"Хувийн танигч\"."
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixPattern.example"
+msgstr "Жишээ нь, vol%viss%ipp%p загвар нь \"vol3iss2pp230\" гэсэн URN дагавар үүсгэж болно."
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixPattern.issues"
+msgstr "дугаарт"
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixPattern.submissions"
+msgstr "өгүүлэлд"
+
+msgid "plugins.pubIds.urn.manager.settings.urnSuffixPattern.representations"
+msgstr "хувилбар файлд"
+
+msgid "plugins.pubIds.urn.manager.settings.checkNo"
+msgstr "Шалгах орон"
+
+msgid "plugins.pubIds.urn.manager.settings.checkNo.label"
+msgstr "Шалгах орныг автоматаар тооцоолж, URN-ийн сүүлийн цифр болгон төгсгөлд нэмнэ."
+
+msgid "plugins.pubIds.urn.manager.settings.namespace"
+msgstr "Нэрсийн орон зай"
+
+msgid "plugins.pubIds.urn.manager.settings.namespace.description"
+msgstr "Бүртгэлд ихэвчлэн шаардагддаг байнгын танигчийн нэрсийн орон зай (жишээ нь Deutsche Nationalbibliothek-д)."
+
+msgid "plugins.pubIds.urn.manager.settings.urnResolver"
+msgstr "Шийдвэрлэгчийн URL"
+
+msgid "plugins.pubIds.urn.manager.settings.urnResolver.description"
+msgstr "(жишээ нь https://nbn-resolving.de/)"
+
+msgid "plugins.pubIds.urn.manager.settings.urnReassign"
+msgstr "URN дахин олгох"
+
+msgid "plugins.pubIds.urn.manager.settings.urnReassign.description"
+msgstr "URN тохиргоог өөрчлөхөд аль хэдийн олгогдсон URN-д нөлөөлөхгүй. URN тохиргоог хадгалсны дараа одоо байгаа бүх URN-ийг арилгаж, шинэ тохиргоог одоо байгаа объектуудад хэрэгжүүлэхийн тулд энэ товчийг ашиглана уу."
+
+msgid "plugins.pubIds.urn.editor.urn"
+msgstr "URN"
+
+msgid "plugins.pubIds.urn.editor.assignURN.assigned"
+msgstr "URN {$pubId} олгогдлоо."
+
+msgid "plugins.pubIds.urn.editor.assignURN.emptySuffix"
+msgstr "Хувийн дагавар байхгүй тул URN олгох боломжгүй."
+
+msgid "plugins.pubIds.urn.editor.assignURN.pattern"
+msgstr "URN {$pubId}-д шийдэгдээгүй загвар агуулагдаж байгаа тул олгох боломжгүй."
+
+msgid "plugins.pubIds.urn.editor.assignURN"
+msgstr "URN {$pubId}-г энэ {$pubObjectType}-д олгох"
+
+msgid "plugins.pubIds.urn.editor.addCheckNo"
+msgstr "Шалгах орон нэмэх"
+
+msgid "plugins.pubIds.urn.editor.canBeAssigned"
+msgstr "Энэ бол URN-ийн урьдчилсан харагдац. URN олгохын тулд чагтыг сонгоод маягтыг хадгална уу."
+
+msgid "plugins.pubIds.urn.editor.customSuffixMissing"
+msgstr "Хувийн дагавар байхгүй тул URN олгох боломжгүй."
+
+msgid "plugins.pubIds.urn.editor.assigned"
+msgstr "URN энэ {$pubObjectType}-д олгогдсон."
+
+msgid "plugins.pubIds.urn.editor.patternNotResolved"
+msgstr "Шийдэгдээгүй загвар агуулагдаж байгаа тул URN олгох боломжгүй."
+
+msgid "plugins.pubIds.urn.editor.clearIssueObjectsURN.description"
+msgstr "Энэ дугаарт төлөвлөгдсөн бүх объектын (өгүүлэл болон хувилбар файл) URN-ийг арилгахын тулд дараах сонголтыг ашиглана уу."
+
+msgid "plugins.reports.counter"
+msgstr "COUNTER тайлан"
+
+msgid "plugins.reports.counter.release"
+msgstr "COUNTER хувилбар"
+
+msgid "form.errorsOccurred"
+msgstr "Маягтыг боловсруулахад алдаа гарлаа"
+
+msgid "common.loading"
+msgstr "Ачаалж байна"
+
+msgid "user.name"
+msgstr "Нэр"
+
+msgid "user.preferredPublicName"
+msgstr "Олон нийтэд харагдах нэр"
+
+msgid "common.suggest"
+msgstr "Санал болгох"
+
+msgid "user.profile.leavePasswordBlank"
+msgstr "Одоогийн нууц үгээ хэвээр үлдээх бол нууц үгийн талбаруудыг хоосон орхино уу."
+
+msgid "user.register.form.passwordLengthRestriction"
+msgstr "Нууц үг дор хаяж {$length} тэмдэгттэй байх ёстой."
+
+msgid "grid.user.generatePassword"
+msgstr "Нууц үг үүсгэх"
+
+msgid "grid.user.generatePasswordDescription"
+msgstr "Энэ хэрэглэгчид санамсаргүй нууц үг үүсгэх."
+
+msgid "grid.user.mustChangePassword"
+msgstr "Нууц үг солих"
+
+msgid "grid.user.mustChangePasswordDescription"
+msgstr "Хэрэглэгч дараагийн нэвтрэлтэд нууц үгээ солих ёстой."
+
+msgid "grid.user.notifyUser"
+msgstr "Хэрэглэгчид мэдэгдэх"
+
+msgid "grid.user.notifyUserDescription"
+msgstr "Хэрэглэгчид мэндчилгээний имэйл илгээх."
+
+msgid "user.url"
+msgstr "Нүүр хуудасны URL"
+
+msgid "user.phone"
+msgstr "Утас"
+
+msgid "user.workingLanguages"
+msgstr "Ажлын хэл"
+
+msgid "user.biography"
+msgstr "Намтар (жишээ нь тэнхим, албан тушаал)"
+
+msgid "common.mailingAddress"
+msgstr "Шуудангийн хаяг"
+
+msgid "user.signature"
+msgstr "Гарын үсэг"
+
+msgid "grid.user.userDetails"
+msgstr "Хэрэглэгчийн дэлгэрэнгүй"
+
+msgid "grid.user.moreDetails"
+msgstr "Хэрэглэгчийн дэлгэрэнгүйг харуулах"
+
+msgid "grid.user.lessDetails"
+msgstr "Хэрэглэгчийн дэлгэрэнгүйг нуух"
+
+msgid "navigation.search"
+msgstr "Хайх"
+
+msgid "navigation.dashboard"
+msgstr "Хяналтын самбар"
+
+msgid "user.logOut"
+msgstr "Гарах"
+
+msgid "common.viewProfile"
+msgstr "Профайл харах"
+
+msgid "manager.announcements"
+msgstr "Мэдээлэл"
+
+msgid "navigation.admin"
+msgstr "Удирдлага"
+
+msgid "navigation.login"
+msgstr "Нэвтрэх"
+
+msgid "navigation.register"
+msgstr "Бүртгүүлэх"
