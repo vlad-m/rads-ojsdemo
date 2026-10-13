@@ -22,9 +22,10 @@ step "Credentials (no secrets shown)"
 ' "$OJS_DIR"
 P="$(cfg database password)"
 info "  as the scripts read it: password: ${#P} chars, sha1 $(printf '%s' "$P" | sha1sum | cut -c1-8)"
+db_prepare "$TMP"
+[ "$DB_ENGINE" = pgsql ] && info "  scripts connect to: host=$PGHOST port=$PGPORT db=$PGDATABASE user=$PGUSER"
 
 step "PHP (PDO) with the scripts' credentials"
-db_prepare "$TMP"
 "$PHP" -r '
 	$e = getenv("DB_ENGINE");
 	try {

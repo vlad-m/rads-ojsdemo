@@ -78,21 +78,19 @@ require_ojs() {
 # (PKP\config\ConfigParser: quoted values are taken verbatim minus
 # backslash escapes, unquoted values end at the first whitespace)
 cfg() {
+	# Read config.inc.php exactly as OJS does (PKP\config\ConfigParser: the last
+	# occurrence of a key wins, numbers are typed); booleans print as On/Off.
 	"$PHP" -r '
-		$section = null;
-		foreach (file($argv[1], FILE_IGNORE_NEW_LINES) ?: [] as $line) {
-			$line = trim($line);
-			if ($line === "" || $line[0] === ";") { continue; }
-			if (preg_match("/^\\[(.+)\\]/", $line, $m)) { $section = $m[1]; continue; }
-			if ($section !== $argv[2] || strpos($line, "=") === false) { continue; }
-			[$k, $v] = explode("=", $line, 2);
-			if (trim($k) !== $argv[3]) { continue; }
-			$v = trim($v);
-			if (preg_match("/^[\"\x27](.*)[\"\x27]$/", $v, $m)) { echo stripslashes($m[1]); }
-			else { preg_match("/^(\\S*)/", $v, $m); echo $m[1]; }
-			exit;
+		$parser = $argv[1] . "/lib/pkp/classes/config/ConfigParser.php";
+		if (is_file($parser)) {
+			require_once $parser;
+			$config = \PKP\config\ConfigParser::readConfig($argv[1] . "/config.inc.php");
+		} else {
+			$config = parse_ini_file($argv[1] . "/config.inc.php", true, INI_SCANNER_RAW);
 		}
-	' "$OJS_DIR/config.inc.php" "$1" "$2"
+		$v = $config[$argv[2]][$argv[3]] ?? null;
+		echo $v === true ? "On" : ($v === false ? "Off" : (string) $v);
+	' "$OJS_DIR" "$1" "$2"
 }
 
 # cfg_set SECTION KEY VALUE — set a value in config.inc.php (keeps comments)
@@ -131,8 +129,10 @@ db_prepare() {
 	DB_ENGINE="$(db_engine)"
 	DB_NAME="$(cfg database name)"
 	host="$(cfg database host)"
-	port=''
-	case "$host" in *:*) port="${host##*:}"; host="${host%:*}" ;; esac
+	# like OJS: a separate "port" key; "host:port" is accepted too
+	port="$(cfg database port)"
+	case "$host" in *:*) [ -n "$port" ] || port="${host##*:}"; host="${host%:*}" ;; esac
+	[ -n "$host" ] || host=localhost
 	umask 077
 	if [ "$DB_ENGINE" = mysql ]; then
 		command -v mysql >/dev/null 2>&1 && command -v mysqldump >/dev/null 2>&1 || die "mysql/mysqldump client not found."
@@ -140,6 +140,7 @@ db_prepare() {
 			echo "[client]"
 			echo "host=$host"
 			[ -n "$port" ] && echo "port=$port"
+			[ -n "$(cfg database unix_socket)" ] && echo "socket=$(cfg database unix_socket)"
 			echo "user=$(cfg database username)"
 			echo "password=\"$(cfg database password | sed 's/\\/\\\\/g; s/"/\\"/g')\""
 			echo "default-character-set=utf8mb4"
