@@ -134,3 +134,12 @@ msgstr "Выделенная кнопка в главном меню (напри
 
 msgid "plugins.themes.academicJournal.option.ctaUrl.label"
 msgstr "Кнопка в меню: ссылка (https://…), для каждого языка"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Полный текст по языку"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "Если у статьи есть PDF на нескольких языках, читатель видит только файл на языке интерфейса (а если его нет — на языке статьи)."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Показывать полный текст только на языке читателя"

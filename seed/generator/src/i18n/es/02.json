@@ -1,0 +1,85 @@
+{
+ "article.v1n1-01-urban-heat.title": "Islas de calor urbanas en ciudades medianas: un análisis de datos Landsat para 2000–2023",
+ "article.v1n1-01-urban-heat.abstract": "<p>La investigación sobre las islas de calor urbanas se ha centrado tradicionalmente en las grandes áreas metropolitanas, mientras que las ciudades medianas, donde reside una parte considerable de la población, siguen estando poco estudiadas. Este estudio evalúa la intensidad y la dinámica de la isla de calor urbana superficial en doce ciudades anonimizadas de entre 100 000 y 500 000 habitantes situadas en la zona de clima templado. La temperatura de la superficie terrestre se obtuvo a partir de escenas de Landsat 5, 7 y 8 correspondientes a los meses de verano de 2000–2023 y, para cada ciudad, se calculó la diferencia entre el área edificada y una zona de amortiguación periurbana. Como covariables se emplearon el índice de vegetación de diferencia normalizada (NDVI), la proporción de superficies impermeables y la densidad edificatoria derivada de datos cartográficos abiertos. La intensidad media diurna de la isla de calor fue de 3,4 °C y, a lo largo del periodo de estudio, aumentó en promedio 0,9 °C. La mayor contribución a este cambio procede de la pérdida de zonas verdes en las áreas periféricas de nuevo desarrollo residencial, mientras que la asociación con el tamaño de la población resultó débil. Un modelo de regresión de efectos mixtos explica el 71 % de la variación entre ciudades y entre años. Los resultados muestran que las ciudades medianas no son menos vulnerables al sobrecalentamiento que las grandes y que las decisiones de planificación en las zonas de nuevo desarrollo constituyen una herramienta clave de adaptación. El método propuesto puede reproducirse para cualquier ciudad utilizando datos abiertos.</p>",
+ "article.v1n1-01-urban-heat.keywords": [
+  "isla de calor urbana",
+  "teledetección",
+  "Landsat",
+  "temperatura de la superficie terrestre",
+  "infraestructura verde",
+  "ciudades medianas"
+ ],
+ "article.v1n1-01-urban-heat.authors.0.affiliation": "Universidad Estatal de Novobor",
+ "article.v1n1-01-urban-heat.authors.1.affiliation": "Escuela de Posgrado de Estudios Urbanos Polis",
+ "article.v1n1-01-urban-heat.authors.2.affiliation": "Universidad Estatal de Novobor",
+ "article.v1n1-01-urban-heat.fundingAgency": "Fundación Horizon para la Investigación Interdisciplinaria",
+ "article.v1n1-02-air-quality-sensors.title": "Calibración mediante aprendizaje automático de sensores de PM2.5 de bajo coste en un clima marcadamente continental",
+ "article.v1n1-02-air-quality-sensors.abstract": "<p>Los sensores ópticos de bajo coste de partículas finas pueden aumentar considerablemente la densidad de las redes de monitorización de la calidad del aire, pero sus lecturas dependen en gran medida de la humedad y la temperatura y se desvían sistemáticamente de las mediciones de referencia. Este estudio compara métodos de calibración de dichos sensores en un clima marcadamente continental con una gran amplitud térmica anual. Durante 14 meses se coubicaron ocho sensores con una estación de referencia gravimétrica, lo que proporcionó más de 76 000 observaciones horarias. Se compararon la regresión lineal, la regresión múltiple con corrección por humedad relativa, el bosque aleatorio y el potenciado de gradiente (gradient boosting). El rendimiento se evaluó mediante validación cruzada por bloques semanales, que impide la fuga de información entre las muestras de entrenamiento y de prueba. Sin calibración, el error absoluto medio fue de 11,8 µg/m³; tras la corrección lineal descendió a 6,4 µg/m³, y el potenciado de gradiente lo redujo a 3,1 µg/m³. Las variables más importantes fueron la humedad relativa, la temperatura y las lecturas de los sensores vecinos. Los modelos entrenados únicamente con datos de verano se transfirieron mal al periodo invernal, lo que subraya la necesidad de una calibración durante todo el año. Concluimos que, una vez calibrados con métodos de aprendizaje automático, los sensores de bajo coste son adecuados para evaluar la dinámica diaria de la contaminación e identificar fuentes locales. El código y los datos anonimizados están disponibles en abierto para su reutilización.</p>",
+ "article.v1n1-02-air-quality-sensors.keywords": [
+  "calidad del aire",
+  "PM2.5",
+  "sensores de bajo coste",
+  "calibración",
+  "potenciado de gradiente"
+ ],
+ "article.v1n1-02-air-quality-sensors.authors.0.affiliation": "Instituto de Analítica Aplicada del Volga",
+ "article.v1n1-02-air-quality-sensors.authors.1.affiliation": "Instituto de Investigación en Salud Pública Vita",
+ "article.v1n1-03-remote-work-labour.title": "Teletrabajo y mercados laborales regionales: evidencia a partir de vacantes en línea",
+ "article.v1n1-03-remote-work-labour.abstract": "<p>La expansión del teletrabajo después de 2020 puede transformar la estructura espacial de los mercados laborales al dar a los habitantes de ciudades pequeñas acceso a vacantes publicadas por empleadores de la capital. A partir de 2,4 millones de anuncios de empleo publicados en una gran plataforma en línea en 2019–2023, este artículo estima en qué medida las vacantes en remoto redistribuyen la demanda de trabajo entre regiones. Los anuncios se clasificaron con un modelo basado en diccionarios, seguido de una validación manual de una muestra aleatoria. La proporción de vacantes totalmente en remoto pasó del 2,1 % en 2019 al 9,7 % en 2023, con un crecimiento concentrado en tecnologías de la información, marketing y servicios financieros. Un diseño de diferencias en diferencias muestra que, en las regiones con una mayor proporción de empleo en estos sectores, el salario medio ofrecido creció un 4,3 % más rápido que en regiones comparables. Al mismo tiempo, las vacantes en remoto imponen mayores requisitos de experiencia y formación, lo que limita el acceso de una gran parte de los trabajadores. El efecto igualador sobre las diferencias salariales interregionales es estadísticamente significativo, pero moderado. Los resultados indican que el teletrabajo solo puede servir como instrumento de política regional si se combina con programas de recualificación y con el desarrollo de la infraestructura digital.</p>",
+ "article.v1n1-03-remote-work-labour.keywords": [
+  "teletrabajo",
+  "mercado laboral regional",
+  "vacantes en línea",
+  "salarios",
+  "diferencias en diferencias"
+ ],
+ "article.v1n1-03-remote-work-labour.authors.0.affiliation": "Instituto Meridian de Economía y Desarrollo Territorial",
+ "article.v1n1-03-remote-work-labour.authors.1.affiliation": "Centro Ostland de Investigación Económica Aplicada",
+ "article.v1n1-04-peatland-carbon.title": "Balance de carbono de las turberas boreales: una revisión de los métodos de evaluación",
+ "article.v1n1-04-peatland-carbon.abstract": "<p>Las turberas boreales cubren alrededor del 3 % de la superficie terrestre, pero almacenan hasta un tercio del carbono edáfico mundial, por lo que la evaluación precisa de su balance de carbono es importante para la política climática y para los inventarios nacionales de gases de efecto invernadero. Esta revisión sistematiza los principales métodos de estimación de los flujos de carbono en turberas: el método de cámaras, la covarianza de remolinos (eddy covariance), el cálculo a partir de las tasas de acumulación de turba y los enfoques de teledetección basados en índices satelitales y modelos de productividad. A partir de 87 publicaciones de 2000–2024, se analizan la escala espacial y temporal de cada método, sus fuentes de incertidumbre y sus requisitos de equipamiento y de cualificación del personal. Las estimaciones del intercambio neto del ecosistema para una misma turbera obtenidas con distintos métodos pueden diferir en un factor de 1,5 a 2, y la mayor parte de la discrepancia se debe al tratamiento de los flujos de metano y de carbono orgánico disuelto. Se presta especial atención a las turberas drenadas y rehumedecidas, para las que existen muchos menos datos que para los ecosistemas no alterados. La revisión concluye que es necesario un enfoque combinado, en el que las observaciones de covarianza de remolinos a largo plazo en sitios de referencia se complementen con mediciones de cámara y con el escalado mediante teledetección. Se propone un esquema de decisión para elegir el método en función del objetivo de la investigación y de los recursos disponibles.</p>",
+ "article.v1n1-04-peatland-carbon.keywords": [
+  "turberas",
+  "balance de carbono",
+  "metano",
+  "covarianza de remolinos",
+  "método de cámaras",
+  "zona boreal"
+ ],
+ "article.v1n1-04-peatland-carbon.authors.0.affiliation": "Instituto Caspio de Estudios Ambientales",
+ "article.v1n1-04-peatland-carbon.authors.1.affiliation": "Estación de Turberas del Norte, Universidad Estatal de Novobor",
+ "article.v1n1-05-digital-economy-neologisms.title": "Neologismos de la economía digital en los medios económicos en lengua rusa: un estudio de corpus",
+ "article.v1n1-05-digital-economy-neologisms.abstract": "<p>La digitalización de la economía ha ido acompañada de la rápida aparición de un nuevo vocabulario, en gran parte tomado del inglés. Esta comunicación breve presenta los primeros resultados de un estudio de corpus sobre los neologismos de la economía digital en los medios económicos en lengua rusa. Un corpus construido ad hoc comprende unos 18 millones de tokens procedentes de las publicaciones de seis medios económicos anonimizados correspondientes a 2015–2024. Los candidatos a neologismo se seleccionaron mediante un criterio de frecuencia seguido de una verificación experta; la lista final contiene 214 unidades. Para cada una se determinaron el año de primera documentación, el patrón de formación de palabras y la dinámica de frecuencia. Los préstamos directos (como marketpleys, startap y kraudfanding) representan el 58 % de las nuevas unidades; las formaciones híbridas con afijos rusos, el 27 %, y los calcos y expresiones descriptivas, el 15 %. El pico de nuevas unidades se sitúa en 2018–2020. En varios préstamos, las grafías en alfabeto latino están siendo sustituidas gradualmente por grafías cirílicas, lo que indica su asimilación por la lengua. Los resultados pueden utilizarse en la elaboración de diccionarios terminológicos y en la enseñanza del ruso para los negocios. En trabajos posteriores, el corpus se ampliará a medios regionales y canales de Telegram.</p>",
+ "article.v1n1-05-digital-economy-neologisms.keywords": [
+  "neologismos",
+  "lingüística de corpus",
+  "préstamos",
+  "economía digital",
+  "medios económicos"
+ ],
+ "article.v1n1-05-digital-economy-neologisms.authors.0.affiliation": "Instituto de Lengua y Comunicación Lexis",
+ "article.v1n2-01-perovskite-stability.title": "Estabilidad de películas de perovskita sometidas a ciclado térmico: el papel de los aditivos orgánicos",
+ "article.v1n2-01-perovskite-stability.abstract": "<p>Las perovskitas de haluro se consideran uno de los materiales más prometedores para la fotovoltaica de capa fina, pero su uso práctico se ve frenado por una estabilidad insuficiente frente a las fluctuaciones de temperatura propias de las condiciones reales de funcionamiento. Este estudio examina el efecto de tres aditivos orgánicos —fenetilamonio, tiourea y polivinilpirrolidona— sobre la degradación de películas de perovskita de catión mixto sometidas a ciclado térmico entre −20 y +85 °C. Las películas se prepararon por recubrimiento por centrifugación asistido por antisolvente y se caracterizaron mediante difracción de rayos X, microscopía electrónica de barrido y espectroscopia de fotoluminiscencia después de 0, 50, 100 y 200 ciclos. En las muestras de control aparece una fase de yoduro de plomo tras solo 100 ciclos, se forman microfisuras a lo largo de los límites de grano y la intensidad de la fotoluminiscencia cae casi a la mitad. La adición de fenetilamonio al 1,5 % molar ralentiza la degradación: tras 200 ciclos se conserva el 87 % de la intensidad inicial de fotoluminiscencia y no se detectan fases secundarias. La tiourea aumenta el tamaño de grano, pero apenas influye en la resistencia al ciclado térmico, mientras que la polivinilpirrolidona suprime eficazmente el agrietamiento. Se propone un mecanismo que vincula el efecto estabilizador de los aditivos con la pasivación de los defectos superficiales y la relajación de las tensiones mecánicas. Los resultados pueden orientar el desarrollo de formulaciones para módulos solares flexibles.</p>",
+ "article.v1n2-01-perovskite-stability.keywords": [
+  "perovskitas",
+  "películas delgadas",
+  "ciclado térmico",
+  "degradación",
+  "pasivación de defectos",
+  "fotovoltaica"
+ ],
+ "article.v1n2-01-perovskite-stability.authors.0.affiliation": "Centro de Ciencia de Materiales Kristall de los Urales",
+ "article.v1n2-01-perovskite-stability.authors.1.affiliation": "Centro de Ciencia de Materiales Kristall de los Urales",
+ "article.v1n2-01-perovskite-stability.authors.2.affiliation": "Instituto de Física de la Materia Condensada de Ereván",
+ "article.v1n2-01-perovskite-stability.fundingAgency": "Fundación Horizon para la Investigación Interdisciplinaria",
+ "article.v1n2-02-adaptive-courses.title": "Cursos en línea adaptativos y rendimiento académico de los estudiantes de primer año: un estudio cuasiexperimental",
+ "article.v1n2-02-adaptive-courses.abstract": "<p>El primer año de universidad conlleva el mayor riesgo de fracaso académico y de abandono, especialmente en matemáticas, donde las diferencias en la preparación escolar de los estudiantes son particularmente grandes. Este artículo evalúa el efecto de un curso en línea adaptativo de cálculo sobre el rendimiento de los estudiantes de primer año de una universidad pedagógica. El sistema adaptativo seleccionaba ejercicios y materiales de aprendizaje a partir de un diagnóstico del nivel de conocimientos y de los errores del estudiante en cada momento. El estudio siguió un diseño cuasiexperimental: los estudiantes de dos cohortes del curso académico 2023/24 (n = 214) utilizaron el curso adaptativo, mientras que los de dos cohortes del año anterior (n = 198) estudiaron con el esquema tradicional y con los mismos profesores. Para mejorar la comparabilidad de los grupos se aplicó un emparejamiento por puntuación de propensión basado en los resultados de los exámenes de acceso, el sexo y el tipo de centro escolar. La puntuación media del examen final en el grupo experimental fue 7,4 puntos superior (sobre 100), y la proporción de estudiantes que suspendieron el examen en la primera convocatoria se redujo del 23 % al 14 %. El mayor efecto se observó entre los estudiantes con puntuaciones de acceso bajas. El análisis de las trazas digitales mostró que el principal predictor del éxito era la regularidad del trabajo con el sistema, y no el tiempo total dedicado a él. Concluimos que los cursos adaptativos son una herramienta valiosa para igualar las oportunidades de partida de los estudiantes de primer año.</p>",
+ "article.v1n2-02-adaptive-courses.keywords": [
+  "aprendizaje adaptativo",
+  "cursos en línea",
+  "rendimiento académico",
+  "estudiantes de primer año",
+  "analítica del aprendizaje"
+ ],
+ "article.v1n2-02-adaptive-courses.authors.0.affiliation": "Universidad Pedagógica de Lesnogorsk",
+ "article.v1n2-02-adaptive-courses.authors.1.affiliation": "Universidad Pedagógica de Lesnogorsk"
+}

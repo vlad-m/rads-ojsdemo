@@ -1,0 +1,85 @@
+{
+ "article.v1n1-01-urban-heat.title": "Îlots de chaleur urbains dans les villes moyennes : analyse des données Landsat pour la période 2000-2023",
+ "article.v1n1-01-urban-heat.abstract": "<p>Les recherches sur les îlots de chaleur urbains se sont traditionnellement concentrées sur les plus grandes métropoles, tandis que les villes moyennes, où vit une part importante de la population, restent peu étudiées. La présente étude évalue l’intensité et la dynamique de l’îlot de chaleur urbain de surface dans douze villes anonymisées de 100 000 à 500 000 habitants situées en zone climatique tempérée. La température de surface a été restituée à partir de scènes Landsat 5, 7 et 8 pour les mois d’été de la période 2000-2023, et, pour chaque ville, l’écart entre la zone bâtie et une zone tampon périurbaine a été calculé. L’indice de végétation par différence normalisée (NDVI), la part des surfaces imperméables et la densité du bâti issue de données cartographiques ouvertes ont été utilisés comme covariables. L’intensité diurne moyenne de l’îlot de chaleur s’élève à 3,4 °C et a augmenté en moyenne de 0,9 °C sur la période étudiée. La contribution la plus importante à cette évolution provient de la disparition des espaces verts dans les secteurs périphériques des nouveaux quartiers résidentiels, tandis que le lien avec la taille de la population s’avère faible. Un modèle de régression à effets mixtes explique 71 % de la variation entre villes et entre années. Les résultats montrent que les villes moyennes ne sont pas moins vulnérables à la surchauffe que les grandes villes et que les choix d’aménagement dans les zones d’urbanisation nouvelle constituent un levier d’adaptation essentiel. La méthode proposée peut être reproduite pour n’importe quelle ville à partir de données ouvertes.</p>",
+ "article.v1n1-01-urban-heat.keywords": [
+  "îlot de chaleur urbain",
+  "télédétection",
+  "Landsat",
+  "température de surface",
+  "infrastructure verte",
+  "villes moyennes"
+ ],
+ "article.v1n1-01-urban-heat.authors.0.affiliation": "Université d’État de Novobor",
+ "article.v1n1-01-urban-heat.authors.1.affiliation": "École supérieure d’études urbaines « Polis »",
+ "article.v1n1-01-urban-heat.authors.2.affiliation": "Université d’État de Novobor",
+ "article.v1n1-01-urban-heat.fundingAgency": "Fondation « Horizon » pour la recherche interdisciplinaire",
+ "article.v1n1-02-air-quality-sensors.title": "Étalonnage par apprentissage automatique de capteurs PM2.5 à bas coût en climat fortement continental",
+ "article.v1n1-02-air-quality-sensors.abstract": "<p>Les capteurs optiques à bas coût de particules fines permettent d’accroître sensiblement la densité des réseaux de surveillance de la qualité de l’air, mais leurs mesures dépendent fortement de l’humidité et de la température et s’écartent systématiquement des mesures de référence. Cette étude compare des méthodes d’étalonnage de tels capteurs dans un climat fortement continental caractérisé par une grande amplitude thermique annuelle. Pendant 14 mois, huit capteurs ont été colocalisés avec une station de référence gravimétrique, ce qui a fourni plus de 76 000 observations horaires. La régression linéaire, la régression multiple avec correction de l’humidité relative, la forêt aléatoire et le gradient boosting ont été comparés. Les performances ont été évaluées par une validation croisée par blocs hebdomadaires qui empêche toute fuite d’information entre les échantillons d’apprentissage et de test. Sans étalonnage, l’erreur absolue moyenne était de 11,8 µg/m³ ; après correction linéaire, elle est tombée à 6,4 µg/m³, et le gradient boosting l’a réduite à 3,1 µg/m³. Les variables les plus importantes étaient l’humidité relative, la température et les mesures des capteurs voisins. Les modèles entraînés sur les seules données estivales se transposaient mal à la période hivernale, ce qui souligne la nécessité d’un étalonnage sur l’ensemble de l’année. Nous concluons qu’une fois étalonnés par des méthodes d’apprentissage automatique, les capteurs à bas coût conviennent à l’évaluation de la dynamique journalière de la pollution et à l’identification des sources locales. Le code et les données anonymisées sont librement accessibles en vue de leur réutilisation.</p>",
+ "article.v1n1-02-air-quality-sensors.keywords": [
+  "qualité de l’air",
+  "PM2.5",
+  "capteurs à bas coût",
+  "étalonnage",
+  "gradient boosting"
+ ],
+ "article.v1n1-02-air-quality-sensors.authors.0.affiliation": "Institut d’analytique appliquée de la Volga",
+ "article.v1n1-02-air-quality-sensors.authors.1.affiliation": "Institut de recherche en santé publique « Vita »",
+ "article.v1n1-03-remote-work-labour.title": "Travail à distance et marchés régionaux du travail : enseignements tirés des offres d’emploi en ligne",
+ "article.v1n1-03-remote-work-labour.abstract": "<p>La diffusion du travail à distance après 2020 est susceptible de remodeler la structure spatiale des marchés du travail en donnant aux habitants des petites villes accès aux offres d’emploi publiées par des employeurs de la capitale. À partir de 2,4 millions d’offres d’emploi publiées sur une grande plateforme en ligne en 2019-2023, cet article estime dans quelle mesure les offres en télétravail redistribuent la demande de travail entre les régions. Les annonces ont été classées à l’aide d’un modèle fondé sur un dictionnaire, suivi d’une validation manuelle sur un échantillon aléatoire. La part des offres en télétravail intégral est passée de 2,1 % en 2019 à 9,7 % en 2023, la croissance se concentrant dans les technologies de l’information, le marketing et les services financiers. Un modèle en doubles différences montre que, dans les régions où la part de l’emploi dans ces secteurs est plus élevée, le salaire moyen proposé a progressé 4,3 % plus vite que dans des régions comparables. Dans le même temps, les offres en télétravail imposent des exigences plus élevées en matière d’expérience et de formation, ce qui en limite l’accès pour une large part des travailleurs. L’effet de réduction des écarts salariaux interrégionaux est statistiquement significatif mais modéré. Les résultats suggèrent que le travail à distance ne peut servir d’instrument de politique régionale qu’en association avec des programmes de reconversion et le développement des infrastructures numériques.</p>",
+ "article.v1n1-03-remote-work-labour.keywords": [
+  "travail à distance",
+  "marché régional du travail",
+  "offres d’emploi en ligne",
+  "salaires",
+  "doubles différences"
+ ],
+ "article.v1n1-03-remote-work-labour.authors.0.affiliation": "Institut d’économie et de développement territorial « Meridian »",
+ "article.v1n1-03-remote-work-labour.authors.1.affiliation": "Centre de recherche économique appliquée « Ostland »",
+ "article.v1n1-04-peatland-carbon.title": "Bilan carbone des tourbières boréales : revue des méthodes d’évaluation",
+ "article.v1n1-04-peatland-carbon.abstract": "<p>Les tourbières boréales couvrent environ 3 % des terres émergées mais stockent jusqu’à un tiers du carbone des sols de la planète ; une évaluation précise de leur bilan carbone importe donc pour les politiques climatiques et les inventaires nationaux de gaz à effet de serre. Cette revue systématise les principales méthodes d’estimation des flux de carbone dans les tourbières : la méthode des chambres, la covariance des turbulences (eddy covariance), le calcul à partir des taux d’accumulation de la tourbe et les approches de télédétection fondées sur des indices satellitaires et des modèles de productivité. S’appuyant sur 87 publications parues entre 2000 et 2024, elle examine l’échelle spatiale et temporelle de chaque méthode, ses sources d’incertitude ainsi que ses exigences en matière d’équipement et de compétences du personnel. Les estimations de l’échange net de l’écosystème obtenues pour une même tourbière par différentes méthodes peuvent varier d’un facteur 1,5 à 2, l’essentiel de l’écart tenant à la prise en compte des flux de méthane et de carbone organique dissous. Une attention particulière est accordée aux tourbières drainées et réhumidifiées, pour lesquelles on dispose de bien moins de données que pour les écosystèmes non perturbés. La revue conclut à la nécessité d’une approche combinée, dans laquelle les observations de longue durée par covariance des turbulences sur des sites de référence sont complétées par des mesures en chambre et par une extrapolation fondée sur la télédétection. Un schéma décisionnel pour le choix de la méthode en fonction de l’objectif de recherche et des ressources disponibles est proposé.</p>",
+ "article.v1n1-04-peatland-carbon.keywords": [
+  "tourbières",
+  "bilan carbone",
+  "méthane",
+  "covariance des turbulences",
+  "méthode des chambres",
+  "zone boréale"
+ ],
+ "article.v1n1-04-peatland-carbon.authors.0.affiliation": "Institut caspien d’études environnementales",
+ "article.v1n1-04-peatland-carbon.authors.1.affiliation": "Station septentrionale d’étude des tourbières, Université d’État de Novobor",
+ "article.v1n1-05-digital-economy-neologisms.title": "Les néologismes de l’économie numérique dans les médias économiques russophones : une étude de corpus",
+ "article.v1n1-05-digital-economy-neologisms.abstract": "<p>La numérisation de l’économie s’est accompagnée de l’apparition rapide d’un nouveau vocabulaire, en grande partie emprunté à l’anglais. Cette communication brève présente les premiers résultats d’une étude de corpus consacrée aux néologismes de l’économie numérique dans les médias économiques russophones. Un corpus constitué à cet effet comprend environ 18 millions d’occurrences issues des publications de six titres de presse économique anonymisés pour la période 2015-2024. Les néologismes candidats ont été sélectionnés selon un critère de fréquence, puis vérifiés par des experts ; la liste finale compte 214 unités. Pour chacune d’elles, l’année de la première attestation, le procédé de formation et l’évolution de la fréquence ont été déterminés. Les emprunts directs (tels que marketpleys, startap et kraudfanding) représentent 58 % des nouvelles unités, les formations hybrides à affixes russes 27 %, et les calques et expressions descriptives 15 %. Le pic d’apparition des nouvelles unités se situe en 2018-2020. Pour un certain nombre d’emprunts, les graphies en alphabet latin cèdent progressivement la place aux graphies cyrilliques, ce qui témoigne de leur assimilation par la langue. Les résultats peuvent servir à l’élaboration de dictionnaires terminologiques et à l’enseignement du russe des affaires. Les travaux ultérieurs étendront le corpus aux titres régionaux et aux chaînes Telegram.</p>",
+ "article.v1n1-05-digital-economy-neologisms.keywords": [
+  "néologismes",
+  "linguistique de corpus",
+  "emprunts",
+  "économie numérique",
+  "médias économiques"
+ ],
+ "article.v1n1-05-digital-economy-neologisms.authors.0.affiliation": "Institut de langue et de communication « Lexis »",
+ "article.v1n2-01-perovskite-stability.title": "Stabilité des films de pérovskite soumis à des cycles thermiques : rôle des additifs organiques",
+ "article.v1n2-01-perovskite-stability.abstract": "<p>Les pérovskites halogénées sont considérées comme l’un des matériaux les plus prometteurs pour le photovoltaïque en couches minces, mais leur utilisation pratique est freinée par une stabilité insuffisante face aux variations de température propres aux conditions réelles de fonctionnement. Cette étude examine l’effet de trois additifs organiques, le phénéthylammonium, la thiourée et la polyvinylpyrrolidone, sur la dégradation de films de pérovskite à cations mixtes soumis à des cycles thermiques entre −20 et +85 °C. Les films ont été préparés par dépôt à la tournette assisté par antisolvant et caractérisés par diffraction des rayons X, microscopie électronique à balayage et spectroscopie de photoluminescence après 0, 50, 100 et 200 cycles. Dans les échantillons témoins, une phase d’iodure de plomb apparaît dès 100 cycles, des microfissures se forment le long des joints de grains et l’intensité de photoluminescence diminue de près de moitié. L’ajout de phénéthylammonium à 1,5 % molaire ralentit la dégradation : après 200 cycles, 87 % de l’intensité initiale de photoluminescence sont conservés et aucune phase secondaire n’est détectée. La thiourée augmente la taille des grains mais influe peu sur la résistance aux cycles thermiques, tandis que la polyvinylpyrrolidone supprime efficacement la fissuration. Un mécanisme est proposé, qui relie l’effet stabilisant des additifs à la passivation des défauts de surface et à la relaxation des contraintes mécaniques. Les résultats peuvent orienter la mise au point de formulations pour les modules solaires flexibles.</p>",
+ "article.v1n2-01-perovskite-stability.keywords": [
+  "pérovskites",
+  "couches minces",
+  "cyclage thermique",
+  "dégradation",
+  "passivation des défauts",
+  "photovoltaïque"
+ ],
+ "article.v1n2-01-perovskite-stability.authors.0.affiliation": "Centre ouralien de science des matériaux « Kristall »",
+ "article.v1n2-01-perovskite-stability.authors.1.affiliation": "Centre ouralien de science des matériaux « Kristall »",
+ "article.v1n2-01-perovskite-stability.authors.2.affiliation": "Institut de physique de la matière condensée d’Erevan",
+ "article.v1n2-01-perovskite-stability.fundingAgency": "Fondation « Horizon » pour la recherche interdisciplinaire",
+ "article.v1n2-02-adaptive-courses.title": "Cours en ligne adaptatifs et résultats universitaires des étudiants de première année : une étude quasi expérimentale",
+ "article.v1n2-02-adaptive-courses.abstract": "<p>La première année à l’université présente le risque le plus élevé d’échec et d’abandon, en particulier en mathématiques, où les écarts de préparation scolaire entre étudiants sont particulièrement importants. Cet article évalue l’effet d’un cours en ligne adaptatif d’analyse mathématique sur les résultats des étudiants de première année d’une université pédagogique. Le système adaptatif sélectionnait les exercices et les supports pédagogiques à partir d’un diagnostic du niveau de connaissances et des erreurs de l’étudiant. L’étude repose sur un dispositif quasi expérimental : les étudiants de deux promotions de l’année universitaire 2023/24 (n = 214) ont utilisé le cours adaptatif, tandis que ceux de deux promotions de l’année précédente (n = 198) ont suivi le schéma traditionnel avec les mêmes enseignants. Afin d’améliorer la comparabilité des groupes, un appariement sur le score de propension a été effectué en fonction des résultats aux épreuves d’admission, du sexe et du type d’établissement scolaire. La note moyenne à l’examen final dans le groupe expérimental était supérieure de 7,4 points sur 100, et la part des étudiants échouant à l’examen en première session est passée de 23 % à 14 %. L’effet le plus important a été observé chez les étudiants ayant obtenu de faibles notes d’admission. L’analyse des traces numériques a montré que le principal prédicteur de réussite était la régularité du travail avec le système plutôt que le temps total passé sur celui-ci. Nous concluons que les cours adaptatifs constituent un outil pertinent pour égaliser les chances de départ des étudiants de première année.</p>",
+ "article.v1n2-02-adaptive-courses.keywords": [
+  "apprentissage adaptatif",
+  "cours en ligne",
+  "résultats universitaires",
+  "étudiants de première année",
+  "analytique de l’apprentissage"
+ ],
+ "article.v1n2-02-adaptive-courses.authors.0.affiliation": "Université pédagogique de Lesnogorsk",
+ "article.v1n2-02-adaptive-courses.authors.1.affiliation": "Université pédagogique de Lesnogorsk"
+}

@@ -8,8 +8,14 @@ Journal of Interdisciplinary Research (`jir`).
 - `src/meta.json`: journal settings, sections, users, issue metadata and announcements.
 - `src/articles_v*.json`, `src/submissions.json`: articles. Each one also has a `body` object
   (section paragraphs, chart data, table) that is used only for the PDF.
-- `assemble.py` writes `../content/journal.json` (with `body` removed) and `bodies.json` (bodies keyed by slug).
-- `build_assets.mjs` renders `../assets/pdf/<slug>.pdf` and `../assets/covers/v<vol>n<num>.png` from
+- `src/i18n/<locale>/NN.json`: translations into the other interface languages (and the English/Russian
+  versions of the bodies), keyed like `src/i18n/_source/NN.json`. `python3 i18n.py extract` rewrites the
+  sources from `src/*.json`; `python3 i18n.py check` lists what is missing per language. Personal names are
+  not translated: Cyrillic-script languages use the Russian form, the others the English one.
+- `assemble.py` merges the translations and writes `../content/journal.json` (with `body` removed, `pdf` and
+  `cover` as `{locale: path}`, `journal.contentLocales`), `bodies.json` (`{slug: {locale: body}}`) and
+  `labels.json` (the fixed words printed in PDFs and on covers).
+- `build_assets.mjs` renders `../assets/pdf/<slug>.<locale>.pdf` and `../assets/covers/v<vol>n<num>.<locale>.jpg` from
   `journal.json` and `bodies.json` with headless Chromium (Playwright).
 - `validate.py` checks the JSON and the assets: ru/en pairs, ISSN check digits, unique slugs,
   files exist, abstract word counts, page sequence, cover size and PDF size.

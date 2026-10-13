@@ -141,3 +141,12 @@ msgstr "Növbəti slayd"
 
 msgid "plugins.themes.default.prevSlide"
 msgstr "Əvvəlki slayd"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Dilə görə tam mətn"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "Məqalənin bir neçə dildə PDF faylı olduqda oxucu yalnız interfeys dilindəkini (o olmadıqda məqalənin dilindəkini) görür."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Tam mətni yalnız oxucunun dilində göstər"

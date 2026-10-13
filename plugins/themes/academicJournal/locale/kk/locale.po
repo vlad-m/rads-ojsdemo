@@ -141,3 +141,12 @@ msgstr "Келесі слайд"
 
 msgid "plugins.themes.default.prevSlide"
 msgstr "Алдыңғы слайд"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Толық мәтін тіл бойынша"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "Мақаланың бірнеше тілде PDF файлы болса, оқырман тек интерфейс тіліндегі файлды көреді (ол болмаса — мақала тіліндегіні)."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Толық мәтінді тек оқырман тілінде көрсету"

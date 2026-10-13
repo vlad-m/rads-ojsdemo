@@ -134,3 +134,12 @@ msgstr "Pulsante evidenziato nella navigazione principale (ad es. un link ai tuo
 
 msgid "plugins.themes.academicJournal.option.ctaUrl.label"
 msgstr "Pulsante di navigazione: link (https://…)"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Testo completo per lingua"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "Se un articolo ha file PDF in più lingue, il lettore vede solo quello nella lingua dell'interfaccia (o nella lingua dell'articolo, se manca)."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Mostra il testo completo solo nella lingua del lettore"

@@ -1,0 +1,85 @@
+{
+ "article.v1n1-01-urban-heat.title": "Isole di calore urbane nelle città di medie dimensioni: un’analisi dei dati Landsat per il periodo 2000–2023",
+ "article.v1n1-01-urban-heat.abstract": "<p>La ricerca sulle isole di calore urbane si è tradizionalmente concentrata sulle grandi aree metropolitane, mentre le città di medie dimensioni, in cui vive una quota consistente della popolazione, restano poco studiate. Il presente studio valuta l’intensità e la dinamica dell’isola di calore urbana superficiale in dodici città anonimizzate con una popolazione compresa tra 100.000 e 500.000 abitanti, situate nella fascia climatica temperata. La temperatura della superficie terrestre è stata ricavata dalle scene Landsat 5, 7 e 8 relative ai mesi estivi del periodo 2000–2023 e per ciascuna città è stata calcolata la differenza tra l’area edificata e una fascia cuscinetto suburbana. Come covariate sono stati utilizzati l’indice di vegetazione a differenza normalizzata (NDVI), la quota di superfici impermeabili e la densità edilizia ricavata da dati cartografici aperti. L’intensità media diurna dell’isola di calore è risultata pari a 3,4 °C e nel periodo di studio è aumentata in media di 0,9 °C. Il contributo maggiore a tale variazione deriva dalla perdita di aree verdi nelle zone periferiche di nuova edificazione residenziale, mentre l’associazione con la dimensione demografica si è rivelata debole. Un modello di regressione a effetti misti spiega il 71% della variabilità tra città e tra anni. I risultati mostrano che le città di medie dimensioni non sono meno vulnerabili al surriscaldamento rispetto a quelle grandi e che le scelte urbanistiche nelle zone di nuova edificazione costituiscono uno strumento chiave di adattamento. Il metodo proposto può essere replicato per qualsiasi città utilizzando dati aperti.</p>",
+ "article.v1n1-01-urban-heat.keywords": [
+  "isola di calore urbana",
+  "telerilevamento",
+  "Landsat",
+  "temperatura della superficie terrestre",
+  "infrastrutture verdi",
+  "città di medie dimensioni"
+ ],
+ "article.v1n1-01-urban-heat.authors.0.affiliation": "Università statale di Novobor",
+ "article.v1n1-01-urban-heat.authors.1.affiliation": "Scuola superiore di studi urbani «Polis»",
+ "article.v1n1-01-urban-heat.authors.2.affiliation": "Università statale di Novobor",
+ "article.v1n1-01-urban-heat.fundingAgency": "Fondazione per la ricerca interdisciplinare «Horizon»",
+ "article.v1n1-02-air-quality-sensors.title": "Calibrazione mediante apprendimento automatico di sensori PM2.5 a basso costo in un clima marcatamente continentale",
+ "article.v1n1-02-air-quality-sensors.abstract": "<p>I sensori ottici a basso costo per il particolato fine possono aumentare notevolmente la densità delle reti di monitoraggio della qualità dell’aria, ma le loro letture dipendono fortemente dall’umidità e dalla temperatura e si discostano sistematicamente dalle misure di riferimento. Il presente studio confronta i metodi di calibrazione di tali sensori in un clima marcatamente continentale caratterizzato da un’ampia escursione termica annua. Per 14 mesi otto sensori sono stati collocati accanto a una stazione di riferimento gravimetrica, ottenendo oltre 76.000 osservazioni orarie. Sono stati confrontati la regressione lineare, la regressione multipla con correzione per l’umidità relativa, la random forest e il gradient boosting. Le prestazioni sono state valutate mediante una validazione incrociata a blocchi settimanali, che impedisce la fuga di informazioni tra il campione di addestramento e quello di test. In assenza di calibrazione l’errore assoluto medio era di 11,8 µg/m³; dopo la correzione lineare è sceso a 6,4 µg/m³ e il gradient boosting lo ha ridotto a 3,1 µg/m³. Le variabili più importanti sono risultate l’umidità relativa, la temperatura e le letture dei sensori vicini. I modelli addestrati sui soli dati estivi si sono dimostrati poco trasferibili al periodo invernale, il che sottolinea la necessità di una calibrazione per l’intero arco dell’anno. Se ne conclude che, una volta calibrati con metodi di apprendimento automatico, i sensori a basso costo sono idonei a valutare la dinamica giornaliera dell’inquinamento e a individuare le sorgenti locali. Il codice e i dati anonimizzati sono liberamente disponibili per il riutilizzo.</p>",
+ "article.v1n1-02-air-quality-sensors.keywords": [
+  "qualità dell’aria",
+  "PM2.5",
+  "sensori a basso costo",
+  "calibrazione",
+  "gradient boosting"
+ ],
+ "article.v1n1-02-air-quality-sensors.authors.0.affiliation": "Istituto del Volga di analitica applicata",
+ "article.v1n1-02-air-quality-sensors.authors.1.affiliation": "Istituto di ricerca sulla salute pubblica «Vita»",
+ "article.v1n1-03-remote-work-labour.title": "Lavoro da remoto e mercati del lavoro regionali: evidenze dagli annunci di lavoro online",
+ "article.v1n1-03-remote-work-labour.abstract": "<p>La diffusione del lavoro da remoto dopo il 2020 può potenzialmente ridisegnare la struttura spaziale dei mercati del lavoro, consentendo ai residenti dei centri minori di accedere alle offerte pubblicate dai datori di lavoro della capitale. Sulla base di 2,4 milioni di annunci di lavoro pubblicati su una grande piattaforma online nel periodo 2019–2023, l’articolo stima in quale misura le offerte di lavoro da remoto ridistribuiscano la domanda di lavoro tra le regioni. Gli annunci sono stati classificati con un modello basato su dizionario, seguito dalla validazione manuale di un campione casuale. La quota di offerte interamente da remoto è passata dal 2,1% nel 2019 al 9,7% nel 2023, con una crescita concentrata nei settori delle tecnologie dell’informazione, del marketing e dei servizi finanziari. Un disegno difference-in-differences mostra che nelle regioni con una quota più elevata di occupati in questi settori la retribuzione media offerta è cresciuta del 4,3% più rapidamente che in regioni comparabili. Al tempo stesso, le offerte di lavoro da remoto richiedono livelli più elevati di esperienza e di istruzione, il che ne limita l’accesso per una larga parte dei lavoratori. L’effetto perequativo sui differenziali retributivi interregionali è statisticamente significativo ma moderato. I risultati suggeriscono che il lavoro da remoto può fungere da strumento di politica regionale solo se associato a programmi di riqualificazione professionale e allo sviluppo delle infrastrutture digitali.</p>",
+ "article.v1n1-03-remote-work-labour.keywords": [
+  "lavoro da remoto",
+  "mercato del lavoro regionale",
+  "annunci di lavoro online",
+  "retribuzioni",
+  "difference-in-differences"
+ ],
+ "article.v1n1-03-remote-work-labour.authors.0.affiliation": "Istituto di economia e sviluppo territoriale «Meridian»",
+ "article.v1n1-03-remote-work-labour.authors.1.affiliation": "Centro di ricerca economica applicata «Ostland»",
+ "article.v1n1-04-peatland-carbon.title": "Bilancio del carbonio delle torbiere boreali: una rassegna dei metodi di valutazione",
+ "article.v1n1-04-peatland-carbon.abstract": "<p>Le torbiere boreali coprono circa il 3% delle terre emerse, ma immagazzinano fino a un terzo del carbonio organico dei suoli del pianeta; una valutazione accurata del loro bilancio del carbonio è quindi importante per le politiche climatiche e per gli inventari nazionali dei gas serra. La presente rassegna sistematizza i principali metodi di stima dei flussi di carbonio nelle torbiere: il metodo delle camere, la eddy covariance, il calcolo basato sui tassi di accumulo della torba e gli approcci di telerilevamento fondati su indici satellitari e modelli di produttività. Sulla base di 87 pubblicazioni del periodo 2000–2024 vengono esaminati la scala spaziale e temporale di ciascun metodo, le sue fonti di incertezza e i requisiti in termini di strumentazione e competenze del personale. Le stime dello scambio ecosistemico netto per una stessa torbiera ottenute con metodi diversi possono differire di un fattore compreso tra 1,5 e 2, e la maggior parte della discrepanza deriva dal trattamento dei flussi di metano e di carbonio organico disciolto. Particolare attenzione è dedicata alle torbiere drenate e riumidificate, per le quali i dati disponibili sono molto più scarsi rispetto agli ecosistemi indisturbati. La rassegna conclude che è necessario un approccio combinato, in cui le osservazioni a lungo termine con eddy covariance nei siti di riferimento siano integrate da misure con camere e da un upscaling basato sul telerilevamento. Viene proposto uno schema decisionale per la scelta del metodo in funzione dell’obiettivo della ricerca e delle risorse disponibili.</p>",
+ "article.v1n1-04-peatland-carbon.keywords": [
+  "torbiere",
+  "bilancio del carbonio",
+  "metano",
+  "eddy covariance",
+  "metodo delle camere",
+  "zona boreale"
+ ],
+ "article.v1n1-04-peatland-carbon.authors.0.affiliation": "Istituto caspico di studi ambientali",
+ "article.v1n1-04-peatland-carbon.authors.1.affiliation": "Stazione settentrionale di studio delle torbiere, Università statale di Novobor",
+ "article.v1n1-05-digital-economy-neologisms.title": "Neologismi dell’economia digitale nei media economici in lingua russa: uno studio su corpus",
+ "article.v1n1-05-digital-economy-neologisms.abstract": "<p>La digitalizzazione dell’economia è stata accompagnata dalla rapida comparsa di nuovo lessico, in larga parte preso in prestito dall’inglese. La presente comunicazione breve illustra i primi risultati di uno studio su corpus dei neologismi dell’economia digitale nei media economici in lingua russa. Un corpus appositamente costruito comprende circa 18 milioni di token tratti dalle pubblicazioni di sei testate economiche anonimizzate per il periodo 2015–2024. I candidati neologismi sono stati selezionati in base a un criterio di frequenza, seguito da una verifica esperta; l’elenco finale comprende 214 unità. Per ciascuna sono stati determinati l’anno della prima attestazione, il modello di formazione della parola e la dinamica della frequenza. I prestiti diretti (come marketpleys, startap e kraudfanding) rappresentano il 58% delle nuove unità, le formazioni ibride con affissi russi il 27% e i calchi e le espressioni descrittive il 15%. Il picco di nuove unità si colloca nel 2018–2020. Per diversi prestiti le grafie in alfabeto latino vengono gradualmente sostituite da quelle in cirillico, segno della loro assimilazione nella lingua. I risultati possono essere utilizzati nella compilazione di dizionari terminologici e nell’insegnamento del russo per gli affari. Il lavoro futuro estenderà il corpus alle testate regionali e ai canali Telegram.</p>",
+ "article.v1n1-05-digital-economy-neologisms.keywords": [
+  "neologismi",
+  "linguistica dei corpora",
+  "prestiti linguistici",
+  "economia digitale",
+  "media economici"
+ ],
+ "article.v1n1-05-digital-economy-neologisms.authors.0.affiliation": "Istituto di lingua e comunicazione «Lexis»",
+ "article.v1n2-01-perovskite-stability.title": "Stabilità dei film di perovskite sottoposti a cicli termici: il ruolo degli additivi organici",
+ "article.v1n2-01-perovskite-stability.abstract": "<p>Le perovskiti ad alogenuri sono considerate uno dei materiali più promettenti per il fotovoltaico a film sottile, ma il loro impiego pratico è frenato da una stabilità insufficiente rispetto alle fluttuazioni di temperatura tipiche delle reali condizioni di esercizio. Il presente studio esamina l’effetto di tre additivi organici, fenetilammonio, tiourea e polivinilpirrolidone, sulla degradazione di film di perovskite a cationi misti sottoposti a cicli termici tra −20 e +85 °C. I film sono stati preparati mediante spin coating assistito da antisolvente e caratterizzati mediante diffrazione di raggi X, microscopia elettronica a scansione e spettroscopia di fotoluminescenza dopo 0, 50, 100 e 200 cicli. Nei campioni di controllo, già dopo 100 cicli compare una fase di ioduro di piombo, si formano microfessure lungo i bordi di grano e l’intensità della fotoluminescenza si riduce quasi della metà. L’aggiunta di fenetilammonio all’1,5% in moli rallenta la degradazione: dopo 200 cicli si conserva l’87% dell’intensità iniziale di fotoluminescenza e non si rilevano fasi secondarie. La tiourea aumenta la dimensione dei grani ma incide poco sulla resistenza ai cicli termici, mentre il polivinilpirrolidone sopprime efficacemente la fessurazione. Viene proposto un meccanismo che collega l’effetto stabilizzante degli additivi alla passivazione dei difetti superficiali e al rilassamento delle tensioni meccaniche. I risultati possono orientare lo sviluppo di formulazioni per moduli solari flessibili.</p>",
+ "article.v1n2-01-perovskite-stability.keywords": [
+  "perovskiti",
+  "film sottili",
+  "cicli termici",
+  "degradazione",
+  "passivazione dei difetti",
+  "fotovoltaico"
+ ],
+ "article.v1n2-01-perovskite-stability.authors.0.affiliation": "Centro degli Urali per la scienza dei materiali «Kristall»",
+ "article.v1n2-01-perovskite-stability.authors.1.affiliation": "Centro degli Urali per la scienza dei materiali «Kristall»",
+ "article.v1n2-01-perovskite-stability.authors.2.affiliation": "Istituto di fisica della materia condensata di Erevan",
+ "article.v1n2-01-perovskite-stability.fundingAgency": "Fondazione per la ricerca interdisciplinare «Horizon»",
+ "article.v1n2-02-adaptive-courses.title": "Corsi online adattivi e rendimento accademico degli studenti del primo anno: uno studio quasi-sperimentale",
+ "article.v1n2-02-adaptive-courses.abstract": "<p>Il primo anno di università comporta il rischio più elevato di insuccesso accademico e di abbandono, soprattutto in matematica, dove le differenze nella preparazione scolastica degli studenti sono particolarmente marcate. L’articolo valuta l’effetto di un corso online adattivo di analisi matematica sul rendimento degli studenti del primo anno di un’università pedagogica. Il sistema adattivo selezionava esercizi e materiali didattici sulla base di una diagnosi del livello di conoscenze attuale e degli errori dello studente. Lo studio ha adottato un disegno quasi-sperimentale: gli studenti di due coorti dell’anno accademico 2023/24 (n = 214) hanno utilizzato il corso adattivo, mentre gli studenti di due coorti dell’anno precedente (n = 198) hanno seguito lo schema tradizionale con gli stessi docenti. Per migliorare la comparabilità dei gruppi è stato applicato il propensity score matching sui risultati delle prove di ammissione, sul genere e sul tipo di scuola. Il punteggio medio all’esame finale nel gruppo sperimentale è risultato superiore di 7,4 punti su 100 e la quota di studenti che non hanno superato l’esame al primo tentativo è scesa dal 23% al 14%. L’effetto maggiore è stato osservato tra gli studenti con punteggi di ammissione bassi. L’analisi delle tracce digitali ha mostrato che il principale predittore del successo era la regolarità del lavoro con il sistema, e non il tempo complessivo trascorso in esso. Se ne conclude che i corsi adattivi sono uno strumento valido per riequilibrare le opportunità di partenza degli studenti del primo anno.</p>",
+ "article.v1n2-02-adaptive-courses.keywords": [
+  "apprendimento adattivo",
+  "corsi online",
+  "rendimento accademico",
+  "studenti del primo anno",
+  "learning analytics"
+ ],
+ "article.v1n2-02-adaptive-courses.authors.0.affiliation": "Università pedagogica di Lesnogorsk",
+ "article.v1n2-02-adaptive-courses.authors.1.affiliation": "Università pedagogica di Lesnogorsk"
+}

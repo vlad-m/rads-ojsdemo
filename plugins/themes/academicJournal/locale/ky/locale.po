@@ -134,3 +134,12 @@ msgstr "Негизги навигациядагы бөлүнүп көрсөтү�
 
 msgid "plugins.themes.academicJournal.option.ctaUrl.label"
 msgstr "Навигация баскычы: шилтеме (https://…)"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Толук текст тил боюнча"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "Макаланын бир нече тилде PDF файлы болсо, окурман интерфейс тилиндегисин гана көрөт (ал жок болсо — макаланын тилиндегисин)."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Толук текстти окурмандын тилинде гана көрсөтүү"

@@ -134,3 +134,12 @@ msgstr "Bouton mis en évidence dans la navigation principale (par ex. un lien v
 
 msgid "plugins.themes.academicJournal.option.ctaUrl.label"
 msgstr "Bouton de navigation : lien (https://…)"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Texte intégral selon la langue"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "Lorsqu'un article dispose de PDF en plusieurs langues, le lecteur ne voit que celui de la langue de l'interface (ou celui de la langue de l'article à défaut)."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Afficher le texte intégral uniquement dans la langue du lecteur"

@@ -141,3 +141,12 @@ msgstr "Επόμενη διαφάνεια"
 
 msgid "plugins.themes.default.prevSlide"
 msgstr "Προηγούμενη διαφάνεια"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Πλήρες κείμενο ανά γλώσσα"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "Όταν ένα άρθρο διαθέτει αρχεία PDF σε πολλές γλώσσες, ο αναγνώστης βλέπει μόνο αυτό στη γλώσσα της διεπαφής (ή στη γλώσσα του άρθρου, αν δεν υπάρχει)."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Εμφάνιση του πλήρους κειμένου μόνο στη γλώσσα του αναγνώστη"

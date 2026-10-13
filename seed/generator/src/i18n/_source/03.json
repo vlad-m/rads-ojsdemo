@@ -1,0 +1,242 @@
+{
+ "article.v1n2-03-telemedicine-older-adults.title": {
+  "en": "Telemedicine Uptake among Older Adults in Small Towns: A Mixed-Methods Study",
+  "ru": "Использование телемедицины пожилыми людьми в малых городах: исследование смешанными методами"
+ },
+ "article.v1n2-03-telemedicine-older-adults.abstract": {
+  "en": "<p>Telemedicine consultations can improve access to healthcare for older residents of small towns, where the shortage of specialist physicians is particularly acute. However, uptake of such services among older people remains low, and the reasons are insufficiently understood. This mixed-methods study analyses the factors associated with telemedicine use among people aged 60 and over in four anonymised small towns. The quantitative phase comprised a telephone survey of 812 respondents; the qualitative phase consisted of 28 semi-structured interviews with patients and 9 interviews with healthcare workers. Over the past year, 19% of respondents had used telemedicine services. In a multivariable logistic model, the probability of use was associated with smartphone ownership, living with younger relatives and having chronic conditions requiring regular monitoring, whereas the association with age weakened after adjustment for these factors. Interviews revealed three key barriers: distrust of remote assessment of health status, complex booking and authentication procedures, and a fear of wasting the doctor's time without an in-person visit. Healthcare workers noted that telemedicine is most valuable for follow-up consultations and adjusting treatment. We conclude that simplified interfaces and support from nurses could substantially broaden telemedicine use among older adults.</p>",
+  "ru": "<p>Телемедицинские консультации способны повысить доступность медицинской помощи для пожилых жителей малых городов, где нехватка врачей-специалистов особенно ощутима. Вместе с тем уровень использования таких услуг пожилыми людьми остаётся низким, а причины этого изучены недостаточно. В исследовании смешанными методами проанализированы факторы использования телемедицины людьми в возрасте 60 лет и старше в четырёх условных малых городах. Количественный этап включал телефонный опрос 812 респондентов, качественный — 28 полуструктурированных интервью с пациентами и 9 интервью с медицинскими работниками. За последний год телемедицинскими услугами воспользовались 19 % опрошенных. В многомерной логистической модели вероятность использования была связана с наличием смартфона, проживанием с родственниками младшего возраста и наличием хронических заболеваний, требующих регулярного наблюдения, тогда как связь с возрастом после учёта этих факторов ослабевала. Интервью выявили три ключевых барьера: недоверие к дистанционной оценке состояния здоровья, сложность процедур записи и авторизации, а также опасение «занять время врача» без очного визита. Медицинские работники отмечали, что наибольшую ценность телемедицина имеет для повторных консультаций и коррекции терапии. Сделан вывод о том, что упрощение интерфейсов и поддержка со стороны медицинских сестёр могут существенно расширить использование телемедицины пожилыми людьми.</p>"
+ },
+ "article.v1n2-03-telemedicine-older-adults.keywords": {
+  "en": [
+   "telemedicine",
+   "older adults",
+   "small towns",
+   "digital divide",
+   "mixed methods"
+  ],
+  "ru": [
+   "телемедицина",
+   "пожилые люди",
+   "малые города",
+   "цифровое неравенство",
+   "смешанные методы"
+  ]
+ },
+ "article.v1n2-03-telemedicine-older-adults.authors.0.affiliation": {
+  "en": "Vita Research Institute of Public Health",
+  "ru": "НИИ общественного здоровья «Вита»"
+ },
+ "article.v1n2-03-telemedicine-older-adults.authors.1.affiliation": {
+  "en": "Danube Centre for Population Health Research",
+  "ru": "Дунайский центр исследований здоровья населения"
+ },
+ "article.v1n2-03-telemedicine-older-adults.authors.2.affiliation": {
+  "en": "Vita Research Institute of Public Health",
+  "ru": "НИИ общественного здоровья «Вита»"
+ },
+ "article.v1n2-04-computing-centres-history.title": {
+  "en": "Computing Centres of the 1950s–1970s as Scientific Institutions: A Historiographical Review",
+  "ru": "Вычислительные центры 1950–1970-х гг. как научные институты: обзор историографии"
+ },
+ "article.v1n2-04-computing-centres-history.abstract": {
+  "en": "<p>Computing centres, established in the mid-twentieth century at research institutes, universities and industrial enterprises, played a key role in turning computation into an independent instrument of scientific inquiry. This review examines how historians of science and technology have studied these institutions over the past fifty years. Based on an analysis of 64 monographs, articles and edited volumes, three main historiographical approaches are identified. The first, technical-biographical, focuses on the construction of particular computers and the work of their designers. The second, institutional, treats computing centres as organisations with their own structure, staffing policies and relations with clients. The third, which has emerged over the last two decades, investigates computing practices: how programmers, operators and users interacted with machines and how computation transformed the methods of individual disciplines, from meteorology to linguistics. The least studied topics remain the everyday work of computing centres, the role of women programmers and operators, and regional centres outside the largest science cities. Problems of the source base are discussed separately, including the preservation of technical documentation, machine-time logs and programs. The review concludes that combining archival research with oral history methods is promising while participants in these events are still alive.</p>",
+  "ru": "<p>Вычислительные центры, возникшие в середине XX в. при научных институтах, университетах и промышленных предприятиях, сыграли ключевую роль в превращении вычислений в самостоятельный инструмент научного познания. В обзоре рассматривается, как историки науки и техники изучали эти учреждения на протяжении последних пятидесяти лет. На основе анализа 64 монографий, статей и сборников выделены три основных историографических подхода. Первый, технико-биографический, сосредоточен на создании конкретных вычислительных машин и деятельности их конструкторов. Второй, институциональный, рассматривает вычислительные центры как организации со своей структурой, кадровой политикой и отношениями с заказчиками. Третий, сложившийся в последние два десятилетия, исследует вычислительные практики: как программисты, операторы и пользователи взаимодействовали с машинами и как вычисления меняли методы отдельных дисциплин — от метеорологии до лингвистики. Показано, что наименее изученными остаются повседневная работа вычислительных центров, роль женщин-программистов и операторов, а также региональные центры за пределами крупнейших научных городов. Отдельно обсуждаются проблемы источниковой базы: сохранность технической документации, журналов машинного времени и программ. Сделан вывод о перспективности сочетания архивных исследований с методами устной истории, пока ещё живы участники событий.</p>"
+ },
+ "article.v1n2-04-computing-centres-history.keywords": {
+  "en": [
+   "history of science",
+   "history of computing",
+   "computing centres",
+   "historiography",
+   "oral history"
+  ],
+  "ru": [
+   "история науки",
+   "история вычислительной техники",
+   "вычислительные центры",
+   "историография",
+   "устная история"
+  ]
+ },
+ "article.v1n2-04-computing-centres-history.authors.0.affiliation": {
+  "en": "Chronos Centre for the History of Science and Technology",
+  "ru": "Центр истории науки и техники «Хронос»"
+ },
+ "article.v1n2-05-greywater-reuse.title": {
+  "en": "Greywater Reuse in a Multi-Apartment Residential Block: A Pilot Assessment",
+  "ru": "Повторное использование серых вод в многоквартирном жилом квартале: пилотная оценка"
+ },
+ "article.v1n2-05-greywater-reuse.abstract": {
+  "en": "<p>The reuse of lightly polluted domestic wastewater, or greywater, is regarded as one way to reduce the load on urban water supply and sewerage systems. This short communication presents the results of a pilot operation of a greywater treatment system in a residential block of three multi-apartment buildings (412 residents). Greywater from showers and washbasins was treated in a compact unit comprising mechanical filtration, a membrane bioreactor and ultraviolet disinfection, and then supplied for toilet flushing and irrigation of the surrounding grounds. Over 12 months, volumes were recorded daily and the quality of treated water was monitored weekly. Reuse reduced potable water consumption by 27% on average and by up to 34% in summer months owing to irrigation. Treated water consistently met the standards for non-potable water supply in terms of turbidity, biochemical oxygen demand and microbiological indicators. Specific operating costs were about 38 roubles per cubic metre, and the payback period at current tariffs is estimated at 9–11 years. A survey of residents showed a high level of acceptance of the technology (82% positive ratings), provided the water had no odour or discolouration. We conclude that greywater reuse systems are worth including in new residential development projects.</p>",
+  "ru": "<p>Повторное использование слабозагрязнённых бытовых сточных вод, или серых вод, рассматривается как один из способов снижения нагрузки на системы городского водоснабжения и водоотведения. В кратком сообщении представлены результаты пилотной эксплуатации системы очистки серых вод в жилом квартале из трёх многоквартирных домов (412 жителей). Серые воды от душевых и умывальников очищались на компактной установке, включающей механическую фильтрацию, мембранный биореактор и ультрафиолетовое обеззараживание, после чего подавались на смыв унитазов и полив придомовой территории. В течение 12 месяцев проводился ежедневный учёт объёмов и еженедельный контроль качества очищенной воды. Повторное использование позволило сократить потребление питьевой воды в среднем на 27 %, а в летние месяцы — до 34 % за счёт полива. Очищенная вода стабильно соответствовала нормативам для технического водоснабжения по мутности, биохимическому потреблению кислорода и микробиологическим показателям. Удельные эксплуатационные затраты составили около 38 руб. за кубический метр, срок окупаемости при действующих тарифах оценивается в 9–11 лет. Опрос жителей показал высокий уровень принятия технологии (82 % положительных оценок) при условии отсутствия запаха и окрашивания воды. Сделан вывод о целесообразности включения систем повторного использования серых вод в проекты новой жилой застройки.</p>"
+ },
+ "article.v1n2-05-greywater-reuse.keywords": {
+  "en": [
+   "greywater",
+   "water reuse",
+   "membrane bioreactor",
+   "water saving",
+   "residential development"
+  ],
+  "ru": [
+   "серые воды",
+   "повторное использование воды",
+   "мембранный биореактор",
+   "водосбережение",
+   "жилая застройка"
+  ]
+ },
+ "article.v1n2-05-greywater-reuse.authors.0.affiliation": {
+  "en": "Polis Graduate School of Urban Studies",
+  "ru": "Высшая школа урбанистики «Полис»"
+ },
+ "article.v1n2-05-greywater-reuse.authors.1.affiliation": {
+  "en": "Volga Institute of Applied Analytics",
+  "ru": "Волжский институт прикладной аналитики"
+ },
+ "article.v2n1-01-transit-housing-prices.title": {
+  "en": "Transit Accessibility and Housing Prices: A Hedonic Model for an Urban Agglomeration",
+  "ru": "Транспортная доступность и цены на жильё: гедонистическая модель для городской агломерации"
+ },
+ "article.v2n1-01-transit-housing-prices.subtitle": {
+  "en": "Evidence from the Opening of a New Light Rail Line",
+  "ru": "На примере открытия новой линии скоростного трамвая"
+ },
+ "article.v2n1-01-transit-housing-prices.abstract": {
+  "en": "<p>Investment in public transport reshapes the spatial structure of a city, and one of the most visible manifestations of this is the change in housing prices near new stations. This article estimates the effect of opening a 17-km light rail line on apartment prices in an anonymised agglomeration with a population of about 1.2 million. The data comprise 46,000 transactions and sale listings for 2018–2024, geocoded and supplemented with building and neighbourhood characteristics. Transit accessibility was measured as the number of jobs reachable within 45 minutes by public transport before and after the opening of the line. The effect was identified with a hedonic difference-in-differences model in which the treatment group consists of apartments within 800 m of the new stations. After the line opened, apartment prices in the catchment area increased by 6.8% more than in the control area, and the effect began to appear as early as the announcement of construction. The effect is stronger for apartments in peripheral districts with initially low accessibility and practically absent in the centre. An increase in accessibility of 10,000 jobs is associated with a 1.9% increase in the price per square metre. The results can be used to justify land value capture mechanisms for financing transport infrastructure.</p>",
+  "ru": "<p>Инвестиции в общественный транспорт меняют пространственную структуру города, и одним из наиболее наглядных проявлений этого является изменение цен на жильё вблизи новых станций. В статье оценивается влияние открытия линии скоростного трамвая протяжённостью 17 км на цены квартир в условной агломерации с населением около 1,2 млн человек. Использованы данные о 46 тыс. сделок и объявлений о продаже за 2018–2024 гг., геокодированные и дополненные характеристиками домов и окружающей среды. Показатель транспортной доступности рассчитан как число рабочих мест, достижимых за 45 минут на общественном транспорте, до и после открытия линии. Для идентификации эффекта применена гедонистическая модель с методом разности разностей, в которой экспериментальной группой служат квартиры в радиусе 800 м от новых станций. Установлено, что после открытия линии цены квартир в зоне влияния выросли на 6,8 % больше, чем в контрольной зоне, причём эффект начал проявляться уже после объявления о строительстве. Эффект сильнее для квартир в периферийных районах с исходно низкой доступностью и практически отсутствует в центре. Рост доступности на 10 тыс. рабочих мест связан с увеличением цены квадратного метра на 1,9 %. Результаты могут использоваться для обоснования механизмов возврата части прироста стоимости земли на финансирование транспортной инфраструктуры.</p>"
+ },
+ "article.v2n1-01-transit-housing-prices.keywords": {
+  "en": [
+   "transit accessibility",
+   "hedonic model",
+   "housing market",
+   "light rail",
+   "land value capture"
+  ],
+  "ru": [
+   "транспортная доступность",
+   "гедонистическая модель",
+   "рынок жилья",
+   "скоростной трамвай",
+   "возврат стоимости земли"
+  ]
+ },
+ "article.v2n1-01-transit-housing-prices.authors.0.affiliation": {
+  "en": "Polis Graduate School of Urban Studies",
+  "ru": "Высшая школа урбанистики «Полис»"
+ },
+ "article.v2n1-01-transit-housing-prices.authors.1.affiliation": {
+  "en": "Meridian Institute for Economics and Spatial Development",
+  "ru": "Институт экономики и пространственного развития «Меридиан»"
+ },
+ "article.v2n1-01-transit-housing-prices.authors.2.affiliation": {
+  "en": "Polis Graduate School of Urban Studies",
+  "ru": "Высшая школа урбанистики «Полис»"
+ },
+ "article.v2n1-01-transit-housing-prices.authors.3.affiliation": {
+  "en": "Meridian Institute for Economics and Spatial Development",
+  "ru": "Институт экономики и пространственного развития «Меридиан»"
+ },
+ "article.v2n1-02-machine-generated-abstracts.title": {
+  "en": "Detecting Machine-Generated Passages in Russian-Language Scientific Abstracts",
+  "ru": "Распознавание машинно сгенерированных фрагментов в русскоязычных научных аннотациях"
+ },
+ "article.v2n1-02-machine-generated-abstracts.abstract": {
+  "en": "<p>The widespread adoption of large language models has confronted scholarly journals with the task of identifying texts created wholly or partly by automated means. Most existing detectors were developed for English, and their applicability to Russian-language scientific texts is poorly understood. This article presents a new annotated corpus of 12,000 abstracts of scientific articles in Russian, half of which were written by humans and half of which contain passages generated by three different language models under different prompts. Four classes of methods are compared on this corpus: statistical perplexity features, stylometric features, a fine-tuned transformer-based classifier and a general-purpose commercial detector. The fine-tuned classifier performed best (document-level F1 = 0.91), but its performance fell to 0.74 when tested on texts generated by a model not seen during training. At the sentence level, all methods perform considerably worse, and the false-positive rate on abstracts written by authors for whom Russian is not a first language reaches 11%. These results indicate that automated detectors cannot serve as the sole basis for editorial decisions. The corpus and code are openly available for further research.</p>",
+  "ru": "<p>Широкое распространение больших языковых моделей поставило перед научными журналами задачу выявления текстов, полностью или частично созданных автоматически. Большинство существующих детекторов разработаны для английского языка, и их применимость к русскоязычным научным текстам изучена слабо. В статье представлен новый размеченный корпус из 12 тыс. аннотаций научных статей на русском языке, в котором половина текстов написана людьми, а половина содержит фрагменты, сгенерированные тремя различными языковыми моделями с разными инструкциями. На этом корпусе сравниваются четыре класса методов: статистические признаки перплексии, стилометрические признаки, дообученный классификатор на основе трансформера и коммерческий детектор общего назначения. Наилучшие результаты показал дообученный классификатор (F1 = 0,91 на уровне документа), однако его качество снижалось до 0,74 при тестировании на текстах, сгенерированных моделью, не встречавшейся при обучении. На уровне отдельных предложений все методы работают существенно хуже, а доля ложных срабатываний на аннотациях, написанных авторами, для которых русский язык не является родным, достигает 11 %. Эти результаты свидетельствуют о том, что автоматические детекторы не могут служить единственным основанием для редакционных решений. Корпус и код опубликованы в открытом доступе для дальнейших исследований.</p>"
+ },
+ "article.v2n1-02-machine-generated-abstracts.keywords": {
+  "en": [
+   "large language models",
+   "machine-generated text detection",
+   "scientific abstracts",
+   "Russian language",
+   "research integrity"
+  ],
+  "ru": [
+   "большие языковые модели",
+   "детекция сгенерированного текста",
+   "научные аннотации",
+   "русский язык",
+   "академическая этика"
+  ]
+ },
+ "article.v2n1-02-machine-generated-abstracts.authors.0.affiliation": {
+  "en": "Volga Institute of Applied Analytics",
+  "ru": "Волжский институт прикладной аналитики"
+ },
+ "article.v2n1-02-machine-generated-abstracts.authors.1.affiliation": {
+  "en": "Lexis Institute of Language and Communication",
+  "ru": "Институт языка и коммуникации «Лексис»"
+ },
+ "article.v2n1-02-machine-generated-abstracts.authors.2.affiliation": {
+  "en": "Samarkand Institute of Computational Linguistics",
+  "ru": "Самаркандский институт вычислительной лингвистики"
+ },
+ "article.v2n1-03-circular-economy-sme.title": {
+  "en": "The Circular Economy in Small and Medium-Sized Enterprises: A Systematic Review of Barriers and Drivers",
+  "ru": "Циркулярная экономика в малом и среднем бизнесе: систематический обзор барьеров и драйверов"
+ },
+ "article.v2n1-03-circular-economy-sme.abstract": {
+  "en": "<p>The transition to a circular economy based on the reuse, repair and recycling of resources requires the participation not only of large corporations but also of small and medium-sized enterprises, which account for a large share of employment and environmental impact. This systematic review synthesises empirical research on the barriers to and drivers of adopting circular practices in small and medium-sized businesses. A PRISMA-guided search identified 1,146 publications from 2015–2025, of which 72 studies from 28 countries met the inclusion criteria. Barriers and drivers were classified into five groups: financial, technological, market, institutional and organisational-cultural. The most frequently cited barriers were high upfront costs and limited access to finance (78% of studies), a lack of technical competence (61%) and low consumer demand for products made from secondary raw materials (47%). The key drivers are savings on raw material and disposal costs, requirements of large customers in supply chains and the personal values of owners. The role of government support is assessed ambiguously: subsidies are effective mainly in combination with advisory services. A substantial gap in research from Eastern Europe and Central Asia was identified. Recommendations for support policies and directions for further research are formulated.</p>",
+  "ru": "<p>Переход к циркулярной экономике, основанной на повторном использовании, ремонте и переработке ресурсов, требует участия не только крупных корпораций, но и малых и средних предприятий, на долю которых приходится значительная часть занятости и воздействия на окружающую среду. В систематическом обзоре обобщены результаты эмпирических исследований барьеров и драйверов внедрения циркулярных практик в малом и среднем бизнесе. Поиск по протоколу PRISMA выявил 1 146 публикаций за 2015–2025 гг., из которых по критериям включения отобрано 72 исследования из 28 стран. Барьеры и драйверы классифицированы по пяти группам: финансовые, технологические, рыночные, институциональные и организационно-культурные. Наиболее часто упоминаемыми барьерами оказались высокие первоначальные затраты и ограниченный доступ к финансированию (78 % исследований), недостаток технических компетенций (61 %) и низкий спрос потребителей на продукцию из вторичного сырья (47 %). Ключевыми драйверами выступают экономия затрат на сырьё и утилизацию, требования крупных заказчиков в цепочках поставок и личные ценности собственников. Показано, что роль государственной поддержки оценивается неоднозначно: субсидии эффективны прежде всего в сочетании с консультационными услугами. Выявлен существенный дефицит исследований из стран Восточной Европы и Центральной Азии. Сформулированы рекомендации для политики поддержки и направления дальнейших исследований.</p>"
+ },
+ "article.v2n1-03-circular-economy-sme.keywords": {
+  "en": [
+   "circular economy",
+   "small and medium-sized enterprises",
+   "systematic review",
+   "sustainable development",
+   "supply chains"
+  ],
+  "ru": [
+   "циркулярная экономика",
+   "малый и средний бизнес",
+   "систематический обзор",
+   "устойчивое развитие",
+   "цепочки поставок"
+  ]
+ },
+ "article.v2n1-03-circular-economy-sme.authors.0.affiliation": {
+  "en": "Meridian Institute for Economics and Spatial Development",
+  "ru": "Институт экономики и пространственного развития «Меридиан»"
+ },
+ "article.v2n1-03-circular-economy-sme.authors.1.affiliation": {
+  "en": "Ecopolis Belarusian Institute for Sustainable Development",
+  "ru": "Белорусский институт устойчивого развития «Экополис»"
+ },
+ "article.v2n1-04-urban-soil-microbiome.title": {
+  "en": "The Soil Microbiome of Urban Parks: First Results of Metabarcoding",
+  "ru": "Микробиом почв городских парков: первые результаты метабаркодинга"
+ },
+ "article.v2n1-04-urban-soil-microbiome.abstract": {
+  "en": "<p>The soils of urban parks perform important ecosystem functions, regulating runoff, storing carbon and supporting plant growth, yet their microbial communities have been studied far less than those of natural soils. This short communication presents the first results of metabarcoding of bacterial communities in the soils of six parks in an anonymised large city that differ in age and intensity of recreational use. Seventy-two samples of the topsoil were collected from lawns, areas under tree cover and along footpaths. Community composition was determined by sequencing the V4 variable region of the 16S rRNA gene; pH, organic carbon content, soil bulk density and heavy metal concentrations were measured in parallel. Bacterial alpha diversity was highest under tree cover in older parks and lowest along compacted paths. Community structure differed significantly between site types (PERMANOVA, R² = 0.21) and to a lesser extent between parks. The most important factors shaping community composition were pH and bulk density, whereas the effect of heavy metals at the concentrations studied was weak. These data suggest that park management and layout influence soil microbial diversity at least as much as pollution does. Work is continuing with an expanded sample and the inclusion of fungal communities.</p>",
+  "ru": "<p>Почвы городских парков выполняют важные экосистемные функции — регулируют сток, депонируют углерод, поддерживают рост растений, — однако их микробные сообщества изучены значительно хуже, чем сообщества природных почв. В кратком сообщении представлены первые результаты метабаркодинга бактериальных сообществ почв шести парков условного крупного города, различающихся возрастом и интенсивностью рекреационной нагрузки. Отобрано 72 образца верхнего горизонта почвы с газонов, участков под древесной растительностью и вдоль пешеходных дорожек. Состав сообществ определён секвенированием вариабельного участка V4 гена 16S рРНК; параллельно измерены pH, содержание органического углерода, плотность почвы и концентрации тяжёлых металлов. Альфа-разнообразие бактерий оказалось максимальным под древесной растительностью в старых парках и минимальным вдоль уплотнённых дорожек. Структура сообществ достоверно различалась между типами участков (PERMANOVA, R² = 0,21) и в меньшей степени — между парками. Наиболее значимыми факторами, определяющими состав сообществ, были pH и плотность почвы, тогда как влияние тяжёлых металлов в исследованных концентрациях оказалось слабым. Полученные данные свидетельствуют о том, что режим содержания и планировка парков влияют на почвенное микробное разнообразие не меньше, чем загрязнение. Работа продолжается с расширением выборки и включением грибных сообществ.</p>"
+ },
+ "article.v2n1-04-urban-soil-microbiome.keywords": {
+  "en": [
+   "urban soils",
+   "microbiome",
+   "metabarcoding",
+   "16S rRNA",
+   "urban parks"
+  ],
+  "ru": [
+   "городские почвы",
+   "микробиом",
+   "метабаркодинг",
+   "16S рРНК",
+   "городские парки"
+  ]
+ },
+ "article.v2n1-04-urban-soil-microbiome.authors.0.affiliation": {
+  "en": "Caspian Institute of Environmental Studies",
+  "ru": "Каспийский институт экологических исследований"
+ },
+ "article.v2n1-04-urban-soil-microbiome.authors.1.affiliation": {
+  "en": "Novobor State University",
+  "ru": "Новоборский государственный университет"
+ }
+}

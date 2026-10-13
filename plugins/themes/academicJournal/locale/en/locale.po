@@ -134,3 +134,12 @@ msgstr "Highlighted button in the main navigation (e.g. a link to your services)
 
 msgid "plugins.themes.academicJournal.option.ctaUrl.label"
 msgstr "Navigation button: link (https://…), per language"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Full text by language"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "When an article has PDF files in several languages, readers see only the one in the interface language (or in the article's language if there is none)."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Show the full text in the reader's language only"

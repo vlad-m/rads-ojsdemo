@@ -9,6 +9,8 @@ Page ranges are NOT set here: build_assets.mjs measures the rendered PDFs and wr
 import json
 import os
 
+import i18n
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "src")
 SEED = os.path.dirname(HERE)
@@ -39,12 +41,20 @@ def main():
                     old_pages[a["slug"]] = a["pages"]
 
     meta = load("meta.json")
+    groups = {iss["articlesFile"]: load(iss["articlesFile"]) for iss in meta["issues"]}
+    groups[meta["submissionsFile"]] = load(meta["submissionsFile"])
+    missing = i18n.apply(meta, groups, i18n.EXTRA_LOCALES)
+    for loc, keys in sorted(missing.items()):
+        print(f"warning: {loc}: {len(keys)} text(s) not translated yet (e.g. {keys[0]}); the English text is used")
+    order = ["ru", "en"] + i18n.EXTRA_LOCALES
+    locales = [l for l in order if l in ("ru", "en") or l not in missing or len(missing[l]) < 50]
     bodies = {}
 
     def clean(a, published, stage=None):
         a = dict(a)
         bodies[a["slug"]] = a.pop("body")
-        a["pdf"] = f"pdf/{a['slug']}.pdf"
+        # one PDF per language the full text exists in
+        a["pdf"] = {l: f"pdf/{a['slug']}.{l}.pdf" for l in order if l in bodies[a["slug"]]}
         if published:
             a["pages"] = old_pages.get(a["slug"], a.get("pages", ""))
         else:
@@ -55,11 +65,14 @@ def main():
 
     issues = []
     for iss in meta["issues"]:
-        arts = load(iss.pop("articlesFile"))
+        arts = groups[iss.pop("articlesFile")]
         iss["articles"] = [clean(a, True) for a in arts]
+        base = os.path.splitext(iss["cover"] if isinstance(iss["cover"], str) else f"covers/v{iss['volume']}n{iss['number']}")[0]
+        iss["cover"] = {l: f"{base}.{l}.jpg" for l in locales}
         issues.append(iss)
 
-    subs = [clean(a, False, a.get("stage")) for a in load(meta.pop("submissionsFile"))]
+    subs = [clean(a, False, a.get("stage")) for a in groups[meta.pop("submissionsFile")]]
+    meta["journal"]["contentLocales"] = locales
 
     journal = {
         "journal": meta["journal"],
@@ -75,6 +88,9 @@ def main():
         f.write("\n")
     with open(OUT_BODIES, "w", encoding="utf-8") as f:
         json.dump(bodies, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    with open(os.path.join(HERE, "labels.json"), "w", encoding="utf-8") as f:
+        json.dump({l: i18n.pdf_labels(l) for l in order}, f, ensure_ascii=False, indent=1)
         f.write("\n")
     n = sum(len(i["articles"]) for i in issues)
     print(f"journal.json: {len(issues)} issues, {n} articles, {len(subs)} submissions; bodies.json: {len(bodies)}")

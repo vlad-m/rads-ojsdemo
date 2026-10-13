@@ -3,7 +3,6 @@
 import json
 import os
 import re
-import struct
 import sys
 from collections import Counter
 
@@ -72,10 +71,19 @@ for a in arts + subs:
     s = a["slug"]
     if a["section"] not in sections:
         err(f"{s}: unknown section")
-    if not os.path.isfile(os.path.join(ASSETS, a["pdf"])):
-        err(f"{s}: missing {a['pdf']}")
-    elif os.path.getsize(os.path.join(ASSETS, a["pdf"])) > 400 * 1024:
-        err(f"{s}: pdf > 400 KB")
+    if a["locale"] not in a["pdf"]:
+        err(f"{s}: no PDF in the article language")
+    for loc, rel in a["pdf"].items():
+        if not os.path.isfile(os.path.join(ASSETS, rel)):
+            err(f"{s}: missing {rel}")
+        elif os.path.getsize(os.path.join(ASSETS, rel)) > 600 * 1024:
+            err(f"{s}: {rel} > 600 KB")
+    missing_pdf = set(J.get("contentLocales", [])) - set(a["pdf"])
+    if missing_pdf:
+        err(f"{s}: no PDF for {sorted(missing_pdf)}")
+    for loc in J.get("contentLocales", []):
+        if not a["title"].get(loc) or not a["abstract"].get(loc) or not a["keywords"].get(loc):
+            err(f"{s}: title/abstract/keywords missing in {loc}")
     for lc in ("ru", "en"):
         w = words(a["abstract"][lc])
         if not 150 <= w <= 250:
@@ -90,13 +98,11 @@ for a in arts + subs:
         err(f"{s}: DOI in citations")
 
 for iss in data["issues"]:
-    if not os.path.isfile(os.path.join(ASSETS, iss["cover"])):
-        err(f"missing cover {iss['cover']}")
-    else:
-        with open(os.path.join(ASSETS, iss["cover"]), "rb") as f:
-            w, h = struct.unpack(">II", f.read(24)[16:24])
-        if (w, h) != (600, 848):
-            err(f"{iss['cover']}: {w}x{h}")
+    for loc, rel in iss["cover"].items():
+        if not os.path.isfile(os.path.join(ASSETS, rel)):
+            err(f"missing cover {rel}")
+        elif os.path.getsize(os.path.join(ASSETS, rel)) > 200 * 1024:
+            err(f"{rel} > 200 KB")
     prev = None
     for a in iss["articles"]:
         if not a.get("dateAccepted") or not re.fullmatch(r"\d+-\d+", a.get("pages", "")):

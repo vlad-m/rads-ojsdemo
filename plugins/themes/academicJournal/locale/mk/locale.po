@@ -134,3 +134,12 @@ msgstr "Истакнато копче во главната навигација
 
 msgid "plugins.themes.academicJournal.option.ctaUrl.label"
 msgstr "Копче за навигација: врска (https://…)"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Целосен текст според јазикот"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "Кога статијата има PDF-датотеки на повеќе јазици, читателот ја гледа само онаа на јазикот на интерфејсот (или на јазикот на статијата ако ја нема)."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Прикажувај го целосниот текст само на јазикот на читателот"

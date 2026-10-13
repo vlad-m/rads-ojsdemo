@@ -1,0 +1,572 @@
+{
+ "body.v2n1-01-transit-housing-prices.intro.0": {
+  "ru": "Связь между транспортной доступностью и стоимостью недвижимости — один из фундаментальных сюжетов городской экономики. Классическая модель моноцентрического города предсказывает, что снижение транспортных издержек повышает ценность удалённых от центра участков. Эмпирические исследования, проведённые в разных странах, в целом подтверждают это, но оценки эффекта существенно различаются."
+ },
+ "body.v2n1-01-transit-housing-prices.intro.1": {
+  "ru": "Открытие новой линии скоростного трамвая в исследуемой агломерации в 2022 г. создало естественный эксперимент. Цель работы — оценить вызванное им изменение цен на жильё, проследить его динамику во времени и пространстве и связать его с изменением доступности рабочих мест."
+ },
+ "body.v2n1-01-transit-housing-prices.methods.0": {
+  "ru": "Исходные данные включают 18 тыс. зарегистрированных сделок и 28 тыс. объявлений о продаже квартир за 2018–2024 гг. Для объявлений использовались последние цены перед снятием с публикации. Все объекты геокодированы и дополнены характеристиками: площадь, этаж, год постройки и материал дома, расстояние до центра, парков и школ."
+ },
+ "body.v2n1-01-transit-housing-prices.methods.1": {
+  "ru": "Доступность рабочих мест рассчитана по расписаниям общественного транспорта и данным о размещении занятости. Гедонистическая модель для логарифма цены квадратного метра включает характеристики объекта, фиксированные эффекты районов и кварталов-периодов, а также взаимодействие индикатора зоны влияния (до 800 м от станции) с периодами «объявление», «строительство» и «эксплуатация»."
+ },
+ "body.v2n1-01-transit-housing-prices.results.0": {
+  "ru": "Динамика разницы цен между зоной влияния и контрольной зоной показана на рис. 1. До объявления о строительстве различия статистически незначимы, что подтверждает допущение о параллельных трендах. После объявления в 2019 г. разница начинает расти и достигает 6,8 % в период эксплуатации."
+ },
+ "body.v2n1-01-transit-housing-prices.results.1": {
+  "ru": "Оценки основной модели и её модификаций приведены в табл. 1. Эффект для периферийных районов почти втрое больше, чем для срединной зоны, а в центре он статистически не отличается от нуля."
+ },
+ "body.v2n1-01-transit-housing-prices.figure.caption": {
+  "ru": "Рис. 1. Разница цен квадратного метра между зоной влияния и контрольной зоной по годам, %"
+ },
+ "body.v2n1-01-transit-housing-prices.figure.ylabel": {
+  "ru": "Разница, %"
+ },
+ "body.v2n1-01-transit-housing-prices.figure.series.0.name": {
+  "ru": "Зона влияния vs контроль"
+ },
+ "body.v2n1-01-transit-housing-prices.table.caption": {
+  "ru": "Таблица 1. Оценки гедонистической модели с разностью разностей (зависимая переменная — log цены м²)"
+ },
+ "body.v2n1-01-transit-housing-prices.table.head.0": {
+  "ru": "Спецификация"
+ },
+ "body.v2n1-01-transit-housing-prices.table.head.1": {
+  "ru": "Эффект, %"
+ },
+ "body.v2n1-01-transit-housing-prices.table.head.2": {
+  "ru": "Ст. ошибка"
+ },
+ "body.v2n1-01-transit-housing-prices.table.head.3": {
+  "ru": "N"
+ },
+ "body.v2n1-01-transit-housing-prices.table.rows.0.0": {
+  "ru": "Все районы"
+ },
+ "body.v2n1-01-transit-housing-prices.table.rows.1.0": {
+  "ru": "Периферия"
+ },
+ "body.v2n1-01-transit-housing-prices.table.rows.2.0": {
+  "ru": "Срединная зона"
+ },
+ "body.v2n1-01-transit-housing-prices.table.rows.3.0": {
+  "ru": "Центр"
+ },
+ "body.v2n1-01-transit-housing-prices.table.rows.4.0": {
+  "ru": "Только сделки"
+ },
+ "body.v2n1-01-transit-housing-prices.discussion.0": {
+  "ru": "Величина эффекта находится в середине диапазона, характерного для зарубежных исследований скоростного рельсового транспорта. Рост цен ещё до открытия линии свидетельствует о том, что рынок капитализирует ожидания, и это важно для выбора момента применения механизмов возврата стоимости земли."
+ },
+ "body.v2n1-01-transit-housing-prices.discussion.1": {
+  "ru": "Неоднородность эффекта по зонам согласуется с теорией: там, где доступность уже была высокой, новая линия мало что добавляет. Ограничением работы является использование цен объявлений для части выборки, однако оценка только по сделкам близка к основной."
+ },
+ "body.v2n1-01-transit-housing-prices.conclusion.0": {
+  "ru": "Открытие линии скоростного трамвая повысило цены жилья в зоне влияния на 6,8 %, причём наибольший эффект наблюдается на периферии. Это обосновывает применение инструментов возврата части прироста стоимости для финансирования транспортных проектов."
+ },
+ "body.v2n1-02-machine-generated-abstracts.intro.0": {
+  "en": "Since 2023, editors of scholarly journals have increasingly encountered manuscripts in which parts of the text appear to have been produced by large language models. While the use of such tools for language editing is often acceptable, undisclosed generation of substantive content raises concerns about research integrity. Many publishers have adopted policies requiring disclosure, and automated detectors are being marketed as a means of enforcement."
+ },
+ "body.v2n1-02-machine-generated-abstracts.intro.1": {
+  "en": "These detectors, however, have been developed and evaluated primarily on English text. Russian, with its rich morphology and distinctive academic register, presents a different challenge. The aims of this study are to build a realistic benchmark of Russian-language scientific abstracts and to evaluate how well current detection methods perform on it, with particular attention to generalisation and fairness."
+ },
+ "body.v2n1-02-machine-generated-abstracts.methods.0": {
+  "en": "Human-written abstracts (n = 6,000) were sampled from open-access Russian journals published before 2021, stratified across eight broad disciplines. For the generated half, three language models were prompted to write a full abstract from a title and keywords, to continue a human-written opening sentence, or to paraphrase a human-written abstract. Each generated text was checked by an annotator for fluency, and sentence-level labels were recorded for mixed texts."
+ },
+ "body.v2n1-02-machine-generated-abstracts.methods.1": {
+  "en": "We compared (i) a logistic regression on perplexity and burstiness features computed with an open Russian language model, (ii) a gradient-boosted classifier on 140 stylometric features, (iii) a multilingual transformer encoder fine-tuned on the training split and (iv) a commercial general-purpose detector. A leave-one-generator-out protocol was used to assess generalisation."
+ },
+ "body.v2n1-02-machine-generated-abstracts.results.0": {
+  "en": "Document-level results are summarised in Table 1. The fine-tuned classifier achieved the highest in-distribution F1 of 0.91, followed by the perplexity model (0.82). The commercial detector, not trained on Russian scientific text, reached 0.69. Paraphrased abstracts were the hardest category for all methods."
+ },
+ "body.v2n1-02-machine-generated-abstracts.results.1": {
+  "en": "Generalisation to an unseen generator reduced performance substantially (Fig. 1). On a separate set of 400 human-written abstracts by authors for whom Russian is a second language, the fine-tuned classifier flagged 11% as machine-generated, compared with 3% for native-speaker abstracts."
+ },
+ "body.v2n1-02-machine-generated-abstracts.figure.caption": {
+  "en": "Fig. 1. Document-level F1 in-distribution and on an unseen generator"
+ },
+ "body.v2n1-02-machine-generated-abstracts.figure.x.0": {
+  "en": "Perplexity"
+ },
+ "body.v2n1-02-machine-generated-abstracts.figure.x.1": {
+  "en": "Stylometry"
+ },
+ "body.v2n1-02-machine-generated-abstracts.figure.x.2": {
+  "en": "Fine-tuned"
+ },
+ "body.v2n1-02-machine-generated-abstracts.figure.x.3": {
+  "en": "Commercial"
+ },
+ "body.v2n1-02-machine-generated-abstracts.figure.ylabel": {
+  "en": "F1"
+ },
+ "body.v2n1-02-machine-generated-abstracts.figure.series.0.name": {
+  "en": "Seen generators"
+ },
+ "body.v2n1-02-machine-generated-abstracts.figure.series.1.name": {
+  "en": "Unseen generator"
+ },
+ "body.v2n1-02-machine-generated-abstracts.table.caption": {
+  "en": "Table 1. Detection performance at document and sentence level"
+ },
+ "body.v2n1-02-machine-generated-abstracts.table.head.0": {
+  "en": "Method"
+ },
+ "body.v2n1-02-machine-generated-abstracts.table.head.1": {
+  "en": "F1 (doc)"
+ },
+ "body.v2n1-02-machine-generated-abstracts.table.head.2": {
+  "en": "F1 (sentence)"
+ },
+ "body.v2n1-02-machine-generated-abstracts.table.head.3": {
+  "en": "FPR, L2 authors"
+ },
+ "body.v2n1-02-machine-generated-abstracts.table.rows.0.0": {
+  "en": "Perplexity features"
+ },
+ "body.v2n1-02-machine-generated-abstracts.table.rows.1.0": {
+  "en": "Stylometric features"
+ },
+ "body.v2n1-02-machine-generated-abstracts.table.rows.2.0": {
+  "en": "Fine-tuned transformer"
+ },
+ "body.v2n1-02-machine-generated-abstracts.table.rows.3.0": {
+  "en": "Commercial detector"
+ },
+ "body.v2n1-02-machine-generated-abstracts.discussion.0": {
+  "en": "Our findings echo concerns raised for English: detectors that perform well on familiar generators degrade on new ones, and they disproportionately flag texts by non-native writers, whose prose tends to be lexically less varied. Given the rapid release of new models, in-distribution accuracy is a poor guide to real-world reliability."
+ },
+ "body.v2n1-02-machine-generated-abstracts.discussion.1": {
+  "en": "For editorial practice, this implies that detector scores should at most prompt a conversation with authors, not trigger sanctions. Clear disclosure policies and attention to substantive scientific quality remain more robust safeguards."
+ },
+ "body.v2n1-02-machine-generated-abstracts.conclusion.0": {
+  "en": "We release a benchmark of 12,000 Russian scientific abstracts and show that current detectors, while useful, are neither robust to new generators nor fair to non-native authors. Automated detection should complement, not replace, editorial judgement."
+ },
+ "body.v2n1-03-circular-economy-sme.intro.0": {
+  "ru": "Концепция циркулярной экономики предполагает отказ от линейной модели «добыть — произвести — выбросить» в пользу замкнутых циклов, в которых продукты и материалы как можно дольше сохраняют свою ценность. Значительная часть исследований и политических программ ориентирована на крупные компании, обладающие ресурсами для перестройки производственных процессов."
+ },
+ "body.v2n1-03-circular-economy-sme.intro.1": {
+  "ru": "Малые и средние предприятия сталкиваются с иными ограничениями: у них меньше капитала, компетенций и переговорной силы в цепочках поставок. Одновременно они более гибки и ближе к местным сообществам. Цель обзора — систематизировать эмпирические данные о факторах, препятствующих и способствующих внедрению циркулярных практик в малом и среднем бизнесе."
+ },
+ "body.v2n1-03-circular-economy-sme.methods.0": {
+  "ru": "Обзор выполнен в соответствии с рекомендациями PRISMA 2020. Поиск проводился в библиографических базах данных по комбинациям терминов «циркулярная экономика», «малый и средний бизнес» и их англоязычных эквивалентов. Включались эмпирические исследования (опросы, кейс-стади, интервью, эконометрические работы), опубликованные в 2015–2025 гг. на английском или русском языке."
+ },
+ "body.v2n1-03-circular-economy-sme.methods.1": {
+  "ru": "Из 1 146 найденных записей после удаления дубликатов и скрининга аннотаций полнотекстовую оценку прошли 214 работ, критериям включения соответствовали 72. Барьеры и драйверы кодировались двумя исследователями независимо по заранее разработанной схеме; согласие кодировщиков составило κ = 0,79."
+ },
+ "body.v2n1-03-circular-economy-sme.results.0": {
+  "ru": "Включённые исследования охватывают 28 стран, однако 61 % из них выполнены на материале стран Западной Европы. Работ по странам Восточной Европы и Центральной Азии всего пять. Частота упоминания основных барьеров представлена на рис. 1."
+ },
+ "body.v2n1-03-circular-economy-sme.results.1": {
+  "ru": "Драйверы внедрения циркулярных практик сгруппированы в табл. 1. Экономические мотивы — снижение затрат на сырьё и утилизацию отходов — упоминаются чаще всего, однако в исследованиях семейных предприятий существенную роль играют ценности собственников."
+ },
+ "body.v2n1-03-circular-economy-sme.figure.caption": {
+  "ru": "Рис. 1. Частота упоминания барьеров во включённых исследованиях, % (n = 72)"
+ },
+ "body.v2n1-03-circular-economy-sme.figure.x.0": {
+  "ru": "Затраты и финансирование"
+ },
+ "body.v2n1-03-circular-economy-sme.figure.x.1": {
+  "ru": "Технические компетенции"
+ },
+ "body.v2n1-03-circular-economy-sme.figure.x.2": {
+  "ru": "Низкий спрос"
+ },
+ "body.v2n1-03-circular-economy-sme.figure.x.3": {
+  "ru": "Регулирование"
+ },
+ "body.v2n1-03-circular-economy-sme.figure.x.4": {
+  "ru": "Инфраструктура переработки"
+ },
+ "body.v2n1-03-circular-economy-sme.figure.x.5": {
+  "ru": "Организационная культура"
+ },
+ "body.v2n1-03-circular-economy-sme.figure.ylabel": {
+  "ru": "Доля исследований, %"
+ },
+ "body.v2n1-03-circular-economy-sme.figure.series.0.name": {
+  "ru": "Доля"
+ },
+ "body.v2n1-03-circular-economy-sme.table.caption": {
+  "ru": "Таблица 1. Основные драйверы внедрения циркулярных практик"
+ },
+ "body.v2n1-03-circular-economy-sme.table.head.0": {
+  "ru": "Группа драйверов"
+ },
+ "body.v2n1-03-circular-economy-sme.table.head.1": {
+  "ru": "Пример"
+ },
+ "body.v2n1-03-circular-economy-sme.table.head.2": {
+  "ru": "Число исследований"
+ },
+ "body.v2n1-03-circular-economy-sme.table.head.3": {
+  "ru": "Доля, %"
+ },
+ "body.v2n1-03-circular-economy-sme.table.rows.0.0": {
+  "ru": "Финансовые"
+ },
+ "body.v2n1-03-circular-economy-sme.table.rows.0.1": {
+  "ru": "Экономия на сырье и утилизации"
+ },
+ "body.v2n1-03-circular-economy-sme.table.rows.1.0": {
+  "ru": "Рыночные"
+ },
+ "body.v2n1-03-circular-economy-sme.table.rows.1.1": {
+  "ru": "Требования крупных заказчиков"
+ },
+ "body.v2n1-03-circular-economy-sme.table.rows.2.0": {
+  "ru": "Организационно-культурные"
+ },
+ "body.v2n1-03-circular-economy-sme.table.rows.2.1": {
+  "ru": "Ценности собственников"
+ },
+ "body.v2n1-03-circular-economy-sme.table.rows.3.0": {
+  "ru": "Институциональные"
+ },
+ "body.v2n1-03-circular-economy-sme.table.rows.3.1": {
+  "ru": "Субсидии и консультации"
+ },
+ "body.v2n1-03-circular-economy-sme.table.rows.4.0": {
+  "ru": "Технологические"
+ },
+ "body.v2n1-03-circular-economy-sme.table.rows.4.1": {
+  "ru": "Цифровые платформы обмена"
+ },
+ "body.v2n1-03-circular-economy-sme.discussion.0": {
+  "ru": "Доминирование финансовых барьеров и драйверов показывает, что для малого бизнеса циркулярность — прежде всего вопрос экономики, а не экологической повестки. Поэтому меры поддержки, снижающие первоначальные затраты и риски, наиболее востребованы. Вместе с тем субсидии без консультационной поддержки часто не приводят к устойчивым изменениям."
+ },
+ "body.v2n1-03-circular-economy-sme.discussion.1": {
+  "ru": "Географический перекос доказательной базы ограничивает переносимость выводов: институциональная среда, доступ к финансированию и инфраструктура переработки в разных странах существенно различаются. Восполнение этого пробела — важная задача для региональных исследований."
+ },
+ "body.v2n1-03-circular-economy-sme.conclusion.0": {
+  "ru": "Внедрение циркулярных практик в малом и среднем бизнесе определяется прежде всего экономическими стимулами и требованиями цепочек поставок. Эффективная политика должна сочетать финансовую поддержку с развитием компетенций и инфраструктуры."
+ },
+ "body.v2n1-04-urban-soil-microbiome.intro.0": {
+  "ru": "Почвенные микроорганизмы определяют круговорот углерода и азота, структуру почвы и здоровье растений. В городе почвы испытывают сильное антропогенное воздействие — уплотнение, загрязнение, привнесение насыпных грунтов, — однако парки, особенно старые, могут служить резерватами микробного разнообразия."
+ },
+ "body.v2n1-04-urban-soil-microbiome.intro.1": {
+  "ru": "Цель сообщения — представить первые данные о составе и разнообразии бактериальных сообществ почв городских парков и выявить основные факторы, определяющие их структуру."
+ },
+ "body.v2n1-04-urban-soil-microbiome.methods.0": {
+  "ru": "В шести парках (П1–П6) возрастом от 15 до 120 лет в каждом из трёх типов участков (газон, древесная растительность, обочина дорожки) отобрано по четыре смешанных образца из слоя 0–10 см. ДНК выделена коммерческим набором, участок V4 гена 16S рРНК амплифицирован и секвенирован. Последовательности обработаны с выделением вариантов ампликонов; разнообразие оценивалось индексом Шеннона, различия в структуре сообществ — методом PERMANOVA по матрице расстояний Брея — Кёртиса."
+ },
+ "body.v2n1-04-urban-soil-microbiome.results.0": {
+  "ru": "Индекс Шеннона различался между типами участков (рис. 1): наибольшие значения отмечены под древесной растительностью, наименьшие — вдоль дорожек, где плотность почвы достигала 1,55 г/см³. Результаты анализа PERMANOVA приведены в табл. 1."
+ },
+ "body.v2n1-04-urban-soil-microbiome.figure.caption": {
+  "ru": "Рис. 1. Индекс Шеннона бактериальных сообществ по типам участков в молодых и старых парках"
+ },
+ "body.v2n1-04-urban-soil-microbiome.figure.x.0": {
+  "ru": "Газон"
+ },
+ "body.v2n1-04-urban-soil-microbiome.figure.x.1": {
+  "ru": "Древесная растительность"
+ },
+ "body.v2n1-04-urban-soil-microbiome.figure.x.2": {
+  "ru": "Обочина дорожки"
+ },
+ "body.v2n1-04-urban-soil-microbiome.figure.ylabel": {
+  "ru": "Индекс Шеннона"
+ },
+ "body.v2n1-04-urban-soil-microbiome.figure.series.0.name": {
+  "ru": "Молодые парки (< 40 лет)"
+ },
+ "body.v2n1-04-urban-soil-microbiome.figure.series.1.name": {
+  "ru": "Старые парки (> 80 лет)"
+ },
+ "body.v2n1-04-urban-soil-microbiome.table.caption": {
+  "ru": "Таблица 1. Факторы структуры бактериальных сообществ (PERMANOVA, 999 перестановок)"
+ },
+ "body.v2n1-04-urban-soil-microbiome.table.head.0": {
+  "ru": "Фактор"
+ },
+ "body.v2n1-04-urban-soil-microbiome.table.head.1": {
+  "ru": "R²"
+ },
+ "body.v2n1-04-urban-soil-microbiome.table.head.2": {
+  "ru": "F"
+ },
+ "body.v2n1-04-urban-soil-microbiome.table.head.3": {
+  "ru": "p"
+ },
+ "body.v2n1-04-urban-soil-microbiome.table.rows.0.0": {
+  "ru": "Тип участка"
+ },
+ "body.v2n1-04-urban-soil-microbiome.table.rows.1.0": {
+  "ru": "Парк"
+ },
+ "body.v2n1-04-urban-soil-microbiome.table.rows.2.0": {
+  "ru": "pH"
+ },
+ "body.v2n1-04-urban-soil-microbiome.table.rows.3.0": {
+  "ru": "Плотность почвы"
+ },
+ "body.v2n1-04-urban-soil-microbiome.table.rows.4.0": {
+  "ru": "Сумма тяжёлых металлов"
+ },
+ "body.v2n1-04-urban-soil-microbiome.discussion.0": {
+  "ru": "Сильное влияние типа участка и плотности почвы указывает на рекреационное уплотнение как ведущий фактор обеднения микробных сообществ. Это согласуется с данными для природных рекреационных территорий. Слабое влияние тяжёлых металлов может объясняться их умеренными концентрациями в исследованных парках. Практический вывод — организация дорожно-тропиночной сети и защита корневых зон деревьев от вытаптывания способствуют сохранению почвенного биоразнообразия."
+ },
+ "body.v2n1-04-urban-soil-microbiome.conclusion.0": {
+  "ru": "Бактериальное разнообразие почв городских парков определяется прежде всего типом участка, pH и уплотнением почвы. Старые парки с сохранившимся древостоем являются важными резерватами почвенного микробного разнообразия."
+ },
+ "body.sub-wind-power-forecast.intro.0": {
+  "ru": "Выработка ветровых электростанций определяется скоростью ветра, которая изменяется быстро и плохо предсказуема. Ошибки прогноза приводят к необходимости резервирования мощностей и затратам на балансирование, поэтому повышение точности прогноза имеет прямой экономический эффект."
+ },
+ "body.sub-wind-power-forecast.intro.1": {
+  "ru": "Прогнозы численных моделей погоды являются основным источником информации о будущем ветре, однако их пространственное разрешение недостаточно для учёта локальных условий. Цель работы — разработать модель, извлекающую из прогнозов погоды дополнительную информацию с помощью инженерии признаков и градиентного бустинга."
+ },
+ "body.sub-wind-power-forecast.methods.0": {
+  "ru": "Использованы часовые данные о выработке 40 ветроустановок условной станции мощностью 120 МВт за январь 2021 — июнь 2025 г. и архив прогнозов численной модели погоды с заблаговременностью до 48 часов для девяти узлов сетки. Сформировано 86 признаков, включая скорость ветра на высотах 10, 100 и 150 м, сдвиг ветра, пространственный градиент скорости и индикатор устойчивости атмосферы."
+ },
+ "body.sub-wind-power-forecast.methods.1": {
+  "ru": "Модель градиентного бустинга обучалась отдельно для каждой группы горизонтов прогноза. Данные 2021–2023 гг. использованы для обучения, 2024 г. — для подбора гиперпараметров, 2025 г. — для итоговой оценки. Качество измерялось нормированной среднеквадратичной ошибкой (NRMSE) относительно установленной мощности."
+ },
+ "body.sub-wind-power-forecast.results.0": {
+  "ru": "Зависимость ошибки от горизонта прогноза для сравниваемых моделей показана на рис. 1. На горизонтах до трёх часов метод персистентности конкурентоспособен, однако уже с шести часов модели на основе прогнозов погоды существенно его превосходят."
+ },
+ "body.sub-wind-power-forecast.results.1": {
+  "ru": "Сводные результаты для горизонта 24 часа приведены в табл. 1. Предложенная модель превосходит все альтернативы, а в периоды прохождения атмосферных фронтов её преимущество над моделью кривой мощности достигает 4,5 процентного пункта."
+ },
+ "body.sub-wind-power-forecast.figure.caption": {
+  "ru": "Рис. 1. Нормированная среднеквадратичная ошибка прогноза в зависимости от горизонта, %"
+ },
+ "body.sub-wind-power-forecast.figure.x.0": {
+  "ru": "1 ч"
+ },
+ "body.sub-wind-power-forecast.figure.x.1": {
+  "ru": "3 ч"
+ },
+ "body.sub-wind-power-forecast.figure.x.2": {
+  "ru": "6 ч"
+ },
+ "body.sub-wind-power-forecast.figure.x.3": {
+  "ru": "12 ч"
+ },
+ "body.sub-wind-power-forecast.figure.x.4": {
+  "ru": "24 ч"
+ },
+ "body.sub-wind-power-forecast.figure.x.5": {
+  "ru": "48 ч"
+ },
+ "body.sub-wind-power-forecast.figure.ylabel": {
+  "ru": "NRMSE, %"
+ },
+ "body.sub-wind-power-forecast.figure.series.0.name": {
+  "ru": "Персистентность"
+ },
+ "body.sub-wind-power-forecast.figure.series.1.name": {
+  "ru": "Кривая мощности"
+ },
+ "body.sub-wind-power-forecast.figure.series.2.name": {
+  "ru": "Град. бустинг"
+ },
+ "body.sub-wind-power-forecast.table.caption": {
+  "ru": "Таблица 1. Качество прогноза на горизонте 24 часа (тестовый период 2025 г.)"
+ },
+ "body.sub-wind-power-forecast.table.head.0": {
+  "ru": "Модель"
+ },
+ "body.sub-wind-power-forecast.table.head.1": {
+  "ru": "NRMSE, %"
+ },
+ "body.sub-wind-power-forecast.table.head.2": {
+  "ru": "NMAE, %"
+ },
+ "body.sub-wind-power-forecast.table.head.3": {
+  "ru": "Время обучения"
+ },
+ "body.sub-wind-power-forecast.table.rows.0.0": {
+  "ru": "Персистентность"
+ },
+ "body.sub-wind-power-forecast.table.rows.1.0": {
+  "ru": "Кривая мощности"
+ },
+ "body.sub-wind-power-forecast.table.rows.2.0": {
+  "ru": "Рекуррентная сеть"
+ },
+ "body.sub-wind-power-forecast.table.rows.2.3": {
+  "ru": "3,5 ч"
+ },
+ "body.sub-wind-power-forecast.table.rows.3.0": {
+  "ru": "Градиентный бустинг"
+ },
+ "body.sub-wind-power-forecast.table.rows.3.3": {
+  "ru": "6 мин"
+ },
+ "body.sub-wind-power-forecast.discussion.0": {
+  "ru": "Преимущество предложенной модели объясняется прежде всего использованием пространственных признаков: градиент скорости ветра между узлами сетки позволяет раньше «увидеть» приближение фронта. Рекуррентная сеть достигает близкого качества, но требует на порядок больше вычислительных ресурсов и сложнее в интерпретации."
+ },
+ "body.sub-wind-power-forecast.discussion.1": {
+  "ru": "Ограничением работы является использование данных одной станции; переносимость признаков на станции в иных климатических условиях требует проверки."
+ },
+ "body.sub-wind-power-forecast.conclusion.0": {
+  "ru": "Градиентный бустинг с признаками, извлечёнными из прогнозов численных моделей погоды, обеспечивает точный и вычислительно эффективный краткосрочный прогноз ветровой генерации, пригодный для практического применения."
+ },
+ "body.sub-museum-digital-audiences.intro.0": {
+  "en": "In spring 2020, museum closures forced institutions to move much of their public activity online. Collections databases that had previously served mainly specialists were redesigned for broader audiences, and many museums reported record numbers of website visits. As museums reopened, attention returned to physical attendance, and the fate of the digital audience became uncertain."
+ },
+ "body.sub-museum-digital-audiences.intro.1": {
+  "en": "This study uses detailed web analytics data from five regional museums to examine how the size and composition of online collection audiences changed between 2019 and 2025, and how online behaviour relates to in-person visits."
+ },
+ "body.sub-museum-digital-audiences.methods.0": {
+  "en": "Anonymised session-level logs were obtained from five regional museums (coded M1–M5) for January 2019 to June 2025. Each session was described by the number of object pages viewed, total duration, referral source, device type and whether the visitor had returned within 90 days. Bot traffic was filtered using standard heuristics."
+ },
+ "body.sub-museum-digital-audiences.methods.1": {
+  "en": "Sessions were clustered using k-means on standardised features; the number of clusters was chosen using silhouette scores and interpretability. Monthly in-person attendance figures were used to assess the association between online segments and subsequent visits with lagged regression models."
+ },
+ "body.sub-museum-digital-audiences.results.0": {
+  "en": "Annual session counts rose sharply in 2020 and then declined, stabilising from 2023 onwards at about 1.8 times the 2019 level (Fig. 1). The composition of the audience shifted: the share of researchers and regular enthusiasts grew from 14% to 23% of sessions."
+ },
+ "body.sub-museum-digital-audiences.results.1": {
+  "en": "Table 1 characterises the five segments. Visit planners account for only 11% of sessions, but their monthly activity was the strongest predictor of attendance in the following month."
+ },
+ "body.sub-museum-digital-audiences.figure.caption": {
+  "en": "Fig. 1. Online collection sessions by year, index (2019 = 100)"
+ },
+ "body.sub-museum-digital-audiences.figure.ylabel": {
+  "en": "Index"
+ },
+ "body.sub-museum-digital-audiences.figure.series.0.name": {
+  "en": "Sessions"
+ },
+ "body.sub-museum-digital-audiences.table.caption": {
+  "en": "Table 1. Visitor segments of online collections (2023–2025)"
+ },
+ "body.sub-museum-digital-audiences.table.head.0": {
+  "en": "Segment"
+ },
+ "body.sub-museum-digital-audiences.table.head.1": {
+  "en": "Share, %"
+ },
+ "body.sub-museum-digital-audiences.table.head.2": {
+  "en": "Median pages"
+ },
+ "body.sub-museum-digital-audiences.table.head.3": {
+  "en": "Median duration"
+ },
+ "body.sub-museum-digital-audiences.table.rows.0.0": {
+  "en": "Casual (search)"
+ },
+ "body.sub-museum-digital-audiences.table.rows.0.3": {
+  "en": "1 min"
+ },
+ "body.sub-museum-digital-audiences.table.rows.1.0": {
+  "en": "Students and teachers"
+ },
+ "body.sub-museum-digital-audiences.table.rows.1.3": {
+  "en": "9 min"
+ },
+ "body.sub-museum-digital-audiences.table.rows.2.0": {
+  "en": "Researchers"
+ },
+ "body.sub-museum-digital-audiences.table.rows.2.3": {
+  "en": "31 min"
+ },
+ "body.sub-museum-digital-audiences.table.rows.3.0": {
+  "en": "Regular enthusiasts"
+ },
+ "body.sub-museum-digital-audiences.table.rows.3.3": {
+  "en": "14 min"
+ },
+ "body.sub-museum-digital-audiences.table.rows.4.0": {
+  "en": "Visit planners"
+ },
+ "body.sub-museum-digital-audiences.table.rows.4.3": {
+  "en": "3 min"
+ },
+ "body.sub-museum-digital-audiences.discussion.0": {
+  "en": "The persistence of an enlarged digital audience suggests that the pandemic accelerated a structural change rather than causing a temporary spike. The growth of the researcher and enthusiast segments indicates that online collections increasingly serve as a destination in their own right."
+ },
+ "body.sub-museum-digital-audiences.discussion.1": {
+  "en": "For museums, this implies the need for separate metrics of digital engagement, such as depth and return frequency, rather than relying on page views or on online activity as a mere precursor of physical visits."
+ },
+ "body.sub-museum-digital-audiences.conclusion.0": {
+  "en": "Online collections of regional museums have retained a substantially larger and more engaged audience than before the pandemic. They should be treated as an independent channel with its own goals and evaluation framework."
+ },
+ "body.sub-flax-biocomposites.intro.0": {
+  "ru": "Натуральные волокна — лён, конопля, джут — обладают низкой плотностью, достаточной удельной прочностью и возобновляемой сырьевой базой. В сочетании с биоразлагаемыми полимерами, такими как полимолочная кислота, они позволяют получать полностью биооснованные композиты."
+ },
+ "body.sub-flax-biocomposites.intro.1": {
+  "ru": "Главная проблема таких материалов — гидрофильность волокна, которая ухудшает адгезию к гидрофобной матрице и приводит к водопоглощению и деградации при эксплуатации. Цель работы — сравнить эффективность щелочной и силановой обработки волокна для повышения устойчивости композитов к климатическому старению."
+ },
+ "body.sub-flax-biocomposites.methods.0": {
+  "ru": "Использовалось короткое льняное волокно длиной 3–5 мм. Щелочная обработка проводилась 5 %-ным раствором гидроксида натрия в течение 1 ч; силановая — 2 %-ным раствором аминосилана в водно-спиртовой смеси. Композиты с массовой долей волокна 30 % получены горячим прессованием при 185 °C."
+ },
+ "body.sub-flax-biocomposites.methods.1": {
+  "ru": "Ускоренное старение проводилось в камере с циклами по 12 ч: 8 ч ультрафиолетового облучения при 60 °C и 4 ч конденсации влаги при 50 °C. Механические испытания на растяжение и изгиб выполнены после 0, 500 и 1000 ч; для каждого режима испытано не менее семи образцов."
+ },
+ "body.sub-flax-biocomposites.results.0": {
+  "ru": "Изменение прочности при растяжении в процессе старения показано на рис. 1. Исходно наибольшую прочность имели композиты с щелочной обработкой волокна, однако после 1000 ч их преимущество исчезло."
+ },
+ "body.sub-flax-biocomposites.results.1": {
+  "ru": "Сводные механические характеристики и водопоглощение приведены в табл. 1. Силановая обработка снизила водопоглощение почти вдвое и обеспечила наилучшее сохранение свойств."
+ },
+ "body.sub-flax-biocomposites.figure.caption": {
+  "ru": "Рис. 1. Прочность при растяжении композитов в зависимости от продолжительности старения, МПа"
+ },
+ "body.sub-flax-biocomposites.figure.x.0": {
+  "ru": "0 ч"
+ },
+ "body.sub-flax-biocomposites.figure.x.1": {
+  "ru": "250 ч"
+ },
+ "body.sub-flax-biocomposites.figure.x.2": {
+  "ru": "500 ч"
+ },
+ "body.sub-flax-biocomposites.figure.x.3": {
+  "ru": "750 ч"
+ },
+ "body.sub-flax-biocomposites.figure.x.4": {
+  "ru": "1000 ч"
+ },
+ "body.sub-flax-biocomposites.figure.ylabel": {
+  "ru": "Прочность, МПа"
+ },
+ "body.sub-flax-biocomposites.figure.series.0.name": {
+  "ru": "Без обработки"
+ },
+ "body.sub-flax-biocomposites.figure.series.1.name": {
+  "ru": "Щелочная"
+ },
+ "body.sub-flax-biocomposites.figure.series.2.name": {
+  "ru": "Силановая"
+ },
+ "body.sub-flax-biocomposites.table.caption": {
+  "ru": "Таблица 1. Свойства композитов до и после 1000 ч старения"
+ },
+ "body.sub-flax-biocomposites.table.head.0": {
+  "ru": "Обработка"
+ },
+ "body.sub-flax-biocomposites.table.head.1": {
+  "ru": "Прочность, МПа (0 ч)"
+ },
+ "body.sub-flax-biocomposites.table.head.2": {
+  "ru": "Прочность, МПа (1000 ч)"
+ },
+ "body.sub-flax-biocomposites.table.head.3": {
+  "ru": "Снижение, %"
+ },
+ "body.sub-flax-biocomposites.table.head.4": {
+  "ru": "Водопоглощение, %"
+ },
+ "body.sub-flax-biocomposites.table.rows.0.0": {
+  "ru": "Без обработки"
+ },
+ "body.sub-flax-biocomposites.table.rows.1.0": {
+  "ru": "Щелочная"
+ },
+ "body.sub-flax-biocomposites.table.rows.2.0": {
+  "ru": "Силановая"
+ },
+ "body.sub-flax-biocomposites.discussion.0": {
+  "ru": "Повышение исходной прочности после щелочной обработки связано с удалением гемицеллюлоз и увеличением шероховатости волокна, однако гидрофильность волокна при этом сохраняется. Силановая обработка формирует на поверхности волокна гидрофобный слой, химически связанный с матрицей, что объясняет лучшее сохранение свойств при старении."
+ },
+ "body.sub-flax-biocomposites.discussion.1": {
+  "ru": "Электронная микроскопия поверхностей разрушения подтверждает это: в композитах без обработки после старения наблюдается вытягивание волокон из матрицы, тогда как в силанизированных образцах разрушение происходит преимущественно по волокну."
+ },
+ "body.sub-flax-biocomposites.conclusion.0": {
+  "ru": "Силановая обработка льняного волокна существенно повышает устойчивость биокомпозитов на основе полимолочной кислоты к климатическому старению и может быть рекомендована для изделий наружного применения."
+ }
+}

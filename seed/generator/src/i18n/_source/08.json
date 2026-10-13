@@ -1,0 +1,106 @@
+{
+ "pdf.vol": {
+  "en": "Vol. {volume}, No. {number} ({year})",
+  "ru": "Т. {volume}, № {number} ({year})"
+ },
+ "pdf.pp": {
+  "en": "pp.",
+  "ru": "С."
+ },
+ "pdf.received": {
+  "en": "Received",
+  "ru": "Поступила"
+ },
+ "pdf.accepted": {
+  "en": "Accepted",
+  "ru": "Принята"
+ },
+ "pdf.published": {
+  "en": "Published",
+  "ru": "Опубликована"
+ },
+ "pdf.submitted": {
+  "en": "Submitted",
+  "ru": "Подана"
+ },
+ "pdf.abstract": {
+  "en": "Abstract",
+  "ru": "Аннотация"
+ },
+ "pdf.keywords": {
+  "en": "Keywords",
+  "ru": "Ключевые слова"
+ },
+ "pdf.corr": {
+  "en": "Corresponding author",
+  "ru": "Автор для переписки"
+ },
+ "pdf.funding": {
+  "en": "Funding",
+  "ru": "Финансирование"
+ },
+ "pdf.intro": {
+  "en": "Introduction",
+  "ru": "Введение"
+ },
+ "pdf.methods": {
+  "en": "Materials and Methods",
+  "ru": "Материалы и методы"
+ },
+ "pdf.results": {
+  "en": "Results",
+  "ru": "Результаты"
+ },
+ "pdf.discussion": {
+  "en": "Discussion",
+  "ru": "Обсуждение"
+ },
+ "pdf.conclusion": {
+  "en": "Conclusion",
+  "ru": "Заключение"
+ },
+ "pdf.refs": {
+  "en": "References",
+  "ru": "Список литературы"
+ },
+ "pdf.cite": {
+  "en": "For citation",
+  "ru": "Для цитирования"
+ },
+ "pdf.manuscript": {
+  "en": "Manuscript under review",
+  "ru": "Рукопись на рассмотрении"
+ },
+ "pdf.manuscriptNote": {
+  "en": "This manuscript has been submitted to the journal and is undergoing editorial processing. Not for citation.",
+  "ru": "Рукопись представлена в редакцию и находится в процессе редакционной обработки. Не для цитирования."
+ },
+ "pdf.ART": {
+  "en": "Research Article",
+  "ru": "Научная статья"
+ },
+ "pdf.REV": {
+  "en": "Review",
+  "ru": "Обзор"
+ },
+ "pdf.SHC": {
+  "en": "Short Communication",
+  "ru": "Краткое сообщение"
+ },
+ "pdf.licence": {
+  "en": "Licensed under CC BY 4.0",
+  "ru": "Распространяется по лицензии CC BY 4.0"
+ },
+ "pdf.online": {
+  "en": "online",
+  "ru": "онлайн"
+ },
+ "pdf.openAccess": {
+  "en": "Open access",
+  "ru": "Открытый доступ"
+ },
+ "pdf.publisher": {
+  "en": "Tsifra LLC",
+  "ru": "ООО «Цифра»"
+ }
+}

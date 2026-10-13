@@ -141,3 +141,12 @@ msgstr "Slajdi tjetër"
 
 msgid "plugins.themes.default.prevSlide"
 msgstr "Slajdi i mëparshëm"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Teksti i plotë sipas gjuhës"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "Kur një artikull ka skedarë PDF në disa gjuhë, lexuesi sheh vetëm atë në gjuhën e ndërfaqes (ose në gjuhën e artikullit, nëse mungon)."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Shfaq tekstin e plotë vetëm në gjuhën e lexuesit"

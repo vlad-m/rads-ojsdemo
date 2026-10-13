@@ -134,3 +134,12 @@ msgstr "主导航中突出显示的按钮（例如指向您服务页面的链接
 
 msgid "plugins.themes.academicJournal.option.ctaUrl.label"
 msgstr "导航按钮：链接（https://…）"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "按语言显示全文"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "当文章有多种语言的 PDF 文件时，读者只能看到界面语言的版本（若无，则显示文章原语言的版本）。"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "仅以读者的语言显示全文"

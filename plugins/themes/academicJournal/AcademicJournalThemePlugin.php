@@ -143,6 +143,18 @@ class AcademicJournalThemePlugin extends ThemePlugin
             'default' => true,
         ]);
 
+        $this->addOption('galleysByLocale', 'FieldOptions', [
+            'label' => __('plugins.themes.academicJournal.option.galleysByLocale.label'),
+            'description' => __('plugins.themes.academicJournal.option.galleysByLocale.description'),
+            'options' => [
+                [
+                    'value' => true,
+                    'label' => __('plugins.themes.academicJournal.option.galleysByLocale.option'),
+                ],
+            ],
+            'default' => true,
+        ]);
+
         $primary = $this->sanitizeColour($this->getOption('primaryColour'), self::DEFAULT_PRIMARY);
         $accent = $this->sanitizeColour($this->getOption('accentColour'), self::DEFAULT_ACCENT);
         $highlight = $this->sanitizeColour($this->getOption('highlightColour'), self::DEFAULT_HIGHLIGHT);
@@ -219,11 +231,63 @@ class AcademicJournalThemePlugin extends ThemePlugin
             $templateMgr->assign('academicLocaleNames', $this->nativeLocaleNames($context));
         }
 
+        if ($this->getOption('galleysByLocale')) {
+            $this->filterGalleysByLocale($templateMgr);
+        }
+
         if ($context && $template === 'frontend/pages/indexJournal.tpl' && $this->getOption('showJournalStats')) {
             $templateMgr->assign('academicStats', $this->getJournalStats($context->getId()));
         }
 
         return Hook::CONTINUE;
+    }
+
+    /**
+     * Show each article's full text only in the reader's language: of the
+     * galleys that have a language, keep those in the interface language,
+     * else those in the article's own language. Galleys without a language
+     * are always kept. Applies to issue tables of contents, the homepage and
+     * the article page; the galley URLs themselves stay reachable.
+     */
+    protected function filterGalleysByLocale($templateMgr): void
+    {
+        $locale = \PKP\facades\Locale::getLocale();
+        $pick = function (iterable $galleys, ?string $articleLocale) use ($locale): array {
+            $all = $withLocale = [];
+            foreach ($galleys as $galley) {
+                $all[] = $galley;
+                if ($galley->getData('locale')) {
+                    $withLocale[$galley->getData('locale')][] = $galley;
+                }
+            }
+            if (count($withLocale) < 2) {
+                return $all;
+            }
+            $keep = $withLocale[$locale] ?? $withLocale[$articleLocale] ?? $withLocale['en'] ?? reset($withLocale);
+            return array_values(array_filter($all, fn ($g) => !$g->getData('locale') || in_array($g, $keep, true)));
+        };
+        $filterPublication = function ($publication) use ($pick): void {
+            if ($publication && !$publication->getData('academicGalleysFiltered')) {
+                $publication->setData('galleys', collect($pick($publication->getData('galleys') ?? [], $publication->getData('locale'))));
+                $publication->setData('academicGalleysFiltered', true);
+            }
+        };
+
+        // issue table of contents (issue page, homepage)
+        foreach ((array) $templateMgr->getTemplateVars('publishedSubmissions') as $section) {
+            foreach ((array) ($section['articles'] ?? []) as $article) {
+                if ($article instanceof Submission) {
+                    $filterPublication($article->getCurrentPublication());
+                }
+            }
+        }
+
+        // article page
+        $publication = $templateMgr->getTemplateVars('publication');
+        if (is_object($publication) && is_array($primary = $templateMgr->getTemplateVars('primaryGalleys'))) {
+            $templateMgr->assign('primaryGalleys', $pick($primary, $publication->getData('locale')));
+            $filterPublication($publication);
+        }
     }
 
     /**

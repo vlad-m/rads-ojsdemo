@@ -134,3 +134,12 @@ msgstr "Botón destacado en la navegación principal (p. ej., un enlace a sus se
 
 msgid "plugins.themes.academicJournal.option.ctaUrl.label"
 msgstr "Botón de navegación: enlace (https://…)"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Texto completo por idioma"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "Si un artículo tiene archivos PDF en varios idiomas, el lector solo ve el del idioma de la interfaz (o el del idioma del artículo si no existe)."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Mostrar el texto completo solo en el idioma del lector"

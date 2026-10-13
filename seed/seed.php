@@ -210,9 +210,10 @@ class DemoSeedTool extends CommandLineTool
             'country' => 'RU',
             'primaryLocale' => 'ru',
             'supportedLocales' => $this->uiLocales(),
-            'supportedFormLocales' => self::LOCALES,
+            // every interface language has its own texts; manuscripts are in Russian or English
+            'supportedFormLocales' => $this->uiLocales(),
             'supportedSubmissionLocales' => self::LOCALES,
-            'supportedSubmissionMetadataLocales' => self::LOCALES,
+            'supportedSubmissionMetadataLocales' => $this->uiLocales(),
             'supportedDefaultSubmissionLocale' => 'ru',
             'enabled' => true,
             'enableAnnouncements' => true,
@@ -231,7 +232,7 @@ class DemoSeedTool extends CommandLineTool
             'themePluginPath' => 'academicJournal',
         ];
 
-        // Other interface languages show the English texts of the journal
+        // Languages without a translation show the English texts
         foreach ($props as $key => $value) {
             if (is_array($value) && isset($value['en']) && !array_is_list($value)) {
                 $props[$key] = $this->withFallbackLocales($value);
@@ -453,9 +454,15 @@ class DemoSeedTool extends CommandLineTool
     {
         foreach ($this->content['issues'] as $issueData) {
             if ($existingIssue = $this->findIssue($issueData)) {
-                $this->refreshIssueAssets($existingIssue, $issueData);
-                $this->line('  Vol. ' . $issueData['volume'] . ' No. ' . $issueData['number'] . ' already exists: cover and PDFs refreshed');
-                continue;
+                if (!$this->issueIsOutdated($existingIssue, $issueData)) {
+                    $this->refreshIssueAssets($existingIssue, $issueData);
+                    $this->line('  Vol. ' . $issueData['volume'] . ' No. ' . $issueData['number'] . ' already exists: covers and PDFs refreshed');
+                    continue;
+                }
+                // imported by an earlier version of the demo (fewer languages
+                // or PDFs): replace it with a fresh import
+                $this->deleteIssue($existingIssue);
+                $this->line('  Vol. ' . $issueData['volume'] . ' No. ' . $issueData['number'] . ': outdated demo content removed');
             }
             $xml = $this->buildIssuesXml([$issueData]);
             $file = $this->workDir . '/issue-v' . $issueData['volume'] . 'n' . $issueData['number'] . '.xml';
@@ -492,53 +499,127 @@ class DemoSeedTool extends CommandLineTool
 
     /**
      * Re-running the seed after the assets were rebuilt (new design, publisher
-     * name…) replaces the cover image and the article PDFs of issues that
+     * name…) replaces the cover images and the article PDFs of issues that
      * already exist, without touching their metadata.
      */
     protected function refreshIssueAssets(\APP\issue\Issue $issue, array $issueData): void
     {
         $publicFileManager = new \APP\file\PublicFileManager();
         $publicDir = Core::getBaseDir() . '/' . $publicFileManager->getContextFilesPath($this->journal->getId());
-        $coverSrc = $this->assetsDir . '/' . ($issueData['cover'] ?? '');
-        if (!empty($issueData['cover']) && is_file($coverSrc)) {
-            foreach ((array) $issue->getData('coverImage') as $name) {
-                if (is_string($name) && $name !== '' && basename($name) === $name && is_file($publicDir . '/' . $name)) {
-                    copy($coverSrc, $publicDir . '/' . $name);
-                }
+        $covers = $this->coverFiles($issueData);
+        foreach ((array) $issue->getData('coverImage') as $locale => $name) {
+            $src = $covers[$locale] ?? null;
+            if ($src && is_string($name) && $name !== '' && basename($name) === $name && is_file($publicDir . '/' . $name)) {
+                copy($src, $publicDir . '/' . $name);
             }
         }
         foreach ($issueData['articles'] as $articleData) {
-            $this->refreshSubmissionPdf($articleData);
+            if ($submission = $this->findSubmission($articleData)) {
+                $this->refreshSubmissionPdfs($submission, $articleData);
+            }
         }
     }
 
-    /** Replace the stored PDF(s) of an existing demo article with the current asset. */
-    protected function refreshSubmissionPdf(array $data): void
+    /** Replace the stored PDFs of an existing demo article with the current assets (matched by galley language). */
+    protected function refreshSubmissionPdfs(Submission $submission, array $data): void
     {
-        $src = $this->assetsDir . '/' . ($data['pdf'] ?? '');
-        if (empty($data['pdf']) || !is_file($src)) {
-            return;
-        }
-        $submissionIds = DB::table('publication_settings as ps')
-            ->join('publications as p', 'p.publication_id', '=', 'ps.publication_id')
-            ->join('submissions as s', 's.submission_id', '=', 'p.submission_id')
-            ->where('s.context_id', $this->journal->getId())
-            ->where('ps.setting_name', 'title')
-            ->whereIn('ps.setting_value', array_values($data['title']))
-            ->distinct()
-            ->pluck('s.submission_id');
-        if ($submissionIds->isEmpty()) {
-            return;
-        }
+        $pdfs = $this->pdfFiles($data);
         $fileService = app()->get('file');
-        $contents = file_get_contents($src);
-        $files = Repo::submissionFile()->getCollector()->filterBySubmissionIds($submissionIds->all())->getMany();
+        $files = Repo::submissionFile()->getCollector()->filterBySubmissionIds([$submission->getId()])->getMany();
         foreach ($files as $submissionFile) {
+            $locale = $submissionFile->getData('locale') ?: ($data['locale'] ?? 'ru');
+            $src = $pdfs[$locale] ?? null;
             $file = $fileService->get((int) $submissionFile->getData('fileId'));
-            if ($file && str_ends_with(strtolower($file->path), '.pdf') && $fileService->fs->fileExists($file->path)) {
-                $fileService->fs->write($file->path, $contents);
+            if ($src && $file && str_ends_with(strtolower($file->path), '.pdf') && $fileService->fs->fileExists($file->path)) {
+                $fileService->fs->write($file->path, file_get_contents($src));
             }
         }
+    }
+
+    /**
+     * True when an existing demo item lacks languages or PDFs that the
+     * current content has (it was imported by an earlier version of the demo).
+     */
+    protected function submissionIsOutdated(Submission $submission, array $data): bool
+    {
+        $publication = $submission->getCurrentPublication();
+        if (!$publication) {
+            return true;
+        }
+        $titles = array_filter((array) $publication->getData('title'));
+        foreach ($this->contentLocales() as $locale) {
+            if (!empty($data['title'][$locale]) && empty($titles[$locale])) {
+                return true;
+            }
+        }
+        if ($submission->getData('status') == Submission::STATUS_PUBLISHED) {
+            $galleyLocales = [];
+            foreach ($publication->getData('galleys') ?? [] as $galley) {
+                $galleyLocales[] = $galley->getData('locale');
+            }
+            if (array_diff(array_keys($this->pdfFiles($data)), $galleyLocales)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    protected function issueIsOutdated(\APP\issue\Issue $issue, array $issueData): bool
+    {
+        $titles = array_filter((array) $issue->getData('title'));
+        foreach ($this->contentLocales() as $locale) {
+            if (!empty($issueData['title'][$locale]) && empty($titles[$locale])) {
+                return true;
+            }
+        }
+        foreach ($issueData['articles'] as $articleData) {
+            $submission = $this->findSubmission($articleData);
+            if (!$submission || $this->submissionIsOutdated($submission, $articleData)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /** Delete an issue together with its articles. */
+    protected function deleteIssue(\APP\issue\Issue $issue): void
+    {
+        $submissions = Repo::submission()->getCollector()
+            ->filterByContextIds([$this->journal->getId()])
+            ->filterByIssueIds([$issue->getId()])
+            ->getMany();
+        foreach ($submissions as $submission) {
+            Repo::submission()->delete($submission);
+        }
+        Repo::issue()->delete($issue);
+    }
+
+    /** {locale: absolute path} of the article PDFs that exist ("pdf" may be a plain path). */
+    protected function pdfFiles(array $data): array
+    {
+        $pdf = $data['pdf'] ?? [];
+        $pdf = is_string($pdf) ? [($data['locale'] ?? 'ru') => $pdf] : $pdf;
+        $out = [];
+        foreach ($pdf as $locale => $rel) {
+            if (in_array($locale, $this->uiLocales()) && is_file($this->assetsDir . '/' . $rel)) {
+                $out[$locale] = $this->assetsDir . '/' . $rel;
+            }
+        }
+        return $out;
+    }
+
+    /** {locale: absolute path} of the issue cover images that exist. */
+    protected function coverFiles(array $issueData): array
+    {
+        $cover = $issueData['cover'] ?? [];
+        $cover = is_string($cover) ? array_fill_keys(self::LOCALES, $cover) : $cover;
+        $out = [];
+        foreach ($cover as $locale => $rel) {
+            if (in_array($locale, $this->uiLocales()) && is_file($this->assetsDir . '/' . $rel)) {
+                $out[$locale] = $this->assetsDir . '/' . $rel;
+            }
+        }
+        return $out;
     }
 
     protected function findIssue(array $issueData): ?\APP\issue\Issue
@@ -552,25 +633,31 @@ class DemoSeedTool extends CommandLineTool
             ->first();
     }
 
-    protected function submissionExists(array $data): bool
+    /** An existing demo article, matched by its Russian or English title. */
+    protected function findSubmission(array $data): ?Submission
     {
-        return DB::table('publication_settings as ps')
+        $id = DB::table('publication_settings as ps')
             ->join('publications as p', 'p.publication_id', '=', 'ps.publication_id')
             ->join('submissions as s', 's.submission_id', '=', 'p.submission_id')
             ->where('s.context_id', $this->journal->getId())
             ->where('ps.setting_name', 'title')
-            ->whereIn('ps.setting_value', array_values($data['title']))
-            ->exists();
+            ->whereIn('ps.setting_value', array_values(array_intersect_key($data['title'], array_flip(self::LOCALES))))
+            ->value('s.submission_id');
+        return $id ? Repo::submission()->get((int) $id) : null;
     }
 
     protected function importSubmissions(): void
     {
         $editorId = $this->userIds['demo-editor'] ?? null;
         foreach ($this->content['submissions'] as $data) {
-            if ($this->submissionExists($data)) {
-                $this->refreshSubmissionPdf($data);
-                $this->line('  "' . $data['slug'] . '" already exists: PDF refreshed');
-                continue;
+            if ($existing = $this->findSubmission($data)) {
+                if (!$this->submissionIsOutdated($existing, $data)) {
+                    $this->refreshSubmissionPdfs($existing, $data);
+                    $this->line('  "' . $data['slug'] . '" already exists: PDF refreshed');
+                    continue;
+                }
+                Repo::submission()->delete($existing);
+                $this->line('  "' . $data['slug'] . '": outdated demo content removed');
             }
             $xml = $this->buildSubmissionXml($data);
             $file = $this->workDir . '/submission-' . $data['slug'] . '.xml';
@@ -610,22 +697,26 @@ class DemoSeedTool extends CommandLineTool
     protected function createAnnouncements(): void
     {
         foreach ($this->content['announcements'] as $data) {
-            $exists = DB::table('announcement_settings as s')
+            $texts = [
+                'title' => $this->onlyContentLocales($data['title']),
+                'descriptionShort' => $this->onlyContentLocales($data['descriptionShort']),
+                'description' => $this->onlyContentLocales($data['description']),
+            ];
+            $existingId = DB::table('announcement_settings as s')
                 ->join('announcements as a', 'a.announcement_id', '=', 's.announcement_id')
                 ->where('a.assoc_id', $this->journal->getId())
                 ->where('s.setting_name', 'title')
-                ->whereIn('s.setting_value', array_values($data['title']))
-                ->exists();
-            if ($exists) {
+                ->whereIn('s.setting_value', array_values(array_intersect_key($data['title'], array_flip(self::LOCALES))))
+                ->value('a.announcement_id');
+            if ($existingId) {
+                // add the texts of new languages
+                Announcement::find($existingId)?->update($texts);
                 continue;
             }
             $announcement = Announcement::create([
                 'assocType' => Application::ASSOC_TYPE_JOURNAL,
                 'assocId' => $this->journal->getId(),
-                'title' => $data['title'],
-                'descriptionShort' => $data['descriptionShort'],
-                'description' => $data['description'],
-            ]);
+            ] + $texts);
             DB::table('announcements')->where('announcement_id', $announcement->id)
                 ->update(['date_posted' => $data['datePosted'] . ' 09:00:00']);
         }
@@ -737,6 +828,13 @@ class DemoSeedTool extends CommandLineTool
     {
         if ($existing = Repo::user()->getByUsername($data['username'], true)) {
             $userId = $existing->getId();
+            // texts in languages added since the last run
+            Repo::user()->edit($existing, array_filter([
+                'givenName' => $data['givenName'],
+                'familyName' => $data['familyName'],
+                'affiliation' => $data['affiliation'] ?? null,
+                'biography' => $data['biography'] ?? null,
+            ]));
         } else {
             $user = Repo::user()->newDataObject();
             $user->setUsername($data['username']);
@@ -930,7 +1028,7 @@ class DemoSeedTool extends CommandLineTool
     /** Append one element per locale for a {"ru": ..., "en": ...} value. */
     protected function localized(DOMDocument $doc, DOMElement $parent, string $name, ?array $values): void
     {
-        foreach (self::LOCALES as $locale) {
+        foreach ($this->contentLocales() as $locale) {
             if (isset($values[$locale]) && $values[$locale] !== '') {
                 $this->el($doc, $parent, $name, $values[$locale], ['locale' => $locale]);
             }
@@ -968,13 +1066,13 @@ class DemoSeedTool extends CommandLineTool
                 $this->localized($doc, $section, 'title', $sectionData['title']);
             }
 
-            if (!empty($issueData['cover']) && is_file($this->assetsDir . '/' . $issueData['cover'])) {
+            if ($coverFiles = $this->coverFiles($issueData)) {
                 $covers = $this->el($doc, $issue, 'covers');
-                foreach (self::LOCALES as $locale) {
+                foreach ($coverFiles as $locale => $src) {
                     $cover = $this->el($doc, $covers, 'cover', null, ['locale' => $locale]);
-                    $this->el($doc, $cover, 'cover_image', basename($issueData['cover']));
-                    $this->el($doc, $cover, 'cover_image_alt_text', $issueData['title'][$locale] ?? '');
-                    $this->el($doc, $cover, 'embed', base64_encode(file_get_contents($this->assetsDir . '/' . $issueData['cover'])), ['encoding' => 'base64']);
+                    $this->el($doc, $cover, 'cover_image', basename($src));
+                    $this->el($doc, $cover, 'cover_image_alt_text', $issueData['title'][$locale] ?? $issueData['title']['en'] ?? '');
+                    $this->el($doc, $cover, 'embed', base64_encode(file_get_contents($src)), ['encoding' => 'base64']);
                 }
             }
 
@@ -1010,11 +1108,15 @@ class DemoSeedTool extends CommandLineTool
         ]);
         $this->el($doc, $article, 'id', '1', ['type' => 'internal', 'advice' => 'ignore']);
 
-        // Manuscript / galley file
-        $pdfPath = $this->assetsDir . '/' . $data['pdf'];
-        $hasPdf = !empty($data['pdf']) && is_file($pdfPath);
-        $thisFileId = ++$fileId;
-        if ($hasPdf) {
+        // Galley files: one PDF per language for published articles; the
+        // manuscript in its own language for submissions in the workflow
+        $pdfs = $this->pdfFiles($data);
+        if (!$published) {
+            $pdfs = array_intersect_key($pdfs, [$locale => true]);
+        }
+        $fileIds = [];
+        foreach ($pdfs as $fileLocale => $pdfPath) {
+            $thisFileId = $fileIds[$fileLocale] = ++$fileId;
             $pdf = file_get_contents($pdfPath);
             $submissionFile = $this->el($doc, $article, 'submission_file', null, [
                 'id' => $thisFileId,
@@ -1026,7 +1128,7 @@ class DemoSeedTool extends CommandLineTool
                 'created_at' => $data['dateSubmitted'],
                 'updated_at' => $data['dateSubmitted'],
             ]);
-            $this->el($doc, $submissionFile, 'name', $data['slug'] . '.pdf', ['locale' => $locale]);
+            $this->el($doc, $submissionFile, 'name', basename($pdfPath), ['locale' => $fileLocale]);
             $file = $this->el($doc, $submissionFile, 'file', null, ['id' => $thisFileId, 'filesize' => strlen($pdf), 'extension' => 'pdf']);
             $this->el($doc, $file, 'embed', base64_encode($pdf), ['encoding' => 'base64', 'mime_type' => 'application/pdf']);
         }
@@ -1057,14 +1159,14 @@ class DemoSeedTool extends CommandLineTool
         $this->localized($doc, $publication, 'abstract', $data['abstract']);
         $this->el($doc, $publication, 'licenseUrl', 'https://creativecommons.org/licenses/by/4.0/');
         $holder = [];
-        foreach (self::LOCALES as $l) {
+        foreach ($this->contentLocales() as $l) {
             $names = array_map(fn ($a) => trim(($a['givenName'][$l] ?? '') . ' ' . ($a['familyName'][$l] ?? '')), $data['authors']);
             $holder[$l] = join(', ', $names);
         }
         $this->localized($doc, $publication, 'copyrightHolder', $holder);
         $this->el($doc, $publication, 'copyrightYear', (string) ($issueData['year'] ?? date('Y')));
 
-        foreach (self::LOCALES as $l) {
+        foreach ($this->contentLocales() as $l) {
             if (!empty($data['keywords'][$l])) {
                 $keywords = $this->el($doc, $publication, 'keywords', null, ['locale' => $l]);
                 foreach ($data['keywords'][$l] as $keyword) {
@@ -1072,7 +1174,7 @@ class DemoSeedTool extends CommandLineTool
                 }
             }
         }
-        foreach (self::LOCALES as $l) {
+        foreach ($this->contentLocales() as $l) {
             if (!empty($data['fundingAgency'][$l])) {
                 $agencies = $this->el($doc, $publication, 'agencies', null, ['locale' => $l]);
                 $this->vocabEntry($doc, $agencies, 'agency', $data['fundingAgency'][$l]);
@@ -1098,12 +1200,15 @@ class DemoSeedTool extends CommandLineTool
             $this->el($doc, $author, 'email', $authorData['email']);
         }
 
-        if ($published && $hasPdf) {
-            $galley = $this->el($doc, $publication, 'article_galley', null, ['locale' => $locale, 'approved' => 'true']);
-            $this->el($doc, $galley, 'id', (string) $thisFileId, ['type' => 'internal', 'advice' => 'ignore']);
-            $this->el($doc, $galley, 'name', 'PDF', ['locale' => $locale]);
-            $this->el($doc, $galley, 'seq', '0');
-            $this->el($doc, $galley, 'submission_file_ref', null, ['id' => $thisFileId]);
+        if ($published) {
+            $galleySeq = 0;
+            foreach ($fileIds as $fileLocale => $thisFileId) {
+                $galley = $this->el($doc, $publication, 'article_galley', null, ['locale' => $fileLocale, 'approved' => 'true']);
+                $this->el($doc, $galley, 'id', (string) $thisFileId, ['type' => 'internal', 'advice' => 'ignore']);
+                $this->el($doc, $galley, 'name', 'PDF', ['locale' => $fileLocale]);
+                $this->el($doc, $galley, 'seq', (string) $galleySeq++);
+                $this->el($doc, $galley, 'submission_file_ref', null, ['id' => $thisFileId]);
+            }
         }
 
         if (!empty($data['citations'])) {
@@ -1154,11 +1259,21 @@ class DemoSeedTool extends CommandLineTool
     }
 
     /**
-     * Interface languages offered on the site (journal.json "uiLocales");
-     * content is bilingual (ru/en), other languages show the interface in
-     * that language and fall back to the primary locale for content.
+     * Languages the demo content is written in (journal.json "contentLocales",
+     * Russian and English first), limited to the interface languages.
      */
-    /** Fill the extra interface languages with the English value. */
+    protected function contentLocales(): array
+    {
+        $wanted = $this->content['journal']['contentLocales'] ?? self::LOCALES;
+        return array_values(array_unique(array_merge(self::LOCALES, array_intersect($wanted, $this->uiLocales()))));
+    }
+
+    protected function onlyContentLocales(array $values): array
+    {
+        return array_intersect_key($values, array_flip($this->contentLocales()));
+    }
+
+    /** Fill the interface languages that have no translation with the English value. */
     protected function withFallbackLocales(array $values): array
     {
         foreach ($this->uiLocales() as $locale) {
@@ -1187,7 +1302,7 @@ class DemoSeedTool extends CommandLineTool
     protected function checklistHtml(array $items): array
     {
         $html = [];
-        foreach (self::LOCALES as $locale) {
+        foreach ($this->contentLocales() as $locale) {
             $lis = array_map(fn ($item) => '<li>' . htmlspecialchars($item[$locale] ?? '') . '</li>', $items);
             $html[$locale] = $lis ? '<ul>' . join('', $lis) . '</ul>' : '';
         }

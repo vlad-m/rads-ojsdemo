@@ -141,3 +141,12 @@ msgstr "Keyingi slayd"
 
 msgid "plugins.themes.default.prevSlide"
 msgstr "Oldingi slayd"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Til boʻyicha toʻliq matn"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "Maqolaning bir nechta tilda PDF fayli boʻlsa, oʻquvchi faqat interfeys tilidagisini (u boʻlmasa — maqola tilidagisini) koʻradi."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Toʻliq matnni faqat oʻquvchi tilida koʻrsatish"

@@ -141,3 +141,12 @@ msgstr "Следећи слајд"
 
 msgid "plugins.themes.default.prevSlide"
 msgstr "Претходни слајд"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.label"
+msgstr "Цео текст према језику"
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.description"
+msgstr "Када чланак има PDF датотеке на више језика, читалац види само ону на језику интерфејса (или на језику чланка ако она не постоји)."
+
+msgid "plugins.themes.academicJournal.option.galleysByLocale.option"
+msgstr "Приказуј цео текст само на језику читаоца"

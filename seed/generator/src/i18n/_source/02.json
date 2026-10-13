@@ -1,0 +1,244 @@
+{
+ "article.v1n1-01-urban-heat.title": {
+  "en": "Urban Heat Islands in Medium-Sized Cities: An Analysis of Landsat Data for 2000–2023",
+  "ru": "Городские острова тепла в средних городах: анализ спутниковых данных Landsat за 2000–2023 гг."
+ },
+ "article.v1n1-01-urban-heat.abstract": {
+  "en": "<p>Research on urban heat islands has traditionally focused on the largest metropolitan areas, while medium-sized cities, home to a substantial share of the population, remain poorly studied. This study assesses the intensity and dynamics of the surface urban heat island in twelve anonymised cities with populations of 100,000 to 500,000 in the temperate climate zone. Land surface temperature was retrieved from Landsat 5, 7 and 8 scenes for the summer months of 2000–2023, and for each city the difference between the built-up area and a suburban buffer zone was calculated. The normalised difference vegetation index (NDVI), the share of impervious surfaces and building density derived from open map data were used as covariates. The mean daytime heat island intensity was 3.4 °C, and over the study period it increased by 0.9 °C on average. The largest contribution to this change comes from the loss of green space in peripheral areas of new residential development, whereas the association with population size proved weak. A mixed-effects regression model explains 71% of the between-city and between-year variation. The results show that medium-sized cities are no less vulnerable to overheating than large ones and that planning decisions in new development zones are a key adaptation tool. The proposed method can be reproduced for any city using open data.</p>",
+  "ru": "<p>Исследования городских островов тепла традиционно сосредоточены на крупнейших агломерациях, тогда как средние города, в которых проживает значительная часть населения, остаются изученными слабо. Цель работы — оценить интенсивность и динамику поверхностного острова тепла в двенадцати условных городах с населением от 100 до 500 тыс. человек в умеренном климатическом поясе. По сценам Landsat 5, 7 и 8 за летние месяцы 2000–2023 гг. восстановлена температура подстилающей поверхности; для каждого города рассчитана разница между застроенной территорией и пригородным буферным поясом. Дополнительно использованы индекс растительности NDVI, доля непроницаемых покрытий и плотность застройки по открытым картографическим данным. Средняя интенсивность острова тепла составила 3,4 °C в дневные часы, а за исследуемый период она выросла в среднем на 0,9 °C. Наибольший вклад в изменение интенсивности вносит сокращение площади зелёных насаждений в периферийных районах новой жилой застройки; связь с численностью населения оказалась слабой. Регрессионная модель со смешанными эффектами объясняет 71 % межгородской и межгодовой вариации. Полученные результаты показывают, что средние города не менее уязвимы к перегреву, чем крупные, и что градостроительные решения в зонах новой застройки являются ключевым инструментом адаптации. Предложенная методика может быть воспроизведена для любого города с использованием открытых данных.</p>"
+ },
+ "article.v1n1-01-urban-heat.keywords": {
+  "en": [
+   "urban heat island",
+   "remote sensing",
+   "Landsat",
+   "land surface temperature",
+   "green infrastructure",
+   "medium-sized cities"
+  ],
+  "ru": [
+   "городской остров тепла",
+   "дистанционное зондирование",
+   "Landsat",
+   "температура поверхности",
+   "зелёная инфраструктура",
+   "средние города"
+  ]
+ },
+ "article.v1n1-01-urban-heat.authors.0.affiliation": {
+  "en": "Novobor State University",
+  "ru": "Новоборский государственный университет"
+ },
+ "article.v1n1-01-urban-heat.authors.1.affiliation": {
+  "en": "Polis Graduate School of Urban Studies",
+  "ru": "Высшая школа урбанистики «Полис»"
+ },
+ "article.v1n1-01-urban-heat.authors.2.affiliation": {
+  "en": "Novobor State University",
+  "ru": "Новоборский государственный университет"
+ },
+ "article.v1n1-01-urban-heat.fundingAgency": {
+  "en": "Horizon Foundation for Interdisciplinary Research",
+  "ru": "Фонд поддержки междисциплинарных исследований «Горизонт»"
+ },
+ "article.v1n1-02-air-quality-sensors.title": {
+  "en": "Machine-Learning Calibration of Low-Cost PM2.5 Sensors in a Sharply Continental Climate",
+  "ru": "Калибровка недорогих датчиков PM2.5 методами машинного обучения в условиях резко континентального климата"
+ },
+ "article.v1n1-02-air-quality-sensors.abstract": {
+  "en": "<p>Low-cost optical sensors of fine particulate matter can substantially increase the density of air-quality monitoring networks, but their readings depend strongly on humidity and temperature and deviate systematically from reference measurements. This study compares calibration methods for such sensors in a sharply continental climate with a large annual temperature range. For 14 months, eight sensors were co-located with a gravimetric reference station, yielding more than 76,000 hourly observations. Linear regression, multiple regression with a relative-humidity correction, random forest and gradient boosting were compared. Performance was assessed with weekly blocked cross-validation that prevents information leakage between training and test samples. Without calibration, the mean absolute error was 11.8 µg/m³; after linear correction it fell to 6.4 µg/m³, and gradient boosting reduced it to 3.1 µg/m³. The most important features were relative humidity, temperature and the readings of neighbouring sensors. Models trained on summer data alone transferred poorly to the winter period, underlining the need for year-round calibration. We conclude that, once calibrated with machine-learning methods, low-cost sensors are suitable for assessing the diurnal dynamics of pollution and identifying local sources. The code and anonymised data are openly available for reuse.</p>",
+  "ru": "<p>Недорогие оптические датчики мелкодисперсных частиц позволяют существенно увеличить плотность сети мониторинга качества воздуха, однако их показания сильно зависят от влажности и температуры и систематически отклоняются от референтных измерений. В работе сравниваются методы калибровки таких датчиков в условиях резко континентального климата с большой годовой амплитудой температур. В течение 14 месяцев восемь датчиков были размещены рядом с референтной станцией гравиметрического типа; собрано более 76 тыс. часовых наблюдений. Сопоставлены линейная регрессия, множественная регрессия с поправкой на относительную влажность, случайный лес и градиентный бустинг. Качество оценивалось с помощью блочной кросс-валидации по неделям, исключающей утечку информации между обучающей и тестовой выборками. Без калибровки средняя абсолютная ошибка составила 11,8 мкг/м³, после линейной коррекции — 6,4 мкг/м³, а градиентный бустинг снизил её до 3,1 мкг/м³. Наиболее важными признаками оказались относительная влажность, температура и показания соседних датчиков. Модели, обученные только на летних данных, плохо переносились на зимний период, что подчёркивает необходимость круглогодичной калибровки. Сделан вывод о том, что недорогие датчики после калибровки методами машинного обучения пригодны для оценки суточной динамики загрязнения и выявления локальных источников. Код и обезличенные данные открыты для повторного использования.</p>"
+ },
+ "article.v1n1-02-air-quality-sensors.keywords": {
+  "en": [
+   "air quality",
+   "PM2.5",
+   "low-cost sensors",
+   "calibration",
+   "gradient boosting"
+  ],
+  "ru": [
+   "качество воздуха",
+   "PM2.5",
+   "недорогие датчики",
+   "калибровка",
+   "градиентный бустинг"
+  ]
+ },
+ "article.v1n1-02-air-quality-sensors.authors.0.affiliation": {
+  "en": "Volga Institute of Applied Analytics",
+  "ru": "Волжский институт прикладной аналитики"
+ },
+ "article.v1n1-02-air-quality-sensors.authors.1.affiliation": {
+  "en": "Vita Research Institute of Public Health",
+  "ru": "НИИ общественного здоровья «Вита»"
+ },
+ "article.v1n1-03-remote-work-labour.title": {
+  "en": "Remote Work and Regional Labour Markets: Evidence from Online Vacancies",
+  "ru": "Удалённая работа и региональные рынки труда: данные онлайн-вакансий"
+ },
+ "article.v1n1-03-remote-work-labour.abstract": {
+  "en": "<p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p>",
+  "ru": "<p>Распространение удалённой работы после 2020 г. потенциально меняет пространственную структуру рынков труда, позволяя жителям небольших городов получать доступ к вакансиям столичных работодателей. В статье на основе 2,4 млн объявлений о вакансиях, опубликованных на крупной онлайн-платформе в 2019–2023 гг., оценивается, в какой мере удалённые вакансии перераспределяют спрос на труд между регионами. Для классификации объявлений использована словарная модель с последующей ручной проверкой случайной выборки. Доля полностью удалённых вакансий выросла с 2,1 % в 2019 г. до 9,7 % в 2023 г., причём рост был сосредоточен в сфере информационных технологий, маркетинга и финансовых услуг. С помощью метода разности разностей показано, что в регионах с более высокой долей занятых в этих отраслях средняя предлагаемая заработная плата выросла на 4,3 % сильнее, чем в сопоставимых регионах. Вместе с тем удалённые вакансии предъявляют более высокие требования к опыту и образованию, что ограничивает доступ к ним для значительной части работников. Эффект выравнивания межрегиональных различий в оплате труда оказался статистически значимым, но умеренным. Результаты свидетельствуют о том, что удалённая работа может стать инструментом региональной политики только в сочетании с программами переподготовки и развития цифровой инфраструктуры.</p>"
+ },
+ "article.v1n1-03-remote-work-labour.keywords": {
+  "en": [
+   "remote work",
+   "regional labour market",
+   "online vacancies",
+   "wages",
+   "difference-in-differences"
+  ],
+  "ru": [
+   "удалённая работа",
+   "региональный рынок труда",
+   "онлайн-вакансии",
+   "заработная плата",
+   "разность разностей"
+  ]
+ },
+ "article.v1n1-03-remote-work-labour.authors.0.affiliation": {
+  "en": "Meridian Institute for Economics and Spatial Development",
+  "ru": "Институт экономики и пространственного развития «Меридиан»"
+ },
+ "article.v1n1-03-remote-work-labour.authors.1.affiliation": {
+  "en": "Ostland Centre for Applied Economic Research",
+  "ru": "Центр прикладных экономических исследований «Остланд»"
+ },
+ "article.v1n1-04-peatland-carbon.title": {
+  "en": "Carbon Balance of Boreal Peatlands: A Review of Assessment Methods",
+  "ru": "Углеродный баланс торфяных болот бореальной зоны: обзор методов оценки"
+ },
+ "article.v1n1-04-peatland-carbon.abstract": {
+  "en": "<p>Boreal peatlands cover about 3% of the land surface yet store up to a third of the world's soil carbon, so accurate assessment of their carbon balance matters for climate policy and national greenhouse gas reporting. This review systematises the main methods for estimating carbon fluxes in peatlands: the chamber method, eddy covariance, calculation from peat accumulation rates, and remote-sensing approaches based on satellite indices and productivity models. Drawing on 87 publications from 2000–2024, it considers the spatial and temporal scale of each method, its sources of uncertainty and its requirements for equipment and staff expertise. Estimates of net ecosystem exchange for the same peatland obtained by different methods can differ by a factor of 1.5 to 2, with most of the discrepancy arising from the treatment of methane and dissolved organic carbon fluxes. Particular attention is paid to drained and rewetted peatlands, for which far fewer data exist than for undisturbed ecosystems. The review concludes that a combined approach is needed, in which long-term eddy covariance observations at reference sites are complemented by chamber measurements and remote-sensing upscaling. A decision scheme for choosing a method according to the research goal and available resources is proposed.</p>",
+  "ru": "<p>Торфяные болота бореальной зоны занимают около 3 % поверхности суши, но хранят до трети почвенного углерода планеты, поэтому точная оценка их углеродного баланса важна для климатической политики и национальной отчётности о парниковых газах. В обзоре систематизированы основные методы оценки потоков углерода на болотах: камерный метод, метод турбулентных пульсаций, расчёт по скорости аккумуляции торфа и дистанционные методы, основанные на спутниковых индексах и моделях продуктивности. На основе анализа 87 публикаций за 2000–2024 гг. рассмотрены пространственный и временной масштаб каждого метода, источники неопределённости, требования к оборудованию и квалификации персонала. Показано, что оценки чистого экосистемного обмена для одного и того же болота, полученные разными методами, могут различаться в полтора–два раза, причём основная часть расхождений связана с учётом потоков метана и растворённого органического углерода. Особое внимание уделено осушенным и восстанавливаемым болотам, для которых данных существенно меньше, чем для ненарушенных экосистем. Сделан вывод о необходимости комбинированного подхода, в котором долговременные наблюдения методом турбулентных пульсаций на опорных площадках сочетаются с камерными измерениями и дистанционным масштабированием. Предложена схема выбора метода в зависимости от цели исследования и доступных ресурсов.</p>"
+ },
+ "article.v1n1-04-peatland-carbon.keywords": {
+  "en": [
+   "peatlands",
+   "carbon balance",
+   "methane",
+   "eddy covariance",
+   "chamber method",
+   "boreal zone"
+  ],
+  "ru": [
+   "торфяные болота",
+   "углеродный баланс",
+   "метан",
+   "турбулентные пульсации",
+   "камерный метод",
+   "бореальная зона"
+  ]
+ },
+ "article.v1n1-04-peatland-carbon.authors.0.affiliation": {
+  "en": "Caspian Institute of Environmental Studies",
+  "ru": "Каспийский институт экологических исследований"
+ },
+ "article.v1n1-04-peatland-carbon.authors.1.affiliation": {
+  "en": "Northern Mire Station, Novobor State University",
+  "ru": "Северная болотная станция Новоборского государственного университета"
+ },
+ "article.v1n1-05-digital-economy-neologisms.title": {
+  "en": "Digital Economy Neologisms in Russian-Language Business Media: A Corpus Study",
+  "ru": "Неологизмы цифровой экономики в русскоязычных деловых СМИ: корпусное исследование"
+ },
+ "article.v1n1-05-digital-economy-neologisms.abstract": {
+  "en": "<p>The digitalisation of the economy has been accompanied by the rapid emergence of new vocabulary, much of it borrowed from English. This short communication presents the first results of a corpus study of digital economy neologisms in Russian-language business media. A purpose-built corpus comprises about 18 million tokens from the publications of six anonymised business outlets for 2015–2024. Candidate neologisms were selected using a frequency criterion followed by expert verification; the final list contains 214 items. For each, the year of first attestation, the word-formation pattern and the frequency dynamics were determined. Direct borrowings (such as marketpleys, startap and kraudfanding) account for 58% of new items, hybrid formations with Russian affixes for 27%, and calques and descriptive expressions for 15%. The peak of new items falls in 2018–2020. For a number of borrowings, Latin-script spellings are gradually being replaced by Cyrillic ones, indicating their assimilation into the language. The results can be used in compiling terminological dictionaries and in teaching business Russian. Further work will extend the corpus to regional outlets and Telegram channels.</p>",
+  "ru": "<p>Цифровизация экономики сопровождается стремительным появлением новой лексики, значительная часть которой заимствуется из английского языка. В кратком сообщении представлены первые результаты корпусного исследования неологизмов цифровой экономики в русскоязычных деловых СМИ. Специально собранный корпус включает около 18 млн словоупотреблений из публикаций шести условных деловых изданий за 2015–2024 гг. Кандидаты в неологизмы отбирались по частотному критерию с последующей экспертной проверкой; итоговый список содержит 214 единиц. Для каждой из них определены год первой фиксации, способ образования и динамика частотности. Установлено, что прямые заимствования (например, «маркетплейс», «стартап», «краудфандинг») составляют 58 % новых единиц, гибридные образования с русскими аффиксами — 27 %, а калькированные и описательные обороты — 15 %. Пик появления новых единиц приходится на 2018–2020 гг. Для ряда заимствований наблюдается постепенное вытеснение графических вариантов на латинице кириллическими, что свидетельствует об их освоении языком. Результаты могут быть использованы при составлении терминологических словарей и при обучении деловому русскому языку. В дальнейшем планируется расширить корпус за счёт региональных изданий и телеграм-каналов.</p>"
+ },
+ "article.v1n1-05-digital-economy-neologisms.keywords": {
+  "en": [
+   "neologisms",
+   "corpus linguistics",
+   "borrowings",
+   "digital economy",
+   "business media"
+  ],
+  "ru": [
+   "неологизмы",
+   "корпусная лингвистика",
+   "заимствования",
+   "цифровая экономика",
+   "деловые СМИ"
+  ]
+ },
+ "article.v1n1-05-digital-economy-neologisms.authors.0.affiliation": {
+  "en": "Lexis Institute of Language and Communication",
+  "ru": "Институт языка и коммуникации «Лексис»"
+ },
+ "article.v1n2-01-perovskite-stability.title": {
+  "en": "Stability of Perovskite Films under Thermal Cycling: The Role of Organic Additives",
+  "ru": "Стабильность перовскитных плёнок при термоциклировании: роль органических добавок"
+ },
+ "article.v1n2-01-perovskite-stability.abstract": {
+  "en": "<p>Halide perovskites are regarded as one of the most promising materials for thin-film photovoltaics, but their practical use is held back by insufficient stability under the temperature fluctuations typical of real operating conditions. This study examines the effect of three organic additives, phenethylammonium, thiourea and polyvinylpyrrolidone, on the degradation of mixed-cation perovskite films under thermal cycling between −20 and +85 °C. Films were prepared by antisolvent-assisted spin coating and characterised by X-ray diffraction, scanning electron microscopy and photoluminescence spectroscopy after 0, 50, 100 and 200 cycles. In control samples, a lead iodide phase appears after only 100 cycles, microcracks form along grain boundaries, and photoluminescence intensity drops by almost half. Adding phenethylammonium at 1.5 mol% slows degradation: after 200 cycles, 87% of the initial photoluminescence intensity is retained and no secondary phases are detected. Thiourea increases grain size but has little effect on resistance to thermal cycling, whereas polyvinylpyrrolidone effectively suppresses cracking. A mechanism is proposed that links the stabilising effect of the additives to the passivation of surface defects and the relaxation of mechanical stress. The results can inform the development of formulations for flexible solar modules.</p>",
+  "ru": "<p>Галогенидные перовскиты рассматриваются как один из наиболее перспективных материалов для тонкоплёночной фотовольтаики, однако их практическое применение сдерживается недостаточной стабильностью при перепадах температуры, характерных для реальных условий эксплуатации. В работе исследовано влияние трёх органических добавок — фенилэтиламмония, тиомочевины и поливинилпирролидона — на деградацию плёнок смешанного катионного перовскита при термоциклировании в диапазоне от −20 до +85 °C. Плёнки получены методом центрифугирования с антирастворителем и охарактеризованы методами рентгеновской дифракции, сканирующей электронной микроскопии и спектроскопии фотолюминесценции после 0, 50, 100 и 200 циклов. Установлено, что в контрольных образцах уже после 100 циклов появляется фаза иодида свинца и формируются микротрещины по границам зёрен, а интенсивность фотолюминесценции снижается почти вдвое. Добавление фенилэтиламмония в концентрации 1,5 мол. % замедляет деградацию: после 200 циклов сохраняется 87 % исходной интенсивности фотолюминесценции, а образование побочных фаз не обнаруживается. Тиомочевина увеличивает размер зёрен, но слабо влияет на устойчивость к термоциклированию, тогда как поливинилпирролидон эффективно подавляет растрескивание. Предложен механизм, связывающий стабилизирующее действие добавок с пассивацией поверхностных дефектов и релаксацией механических напряжений. Результаты могут быть использованы при разработке составов для гибких солнечных модулей.</p>"
+ },
+ "article.v1n2-01-perovskite-stability.keywords": {
+  "en": [
+   "perovskites",
+   "thin films",
+   "thermal cycling",
+   "degradation",
+   "defect passivation",
+   "photovoltaics"
+  ],
+  "ru": [
+   "перовскиты",
+   "тонкие плёнки",
+   "термоциклирование",
+   "деградация",
+   "пассивация дефектов",
+   "фотовольтаика"
+  ]
+ },
+ "article.v1n2-01-perovskite-stability.authors.0.affiliation": {
+  "en": "Kristall Ural Centre for Materials Science",
+  "ru": "Уральский центр материаловедения «Кристалл»"
+ },
+ "article.v1n2-01-perovskite-stability.authors.1.affiliation": {
+  "en": "Kristall Ural Centre for Materials Science",
+  "ru": "Уральский центр материаловедения «Кристалл»"
+ },
+ "article.v1n2-01-perovskite-stability.authors.2.affiliation": {
+  "en": "Yerevan Institute of Condensed Matter Physics",
+  "ru": "Ереванский институт физики конденсированных сред"
+ },
+ "article.v1n2-01-perovskite-stability.fundingAgency": {
+  "en": "Horizon Foundation for Interdisciplinary Research",
+  "ru": "Фонд поддержки междисциплинарных исследований «Горизонт»"
+ },
+ "article.v1n2-02-adaptive-courses.title": {
+  "en": "Adaptive Online Courses and First-Year Students' Academic Performance: A Quasi-Experimental Study",
+  "ru": "Адаптивные онлайн-курсы и академическая успеваемость первокурсников: квазиэкспериментальное исследование"
+ },
+ "article.v1n2-02-adaptive-courses.abstract": {
+  "en": "<p>The first year at university carries the highest risk of academic failure and dropout, especially in mathematics, where differences in students' school preparation are particularly large. This article evaluates the effect of an adaptive online course in calculus on the performance of first-year students at a pedagogical university. The adaptive system selected exercises and learning materials based on a diagnosis of the student's current level of knowledge and errors. The study used a quasi-experimental design: students in two cohorts of the 2023/24 academic year (n = 214) used the adaptive course, while students in two cohorts of the previous year (n = 198) studied under the traditional scheme with the same instructors. To improve group comparability, propensity score matching was applied on entrance examination results, gender and school type. The mean final examination score in the experimental group was 7.4 points higher out of 100, and the share of students failing the examination at the first attempt fell from 23% to 14%. The largest effect was observed among students with low entrance scores. Analysis of digital traces showed that the key predictor of success was the regularity of work with the system rather than the total time spent in it. We conclude that adaptive courses are a worthwhile tool for levelling first-year students' starting opportunities.</p>",
+  "ru": "<p>Первый год обучения в университете отличается наибольшим риском академической неуспеваемости и отчисления, особенно по математическим дисциплинам, где различия в школьной подготовке студентов особенно велики. В статье оценивается влияние адаптивного онлайн-курса по математическому анализу на успеваемость первокурсников педагогического университета. Адаптивная система подбирала задания и учебные материалы на основе диагностики текущего уровня знаний и ошибок студента. Исследование выполнено в квазиэкспериментальном дизайне: студенты двух потоков 2023/24 учебного года (n = 214) использовали адаптивный курс, а студенты двух потоков предыдущего года (n = 198) обучались по традиционной схеме с теми же преподавателями. Для повышения сопоставимости групп применялось сопоставление по индексу склонности с учётом результатов вступительных испытаний, пола и типа школы. Средний балл за итоговый экзамен в экспериментальной группе оказался выше на 7,4 балла из 100, а доля студентов, не сдавших экзамен с первой попытки, снизилась с 23 % до 14 %. Наибольший эффект наблюдался у студентов с низкими вступительными баллами. Анализ цифровых следов показал, что ключевым предиктором успеха была регулярность работы с системой, а не общее время, проведённое в ней. Сделан вывод о целесообразности использования адаптивных курсов как инструмента выравнивания стартовых возможностей первокурсников.</p>"
+ },
+ "article.v1n2-02-adaptive-courses.keywords": {
+  "en": [
+   "adaptive learning",
+   "online courses",
+   "academic performance",
+   "first-year students",
+   "learning analytics"
+  ],
+  "ru": [
+   "адаптивное обучение",
+   "онлайн-курсы",
+   "академическая успеваемость",
+   "первокурсники",
+   "учебная аналитика"
+  ]
+ },
+ "article.v1n2-02-adaptive-courses.authors.0.affiliation": {
+  "en": "Lesnogorsk Pedagogical University",
+  "ru": "Лесногорский педагогический университет"
+ },
+ "article.v1n2-02-adaptive-courses.authors.1.affiliation": {
+  "en": "Lesnogorsk Pedagogical University",
+  "ru": "Лесногорский педагогический университет"
+ }
+}

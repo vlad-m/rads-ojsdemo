@@ -1,0 +1,357 @@
+{
+ "article.sub-wind-power-forecast.title": {
+  "en": "Short-Term Wind Power Forecasting with Gradient Boosting and Numerical Weather Prediction Data",
+  "ru": "Краткосрочный прогноз ветровой генерации с помощью градиентного бустинга и данных численных моделей погоды"
+ },
+ "article.sub-wind-power-forecast.abstract": {
+  "en": "<p>The growing share of wind generation in power systems raises the requirements for the accuracy of its short-term forecasting, on which operational planning and balancing costs depend. This study proposes an approach to forecasting the output of a wind farm over horizons from 1 to 48 hours that combines gradient boosting with features extracted from numerical weather prediction forecasts. The data come from an anonymised wind farm with an installed capacity of 120 MW for 2021–2025 at hourly resolution, together with forecasts of wind speed and direction at several heights for nine grid nodes around the farm. In addition to the raw meteorological variables, features describing the spatial gradient of wind speed, vertical wind shear and atmospheric stability were constructed. The model was compared with persistence, a model based on the manufacturer's power curve and a recurrent neural network. The proposed model reduced the normalised root-mean-square error at the 24-hour horizon to 9.8%, compared with 12.6% for the power-curve model and 10.9% for the neural network. The largest gains are achieved during abrupt changes in wind speed associated with the passage of weather fronts. Feature importance analysis showed that the spatial wind speed gradient contributes substantially to forecast quality at horizons beyond 12 hours. The approach has low computational cost and can be deployed in dispatch practice.</p>",
+  "ru": "<p>Рост доли ветровой генерации в энергосистемах повышает требования к точности её краткосрочного прогноза, от которой зависят планирование режимов и стоимость балансирования. В работе предложен подход к прогнозу выработки ветровой электростанции на горизонте от 1 до 48 часов, сочетающий градиентный бустинг с признаками, извлечёнными из прогнозов численных моделей погоды. Использованы данные условной ветровой электростанции установленной мощностью 120 МВт за 2021–2025 гг. с часовым разрешением, а также прогнозы скорости и направления ветра на нескольких высотах для девяти узлов сетки вокруг станции. Помимо исходных метеорологических переменных, сформированы признаки пространственного градиента скорости ветра, сдвига ветра по высоте и устойчивости атмосферы. Сравнение проводилось с методом персистентности, моделью на основе паспортной кривой мощности и рекуррентной нейронной сетью. Предложенная модель снизила нормированную среднеквадратичную ошибку на горизонте 24 часа до 9,8 % против 12,6 % у модели на основе кривой мощности и 10,9 % у нейронной сети. Наибольший выигрыш достигается в периоды резких изменений скорости ветра при прохождении атмосферных фронтов. Анализ важности признаков показал, что пространственный градиент скорости ветра вносит существенный вклад в качество прогноза на горизонтах свыше 12 часов. Предложенный подход отличается невысокими вычислительными затратами и может быть внедрён в практику диспетчерских служб.</p>"
+ },
+ "article.sub-wind-power-forecast.keywords": {
+  "en": [
+   "wind energy",
+   "power forecasting",
+   "gradient boosting",
+   "numerical weather prediction",
+   "time series"
+  ],
+  "ru": [
+   "ветровая энергетика",
+   "прогноз генерации",
+   "градиентный бустинг",
+   "численный прогноз погоды",
+   "временные ряды"
+  ]
+ },
+ "article.sub-wind-power-forecast.authors.0.affiliation": {
+  "en": "Volga Institute of Applied Analytics",
+  "ru": "Волжский институт прикладной аналитики"
+ },
+ "article.sub-wind-power-forecast.authors.1.affiliation": {
+  "en": "Volga Institute of Applied Analytics",
+  "ru": "Волжский институт прикладной аналитики"
+ },
+ "article.sub-museum-digital-audiences.title": {
+  "en": "Digital Museum Audiences after the Pandemic: An Analysis of Online Collection Visitor Behaviour",
+  "ru": "Цифровые аудитории музеев после пандемии: анализ поведения посетителей онлайн-коллекций"
+ },
+ "article.sub-museum-digital-audiences.abstract": {
+  "en": "<p>During the pandemic, many museums rapidly expanded their online presence by opening access to collections, virtual exhibitions and educational programmes. Whether the enlarged digital audience has persisted since the return to in-person operations remains an open question. This article analyses anonymised web analytics logs of the online collections of five anonymised regional museums for 2019–2025, covering about 3.1 million sessions. Visitors were segmented by clustering on browsing depth, session duration, referral source and return frequency. Five segments were identified: casual visitors from search engines, students and teachers, researchers, regular enthusiasts and visitors planning an in-person visit. The total number of sessions declined after the 2020 peak but stabilised at a level 1.8 times higher than before the pandemic. Meanwhile, the share of researchers and regular enthusiasts increased, and their sessions became longer. Visitors planning a visit most often view pages with opening hours and current exhibitions, and their activity is most closely associated with subsequent museum attendance. The results show that online collections have become an independent channel of audience engagement that requires its own development strategy and performance metrics.</p>",
+  "ru": "<p>В период пандемии многие музеи резко расширили своё присутствие в интернете, открыв онлайн-доступ к коллекциям, виртуальным выставкам и образовательным программам. Вопрос о том, насколько устойчивой оказалась возросшая цифровая аудитория после возвращения к очной работе, остаётся открытым. В статье анализируются обезличенные журналы веб-аналитики онлайн-коллекций пяти условных региональных музеев за 2019–2025 гг., охватывающие около 3,1 млн сессий. Посетители сегментированы методом кластеризации по глубине просмотра, длительности сессии, источнику перехода и частоте возвращения. Выделено пять сегментов: случайные посетители из поисковых систем, учащиеся и преподаватели, исследователи, постоянные любители и посетители, планирующие очный визит. Общее число сессий после пика 2020 г. снизилось, но стабилизировалось на уровне, в 1,8 раза превышающем допандемийный. При этом доля исследователей и постоянных любителей выросла, а их сессии стали продолжительнее. Посетители, планирующие визит, чаще всего просматривают страницы с расписанием и текущими выставками, и именно их активность наиболее тесно связана с последующей посещаемостью музея. Результаты показывают, что онлайн-коллекции превратились в самостоятельный канал взаимодействия с аудиторией, требующий отдельной стратегии развития и метрик эффективности.</p>"
+ },
+ "article.sub-museum-digital-audiences.keywords": {
+  "en": [
+   "museums",
+   "digital collections",
+   "web analytics",
+   "audience segmentation",
+   "digital humanities"
+  ],
+  "ru": [
+   "музеи",
+   "цифровые коллекции",
+   "веб-аналитика",
+   "сегментация аудитории",
+   "цифровые гуманитарные исследования"
+  ]
+ },
+ "article.sub-museum-digital-audiences.authors.0.affiliation": {
+  "en": "Chronos Centre for the History of Science and Technology",
+  "ru": "Центр истории науки и техники «Хронос»"
+ },
+ "article.sub-museum-digital-audiences.authors.1.affiliation": {
+  "en": "Nordic Institute for Museum Studies",
+  "ru": "Северный институт музейных исследований"
+ },
+ "article.sub-flax-biocomposites.title": {
+  "en": "Mechanical Properties of Flax Fibre and Polylactic Acid Biocomposites after Accelerated Ageing",
+  "ru": "Механические свойства биокомпозитов на основе льняного волокна и полимолочной кислоты после ускоренного старения"
+ },
+ "article.sub-flax-biocomposites.abstract": {
+  "en": "<p>Biocomposites based on natural fibres and biodegradable polymers are regarded as an environmentally friendly alternative to glass-fibre plastics in the automotive industry, construction and consumer goods. Their wider use is hindered by sensitivity to moisture and ultraviolet radiation, which reduces strength during service. This study examines the effect of alkaline and silane treatment of flax fibre on the mechanical properties of composites with a polylactic acid matrix after accelerated weathering. Samples with a fibre mass fraction of 30% were produced by hot pressing and subjected to cyclic exposure to ultraviolet radiation, elevated temperature and humidity for 500 and 1000 hours. After 1000 hours of ageing, the tensile strength of composites with untreated fibre decreased by 38%, whereas for composites with silane-treated fibre the decrease was only 17%. Alkaline treatment increased initial strength but had little effect on resistance to ageing. Electron microscopy and infrared spectroscopy showed that silane treatment reduces water uptake and prevents delamination at the fibre-matrix interface. The results support recommending silane treatment for products used outdoors.</p>",
+  "ru": "<p>Биокомпозиты на основе натуральных волокон и биоразлагаемых полимеров рассматриваются как экологичная альтернатива стеклопластикам в автомобильной промышленности, строительстве и производстве потребительских товаров. Их широкому применению препятствует чувствительность к влаге и ультрафиолетовому излучению, приводящая к снижению прочности в процессе эксплуатации. В работе исследовано влияние щелочной и силановой обработки льняного волокна на механические свойства композитов с матрицей из полимолочной кислоты после ускоренного климатического старения. Образцы с массовой долей волокна 30 % изготовлены методом горячего прессования и подвергнуты циклическому воздействию ультрафиолета, повышенной температуры и влажности в течение 500 и 1000 часов. После 1000 часов старения прочность при растяжении композитов с необработанным волокном снизилась на 38 %, тогда как для композитов с силанизированным волокном снижение составило лишь 17 %. Щелочная обработка повышала исходную прочность, но слабо влияла на устойчивость к старению. Методами электронной микроскопии и инфракрасной спектроскопии показано, что силановая обработка уменьшает водопоглощение и предотвращает расслоение на границе волокна и матрицы. Полученные результаты позволяют рекомендовать силановую обработку для изделий, эксплуатируемых на открытом воздухе.</p>"
+ },
+ "article.sub-flax-biocomposites.keywords": {
+  "en": [
+   "biocomposites",
+   "flax fibre",
+   "polylactic acid",
+   "ageing",
+   "silane treatment"
+  ],
+  "ru": [
+   "биокомпозиты",
+   "льняное волокно",
+   "полимолочная кислота",
+   "старение",
+   "силановая обработка"
+  ]
+ },
+ "article.sub-flax-biocomposites.authors.0.affiliation": {
+  "en": "Kristall Ural Centre for Materials Science",
+  "ru": "Уральский центр материаловедения «Кристалл»"
+ },
+ "article.sub-flax-biocomposites.authors.1.affiliation": {
+  "en": "Novobor State University",
+  "ru": "Новоборский государственный университет"
+ },
+ "article.sub-flax-biocomposites.authors.2.affiliation": {
+  "en": "Kristall Ural Centre for Materials Science",
+  "ru": "Уральский центр материаловедения «Кристалл»"
+ },
+ "article.sub-flax-biocomposites.fundingAgency": {
+  "en": "Horizon Foundation for Interdisciplinary Research",
+  "ru": "Фонд поддержки междисциплинарных исследований «Горизонт»"
+ },
+ "article.sub-school-wellbeing-measures.title": {
+  "en": "Measuring Schoolchildren's Wellbeing: A Review of Instruments and Their Psychometric Properties",
+  "ru": "Измерение благополучия школьников: обзор инструментов и их психометрических свойств"
+ },
+ "article.sub-school-wellbeing-measures.abstract": {
+  "en": "<p>Schoolchildren's wellbeing is increasingly regarded as an educational outcome in its own right alongside academic achievement, and many education systems include it in their monitoring programmes. However, wellbeing is defined in different ways, and the instruments used to measure it vary considerably in structure, length and quality. This review analyses 38 instruments for measuring the subjective wellbeing of children and adolescents aged 8–18, described in 116 publications from 2000–2025. For each instrument, the theoretical basis, measured components, age range, availability of a Russian-language version and psychometric properties were assessed according to the COSMIN standard: reliability, structural validity, measurement invariance and responsiveness. Most instruments draw on a hedonic or eudaimonic model of wellbeing or a combination of the two, and school wellbeing is identified as a separate component in only a third of them. Internal consistency is acceptable for the vast majority of scales, but measurement invariance across age groups and language versions has been tested for only 11 instruments. Russian-language adaptations are available for nine instruments, but their psychometric properties have been studied incompletely. Recommendations for selecting instruments for school monitoring are formulated and directions for further adaptation are outlined.</p>",
+  "ru": "<p>Благополучие школьников всё чаще рассматривается как самостоятельный результат образования наряду с академическими достижениями, и многие системы образования включают его в программы мониторинга. Вместе с тем понятие благополучия определяется по-разному, а инструменты его измерения существенно различаются по структуре, длине и качеству. В обзоре проанализированы 38 инструментов измерения субъективного благополучия детей и подростков в возрасте 8–18 лет, описанных в 116 публикациях за 2000–2025 гг. Для каждого инструмента оценены теоретическая основа, измеряемые компоненты, возрастной диапазон, доступность русскоязычной версии и психометрические характеристики по стандарту COSMIN: надёжность, структурная валидность, инвариантность измерения и чувствительность к изменениям. Показано, что большинство инструментов опираются на гедонистическую или эвдемоническую модель благополучия либо на их сочетание, а школьное благополучие как отдельный компонент выделяется лишь в трети из них. Надёжность внутренней согласованности приемлема для подавляющего большинства шкал, однако инвариантность измерения между возрастными группами и языковыми версиями проверялась лишь для 11 инструментов. Русскоязычные адаптации доступны для девяти инструментов, но их психометрические свойства изучены неполно. Сформулированы рекомендации по выбору инструментов для школьного мониторинга и намечены направления дальнейшей адаптации.</p>"
+ },
+ "article.sub-school-wellbeing-measures.keywords": {
+  "en": [
+   "student wellbeing",
+   "psychometrics",
+   "measurement instruments",
+   "education monitoring",
+   "COSMIN"
+  ],
+  "ru": [
+   "благополучие школьников",
+   "психометрика",
+   "инструменты измерения",
+   "мониторинг образования",
+   "COSMIN"
+  ]
+ },
+ "article.sub-school-wellbeing-measures.authors.0.affiliation": {
+  "en": "Lesnogorsk Pedagogical University",
+  "ru": "Лесногорский педагогический университет"
+ },
+ "article.sub-school-wellbeing-measures.authors.1.affiliation": {
+  "en": "Lesnogorsk Pedagogical University",
+  "ru": "Лесногорский педагогический университет"
+ },
+ "body.v1n1-01-urban-heat.intro.0": {
+  "ru": "Городской остров тепла — превышение температуры воздуха и подстилающей поверхности в городе над окружающей сельской местностью — является одним из наиболее изученных проявлений антропогенной трансформации климата. Классические работы связывают это явление с изменением теплового баланса: замена растительности непроницаемыми покрытиями снижает испарение, геометрия застройки уменьшает ночное излучение, а антропогенные источники добавляют тепло в приземный слой."
+ },
+ "body.v1n1-01-urban-heat.intro.1": {
+  "ru": "Подавляющее большинство эмпирических оценок, однако, получено для городов-миллионников. Средние города с населением 100–500 тыс. человек часто рассматриваются как «слишком маленькие» для формирования выраженного острова тепла, хотя именно в них в последние два десятилетия наблюдается активное строительство на периферии. Настоящая работа восполняет этот пробел: мы оцениваем интенсивность поверхностного острова тепла в двенадцати средних городах и выявляем факторы её изменения за 2000–2023 гг."
+ },
+ "body.v1n1-01-urban-heat.methods.0": {
+  "ru": "Исследование охватывает двенадцать городов умеренного пояса, обозначенных в статье кодами Г1–Г12. Для каждого города по архиву Landsat отобраны безоблачные сцены за июнь–август (в среднем 4,6 сцены на город в год, всего 1 318 сцен). Температура подстилающей поверхности восстановлена по тепловому каналу с коррекцией излучательной способности на основе NDVI."
+ },
+ "body.v1n1-01-urban-heat.methods.1": {
+  "ru": "Интенсивность острова тепла (ИОТ) определялась как разница медианной температуры застроенной территории и пригородного буферного кольца шириной 5 км за вычетом водных объектов. В качестве объясняющих переменных использованы средний NDVI, доля непроницаемых покрытий, плотность застройки и численность населения. Связь оценивалась регрессионной моделью со смешанными эффектами со случайным свободным членом для города и фиксированным эффектом года."
+ },
+ "body.v1n1-01-urban-heat.results.0": {
+  "ru": "Средняя дневная ИОТ по всей выборке составила 3,4 ± 0,8 °C. Минимальные значения характерны для городов с развитой долинной сетью и сохранившимися лесопарками (2,1–2,6 °C), максимальные — для городов степной зоны с плотной панельной застройкой (4,5–4,9 °C). На рис. 1 показана динамика средней интенсивности по пятилетним периодам."
+ },
+ "body.v1n1-01-urban-heat.results.1": {
+  "ru": "В регрессионной модели (табл. 1) наибольший по величине эффект имеет NDVI: снижение индекса на 0,1 связано с ростом ИОТ на 0,62 °C. Доля непроницаемых покрытий значима, но её эффект в значительной мере опосредован растительностью. Численность населения после учёта морфологических показателей статистически незначима."
+ },
+ "body.v1n1-01-urban-heat.figure.caption": {
+  "ru": "Рис. 1. Средняя дневная интенсивность поверхностного острова тепла по пятилетним периодам, °C"
+ },
+ "body.v1n1-01-urban-heat.figure.ylabel": {
+  "ru": "ИОТ, °C"
+ },
+ "body.v1n1-01-urban-heat.figure.series.0.name": {
+  "ru": "Все города"
+ },
+ "body.v1n1-01-urban-heat.figure.series.1.name": {
+  "ru": "Степная зона"
+ },
+ "body.v1n1-01-urban-heat.figure.series.2.name": {
+  "ru": "Лесная зона"
+ },
+ "body.v1n1-01-urban-heat.table.caption": {
+  "ru": "Таблица 1. Оценки модели со смешанными эффектами (зависимая переменная — ИОТ, °C)"
+ },
+ "body.v1n1-01-urban-heat.table.head.0": {
+  "ru": "Переменная"
+ },
+ "body.v1n1-01-urban-heat.table.head.1": {
+  "ru": "Коэффициент"
+ },
+ "body.v1n1-01-urban-heat.table.head.2": {
+  "ru": "Ст. ошибка"
+ },
+ "body.v1n1-01-urban-heat.table.head.3": {
+  "ru": "p"
+ },
+ "body.v1n1-01-urban-heat.table.rows.0.0": {
+  "ru": "NDVI (на 0,1)"
+ },
+ "body.v1n1-01-urban-heat.table.rows.1.0": {
+  "ru": "Непроницаемые покрытия (на 10 %)"
+ },
+ "body.v1n1-01-urban-heat.table.rows.2.0": {
+  "ru": "Плотность застройки (на 1 тыс. м²/га)"
+ },
+ "body.v1n1-01-urban-heat.table.rows.3.0": {
+  "ru": "Население (log)"
+ },
+ "body.v1n1-01-urban-heat.table.rows.4.0": {
+  "ru": "Условный R²"
+ },
+ "body.v1n1-01-urban-heat.discussion.0": {
+  "ru": "Полученные оценки интенсивности сопоставимы с опубликованными для европейских городов сходного размера и лишь на 1–1,5 °C ниже значений для крупнейших агломераций. Это ставит под сомнение распространённое представление о незначительности теплового риска в средних городах."
+ },
+ "body.v1n1-01-urban-heat.discussion.1": {
+  "ru": "Важнейший результат работы — ведущая роль растительности на периферии. Новые жилые кварталы, построенные после 2010 г. на месте сельскохозяйственных земель и пустырей, характеризуются минимальным озеленением, и именно здесь рост температуры поверхности наиболее заметен. Ограничением исследования является использование только дневных сцен: ночной остров тепла, наиболее значимый для здоровья, требует иных источников данных."
+ },
+ "body.v1n1-01-urban-heat.conclusion.0": {
+  "ru": "Средние города формируют выраженные поверхностные острова тепла, интенсивность которых растёт. Сохранение и создание зелёных насаждений в районах новой застройки является наиболее эффективным рычагом адаптации. Предложенный открытый алгоритм может использоваться муниципалитетами для мониторинга."
+ },
+ "body.v1n1-02-air-quality-sensors.intro.0": {
+  "ru": "Мелкодисперсные частицы PM2.5 — один из главных факторов риска для здоровья, связанных с загрязнением атмосферного воздуха. Референтные станции мониторинга дороги и немногочисленны: в типичном городе с населением полмиллиона человек их одна-две. Недорогие оптические датчики стоимостью в несколько тысяч рублей позволяют создать плотную сеть, но их показания требуют калибровки."
+ },
+ "body.v1n1-02-air-quality-sensors.intro.1": {
+  "ru": "Основная причина погрешностей — гигроскопический рост частиц при высокой влажности, из-за которого датчик завышает массовую концентрацию. В резко континентальном климате к этому добавляются низкие зимние температуры, влияющие на работу электроники. Цель работы — сравнить методы калибровки и оценить их переносимость между сезонами."
+ },
+ "body.v1n1-02-air-quality-sensors.methods.0": {
+  "ru": "Восемь датчиков одной модели установлены на крыше павильона референтной станции на высоте 3 м. Период наблюдений — с октября 2022 по ноябрь 2023 г. Данные агрегированы до часовых значений; часы с неполными записями (менее 45 минут) исключены. Итоговая выборка — 76 412 пар наблюдений."
+ },
+ "body.v1n1-02-air-quality-sensors.methods.1": {
+  "ru": "Сравнивались четыре модели: простая линейная регрессия по сырому сигналу; множественная регрессия с относительной влажностью, температурой и их взаимодействием; случайный лес (500 деревьев); градиентный бустинг (глубина 6, скорость обучения 0,05). Для оценки качества использована блочная кросс-валидация: данные разбивались на недельные блоки, и каждый блок поочерёдно служил тестовой выборкой."
+ },
+ "body.v1n1-02-air-quality-sensors.results.0": {
+  "ru": "Результаты сравнения приведены в табл. 1 и на рис. 1. Все методы калибровки существенно уменьшают ошибку; разница между линейной регрессией с поправкой на влажность и ансамблевыми методами особенно велика при относительной влажности выше 80 %."
+ },
+ "body.v1n1-02-air-quality-sensors.results.1": {
+  "ru": "При обучении только на летних данных и тестировании на зимних средняя абсолютная ошибка градиентного бустинга возрастала до 7,9 мкг/м³, что лишь немного лучше линейной коррекции. Добавление в обучающую выборку хотя бы одного зимнего месяца снижало ошибку до 3,6 мкг/м³."
+ },
+ "body.v1n1-02-air-quality-sensors.figure.caption": {
+  "ru": "Рис. 1. Средняя абсолютная ошибка (MAE) различных методов калибровки, мкг/м³"
+ },
+ "body.v1n1-02-air-quality-sensors.figure.x.0": {
+  "ru": "Без калибровки"
+ },
+ "body.v1n1-02-air-quality-sensors.figure.x.1": {
+  "ru": "Линейная"
+ },
+ "body.v1n1-02-air-quality-sensors.figure.x.2": {
+  "ru": "Линейная + RH"
+ },
+ "body.v1n1-02-air-quality-sensors.figure.x.3": {
+  "ru": "Случ. лес"
+ },
+ "body.v1n1-02-air-quality-sensors.figure.x.4": {
+  "ru": "Град. бустинг"
+ },
+ "body.v1n1-02-air-quality-sensors.figure.ylabel": {
+  "ru": "MAE, мкг/м³"
+ },
+ "body.v1n1-02-air-quality-sensors.figure.series.0.name": {
+  "ru": "MAE"
+ },
+ "body.v1n1-02-air-quality-sensors.table.caption": {
+  "ru": "Таблица 1. Качество методов калибровки (блочная кросс-валидация по неделям)"
+ },
+ "body.v1n1-02-air-quality-sensors.table.head.0": {
+  "ru": "Метод"
+ },
+ "body.v1n1-02-air-quality-sensors.table.head.1": {
+  "ru": "MAE, мкг/м³"
+ },
+ "body.v1n1-02-air-quality-sensors.table.head.2": {
+  "ru": "RMSE, мкг/м³"
+ },
+ "body.v1n1-02-air-quality-sensors.table.head.3": {
+  "ru": "R²"
+ },
+ "body.v1n1-02-air-quality-sensors.table.rows.0.0": {
+  "ru": "Без калибровки"
+ },
+ "body.v1n1-02-air-quality-sensors.table.rows.1.0": {
+  "ru": "Линейная регрессия"
+ },
+ "body.v1n1-02-air-quality-sensors.table.rows.2.0": {
+  "ru": "Линейная + влажность"
+ },
+ "body.v1n1-02-air-quality-sensors.table.rows.3.0": {
+  "ru": "Случайный лес"
+ },
+ "body.v1n1-02-air-quality-sensors.table.rows.4.0": {
+  "ru": "Градиентный бустинг"
+ },
+ "body.v1n1-02-air-quality-sensors.discussion.0": {
+  "ru": "Полученные значения ошибки после калибровки сопоставимы с допусками для индикативных измерений и позволяют использовать сеть недорогих датчиков для оценки суточных профилей и выявления локальных источников — котельных, автомагистралей, частного сектора с печным отоплением."
+ },
+ "body.v1n1-02-air-quality-sensors.discussion.1": {
+  "ru": "Сезонная непереносимость моделей — важное практическое ограничение. Калибровка, выполненная летом, может давать систематические ошибки зимой, когда загрязнение наиболее опасно. Мы рекомендуем как минимум годичный период совместных измерений перед развёртыванием сети."
+ },
+ "body.v1n1-02-air-quality-sensors.conclusion.0": {
+  "ru": "Ансамблевые методы машинного обучения снижают ошибку недорогих датчиков PM2.5 почти в четыре раза. Ключевое условие корректной калибровки — наличие в обучающей выборке данных за все сезоны года."
+ },
+ "body.v1n1-03-remote-work-labour.intro.0": {
+  "en": "The rapid shift to remote work during 2020 was initially regarded as a temporary response to the pandemic. Four years later, a sizeable share of employers continue to offer fully remote positions, raising the question of whether location still determines access to well-paid jobs. If workers in smaller towns can compete for vacancies posted in the capital, interregional wage gaps might narrow without physical migration."
+ },
+ "body.v1n1-03-remote-work-labour.intro.1": {
+  "en": "Existing evidence on this question comes mainly from surveys of workers. Online vacancy data offer a complementary demand-side perspective with high temporal and spatial resolution. This article uses such data to document the growth of remote vacancies, to characterise their requirements and to estimate their effect on regional wage dynamics."
+ },
+ "body.v1n1-03-remote-work-labour.methods.0": {
+  "en": "The dataset comprises 2.4 million advertisements published between January 2019 and December 2023 on a large job platform. Each record includes the job title, description, region, industry, offered wage range and requirements. Remote vacancies were identified with a dictionary of 46 phrases; a manually coded random sample of 2,000 advertisements showed a precision of 0.94 and a recall of 0.91."
+ },
+ "body.v1n1-03-remote-work-labour.methods.1": {
+  "en": "To estimate the effect on wages, regions were divided by their pre-pandemic share of employment in remote-intensive industries. A difference-in-differences model with region and month fixed effects compares the evolution of the median offered wage before and after March 2020, controlling for the occupational composition of vacancies."
+ },
+ "body.v1n1-03-remote-work-labour.results.0": {
+  "en": "The share of fully remote vacancies grew steadily from 2.1% in 2019 to 9.7% in 2023 (Fig. 1). Growth was strongest in information technology, where remote positions reached 31% of all postings, followed by marketing and finance. In manufacturing, retail and healthcare the share remained below 2%."
+ },
+ "body.v1n1-03-remote-work-labour.results.1": {
+  "en": "Table 1 reports the main estimates. In regions with a high exposure to remote-intensive industries, the median offered wage increased by 4.3% more than in low-exposure regions. Remote vacancies were 1.6 times more likely to require higher education and on average requested 1.2 more years of experience."
+ },
+ "body.v1n1-03-remote-work-labour.figure.caption": {
+  "en": "Fig. 1. Share of fully remote vacancies by year, %"
+ },
+ "body.v1n1-03-remote-work-labour.figure.ylabel": {
+  "en": "Share, %"
+ },
+ "body.v1n1-03-remote-work-labour.figure.series.0.name": {
+  "en": "All industries"
+ },
+ "body.v1n1-03-remote-work-labour.figure.series.1.name": {
+  "en": "IT"
+ },
+ "body.v1n1-03-remote-work-labour.table.caption": {
+  "en": "Table 1. Difference-in-differences estimates (dependent variable: log median offered wage)"
+ },
+ "body.v1n1-03-remote-work-labour.table.head.0": {
+  "en": "Specification"
+ },
+ "body.v1n1-03-remote-work-labour.table.head.1": {
+  "en": "Estimate"
+ },
+ "body.v1n1-03-remote-work-labour.table.head.2": {
+  "en": "Std. error"
+ },
+ "body.v1n1-03-remote-work-labour.table.head.3": {
+  "en": "N (region-months)"
+ },
+ "body.v1n1-03-remote-work-labour.table.rows.0.0": {
+  "en": "Baseline"
+ },
+ "body.v1n1-03-remote-work-labour.table.rows.1.0": {
+  "en": "+ occupation controls"
+ },
+ "body.v1n1-03-remote-work-labour.table.rows.2.0": {
+  "en": "Excluding capital region"
+ },
+ "body.v1n1-03-remote-work-labour.table.rows.3.0": {
+  "en": "Placebo (2018 break)"
+ },
+ "body.v1n1-03-remote-work-labour.discussion.0": {
+  "en": "Our results indicate that remote work does exert an equalising pressure on regional wages, but the magnitude is moderate. The effect is concentrated in regions that already had a pool of workers in remote-intensive occupations, suggesting that remote work amplifies existing human capital rather than creating new opportunities."
+ },
+ "body.v1n1-03-remote-work-labour.discussion.1": {
+  "en": "The higher skill requirements of remote vacancies are a key constraint. Policy measures that combine digital infrastructure investment with retraining are more likely to translate the potential of remote work into broad-based gains. A limitation of the study is that vacancy data reflect offered rather than realised wages."
+ },
+ "body.v1n1-03-remote-work-labour.conclusion.0": {
+  "en": "Remote vacancies have become a stable feature of the labour market and modestly reduce interregional wage gaps. Their benefits, however, accrue mainly to highly skilled workers, and their role as a regional development tool depends on complementary policies."
+ }
+}

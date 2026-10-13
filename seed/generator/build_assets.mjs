@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Build article PDFs and issue cover PNGs from seed/content/journal.json + generator/bodies.json.
-// Usage: node build_assets.mjs [--only <slug>] [--no-covers] [--no-pdfs]
+// Usage: node build_assets.mjs [--only <slug>] [--locale <locale>] [--no-covers] [--no-pdfs]
+// One PDF per article and language (journal.json "pdf": {locale: path}) and one cover per issue and language.
 // Requires the global playwright module and Chromium in $PLAYWRIGHT_BROWSERS_PATH.
 import { createRequire } from 'module';
 import { execSync } from 'child_process';
@@ -21,11 +22,13 @@ const FIRST_PAGE = 5; // journal pagination within each issue starts after the f
 
 const args = process.argv.slice(2);
 const only = args.includes('--only') ? args[args.indexOf('--only') + 1] : null;
+const onlyLocale = args.includes('--locale') ? args[args.indexOf('--locale') + 1] : null;
 const doCovers = !args.includes('--no-covers') && !only;
 const doPdfs = !args.includes('--no-pdfs');
 
 const data = JSON.parse(fs.readFileSync(JSON_PATH, 'utf8'));
-const bodies = JSON.parse(fs.readFileSync(path.join(HERE, 'bodies.json'), 'utf8'));
+const bodies = JSON.parse(fs.readFileSync(path.join(HERE, 'bodies.json'), 'utf8')); // {slug: {locale: body}}
+const LABELS = JSON.parse(fs.readFileSync(path.join(HERE, 'labels.json'), 'utf8')); // {locale: {key: text}}
 const J = data.journal;
 
 // ---------------------------------------------------------------- helpers
@@ -37,46 +40,46 @@ function fontFaces() {
   if (FONT_CSS) return FONT_CSS;
   // fonts are inlined as data: URIs (pages are loaded via setContent, where file:// URLs are blocked)
   const f = (file) => `data:font/woff2;base64,${fs.readFileSync(path.join(FONT_DIR, file)).toString('base64')}`;
-  const CYR = 'U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116';
-  const LAT = 'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD';
+  const RANGES = {
+    latin: 'U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD',
+    'latin-ext': 'U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF',
+    cyrillic: 'U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116',
+    'cyrillic-ext': 'U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F',
+    greek: 'U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF',
+  };
   const out = [];
-  for (const [w, st, base] of [[400, 'normal', 'source-serif-4-%s-400-normal'], [400, 'italic', 'source-serif-4-%s-400-italic'], [600, 'normal', 'source-serif-4-%s-600-normal'], [700, 'normal', 'source-serif-4-%s-700-normal']]) {
-    for (const [sub, rng] of [['latin', LAT], ['cyrillic', CYR]]) out.push(`@font-face{font-family:'Source Serif 4';font-style:${st};font-weight:${w};src:url('${f(base.replace('%s', sub) + '.woff2')}') format('woff2');unicode-range:${rng};}`);
-  }
-  for (const w of [400, 500, 600]) {
-    for (const [sub, rng] of [['latin', LAT], ['cyrillic', CYR]]) out.push(`@font-face{font-family:'InterW';font-style:normal;font-weight:${w};src:url('${f(`inter-${sub}-${w}-normal.woff2`)}') format('woff2');unicode-range:${rng};}`);
-  }
-  for (const w of [500, 600, 700]) {
-    for (const [sub, rng] of [['latin', LAT], ['cyrillic', CYR]]) out.push(`@font-face{font-family:'BrandW';font-style:normal;font-weight:${w};src:url('${f(`montserrat-${sub}-${w}-normal.woff2`)}') format('woff2');unicode-range:${rng};}`);
-  }
+  const face = (family, file, w, st) => {
+    for (const [sub, rng] of Object.entries(RANGES)) {
+      const name = file.replace('%s', sub) + '.woff2';
+      if (fs.existsSync(path.join(FONT_DIR, name))) out.push(`@font-face{font-family:'${family}';font-style:${st};font-weight:${w};src:url('${f(name)}') format('woff2');unicode-range:${rng};}`);
+    }
+  };
+  for (const [w, st] of [[400, 'normal'], [400, 'italic'], [600, 'normal'], [700, 'normal']]) face('Source Serif 4', `source-serif-4-%s-${w}-${st}`, w, st);
+  for (const w of [400, 500, 600]) face('InterW', `inter-%s-${w}-normal`, w, 'normal');
+  for (const w of [500, 600, 700]) face('BrandW', `montserrat-%s-${w}-normal`, w, 'normal');
   FONT_CSS = out.join('\n');
   return FONT_CSS;
 }
 
-const L = {
-  ru: {
-    vol: (i) => `Т. ${i.volume}, № ${i.number} (${i.year})`, pp: 'С.', received: 'Поступила', accepted: 'Принята', published: 'Опубликована', submitted: 'Подана',
-    abstract: 'Аннотация', keywords: 'Ключевые слова', corr: 'Автор для переписки', funding: 'Финансирование',
-    intro: 'Введение', methods: 'Материалы и методы', results: 'Результаты', discussion: 'Обсуждение', conclusion: 'Заключение', refs: 'Список литературы',
-    cite: 'Для цитирования', manuscript: 'Рукопись на рассмотрении', manuscriptNote: 'Рукопись представлена в редакцию и находится в процессе редакционной обработки. Не для цитирования.',
-    sections: { ART: 'Научная статья', REV: 'Обзор', SHC: 'Краткое сообщение' }, licence: 'Распространяется по лицензии CC BY 4.0',
-  },
-  en: {
-    vol: (i) => `Vol. ${i.volume}, No. ${i.number} (${i.year})`, pp: 'pp.', received: 'Received', accepted: 'Accepted', published: 'Published', submitted: 'Submitted',
-    abstract: 'Abstract', keywords: 'Keywords', corr: 'Corresponding author', funding: 'Funding',
-    intro: 'Introduction', methods: 'Materials and Methods', results: 'Results', discussion: 'Discussion', conclusion: 'Conclusion', refs: 'References',
-    cite: 'For citation', manuscript: 'Manuscript under review', manuscriptNote: 'This manuscript has been submitted to the journal and is undergoing editorial processing. Not for citation.',
-    sections: { ART: 'Research Article', REV: 'Review', SHC: 'Short Communication' }, licence: 'Licensed under CC BY 4.0',
-  },
-};
+const L = Object.fromEntries(Object.entries(LABELS).map(([loc, t]) => [loc, {
+  ...t,
+  vol: (i) => t.vol.replace('{volume}', i.volume).replace('{number}', i.number).replace('{year}', i.year),
+  coverVol: (i) => t.coverVol.replace('{volume}', i.volume).replace('{number}', i.number).replace('{year}', i.year),
+  sections: { ART: t.ART, REV: t.REV, SHC: t.SHC },
+}]));
+const bcp47 = (loc) => loc.replace('_', '-');
+const DOT_DECIMAL = new Set(['en', 'zh_Hans']);
 
 function fmtDate(iso, loc) {
   const [y, m, d] = iso.split('-').map(Number);
   if (loc === 'ru') return `${String(d).padStart(2, '0')}.${String(m).padStart(2, '0')}.${y}`;
-  const mon = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][m - 1];
-  return `${d} ${mon} ${y}`;
+  if (loc === 'en') {
+    const mon = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][m - 1];
+    return `${d} ${mon} ${y}`;
+  }
+  return new Intl.DateTimeFormat(bcp47(loc), { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(Date.UTC(y, m - 1, d));
 }
-const num = (v, loc) => (loc === 'ru' ? String(v).replace('.', ',') : String(v));
+const num = (v, loc) => (DOT_DECIMAL.has(loc) ? String(v) : String(v).replace('.', ','));
 const dashPages = (p) => String(p || '').replace('-', '–');
 const initials = (a, loc) => `${a.familyName[loc]} ${a.givenName[loc][0]}.`;
 
@@ -140,9 +143,10 @@ function niceStep(raw) {
 }
 
 // ---------------------------------------------------------------- article HTML
-function articleHTML(a, ctx) {
-  const loc = a.locale, alt = loc === 'ru' ? 'en' : 'ru', T = L[loc];
-  const b = bodies[a.slug];
+function articleHTML(a, ctx, loc = a.locale) {
+  // the second abstract: English, or Russian in the English edition
+  const alt = loc === 'en' ? 'ru' : 'en', T = L[loc];
+  const b = bodies[a.slug][loc];
   const issue = ctx.issue;
   const published = !!issue;
   const pages = dashPages(a.pages);
@@ -169,7 +173,7 @@ function articleHTML(a, ctx) {
   const cite = published
     ? (loc === 'ru'
       ? `${a.authors.map((x) => initials(x, 'ru')).join(', ')} ${esc(a.title.ru)} // ${esc(J.abbreviation.ru)} ${issue.year}. Т. ${issue.volume}, № ${issue.number}. С. ${pages}.`
-      : `${a.authors.map((x) => initials(x, 'en')).join(', ')} ${esc(a.title.en)}. <i>${esc(J.abbreviation.en)}</i> ${issue.year};${issue.volume}(${issue.number}):${pages}.`)
+      : `${a.authors.map((x) => initials(x, loc)).join(', ')} ${esc(a.title[loc])}. <i>${esc(J.abbreviation[loc])}</i> ${issue.year};${issue.volume}(${issue.number}):${pages}.`)
     : '';
 
   const dates = published
@@ -205,7 +209,7 @@ ${fontFaces()}
 @page :first { @top-left { content: none; border: none; } @top-right { content: none; border: none; } }
 html { counter-reset: page ${first - 1}; }
 * { box-sizing: border-box; }
-body { margin: 0; font-family: 'Source Serif 4', serif; font-size: 9.3pt; line-height: 1.4; color: ${C.ink}; -webkit-print-color-adjust: exact; }
+body { margin: 0; font-family: 'Source Serif 4', 'WenQuanYi Zen Hei', serif; font-size: 9.3pt; line-height: 1.4; color: ${C.ink}; -webkit-print-color-adjust: exact; }
 .mast { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2.2pt solid ${C.navy}; padding-bottom: 2.4mm; margin-bottom: 1mm; }
 .mast .jn { font: 600 12.5pt BrandW, sans-serif; color: ${C.navy}; letter-spacing: .01em; }
 .mast .jn small { display: block; font: 500 7pt InterW, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: ${C.gold}; margin-bottom: 1mm; }
@@ -259,14 +263,14 @@ ol.refs li::marker { color: ${C.burgundy}; font: 600 7.8pt InterW, sans-serif; }
 .endmark { text-align: center; color: ${C.gold}; margin-top: 4mm; font-size: 9pt; letter-spacing: .5em; }
 `;
 
-  const issn = `ISSN ${J.onlineIssn} (${loc === 'ru' ? 'онлайн' : 'online'})`;
+  const issn = `ISSN ${J.onlineIssn} (${T.online})`;
   const mastMeta = published
     ? `${T.vol(issue)}<br><b>${T.pp} ${pages}</b> · ${issn}`
     : `${issn}<br><b>${T.manuscript}</b>`;
   const sec = (n, key, html) => `<h3><span class="n">${n}</span>${T[key]}</h3>${html}`;
 
-  return `<!doctype html><html lang="${loc}"><head><meta charset="utf-8"><title>${esc(a.title[loc])}</title><style>${css}</style></head><body>
-<header class="mast"><div class="jn"><small>${loc === 'ru' ? esc(J.publisherInstitution) : 'Tsifra LLC'}</small>${esc(J.name[loc])}</div><div class="meta">${mastMeta}</div></header>
+  return `<!doctype html><html lang="${bcp47(loc)}"><head><meta charset="utf-8"><title>${esc(a.title[loc])}</title><style>${css}</style></head><body>
+<header class="mast"><div class="jn"><small>${esc(T.publisher)}</small>${esc(J.name[loc])}</div><div class="meta">${mastMeta}</div></header>
 <div class="subrule"></div>
 <div class="kind">${T.sections[a.section]}${published ? '' : `<span class="kind ms">${T.manuscript}</span>`}</div>
 <h1>${esc(a.title[loc])}</h1>
@@ -292,8 +296,11 @@ ${sec(5, 'conclusion', paras(b.conclusion))}
 }
 
 function countryName(code, lc) {
-  const m = { RU: ['Россия', 'Russia'], KZ: ['Казахстан', 'Kazakhstan'], DE: ['Германия', 'Germany'], RS: ['Сербия', 'Serbia'], BY: ['Беларусь', 'Belarus'], AM: ['Армения', 'Armenia'], UZ: ['Узбекистан', 'Uzbekistan'], NO: ['Норвегия', 'Norway'] };
-  return (m[code] || [code, code])[lc === 'ru' ? 0 : 1];
+  try {
+    return new Intl.DisplayNames([bcp47(lc), 'en'], { type: 'region' }).of(code) || code;
+  } catch {
+    return code;
+  }
 }
 
 const pageCount = (buf) => (buf.toString('latin1').match(/\/Type\s*\/Page(?![s\w])/g) || []).length;
@@ -307,32 +314,33 @@ async function renderPdf(page, html, out) {
 }
 
 // ---------------------------------------------------------------- covers
-function coverHTML(issue, idx) {
+function coverHTML(issue, idx, loc) {
+  const T = L[loc];
   const accents = ['#F7901E', '#5FC3EE', '#FFB25B'];
   const acc = accents[idx % accents.length];
   const motif = [motifContours, motifLattice, motifNetwork][idx % 3](acc);
-  return `<!doctype html><html><head><meta charset="utf-8"><style>${fontFaces()}
+  return `<!doctype html><html lang="${bcp47(loc)}"><head><meta charset="utf-8"><style>${fontFaces()}
 html,body{margin:0;width:600px;height:848px;overflow:hidden}
-body{background:linear-gradient(160deg,${C.burgundy} 0%,${C.navy} 100%);color:#fff;font-family:'Source Serif 4',serif;position:relative}
+body{background:linear-gradient(160deg,${C.burgundy} 0%,${C.navy} 100%);color:#fff;font-family:'Source Serif 4','WenQuanYi Zen Hei',serif;position:relative}
 .frame{position:absolute;inset:22px;border:1px solid ${C.gold}}
 .frame2{position:absolute;inset:28px;border:.5px solid rgba(255,255,255,.35)}
 .top{position:absolute;top:58px;left:60px;right:60px;display:flex;justify-content:space-between;font:500 10.5px InterW,sans-serif;letter-spacing:.2em;color:${C.gold};text-transform:uppercase}
 .name{position:absolute;top:104px;left:60px;right:60px;font-family:BrandW,sans-serif;font-weight:600;font-size:36px;line-height:1.12;letter-spacing:.005em}
 .rule{position:absolute;top:262px;left:60px;width:96px;height:2px;background:${acc}}
-.vol{position:absolute;top:282px;left:60px;font:500 15px InterW,sans-serif;letter-spacing:.16em;color:${C.gold}}
+.vol{position:absolute;top:282px;left:60px;font:500 15px InterW,sans-serif;letter-spacing:.16em;color:${C.gold};text-transform:uppercase}
 .motif{position:absolute;top:322px;left:29px;right:29px;height:262px;overflow:hidden}.motif svg{margin-left:-29px;display:block;width:600px;height:262px}
 .theme{position:absolute;left:60px;right:60px;bottom:128px;font-style:italic;font-size:25px;line-height:1.25;color:#fff}
 .theme small{display:block;font:500 9.5px InterW,sans-serif;font-style:normal;letter-spacing:.24em;color:${acc};margin-bottom:10px;text-transform:uppercase}
 .pub{position:absolute;left:60px;right:60px;bottom:58px;border-top:1px solid ${C.gold};padding-top:14px;display:flex;justify-content:space-between;font:400 11px InterW,sans-serif;color:rgba(255,255,255,.85);letter-spacing:.04em}
 </style></head><body>
 <div class="frame"></div><div class="frame2"></div>
-<div class="top"><span>ISSN ${J.onlineIssn}</span><span>${esc(J.acronym.ru)} · Открытый доступ</span></div>
-<div class="name">${esc((J.coverName || J.name).ru)}</div>
+<div class="top"><span>ISSN ${J.onlineIssn}</span><span>${esc(J.acronym[loc])} · ${esc(T.openAccess)}</span></div>
+<div class="name">${esc((J.coverName || J.name)[loc])}</div>
 <div class="rule"></div>
-<div class="vol">ТОМ ${issue.volume} · № ${issue.number} · ${issue.year}</div>
+<div class="vol">${esc(T.coverVol(issue))}</div>
 <div class="motif">${motif}</div>
-<div class="theme"><small>Тема выпуска</small>${esc(issue.title.ru)}</div>
-<div class="pub"><span>${esc(J.publisherInstitution)}</span><span>${esc(J.abbreviation.ru)}</span></div>
+<div class="theme"><small>${esc(T.coverTheme)}</small>${esc(issue.title[loc])}</div>
+<div class="pub"><span>${esc(T.publisher)}</span><span>${esc(J.abbreviation[loc])}</span></div>
 </body></html>`;
 }
 
@@ -391,8 +399,10 @@ const page = await browser.newPage();
 fs.mkdirSync(path.join(ASSETS, 'pdf'), { recursive: true });
 fs.mkdirSync(path.join(ASSETS, 'covers'), { recursive: true });
 
+const wanted = new Set();
 if (doPdfs) {
-  // pass 1: measure page counts and assign sequential page ranges per issue
+  // pass 1: measure page counts (in the article's own language) and assign
+  // sequential page ranges per issue; the other editions reuse the range
   let changed = false;
   if (!only) {
     for (const issue of data.issues) {
@@ -409,28 +419,46 @@ if (doPdfs) {
       console.log('updated page ranges in journal.json');
     }
   }
-  // pass 2: final render
+  // pass 2: final render, every language
   const jobs = [
     ...data.issues.flatMap((issue) => issue.articles.map((a) => [a, { issue }])),
     ...data.submissions.map((a) => [a, { issue: null }]),
   ].filter(([a]) => !only || a.slug === only);
   for (const [a, ctx] of jobs) {
-    const out = path.join(ASSETS, a.pdf);
-    const n = await renderPdf(page, articleHTML(a, ctx), out);
-    const exp = a.pages ? a.pages.split('-').reduce((x, y) => y - x + 1) : null;
-    const warn = ctx.issue && exp !== n ? `  WARNING: expected ${exp} pages` : '';
-    console.log(`${a.pdf}  ${n} pp  ${(fs.statSync(out).size / 1024).toFixed(0)} KB${warn}`);
+    for (const [loc, rel] of Object.entries(a.pdf)) {
+      wanted.add(path.join(ASSETS, rel));
+      if (onlyLocale && loc !== onlyLocale) continue;
+      const out = path.join(ASSETS, rel);
+      const n = await renderPdf(page, articleHTML(a, ctx, loc), out);
+      const exp = a.pages ? a.pages.split('-').reduce((x, y) => y - x + 1) : null;
+      const note = ctx.issue && exp !== n ? `  (${exp} pp in the original)` : '';
+      console.log(`${rel}  ${n} pp  ${(fs.statSync(out).size / 1024).toFixed(0)} KB${note}`);
+    }
   }
 }
 
 if (doCovers) {
   await page.setViewportSize({ width: 600, height: 848 });
   for (const [i, issue] of data.issues.entries()) {
-    await page.setContent(coverHTML(issue, i), { waitUntil: 'load' });
-    await page.evaluate(() => document.fonts.ready);
-    const out = path.join(ASSETS, issue.cover);
-    await page.screenshot({ path: out, clip: { x: 0, y: 0, width: 600, height: 848 } });
-    console.log(`${issue.cover}  ${(fs.statSync(out).size / 1024).toFixed(0)} KB`);
+    for (const [loc, rel] of Object.entries(issue.cover)) {
+      wanted.add(path.join(ASSETS, rel));
+      if (onlyLocale && loc !== onlyLocale) continue;
+      await page.setContent(coverHTML(issue, i, loc), { waitUntil: 'load' });
+      await page.evaluate(() => document.fonts.ready);
+      const out = path.join(ASSETS, rel);
+      await page.screenshot({ path: out, type: 'jpeg', quality: 88, clip: { x: 0, y: 0, width: 600, height: 848 } });
+      console.log(`${rel}  ${(fs.statSync(out).size / 1024).toFixed(0)} KB`);
+    }
+  }
+}
+
+// remove files of earlier builds that journal.json no longer refers to
+if (doPdfs && doCovers && !only && !onlyLocale) {
+  for (const dir of ['pdf', 'covers']) {
+    for (const f of fs.readdirSync(path.join(ASSETS, dir))) {
+      const full = path.join(ASSETS, dir, f);
+      if (!wanted.has(full)) { fs.unlinkSync(full); console.log(`removed ${dir}/${f}`); }
+    }
   }
 }
 await browser.close();
