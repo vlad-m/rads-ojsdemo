@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="uz">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fanlararo tadqiqotlar jurnali (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems demo jurnali</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>“Tsifra” MChJ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Sharh</subject></subj-group></article-categories>
+<title-group>
+<article-title>1950–1970-yillardagi hisoblash markazlari ilmiy muassasalar sifatida: tarixshunoslik sharhi</article-title>
+<trans-title-group xml:lang="en"><trans-title>Computing Centres of the 1950s–1970s as Scientific Institutions: A Historiographical Review</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Vershinin</surname><given-names>Leonid</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vershinin</surname><given-names>Leonid</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>l.vershinin@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>“Xronos” fan va texnika tarixi markazi</institution>, <country country="RU">Rossiya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-01-20"><day>20</day><month>01</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-06-10"><day>10</day><month>06</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Leonid Vershinin</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 litsenziyasi asosida tarqatiladi</license-p></license></permissions>
+<abstract xml:lang="uz"><p>XX asr oʻrtalarida ilmiy-tadqiqot institutlari, universitetlar va sanoat korxonalari qoshida tashkil etilgan hisoblash markazlari hisoblashlarni ilmiy izlanishning mustaqil vositasiga aylantirishda muhim rol oʻynagan. Ushbu sharhda fan va texnika tarixchilari soʻnggi ellik yil davomida bu muassasalarni qanday oʻrganganliklari koʻrib chiqiladi. 64 ta monografiya, maqola va maqolalar toʻplami tahlili asosida uchta asosiy tarixshunoslik yondashuvi ajratib koʻrsatiladi. Birinchisi — texnik-biografik yondashuv boʻlib, u muayyan EHMlarning yaratilishi va ularning konstruktorlari faoliyatiga eʼtibor qaratadi. Ikkinchisi — institutsional yondashuv boʻlib, hisoblash markazlarini oʻz tuzilmasi, kadrlar siyosati va buyurtmachilar bilan munosabatlariga ega tashkilotlar sifatida koʻrib chiqadi. Soʻnggi yigirma yil ichida shakllangan uchinchi yondashuv hisoblash amaliyotlarini tadqiq etadi: dasturchilar, operatorlar va foydalanuvchilar mashinalar bilan qanday oʻzaro munosabatda boʻlganini hamda hisoblashlar meteorologiyadan tortib tilshunoslikkacha boʻlgan alohida fanlarning usullarini qanday oʻzgartirganini. Hisoblash markazlarining kundalik faoliyati, ayol dasturchilar va operatorlarning roli hamda eng yirik ilmiy shaharlardan tashqaridagi mintaqaviy markazlar eng kam oʻrganilgan mavzular boʻlib qolmoqda. Manbalar bazasi muammolari, jumladan texnik hujjatlar, mashina vaqti jurnallari va dasturlarning saqlanishi alohida muhokama qilinadi. Sharh xulosasiga koʻra, ushbu voqealar ishtirokchilari hali hayot ekan, arxiv tadqiqotlarini ogʻzaki tarix usullari bilan uygʻunlashtirish istiqbolli hisoblanadi.</p></abstract>
+<trans-abstract xml:lang="en"><p>Computing centres, established in the mid-twentieth century at research institutes, universities and industrial enterprises, played a key role in turning computation into an independent instrument of scientific inquiry. This review examines how historians of science and technology have studied these institutions over the past fifty years. Based on an analysis of 64 monographs, articles and edited volumes, three main historiographical approaches are identified. The first, technical-biographical, focuses on the construction of particular computers and the work of their designers. The second, institutional, treats computing centres as organisations with their own structure, staffing policies and relations with clients. The third, which has emerged over the last two decades, investigates computing practices: how programmers, operators and users interacted with machines and how computation transformed the methods of individual disciplines, from meteorology to linguistics. The least studied topics remain the everyday work of computing centres, the role of women programmers and operators, and regional centres outside the largest science cities. Problems of the source base are discussed separately, including the preservation of technical documentation, machine-time logs and programs. The review concludes that combining archival research with oral history methods is promising while participants in these events are still alive.</p></trans-abstract>
+<kwd-group xml:lang="uz" kwd-group-type="author"><kwd>fan tarixi</kwd><kwd>hisoblash texnikasi tarixi</kwd><kwd>hisoblash markazlari</kwd><kwd>tarixshunoslik</kwd><kwd>ogʻzaki tarix</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>history of science</kwd><kwd>history of computing</kwd><kwd>computing centres</kwd><kwd>historiography</kwd><kwd>oral history</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Kirish</title>
+<p>1940-yillar oxiri — 1950-yillarda elektron hisoblash mashinalarining paydo boʻlishi maxsus muassasalarni tashkil etishni talab qildi: mashinalar qimmat boʻlib, butun-butun zallarni egallagan va kecha-kunduz texnik xizmat koʻrsatishni talab qilgan. Hisoblash markazlari muhandislar, matematiklar va foydalanuvchi olimlar uchrashadigan, asta-sekin yangi kasblar — dasturchi va operator shakllangan joyga aylandi.</p>
+<p>Hisoblash markazlari tarixshunosligi hisoblash texnikasi tarixining fan sifatida rivojlanishi bilan birga rivojlandi. Sharhning maqsadi — ushbu muassasalarni oʻrganishga oid yondashuvlarni tizimlashtirish, kam oʻrganilgan mavzularni aniqlash va manbalar bazasining holatini muhokama qilish.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar va usullar</title>
+<p>Sharh korpusi asosiy ishlarning bibliografiyalari va fan va texnika tarixiga ixtisoslashgan jurnallarning mavzuli koʻrsatkichlari asosida shakllantirildi. Hisoblash markazi (alohida mashina yoki shaxs emas) kamida bitta bob yoki boʻlimda tahlil predmeti boʻlgan tadqiqotlar kiritildi. Yakuniy korpus 1975-yildan 2024-yilgacha nashr etilgan 64 ta ishdan iborat boʻldi.</p>
+<p>Har bir ish yetakchi yondashuvi, foydalanilgan manbalar turi va oʻrganilayotgan muassasalar geografiyasi boʻyicha tasniflandi. Tasniflash muallif tomonidan amalga oshirildi va barqarorlikni baholash uchun bir yildan soʻng qayta tekshirildi.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Natijalar</title>
+<p>Ishlarning oʻn yilliklar va yondashuvlar boʻyicha taqsimoti 1-rasmda koʻrsatilgan. 1990-yillargacha asosan voqealar ishtirokchilarining xotiralari va yubiley nashrlari bilan ifodalangan texnik-biografik yondashuv ustunlik qilgan. Institutsional tadqiqotlar 1990–2000-yillarda, amaliyotlar tadqiqotlari esa 2010-yildan keyin sezilarli boʻldi.</p>
+<fig id="f1" position="float"><caption><p>1-rasm. Nashr oʻn yilligi va yetakchi yondashuv boʻyicha ishlar soni</p></caption></fig>
+<p>1-jadval turli yondashuvlar doirasida qanday manbalardan foydalanilishini koʻrsatadi. Eʼtiborlisi, mashina vaqti jurnallari va saqlanib qolgan dastur matnlari mashinalarning real yuklamasi va hal qilingan masalalar tarkibini qayta tiklash imkonini bersa-da, ishlarning faqat kichik qismida jalb qilinadi.</p>
+<table-wrap id="t1" position="float"><caption><p>1-jadval. Tarixshunoslik yondashuvlari boʻyicha manbalar turlari (ishlar ulushi, %)</p></caption><table><thead><tr><th>Manba turi</th><th>Texnik-biogr.</th><th>Instituts.</th><th>Amaliyotlar</th></tr></thead><tbody><tr><td>Xotiralar va intervyular</td><td>84</td><td>48</td><td>72</td></tr><tr><td>Muassasalar ish yuritish hujjatlari</td><td>28</td><td>86</td><td>56</td></tr><tr><td>Texnik hujjatlar</td><td>76</td><td>31</td><td>44</td></tr><tr><td>Mashina vaqti jurnallari</td><td>4</td><td>17</td><td>39</td></tr><tr><td>Dastur matnlari</td><td>8</td><td>3</td><td>33</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Muhokama</title>
+<p>Yondashuvlarning almashinuvi fan tarixining kashfiyotlar va ixtirochilar tarixidan bilimning ijtimoiy tarixi va amaliyotlar tarixiga tomon umumiy evolyutsiyasini aks ettiradi. Shu bilan birga texnik-biografik ishlar faktik maʼlumotlar manbai sifatida, ayniqsa ular tadqiqotchilar uchun mavjud boʻlmagan hujjatlarga asoslangan hollarda, oʻz qimmatini saqlab qoladi.</p>
+<p>Asosiy boʻshliqlar hisoblash ishining “koʻrinmas” ishtirokchilari — operatorlar, perfokarta teshuvchilar, dasturchilar (ularning koʻpchiligi ayollar boʻlgan) — hamda mintaqaviy markazlar bilan bogʻliq. Voqealar ishtirokchilari bilan intervyu yozib olish uchun vaqt cheklangan, bu esa ogʻzaki tarix loyihalarini ayniqsa dolzarb qiladi.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Xulosa</title>
+<p>Hisoblash markazlari tarixshunosligi mashinalar tarixidan amaliyotlar tarixigacha boʻlgan yoʻlni bosib oʻtdi. Keyingi taraqqiyot manbalar bazasini kengaytirishni — mashina vaqti jurnallari va dasturlarni tizimli izlashni — hamda arxiv ishini ogʻzaki tarix bilan uygʻunlashtirishni talab qiladi.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Adabiyotlar roʻyxati</title>
+<ref id="r1"><mixed-citation>Campbell-Kelly M., Aspray W., Ensmenger N., Yost J. R. Computer: A History of the Information Machine. 3rd ed. Boulder: Westview Press, 2014. 360 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Ensmenger N. The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise. Cambridge, MA: MIT Press, 2010. 336 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Вершинин Л. А. Вычислительный центр как научное учреждение: опыт институционального анализа // Вопросы истории науки и техники. 2019. Т. 40, № 3. С. 77–96.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Вершинин Л. А., Гладкова З. Н. Журналы машинного времени как исторический источник // Архивы и история техники. 2021. № 2. С. 12–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Haigh T., Priestley M. Computing practices and the history of software: an agenda // Annals of Computing History Review. 2020. Vol. 12, no. 1. P. 3–21.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Гладкова З. Н. Женщины в программировании 1950–1970-х гг.: материалы устной истории // Наука и общество в истории. 2022. Т. 6, № 4. С. 101–118.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Abbate J. Recoding Gender: Women's Changing Participation in Computing. Cambridge, MA: MIT Press, 2012. 264 p.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мирский Е. Б. Региональные вычислительные центры и научная политика. М.: Хронос, 2018. 304 с.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Dahl K., Ostrowski P. Numerical weather prediction and the making of a computing community // Science in Context Studies. 2019. Vol. 27. P. 210–233.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="az">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fənlərarası Tədqiqatlar Jurnalı (demo versiya)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems platformasında demo jurnal</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Tsifra» MMC</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Elmi məqalə</subject></subj-group></article-categories>
+<title-group>
+<article-title>Adaptiv onlayn kurslar və birinci kurs tələbələrinin akademik müvəffəqiyyəti: kvazieksperimental tədqiqat</article-title>
+<trans-title-group xml:lang="en"><trans-title>Adaptive Online Courses and First-Year Students' Academic Performance: A Quasi-Experimental Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Fedorova</surname><given-names>Irina</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Fedorova</surname><given-names>Irina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>i.fedorova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Kovalenko</surname><given-names>Maxim</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kovalenko</surname><given-names>Maxim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Lesnoqorsk Pedaqoji Universiteti</institution>, <country country="RU">Rusiya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>8</fpage><lpage>10</lpage>
+<history><date date-type="received" iso-8601-date="2025-02-26"><day>26</day><month>02</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-01"><day>01</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Irina Fedorova, Maxim Kovalenko</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 lisenziyası əsasında yayılır</license-p></license></permissions>
+<abstract xml:lang="az"><p>Universitetdə təhsilin birinci ili akademik müvəffəqiyyətsizlik və təhsildən xaric edilmə riskinin ən yüksək olduğu dövrdür; bu, xüsusilə tələbələrin məktəb hazırlığındakı fərqlərin daha böyük olduğu riyazi fənlərə aiddir. Məqalədə riyazi analiz üzrə adaptiv onlayn kursun pedaqoji universitetin birinci kurs tələbələrinin müvəffəqiyyətinə təsiri qiymətləndirilir. Adaptiv sistem tapşırıqları və tədris materiallarını tələbənin cari bilik səviyyəsinin və səhvlərinin diaqnostikası əsasında seçirdi. Tədqiqat kvazieksperimental dizaynda aparılmışdır: 2023/24-cü tədris ilinin iki axınının tələbələri (n = 214) adaptiv kursdan istifadə etmiş, əvvəlki ilin iki axınının tələbələri (n = 198) isə eyni müəllimlərlə ənənəvi sxem üzrə təhsil almışdır. Qrupların müqayisəliliyini artırmaq üçün qəbul imtahanlarının nəticələri, cins və məktəbin növü nəzərə alınmaqla meyillilik balı üzrə uyğunlaşdırma (propensity score matching) tətbiq edilmişdir. Eksperimental qrupda yekun imtahan üzrə orta bal 100 baldan 7,4 bal yüksək olmuş, imtahanı ilk cəhddə verə bilməyən tələbələrin payı isə 23%-dən 14%-ə enmişdir. Ən böyük effekt qəbul balları aşağı olan tələbələrdə müşahidə edilmişdir. Rəqəmsal izlərin təhlili göstərmişdir ki, uğurun əsas prediktoru sistemdə sərf olunan ümumi vaxt deyil, sistemlə işin müntəzəmliyi olmuşdur. Belə nəticəyə gəlinmişdir ki, adaptiv kurslardan birinci kurs tələbələrinin başlanğıc imkanlarının bərabərləşdirilməsi aləti kimi istifadə edilməsi məqsədəuyğundur.</p></abstract>
+<trans-abstract xml:lang="en"><p>The first year at university carries the highest risk of academic failure and dropout, especially in mathematics, where differences in students' school preparation are particularly large. This article evaluates the effect of an adaptive online course in calculus on the performance of first-year students at a pedagogical university. The adaptive system selected exercises and learning materials based on a diagnosis of the student's current level of knowledge and errors. The study used a quasi-experimental design: students in two cohorts of the 2023/24 academic year (n = 214) used the adaptive course, while students in two cohorts of the previous year (n = 198) studied under the traditional scheme with the same instructors. To improve group comparability, propensity score matching was applied on entrance examination results, gender and school type. The mean final examination score in the experimental group was 7.4 points higher out of 100, and the share of students failing the examination at the first attempt fell from 23% to 14%. The largest effect was observed among students with low entrance scores. Analysis of digital traces showed that the key predictor of success was the regularity of work with the system rather than the total time spent in it. We conclude that adaptive courses are a worthwhile tool for levelling first-year students' starting opportunities.</p></trans-abstract>
+<kwd-group xml:lang="az" kwd-group-type="author"><kwd>adaptiv təlim</kwd><kwd>onlayn kurslar</kwd><kwd>akademik müvəffəqiyyət</kwd><kwd>birinci kurs tələbələri</kwd><kwd>təlim analitikası</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>adaptive learning</kwd><kwd>online courses</kwd><kwd>academic performance</kwd><kwd>first-year students</kwd><kwd>learning analytics</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Giriş</title>
+<p>Məktəbdən universitetə keçid tələbənin müstəqilliyinə qoyulan tələblərin kəskin dəyişməsi ilə müşayiət olunur. Bir çox ali məktəblərin məlumatına görə, tələbələrin ən böyük hissəsi məhz birinci kursda təhsildən xaric edilir, riyazi fənlər isə əsas «filtrə» çevrilir. Bunun səbəbi əsasən məktəb hazırlığının qeyri-bərabərliyindədir ki, onu da frontal məşğələlər çərçivəsində kompensasiya etmək çətindir.</p>
+<p>Tapşırıqları tələbənin fərdi səviyyəsinə uyğun seçən adaptiv təlim sistemləri fərdi repetitorluq effektinə yaxınlaşmağın bir yolu kimi nəzərdən keçirilir. Lakin Rusiya ali məktəblərində onların effektivliyinin ciddi qiymətləndirmələri azdır. Bu tədqiqatda riyazi analiz üzrə adaptiv kursun birinci kurs tələbələrinin nəticələrinə təsiri qiymətləndirilir.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar və metodlar</title>
+<p>Adaptiv kurs 14 tematik moduldan və tipik səhvləri qeyd edilmiş 1 860 tapşırıqdan ibarət bankdan ibarət idi. Hər tapşırıqdan sonra sistem bayes bilik izləmə modeli əsasında bacarıqların mənimsənilməsi qiymətləndirməsini yeniləyir və növbəti tapşırığı və ya izahedici materialı təklif edirdi. Kurs sərbəst işin məcburi hissəsi kimi istifadə olunurdu.</p>
+<p>Eksperimental qrupu 2023-cü il qəbulunun 214 tələbəsi, nəzarət qrupunu isə eyni müəllimlərdən eyni proqram üzrə ənənəvi ev tapşırıqları ilə təhsil almış 2022-ci il qəbulunun 198 tələbəsi təşkil etmişdir. Uyğunlaşdırma üçün qəbul ballarının cəmi, cins və məktəbin növü üzrə logistik reqressiya ilə qiymətləndirilmiş meyillilik balından istifadə edilmişdir; uyğunlaşdırmadan sonra təhlilə 181 cüt daxil olmuşdur.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Nəticələr</title>
+<p>Uyğunlaşdırmadan sonra yekun imtahan üzrə orta bal eksperimental qrupda 68,9, nəzarət qrupunda isə 61,5 olmuşdur (fərq 7,4 bal; 95% EI: 4,1–10,7). Effektin qəbul ballarının kvartilləri üzrə bölgüsü Şəkil 1-də göstərilmişdir: ən böyük artım aşağı kvartildə müşahidə olunur.</p>
+<fig id="f1" position="float"><caption><p>Şəkil 1. Qəbul ballarının kvartilləri üzrə orta imtahan balı</p></caption></fig>
+<p>Sistem jurnallarının təhlili göstərmişdir ki, fəal iş həftələrinin sayı yekun balla ümumi iş vaxtından (r = 0,29) daha güclü əlaqəlidir (r = 0,52). Əsas nəticələr Cədvəl 1-də verilmişdir.</p>
+<table-wrap id="t1" position="float"><caption><p>Cədvəl 1. Yekun imtahanın nəticələri (uyğunlaşdırılmış nümunələr, 181 cüt)</p></caption><table><thead><tr><th>Göstərici</th><th>Nəzarət</th><th>Adaptiv kurs</th><th>Fərq</th></tr></thead><tbody><tr><td>Orta bal</td><td>61,5</td><td>68,9</td><td>+7,4</td></tr><tr><td>İlk cəhddə verə bilməyənlər, %</td><td>23</td><td>14</td><td>−9 f.b.</td></tr><tr><td>«Əla» qiyməti, %</td><td>12</td><td>17</td><td>+5 f.b.</td></tr><tr><td>1-ci sessiyadan sonra xaric edilənlər, %</td><td>8,3</td><td>5,0</td><td>−3,3 f.b.</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Müzakirə</title>
+<p>Əldə edilmiş effekt ali təhsildə adaptiv praktikaya dair xarici meta-analizlərin nəticələri ilə müqayisə ediləndir. Onun zəif hazırlıqlı tələbələr qrupunda cəmlənməsi göstərir ki, adaptiv kurslar başlanğıc şəraitdəki fərqləri qismən kompensasiya etməyə qadirdir.</p>
+<p>Kvazieksperimental dizayn müxtəlif illərin qəbulları arasında uyğunlaşdırma zamanı nəzərə alınmamış fərqlərin təsirini tamamilə istisna etməyə imkan vermir. Buna baxmayaraq, müəllimlərin, proqramın və imtahan formasının eyni olması sürüşmə riskini azaldır. İşin müntəzəmliyinin əhəmiyyətinə dair nəticənin birbaşa praktik nəticəsi var: həftəlik nəzarət nöqtələri effekti gücləndirə bilər.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Yekun</title>
+<p>Riyazi analiz üzrə adaptiv onlayn kurs birinci kurs tələbələrinin müvəffəqiyyətini artırmış və qeyri-qənaətbəxş nəticələrin payını, xüsusilə qəbul balları aşağı olan tələbələr arasında azaltmışdır. Adaptiv kursların müntəzəm işi dəstəkləyən mexanizmlərlə birləşdirilməsi tövsiyə olunur.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ədəbiyyat siyahısı</title>
+<ref id="r1"><mixed-citation>Bloom B. S. The 2 sigma problem: the search for methods of group instruction as effective as one-to-one tutoring // Educational Researcher. 1984. Vol. 13, no. 6. P. 4–16.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Rosenbaum P. R., Rubin D. B. The central role of the propensity score in observational studies for causal effects // Biometrika. 1983. Vol. 70, no. 1. P. 41–55.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Федорова И. С. Адаптивные системы обучения в высшей школе: модели и практики // Цифровая дидактика. 2022. Т. 5, № 2. С. 7–25.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Коваленко М. Ю., Федорова И. С. Цифровые следы студентов как источник данных для прогнозирования успеваемости // Образование и аналитика. 2023. № 1. С. 44–59.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Reyes M., Ahlberg J. Adaptive practice and mathematics achievement in higher education: a meta-analysis // Journal of Learning Technologies. 2021. Vol. 19, no. 2. P. 133–152.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тарасова Н. В. Математическая подготовка первокурсников: проблемы перехода от школы к вузу. Лесногорск: ЛПУ, 2020. 176 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Hughes D., Varga E. Spacing and regularity in online learning: evidence from log data // Learning Analytics Review. 2022. Vol. 8. P. 60–79.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

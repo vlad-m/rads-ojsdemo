@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="uz">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fanlararo tadqiqotlar jurnali (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems demo jurnali</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>“Tsifra” MChJ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Ilmiy maqola</subject></subj-group></article-categories>
+<title-group>
+<article-title>Adaptiv onlayn kurslar va birinchi kurs talabalarining oʻzlashtirishi: kvazieksperimental tadqiqot</article-title>
+<trans-title-group xml:lang="en"><trans-title>Adaptive Online Courses and First-Year Students' Academic Performance: A Quasi-Experimental Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Fedorova</surname><given-names>Irina</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Fedorova</surname><given-names>Irina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>i.fedorova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Kovalenko</surname><given-names>Maxim</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kovalenko</surname><given-names>Maxim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Lesnogorsk pedagogika universiteti</institution>, <country country="RU">Rossiya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>8</fpage><lpage>10</lpage>
+<history><date date-type="received" iso-8601-date="2025-02-26"><day>26</day><month>02</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-01"><day>01</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Irina Fedorova, Maxim Kovalenko</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 litsenziyasi asosida tarqatiladi</license-p></license></permissions>
+<abstract xml:lang="uz"><p>Universitetdagi birinchi yil akademik qarzdorlik va oʻqishdan chetlashish xavfi eng yuqori boʻlgan davr hisoblanadi, ayniqsa talabalarning maktabdagi tayyorgarligidagi farqlar juda katta boʻlgan matematika fanida. Ushbu maqolada matematik tahlil boʻyicha adaptiv onlayn kursning pedagogika universiteti birinchi kurs talabalarining oʻzlashtirishiga taʼsiri baholanadi. Adaptiv tizim talabaning joriy bilim darajasi va xatolari diagnostikasi asosida mashqlar va oʻquv materiallarini tanlab berdi. Tadqiqotda kvazieksperimental dizayn qoʻllanildi: 2023/24-oʻquv yilidagi ikki oqim talabalari (n = 214) adaptiv kursdan foydalandi, oldingi yilning ikki oqimi talabalari (n = 198) esa xuddi shu oʻqituvchilar bilan anʼanaviy sxema boʻyicha taʼlim oldi. Guruhlarning taqqoslanuvchanligini oshirish uchun kirish imtihonlari natijalari, jinsi va maktab turi boʻyicha moyillik koʻrsatkichi asosida juftlash (propensity score matching) qoʻllanildi. Eksperimental guruhda yakuniy imtihonning oʻrtacha bali 100 balldan 7,4 ballga yuqori boʻldi, imtihonni birinchi urinishda topshira olmagan talabalar ulushi esa 23% dan 14% gacha kamaydi. Eng katta samara kirish ballari past boʻlgan talabalarda kuzatildi. Raqamli izlar tahlili shuni koʻrsatdiki, muvaffaqiyatning asosiy prediktori tizimda oʻtkazilgan umumiy vaqt emas, balki u bilan ishlashning muntazamligi boʻlgan. Xulosa qilib aytganda, adaptiv kurslar birinchi kurs talabalarining boshlangʻich imkoniyatlarini tenglashtirish uchun maqsadga muvofiq vosita hisoblanadi.</p></abstract>
+<trans-abstract xml:lang="en"><p>The first year at university carries the highest risk of academic failure and dropout, especially in mathematics, where differences in students' school preparation are particularly large. This article evaluates the effect of an adaptive online course in calculus on the performance of first-year students at a pedagogical university. The adaptive system selected exercises and learning materials based on a diagnosis of the student's current level of knowledge and errors. The study used a quasi-experimental design: students in two cohorts of the 2023/24 academic year (n = 214) used the adaptive course, while students in two cohorts of the previous year (n = 198) studied under the traditional scheme with the same instructors. To improve group comparability, propensity score matching was applied on entrance examination results, gender and school type. The mean final examination score in the experimental group was 7.4 points higher out of 100, and the share of students failing the examination at the first attempt fell from 23% to 14%. The largest effect was observed among students with low entrance scores. Analysis of digital traces showed that the key predictor of success was the regularity of work with the system rather than the total time spent in it. We conclude that adaptive courses are a worthwhile tool for levelling first-year students' starting opportunities.</p></trans-abstract>
+<kwd-group xml:lang="uz" kwd-group-type="author"><kwd>adaptiv taʼlim</kwd><kwd>onlayn kurslar</kwd><kwd>oʻzlashtirish</kwd><kwd>birinchi kurs talabalari</kwd><kwd>taʼlim analitikasi</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>adaptive learning</kwd><kwd>online courses</kwd><kwd>academic performance</kwd><kwd>first-year students</kwd><kwd>learning analytics</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Kirish</title>
+<p>Maktabdan universitetga oʻtish talabaning mustaqilligiga qoʻyiladigan talablarning keskin oʻzgarishi bilan kechadi. Koʻplab oliy taʼlim muassasalari maʼlumotlariga koʻra, talabalarning eng katta ulushi aynan birinchi kursda oʻqishdan chetlashtiriladi, matematik fanlar esa asosiy “filtr”ga aylanadi. Buning sababi koʻp jihatdan maktabdagi tayyorgarlikning bir xil emasligida boʻlib, uni frontal mashgʻulotlar doirasida qoplash qiyin.</p>
+<p>Topshiriqlarni talabaning individual darajasiga moslab tanlaydigan adaptiv oʻqitish tizimlari individual repetitorlik samarasiga yaqinlashish usuli sifatida qaraladi. Biroq Rossiya oliy taʼlim muassasalarida ularning samaradorligiga oid qatʼiy baholar kam. Ushbu tadqiqot matematik tahlil boʻyicha adaptiv kursning birinchi kurs talabalari natijalariga taʼsirini baholaydi.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar va usullar</title>
+<p>Adaptiv kurs 14 ta mavzuli modul va odatiy xatolar belgilab chiqilgan 1 860 ta topshiriqdan iborat bankni oʻz ichiga oldi. Har bir topshiriqdan soʻng tizim bilimlarni bayescha kuzatish modeli boʻyicha koʻnikmalarni oʻzlashtirish bahosini yangiladi va navbatdagi topshiriq yoki tushuntiruvchi materialni taklif qildi. Kurs mustaqil ishning majburiy qismi sifatida foydalanildi.</p>
+<p>Eksperimental guruhni 2023-yilda qabul qilingan 214 nafar talaba, nazorat guruhini esa xuddi shu oʻqituvchilar qoʻl ostida xuddi shu dastur boʻyicha anʼanaviy uy vazifalari bilan oʻqigan 2022-yilda qabul qilingan 198 nafar talaba tashkil etdi. Taqqoslash uchun kirish ballari yigʻindisi, jinsi va maktab turi boʻyicha logistik regressiya yordamida baholangan moyillik indeksidan foydalanildi; juftlashdan soʻng tahlilga 181 juftlik kiritildi.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Natijalar</title>
+<p>Juftlashdan soʻng yakuniy imtihon boʻyicha oʻrtacha ball eksperimental guruhda 68,9, nazorat guruhida esa 61,5 ni tashkil etdi (farq 7,4 ball; 95% IO: 4,1–10,7). Samaraning kirish ballari kvartillari boʻyicha taqsimoti 1-rasmda koʻrsatilgan: eng katta oʻsish quyi kvartilda kuzatiladi.</p>
+<fig id="f1" position="float"><caption><p>1-rasm. Kirish ballari kvartillari boʻyicha oʻrtacha imtihon bali</p></caption></fig>
+<p>Tizim jurnallarining tahlili faol ish olib borilgan haftalar soni yakuniy ball bilan umumiy ish vaqtiga (r = 0,29) qaraganda kuchliroq bogʻliq ekanini (r = 0,52) koʻrsatdi. Asosiy natijalar 1-jadvalda keltirilgan.</p>
+<table-wrap id="t1" position="float"><caption><p>1-jadval. Yakuniy imtihon natijalari (juftlangan tanlanmalar, 181 juftlik)</p></caption><table><thead><tr><th>Koʻrsatkich</th><th>Nazorat</th><th>Adaptiv kurs</th><th>Farq</th></tr></thead><tbody><tr><td>Oʻrtacha ball</td><td>61,5</td><td>68,9</td><td>+7,4</td></tr><tr><td>Birinchi urinishda topshira olmaganlar, %</td><td>23</td><td>14</td><td>−9 f. p.</td></tr><tr><td>“Aʼlo” baho, %</td><td>12</td><td>17</td><td>+5 f. p.</td></tr><tr><td>1-sessiyadan soʻng chetlashtirilganlar, %</td><td>8,3</td><td>5,0</td><td>−3,3 f. p.</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Muhokama</title>
+<p>Olingan samara oliy taʼlimda adaptiv amaliyotga oid xorijiy metatahlillar natijalari bilan taqqoslanadigan darajada. Uning tayyorgarligi zaif talabalar guruhida jamlanganligi adaptiv kurslar boshlangʻich sharoitlardagi farqlarni qisman qoplashga qodir ekanini koʻrsatadi.</p>
+<p>Kvazieksperimental dizayn juftlashda hisobga olinmagan turli yillar qabullari oʻrtasidagi farqlar taʼsirini toʻliq istisno etishga imkon bermaydi. Shunga qaramay, oʻqituvchilar, dastur va imtihon shaklining bir xilligi siljish xavfini kamaytiradi. Ishning muntazamligi muhimligi haqidagi natija bevosita amaliy ahamiyatga ega: haftalik nazorat nuqtalari samarani kuchaytirishi mumkin.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Xulosa</title>
+<p>Matematik tahlil boʻyicha adaptiv onlayn kurs birinchi kurs talabalarining oʻzlashtirishini oshirdi va qoniqarsiz natijalar ulushini kamaytirdi, ayniqsa kirish ballari past boʻlgan talabalar orasida. Adaptiv kurslarni muntazam ishni qoʻllab-quvvatlash mexanizmlari bilan uygʻunlashtirish tavsiya etiladi.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Adabiyotlar roʻyxati</title>
+<ref id="r1"><mixed-citation>Bloom B. S. The 2 sigma problem: the search for methods of group instruction as effective as one-to-one tutoring // Educational Researcher. 1984. Vol. 13, no. 6. P. 4–16.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Rosenbaum P. R., Rubin D. B. The central role of the propensity score in observational studies for causal effects // Biometrika. 1983. Vol. 70, no. 1. P. 41–55.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Федорова И. С. Адаптивные системы обучения в высшей школе: модели и практики // Цифровая дидактика. 2022. Т. 5, № 2. С. 7–25.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Коваленко М. Ю., Федорова И. С. Цифровые следы студентов как источник данных для прогнозирования успеваемости // Образование и аналитика. 2023. № 1. С. 44–59.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Reyes M., Ahlberg J. Adaptive practice and mathematics achievement in higher education: a meta-analysis // Journal of Learning Technologies. 2021. Vol. 19, no. 2. P. 133–152.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тарасова Н. В. Математическая подготовка первокурсников: проблемы перехода от школы к вузу. Лесногорск: ЛПУ, 2020. 176 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Hughes D., Varga E. Spacing and regularity in online learning: evidence from log data // Learning Analytics Review. 2022. Vol. 8. P. 60–79.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

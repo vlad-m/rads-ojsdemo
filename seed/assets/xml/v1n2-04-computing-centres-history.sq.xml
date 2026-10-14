@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="sq">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista e Kërkimeve Ndërdisiplinore (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revistë demonstruese në Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra sh.p.k.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Vështrim</subject></subj-group></article-categories>
+<title-group>
+<article-title>Qendrat llogaritëse të viteve 1950–1970 si institucione shkencore: një vështrim historiografik</article-title>
+<trans-title-group xml:lang="en"><trans-title>Computing Centres of the 1950s–1970s as Scientific Institutions: A Historiographical Review</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Vershinin</surname><given-names>Leonid</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vershinin</surname><given-names>Leonid</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>l.vershinin@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Qendra «Chronos» për Historinë e Shkencës dhe të Teknologjisë</institution>, <country country="RU">Rusi</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-01-20"><day>20</day><month>01</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-06-10"><day>10</day><month>06</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Leonid Vershinin</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licencuar sipas CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="sq"><p>Qendrat llogaritëse, të krijuara në mesin e shekullit të njëzetë pranë instituteve kërkimore, universiteteve dhe ndërmarrjeve industriale, luajtën një rol kyç në shndërrimin e llogaritjes në një instrument të pavarur të kërkimit shkencor. Ky vështrim shqyrton se si historianët e shkencës dhe të teknologjisë i kanë studiuar këto institucione gjatë pesëdhjetë viteve të fundit. Në bazë të analizës së 64 monografive, artikujve dhe vëllimeve të redaktuara, identifikohen tri qasje kryesore historiografike. E para, teknike-biografike, përqendrohet në ndërtimin e kompjuterëve të veçantë dhe në punën e projektuesve të tyre. E dyta, institucionale, i trajton qendrat llogaritëse si organizata me strukturën e tyre, politikat e personelit dhe marrëdhëniet me klientët. E treta, e cila është shfaqur gjatë dy dekadave të fundit, studion praktikat llogaritëse: si ndërvepronin programuesit, operatorët dhe përdoruesit me makinat dhe si e transformoi llogaritja metodologjinë e disiplinave të veçanta, nga meteorologjia te gjuhësia. Temat më pak të studiuara mbeten puna e përditshme e qendrave llogaritëse, roli i grave programuese dhe operatore, si dhe qendrat rajonale jashtë qyteteve më të mëdha shkencore. Veçmas diskutohen problemet e bazës së burimeve, përfshirë ruajtjen e dokumentacionit teknik, të regjistrave të kohës së makinës dhe të programeve. Vështrimi arrin në përfundimin se kombinimi i kërkimit arkivor me metodat e historisë gojore është premtues për sa kohë që pjesëmarrësit në këto ngjarje janë ende gjallë.</p></abstract>
+<trans-abstract xml:lang="en"><p>Computing centres, established in the mid-twentieth century at research institutes, universities and industrial enterprises, played a key role in turning computation into an independent instrument of scientific inquiry. This review examines how historians of science and technology have studied these institutions over the past fifty years. Based on an analysis of 64 monographs, articles and edited volumes, three main historiographical approaches are identified. The first, technical-biographical, focuses on the construction of particular computers and the work of their designers. The second, institutional, treats computing centres as organisations with their own structure, staffing policies and relations with clients. The third, which has emerged over the last two decades, investigates computing practices: how programmers, operators and users interacted with machines and how computation transformed the methods of individual disciplines, from meteorology to linguistics. The least studied topics remain the everyday work of computing centres, the role of women programmers and operators, and regional centres outside the largest science cities. Problems of the source base are discussed separately, including the preservation of technical documentation, machine-time logs and programs. The review concludes that combining archival research with oral history methods is promising while participants in these events are still alive.</p></trans-abstract>
+<kwd-group xml:lang="sq" kwd-group-type="author"><kwd>historia e shkencës</kwd><kwd>historia e informatikës</kwd><kwd>qendra llogaritëse</kwd><kwd>historiografi</kwd><kwd>histori gojore</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>history of science</kwd><kwd>history of computing</kwd><kwd>computing centres</kwd><kwd>historiography</kwd><kwd>oral history</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Hyrje</title>
+<p>Shfaqja e makinave llogaritëse elektronike në fund të viteve 1940 dhe në vitet 1950 kërkoi krijimin e institucioneve të posaçme: makinat ishin të shtrenjta, zinin salla të tëra dhe kërkonin mirëmbajtje gjatë gjithë kohës. Qendrat llogaritëse u bënë vendi ku takoheshin inxhinierët, matematikanët dhe shkencëtarët përdorues, dhe ku gradualisht u formuan profesione të reja — programuesi dhe operatori.</p>
+<p>Historiografia e qendrave llogaritëse u zhvillua së bashku me vetë historinë e teknikës llogaritëse si disiplinë. Qëllimi i vështrimit është të sistematizojë qasjet ndaj studimit të këtyre institucioneve, të identifikojë temat pak të studiuara dhe të diskutojë gjendjen e bazës së burimeve.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materialet dhe metodat</title>
+<p>Korpusi i vështrimit u formua në bazë të bibliografive të punimeve kyçe dhe të treguesve tematikë të revistave të specializuara për historinë e shkencës dhe të teknikës. U përfshinë studimet në të cilat qendra llogaritëse (dhe jo një makinë apo një person i veçantë) është objekt analize të paktën në një kapitull ose seksion. Korpusi përfundimtar përbëhej nga 64 punime të botuara nga viti 1975 deri në vitin 2024.</p>
+<p>Çdo punim u klasifikua sipas qasjes mbizotëruese, llojit të burimeve të përdorura dhe gjeografisë së institucioneve të studiuara. Klasifikimi u krye nga autori dhe u rikontrollua pas një viti për të vlerësuar qëndrueshmërinë e tij.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Rezultatet</title>
+<p>Shpërndarja e punimeve sipas dekadave dhe qasjeve tregohet në fig. 1. Deri në vitet 1990 mbizotëronte qasja teknike-biografike, e përfaqësuar kryesisht nga kujtimet e pjesëmarrësve në ngjarje dhe nga botimet përkujtimore. Studimet institucionale u bënë të dukshme në vitet 1990–2000, ndërsa studimet e praktikave pas vitit 2010.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Numri i punimeve sipas dekadës së botimit dhe qasjes mbizotëruese</p></caption></fig>
+<p>Tab. 1 tregon se cilat burime përdoren në kuadër të qasjeve të ndryshme. Vlen të përmendet se regjistrat e kohës së makinës dhe tekstet e ruajtura të programeve përdoren vetëm në një pjesë të vogël të punimeve, megjithëse ato lejojnë rindërtimin e ngarkesës reale të makinave dhe të përbërjes së problemeve që zgjidheshin.</p>
+<table-wrap id="t1" position="float"><caption><p>Tabela 1. Llojet e burimeve sipas qasjeve historiografike (përqindja e punimeve, %)</p></caption><table><thead><tr><th>Lloji i burimit</th><th>Tekn.-biogr.</th><th>Instituc.</th><th>Praktikat</th></tr></thead><tbody><tr><td>Kujtime dhe intervista</td><td>84</td><td>48</td><td>72</td></tr><tr><td>Dokumentacioni administrativ i institucioneve</td><td>28</td><td>86</td><td>56</td></tr><tr><td>Dokumentacioni teknik</td><td>76</td><td>31</td><td>44</td></tr><tr><td>Regjistrat e kohës së makinës</td><td>4</td><td>17</td><td>39</td></tr><tr><td>Tekstet e programeve</td><td>8</td><td>3</td><td>33</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Diskutimi</title>
+<p>Ndryshimi i qasjeve pasqyron evolucionin e përgjithshëm të historisë së shkencës nga historia e zbulimeve dhe e shpikësve drejt historisë sociale të dijes dhe historisë së praktikave. Megjithatë, punimet teknike-biografike ruajnë vlerën e tyre si burim informacioni faktik, sidomos kur bazohen në dokumente të paarritshme për studiuesit.</p>
+<p>Boshllëqet kryesore lidhen me pjesëmarrësit «e padukshëm» të punës llogaritëse — operatorët, perforatoret, programuesit, shumë prej të cilëve ishin gra — dhe me qendrat rajonale. Koha për regjistrimin e intervistave me pjesëmarrësit në ngjarje është e kufizuar, gjë që i bën projektet e historisë gojore veçanërisht aktuale.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Përfundimi</title>
+<p>Historiografia e qendrave llogaritëse ka përshkuar rrugën nga historia e makinave te historia e praktikave. Përparimi i mëtejshëm kërkon zgjerimin e bazës së burimeve — kërkimin sistematik të regjistrave të kohës së makinës dhe të programeve — dhe kombinimin e punës arkivore me historinë gojore.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Bibliografia</title>
+<ref id="r1"><mixed-citation>Campbell-Kelly M., Aspray W., Ensmenger N., Yost J. R. Computer: A History of the Information Machine. 3rd ed. Boulder: Westview Press, 2014. 360 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Ensmenger N. The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise. Cambridge, MA: MIT Press, 2010. 336 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Вершинин Л. А. Вычислительный центр как научное учреждение: опыт институционального анализа // Вопросы истории науки и техники. 2019. Т. 40, № 3. С. 77–96.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Вершинин Л. А., Гладкова З. Н. Журналы машинного времени как исторический источник // Архивы и история техники. 2021. № 2. С. 12–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Haigh T., Priestley M. Computing practices and the history of software: an agenda // Annals of Computing History Review. 2020. Vol. 12, no. 1. P. 3–21.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Гладкова З. Н. Женщины в программировании 1950–1970-х гг.: материалы устной истории // Наука и общество в истории. 2022. Т. 6, № 4. С. 101–118.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Abbate J. Recoding Gender: Women's Changing Participation in Computing. Cambridge, MA: MIT Press, 2012. 264 p.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мирский Е. Б. Региональные вычислительные центры и научная политика. М.: Хронос, 2018. 304 с.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Dahl K., Ostrowski P. Numerical weather prediction and the making of a computing community // Science in Context Studies. 2019. Vol. 27. P. 210–233.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

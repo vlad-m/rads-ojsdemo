@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="uz">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fanlararo tadqiqotlar jurnali (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems demo jurnali</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>“Tsifra” MChJ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Qisqa xabar</subject></subj-group></article-categories>
+<title-group>
+<article-title>Shahar bogʻlari tuproqlarining mikrobiomi: metabarkodlashning dastlabki natijalari</article-title>
+<trans-title-group xml:lang="en"><trans-title>The Soil Microbiome of Urban Parks: First Results of Metabarcoding</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author"><name name-style="western"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Guseva</surname><given-names>Polina</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Guseva</surname><given-names>Polina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/><email>p.guseva@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Kaspiy ekologik tadqiqotlar instituti</institution>, <country country="KZ">Qozogʻiston</country></aff>
+<aff id="aff2"><institution>Novobor davlat universiteti</institution>, <country country="RU">Rossiya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-10-28"><day>28</day><month>10</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-02-09"><day>09</day><month>02</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Aigerim Nurlanova, Polina Guseva</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 litsenziyasi asosida tarqatiladi</license-p></license></permissions>
+<abstract xml:lang="uz"><p>Shahar bogʻlarining tuproqlari muhim ekotizim funksiyalarini bajaradi — oqimni tartibga soladi, uglerodni saqlaydi va oʻsimliklar oʻsishini taʼminlaydi, biroq ularning mikrob jamoalari tabiiy tuproqlarnikiga qaraganda ancha kam oʻrganilgan. Ushbu qisqa xabarda anonimlashtirilgan yirik shahardagi yoshi va rekreatsion foydalanish intensivligi jihatidan farq qiluvchi oltita bogʻ tuproqlaridagi bakterial jamoalarni metabarkodlashning dastlabki natijalari keltiriladi. Maysazorlardan, daraxtlar soyasidagi maydonlardan va piyodalar yoʻlkalari boʻylab tuproqning ustki qatlamidan yetmish ikkita namuna olindi. Jamoalar tarkibi 16S rRNK genining V4 oʻzgaruvchan sohasini sekvenirlash orqali aniqlandi; parallel ravishda pH, organik uglerod miqdori, tuproqning hajmiy zichligi va ogʻir metallar konsentratsiyasi oʻlchandi. Bakteriyalarning alfa-xilma-xilligi eski bogʻlarda daraxtlar soyasida eng yuqori, zichlashgan yoʻlkalar boʻylab esa eng past boʻldi. Jamoalar tuzilishi maydon turlari oʻrtasida sezilarli darajada (PERMANOVA, R² = 0,21), bogʻlar oʻrtasida esa kamroq darajada farq qildi. Jamoalar tarkibini shakllantiruvchi eng muhim omillar pH va hajmiy zichlik boʻldi, oʻrganilgan konsentratsiyalarda ogʻir metallarning taʼsiri esa zaif edi. Ushbu maʼlumotlar bogʻlarni boshqarish va rejalashtirish tuproq mikrob xilma-xilligiga kamida ifloslanish kabi taʼsir koʻrsatishini koʻrsatadi. Kengaytirilgan tanlanma va zamburugʻ jamoalarini qamrab olgan holda ish davom ettirilmoqda.</p></abstract>
+<trans-abstract xml:lang="en"><p>The soils of urban parks perform important ecosystem functions, regulating runoff, storing carbon and supporting plant growth, yet their microbial communities have been studied far less than those of natural soils. This short communication presents the first results of metabarcoding of bacterial communities in the soils of six parks in an anonymised large city that differ in age and intensity of recreational use. Seventy-two samples of the topsoil were collected from lawns, areas under tree cover and along footpaths. Community composition was determined by sequencing the V4 variable region of the 16S rRNA gene; pH, organic carbon content, soil bulk density and heavy metal concentrations were measured in parallel. Bacterial alpha diversity was highest under tree cover in older parks and lowest along compacted paths. Community structure differed significantly between site types (PERMANOVA, R² = 0.21) and to a lesser extent between parks. The most important factors shaping community composition were pH and bulk density, whereas the effect of heavy metals at the concentrations studied was weak. These data suggest that park management and layout influence soil microbial diversity at least as much as pollution does. Work is continuing with an expanded sample and the inclusion of fungal communities.</p></trans-abstract>
+<kwd-group xml:lang="uz" kwd-group-type="author"><kwd>shahar tuproqlari</kwd><kwd>mikrobiom</kwd><kwd>metabarkodlash</kwd><kwd>16S rRNK</kwd><kwd>shahar bogʻlari</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>urban soils</kwd><kwd>microbiome</kwd><kwd>metabarcoding</kwd><kwd>16S rRNA</kwd><kwd>urban parks</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Kirish</title>
+<p>Tuproq mikroorganizmlari uglerod va azot aylanishini, tuproq tuzilishini va oʻsimliklar salomatligini belgilaydi. Shaharda tuproqlar kuchli antropogen taʼsirga — zichlashish, ifloslanish, toʻkma gruntlar keltirilishiga uchraydi, biroq bogʻlar, ayniqsa eskilari, mikrob xilma-xilligining rezervatlari boʻlib xizmat qilishi mumkin.</p>
+<p>Xabarning maqsadi — shahar bogʻlari tuproqlaridagi bakterial jamoalarning tarkibi va xilma-xilligi haqidagi dastlabki maʼlumotlarni taqdim etish hamda ularning tuzilishini belgilovchi asosiy omillarni aniqlash.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar va usullar</title>
+<p>Yoshi 15 yildan 120 yilgacha boʻlgan oltita bogʻda (B1–B6) uch turdagi maydonlarning har biridan (maysazor, daraxtzor, yoʻlka cheti) 0–10 sm qatlamdan toʻrttadan aralash namuna olindi. DNK tijoriy toʻplam yordamida ajratildi, 16S rRNK genining V4 sohasi amplifikatsiya qilindi va sekvenirlandi. Ketma-ketliklar amplikon variantlarini ajratgan holda qayta ishlandi; xilma-xillik Shennon indeksi bilan, jamoalar tuzilishidagi farqlar esa Brey — Kertis masofalari matritsasi boʻyicha PERMANOVA usuli bilan baholandi.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Natijalar</title>
+<p>Shennon indeksi maydon turlari oʻrtasida farq qildi (1-rasm): eng yuqori qiymatlar daraxtzorlar ostida, eng past qiymatlar esa tuproq zichligi 1,55 g/sm³ ga yetgan yoʻlkalar boʻylab qayd etildi. PERMANOVA tahlili natijalari 1-jadvalda keltirilgan.</p>
+<fig id="f1" position="float"><caption><p>1-rasm. Yosh va eski bogʻlarda maydon turlari boʻyicha bakterial jamoalarning Shennon indeksi</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>1-jadval. Bakterial jamoalar tuzilishi omillari (PERMANOVA, 999 ta almashtirish)</p></caption><table><thead><tr><th>Omil</th><th>R²</th><th>F</th><th>p</th></tr></thead><tbody><tr><td>Maydon turi</td><td>0,21</td><td>9,4</td><td>0,001</td></tr><tr><td>Bogʻ</td><td>0,12</td><td>2,1</td><td>0,003</td></tr><tr><td>pH</td><td>0,09</td><td>8,0</td><td>0,001</td></tr><tr><td>Tuproq zichligi</td><td>0,07</td><td>6,3</td><td>0,001</td></tr><tr><td>Ogʻir metallar yigʻindisi</td><td>0,02</td><td>1,6</td><td>0,092</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Muhokama</title>
+<p>Maydon turi va tuproq zichligining kuchli taʼsiri rekreatsion zichlashish mikrob jamoalarining kambagʻallashuvining yetakchi omili ekanini koʻrsatadi. Bu tabiiy rekreatsion hududlar uchun olingan maʼlumotlarga mos keladi. Ogʻir metallarning zaif taʼsiri ularning tadqiq qilingan bogʻlardagi moʻtadil konsentratsiyalari bilan izohlanishi mumkin. Amaliy xulosa — yoʻlka-soʻqmoqlar tarmogʻini toʻgʻri tashkil etish va daraxtlarning ildiz zonalarini oyoq osti qilinishdan himoya qilish tuproq biologik xilma-xilligini saqlashga yordam beradi.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Xulosa</title>
+<p>Shahar bogʻlari tuproqlarining bakterial xilma-xilligi birinchi navbatda maydon turi, pH va tuproqning zichlashishi bilan belgilanadi. Daraxtzori saqlanib qolgan eski bogʻlar tuproq mikrob xilma-xilligining muhim rezervatlari hisoblanadi.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Adabiyotlar roʻyxati</title>
+<ref id="r1"><mixed-citation>Fierer N., Jackson R. B. The diversity and biogeography of soil bacterial communities // Proceedings of the National Academy of Sciences of the USA. 2006. Vol. 103, no. 3. P. 626–631.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Anderson M. J. A new method for non-parametric multivariate analysis of variance // Austral Ecology. 2001. Vol. 26, no. 1. P. 32–46.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Гусева П. А. Физические свойства почв городских рекреационных территорий // Почвы и урбанизация. 2023. Т. 5, № 2. С. 40–55.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Нурланова А. Н., Гусева П. А. Тяжёлые металлы в почвах парков: пространственная изменчивость // Экосистемы и климат. 2024. Т. 6, № 3. С. 77–91.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Reese A., Kowal M. Trampling effects on soil bacterial diversity in recreational areas // Urban Ecosystems Letters. 2021. Vol. 9. P. 133–148.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Saldana P., Wu J. Park age and soil microbial community assembly // Journal of Urban Soil Science. 2022. Vol. 4, no. 1. P. 1–17.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

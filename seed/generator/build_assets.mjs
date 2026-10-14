@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Build article PDFs and issue cover PNGs from seed/content/journal.json + generator/bodies.json.
-// Usage: node build_assets.mjs [--only <slug>] [--locale <locale>] [--no-covers] [--no-pdfs]
+// Usage: node build_assets.mjs [--only <slug>] [--locale <locale>] [--no-covers] [--no-pdfs] [--web-only]
 // One PDF per article and language (journal.json "pdf": {locale: path}) and one cover per issue and language.
 // Requires the global playwright module and Chromium in $PLAYWRIGHT_BROWSERS_PATH.
 import { createRequire } from 'module';
@@ -23,8 +23,9 @@ const FIRST_PAGE = 5; // journal pagination within each issue starts after the f
 const args = process.argv.slice(2);
 const only = args.includes('--only') ? args[args.indexOf('--only') + 1] : null;
 const onlyLocale = args.includes('--locale') ? args[args.indexOf('--locale') + 1] : null;
-const doCovers = !args.includes('--no-covers') && !only;
+const doCovers = !args.includes('--no-covers') && !only && !args.includes('--web-only');
 const doPdfs = !args.includes('--no-pdfs');
+const webOnly = args.includes('--web-only'); // only the HTML and JATS XML editions
 
 const data = JSON.parse(fs.readFileSync(JSON_PATH, 'utf8'));
 const bodies = JSON.parse(fs.readFileSync(path.join(HERE, 'bodies.json'), 'utf8')); // {slug: {locale: body}}
@@ -295,6 +296,180 @@ ${sec(5, 'conclusion', paras(b.conclusion))}
 </body></html>`;
 }
 
+// ---------------------------------------------------------------- HTML and JATS XML editions
+// Shared pieces: authors with numbered affiliations, citation line, body sections.
+function articleParts(a, ctx, loc) {
+  const T = L[loc], b = bodies[a.slug][loc], issue = ctx.issue;
+  const affs = [];
+  const authorAff = a.authors.map((au) => {
+    const key = au.affiliation[loc];
+    let i = affs.findIndex((x) => x.key === key);
+    if (i < 0) { affs.push({ key, country: au.country }); i = affs.length - 1; }
+    return i + 1;
+  });
+  const pages = dashPages(a.pages);
+  const cite = loc === 'ru'
+    ? `${a.authors.map((x) => initials(x, 'ru')).join(', ')} ${a.title.ru} // ${J.abbreviation.ru} ${issue.year}. Т. ${issue.volume}, № ${issue.number}. С. ${pages}.`
+    : `${a.authors.map((x) => initials(x, loc)).join(', ')} ${a.title[loc]}. ${J.abbreviation[loc]} ${issue.year};${issue.volume}(${issue.number}):${pages}.`;
+  const sections = [['intro', b.intro], ['methods', b.methods], ['results', b.results || []], ['discussion', b.discussion], ['conclusion', b.conclusion]];
+  return { T, b, issue, affs, authorAff, pages, cite, sections, alt: loc === 'en' ? 'ru' : 'en' };
+}
+
+function articleWebHTML(a, ctx, loc) {
+  const { T, b, issue, affs, authorAff, cite, sections, alt } = articleParts(a, ctx, loc);
+  const single = affs.length === 1;
+  const authors = a.authors.map((au, i) => `<span class="au">${esc(au.givenName[loc])} ${esc(au.familyName[loc])}${single ? '' : `<sup>${authorAff[i]}</sup>`}</span>`).join(', ');
+  const affList = affs.map((af, i) => `<li>${single ? '' : `<sup>${i + 1}</sup> `}${esc(af.key)}, ${esc(countryName(af.country, loc))}</li>`).join('');
+  const corr = a.authors.find((x) => x.primaryContact) || a.authors[0];
+  const paras = (arr) => arr.map((t) => `<p>${esc(t)}</p>`).join('');
+  const fig = b.figure ? `<figure class="fig" id="fig1">${chartSVG(b.figure, loc)}<figcaption>${esc(b.figure.caption)}</figcaption></figure>` : '';
+  const tbl = b.table ? `<figure class="tbl" id="tab1"><figcaption>${esc(b.table.caption)}</figcaption><div class="scroll"><table><thead><tr>${b.table.head.map((h) => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${b.table.rows.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></figure>` : '';
+  const body = sections.map(([key, arr], n) => {
+    const inner = key === 'results' ? `${arr[0] ? `<p>${esc(arr[0])}</p>` : ''}${fig}${paras(arr.slice(1))}${tbl}` : paras(arr);
+    return `<section id="${key}"><h2><span class="n">${n + 1}.</span> ${esc(T[key])}</h2>${inner}</section>`;
+  }).join('\n');
+  const toc = sections.map(([key], n) => `<li><a href="#${key}">${n + 1}. ${esc(T[key])}</a></li>`).join('') + `<li><a href="#refs">${esc(T.refs)}</a></li>`;
+  return `<!doctype html>
+<html lang="${bcp47(loc)}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(a.title[loc])}</title>
+<style>
+:root { --primary: ${C.burgundy}; --dark: ${C.navy}; --accent: ${C.gold}; --ink: ${C.ink}; --muted: ${C.muted}; --line: #e5e1d8; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #fbfaf7; color: var(--ink); font: 17px/1.65 "Source Serif 4", "PT Serif", Georgia, "Noto Serif", "Noto Serif CJK SC", serif; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 32px 24px 64px; }
+.mast { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; padding-bottom: 10px; border-bottom: 3px solid var(--dark); font: 500 13px/1.4 Inter, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: var(--dark); }
+.mast b { color: var(--accent); letter-spacing: .1em; text-transform: uppercase; font-size: 11px; }
+.kind { margin: 28px 0 8px; font: 600 12px Inter, Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--primary); }
+h1 { margin: 0 0 6px; font: 600 32px/1.2 Montserrat, Inter, Arial, sans-serif; color: var(--dark); }
+.subtitle { margin: 0 0 12px; font-style: italic; font-size: 20px; color: var(--dark); }
+.authors { margin: 18px 0 4px; font-weight: 600; font-size: 18px; }
+.authors sup, .affs sup { color: var(--primary); font: 600 11px Inter, Arial, sans-serif; }
+.affs { margin: 0; padding: 0; list-style: none; font: 14px/1.5 Inter, Arial, sans-serif; color: var(--muted); }
+.corr { font: 14px Inter, Arial, sans-serif; color: var(--muted); margin-top: 4px; }
+.dates { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 18px 0; padding: 10px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font: 14px Inter, Arial, sans-serif; }
+.dates b { color: var(--dark); }
+.abs { margin: 0 0 18px; padding: 16px 20px; background: #f1f5f8; border-left: 4px solid var(--primary); border-radius: 4px; }
+.abs.alt { background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--accent); }
+.abs h3, nav h3 { margin: 0 0 6px; font: 600 12px Inter, Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--dark); }
+.abs .t { font-weight: 600; color: var(--dark); margin-bottom: 6px; }
+.abs p { margin: 0 0 8px; }
+.kw { font-size: 15px; }
+.kw b { font: 600 13px Inter, Arial, sans-serif; color: var(--dark); }
+.cite { font: 14px/1.5 Inter, Arial, sans-serif; color: var(--muted); }
+.cite b { color: var(--dark); }
+nav { margin: 24px 0; padding: 14px 20px; background: #fff; border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: 4px; }
+nav ol { margin: 0; padding-left: 0; list-style: none; columns: 2; font: 15px/1.8 Inter, Arial, sans-serif; }
+a { color: var(--primary); }
+h2 { margin: 36px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line); font: 600 22px/1.3 Montserrat, Inter, Arial, sans-serif; color: var(--dark); }
+h2 .n { color: var(--accent); }
+section p { margin: 0 0 14px; text-align: justify; hyphens: auto; }
+figure { margin: 24px 0; }
+.fig { padding: 16px; background: #fff; border: 1px solid var(--line); border-radius: 4px; text-align: center; }
+.fig svg { width: 100%; max-width: 640px; height: auto; }
+.legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 20px; margin-top: 6px; font: 13px Inter, Arial, sans-serif; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+figcaption { font: 14px/1.5 Inter, Arial, sans-serif; text-align: left; margin: 8px 0; }
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font: 14px/1.45 Inter, Arial, sans-serif; background: #fff; }
+th { background: var(--dark); color: #fff; text-align: left; padding: 8px 10px; }
+td { padding: 7px 10px; border-bottom: 1px solid var(--line); }
+tbody tr:nth-child(even) td { background: #f7f5f0; }
+ol.refs { padding-left: 24px; font-size: 15px; }
+ol.refs li { margin-bottom: 6px; }
+.licence { margin-top: 40px; padding-top: 12px; border-top: 1px solid var(--line); font: 13px Inter, Arial, sans-serif; color: var(--muted); }
+@media (max-width: 600px) { body { font-size: 16px; } h1 { font-size: 25px; } nav ol { columns: 1; } .wrap { padding: 20px 16px 48px; } }
+</style>
+</head>
+<body>
+<article class="wrap">
+<header class="mast"><span><b>${esc(T.publisher)}</b><br>${esc(J.name[loc])}</span><span>${esc(T.vol(issue))} · ${esc(T.pp)} ${esc(dashPages(a.pages))}<br>ISSN ${esc(J.onlineIssn)} (${esc(T.online)})</span></header>
+<div class="kind">${esc(T.sections[a.section])}</div>
+<h1>${esc(a.title[loc])}</h1>
+${a.subtitle ? `<p class="subtitle">${esc(a.subtitle[loc])}</p>` : ''}
+<p class="authors">${authors}</p>
+<ul class="affs">${affList}</ul>
+<p class="corr">✉ ${esc(T.corr)}: ${esc(corr.givenName[loc])} ${esc(corr.familyName[loc])}, <a href="mailto:${esc(corr.email)}">${esc(corr.email)}</a></p>
+<div class="dates"><span><b>${esc(T.received)}:</b> ${fmtDate(a.dateSubmitted, loc)}</span><span><b>${esc(T.accepted)}:</b> ${fmtDate(a.dateAccepted, loc)}</span><span><b>${esc(T.published)}:</b> ${fmtDate(issue.datePublished, loc)}</span></div>
+<section class="abs" lang="${bcp47(loc)}"><h3>${esc(T.abstract)}</h3>${a.abstract[loc]}<p class="kw"><b>${esc(T.keywords)}:</b> ${a.keywords[loc].map(esc).join('; ')}</p></section>
+<section class="abs alt" lang="${bcp47(alt)}"><h3>${esc(L[alt].abstract)}</h3><div class="t">${esc(a.title[alt])}</div>${a.abstract[alt]}<p class="kw"><b>${esc(L[alt].keywords)}:</b> ${a.keywords[alt].map(esc).join('; ')}</p></section>
+<p class="cite"><b>${esc(T.cite)}:</b> ${esc(cite)}${a.fundingAgency ? `<br><b>${esc(T.funding)}:</b> ${esc(a.fundingAgency[loc])}` : ''}</p>
+<nav><ol>${toc}</ol></nav>
+${body}
+<section id="refs"><h2>${esc(T.refs)}</h2><ol class="refs">${a.citations.map((c) => `<li>${esc(c)}</li>`).join('')}</ol></section>
+<p class="licence">${esc(T.licence)} · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+</article>
+</body>
+</html>
+`;
+}
+
+// JATS 1.3 (Journal Publishing tag set)
+function articleJATS(a, ctx, loc) {
+  const { T, b, issue, affs, authorAff, sections, alt } = articleParts(a, ctx, loc);
+  const x = esc;
+  const lang = (l) => bcp47(l).split('-')[0];
+  const absParas = (html) => (html.match(/<p>([\s\S]*?)<\/p>/g) || [html]).map((p) => `<p>${x(p.replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"'))}</p>`).join('');
+  const [p0, p1] = String(a.pages || '').split('-');
+  const date = (type, iso) => { const [y, m, d] = iso.split('-'); return `<date date-type="${type}" iso-8601-date="${iso}"><day>${d}</day><month>${m}</month><year>${y}</year></date>`; };
+  const [py, pm, pd] = issue.datePublished.split('-');
+  const secType = { intro: 'intro', methods: 'materials|methods', results: 'results', discussion: 'discussion', conclusion: 'conclusions' };
+  const fig = b.figure ? `<fig id="f1" position="float"><caption><p>${x(b.figure.caption)}</p></caption></fig>` : '';
+  const tbl = b.table ? `<table-wrap id="t1" position="float"><caption><p>${x(b.table.caption)}</p></caption><table><thead><tr>${b.table.head.map((h) => `<th>${x(h)}</th>`).join('')}</tr></thead><tbody>${b.table.rows.map((r) => `<tr>${r.map((c) => `<td>${x(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></table-wrap>` : '';
+  const body = sections.map(([key, arr]) => {
+    const ps = arr.map((t) => `<p>${x(t)}</p>`);
+    const inner = key === 'results' ? [ps[0] || '', fig, ...ps.slice(1), tbl].join('\n') : ps.join('\n');
+    return `<sec id="sec-${key}" sec-type="${secType[key]}"><title>${x(T[key])}</title>\n${inner}\n</sec>`;
+  }).join('\n');
+  const contribs = a.authors.map((au, i) => `<contrib contrib-type="author"${au.primaryContact ? ' corresp="yes"' : ''}><name name-style="western"><surname>${x(au.familyName[loc])}</surname><given-names>${x(au.givenName[loc])}</given-names></name>${loc !== 'en' ? `<name-alternatives><name name-style="western" xml:lang="en"><surname>${x(au.familyName.en)}</surname><given-names>${x(au.givenName.en)}</given-names></name></name-alternatives>` : ''}<xref ref-type="aff" rid="aff${authorAff[i]}"/>${au.primaryContact ? `<email>${x(au.email)}</email>` : ''}</contrib>`).join('\n');
+  const affXml = affs.map((af, i) => `<aff id="aff${i + 1}"><institution>${x(af.key)}</institution>, <country country="${af.country}">${x(countryName(af.country, loc))}</country></aff>`).join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="${a.section === 'REV' ? 'review-article' : a.section === 'SHC' ? 'brief-report' : 'research-article'}" dtd-version="1.3" xml:lang="${lang(loc)}">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">${x(J.acronym.en)}</journal-id>
+<journal-title-group><journal-title>${x(J.name[loc])}</journal-title>${loc !== 'en' ? `<trans-title-group xml:lang="en"><trans-title>${x(J.name.en)}</trans-title></trans-title-group>` : ''}<abbrev-journal-title>${x(J.abbreviation[loc])}</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">${x(J.onlineIssn)}</issn>
+<publisher><publisher-name>${x(T.publisher)}</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>${x(T.sections[a.section])}</subject></subj-group></article-categories>
+<title-group>
+<article-title>${x(a.title[loc])}</article-title>${a.subtitle ? `\n<subtitle>${x(a.subtitle[loc])}</subtitle>` : ''}
+<trans-title-group xml:lang="${lang(alt)}"><trans-title>${x(a.title[alt])}</trans-title>${a.subtitle ? `<trans-subtitle>${x(a.subtitle[alt])}</trans-subtitle>` : ''}</trans-title-group>
+</title-group>
+<contrib-group>
+${contribs}
+</contrib-group>
+${affXml}
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="${issue.datePublished}"><day>${pd}</day><month>${pm}</month><year>${py}</year></pub-date>
+<volume>${issue.volume}</volume>
+<issue>${x(issue.number)}</issue>
+${p0 ? `<fpage>${p0}</fpage><lpage>${p1 || p0}</lpage>` : ''}
+<history>${date('received', a.dateSubmitted)}${date('accepted', a.dateAccepted)}</history>
+<permissions><copyright-statement>© ${py} ${x(a.authors.map((au) => `${au.givenName[loc]} ${au.familyName[loc]}`).join(', '))}</copyright-statement><copyright-year>${py}</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>${x(T.licence)}</license-p></license></permissions>
+<abstract xml:lang="${lang(loc)}">${absParas(a.abstract[loc])}</abstract>
+<trans-abstract xml:lang="${lang(alt)}">${absParas(a.abstract[alt])}</trans-abstract>
+<kwd-group xml:lang="${lang(loc)}" kwd-group-type="author">${a.keywords[loc].map((k) => `<kwd>${x(k)}</kwd>`).join('')}</kwd-group>
+<kwd-group xml:lang="${lang(alt)}" kwd-group-type="author">${a.keywords[alt].map((k) => `<kwd>${x(k)}</kwd>`).join('')}</kwd-group>
+${a.fundingAgency ? `<funding-group><award-group><funding-source>${x(a.fundingAgency[loc])}</funding-source></award-group></funding-group>` : ''}
+</article-meta>
+</front>
+<body>
+${body}
+</body>
+<back>
+<ref-list><title>${x(T.refs)}</title>
+${a.citations.map((c, i) => `<ref id="r${i + 1}"><mixed-citation>${x(c)}</mixed-citation></ref>`).join('\n')}
+</ref-list>
+</back>
+</article>
+`;
+}
+
 function countryName(code, lc) {
   try {
     return new Intl.DisplayNames([bcp47(lc), 'en'], { type: 'region' }).of(code) || code;
@@ -404,7 +579,7 @@ if (doPdfs) {
   // pass 1: measure page counts (in the article's own language) and assign
   // sequential page ranges per issue; the other editions reuse the range
   let changed = false;
-  if (!only) {
+  if (!only && !webOnly) {
     for (const issue of data.issues) {
       let p = FIRST_PAGE;
       for (const a of issue.articles) {
@@ -427,12 +602,21 @@ if (doPdfs) {
   for (const [a, ctx] of jobs) {
     for (const [loc, rel] of Object.entries(a.pdf)) {
       wanted.add(path.join(ASSETS, rel));
-      if (onlyLocale && loc !== onlyLocale) continue;
+      if ((onlyLocale && loc !== onlyLocale) || webOnly) continue;
       const out = path.join(ASSETS, rel);
       const n = await renderPdf(page, articleHTML(a, ctx, loc), out);
       const exp = a.pages ? a.pages.split('-').reduce((x, y) => y - x + 1) : null;
       const note = ctx.issue && exp !== n ? `  (${exp} pp in the original)` : '';
       console.log(`${rel}  ${n} pp  ${(fs.statSync(out).size / 1024).toFixed(0)} KB${note}`);
+    }
+    // web (HTML) and JATS XML editions of published articles
+    for (const [kind, render] of [['html', articleWebHTML], ['xml', articleJATS]]) {
+      for (const [loc, rel] of Object.entries(a[kind] || {})) {
+        wanted.add(path.join(ASSETS, rel));
+        if (onlyLocale && loc !== onlyLocale) continue;
+        fs.mkdirSync(path.dirname(path.join(ASSETS, rel)), { recursive: true });
+        fs.writeFileSync(path.join(ASSETS, rel), render(a, ctx, loc));
+      }
     }
   }
 }
@@ -453,8 +637,9 @@ if (doCovers) {
 }
 
 // remove files of earlier builds that journal.json no longer refers to
-if (doPdfs && doCovers && !only && !onlyLocale) {
-  for (const dir of ['pdf', 'covers']) {
+if (doPdfs && doCovers && !only && !onlyLocale && !webOnly) {
+  for (const dir of ['pdf', 'covers', 'html', 'xml']) {
+    if (!fs.existsSync(path.join(ASSETS, dir))) continue;
     for (const f of fs.readdirSync(path.join(ASSETS, dir))) {
       const full = path.join(ASSETS, dir, f);
       if (!wanted.has(full)) { fs.unlinkSync(full); console.log(`removed ${dir}/${f}`); }

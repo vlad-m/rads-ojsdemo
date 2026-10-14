@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中等城市的城市热岛：基于 2000—2023 年 Landsat 数据的分析</title>
+<style>
+:root { --primary: #0072A6; --dark: #00507A; --accent: #F7901E; --ink: #1d1d1f; --muted: #6b6f7a; --line: #e5e1d8; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #fbfaf7; color: var(--ink); font: 17px/1.65 "Source Serif 4", "PT Serif", Georgia, "Noto Serif", "Noto Serif CJK SC", serif; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 32px 24px 64px; }
+.mast { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; padding-bottom: 10px; border-bottom: 3px solid var(--dark); font: 500 13px/1.4 Inter, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: var(--dark); }
+.mast b { color: var(--accent); letter-spacing: .1em; text-transform: uppercase; font-size: 11px; }
+.kind { margin: 28px 0 8px; font: 600 12px Inter, Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--primary); }
+h1 { margin: 0 0 6px; font: 600 32px/1.2 Montserrat, Inter, Arial, sans-serif; color: var(--dark); }
+.subtitle { margin: 0 0 12px; font-style: italic; font-size: 20px; color: var(--dark); }
+.authors { margin: 18px 0 4px; font-weight: 600; font-size: 18px; }
+.authors sup, .affs sup { color: var(--primary); font: 600 11px Inter, Arial, sans-serif; }
+.affs { margin: 0; padding: 0; list-style: none; font: 14px/1.5 Inter, Arial, sans-serif; color: var(--muted); }
+.corr { font: 14px Inter, Arial, sans-serif; color: var(--muted); margin-top: 4px; }
+.dates { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 18px 0; padding: 10px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font: 14px Inter, Arial, sans-serif; }
+.dates b { color: var(--dark); }
+.abs { margin: 0 0 18px; padding: 16px 20px; background: #f1f5f8; border-left: 4px solid var(--primary); border-radius: 4px; }
+.abs.alt { background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--accent); }
+.abs h3, nav h3 { margin: 0 0 6px; font: 600 12px Inter, Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--dark); }
+.abs .t { font-weight: 600; color: var(--dark); margin-bottom: 6px; }
+.abs p { margin: 0 0 8px; }
+.kw { font-size: 15px; }
+.kw b { font: 600 13px Inter, Arial, sans-serif; color: var(--dark); }
+.cite { font: 14px/1.5 Inter, Arial, sans-serif; color: var(--muted); }
+.cite b { color: var(--dark); }
+nav { margin: 24px 0; padding: 14px 20px; background: #fff; border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: 4px; }
+nav ol { margin: 0; padding-left: 0; list-style: none; columns: 2; font: 15px/1.8 Inter, Arial, sans-serif; }
+a { color: var(--primary); }
+h2 { margin: 36px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line); font: 600 22px/1.3 Montserrat, Inter, Arial, sans-serif; color: var(--dark); }
+h2 .n { color: var(--accent); }
+section p { margin: 0 0 14px; text-align: justify; hyphens: auto; }
+figure { margin: 24px 0; }
+.fig { padding: 16px; background: #fff; border: 1px solid var(--line); border-radius: 4px; text-align: center; }
+.fig svg { width: 100%; max-width: 640px; height: auto; }
+.legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 20px; margin-top: 6px; font: 13px Inter, Arial, sans-serif; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+figcaption { font: 14px/1.5 Inter, Arial, sans-serif; text-align: left; margin: 8px 0; }
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font: 14px/1.45 Inter, Arial, sans-serif; background: #fff; }
+th { background: var(--dark); color: #fff; text-align: left; padding: 8px 10px; }
+td { padding: 7px 10px; border-bottom: 1px solid var(--line); }
+tbody tr:nth-child(even) td { background: #f7f5f0; }
+ol.refs { padding-left: 24px; font-size: 15px; }
+ol.refs li { margin-bottom: 6px; }
+.licence { margin-top: 40px; padding-top: 12px; border-top: 1px solid var(--line); font: 13px Inter, Arial, sans-serif; color: var(--muted); }
+@media (max-width: 600px) { body { font-size: 16px; } h1 { font-size: 25px; } nav ol { columns: 1; } .wrap { padding: 20px 16px 48px; } }
+</style>
+</head>
+<body>
+<article class="wrap">
+<header class="mast"><span><b>齐夫拉有限责任公司</b><br>跨学科研究学报（演示版）</span><span>第 1 卷第 1 期（2025） · 页 5–8<br>ISSN 0000-0000 (在线)</span></header>
+<div class="kind">研究论文</div>
+<h1>中等城市的城市热岛：基于 2000—2023 年 Landsat 数据的分析</h1>
+
+<p class="authors"><span class="au">Elena Sokolovskaya<sup>1</sup></span>, <span class="au">Artyom Melnikov<sup>2</sup></span>, <span class="au">Svetlana Kim<sup>1</sup></span></p>
+<ul class="affs"><li><sup>1</sup> 诺沃博尔国立大学, 俄罗斯</li><li><sup>2</sup> “波利斯”城市研究高等学院, 俄罗斯</li></ul>
+<p class="corr">✉ 通讯作者: Elena Sokolovskaya, <a href="mailto:e.sokolovskaya@example.org">e.sokolovskaya@example.org</a></p>
+<div class="dates"><span><b>收稿日期:</b> 2024年10月14日</span><span><b>录用日期:</b> 2025年1月28日</span><span><b>发表日期:</b> 2025年3月20日</span></div>
+<section class="abs" lang="zh-Hans"><h3>摘要</h3><p>城市热岛研究传统上集中于特大都市区，而居住着相当大比例人口的中等城市仍鲜有研究。本研究评估了温带气候区十二座人口为 10 万至 50 万的匿名城市的地表城市热岛强度及其动态变化。利用 Landsat 5、7 和 8 号卫星 2000—2023 年夏季月份的影像反演地表温度，并计算各城市建成区与郊区缓冲带之间的温差。以归一化植被指数（NDVI）、不透水面比例以及基于开放地图数据得出的建筑密度作为协变量。白天热岛平均强度为 3.4 °C，在研究期内平均上升了 0.9 °C。造成这一变化的最主要因素是新建住宅区周边地带绿地的减少，而热岛强度与人口规模的关联较弱。混合效应回归模型可解释城市间和年际间 71% 的变异。结果表明，中等城市面对过热问题的脆弱性并不低于大城市，新开发区域的规划决策是关键的适应手段。所提出的方法可利用开放数据在任何城市中复现。</p><p class="kw"><b>关键词:</b> 城市热岛; 遥感; Landsat; 地表温度; 绿色基础设施; 中等城市</p></section>
+<section class="abs alt" lang="en"><h3>Abstract</h3><div class="t">Urban Heat Islands in Medium-Sized Cities: An Analysis of Landsat Data for 2000–2023</div><p>Research on urban heat islands has traditionally focused on the largest metropolitan areas, while medium-sized cities, home to a substantial share of the population, remain poorly studied. This study assesses the intensity and dynamics of the surface urban heat island in twelve anonymised cities with populations of 100,000 to 500,000 in the temperate climate zone. Land surface temperature was retrieved from Landsat 5, 7 and 8 scenes for the summer months of 2000–2023, and for each city the difference between the built-up area and a suburban buffer zone was calculated. The normalised difference vegetation index (NDVI), the share of impervious surfaces and building density derived from open map data were used as covariates. The mean daytime heat island intensity was 3.4 °C, and over the study period it increased by 0.9 °C on average. The largest contribution to this change comes from the loss of green space in peripheral areas of new residential development, whereas the association with population size proved weak. A mixed-effects regression model explains 71% of the between-city and between-year variation. The results show that medium-sized cities are no less vulnerable to overheating than large ones and that planning decisions in new development zones are a key adaptation tool. The proposed method can be reproduced for any city using open data.</p><p class="kw"><b>Keywords:</b> urban heat island; remote sensing; Landsat; land surface temperature; green infrastructure; medium-sized cities</p></section>
+<p class="cite"><b>引用格式:</b> Sokolovskaya E., Melnikov A., Kim S. 中等城市的城市热岛：基于 2000—2023 年 Landsat 数据的分析. Open Journal Systems 演示期刊 2025;1(1):5–8.<br><b>基金资助:</b> “地平线”跨学科研究基金会</p>
+<nav><ol><li><a href="#intro">1. 引言</a></li><li><a href="#methods">2. 材料与方法</a></li><li><a href="#results">3. 结果</a></li><li><a href="#discussion">4. 讨论</a></li><li><a href="#conclusion">5. 结论</a></li><li><a href="#refs">参考文献</a></li></ol></nav>
+<section id="intro"><h2><span class="n">1.</span> 引言</h2><p>城市热岛是指城市中的气温和下垫面温度高于周边农村地区的现象，它是人为因素导致气候变化的研究最为深入的表现之一。经典研究将这一现象与热量平衡的改变联系起来：以不透水面取代植被会减少蒸发，建筑群的几何形态会削弱夜间辐射，而人为热源则向近地层额外输入热量。</p><p>然而，绝大多数实证估算均针对百万人口以上的城市。人口为 10 万至 50 万的中等城市常被认为“规模太小”而难以形成明显的热岛，尽管正是这些城市在过去二十年中城市外围建设十分活跃。本研究旨在填补这一空白：我们评估了十二座中等城市的地表热岛强度，并识别了 2000—2023 年间其变化的影响因素。</p></section>
+<section id="methods"><h2><span class="n">2.</span> 材料与方法</h2><p>本研究涵盖温带地区的十二座城市，文中以代码 C1—C12 表示。对于每座城市，从 Landsat 档案中选取 6 月至 8 月的无云影像（平均每座城市每年 4.6 景，共计 1,318 景）。利用热红外波段反演下垫面温度，并基于 NDVI 对地表比辐射率进行校正。</p><p>热岛强度（UHII）定义为建成区与宽 5 公里的郊区缓冲环（扣除水体）的温度中位数之差。解释变量包括平均 NDVI、不透水面比例、建筑密度和人口数量。采用混合效应回归模型估计相互关系，其中城市为随机截距，年份为固定效应。</p></section>
+<section id="results"><h2><span class="n">3.</span> 结果</h2><p>全部样本的白天平均 UHII 为 3.4 ± 0.8 °C。河谷网络发达且保留有森林公园的城市数值最低（2.1～2.6 °C），而草原地带中板式建筑密集的城市数值最高（4.5～4.9 °C）。图 1 显示了按五年期划分的平均强度变化动态。</p><figure class="fig" id="fig1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 230" width="447.2" height="197.79999999999998" font-family="InterW, Inter, sans-serif" font-size="9.5"><line x1="46" y1="186" x2="508" y2="186" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="189.5" text-anchor="end" fill="#6b6f7a">0</text><line x1="46" y1="128.66666666666669" x2="508" y2="128.66666666666669" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="132.16666666666669" text-anchor="end" fill="#6b6f7a">2</text><line x1="46" y1="71.33333333333334" x2="508" y2="71.33333333333334" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="74.83333333333334" text-anchor="end" fill="#6b6f7a">4</text><line x1="46" y1="14" x2="508" y2="14" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="17.5" text-anchor="end" fill="#6b6f7a">6</text><line x1="46" y1="186" x2="508" y2="186" stroke="#1d1d1f" stroke-width="0.8"/><text x="92.2" y="200" text-anchor="middle" fill="#1d1d1f">2000–04</text><text x="184.60000000000002" y="200" text-anchor="middle" fill="#1d1d1f">2005–09</text><text x="277" y="200" text-anchor="middle" fill="#1d1d1f">2010–14</text><text x="369.40000000000003" y="200" text-anchor="middle" fill="#1d1d1f">2015–19</text><text x="461.8" y="200" text-anchor="middle" fill="#1d1d1f">2020–23</text><polyline points="92.2,102.86666666666666 184.60000000000002,97.13333333333333 277,91.4 369.40000000000003,82.8 461.8,77.06666666666668" fill="none" stroke="#00507A" stroke-width="1.8"/><circle cx="92.2" cy="102.86666666666666" r="2.6" fill="#fff" stroke="#00507A" stroke-width="1.5"/><circle cx="184.60000000000002" cy="97.13333333333333" r="2.6" fill="#fff" stroke="#00507A" stroke-width="1.5"/><circle cx="277" cy="91.4" r="2.6" fill="#fff" stroke="#00507A" stroke-width="1.5"/><circle cx="369.40000000000003" cy="82.8" r="2.6" fill="#fff" stroke="#00507A" stroke-width="1.5"/><circle cx="461.8" cy="77.06666666666668" r="2.6" fill="#fff" stroke="#00507A" stroke-width="1.5"/><polyline points="92.2,77.06666666666668 184.60000000000002,71.33333333333334 277,62.733333333333334 369.40000000000003,54.133333333333354 461.8,48.400000000000006" fill="none" stroke="#0072A6" stroke-width="1.8"/><circle cx="92.2" cy="77.06666666666668" r="2.6" fill="#fff" stroke="#0072A6" stroke-width="1.5"/><circle cx="184.60000000000002" cy="71.33333333333334" r="2.6" fill="#fff" stroke="#0072A6" stroke-width="1.5"/><circle cx="277" cy="62.733333333333334" r="2.6" fill="#fff" stroke="#0072A6" stroke-width="1.5"/><circle cx="369.40000000000003" cy="54.133333333333354" r="2.6" fill="#fff" stroke="#0072A6" stroke-width="1.5"/><circle cx="461.8" cy="48.400000000000006" r="2.6" fill="#fff" stroke="#0072A6" stroke-width="1.5"/><polyline points="92.2,120.06666666666668 184.60000000000002,117.2 277,114.33333333333333 369.40000000000003,108.6 461.8,102.86666666666666" fill="none" stroke="#F7901E" stroke-width="1.8"/><circle cx="92.2" cy="120.06666666666668" r="2.6" fill="#fff" stroke="#F7901E" stroke-width="1.5"/><circle cx="184.60000000000002" cy="117.2" r="2.6" fill="#fff" stroke="#F7901E" stroke-width="1.5"/><circle cx="277" cy="114.33333333333333" r="2.6" fill="#fff" stroke="#F7901E" stroke-width="1.5"/><circle cx="369.40000000000003" cy="108.6" r="2.6" fill="#fff" stroke="#F7901E" stroke-width="1.5"/><circle cx="461.8" cy="102.86666666666666" r="2.6" fill="#fff" stroke="#F7901E" stroke-width="1.5"/><text transform="translate(11,100) rotate(-90)" text-anchor="middle" fill="#6b6f7a">UHII，°C</text></svg><div class="legend"><span><i style="background:#00507A"></i>全部城市</span><span><i style="background:#0072A6"></i>草原地带</span><span><i style="background:#F7901E"></i>森林地带</span></div><figcaption>图 1　按五年期划分的白天地表热岛平均强度，°C</figcaption></figure><p>在回归模型（表 1）中，NDVI 的效应量最大：该指数每下降 0.1，UHII 升高 0.62 °C。不透水面比例具有显著性，但其效应在很大程度上以植被为中介。在控制形态学指标后，人口数量在统计上不显著。</p><figure class="tbl" id="tab1"><figcaption>表 1　混合效应模型估计结果（因变量：UHII，°C）</figcaption><div class="scroll"><table><thead><tr><th>变量</th><th>系数</th><th>标准误</th><th>p</th></tr></thead><tbody><tr><td>NDVI（每 0.1）</td><td>−0,62</td><td>0,09</td><td>&lt;0,001</td></tr><tr><td>不透水面（每 10%）</td><td>0,31</td><td>0,11</td><td>0,006</td></tr><tr><td>建筑密度（每 1000 m²/ha）</td><td>0,18</td><td>0,07</td><td>0,012</td></tr><tr><td>人口（log）</td><td>0,07</td><td>0,15</td><td>0,640</td></tr><tr><td>条件 R²</td><td>0,71</td><td>—</td><td>—</td></tr></tbody></table></div></figure></section>
+<section id="discussion"><h2><span class="n">4.</span> 讨论</h2><p>所得强度估算值与已发表的欧洲同等规模城市的数值相当，仅比特大城市群的数值低 1～1.5 °C。这对“中等城市热风险微不足道”的普遍看法提出了质疑。</p><p>本研究最重要的发现是外围地区植被的主导作用。2010 年后在农业用地和荒地上建成的新住宅区绿化极少，而正是在这些地区地表温度上升最为明显。本研究的局限在于仅使用了白天影像：对健康影响最大的夜间热岛需要借助其他数据源进行研究。</p></section>
+<section id="conclusion"><h2><span class="n">5.</span> 结论</h2><p>中等城市会形成明显的地表热岛，且其强度不断增加。在新开发区域保护和营造绿地是最有效的适应手段。所提出的开放算法可供市政部门用于监测。</p></section>
+<section id="refs"><h2>参考文献</h2><ol class="refs"><li>Oke T. R. The energetic basis of the urban heat island // Quarterly Journal of the Royal Meteorological Society. 1982. Vol. 108, no. 455. P. 1–24.</li><li>Voogt J. A., Oke T. R. Thermal remote sensing of urban climates // Remote Sensing of Environment. 2003. Vol. 86, no. 3. P. 370–384.</li><li>Соколовская Е. В. Пространственные закономерности теплового режима малых и средних городов // Вопросы пространственного анализа. 2021. Т. 9, № 2. С. 34–51.</li><li>Мельников А. С., Ким С. Ю. Открытые картографические данные как источник показателей плотности застройки // Геоинформатика и общество. 2022. № 4. С. 18–29.</li><li>Harding P., Lindqvist M. Surface heat islands beyond the megacity: evidence from European mid-sized towns // Urban Climate Letters. 2020. Vol. 7. P. 112–127.</li><li>Орехова Т. Н. Методы восстановления температуры подстилающей поверхности по данным теплового канала. М.: Академия, 2019. 212 с.</li><li>Chen Y., Moreau L. Vegetation loss and the intensification of surface heat islands in suburban fringes // Journal of Applied Urban Ecology. 2021. Vol. 15, no. 3. P. 201–219.</li><li>Соколовская Е. В., Брагин И. А. Зелёная инфраструктура и адаптация городов к экстремальной жаре: обзор практик // Вестник Новоборского университета. Серия: Науки о Земле. 2023. Т. 11, № 1. С. 5–22.</li></ol></section>
+<p class="licence">依据 CC BY 4.0 许可协议发布 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+</article>
+</body>
+</html>

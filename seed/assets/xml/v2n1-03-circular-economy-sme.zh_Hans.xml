@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="zh">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>跨学科研究学报（演示版）</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems 演示期刊</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>齐夫拉有限责任公司</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>综述</subject></subj-group></article-categories>
+<title-group>
+<article-title>中小企业的循环经济：障碍与驱动因素的系统综述</article-title>
+<trans-title-group xml:lang="en"><trans-title>The Circular Economy in Small and Medium-Sized Enterprises: A Systematic Review of Barriers and Drivers</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Sedov</surname><given-names>Evgeny</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sedov</surname><given-names>Evgeny</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sedov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Yakovleva</surname><given-names>Tatiana</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Yakovleva</surname><given-names>Tatiana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>“子午线”经济与空间发展研究所</institution>, <country country="RU">俄罗斯</country></aff>
+<aff id="aff2"><institution>“埃科波利斯”白俄罗斯可持续发展研究所</institution>, <country country="BY">白俄罗斯</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>11</fpage><lpage>13</lpage>
+<history><date date-type="received" iso-8601-date="2025-07-07"><day>07</day><month>07</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-12-16"><day>16</day><month>12</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2026 Evgeny Sedov, Tatiana Yakovleva</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>依据 CC BY 4.0 许可协议发布</license-p></license></permissions>
+<abstract xml:lang="zh"><p>向以资源再利用、维修和再循环为基础的循环经济转型，不仅需要大型企业的参与，也需要中小企业的参与，因为中小企业在就业和环境影响中均占有很大比重。本系统综述综合了关于中小企业采纳循环实践的障碍与驱动因素的实证研究。依据 PRISMA 指南进行检索，共检出 2015—2025 年的 1,146 篇文献，其中来自 28 个国家的 72 项研究符合纳入标准。障碍和驱动因素被分为五类：财务、技术、市场、制度以及组织文化。最常提及的障碍是前期成本高和融资渠道有限（78% 的研究）、技术能力不足（61%）以及消费者对再生原料产品的需求低（47%）。主要驱动因素包括节约原材料和废弃物处置成本、供应链中大客户的要求以及企业主的个人价值观。对政府支持作用的评价不一：补贴主要在与咨询服务相结合时才有效。研究还发现，来自东欧和中亚地区的研究存在明显空白。本文提出了支持政策建议和未来研究方向。</p></abstract>
+<trans-abstract xml:lang="en"><p>The transition to a circular economy based on the reuse, repair and recycling of resources requires the participation not only of large corporations but also of small and medium-sized enterprises, which account for a large share of employment and environmental impact. This systematic review synthesises empirical research on the barriers to and drivers of adopting circular practices in small and medium-sized businesses. A PRISMA-guided search identified 1,146 publications from 2015–2025, of which 72 studies from 28 countries met the inclusion criteria. Barriers and drivers were classified into five groups: financial, technological, market, institutional and organisational-cultural. The most frequently cited barriers were high upfront costs and limited access to finance (78% of studies), a lack of technical competence (61%) and low consumer demand for products made from secondary raw materials (47%). The key drivers are savings on raw material and disposal costs, requirements of large customers in supply chains and the personal values of owners. The role of government support is assessed ambiguously: subsidies are effective mainly in combination with advisory services. A substantial gap in research from Eastern Europe and Central Asia was identified. Recommendations for support policies and directions for further research are formulated.</p></trans-abstract>
+<kwd-group xml:lang="zh" kwd-group-type="author"><kwd>循环经济</kwd><kwd>中小企业</kwd><kwd>系统综述</kwd><kwd>可持续发展</kwd><kwd>供应链</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>circular economy</kwd><kwd>small and medium-sized enterprises</kwd><kwd>systematic review</kwd><kwd>sustainable development</kwd><kwd>supply chains</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>引言</title>
+<p>循环经济理念主张摒弃“开采—生产—丢弃”的线性模式，转而采用闭环模式，使产品和材料尽可能长久地保持其价值。大部分研究和政策计划面向拥有改造生产流程资源的大型企业。</p>
+<p>中小企业面临着不同的制约：它们的资本、能力以及在供应链中的议价能力都较弱。与此同时，它们更加灵活，也更贴近当地社区。本综述的目的是系统梳理关于阻碍和促进中小企业采纳循环实践的因素的实证数据。</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>材料与方法</title>
+<p>本综述按照 PRISMA 2020 指南进行。在文献数据库中以“循环经济”“中小企业”及其英文对应词的组合进行检索。纳入 2015—2025 年间以英文或俄文发表的实证研究（问卷调查、案例研究、访谈、计量经济学研究）。</p>
+<p>在检出的 1,146 条记录中，经去重和摘要筛查后，214 篇文献进入全文评估，其中 72 篇符合纳入标准。障碍和驱动因素由两名研究人员按照预先制定的编码方案独立编码；编码者间一致性 κ = 0.79。</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>结果</title>
+<p>纳入的研究涵盖 28 个国家，但其中 61% 以西欧国家为研究对象。关于东欧和中亚国家的研究仅有五项。主要障碍的提及频率见图 1。</p>
+<fig id="f1" position="float"><caption><p>图 1　纳入研究中各障碍的提及频率，%（n = 72）</p></caption></fig>
+<p>采纳循环实践的驱动因素归纳于表 1。经济动机——降低原材料和废弃物处置成本——被提及的次数最多，但在关于家族企业的研究中，企业主的价值观起着重要作用。</p>
+<table-wrap id="t1" position="float"><caption><p>表 1　采纳循环实践的主要驱动因素</p></caption><table><thead><tr><th>驱动因素类别</th><th>示例</th><th>研究数量</th><th>比例，%</th></tr></thead><tbody><tr><td>财务因素</td><td>节约原材料和处置成本</td><td>51</td><td>71</td></tr><tr><td>市场因素</td><td>大客户的要求</td><td>38</td><td>53</td></tr><tr><td>组织文化因素</td><td>企业主的价值观</td><td>31</td><td>43</td></tr><tr><td>制度因素</td><td>补贴与咨询</td><td>26</td><td>36</td></tr><tr><td>技术因素</td><td>数字化交换平台</td><td>17</td><td>24</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>讨论</title>
+<p>财务障碍和财务驱动因素占主导地位，表明对小企业而言，循环性首先是一个经济问题，而非环保议题。因此，降低前期成本和风险的支持措施需求最大。与此同时，缺乏咨询支持的补贴往往无法带来持久的变化。</p>
+<p>证据基础的地域偏倚限制了结论的可推广性：不同国家的制度环境、融资渠道和回收利用基础设施差异很大。填补这一空白是区域研究的一项重要任务。</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>结论</title>
+<p>中小企业采纳循环实践主要取决于经济激励和供应链要求。有效的政策应将财务支持与能力建设和基础设施发展相结合。</p>
+</sec>
+</body>
+<back>
+<ref-list><title>参考文献</title>
+<ref id="r1"><mixed-citation>Page M. J., McKenzie J. E., Bossuyt P. M. et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews // BMJ. 2021. Vol. 372. Art. n71.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Kirchherr J., Reike D., Hekkert M. Conceptualizing the circular economy: an analysis of 114 definitions // Resources, Conservation and Recycling. 2017. Vol. 127. P. 221–232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Седов Е. В. Циркулярные бизнес-модели: типология и экономические эффекты // Пространственная экономика и политика. 2023. № 1. С. 31–50.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Яковлева Т. Н. Политика поддержки зелёного предпринимательства в странах ЕАЭС // Экономика устойчивого развития. 2024. Т. 12, № 3. С. 66–83.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Rizos V., Behrens A., Kafyeke T. et al. The circular economy: barriers and opportunities for SMEs. Brussels: CEPS, 2015. 22 p.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindner P., Costa R. Supply-chain pressure and circular practices in small manufacturers // Journal of Sustainable Enterprise. 2022. Vol. 11, no. 2. P. 115–134.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седов Е. В., Громов П. А. Малый бизнес и переработка отходов: результаты регионального обследования // Регион: экономика и общество. 2024. № 5. С. 20–37.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Oduya K., Brandt M. Owner values and environmental strategy in family firms // Small Business and Society. 2021. Vol. 7. P. 50–68.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

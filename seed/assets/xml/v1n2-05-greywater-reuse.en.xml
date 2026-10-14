@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Journal of Interdisciplinary Research (Demo)</journal-title><abbrev-journal-title>Open Journal Systems demo journal</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra LLC</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Short Communication</subject></subj-group></article-categories>
+<title-group>
+<article-title>Greywater Reuse in a Multi-Apartment Residential Block: A Pilot Assessment</article-title>
+<trans-title-group xml:lang="ru"><trans-title>Повторное использование серых вод в многоквартирном жилом квартале: пилотная оценка</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Dyakonov</surname><given-names>Roman</given-names></name><xref ref-type="aff" rid="aff1"/><email>r.dyakonov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Safina</surname><given-names>Alina</given-names></name><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Polis Graduate School of Urban Studies</institution>, <country country="RU">Russia</country></aff>
+<aff id="aff2"><institution>Volga Institute of Applied Analytics</institution>, <country country="RU">Russia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>17</fpage><lpage>19</lpage>
+<history><date date-type="received" iso-8601-date="2025-05-14"><day>14</day><month>05</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-08-05"><day>05</day><month>08</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Roman Dyakonov, Alina Safina</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licensed under CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="en"><p>The reuse of lightly polluted domestic wastewater, or greywater, is regarded as one way to reduce the load on urban water supply and sewerage systems. This short communication presents the results of a pilot operation of a greywater treatment system in a residential block of three multi-apartment buildings (412 residents). Greywater from showers and washbasins was treated in a compact unit comprising mechanical filtration, a membrane bioreactor and ultraviolet disinfection, and then supplied for toilet flushing and irrigation of the surrounding grounds. Over 12 months, volumes were recorded daily and the quality of treated water was monitored weekly. Reuse reduced potable water consumption by 27% on average and by up to 34% in summer months owing to irrigation. Treated water consistently met the standards for non-potable water supply in terms of turbidity, biochemical oxygen demand and microbiological indicators. Specific operating costs were about 38 roubles per cubic metre, and the payback period at current tariffs is estimated at 9–11 years. A survey of residents showed a high level of acceptance of the technology (82% positive ratings), provided the water had no odour or discolouration. We conclude that greywater reuse systems are worth including in new residential development projects.</p></abstract>
+<trans-abstract xml:lang="ru"><p>Повторное использование слабозагрязнённых бытовых сточных вод, или серых вод, рассматривается как один из способов снижения нагрузки на системы городского водоснабжения и водоотведения. В кратком сообщении представлены результаты пилотной эксплуатации системы очистки серых вод в жилом квартале из трёх многоквартирных домов (412 жителей). Серые воды от душевых и умывальников очищались на компактной установке, включающей механическую фильтрацию, мембранный биореактор и ультрафиолетовое обеззараживание, после чего подавались на смыв унитазов и полив придомовой территории. В течение 12 месяцев проводился ежедневный учёт объёмов и еженедельный контроль качества очищенной воды. Повторное использование позволило сократить потребление питьевой воды в среднем на 27 %, а в летние месяцы — до 34 % за счёт полива. Очищенная вода стабильно соответствовала нормативам для технического водоснабжения по мутности, биохимическому потреблению кислорода и микробиологическим показателям. Удельные эксплуатационные затраты составили около 38 руб. за кубический метр, срок окупаемости при действующих тарифах оценивается в 9–11 лет. Опрос жителей показал высокий уровень принятия технологии (82 % положительных оценок) при условии отсутствия запаха и окрашивания воды. Сделан вывод о целесообразности включения систем повторного использования серых вод в проекты новой жилой застройки.</p></trans-abstract>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>greywater</kwd><kwd>water reuse</kwd><kwd>membrane bioreactor</kwd><kwd>water saving</kwd><kwd>residential development</kwd></kwd-group>
+<kwd-group xml:lang="ru" kwd-group-type="author"><kwd>серые воды</kwd><kwd>повторное использование воды</kwd><kwd>мембранный биореактор</kwd><kwd>водосбережение</kwd><kwd>жилая застройка</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introduction</title>
+<p>About a third of the drinking water consumed in residential buildings is used for toilet flushing and irrigation — purposes for which drinking-water quality is not required. Greywater from showers and washbasins accounts for up to 60% of household wastewater and is relatively lightly polluted, which makes it an attractive source for non-potable water supply.</p>
+<p>The aim of this communication is to present the results of one year of pilot operation of a greywater reuse system in a multi-apartment residential block and to assess its effectiveness, cost-efficiency and perception by residents.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materials and Methods</title>
+<p>The pilot block comprises three ten-storey buildings with separate internal sewerage for greywater and blackwater. A treatment unit with a capacity of 25 m³/day is located in the basement. The volumes of incoming greywater, treated water and make-up water from the municipal network were recorded by automatic flow meters; the quality of treated water was monitored weekly by an accredited laboratory. At the end of the period, a questionnaire survey of residents was conducted (n = 163).</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Results</title>
+<p>The mean daily volume of reused water was 14.6 m³. The monthly share of drinking water substitution is shown in Fig. 1: the lowest values were recorded in winter (22–24%) and the highest in July and August (33–34%). Treated water quality indicators are given in Table 1.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Share of drinking water substituted by treated greywater by month, %</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>Table 1. Treated water quality (mean over 52 weeks)</p></caption><table><thead><tr><th>Indicator</th><th>Greywater</th><th>After treatment</th><th>Standard</th></tr></thead><tbody><tr><td>Turbidity, FTU</td><td>68</td><td>0,9</td><td>≤ 2</td></tr><tr><td>BOD₅, mg/L</td><td>142</td><td>4,1</td><td>≤ 10</td></tr><tr><td>Suspended solids, mg/L</td><td>95</td><td>&lt; 2</td><td>≤ 10</td></tr><tr><td>E. coli, CFU/100 mL</td><td>10⁴–10⁵</td><td>not det.</td><td>absent</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussion</title>
+<p>The substitution share obtained is close to the theoretical potential for this type of housing. Cost-efficiency depends strongly on water tariffs: as they rise, the payback period shortens to 6–7 years. Importantly, residents perceive the technology positively; however, any deviation in the organoleptic properties of the water quickly undermines trust, so reliable disinfection and monitoring are critical.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusion</title>
+<p>The greywater reuse system made it possible to reduce drinking water consumption by a quarter, with the treated water consistently meeting the standards. The technology can be recommended for new multi-apartment residential developments.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>References</title>
+<ref id="r1"><mixed-citation>Дьяконов Р. В. Децентрализованные системы водоотведения в жилой застройке: зарубежный опыт // Городское хозяйство и инфраструктура. 2022. № 6. С. 33–47.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Eriksson E., Auffarth K., Henze M., Ledin A. Characteristics of grey wastewater // Urban Water. 2002. Vol. 4, no. 1. P. 85–104.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Сафина А. Р., Дьяконов Р. В. Экономическая оценка проектов водосбережения в многоквартирных домах // Пространственная экономика и политика. 2023. № 2. С. 58–72.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Okoro N., Lindahl S. Membrane bioreactors for decentralised greywater treatment: a performance review // Water Technology Letters. 2021. Vol. 13. P. 140–158.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Mendes T., Haas R. Public acceptance of recycled water for domestic uses // Journal of Water and Society. 2020. Vol. 8, no. 2. P. 99–117.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Дьяконов Р. В. Водный баланс жилого квартала: методика расчёта. Новобор: Полис, 2021. 92 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

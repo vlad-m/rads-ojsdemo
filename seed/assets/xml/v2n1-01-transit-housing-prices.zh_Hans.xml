@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="zh">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>跨学科研究学报（演示版）</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems 演示期刊</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>齐夫拉有限责任公司</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>研究论文</subject></subj-group></article-categories>
+<title-group>
+<article-title>公共交通可达性与住房价格：城市群的特征价格模型</article-title>
+<subtitle>来自一条新轻轨线路开通的证据</subtitle>
+<trans-title-group xml:lang="en"><trans-title>Transit Accessibility and Housing Prices: A Hedonic Model for an Urban Agglomeration</trans-title><trans-subtitle>Evidence from the Opening of a New Light Rail Line</trans-subtitle></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Melnikov</surname><given-names>Artyom</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.melnikov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Gromov</surname><given-names>Pavel</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Polyakova</surname><given-names>Daria</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Polyakova</surname><given-names>Daria</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Sedov</surname><given-names>Evgeny</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sedov</surname><given-names>Evgeny</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>“波利斯”城市研究高等学院</institution>, <country country="RU">俄罗斯</country></aff>
+<aff id="aff2"><institution>“子午线”经济与空间发展研究所</institution>, <country country="RU">俄罗斯</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>7</lpage>
+<history><date date-type="received" iso-8601-date="2025-09-02"><day>02</day><month>09</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-01-19"><day>19</day><month>01</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Artyom Melnikov, Pavel Gromov, Daria Polyakova, Evgeny Sedov</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>依据 CC BY 4.0 许可协议发布</license-p></license></permissions>
+<abstract xml:lang="zh"><p>公共交通投资会重塑城市的空间结构，其最直观的表现之一便是新车站周边住房价格的变化。本文估算了一条长 17 公里的轻轨线路开通对某人口约 120 万的匿名城市群公寓价格的影响。数据包括 2018—2024 年的 46,000 条交易记录和出售挂牌信息，经地理编码并补充了建筑和街区特征。公共交通可达性以线路开通前后乘坐公共交通 45 分钟内可到达的就业岗位数量来衡量。采用特征价格双重差分模型识别效应，其中处理组为距新车站 800 米以内的公寓。线路开通后，影响区域内的公寓价格涨幅比对照区域高 6.8%，且这一效应早在宣布建设时就已开始显现。该效应在初始可达性较低的外围地区公寓中更为明显，而在市中心几乎不存在。可达性每增加 10,000 个就业岗位，每平方米价格上涨 1.9%。研究结果可为利用土地增值回收机制为交通基础设施融资提供依据。</p></abstract>
+<trans-abstract xml:lang="en"><p>Investment in public transport reshapes the spatial structure of a city, and one of the most visible manifestations of this is the change in housing prices near new stations. This article estimates the effect of opening a 17-km light rail line on apartment prices in an anonymised agglomeration with a population of about 1.2 million. The data comprise 46,000 transactions and sale listings for 2018–2024, geocoded and supplemented with building and neighbourhood characteristics. Transit accessibility was measured as the number of jobs reachable within 45 minutes by public transport before and after the opening of the line. The effect was identified with a hedonic difference-in-differences model in which the treatment group consists of apartments within 800 m of the new stations. After the line opened, apartment prices in the catchment area increased by 6.8% more than in the control area, and the effect began to appear as early as the announcement of construction. The effect is stronger for apartments in peripheral districts with initially low accessibility and practically absent in the centre. An increase in accessibility of 10,000 jobs is associated with a 1.9% increase in the price per square metre. The results can be used to justify land value capture mechanisms for financing transport infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="zh" kwd-group-type="author"><kwd>公共交通可达性</kwd><kwd>特征价格模型</kwd><kwd>住房市场</kwd><kwd>轻轨</kwd><kwd>土地增值回收</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>transit accessibility</kwd><kwd>hedonic model</kwd><kwd>housing market</kwd><kwd>light rail</kwd><kwd>land value capture</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>引言</title>
+<p>交通可达性与房地产价值之间的关系是城市经济学的基本议题之一。经典的单中心城市模型预测，交通成本的降低会提高远离市中心地块的价值。在不同国家开展的实证研究总体上证实了这一点，但效应估计值差异很大。</p>
+<p>2022 年研究区域城市群一条新轻轨线路的开通构成了一次自然实验。本研究的目的是估计由此引起的住房价格变化，追踪其在时间和空间上的动态，并将其与就业岗位可达性的变化联系起来。</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>材料与方法</title>
+<p>原始数据包括 2018—2024 年的 18,000 条登记交易记录和 28,000 条公寓出售挂牌信息。对于挂牌信息，采用下架前的最后报价。所有房源均经地理编码，并补充了以下特征：面积、楼层、建成年份和楼房建材，以及到市中心、公园和学校的距离。</p>
+<p>就业岗位可达性根据公共交通时刻表和就业分布数据计算。以每平方米价格的对数为因变量的特征价格模型包括房源特征、区域固定效应和季度—时期固定效应，以及影响区（距车站 800 米以内）指示变量与“宣布”“建设”和“运营”时期的交互项。</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>结果</title>
+<p>影响区与对照区之间价格差异的动态变化见图 1。在宣布建设之前，差异在统计上不显著，这证实了平行趋势假设。2019 年宣布建设后，差异开始扩大，并在运营期达到 6.8%。</p>
+<fig id="f1" position="float"><caption><p>图 1　影响区与对照区每平方米价格的逐年差异，%</p></caption></fig>
+<p>主模型及其变体的估计结果见表 1。外围地区的效应几乎是中间地带的三倍，而在市中心，效应与零无统计学差异。</p>
+<table-wrap id="t1" position="float"><caption><p>表 1　特征价格双重差分模型估计结果（因变量：每平方米价格的对数）</p></caption><table><thead><tr><th>模型设定</th><th>效应，%</th><th>标准误</th><th>N</th></tr></thead><tbody><tr><td>全部区域</td><td>6,8</td><td>1,3</td><td>46 112</td></tr><tr><td>外围地区</td><td>11,2</td><td>2,1</td><td>17 840</td></tr><tr><td>中间地带</td><td>4,1</td><td>1,6</td><td>19 305</td></tr><tr><td>市中心</td><td>0,9</td><td>2,4</td><td>8 967</td></tr><tr><td>仅交易记录</td><td>6,1</td><td>1,8</td><td>18 024</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>讨论</title>
+<p>该效应量处于国外快速轨道交通研究典型范围的中间位置。线路开通之前价格就已上涨，表明市场会将预期资本化，这对于选择实施土地增值回收机制的时机十分重要。</p>
+<p>效应在不同区域间的异质性与理论相符：在可达性原本就较高的地方，新线路带来的增益有限。本研究的局限在于部分样本使用了挂牌价格，但仅基于交易记录的估计结果与主估计结果相近。</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>结论</title>
+<p>轻轨线路的开通使影响区内的住房价格上涨了 6.8%，且外围地区的效应最大。这为利用部分增值回收工具为交通项目融资提供了依据。</p>
+</sec>
+</body>
+<back>
+<ref-list><title>参考文献</title>
+<ref id="r1"><mixed-citation>Rosen S. Hedonic prices and implicit markets: product differentiation in pure competition // Journal of Political Economy. 1974. Vol. 82, no. 1. P. 34–55.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Hansen W. G. How accessibility shapes land use // Journal of the American Institute of Planners. 1959. Vol. 25, no. 2. P. 73–76.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Мельников А. С. Метрики транспортной доступности на основе расписаний общественного транспорта // Геоинформатика и общество. 2023. № 2. С. 5–21.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Громов П. А., Седов Е. В. Капитализация инфраструктурных инвестиций в цены жилья: обзор эмпирических исследований // Пространственная экономика и политика. 2022. № 4. С. 9–30.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Debrezion G., Pels E., Rietveld P. The impact of railway stations on residential and commercial property value: a meta-analysis // Journal of Real Estate Finance and Economics. 2007. Vol. 35, no. 2. P. 161–180.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Полякова Д. И. Анонсирование инфраструктурных проектов и ожидания рынка жилья // Городские исследования. 2024. Т. 8, № 1. С. 44–61.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Ng W., Carvalho F. Land value capture for light rail: international practice // Transport Finance Review. 2021. Vol. 10. P. 71–90.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мельников А. С., Полякова Д. И. Геокодирование объявлений о продаже жилья: методы и ошибки // Прикладная аналитика. 2023. Т. 7, № 4. С. 63–79.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

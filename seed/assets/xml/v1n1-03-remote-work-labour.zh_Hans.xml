@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="zh">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>跨学科研究学报（演示版）</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems 演示期刊</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>齐夫拉有限责任公司</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>研究论文</subject></subj-group></article-categories>
+<title-group>
+<article-title>远程工作与区域劳动力市场：来自在线招聘信息的证据</article-title>
+<trans-title-group xml:lang="en"><trans-title>Remote Work and Regional Labour Markets: Evidence from Online Vacancies</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Gromov</surname><given-names>Pavel</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>p.gromov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Becker</surname><given-names>Laura</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Becker</surname><given-names>Laura</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>“子午线”经济与空间发展研究所</institution>, <country country="RU">俄罗斯</country></aff>
+<aff id="aff2"><institution>“奥斯特兰”应用经济研究中心</institution>, <country country="DE">德国</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>12</fpage><lpage>14</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-21"><day>21</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-14"><day>14</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Pavel Gromov, Laura Becker</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>依据 CC BY 4.0 许可协议发布</license-p></license></permissions>
+<abstract xml:lang="zh"><p>2020 年后远程工作的普及使小城镇居民能够获得首都雇主发布的职位，因而有可能重塑劳动力市场的空间结构。本文利用 2019—2023 年在某大型在线平台上发布的 240 万条招聘广告，估算远程职位在多大程度上实现了劳动力需求的跨区域再分配。招聘广告采用基于词典的模型进行分类，随后对随机样本进行人工验证。完全远程职位的比例从 2019 年的 2.1% 上升至 2023 年的 9.7%，增长主要集中在信息技术、市场营销和金融服务领域。双重差分设计表明，在这些行业就业比例较高的地区，平均标价工资的增速比可比地区快 4.3%。与此同时，远程职位对工作经验和学历的要求更高，从而限制了很大一部分劳动者的进入。远程工作对区域间工资差异的平抑效应在统计上显著，但幅度有限。结果表明，只有与再培训计划和数字基础设施建设相结合，远程工作才能成为区域政策的有效工具。</p></abstract>
+<trans-abstract xml:lang="en"><p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="zh" kwd-group-type="author"><kwd>远程工作</kwd><kwd>区域劳动力市场</kwd><kwd>在线招聘信息</kwd><kwd>工资</kwd><kwd>双重差分</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>remote work</kwd><kwd>regional labour market</kwd><kwd>online vacancies</kwd><kwd>wages</kwd><kwd>difference-in-differences</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>引言</title>
+<p>2020 年向远程工作的快速转变最初被视为应对疫情的临时措施。四年后，相当一部分雇主仍在提供完全远程的职位，这引出了一个问题：地理位置是否仍然决定着获得高薪工作的机会？如果小城镇的劳动者能够竞争首都发布的职位，那么即使没有人口的实际迁移，地区间的工资差距也可能缩小。</p>
+<p>关于这一问题的现有证据主要来自对劳动者的调查。在线招聘数据具有较高的时间和空间分辨率，可从需求侧提供补充视角。本文利用此类数据记录远程职位的增长情况，刻画其任职要求，并估算其对地区工资动态的影响。</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>材料与方法</title>
+<p>数据集包括 2019 年 1 月至 2023 年 12 月期间在某大型招聘平台上发布的 240 万条广告。每条记录包含职位名称、职位描述、地区、行业、标价工资范围和任职要求。利用包含 46 个短语的词典识别远程职位；对 2,000 条广告的随机样本进行人工编码，结果显示精确率为 0.94，召回率为 0.91。</p>
+<p>为估算对工资的影响，根据疫情前远程密集型行业的就业比例对各地区进行划分。采用包含地区和月份固定效应的双重差分模型，在控制职位职业构成的前提下，比较 2020 年 3 月前后标价工资中位数的变化。</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>结果</title>
+<p>完全远程职位的比例从 2019 年的 2.1% 稳步增长至 2023 年的 9.7%（图 1）。信息技术行业增长最为强劲，远程职位占全部招聘信息的 31%，其次是市场营销和金融行业。在制造业、零售业和医疗卫生行业，这一比例始终低于 2%。</p>
+<fig id="f1" position="float"><caption><p>图 1　各年份完全远程职位所占比例，%</p></caption></fig>
+<p>表 1 列出了主要估计结果。在远程密集型行业暴露度较高的地区，标价工资中位数的增幅比低暴露度地区高 4.3%。远程职位要求高等教育学历的可能性是其他职位的 1.6 倍，平均要求的工作经验多 1.2 年。</p>
+<table-wrap id="t1" position="float"><caption><p>表 1　双重差分估计结果（因变量：标价工资中位数的对数）</p></caption><table><thead><tr><th>模型设定</th><th>估计值</th><th>标准误</th><th>N（地区-月）</th></tr></thead><tbody><tr><td>基准模型</td><td>0.043</td><td>0.012</td><td>4,980</td></tr><tr><td>+ 职业控制变量</td><td>0.037</td><td>0.011</td><td>4,980</td></tr><tr><td>剔除首都地区</td><td>0.041</td><td>0.013</td><td>4,920</td></tr><tr><td>安慰剂检验（2018 年断点）</td><td>0.004</td><td>0.010</td><td>4,980</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>讨论</title>
+<p>我们的结果表明，远程工作确实对地区工资产生了平抑压力，但幅度有限。这一效应集中在原本就拥有一批远程密集型职业劳动者的地区，这表明远程工作放大的是现有的人力资本，而非创造新的机会。</p>
+<p>远程职位较高的技能要求是一个关键制约因素。将数字基础设施投资与再培训相结合的政策措施，更有可能把远程工作的潜力转化为普惠性收益。本研究的局限在于，招聘数据反映的是标价工资而非实际工资。</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>结论</title>
+<p>远程职位已成为劳动力市场的稳定组成部分，并在一定程度上缩小了地区间工资差距。然而，其收益主要归于高技能劳动者，其作为区域发展工具的作用取决于配套政策。</p>
+</sec>
+</body>
+<back>
+<ref-list><title>参考文献</title>
+<ref id="r1"><mixed-citation>Angrist J. D., Pischke J.-S. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009. 392 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Moretti E. The New Geography of Jobs. Boston: Houghton Mifflin Harcourt, 2012. 294 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Gromov P. A. Online vacancy data as a source of regional labour market statistics // Regional Economics Review. 2021. Vol. 14, no. 2. P. 55–73.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Becker L., Vogt H. Remote-eligible jobs and the spatial distribution of labour demand // Journal of Labour and Space. 2022. Vol. 8, no. 1. P. 1–24.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Громов П. А., Седова Е. К. Межрегиональная дифференциация заработной платы: факторы и тенденции // Пространственная экономика и политика. 2020. № 3. С. 22–40.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindgren A., Torres M. Skill requirements in remote job postings // Labour Market Analytics. 2023. Vol. 5. P. 140–158.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седова Е. К. Цифровая инфраструктура и занятость в малых городах. М.: Меридиан, 2022. 168 с.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Hartmann F. Text classification of job advertisements: a practical comparison // Computational Social Science Letters. 2021. Vol. 3, no. 4. P. 88–101.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

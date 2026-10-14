@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="az">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fənlərarası Tədqiqatlar Jurnalı (demo versiya)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems platformasında demo jurnal</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Tsifra» MMC</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>İcmal</subject></subj-group></article-categories>
+<title-group>
+<article-title>Kiçik və orta sahibkarlıqda dövri iqtisadiyyat: maneələrin və hərəkətverici amillərin sistemli icmalı</article-title>
+<trans-title-group xml:lang="en"><trans-title>The Circular Economy in Small and Medium-Sized Enterprises: A Systematic Review of Barriers and Drivers</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Sedov</surname><given-names>Evgeny</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sedov</surname><given-names>Evgeny</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sedov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Yakovleva</surname><given-names>Tatiana</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Yakovleva</surname><given-names>Tatiana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>«Meridian» İqtisadiyyat və Məkan İnkişafı İnstitutu</institution>, <country country="RU">Rusiya</country></aff>
+<aff id="aff2"><institution>«Ekopolis» Belarus Davamlı İnkişaf İnstitutu</institution>, <country country="BY">Belarus</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>11</fpage><lpage>13</lpage>
+<history><date date-type="received" iso-8601-date="2025-07-07"><day>07</day><month>07</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-12-16"><day>16</day><month>12</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2026 Evgeny Sedov, Tatiana Yakovleva</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 lisenziyası əsasında yayılır</license-p></license></permissions>
+<abstract xml:lang="az"><p>Resursların təkrar istifadəsinə, təmirinə və emalına əsaslanan dövri iqtisadiyyata keçid təkcə iri korporasiyaların deyil, həm də məşğulluğun və ətraf mühitə təsirin əhəmiyyətli hissəsinin payına düşdüyü kiçik və orta müəssisələrin iştirakını tələb edir. Bu sistemli icmalda kiçik və orta sahibkarlıqda dövri praktikaların tətbiqinin maneələri və hərəkətverici amillərinə dair empirik tədqiqatların nəticələri ümumiləşdirilir. PRISMA protokoluna uyğun aparılmış axtarış 2015–2025-ci illərə aid 1 146 nəşr aşkar etmiş, onlardan daxiletmə meyarlarına əsasən 28 ölkədən 72 tədqiqat seçilmişdir. Maneələr və hərəkətverici amillər beş qrup üzrə təsnif edilmişdir: maliyyə, texnoloji, bazar, institusional və təşkilati-mədəni. Ən çox qeyd olunan maneələr yüksək ilkin xərclər və maliyyələşməyə məhdud çıxış (tədqiqatların 78%-i), texniki səriştələrin çatışmazlığı (61%) və təkrar xammaldan hazırlanmış məhsullara istehlakçı tələbinin aşağı olması (47%) olmuşdur. Əsas hərəkətverici amillər xammal və utilizasiya xərclərinə qənaət, təchizat zəncirlərində iri sifarişçilərin tələbləri və sahibkarların şəxsi dəyərləridir. Dövlət dəstəyinin rolu birmənalı qiymətləndirilmir: subsidiyalar ilk növbədə məsləhət xidmətləri ilə birlikdə effektivdir. Şərqi Avropa və Mərkəzi Asiya ölkələrindən olan tədqiqatların ciddi çatışmazlığı aşkar edilmişdir. Dəstək siyasəti üçün tövsiyələr və gələcək tədqiqat istiqamətləri formalaşdırılmışdır.</p></abstract>
+<trans-abstract xml:lang="en"><p>The transition to a circular economy based on the reuse, repair and recycling of resources requires the participation not only of large corporations but also of small and medium-sized enterprises, which account for a large share of employment and environmental impact. This systematic review synthesises empirical research on the barriers to and drivers of adopting circular practices in small and medium-sized businesses. A PRISMA-guided search identified 1,146 publications from 2015–2025, of which 72 studies from 28 countries met the inclusion criteria. Barriers and drivers were classified into five groups: financial, technological, market, institutional and organisational-cultural. The most frequently cited barriers were high upfront costs and limited access to finance (78% of studies), a lack of technical competence (61%) and low consumer demand for products made from secondary raw materials (47%). The key drivers are savings on raw material and disposal costs, requirements of large customers in supply chains and the personal values of owners. The role of government support is assessed ambiguously: subsidies are effective mainly in combination with advisory services. A substantial gap in research from Eastern Europe and Central Asia was identified. Recommendations for support policies and directions for further research are formulated.</p></trans-abstract>
+<kwd-group xml:lang="az" kwd-group-type="author"><kwd>dövri iqtisadiyyat</kwd><kwd>kiçik və orta müəssisələr</kwd><kwd>sistemli icmal</kwd><kwd>davamlı inkişaf</kwd><kwd>təchizat zəncirləri</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>circular economy</kwd><kwd>small and medium-sized enterprises</kwd><kwd>systematic review</kwd><kwd>sustainable development</kwd><kwd>supply chains</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Giriş</title>
+<p>Dövri iqtisadiyyat konsepsiyası «hasil et — istehsal et — at» xətti modelindən imtina edərək məhsulların və materialların dəyərini mümkün qədər uzun müddət saxladığı qapalı dövrlərə üstünlük verilməsini nəzərdə tutur. Tədqiqatların və siyasi proqramların əhəmiyyətli hissəsi istehsal proseslərinin yenidən qurulması üçün resurslara malik olan iri şirkətlərə yönəlmişdir.</p>
+<p>Kiçik və orta müəssisələr başqa məhdudiyyətlərlə üzləşir: onların kapitalı, səriştələri və təchizat zəncirlərində danışıqlar gücü azdır. Eyni zamanda onlar daha çevikdir və yerli icmalara daha yaxındır. İcmalın məqsədi kiçik və orta sahibkarlıqda dövri praktikaların tətbiqinə mane olan və kömək edən amillərə dair empirik məlumatları sistemləşdirməkdir.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar və metodlar</title>
+<p>İcmal PRISMA 2020 tövsiyələrinə uyğun olaraq aparılmışdır. Axtarış biblioqrafik verilənlər bazalarında «dövri iqtisadiyyat», «kiçik və orta sahibkarlıq» terminlərinin və onların ingilisdilli ekvivalentlərinin kombinasiyaları üzrə aparılmışdır. 2015–2025-ci illərdə ingilis və ya rus dilində dərc edilmiş empirik tədqiqatlar (sorğular, keys-stadilər, müsahibələr, ekonometrik işlər) daxil edilmişdir.</p>
+<p>Tapılmış 1 146 qeyddən dublikatlar çıxarıldıqdan və annotasiyalar skrininq edildikdən sonra 214 iş tam mətn qiymətləndirməsindən keçmiş, onlardan 72-si daxiletmə meyarlarına uyğun gəlmişdir. Maneələr və hərəkətverici amillər əvvəlcədən hazırlanmış sxem üzrə iki tədqiqatçı tərəfindən müstəqil şəkildə kodlaşdırılmışdır; kodlaşdırıcıların razılığı κ = 0,79 təşkil etmişdir.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Nəticələr</title>
+<p>Daxil edilmiş tədqiqatlar 28 ölkəni əhatə edir, lakin onların 61%-i Qərbi Avropa ölkələrinin materialları əsasında aparılmışdır. Şərqi Avropa və Mərkəzi Asiya ölkələrinə dair cəmi beş iş var. Əsas maneələrin qeyd olunma tezliyi Şəkil 1-də təqdim edilmişdir.</p>
+<fig id="f1" position="float"><caption><p>Şəkil 1. Daxil edilmiş tədqiqatlarda maneələrin qeyd olunma tezliyi, % (n = 72)</p></caption></fig>
+<p>Dövri praktikaların tətbiqinin hərəkətverici amilləri Cədvəl 1-də qruplaşdırılmışdır. İqtisadi motivlər — xammal və tullantıların utilizasiyası xərclərinin azaldılması — ən çox qeyd olunur, lakin ailə müəssisələrinə dair tədqiqatlarda sahibkarların dəyərləri mühüm rol oynayır.</p>
+<table-wrap id="t1" position="float"><caption><p>Cədvəl 1. Dövri praktikaların tətbiqinin əsas hərəkətverici amilləri</p></caption><table><thead><tr><th>Hərəkətverici amillər qrupu</th><th>Nümunə</th><th>Tədqiqatların sayı</th><th>Pay, %</th></tr></thead><tbody><tr><td>Maliyyə</td><td>Xammal və utilizasiyaya qənaət</td><td>51</td><td>71</td></tr><tr><td>Bazar</td><td>İri sifarişçilərin tələbləri</td><td>38</td><td>53</td></tr><tr><td>Təşkilati-mədəni</td><td>Sahibkarların dəyərləri</td><td>31</td><td>43</td></tr><tr><td>İnstitusional</td><td>Subsidiyalar və məsləhətlər</td><td>26</td><td>36</td></tr><tr><td>Texnoloji</td><td>Rəqəmsal mübadilə platformaları</td><td>17</td><td>24</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Müzakirə</title>
+<p>Maliyyə maneələrinin və hərəkətverici amillərinin üstünlük təşkil etməsi göstərir ki, kiçik biznes üçün dövrilik ilk növbədə ekoloji gündəlik deyil, iqtisadiyyat məsələsidir. Buna görə də ilkin xərcləri və riskləri azaldan dəstək tədbirlərinə tələbat daha yüksəkdir. Bununla yanaşı, məsləhət dəstəyi olmadan subsidiyalar çox vaxt davamlı dəyişikliklərə gətirib çıxarmır.</p>
+<p>Sübut bazasının coğrafi tarazsızlığı nəticələrin köçürülə bilməsini məhdudlaşdırır: müxtəlif ölkələrdə institusional mühit, maliyyələşməyə çıxış və emal infrastrukturu əhəmiyyətli dərəcədə fərqlənir. Bu boşluğun doldurulması regional tədqiqatlar üçün mühüm vəzifədir.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Yekun</title>
+<p>Kiçik və orta sahibkarlıqda dövri praktikaların tətbiqi ilk növbədə iqtisadi stimullar və təchizat zəncirlərinin tələbləri ilə müəyyən edilir. Effektiv siyasət maliyyə dəstəyini səriştələrin və infrastrukturun inkişafı ilə birləşdirməlidir.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ədəbiyyat siyahısı</title>
+<ref id="r1"><mixed-citation>Page M. J., McKenzie J. E., Bossuyt P. M. et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews // BMJ. 2021. Vol. 372. Art. n71.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Kirchherr J., Reike D., Hekkert M. Conceptualizing the circular economy: an analysis of 114 definitions // Resources, Conservation and Recycling. 2017. Vol. 127. P. 221–232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Седов Е. В. Циркулярные бизнес-модели: типология и экономические эффекты // Пространственная экономика и политика. 2023. № 1. С. 31–50.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Яковлева Т. Н. Политика поддержки зелёного предпринимательства в странах ЕАЭС // Экономика устойчивого развития. 2024. Т. 12, № 3. С. 66–83.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Rizos V., Behrens A., Kafyeke T. et al. The circular economy: barriers and opportunities for SMEs. Brussels: CEPS, 2015. 22 p.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindner P., Costa R. Supply-chain pressure and circular practices in small manufacturers // Journal of Sustainable Enterprise. 2022. Vol. 11, no. 2. P. 115–134.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седов Е. В., Громов П. А. Малый бизнес и переработка отходов: результаты регионального обследования // Регион: экономика и общество. 2024. № 5. С. 20–37.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Oduya K., Brandt M. Owner values and environmental strategy in family firms // Small Business and Society. 2021. Vol. 7. P. 50–68.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

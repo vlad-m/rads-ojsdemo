@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="ru">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Вестник междисциплинарных исследований (демоверсия)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демоверсия журнала на Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>ООО «Цифра»</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Обзор</subject></subj-group></article-categories>
+<title-group>
+<article-title>Углеродный баланс торфяных болот бореальной зоны: обзор методов оценки</article-title>
+<trans-title-group xml:lang="en"><trans-title>Carbon Balance of Boreal Peatlands: A Review of Assessment Methods</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Нурланова</surname><given-names>Айгерим</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.nurlanova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Тихомиров</surname><given-names>Николай</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Каспийский институт экологических исследований</institution>, <country country="KZ">Казахстан</country></aff>
+<aff id="aff2"><institution>Северная болотная станция Новоборского государственного университета</institution>, <country country="RU">Россия</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>15</fpage><lpage>17</lpage>
+<history><date date-type="received" iso-8601-date="2024-08-19"><day>19</day><month>08</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-15"><day>15</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Айгерим Нурланова, Николай Тихомиров</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Распространяется по лицензии CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="ru"><p>Торфяные болота бореальной зоны занимают около 3 % поверхности суши, но хранят до трети почвенного углерода планеты, поэтому точная оценка их углеродного баланса важна для климатической политики и национальной отчётности о парниковых газах. В обзоре систематизированы основные методы оценки потоков углерода на болотах: камерный метод, метод турбулентных пульсаций, расчёт по скорости аккумуляции торфа и дистанционные методы, основанные на спутниковых индексах и моделях продуктивности. На основе анализа 87 публикаций за 2000–2024 гг. рассмотрены пространственный и временной масштаб каждого метода, источники неопределённости, требования к оборудованию и квалификации персонала. Показано, что оценки чистого экосистемного обмена для одного и того же болота, полученные разными методами, могут различаться в полтора–два раза, причём основная часть расхождений связана с учётом потоков метана и растворённого органического углерода. Особое внимание уделено осушенным и восстанавливаемым болотам, для которых данных существенно меньше, чем для ненарушенных экосистем. Сделан вывод о необходимости комбинированного подхода, в котором долговременные наблюдения методом турбулентных пульсаций на опорных площадках сочетаются с камерными измерениями и дистанционным масштабированием. Предложена схема выбора метода в зависимости от цели исследования и доступных ресурсов.</p></abstract>
+<trans-abstract xml:lang="en"><p>Boreal peatlands cover about 3% of the land surface yet store up to a third of the world's soil carbon, so accurate assessment of their carbon balance matters for climate policy and national greenhouse gas reporting. This review systematises the main methods for estimating carbon fluxes in peatlands: the chamber method, eddy covariance, calculation from peat accumulation rates, and remote-sensing approaches based on satellite indices and productivity models. Drawing on 87 publications from 2000–2024, it considers the spatial and temporal scale of each method, its sources of uncertainty and its requirements for equipment and staff expertise. Estimates of net ecosystem exchange for the same peatland obtained by different methods can differ by a factor of 1.5 to 2, with most of the discrepancy arising from the treatment of methane and dissolved organic carbon fluxes. Particular attention is paid to drained and rewetted peatlands, for which far fewer data exist than for undisturbed ecosystems. The review concludes that a combined approach is needed, in which long-term eddy covariance observations at reference sites are complemented by chamber measurements and remote-sensing upscaling. A decision scheme for choosing a method according to the research goal and available resources is proposed.</p></trans-abstract>
+<kwd-group xml:lang="ru" kwd-group-type="author"><kwd>торфяные болота</kwd><kwd>углеродный баланс</kwd><kwd>метан</kwd><kwd>турбулентные пульсации</kwd><kwd>камерный метод</kwd><kwd>бореальная зона</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>peatlands</kwd><kwd>carbon balance</kwd><kwd>methane</kwd><kwd>eddy covariance</kwd><kwd>chamber method</kwd><kwd>boreal zone</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Введение</title>
+<p>Болота — единственный тип наземных экосистем, способный на протяжении тысячелетий накапливать углерод в форме торфа. При этом они являются естественным источником метана, парникового газа с высоким потенциалом глобального потепления. Итоговый климатический эффект болота определяется соотношением этих процессов и чувствителен к уровню грунтовых вод.</p>
+<p>Осушение болот для торфодобычи, сельского и лесного хозяйства превращает их из стока в источник CO₂. Растущий интерес к восстановлению (обводнению) нарушенных болот как к климатической мере требует надёжных методов оценки баланса углерода. Цель настоящего обзора — сопоставить существующие методы, их возможности и ограничения.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалы и методы</title>
+<p>Поиск публикаций проводился в библиографических базах данных по сочетаниям ключевых слов «торфяное болото», «углеродный баланс», «поток CO₂», «метан» и их англоязычным эквивалентам за 2000–2024 гг. Из 412 найденных работ после анализа аннотаций и полных текстов отобрано 87, содержащих количественные оценки потоков и описание методики.</p>
+<p>Для каждой работы фиксировались тип болота, его состояние (ненарушенное, осушенное, восстанавливаемое), метод измерений, продолжительность наблюдений и учитываемые компоненты баланса. Оценки чистого экосистемного обмена приводились к единицам г C/м² в год.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Результаты</title>
+<p>Распределение работ по методам неравномерно (рис. 1): почти половина исследований основана на камерном методе, около трети — на методе турбулентных пульсаций. Дистанционные подходы применяются преимущественно для масштабирования, а не как самостоятельный источник оценок.</p>
+<fig id="f1" position="float"><caption><p>Рис. 1. Распределение проанализированных работ по основному методу оценки (n = 87)</p></caption></fig>
+<p>Сравнительные характеристики методов приведены в табл. 1. Камерный метод позволяет разделить потоки по микроландшафтам, но плохо описывает временную изменчивость; метод турбулентных пульсаций даёт непрерывные ряды, но требует однородной площадки и дорогостоящего оборудования.</p>
+<table-wrap id="t1" position="float"><caption><p>Таблица 1. Сравнение методов оценки углеродного баланса болот</p></caption><table><thead><tr><th>Метод</th><th>Масштаб</th><th>Временное разрешение</th><th>Основная неопределённость</th></tr></thead><tbody><tr><td>Камерный</td><td>0,1–1 м²</td><td>Эпизодическое</td><td>Интерполяция во времени</td></tr><tr><td>Турбулентные пульсации</td><td>0,1–1 км²</td><td>30 мин</td><td>Ночные потоки, неоднородность</td></tr><tr><td>Аккумуляция торфа</td><td>Керн</td><td>Столетия</td><td>Датировка, разложение</td></tr><tr><td>Дистанционный</td><td>Регион</td><td>Дни–недели</td><td>Калибровка моделей</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Обсуждение</title>
+<p>Существенные расхождения между методами объясняются не столько погрешностями измерений, сколько различиями в учитываемых компонентах баланса. Работы, не учитывающие вынос растворённого органического углерода с болотными водами, систематически завышают сток углерода на 10–25 %.</p>
+<p>Наименее изученными остаются восстанавливаемые болота: в первые годы после обводнения эмиссия метана может временно возрастать, что важно учитывать при оценке климатического эффекта проектов восстановления.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Заключение</title>
+<p>Ни один из методов не обеспечивает полной оценки углеродного баланса болот. Оптимальной представляется сеть опорных площадок с долговременными наблюдениями методом турбулентных пульсаций, дополненная камерными измерениями и дистанционным масштабированием.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Список литературы</title>
+<ref id="r1"><mixed-citation>Gorham E. Northern peatlands: role in the carbon cycle and probable responses to climatic warming // Ecological Applications. 1991. Vol. 1, no. 2. P. 182–195.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Baldocchi D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems // Global Change Biology. 2003. Vol. 9, no. 4. P. 479–492.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Тихомиров Н. В. Многолетняя динамика потоков CO₂ на верховом болоте северной тайги // Болотоведение и торф. 2020. Т. 18, № 2. С. 60–78.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Нурланова А. Н., Сейткали Д. М. Эмиссия метана с осушенных торфяников: обзор полевых данных // Экосистемы и климат. 2022. Т. 4, № 1. С. 15–34.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Kowalczyk P., Aarnio T. Dissolved organic carbon export from boreal mires // Hydrology and Biogeochemistry. 2019. Vol. 33. P. 410–427.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тихомиров Н. В., Ерёменко В. А. Камерные измерения потоков парниковых газов: методическое пособие. Новобор: НГУ, 2018. 96 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Lund S., Petersen R. Upscaling peatland carbon fluxes with satellite data: opportunities and pitfalls // Remote Sensing of Wetlands. 2021. Vol. 9, no. 3. P. 200–221.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Нурланова А. Н. Восстановление нарушенных болот и климатическая политика // Вопросы экологической политики. 2023. № 2. С. 47–63.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Hart G., Lin W. Long-term apparent rates of carbon accumulation in boreal peat // Quaternary Carbon Studies. 2018. Vol. 21. P. 55–70.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

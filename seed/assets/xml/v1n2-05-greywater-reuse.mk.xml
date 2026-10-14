@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="mk">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Списание за интердисциплинарни истражувања (демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демо-списание на Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>„Цифра“ ДОО</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Кратко соопштение</subject></subj-group></article-categories>
+<title-group>
+<article-title>Повторна употреба на сива вода во станбен блок со повеќестанбени згради: пилот-проценка</article-title>
+<trans-title-group xml:lang="en"><trans-title>Greywater Reuse in a Multi-Apartment Residential Block: A Pilot Assessment</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Дьяконов</surname><given-names>Роман</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Dyakonov</surname><given-names>Roman</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>r.dyakonov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Сафина</surname><given-names>Алина</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Safina</surname><given-names>Alina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Висока школа за урбани студии „Полис“</institution>, <country country="RU">Русија</country></aff>
+<aff id="aff2"><institution>Волшки институт за применета аналитика</institution>, <country country="RU">Русија</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>17</fpage><lpage>19</lpage>
+<history><date date-type="received" iso-8601-date="2025-05-14"><day>14</day><month>05</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-08-05"><day>05</day><month>08</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Роман Дьяконов, Алина Сафина</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Лиценцирано под CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="mk"><p>Повторната употреба на малку загадените отпадни води од домаќинствата, т.н. сива вода, се смета за еден од начините за намалување на оптоварувањето на градските системи за водоснабдување и канализација. Ова кратко соопштение ги претставува резултатите од пилот-работата на систем за пречистување сива вода во станбен блок од три повеќестанбени згради (412 жители). Сивата вода од тушевите и лавабоата се пречистуваше во компактна единица што опфаќа механичка филтрација, мембрански биореактор и ултравиолетова дезинфекција, а потоа се доставуваше за испирање на тоалетите и за наводнување на околниот простор. Во текот на 12 месеци, волумените се евидентираа дневно, а квалитетот на пречистената вода се следеше неделно. Повторната употреба ја намали потрошувачката на вода за пиење во просек за 27%, а во летните месеци до 34% поради наводнувањето. Пречистената вода постојано ги исполнуваше стандардите за водоснабдување со вода што не е за пиење во поглед на матноста, биохемиската потрошувачка на кислород и микробиолошките показатели. Специфичните оперативни трошоци изнесуваа околу 38 рубли по кубен метар, а периодот на враќање на инвестицијата според сегашните тарифи се проценува на 9–11 години. Анкетата меѓу жителите покажа високо ниво на прифаќање на технологијата (82% позитивни оценки), под услов водата да нема мирис или промена на бојата. Заклучуваме дека системите за повторна употреба на сива вода вреди да се вклучат во проектите за нова станбена изградба.</p></abstract>
+<trans-abstract xml:lang="en"><p>The reuse of lightly polluted domestic wastewater, or greywater, is regarded as one way to reduce the load on urban water supply and sewerage systems. This short communication presents the results of a pilot operation of a greywater treatment system in a residential block of three multi-apartment buildings (412 residents). Greywater from showers and washbasins was treated in a compact unit comprising mechanical filtration, a membrane bioreactor and ultraviolet disinfection, and then supplied for toilet flushing and irrigation of the surrounding grounds. Over 12 months, volumes were recorded daily and the quality of treated water was monitored weekly. Reuse reduced potable water consumption by 27% on average and by up to 34% in summer months owing to irrigation. Treated water consistently met the standards for non-potable water supply in terms of turbidity, biochemical oxygen demand and microbiological indicators. Specific operating costs were about 38 roubles per cubic metre, and the payback period at current tariffs is estimated at 9–11 years. A survey of residents showed a high level of acceptance of the technology (82% positive ratings), provided the water had no odour or discolouration. We conclude that greywater reuse systems are worth including in new residential development projects.</p></trans-abstract>
+<kwd-group xml:lang="mk" kwd-group-type="author"><kwd>сива вода</kwd><kwd>повторна употреба на вода</kwd><kwd>мембрански биореактор</kwd><kwd>заштеда на вода</kwd><kwd>станбена изградба</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>greywater</kwd><kwd>water reuse</kwd><kwd>membrane bioreactor</kwd><kwd>water saving</kwd><kwd>residential development</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Вовед</title>
+<p>Околу една третина од водата за пиење што се троши во станбените згради се користи за испирање на тоалетите и за наводнување – потреби за кои не е потребен квалитет на вода за пиење. Сивата вода од тушевите и лавабоата сочинува до 60% од отпадните води од домаќинствата и е релативно малку загадена, што ја прави привлечен извор за техничко водоснабдување.</p>
+<p>Целта на соопштението е да се претстават резултатите од едногодишната пилот-експлоатација на систем за повторна употреба на сива вода во блок од повеќестанбени згради и да се оценат неговата ефикасност, економичност и перцепцијата кај жителите.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материјали и методи</title>
+<p>Пилот-блокот опфаќа три десеткатни згради со одвоена внатрешна канализација за сивите и црните отпадни води. Постројката за пречистување со капацитет од 25 m³/ден е сместена во подрумска просторија. Волумените на дотечената сива вода, на пречистената вода и на дополнувањето од градската мрежа беа евидентирани со автоматски мерачи на проток; квалитетот на пречистената вода неделно го контролираше акредитирана лабораторија. На крајот од периодот беше спроведена анкета меѓу жителите (n = 163).</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Резултати</title>
+<p>Средниот дневен волумен на повторно употребена вода изнесуваше 14,6 m³. Месечниот удел на замена на водата за пиење е прикажан на сл. 1: минималните вредности се забележани во зима (22–24%), а максималните во јули и август (33–34%). Показателите за квалитетот на пречистената вода се прикажани во таб. 1.</p>
+<fig id="f1" position="float"><caption><p>Сл. 1. Удел на замена на водата за пиење со пречистена сива вода по месеци, %</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>Табела 1. Квалитет на пречистената вода (просек за 52 недели)</p></caption><table><thead><tr><th>Показател</th><th>Сива вода</th><th>По пречистувањето</th><th>Норматив</th></tr></thead><tbody><tr><td>Матност, FNU</td><td>68</td><td>0,9</td><td>≤ 2</td></tr><tr><td>БПК₅, mg/l</td><td>142</td><td>4,1</td><td>≤ 10</td></tr><tr><td>Суспендирани материи, mg/l</td><td>95</td><td>&lt; 2</td><td>≤ 10</td></tr><tr><td>E. coli, КФЕ/100 ml</td><td>10⁴–10⁵</td><td>не е детект.</td><td>отсуство</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Дискусија</title>
+<p>Добиениот удел на замена е близок до теоретскиот потенцијал за овој тип изградба. Економската ефикасност силно зависи од тарифите за водоснабдување: при нивно покачување периодот на враќање на инвестицијата се скратува на 6–7 години. Важно е што жителите ја доживуваат технологијата позитивно, но секое отстапување на органолептичките својства на водата брзо ја намалува довербата, поради што сигурноста на дезинфекцијата и на мониторингот е од критично значење.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Заклучок</title>
+<p>Системот за повторна употреба на сива вода овозможи потрошувачката на вода за пиење да се намали за една четвртина, при постојана усогласеност на пречистената вода со нормативите. Технологијата може да се препорача за новата изградба на повеќестанбени згради.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Библиографија</title>
+<ref id="r1"><mixed-citation>Дьяконов Р. В. Децентрализованные системы водоотведения в жилой застройке: зарубежный опыт // Городское хозяйство и инфраструктура. 2022. № 6. С. 33–47.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Eriksson E., Auffarth K., Henze M., Ledin A. Characteristics of grey wastewater // Urban Water. 2002. Vol. 4, no. 1. P. 85–104.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Сафина А. Р., Дьяконов Р. В. Экономическая оценка проектов водосбережения в многоквартирных домах // Пространственная экономика и политика. 2023. № 2. С. 58–72.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Okoro N., Lindahl S. Membrane bioreactors for decentralised greywater treatment: a performance review // Water Technology Letters. 2021. Vol. 13. P. 140–158.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Mendes T., Haas R. Public acceptance of recycled water for domestic uses // Journal of Water and Society. 2020. Vol. 8, no. 2. P. 99–117.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Дьяконов Р. В. Водный баланс жилого квартала: методика расчёта. Новобор: Полис, 2021. 92 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="zh">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>跨学科研究学报（演示版）</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems 演示期刊</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>齐夫拉有限责任公司</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>简报</subject></subj-group></article-categories>
+<title-group>
+<article-title>城市公园土壤微生物组：宏条形码分析的初步结果</article-title>
+<trans-title-group xml:lang="en"><trans-title>The Soil Microbiome of Urban Parks: First Results of Metabarcoding</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author"><name name-style="western"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Guseva</surname><given-names>Polina</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Guseva</surname><given-names>Polina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/><email>p.guseva@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>里海环境研究所</institution>, <country country="KZ">哈萨克斯坦</country></aff>
+<aff id="aff2"><institution>诺沃博尔国立大学</institution>, <country country="RU">俄罗斯</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-10-28"><day>28</day><month>10</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-02-09"><day>09</day><month>02</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Aigerim Nurlanova, Polina Guseva</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>依据 CC BY 4.0 许可协议发布</license-p></license></permissions>
+<abstract xml:lang="zh"><p>城市公园土壤承担着调节径流、储存碳和支持植物生长等重要生态系统功能，但与自然土壤相比，其微生物群落研究要少得多。本简报介绍了对某匿名大城市中六座公园土壤细菌群落进行宏条形码分析的初步结果，这些公园在建园年代和游憩利用强度方面各不相同。从草坪、林冠下区域和步道沿线共采集了 72 份表层土壤样品。通过对 16S rRNA 基因 V4 可变区进行测序确定群落组成；同时测定了 pH、有机碳含量、土壤容重和重金属浓度。细菌 α 多样性在老公园的林冠下最高，在压实的步道沿线最低。群落结构在不同样地类型之间存在显著差异（PERMANOVA，R² = 0.21），在不同公园之间的差异则较小。决定群落组成的最重要因素是 pH 和土壤容重，而在所研究的浓度范围内，重金属的影响较弱。这些数据表明，公园的管理方式和空间布局对土壤微生物多样性的影响至少不亚于污染。目前研究仍在继续，将扩大样本并纳入真菌群落。</p></abstract>
+<trans-abstract xml:lang="en"><p>The soils of urban parks perform important ecosystem functions, regulating runoff, storing carbon and supporting plant growth, yet their microbial communities have been studied far less than those of natural soils. This short communication presents the first results of metabarcoding of bacterial communities in the soils of six parks in an anonymised large city that differ in age and intensity of recreational use. Seventy-two samples of the topsoil were collected from lawns, areas under tree cover and along footpaths. Community composition was determined by sequencing the V4 variable region of the 16S rRNA gene; pH, organic carbon content, soil bulk density and heavy metal concentrations were measured in parallel. Bacterial alpha diversity was highest under tree cover in older parks and lowest along compacted paths. Community structure differed significantly between site types (PERMANOVA, R² = 0.21) and to a lesser extent between parks. The most important factors shaping community composition were pH and bulk density, whereas the effect of heavy metals at the concentrations studied was weak. These data suggest that park management and layout influence soil microbial diversity at least as much as pollution does. Work is continuing with an expanded sample and the inclusion of fungal communities.</p></trans-abstract>
+<kwd-group xml:lang="zh" kwd-group-type="author"><kwd>城市土壤</kwd><kwd>微生物组</kwd><kwd>宏条形码</kwd><kwd>16S rRNA</kwd><kwd>城市公园</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>urban soils</kwd><kwd>microbiome</kwd><kwd>metabarcoding</kwd><kwd>16S rRNA</kwd><kwd>urban parks</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>引言</title>
+<p>土壤微生物决定着碳和氮的循环、土壤结构以及植物健康。在城市中，土壤受到压实、污染、外来填土等强烈的人为影响，但公园（尤其是老公园）可以成为微生物多样性的保护地。</p>
+<p>本简报的目的是介绍关于城市公园土壤细菌群落组成和多样性的初步数据，并识别决定其结构的主要因素。</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>材料与方法</title>
+<p>在六座建园 15 至 120 年的公园（P1—P6）中，于三种样地类型（草坪、乔木林下、步道路肩）中各采集四份 0～10 cm 土层的混合样品。采用商业试剂盒提取 DNA，对 16S rRNA 基因的 V4 区进行扩增和测序。序列经处理后划分扩增子序列变体；以 Shannon 指数评估多样性，并基于 Bray-Curtis 距离矩阵采用 PERMANOVA 方法分析群落结构差异。</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>结果</title>
+<p>Shannon 指数在不同样地类型之间存在差异（图 1）：乔木林下最高，步道沿线最低，后者的土壤容重高达 1.55 g/cm³。PERMANOVA 分析结果见表 1。</p>
+<fig id="f1" position="float"><caption><p>图 1　新老公园中各样地类型细菌群落的 Shannon 指数</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>表 1　细菌群落结构的影响因素（PERMANOVA，999 次置换）</p></caption><table><thead><tr><th>因素</th><th>R²</th><th>F</th><th>p</th></tr></thead><tbody><tr><td>样地类型</td><td>0,21</td><td>9,4</td><td>0,001</td></tr><tr><td>公园</td><td>0,12</td><td>2,1</td><td>0,003</td></tr><tr><td>pH</td><td>0,09</td><td>8,0</td><td>0,001</td></tr><tr><td>土壤容重</td><td>0,07</td><td>6,3</td><td>0,001</td></tr><tr><td>重金属总量</td><td>0,02</td><td>1,6</td><td>0,092</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>讨论</title>
+<p>样地类型和土壤容重的强烈影响表明，游憩活动造成的压实是导致微生物群落贫化的主导因素。这与自然游憩区的数据一致。重金属影响较弱，可能是由于其在所研究公园中的浓度适中。实践启示是：合理规划园路系统并保护树木根区免遭踩踏，有助于保护土壤生物多样性。</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>结论</title>
+<p>城市公园土壤的细菌多样性主要取决于样地类型、pH 和土壤压实程度。保留有原有林木的老公园是土壤微生物多样性的重要保护地。</p>
+</sec>
+</body>
+<back>
+<ref-list><title>参考文献</title>
+<ref id="r1"><mixed-citation>Fierer N., Jackson R. B. The diversity and biogeography of soil bacterial communities // Proceedings of the National Academy of Sciences of the USA. 2006. Vol. 103, no. 3. P. 626–631.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Anderson M. J. A new method for non-parametric multivariate analysis of variance // Austral Ecology. 2001. Vol. 26, no. 1. P. 32–46.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Гусева П. А. Физические свойства почв городских рекреационных территорий // Почвы и урбанизация. 2023. Т. 5, № 2. С. 40–55.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Нурланова А. Н., Гусева П. А. Тяжёлые металлы в почвах парков: пространственная изменчивость // Экосистемы и климат. 2024. Т. 6, № 3. С. 77–91.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Reese A., Kowal M. Trampling effects on soil bacterial diversity in recreational areas // Urban Ecosystems Letters. 2021. Vol. 9. P. 133–148.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Saldana P., Wu J. Park age and soil microbial community assembly // Journal of Urban Soil Science. 2022. Vol. 4, no. 1. P. 1–17.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

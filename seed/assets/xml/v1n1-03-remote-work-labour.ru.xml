@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="ru">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Вестник междисциплинарных исследований (демоверсия)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демоверсия журнала на Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>ООО «Цифра»</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Научная статья</subject></subj-group></article-categories>
+<title-group>
+<article-title>Удалённая работа и региональные рынки труда: данные онлайн-вакансий</article-title>
+<trans-title-group xml:lang="en"><trans-title>Remote Work and Regional Labour Markets: Evidence from Online Vacancies</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Громов</surname><given-names>Павел</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>p.gromov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Беккер</surname><given-names>Лаура</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Becker</surname><given-names>Laura</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Институт экономики и пространственного развития «Меридиан»</institution>, <country country="RU">Россия</country></aff>
+<aff id="aff2"><institution>Центр прикладных экономических исследований «Остланд»</institution>, <country country="DE">Германия</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>12</fpage><lpage>14</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-21"><day>21</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-14"><day>14</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Павел Громов, Лаура Беккер</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Распространяется по лицензии CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="ru"><p>Распространение удалённой работы после 2020 г. потенциально меняет пространственную структуру рынков труда, позволяя жителям небольших городов получать доступ к вакансиям столичных работодателей. В статье на основе 2,4 млн объявлений о вакансиях, опубликованных на крупной онлайн-платформе в 2019–2023 гг., оценивается, в какой мере удалённые вакансии перераспределяют спрос на труд между регионами. Для классификации объявлений использована словарная модель с последующей ручной проверкой случайной выборки. Доля полностью удалённых вакансий выросла с 2,1 % в 2019 г. до 9,7 % в 2023 г., причём рост был сосредоточен в сфере информационных технологий, маркетинга и финансовых услуг. С помощью метода разности разностей показано, что в регионах с более высокой долей занятых в этих отраслях средняя предлагаемая заработная плата выросла на 4,3 % сильнее, чем в сопоставимых регионах. Вместе с тем удалённые вакансии предъявляют более высокие требования к опыту и образованию, что ограничивает доступ к ним для значительной части работников. Эффект выравнивания межрегиональных различий в оплате труда оказался статистически значимым, но умеренным. Результаты свидетельствуют о том, что удалённая работа может стать инструментом региональной политики только в сочетании с программами переподготовки и развития цифровой инфраструктуры.</p></abstract>
+<trans-abstract xml:lang="en"><p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="ru" kwd-group-type="author"><kwd>удалённая работа</kwd><kwd>региональный рынок труда</kwd><kwd>онлайн-вакансии</kwd><kwd>заработная плата</kwd><kwd>разность разностей</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>remote work</kwd><kwd>regional labour market</kwd><kwd>online vacancies</kwd><kwd>wages</kwd><kwd>difference-in-differences</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Введение</title>
+<p>Стремительный переход к удалённой работе в 2020 г. первоначально рассматривался как временная реакция на пандемию. Четыре года спустя значительная доля работодателей продолжает предлагать полностью удалённые позиции, что ставит вопрос о том, определяет ли место проживания по-прежнему доступ к высокооплачиваемым рабочим местам. Если работники из небольших городов могут конкурировать за вакансии, размещённые в столице, межрегиональные различия в заработной плате могут сокращаться без физической миграции.</p>
+<p>Имеющиеся данные по этому вопросу получены главным образом из опросов работников. Данные онлайн-вакансий дают дополнительный взгляд со стороны спроса с высоким временным и пространственным разрешением. В настоящей статье такие данные используются для того, чтобы задокументировать рост числа удалённых вакансий, охарактеризовать предъявляемые в них требования и оценить их влияние на региональную динамику заработной платы.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалы и методы</title>
+<p>Набор данных включает 2,4 млн объявлений, опубликованных с января 2019 по декабрь 2023 г. на крупной платформе по поиску работы. Каждая запись содержит название должности, описание, регион, отрасль, предлагаемый диапазон заработной платы и требования. Удалённые вакансии выявлялись с помощью словаря из 46 фраз; ручная разметка случайной выборки из 2 000 объявлений показала точность 0,94 и полноту 0,91.</p>
+<p>Для оценки влияния на заработную плату регионы были разделены по доле занятости в отраслях с высоким потенциалом удалённой работы в допандемийный период. Модель «разность разностей» с фиксированными эффектами региона и месяца сравнивает динамику медианной предлагаемой заработной платы до и после марта 2020 г. с контролем профессионального состава вакансий.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Результаты</title>
+<p>Доля полностью удалённых вакансий устойчиво росла — с 2,1 % в 2019 г. до 9,7 % в 2023 г. (рис. 1). Наиболее сильный рост наблюдался в сфере информационных технологий, где удалённые позиции достигли 31 % всех объявлений, за ней следуют маркетинг и финансы. В обрабатывающей промышленности, розничной торговле и здравоохранении доля оставалась ниже 2 %.</p>
+<fig id="f1" position="float"><caption><p>Рис. 1. Доля полностью удалённых вакансий по годам, %</p></caption></fig>
+<p>Основные оценки приведены в табл. 1. В регионах с высокой подверженностью отраслям с высоким потенциалом удалённой работы медианная предлагаемая заработная плата выросла на 4,3 % больше, чем в регионах с низкой подверженностью. В удалённых вакансиях в 1,6 раза чаще требовалось высшее образование, и в среднем в них запрашивалось на 1,2 года больше опыта работы.</p>
+<table-wrap id="t1" position="float"><caption><p>Таблица 1. Оценки модели «разность разностей» (зависимая переменная — логарифм медианной предлагаемой заработной платы)</p></caption><table><thead><tr><th>Спецификация</th><th>Оценка</th><th>Ст. ошибка</th><th>N (регион-месяцы)</th></tr></thead><tbody><tr><td>Базовая</td><td>0.043</td><td>0.012</td><td>4,980</td></tr><tr><td>+ контроль профессий</td><td>0.037</td><td>0.011</td><td>4,980</td></tr><tr><td>Без столичного региона</td><td>0.041</td><td>0.013</td><td>4,920</td></tr><tr><td>Плацебо (разрыв в 2018 г.)</td><td>0.004</td><td>0.010</td><td>4,980</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Обсуждение</title>
+<p>Наши результаты свидетельствуют о том, что удалённая работа действительно оказывает выравнивающее давление на региональную заработную плату, однако его величина умеренна. Эффект сосредоточен в регионах, где уже имелся пул работников в профессиях с высоким потенциалом удалённой работы, что указывает на то, что удалённая работа скорее усиливает имеющийся человеческий капитал, чем создаёт новые возможности.</p>
+<p>Ключевым ограничением являются более высокие квалификационные требования удалённых вакансий. Меры политики, сочетающие инвестиции в цифровую инфраструктуру с переобучением, с большей вероятностью позволят превратить потенциал удалённой работы в широко распределённые выгоды. Ограничение исследования состоит в том, что данные о вакансиях отражают предлагаемую, а не фактически полученную заработную плату.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Заключение</title>
+<p>Удалённые вакансии стали устойчивой характеристикой рынка труда и умеренно сокращают межрегиональные различия в заработной плате. Однако их выгоды достаются главным образом высококвалифицированным работникам, а их роль как инструмента регионального развития зависит от дополняющих мер политики.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Список литературы</title>
+<ref id="r1"><mixed-citation>Angrist J. D., Pischke J.-S. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009. 392 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Moretti E. The New Geography of Jobs. Boston: Houghton Mifflin Harcourt, 2012. 294 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Gromov P. A. Online vacancy data as a source of regional labour market statistics // Regional Economics Review. 2021. Vol. 14, no. 2. P. 55–73.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Becker L., Vogt H. Remote-eligible jobs and the spatial distribution of labour demand // Journal of Labour and Space. 2022. Vol. 8, no. 1. P. 1–24.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Громов П. А., Седова Е. К. Межрегиональная дифференциация заработной платы: факторы и тенденции // Пространственная экономика и политика. 2020. № 3. С. 22–40.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindgren A., Torres M. Skill requirements in remote job postings // Labour Market Analytics. 2023. Vol. 5. P. 140–158.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седова Е. К. Цифровая инфраструктура и занятость в малых городах. М.: Меридиан, 2022. 168 с.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Hartmann F. Text classification of job advertisements: a practical comparison // Computational Social Science Letters. 2021. Vol. 3, no. 4. P. 88–101.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

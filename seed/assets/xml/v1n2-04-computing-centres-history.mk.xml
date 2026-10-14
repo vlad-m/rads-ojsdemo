@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="mk">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Списание за интердисциплинарни истражувања (демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демо-списание на Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>„Цифра“ ДОО</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Прегледен труд</subject></subj-group></article-categories>
+<title-group>
+<article-title>Пресметковните центри од 1950-тите до 1970-тите години како научни институции: историографски преглед</article-title>
+<trans-title-group xml:lang="en"><trans-title>Computing Centres of the 1950s–1970s as Scientific Institutions: A Historiographical Review</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Вершинин</surname><given-names>Леонид</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vershinin</surname><given-names>Leonid</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>l.vershinin@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Центар за историја на науката и технологијата „Хронос“</institution>, <country country="RU">Русија</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-01-20"><day>20</day><month>01</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-06-10"><day>10</day><month>06</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Леонид Вершинин</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Лиценцирано под CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="mk"><p>Пресметковните центри, основани во средината на дваесеттиот век при научноистражувачките институти, универзитетите и индустриските претпријатија, одиграа клучна улога во претворањето на пресметувањето во самостоен инструмент на научното истражување. Овој преглед разгледува како историчарите на науката и технологијата ги проучувале овие институции во изминатите педесет години. Врз основа на анализа на 64 монографии, статии и зборници, се идентификуваат три главни историографски пристапи. Првиот, техничко-биографски, се фокусира на конструкцијата на одделни сметачи и на работата на нивните конструктори. Вториот, институционален, ги третира пресметковните центри како организации со сопствена структура, кадровска политика и односи со корисниците. Третиот, кој се појави во последните две децении, ги истражува пресметковните практики: како програмерите, операторите и корисниците стапувале во интеракција со машините и како пресметувањето ги трансформирало методите на одделни дисциплини, од метеорологијата до лингвистиката. Најмалку проучени теми остануваат секојдневната работа на пресметковните центри, улогата на жените програмерки и операторки, како и регионалните центри надвор од најголемите научни градови. Посебно се разгледуваат проблемите на изворната база, вклучувајќи го зачувувањето на техничката документација, дневниците за машинско време и програмите. Прегледот заклучува дека комбинирањето на архивските истражувања со методите на усната историја е перспективно додека учесниците во овие настани сè уште се живи.</p></abstract>
+<trans-abstract xml:lang="en"><p>Computing centres, established in the mid-twentieth century at research institutes, universities and industrial enterprises, played a key role in turning computation into an independent instrument of scientific inquiry. This review examines how historians of science and technology have studied these institutions over the past fifty years. Based on an analysis of 64 monographs, articles and edited volumes, three main historiographical approaches are identified. The first, technical-biographical, focuses on the construction of particular computers and the work of their designers. The second, institutional, treats computing centres as organisations with their own structure, staffing policies and relations with clients. The third, which has emerged over the last two decades, investigates computing practices: how programmers, operators and users interacted with machines and how computation transformed the methods of individual disciplines, from meteorology to linguistics. The least studied topics remain the everyday work of computing centres, the role of women programmers and operators, and regional centres outside the largest science cities. Problems of the source base are discussed separately, including the preservation of technical documentation, machine-time logs and programs. The review concludes that combining archival research with oral history methods is promising while participants in these events are still alive.</p></trans-abstract>
+<kwd-group xml:lang="mk" kwd-group-type="author"><kwd>историја на науката</kwd><kwd>историја на пресметувањето</kwd><kwd>пресметковни центри</kwd><kwd>историографија</kwd><kwd>усна историја</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>history of science</kwd><kwd>history of computing</kwd><kwd>computing centres</kwd><kwd>historiography</kwd><kwd>oral history</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Вовед</title>
+<p>Појавата на електронските сметачки машини кон крајот на 1940-тите и во 1950-тите години бараше создавање посебни установи: машините беа скапи, зафаќаа цели сали и бараа деноноќно одржување. Пресметковните центри станаа место каде што се среќаваа инженери, математичари и научници-корисници и каде што постепено се формираа новите професии – програмер и оператор.</p>
+<p>Историографијата на пресметковните центри се развиваше заедно со самата историја на сметачката техника како дисциплина. Целта на прегледот е да се систематизираат пристапите кон проучувањето на овие установи, да се идентификуваат слабо проучените теми и да се дискутира за состојбата на изворната база.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материјали и методи</title>
+<p>Корпусот на прегледот е формиран врз основа на библиографиите на клучните трудови и тематските индекси на стручните списанија за историја на науката и технологијата. Беа вклучени истражувања во кои пресметковниот центар (а не одделна машина или личност) е предмет на анализа барем во едно поглавје или дел. Конечниот корпус опфати 64 труда објавени од 1975 до 2024 година.</p>
+<p>Секој труд беше класифициран според водечкиот пристап, типот на користените извори и географијата на проучуваните установи. Класификацијата ја изврши авторот и ја провери повторно по една година за да се оцени нејзината стабилност.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Резултати</title>
+<p>Распределбата на трудовите по децении и пристапи е прикажана на сл. 1. До 1990-тите години доминираше техничко-биографскиот пристап, претставен главно со мемоари на учесниците во настаните и со јубилејни изданија. Институционалните истражувања станаа забележливи во 1990-тите и 2000-тите години, а истражувањата на практиките по 2010 година.</p>
+<fig id="f1" position="float"><caption><p>Сл. 1. Број на трудови според деценијата на објавување и водечкиот пристап</p></caption></fig>
+<p>Таб. 1 покажува кои извори се користат во рамките на различните пристапи. Значајно е што дневниците за машинско време и зачуваните текстови на програми се користат само во мал дел од трудовите, иако тие овозможуваат реконструкција на реалната искористеност на машините и на составот на решаваните задачи.</p>
+<table-wrap id="t1" position="float"><caption><p>Табела 1. Типови извори според историографските пристапи (удел на трудовите, %)</p></caption><table><thead><tr><th>Тип на извор</th><th>Техничко-биогр.</th><th>Институц.</th><th>Практики</th></tr></thead><tbody><tr><td>Мемоари и интервјуа</td><td>84</td><td>48</td><td>72</td></tr><tr><td>Административна документација на установите</td><td>28</td><td>86</td><td>56</td></tr><tr><td>Техничка документација</td><td>76</td><td>31</td><td>44</td></tr><tr><td>Дневници за машинско време</td><td>4</td><td>17</td><td>39</td></tr><tr><td>Текстови на програми</td><td>8</td><td>3</td><td>33</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Дискусија</title>
+<p>Промената на пристапите ја одразува општата еволуција на историјата на науката од историја на откритијата и пронаоѓачите кон социјална историја на знаењето и историја на практиките. Истовремено, техничко-биографските трудови ја задржуваат својата вредност како извор на фактографски податоци, особено кога се засновани на документи недостапни за истражувачите.</p>
+<p>Главните празнини се поврзани со „невидливите“ учесници во пресметковната работа – операторите, перфораторките, програмерите, од кои многумина беа жени – и со регионалните центри. Времето за снимање интервјуа со учесниците во настаните е ограничено, што ги прави проектите за усна историја особено актуелни.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Заклучок</title>
+<p>Историографијата на пресметковните центри помина пат од историја на машините до историја на практиките. Понатамошниот напредок бара проширување на изворната база – систематско пребарување на дневниците за машинско време и на програмите – и комбинирање на архивската работа со усната историја.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Библиографија</title>
+<ref id="r1"><mixed-citation>Campbell-Kelly M., Aspray W., Ensmenger N., Yost J. R. Computer: A History of the Information Machine. 3rd ed. Boulder: Westview Press, 2014. 360 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Ensmenger N. The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise. Cambridge, MA: MIT Press, 2010. 336 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Вершинин Л. А. Вычислительный центр как научное учреждение: опыт институционального анализа // Вопросы истории науки и техники. 2019. Т. 40, № 3. С. 77–96.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Вершинин Л. А., Гладкова З. Н. Журналы машинного времени как исторический источник // Архивы и история техники. 2021. № 2. С. 12–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Haigh T., Priestley M. Computing practices and the history of software: an agenda // Annals of Computing History Review. 2020. Vol. 12, no. 1. P. 3–21.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Гладкова З. Н. Женщины в программировании 1950–1970-х гг.: материалы устной истории // Наука и общество в истории. 2022. Т. 6, № 4. С. 101–118.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Abbate J. Recoding Gender: Women's Changing Participation in Computing. Cambridge, MA: MIT Press, 2012. 264 p.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мирский Е. Б. Региональные вычислительные центры и научная политика. М.: Хронос, 2018. 304 с.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Dahl K., Ostrowski P. Numerical weather prediction and the making of a computing community // Science in Context Studies. 2019. Vol. 27. P. 210–233.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="mn">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Салбар дундын судалгааны сэтгүүл (Демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems-ийн демо сэтгүүл</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ХХК</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Тойм</subject></subj-group></article-categories>
+<title-group>
+<article-title>1950–1970-аад оны тооцоолон бодох төвүүд шинжлэх ухааны байгууллага болох нь: түүх бичлэгийн тойм</article-title>
+<trans-title-group xml:lang="en"><trans-title>Computing Centres of the 1950s–1970s as Scientific Institutions: A Historiographical Review</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Вершинин</surname><given-names>Леонид</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vershinin</surname><given-names>Leonid</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>l.vershinin@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Шинжлэх ухаан, техникийн түүхийн «Хронос» төв</institution>, <country country="RU">Орос</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-01-20"><day>20</day><month>01</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-06-10"><day>10</day><month>06</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Леонид Вершинин</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензийн дагуу түгээгдэнэ</license-p></license></permissions>
+<abstract xml:lang="mn"><p>XX зууны дунд үед эрдэм шинжилгээний хүрээлэн, их сургууль, үйлдвэрийн газрууд дээр байгуулагдсан тооцоолон бодох төвүүд тооцооллыг шинжлэх ухааны судалгааны бие даасан хэрэгсэл болгоход гол үүрэг гүйцэтгэсэн. Энэхүү тоймд шинжлэх ухаан, техникийн түүхчид сүүлийн тавин жилд эдгээр байгууллагыг хэрхэн судалж ирснийг авч үзэв. 64 монографи, өгүүлэл, эмхэтгэлийн шинжилгээнд үндэслэн түүх бичлэгийн гурван үндсэн хандлагыг тодорхойлов. Эхнийх буюу техник-намтарчилсан хандлага нь тодорхой компьютеруудыг бүтээх үйл явц болон тэдгээрийн зохион бүтээгчдийн ажилд төвлөрдөг. Хоёр дахь буюу институцийн хандлага нь тооцоолон бодох төвүүдийг өөрийн бүтэц, боловсон хүчний бодлого, захиалагчидтай харилцах харилцаатай байгууллага гэж үздэг. Сүүлийн хорин жилд бий болсон гурав дахь хандлага нь тооцооллын практикийг судалдаг: программист, оператор, хэрэглэгчид машинтай хэрхэн харилцаж байсан, тооцоолол цаг уур судлалаас хэл шинжлэл хүртэлх тодорхой шинжлэх ухааны аргуудыг хэрхэн өөрчилсөн зэрэг. Тооцоолон бодох төвүүдийн өдөр тутмын ажил, эмэгтэй программист болон операторуудын үүрэг, томоохон шинжлэх ухааны хотуудаас гадуурх бүс нутгийн төвүүд хамгийн бага судлагдсан сэдэв хэвээр байна. Техникийн баримт бичиг, машины цагийн бүртгэлийн дэвтэр, программуудын хадгалалт зэрэг эх сурвалжийн суурийн асуудлыг тусад нь хэлэлцэв. Эдгээр үйл явдлын оролцогчид амьд сэрүүн байгаа энэ үед архивын судалгааг аман түүхийн аргатай хослуулах нь ирээдүйтэй гэж тоймд дүгнэв.</p></abstract>
+<trans-abstract xml:lang="en"><p>Computing centres, established in the mid-twentieth century at research institutes, universities and industrial enterprises, played a key role in turning computation into an independent instrument of scientific inquiry. This review examines how historians of science and technology have studied these institutions over the past fifty years. Based on an analysis of 64 monographs, articles and edited volumes, three main historiographical approaches are identified. The first, technical-biographical, focuses on the construction of particular computers and the work of their designers. The second, institutional, treats computing centres as organisations with their own structure, staffing policies and relations with clients. The third, which has emerged over the last two decades, investigates computing practices: how programmers, operators and users interacted with machines and how computation transformed the methods of individual disciplines, from meteorology to linguistics. The least studied topics remain the everyday work of computing centres, the role of women programmers and operators, and regional centres outside the largest science cities. Problems of the source base are discussed separately, including the preservation of technical documentation, machine-time logs and programs. The review concludes that combining archival research with oral history methods is promising while participants in these events are still alive.</p></trans-abstract>
+<kwd-group xml:lang="mn" kwd-group-type="author"><kwd>шинжлэх ухааны түүх</kwd><kwd>тооцоолон бодох техникийн түүх</kwd><kwd>тооцоолон бодох төв</kwd><kwd>түүх бичлэг</kwd><kwd>аман түүх</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>history of science</kwd><kwd>history of computing</kwd><kwd>computing centres</kwd><kwd>historiography</kwd><kwd>oral history</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Удиртгал</title>
+<p>1940-өөд оны сүүл — 1950-иад онд электрон тооцоолон бодох машин гарч ирсэн нь тусгай байгууллага байгуулахыг шаардсан: машинууд үнэтэй, бүхэл бүтэн танхимыг эзэлдэг бөгөөд өдөр шөнөгүй үйлчилгээ шаарддаг байв. Тооцоолон бодох төвүүд инженер, математикч болон хэрэглэгч эрдэмтдийн уулзах газар болж, тэнд программист, оператор гэсэн шинэ мэргэжлүүд аажмаар бүрэлдэн тогтсон.</p>
+<p>Тооцоолон бодох төвүүдийн түүх бичлэг нь тооцоолон бодох техникийн түүх хэмээх салбар шинжлэх ухааны хамт хөгжиж ирсэн. Тоймын зорилго нь эдгээр байгууллагыг судлах хандлагыг системчилж, бага судлагдсан сэдвүүдийг илрүүлж, эх сурвалжийн суурийн байдлыг хэлэлцэх явдал юм.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материал ба арга зүй</title>
+<p>Тоймын корпусыг гол бүтээлүүдийн ном зүй болон шинжлэх ухаан, техникийн түүхийн мэргэжлийн сэтгүүлүүдийн сэдэвчилсэн заагчаар бүрдүүлэв. Дор хаяж нэг бүлэг эсвэл хэсэгт тооцоолон бодох төв (тусдаа машин эсвэл хувь хүн бус) шинжилгээний объект болсон судалгааг оруулсан. Эцсийн корпус 1975–2024 онд хэвлэгдсэн 64 бүтээлээс бүрдэв.</p>
+<p>Бүтээл бүрийг тэргүүлэх хандлага, ашигласан эх сурвалжийн төрөл болон судалсан байгууллагуудын газарзүйгээр ангилав. Ангиллыг зохиогч хийж, тогтвортой байдлыг үнэлэхийн тулд нэг жилийн дараа дахин шалгав.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Үр дүн</title>
+<p>Бүтээлүүдийн арван жил болон хандлагаар хуваарилагдсан байдлыг 1-р зурагт үзүүлэв. 1990-ээд он хүртэл голчлон үйл явдалд оролцогчдын дурсамж болон ойн хэвлэлүүдээр төлөөлөгдсөн техник-намтарчилсан хандлага давамгайлж байв. Институцийн судалгаа 1990–2000-аад онд, практикийн судалгаа 2010 оноос хойш тод болсон.</p>
+<fig id="f1" position="float"><caption><p>Зураг 1. Хэвлэгдсэн арван жил болон тэргүүлэх хандлагаар бүтээлийн тоо</p></caption></fig>
+<p>1-р хүснэгтэд өөр өөр хандлагын хүрээнд ямар эх сурвалж ашигладгийг үзүүлэв. Машины цагийн бүртгэлийн дэвтэр болон хадгалагдан үлдсэн программын бичвэрүүд машины бодит ачаалал болон шийдвэрлэсэн бодлогын бүрэлдэхүүнийг сэргээн босгох боломж олгодог хэдий ч тэдгээрийг бүтээлүүдийн багахан хэсэгт л ашигласан нь анхаарал татаж байна.</p>
+<table-wrap id="t1" position="float"><caption><p>Хүснэгт 1. Түүх бичлэгийн хандлагаар эх сурвалжийн төрөл (бүтээлийн эзлэх хувь, %)</p></caption><table><thead><tr><th>Эх сурвалжийн төрөл</th><th>Техник-намтар.</th><th>Институц.</th><th>Практик</th></tr></thead><tbody><tr><td>Дурсамж ба ярилцлага</td><td>84</td><td>48</td><td>72</td></tr><tr><td>Байгууллагын албан хэрэг хөтлөлт</td><td>28</td><td>86</td><td>56</td></tr><tr><td>Техникийн баримт бичиг</td><td>76</td><td>31</td><td>44</td></tr><tr><td>Машины цагийн бүртгэлийн дэвтэр</td><td>4</td><td>17</td><td>39</td></tr><tr><td>Программын бичвэр</td><td>8</td><td>3</td><td>33</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Хэлэлцүүлэг</title>
+<p>Хандлагын өөрчлөлт нь шинжлэх ухааны түүх нээлт, зохион бүтээгчдийн түүхээс мэдлэгийн нийгмийн түүх болон практикийн түүх рүү чиглэсэн ерөнхий хувьслыг тусгадаг. Үүний зэрэгцээ техник-намтарчилсан бүтээлүүд, ялангуяа судлаачдад хүртээмжгүй баримт бичигт үндэслэсэн тохиолдолд, баримтын мэдээллийн эх сурвалжийн хувьд үнэ цэнээ хадгалсаар байна.</p>
+<p>Гол цоорхойнууд нь тооцооллын ажлын «үл үзэгдэх» оролцогчид — олонх нь эмэгтэйчүүд байсан оператор, перфоратор цоологч, программистууд, мөн бүс нутгийн төвүүдтэй холбоотой. Үйл явдалд оролцогчидтой ярилцлага бичиж авах хугацаа хязгаарлагдмал байгаа нь аман түүхийн төслүүдийг онцгой чухал болгож байна.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Дүгнэлт</title>
+<p>Тооцоолон бодох төвүүдийн түүх бичлэг машины түүхээс практикийн түүх хүртэлх замыг туулсан. Цаашдын ахиц дэвшилд эх сурвалжийн суурийг өргөжүүлэх — машины цагийн бүртгэлийн дэвтэр болон программуудыг системтэйгээр хайх — болон архивын ажлыг аман түүхтэй хослуулах шаардлагатай.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ном зүй</title>
+<ref id="r1"><mixed-citation>Campbell-Kelly M., Aspray W., Ensmenger N., Yost J. R. Computer: A History of the Information Machine. 3rd ed. Boulder: Westview Press, 2014. 360 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Ensmenger N. The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise. Cambridge, MA: MIT Press, 2010. 336 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Вершинин Л. А. Вычислительный центр как научное учреждение: опыт институционального анализа // Вопросы истории науки и техники. 2019. Т. 40, № 3. С. 77–96.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Вершинин Л. А., Гладкова З. Н. Журналы машинного времени как исторический источник // Архивы и история техники. 2021. № 2. С. 12–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Haigh T., Priestley M. Computing practices and the history of software: an agenda // Annals of Computing History Review. 2020. Vol. 12, no. 1. P. 3–21.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Гладкова З. Н. Женщины в программировании 1950–1970-х гг.: материалы устной истории // Наука и общество в истории. 2022. Т. 6, № 4. С. 101–118.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Abbate J. Recoding Gender: Women's Changing Participation in Computing. Cambridge, MA: MIT Press, 2012. 264 p.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мирский Е. Б. Региональные вычислительные центры и научная политика. М.: Хронос, 2018. 304 с.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Dahl K., Ostrowski P. Numerical weather prediction and the making of a computing community // Science in Context Studies. 2019. Vol. 27. P. 210–233.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

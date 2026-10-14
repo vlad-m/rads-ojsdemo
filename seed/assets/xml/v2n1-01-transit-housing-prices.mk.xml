@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="mk">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Списание за интердисциплинарни истражувања (демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демо-списание на Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>„Цифра“ ДОО</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Научна статија</subject></subj-group></article-categories>
+<title-group>
+<article-title>Достапност на јавниот превоз и цените на станбениот простор: хедонистички модел за урбана агломерација</article-title>
+<subtitle>Докази од отворањето на нова линија на лесна железница</subtitle>
+<trans-title-group xml:lang="en"><trans-title>Transit Accessibility and Housing Prices: A Hedonic Model for an Urban Agglomeration</trans-title><trans-subtitle>Evidence from the Opening of a New Light Rail Line</trans-subtitle></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Мельников</surname><given-names>Артём</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.melnikov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Громов</surname><given-names>Павел</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Полякова</surname><given-names>Дарья</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Polyakova</surname><given-names>Daria</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Седов</surname><given-names>Евгений</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sedov</surname><given-names>Evgeny</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Висока школа за урбани студии „Полис“</institution>, <country country="RU">Русија</country></aff>
+<aff id="aff2"><institution>Институт за економија и просторен развој „Меридијан“</institution>, <country country="RU">Русија</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>7</lpage>
+<history><date date-type="received" iso-8601-date="2025-09-02"><day>02</day><month>09</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-01-19"><day>19</day><month>01</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Артём Мельников, Павел Громов, Дарья Полякова, Евгений Седов</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Лиценцирано под CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="mk"><p>Инвестициите во јавниот превоз ја преобликуваат просторната структура на градот, а една од највидливите манифестации на тоа е промената на цените на станбениот простор во близина на новите станици. Оваа статија го проценува ефектот од отворањето линија на лесна железница долга 17 km врз цените на становите во анонимизирана агломерација со население од околу 1,2 милиони жители. Податоците опфаќаат 46.000 трансакции и огласи за продажба од периодот 2018–2024, геокодирани и дополнети со карактеристики на зградите и на населбите. Достапноста на јавниот превоз беше мерена како број на работни места до кои може да се стигне за 45 минути со јавен превоз пред и по отворањето на линијата. Ефектот беше идентификуван со хедонистички модел „разлика во разликите“, во кој третираната група ја сочинуваат становите на оддалеченост до 800 m од новите станици. По отворањето на линијата, цените на становите во гравитационата зона се зголемија за 6,8% повеќе отколку во контролната зона, а ефектот почна да се појавува уште при најавата на изградбата. Ефектот е посилен кај становите во периферните населби со првично ниска достапност и практично отсуствува во центарот. Зголемувањето на достапноста за 10.000 работни места е поврзано со зголемување на цената по квадратен метар за 1,9%. Резултатите можат да се користат за образложување на механизмите за зафаќање на зголемената вредност на земјиштето (land value capture) за финансирање на транспортната инфраструктура.</p></abstract>
+<trans-abstract xml:lang="en"><p>Investment in public transport reshapes the spatial structure of a city, and one of the most visible manifestations of this is the change in housing prices near new stations. This article estimates the effect of opening a 17-km light rail line on apartment prices in an anonymised agglomeration with a population of about 1.2 million. The data comprise 46,000 transactions and sale listings for 2018–2024, geocoded and supplemented with building and neighbourhood characteristics. Transit accessibility was measured as the number of jobs reachable within 45 minutes by public transport before and after the opening of the line. The effect was identified with a hedonic difference-in-differences model in which the treatment group consists of apartments within 800 m of the new stations. After the line opened, apartment prices in the catchment area increased by 6.8% more than in the control area, and the effect began to appear as early as the announcement of construction. The effect is stronger for apartments in peripheral districts with initially low accessibility and practically absent in the centre. An increase in accessibility of 10,000 jobs is associated with a 1.9% increase in the price per square metre. The results can be used to justify land value capture mechanisms for financing transport infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="mk" kwd-group-type="author"><kwd>достапност на јавниот превоз</kwd><kwd>хедонистички модел</kwd><kwd>станбен пазар</kwd><kwd>лесна железница</kwd><kwd>зафаќање на вредноста на земјиштето</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>transit accessibility</kwd><kwd>hedonic model</kwd><kwd>housing market</kwd><kwd>light rail</kwd><kwd>land value capture</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Вовед</title>
+<p>Врската меѓу достапноста на превозот и вредноста на недвижностите е една од фундаменталните теми на урбаната економија. Класичниот модел на моноцентричен град предвидува дека намалувањето на транспортните трошоци ја зголемува вредноста на парцелите оддалечени од центарот. Емпириските истражувања спроведени во различни земји генерално го потврдуваат тоа, но проценките на ефектот значително се разликуваат.</p>
+<p>Отворањето на новата линија на брз трамвај во проучуваната агломерација во 2022 година создаде природен експеримент. Целта на трудот е да се процени промената на цените на станбениот простор предизвикана од него, да се следи нејзината динамика во времето и просторот и да се поврзе со промената на достапноста на работните места.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материјали и методи</title>
+<p>Изворните податоци опфаќаат 18.000 регистрирани трансакции и 28.000 огласи за продажба на станови од периодот 2018–2024 година. Кај огласите беа користени последните цени пред повлекувањето од објавување. Сите објекти се геокодирани и дополнети со карактеристики: површина, кат, година на изградба и материјал на зградата, растојание до центарот, парковите и училиштата.</p>
+<p>Достапноста на работните места е пресметана врз основа на возните редови на јавниот превоз и податоците за просторната распределба на вработеноста. Хедонистичкиот модел за логаритамот на цената по квадратен метар ги вклучува карактеристиките на објектот, фиксните ефекти на населбите и на тримесечјата, како и интеракцијата на индикаторот на зоната на влијание (до 800 m од станицата) со периодите „најава“, „изградба“ и „експлоатација“.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Резултати</title>
+<p>Динамиката на разликата во цените меѓу зоната на влијание и контролната зона е прикажана на сл. 1. Пред најавата на изградбата разликите се статистички незначајни, што ја потврдува претпоставката за паралелни трендови. По најавата во 2019 година разликата почнува да расте и достигнува 6,8% во периодот на експлоатација.</p>
+<fig id="f1" position="float"><caption><p>Сл. 1. Разлика во цените по квадратен метар меѓу зоната на влијание и контролната зона по години, %</p></caption></fig>
+<p>Проценките од основниот модел и неговите модификации се прикажани во таб. 1. Ефектот за периферните населби е речиси трипати поголем отколку за средната зона, а во центарот статистички не се разликува од нула.</p>
+<table-wrap id="t1" position="float"><caption><p>Табела 1. Проценки од хедонистичкиот модел „разлика во разликите“ (зависна променлива – log од цената по m²)</p></caption><table><thead><tr><th>Спецификација</th><th>Ефект, %</th><th>Станд. грешка</th><th>N</th></tr></thead><tbody><tr><td>Сите населби</td><td>6,8</td><td>1,3</td><td>46 112</td></tr><tr><td>Периферија</td><td>11,2</td><td>2,1</td><td>17 840</td></tr><tr><td>Средна зона</td><td>4,1</td><td>1,6</td><td>19 305</td></tr><tr><td>Центар</td><td>0,9</td><td>2,4</td><td>8 967</td></tr><tr><td>Само трансакции</td><td>6,1</td><td>1,8</td><td>18 024</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Дискусија</title>
+<p>Големината на ефектот се наоѓа во средината на опсегот карактеристичен за странските истражувања на брзиот шински превоз. Порастот на цените уште пред отворањето на линијата сведочи дека пазарот ги капитализира очекувањата, што е важно за изборот на моментот за примена на механизмите за зафаќање на вредноста на земјиштето.</p>
+<p>Нехомогеноста на ефектот по зони е во согласност со теоријата: таму каде што достапноста веќе била висока, новата линија додава малку. Ограничување на трудот е користењето цени од огласите за дел од примерокот, но проценката само врз основа на трансакциите е блиска до основната.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Заклучок</title>
+<p>Отворањето на линијата на брз трамвај ги зголеми цените на станбениот простор во зоната на влијание за 6,8%, при што најголемиот ефект се забележува на периферијата. Тоа ја оправдува примената на инструменти за зафаќање на дел од порастот на вредноста за финансирање на транспортните проекти.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Библиографија</title>
+<ref id="r1"><mixed-citation>Rosen S. Hedonic prices and implicit markets: product differentiation in pure competition // Journal of Political Economy. 1974. Vol. 82, no. 1. P. 34–55.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Hansen W. G. How accessibility shapes land use // Journal of the American Institute of Planners. 1959. Vol. 25, no. 2. P. 73–76.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Мельников А. С. Метрики транспортной доступности на основе расписаний общественного транспорта // Геоинформатика и общество. 2023. № 2. С. 5–21.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Громов П. А., Седов Е. В. Капитализация инфраструктурных инвестиций в цены жилья: обзор эмпирических исследований // Пространственная экономика и политика. 2022. № 4. С. 9–30.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Debrezion G., Pels E., Rietveld P. The impact of railway stations on residential and commercial property value: a meta-analysis // Journal of Real Estate Finance and Economics. 2007. Vol. 35, no. 2. P. 161–180.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Полякова Д. И. Анонсирование инфраструктурных проектов и ожидания рынка жилья // Городские исследования. 2024. Т. 8, № 1. С. 44–61.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Ng W., Carvalho F. Land value capture for light rail: international practice // Transport Finance Review. 2021. Vol. 10. P. 71–90.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мельников А. С., Полякова Д. И. Геокодирование объявлений о продаже жилья: методы и ошибки // Прикладная аналитика. 2023. Т. 7, № 4. С. 63–79.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

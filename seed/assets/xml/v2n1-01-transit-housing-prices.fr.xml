@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="fr">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revue de recherche interdisciplinaire (démo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revue de démonstration sous Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>SARL Tsifra</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Article de recherche</subject></subj-group></article-categories>
+<title-group>
+<article-title>Accessibilité en transports collectifs et prix du logement : un modèle hédonique pour une agglomération urbaine</article-title>
+<subtitle>Le cas de l’ouverture d’une nouvelle ligne de tramway rapide</subtitle>
+<trans-title-group xml:lang="en"><trans-title>Transit Accessibility and Housing Prices: A Hedonic Model for an Urban Agglomeration</trans-title><trans-subtitle>Evidence from the Opening of a New Light Rail Line</trans-subtitle></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Melnikov</surname><given-names>Artyom</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.melnikov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Gromov</surname><given-names>Pavel</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Polyakova</surname><given-names>Daria</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Polyakova</surname><given-names>Daria</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Sedov</surname><given-names>Evgeny</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sedov</surname><given-names>Evgeny</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>École supérieure d’études urbaines « Polis »</institution>, <country country="RU">Russie</country></aff>
+<aff id="aff2"><institution>Institut d’économie et de développement territorial « Meridian »</institution>, <country country="RU">Russie</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>7</lpage>
+<history><date date-type="received" iso-8601-date="2025-09-02"><day>02</day><month>09</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-01-19"><day>19</day><month>01</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Artyom Melnikov, Pavel Gromov, Daria Polyakova, Evgeny Sedov</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Diffusé sous licence CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="fr"><p>L’investissement dans les transports publics remodèle la structure spatiale d’une ville, et l’une des manifestations les plus visibles de ce phénomène est l’évolution des prix du logement à proximité des nouvelles stations. Cet article estime l’effet de l’ouverture d’une ligne de tramway rapide de 17 km sur les prix des appartements dans une agglomération anonymisée d’environ 1,2 million d’habitants. Les données comprennent 46 000 transactions et annonces de vente pour la période 2018-2024, géocodées et complétées par les caractéristiques des immeubles et des quartiers. L’accessibilité en transports collectifs a été mesurée par le nombre d’emplois accessibles en 45 minutes en transports publics avant et après l’ouverture de la ligne. L’effet a été identifié à l’aide d’un modèle hédonique en doubles différences dans lequel le groupe traité est constitué des appartements situés à moins de 800 m des nouvelles stations. Après l’ouverture de la ligne, les prix des appartements dans la zone de desserte ont augmenté de 6,8 % de plus que dans la zone témoin, et l’effet a commencé à se manifester dès l’annonce des travaux. L’effet est plus marqué pour les appartements des quartiers périphériques initialement peu accessibles et pratiquement nul dans le centre. Une hausse de l’accessibilité de 10 000 emplois est associée à une augmentation de 1,9 % du prix au mètre carré. Les résultats peuvent servir à justifier des mécanismes de captation de la plus-value foncière pour le financement des infrastructures de transport.</p></abstract>
+<trans-abstract xml:lang="en"><p>Investment in public transport reshapes the spatial structure of a city, and one of the most visible manifestations of this is the change in housing prices near new stations. This article estimates the effect of opening a 17-km light rail line on apartment prices in an anonymised agglomeration with a population of about 1.2 million. The data comprise 46,000 transactions and sale listings for 2018–2024, geocoded and supplemented with building and neighbourhood characteristics. Transit accessibility was measured as the number of jobs reachable within 45 minutes by public transport before and after the opening of the line. The effect was identified with a hedonic difference-in-differences model in which the treatment group consists of apartments within 800 m of the new stations. After the line opened, apartment prices in the catchment area increased by 6.8% more than in the control area, and the effect began to appear as early as the announcement of construction. The effect is stronger for apartments in peripheral districts with initially low accessibility and practically absent in the centre. An increase in accessibility of 10,000 jobs is associated with a 1.9% increase in the price per square metre. The results can be used to justify land value capture mechanisms for financing transport infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="fr" kwd-group-type="author"><kwd>accessibilité en transports collectifs</kwd><kwd>modèle hédonique</kwd><kwd>marché du logement</kwd><kwd>tramway rapide</kwd><kwd>captation de la plus-value foncière</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>transit accessibility</kwd><kwd>hedonic model</kwd><kwd>housing market</kwd><kwd>light rail</kwd><kwd>land value capture</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introduction</title>
+<p>Le lien entre l’accessibilité en transports et la valeur des biens immobiliers est l’un des thèmes fondamentaux de l’économie urbaine. Le modèle classique de la ville monocentrique prédit qu’une baisse des coûts de transport accroît la valeur des terrains éloignés du centre. Les études empiriques menées dans différents pays le confirment dans l’ensemble, mais les estimations de l’effet varient considérablement.</p>
+<p>L’ouverture d’une nouvelle ligne de tramway rapide dans l’agglomération étudiée en 2022 a créé une expérience naturelle. L’objectif de ce travail est d’estimer l’évolution des prix du logement qu’elle a entraînée, d’en suivre la dynamique dans le temps et dans l’espace et de la relier à l’évolution de l’accessibilité aux emplois.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Matériel et méthodes</title>
+<p>Les données de départ comprennent 18 000 transactions enregistrées et 28 000 annonces de vente d’appartements pour la période 2018-2024. Pour les annonces, le dernier prix affiché avant le retrait de l’annonce a été retenu. Tous les biens ont été géocodés et complétés par leurs caractéristiques : surface, étage, année de construction et matériau de l’immeuble, distance au centre, aux parcs et aux écoles.</p>
+<p>L’accessibilité aux emplois a été calculée à partir des horaires des transports publics et des données sur la localisation des emplois. Le modèle hédonique du logarithme du prix au mètre carré intègre les caractéristiques du bien, des effets fixes de quartier et de trimestre, ainsi que l’interaction entre l’indicateur de zone de desserte (moins de 800 m d’une station) et les périodes « annonce », « travaux » et « exploitation ».</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Résultats</title>
+<p>L’évolution de l’écart de prix entre la zone de desserte et la zone témoin est présentée à la figure 1. Avant l’annonce des travaux, les différences ne sont pas statistiquement significatives, ce qui confirme l’hypothèse de tendances parallèles. Après l’annonce en 2019, l’écart commence à se creuser et atteint 6,8 % pendant la période d’exploitation.</p>
+<fig id="f1" position="float"><caption><p>Figure 1. Écart de prix au mètre carré entre la zone de desserte et la zone témoin par année, %</p></caption></fig>
+<p>Les estimations du modèle principal et de ses variantes figurent dans le tableau 1. L’effet pour les quartiers périphériques est presque trois fois plus élevé que pour la zone intermédiaire, et dans le centre il ne se distingue pas statistiquement de zéro.</p>
+<table-wrap id="t1" position="float"><caption><p>Tableau 1. Estimations du modèle hédonique en doubles différences (variable dépendante : log du prix au m²)</p></caption><table><thead><tr><th>Spécification</th><th>Effet, %</th><th>Erreur-type</th><th>N</th></tr></thead><tbody><tr><td>Tous les quartiers</td><td>6,8</td><td>1,3</td><td>46 112</td></tr><tr><td>Périphérie</td><td>11,2</td><td>2,1</td><td>17 840</td></tr><tr><td>Zone intermédiaire</td><td>4,1</td><td>1,6</td><td>19 305</td></tr><tr><td>Centre</td><td>0,9</td><td>2,4</td><td>8 967</td></tr><tr><td>Transactions uniquement</td><td>6,1</td><td>1,8</td><td>18 024</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussion</title>
+<p>L’ampleur de l’effet se situe au milieu de la fourchette observée dans les études internationales sur les transports ferroviaires rapides. La hausse des prix dès avant l’ouverture de la ligne montre que le marché capitalise les anticipations, ce qui importe pour choisir le moment de mise en œuvre des mécanismes de captation de la plus-value foncière.</p>
+<p>L’hétérogénéité de l’effet selon les zones est conforme à la théorie : là où l’accessibilité était déjà élevée, la nouvelle ligne n’apporte guère. L’utilisation de prix d’annonce pour une partie de l’échantillon constitue une limite de ce travail, mais l’estimation fondée sur les seules transactions est proche de l’estimation principale.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusion</title>
+<p>L’ouverture de la ligne de tramway rapide a fait augmenter de 6,8 % les prix du logement dans la zone de desserte, l’effet le plus important étant observé en périphérie. Ce résultat justifie le recours à des instruments de captation d’une partie de la plus-value pour financer les projets de transport.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Références bibliographiques</title>
+<ref id="r1"><mixed-citation>Rosen S. Hedonic prices and implicit markets: product differentiation in pure competition // Journal of Political Economy. 1974. Vol. 82, no. 1. P. 34–55.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Hansen W. G. How accessibility shapes land use // Journal of the American Institute of Planners. 1959. Vol. 25, no. 2. P. 73–76.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Мельников А. С. Метрики транспортной доступности на основе расписаний общественного транспорта // Геоинформатика и общество. 2023. № 2. С. 5–21.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Громов П. А., Седов Е. В. Капитализация инфраструктурных инвестиций в цены жилья: обзор эмпирических исследований // Пространственная экономика и политика. 2022. № 4. С. 9–30.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Debrezion G., Pels E., Rietveld P. The impact of railway stations on residential and commercial property value: a meta-analysis // Journal of Real Estate Finance and Economics. 2007. Vol. 35, no. 2. P. 161–180.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Полякова Д. И. Анонсирование инфраструктурных проектов и ожидания рынка жилья // Городские исследования. 2024. Т. 8, № 1. С. 44–61.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Ng W., Carvalho F. Land value capture for light rail: international practice // Transport Finance Review. 2021. Vol. 10. P. 71–90.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мельников А. С., Полякова Д. И. Геокодирование объявлений о продаже жилья: методы и ошибки // Прикладная аналитика. 2023. Т. 7, № 4. С. 63–79.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

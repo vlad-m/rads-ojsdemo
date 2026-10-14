@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="el">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Περιοδικό Διεπιστημονικής Έρευνας (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Επιδεικτικό περιοδικό σε Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Τσίφρα» ΕΠΕ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Ερευνητικό άρθρο</subject></subj-group></article-categories>
+<title-group>
+<article-title>Σταθερότητα υμενίων περοβσκίτη υπό θερμική ανακύκλιση: ο ρόλος των οργανικών προσθέτων</article-title>
+<trans-title-group xml:lang="en"><trans-title>Stability of Perovskite Films under Thermal Cycling: The Role of Organic Additives</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Orlov</surname><given-names>Dmitry</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Orlov</surname><given-names>Dmitry</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>d.orlov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Shestakova</surname><given-names>Vera</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Shestakova</surname><given-names>Vera</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Avetisyan</surname><given-names>Georgy</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Avetisyan</surname><given-names>Georgy</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Κέντρο Επιστήμης Υλικών των Ουραλίων «Κρίσταλ»</institution>, <country country="RU">Ρωσία</country></aff>
+<aff id="aff2"><institution>Ινστιτούτο Φυσικής Συμπυκνωμένης Ύλης του Ερεβάν</institution>, <country country="AM">Αρμενία</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>5</fpage><lpage>7</lpage>
+<history><date date-type="received" iso-8601-date="2025-03-11"><day>11</day><month>03</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-22"><day>22</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Dmitry Orlov, Vera Shestakova, Georgy Avetisyan</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Με άδεια CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="el"><p>Οι περοβσκίτες αλογονιδίων θεωρούνται ένα από τα πλέον πολλά υποσχόμενα υλικά για τα φωτοβολταϊκά λεπτών υμενίων, όμως η πρακτική τους χρήση αναχαιτίζεται από την ανεπαρκή σταθερότητά τους στις διακυμάνσεις θερμοκρασίας που χαρακτηρίζουν τις πραγματικές συνθήκες λειτουργίας. Η παρούσα μελέτη εξετάζει την επίδραση τριών οργανικών προσθέτων, του φαιναιθυλαμμωνίου, της θειουρίας και της πολυβινυλοπυρρολιδόνης, στην αποικοδόμηση υμενίων περοβσκίτη μικτών κατιόντων υπό θερμική ανακύκλιση μεταξύ −20 και +85 °C. Τα υμένια παρασκευάστηκαν με επίστρωση περιστροφής υποβοηθούμενη από αντιδιαλύτη και χαρακτηρίστηκαν με περίθλαση ακτίνων Χ, ηλεκτρονική μικροσκοπία σάρωσης και φασματοσκοπία φωτοφωταύγειας μετά από 0, 50, 100 και 200 κύκλους. Στα δείγματα ελέγχου εμφανίζεται φάση ιωδιούχου μολύβδου ήδη μετά από 100 κύκλους, σχηματίζονται μικρορωγμές κατά μήκος των ορίων των κόκκων και η ένταση της φωτοφωταύγειας μειώνεται σχεδόν στο μισό. Η προσθήκη φαιναιθυλαμμωνίου σε ποσοστό 1,5 mol% επιβραδύνει την αποικοδόμηση: μετά από 200 κύκλους διατηρείται το 87% της αρχικής έντασης φωτοφωταύγειας και δεν ανιχνεύονται δευτερεύουσες φάσεις. Η θειουρία αυξάνει το μέγεθος των κόκκων, αλλά επηρεάζει ελάχιστα την αντοχή στη θερμική ανακύκλιση, ενώ η πολυβινυλοπυρρολιδόνη καταστέλλει αποτελεσματικά τη ρηγμάτωση. Προτείνεται μηχανισμός που συνδέει τη σταθεροποιητική δράση των προσθέτων με την παθητικοποίηση των επιφανειακών ατελειών και τη χαλάρωση των μηχανικών τάσεων. Τα αποτελέσματα μπορούν να αξιοποιηθούν στην ανάπτυξη συνθέσεων για εύκαμπτες ηλιακές μονάδες.</p></abstract>
+<trans-abstract xml:lang="en"><p>Halide perovskites are regarded as one of the most promising materials for thin-film photovoltaics, but their practical use is held back by insufficient stability under the temperature fluctuations typical of real operating conditions. This study examines the effect of three organic additives, phenethylammonium, thiourea and polyvinylpyrrolidone, on the degradation of mixed-cation perovskite films under thermal cycling between −20 and +85 °C. Films were prepared by antisolvent-assisted spin coating and characterised by X-ray diffraction, scanning electron microscopy and photoluminescence spectroscopy after 0, 50, 100 and 200 cycles. In control samples, a lead iodide phase appears after only 100 cycles, microcracks form along grain boundaries, and photoluminescence intensity drops by almost half. Adding phenethylammonium at 1.5 mol% slows degradation: after 200 cycles, 87% of the initial photoluminescence intensity is retained and no secondary phases are detected. Thiourea increases grain size but has little effect on resistance to thermal cycling, whereas polyvinylpyrrolidone effectively suppresses cracking. A mechanism is proposed that links the stabilising effect of the additives to the passivation of surface defects and the relaxation of mechanical stress. The results can inform the development of formulations for flexible solar modules.</p></trans-abstract>
+<kwd-group xml:lang="el" kwd-group-type="author"><kwd>περοβσκίτες</kwd><kwd>λεπτά υμένια</kwd><kwd>θερμική ανακύκλιση</kwd><kwd>αποικοδόμηση</kwd><kwd>παθητικοποίηση ατελειών</kwd><kwd>φωτοβολταϊκά</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>perovskites</kwd><kwd>thin films</kwd><kwd>thermal cycling</kwd><kwd>degradation</kwd><kwd>defect passivation</kwd><kwd>photovoltaics</kwd></kwd-group>
+<funding-group><award-group><funding-source>Ίδρυμα Υποστήριξης Διεπιστημονικής Έρευνας «Ορίζων»</funding-source></award-group></funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Εισαγωγή</title>
+<p>Κατά την τελευταία δεκαπενταετία ο βαθμός απόδοσης των ηλιακών κυψελών περοβσκίτη αυξήθηκε από μερικές μονάδες τοις εκατό σε τιμές συγκρίσιμες με εκείνες του πυριτίου. Το κύριο εμπόδιο για την εμπορική αξιοποίηση παραμένει η σταθερότητα: υπό την επίδραση της υγρασίας, του φωτός και της θερμοκρασίας το κρυσταλλικό πλέγμα του περοβσκίτη αποσυντίθεται με έκλυση ιωδιούχου μολύβδου.</p>
+<p>Η θερμική ανακύκλιση —οι επανειλημμένες μεταβολές της θερμοκρασίας— αποτελεί μία από τις πιο απαιτητικές δοκιμές, καθώς η διαφορά των συντελεστών θερμικής διαστολής του υμενίου και του υποστρώματος οδηγεί σε συσσώρευση μηχανικών τάσεων. Στόχος της εργασίας είναι η σύγκριση της αποτελεσματικότητας τριών οργανικών προσθέτων διαφορετικής φύσης για τη βελτίωση της αντοχής των υμενίων στη θερμική ανακύκλιση.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Υλικά και μέθοδοι</title>
+<p>Υμένια περοβσκίτη μικτών κατιόντων με βάση το καίσιο, το φορμαμιδίνιο και το μεθυλαμμώνιο (CsFAMA), με μερική υποκατάσταση του ιωδίου από βρώμιο (15%), εναποτέθηκαν σε γυάλινα υποστρώματα με αγώγιμη επίστρωση με επίστρωση περιστροφής και σταγονοειδή προσθήκη αντιδιαλύτη και ανοπτήθηκαν στους 100 °C. Τα πρόσθετα εισήχθησαν στο διάλυμα των προδρόμων ενώσεων: ιωδιούχο φαιναιθυλαμμώνιο (ΦΕΑ, 1,5 mol%), θειουρία (ΘΟ, 3 mol%) και πολυβινυλοπυρρολιδόνη (ΠΒΠ, 0,5% κ.β.).</p>
+<p>Η θερμική ανακύκλιση πραγματοποιήθηκε σε κλιματικό θάλαμο σε αδρανή ατμόσφαιρα: κάθε κύκλος περιλάμβανε παραμονή 15 λεπτών στους −20 °C και 15 λεπτών στους +85 °C με ρυθμό μεταβολής της θερμοκρασίας 5 °C/min. Μετά από 0, 50, 100 και 200 κύκλους τα δείγματα εξετάστηκαν με περίθλαση ακτίνων Χ, ηλεκτρονική μικροσκοπία και φωτοφωταύγεια σταθερής κατάστασης.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Αποτελέσματα</title>
+<p>Η μεταβολή της ολοκληρωμένης έντασης φωτοφωταύγειας συναρτήσει του αριθμού των κύκλων παρουσιάζεται στο Σχ. 1. Στα δείγματα ελέγχου η ένταση μειώνεται στο 54% της αρχικής μετά από 100 κύκλους και στο 31% μετά από 200 κύκλους· ταυτόχρονα στα διαγράμματα περίθλασης εμφανίζεται κορυφή ιωδιούχου μολύβδου στις 2θ = 12,7°.</p>
+<fig id="f1" position="float"><caption><p>Σχ. 1. Σχετική ένταση φωτοφωταύγειας των υμενίων συναρτήσει του αριθμού των θερμικών κύκλων, %</p></caption></fig>
+<p>Τη μεγαλύτερη σταθερότητα επέδειξαν τα υμένια με ΦΕΑ, στα οποία δεν ανιχνεύθηκαν δευτερεύουσες φάσεις ακόμη και μετά από 200 κύκλους. Η προσθήκη ΠΒΠ καταστέλλει σχεδόν πλήρως τον σχηματισμό μικρορωγμών, αλλά δεν αποτρέπει τη σταδιακή μείωση της έντασης φωτοφωταύγειας. Τα συνοπτικά χαρακτηριστικά παρουσιάζονται στον Πίν. 1.</p>
+<table-wrap id="t1" position="float"><caption><p>Πίνακας 1. Χαρακτηριστικά των υμενίων πριν και μετά από 200 κύκλους</p></caption><table><thead><tr><th>Δείγμα</th><th>Μέγεθος κόκκων, nm</th><th>ΦΦ μετά από 200 κύκλους, %</th><th>Φάση PbI₂</th><th>Ρωγμές</th></tr></thead><tbody><tr><td>Έλεγχος</td><td>310</td><td>31</td><td>ναι</td><td>πολλές</td></tr><tr><td>ΦΕΑ 1,5 mol%</td><td>340</td><td>87</td><td>όχι</td><td>μεμονωμένες</td></tr><tr><td>ΘΟ 3 mol%</td><td>520</td><td>39</td><td>ναι</td><td>πολλές</td></tr><tr><td>ΠΒΠ 0,5% κ.β.</td><td>290</td><td>66</td><td>ίχνη</td><td>όχι</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Συζήτηση</title>
+<p>Η σταθεροποιητική δράση του ΦΕΑ μπορεί να εξηγηθεί από τον σχηματισμό στην επιφάνεια των κόκκων ενός λεπτού στρώματος δισδιάστατου περοβσκίτη, το οποίο παθητικοποιεί τις ατέλειες και εμποδίζει τη μετανάστευση των ιόντων αλογόνων. Η ΠΒΠ φαίνεται να δρα διαφορετικά: οι πολυμερικές αλυσίδες που εντοπίζονται στα όρια των κόκκων χαλαρώνουν εν μέρει τις μηχανικές τάσεις και αποτρέπουν τη ρηγμάτωση.</p>
+<p>Η διαφορά των μηχανισμών ανοίγει τη δυνατότητα συνδυαστικής χρήσης των προσθέτων. Προκαταρκτικά πειράματα με ταυτόχρονη εισαγωγή ΦΕΑ και ΠΒΠ δείχνουν διατήρηση του 91% της έντασης φωτοφωταύγειας μετά από 200 κύκλους, εύρημα που απαιτεί περαιτέρω επαλήθευση σε πλήρεις ηλιακές κυψέλες.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Συμπεράσματα</title>
+<p>Το φαιναιθυλαμμώνιο είναι το αποτελεσματικότερο από τα πρόσθετα που μελετήθηκαν για τη βελτίωση της αντοχής των υμενίων περοβσκίτη στη θερμική ανακύκλιση, ενώ η πολυβινυλοπυρρολιδόνη καταστέλλει αποτελεσματικά τη ρηγμάτωση. Ο συνδυασμός προσθέτων με διαφορετικούς μηχανισμούς δράσης φαίνεται να αποτελεί πολλά υποσχόμενη στρατηγική.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Βιβλιογραφία</title>
+<ref id="r1"><mixed-citation>Kojima A., Teshima K., Shirai Y., Miyasaka T. Organometal halide perovskites as visible-light sensitizers for photovoltaic cells // Journal of the American Chemical Society. 2009. Vol. 131, no. 17. P. 6050–6051.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Орлов Д. С., Шестакова В. А. Морфология плёнок смешанных галогенидных перовскитов, полученных с антирастворителем // Неорганические материалы и покрытия. 2022. Т. 14, № 5. С. 412–423.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Brenner M., Ito K. Thermal stress and grain-boundary cracking in hybrid perovskite films // Thin Film Engineering. 2021. Vol. 28, no. 3. P. 301–315.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Аветисян Г. Р. Пассивация поверхностных дефектов в перовскитах органическими катионами // Физика конденсированных сред. 2023. Т. 9, № 2. С. 88–104.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Liang Q., Fischer A. Polymer additives for mechanically robust perovskite layers // Advanced Coatings Letters. 2022. Vol. 6. P. 55–67.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Шестакова В. А. Методы ускоренных климатических испытаний тонкоплёночных солнечных элементов. Екатеринбург: Кристалл, 2021. 148 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Okafor C., Duarte P. Photoluminescence as a probe of perovskite degradation // Optical Materials Review. 2020. Vol. 17, no. 4. P. 220–236.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Орлов Д. С. Рентгенофазовый анализ продуктов деградации галогенидных перовскитов // Заводская лаборатория. Диагностика материалов. 2021. Т. 87, № 9. С. 31–38.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

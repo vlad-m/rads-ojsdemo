@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="zh">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>跨学科研究学报（演示版）</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems 演示期刊</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>齐夫拉有限责任公司</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>综述</subject></subj-group></article-categories>
+<title-group>
+<article-title>作为科学机构的 20 世纪 50—70 年代计算中心：史学研究综述</article-title>
+<trans-title-group xml:lang="en"><trans-title>Computing Centres of the 1950s–1970s as Scientific Institutions: A Historiographical Review</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Vershinin</surname><given-names>Leonid</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vershinin</surname><given-names>Leonid</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>l.vershinin@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>“克洛诺斯”科学技术史中心</institution>, <country country="RU">俄罗斯</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-01-20"><day>20</day><month>01</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-06-10"><day>10</day><month>06</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Leonid Vershinin</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>依据 CC BY 4.0 许可协议发布</license-p></license></permissions>
+<abstract xml:lang="zh"><p>20 世纪中叶在科研院所、高等院校和工业企业中设立的计算中心，在使计算成为一种独立的科学研究工具方面发挥了关键作用。本综述考察了过去五十年来科学技术史学家如何研究这些机构。通过分析 64 部专著、论文和文集，本文归纳出三种主要的史学研究路径。第一种为技术—传记路径，聚焦于特定计算机的研制及其设计者的工作。第二种为制度路径，将计算中心视为具有自身结构、人事政策和客户关系的组织。第三种路径形成于近二十年，研究计算实践：程序员、操作员和用户如何与机器互动，以及计算如何改变了从气象学到语言学等各学科的研究方法。研究最少的议题仍然是计算中心的日常工作、女性程序员和操作员的作用，以及大型科学城以外的地区性计算中心。本文还专门讨论了史料基础方面的问题，包括技术文档、机时日志和程序的保存情况。综述得出结论：趁这些事件的亲历者仍健在，将档案研究与口述史方法相结合是一个很有前景的方向。</p></abstract>
+<trans-abstract xml:lang="en"><p>Computing centres, established in the mid-twentieth century at research institutes, universities and industrial enterprises, played a key role in turning computation into an independent instrument of scientific inquiry. This review examines how historians of science and technology have studied these institutions over the past fifty years. Based on an analysis of 64 monographs, articles and edited volumes, three main historiographical approaches are identified. The first, technical-biographical, focuses on the construction of particular computers and the work of their designers. The second, institutional, treats computing centres as organisations with their own structure, staffing policies and relations with clients. The third, which has emerged over the last two decades, investigates computing practices: how programmers, operators and users interacted with machines and how computation transformed the methods of individual disciplines, from meteorology to linguistics. The least studied topics remain the everyday work of computing centres, the role of women programmers and operators, and regional centres outside the largest science cities. Problems of the source base are discussed separately, including the preservation of technical documentation, machine-time logs and programs. The review concludes that combining archival research with oral history methods is promising while participants in these events are still alive.</p></trans-abstract>
+<kwd-group xml:lang="zh" kwd-group-type="author"><kwd>科学史</kwd><kwd>计算技术史</kwd><kwd>计算中心</kwd><kwd>史学史</kwd><kwd>口述史</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>history of science</kwd><kwd>history of computing</kwd><kwd>computing centres</kwd><kwd>historiography</kwd><kwd>oral history</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>引言</title>
+<p>20 世纪 40 年代末至 50 年代电子计算机的出现，要求设立专门的机构：计算机价格昂贵，占据整个机房，且需要全天候维护。计算中心成为工程师、数学家和科学家用户汇聚的场所，程序员和操作员等新职业也在这里逐渐形成。</p>
+<p>计算中心史学是随着计算技术史这一学科本身的发展而发展起来的。本综述的目的是系统梳理研究这些机构的路径，找出研究薄弱的议题，并讨论史料基础的现状。</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>材料与方法</title>
+<p>本综述的文献库依据重要著作的参考书目和科学技术史专业期刊的主题索引构建。纳入的研究须至少在一章或一节中将计算中心（而非单台计算机或个人）作为分析对象。最终文献库包括 1975—2024 年间发表的 64 部（篇）著作。</p>
+<p>每部著作均按主导研究路径、所用史料类型以及所研究机构的地域进行分类。分类由作者完成，并在一年后重新核查以评估其稳定性。</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>结果</title>
+<p>著作按年代和研究路径的分布见图 1。20 世纪 90 年代以前，技术—传记路径占主导地位，主要表现为事件亲历者的回忆录和纪念性出版物。制度研究在 20 世纪 90 年代至 21 世纪头十年开始显现，而实践研究则在 2010 年之后兴起。</p>
+<fig id="f1" position="float"><caption><p>图 1　按发表年代和主导研究路径统计的著作数量</p></caption></fig>
+<p>表 1 显示了不同研究路径所使用的史料。值得注意的是，只有一小部分著作利用了机时日志和保存下来的程序文本，尽管这些史料可用于重建计算机的实际负荷和所解决问题的构成。</p>
+<table-wrap id="t1" position="float"><caption><p>表 1　各史学研究路径的史料类型（著作所占比例，%）</p></caption><table><thead><tr><th>史料类型</th><th>技术—传记</th><th>制度</th><th>实践</th></tr></thead><tbody><tr><td>回忆录和访谈</td><td>84</td><td>48</td><td>72</td></tr><tr><td>机构公文档案</td><td>28</td><td>86</td><td>56</td></tr><tr><td>技术文档</td><td>76</td><td>31</td><td>44</td></tr><tr><td>机时日志</td><td>4</td><td>17</td><td>39</td></tr><tr><td>程序文本</td><td>8</td><td>3</td><td>33</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>讨论</title>
+<p>研究路径的更替反映了科学史从发现与发明者的历史向知识社会史和实践史的总体演变。与此同时，技术—传记类著作作为事实信息的来源仍具有价值，尤其是当其所依据的文献是研究者无法获取的文件时。</p>
+<p>主要空白涉及计算工作中“隐形”的参与者——操作员、穿孔员和程序员，其中许多是女性——以及地区性计算中心。对事件亲历者进行访谈录音的时间有限，这使得口述史项目显得尤为紧迫。</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>结论</title>
+<p>计算中心史学经历了从机器史到实践史的发展历程。要取得进一步进展，需要扩大史料基础——系统查找机时日志和程序——并将档案研究与口述史相结合。</p>
+</sec>
+</body>
+<back>
+<ref-list><title>参考文献</title>
+<ref id="r1"><mixed-citation>Campbell-Kelly M., Aspray W., Ensmenger N., Yost J. R. Computer: A History of the Information Machine. 3rd ed. Boulder: Westview Press, 2014. 360 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Ensmenger N. The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise. Cambridge, MA: MIT Press, 2010. 336 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Вершинин Л. А. Вычислительный центр как научное учреждение: опыт институционального анализа // Вопросы истории науки и техники. 2019. Т. 40, № 3. С. 77–96.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Вершинин Л. А., Гладкова З. Н. Журналы машинного времени как исторический источник // Архивы и история техники. 2021. № 2. С. 12–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Haigh T., Priestley M. Computing practices and the history of software: an agenda // Annals of Computing History Review. 2020. Vol. 12, no. 1. P. 3–21.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Гладкова З. Н. Женщины в программировании 1950–1970-х гг.: материалы устной истории // Наука и общество в истории. 2022. Т. 6, № 4. С. 101–118.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Abbate J. Recoding Gender: Women's Changing Participation in Computing. Cambridge, MA: MIT Press, 2012. 264 p.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мирский Е. Б. Региональные вычислительные центры и научная политика. М.: Хронос, 2018. 304 с.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Dahl K., Ostrowski P. Numerical weather prediction and the making of a computing community // Science in Context Studies. 2019. Vol. 27. P. 210–233.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

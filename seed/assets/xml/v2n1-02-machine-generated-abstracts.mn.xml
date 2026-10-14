@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="mn">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Салбар дундын судалгааны сэтгүүл (Демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems-ийн демо сэтгүүл</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ХХК</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Судалгааны өгүүлэл</subject></subj-group></article-categories>
+<title-group>
+<article-title>Орос хэл дээрх эрдэм шинжилгээний хураангуй дахь машинаар үүсгэсэн хэсгийг илрүүлэх нь</article-title>
+<trans-title-group xml:lang="en"><trans-title>Detecting Machine-Generated Passages in Russian-Language Scientific Abstracts</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author"><name name-style="western"><surname>Каримов</surname><given-names>Тимур</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Karimov</surname><given-names>Timur</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Лебедева</surname><given-names>Анна</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Lebedeva</surname><given-names>Anna</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Абдуллаев</surname><given-names>Санжар</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Abdullaev</surname><given-names>Sanzhar</given-names></name></name-alternatives><xref ref-type="aff" rid="aff3"/><email>s.abdullaev@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Хэрэглээний аналитикийн Волгын хүрээлэн</institution>, <country country="RU">Орос</country></aff>
+<aff id="aff2"><institution>Хэл ба харилцааны «Лексис» хүрээлэн</institution>, <country country="RU">Орос</country></aff>
+<aff id="aff3"><institution>Самаркандын Тооцооллын хэл шинжлэлийн хүрээлэн</institution>, <country country="UZ">Узбекистан</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>8</fpage><lpage>10</lpage>
+<history><date date-type="received" iso-8601-date="2025-08-18"><day>18</day><month>08</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-01-27"><day>27</day><month>01</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Тимур Каримов, Анна Лебедева, Санжар Абдуллаев</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензийн дагуу түгээгдэнэ</license-p></license></permissions>
+<abstract xml:lang="mn"><p>Том хэлний загварууд өргөн нэвтэрсэн нь эрдэм шинжилгээний сэтгүүлүүдийн өмнө бүхэлдээ эсвэл хэсэгчлэн автомат аргаар бүтээсэн бичвэрийг илрүүлэх зорилтыг тавьсан. Одоо байгаа илрүүлэгчдийн ихэнхийг англи хэлэнд зориулан боловсруулсан бөгөөд орос хэл дээрх эрдэм шинжилгээний бичвэрт хэрэглэх боломж нь муу судлагдсан байна. Энэхүү өгүүлэлд орос хэл дээрх эрдэм шинжилгээний өгүүллийн 12 000 хураангуйгаас бүрдсэн шинэ тэмдэглэгээтэй корпусыг танилцуулж байна; тэдгээрийн тал нь хүний бичсэн, нөгөө тал нь гурван өөр хэлний загвараар өөр өөр промптоор үүсгэсэн хэсгүүдийг агуулдаг. Энэ корпус дээр дөрвөн ангиллын аргыг харьцуулав: перплексийн статистик шинж, стилометрийн шинж, нарийвчлан тааруулсан трансформер суурьт ангилагч болон ерөнхий зориулалтын арилжааны илрүүлэгч. Нарийвчлан тааруулсан ангилагч хамгийн сайн үр дүн үзүүлсэн (баримт бичгийн түвшинд F1 = 0.91) боловч сургалтын үед ороогүй загвараар үүсгэсэн бичвэр дээр шалгахад гүйцэтгэл нь 0.74 болж буурав. Өгүүлбэрийн түвшинд бүх арга хамаагүй муу ажилладаг бөгөөд орос хэл нь төрөлх хэл биш зохиогчдын бичсэн хураангуй дээрх худал эерэг үр дүнгийн хувь 11%-д хүрдэг. Эдгээр үр дүн нь автомат илрүүлэгчид редакцийн шийдвэрийн цорын ганц үндэслэл болж чадахгүйг харуулж байна. Корпус болон кодыг цаашдын судалгаанд зориулан нээлттэй байршуулсан.</p></abstract>
+<trans-abstract xml:lang="en"><p>The widespread adoption of large language models has confronted scholarly journals with the task of identifying texts created wholly or partly by automated means. Most existing detectors were developed for English, and their applicability to Russian-language scientific texts is poorly understood. This article presents a new annotated corpus of 12,000 abstracts of scientific articles in Russian, half of which were written by humans and half of which contain passages generated by three different language models under different prompts. Four classes of methods are compared on this corpus: statistical perplexity features, stylometric features, a fine-tuned transformer-based classifier and a general-purpose commercial detector. The fine-tuned classifier performed best (document-level F1 = 0.91), but its performance fell to 0.74 when tested on texts generated by a model not seen during training. At the sentence level, all methods perform considerably worse, and the false-positive rate on abstracts written by authors for whom Russian is not a first language reaches 11%. These results indicate that automated detectors cannot serve as the sole basis for editorial decisions. The corpus and code are openly available for further research.</p></trans-abstract>
+<kwd-group xml:lang="mn" kwd-group-type="author"><kwd>том хэлний загвар</kwd><kwd>машинаар үүсгэсэн бичвэрийг илрүүлэх</kwd><kwd>эрдэм шинжилгээний хураангуй</kwd><kwd>орос хэл</kwd><kwd>судалгааны ёс зүй</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>large language models</kwd><kwd>machine-generated text detection</kwd><kwd>scientific abstracts</kwd><kwd>Russian language</kwd><kwd>research integrity</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Удиртгал</title>
+<p>2023 оноос хойш эрдэм шинжилгээний сэтгүүлийн редакторууд бичвэрийн зарим хэсгийг том хэлний загвар үүсгэсэн бололтой гар бичмэлтэй улам олон тааралдах болсон. Ийм хэрэгслийг хэл найруулгын засварт ашиглах нь ихэвчлэн хүлээн зөвшөөрөгдөхүйц боловч агуулгын гол хэсгийг мэдэгдэлгүйгээр үүсгэх нь судалгааны ёс зүйн талаар санаа зовнил төрүүлдэг. Олон хэвлэн нийтлэгч ил тод мэдэгдэхийг шаардсан бодлого баталсан бөгөөд автомат илрүүлэгчдийг хэрэгжилтийг хангах хэрэгсэл болгон зах зээлд санал болгож байна.</p>
+<p>Гэвч эдгээр илрүүлэгчийг голчлон англи хэл дээрх бичвэрт боловсруулж, үнэлсэн байдаг. Баян морфологитой, өвөрмөц эрдэм шинжилгээний найруулгатай орос хэл нь өөр төрлийн сорилт болдог. Энэхүү судалгааны зорилго нь орос хэл дээрх эрдэм шинжилгээний хураангуйн бодит жишиг өгөгдлийн багц (benchmark) бүрдүүлж, одоогийн илрүүлэх аргууд түүн дээр хэр сайн ажилладгийг ерөнхийлөх чадвар болон шударга байдалд онцгой анхаарал хандуулан үнэлэх явдал юм.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материал ба арга зүй</title>
+<p>Хүний бичсэн хураангуйг (n = 6 000) 2021 оноос өмнө хэвлэгдсэн нээлттэй хандалттай Оросын сэтгүүлүүдээс найман өргөн салбараар давхаргажуулан түүвэрлэв. Үүсгэсэн хагасын хувьд гурван хэлний загварт гарчиг, түлхүүр үгээс бүтэн хураангуй бичих, хүний бичсэн эхний өгүүлбэрийг үргэлжлүүлэх, эсвэл хүний бичсэн хураангуйг өөрөөр найруулах даалгавар өгсөн. Үүсгэсэн бичвэр бүрийн уран яруу байдлыг тэмдэглэгч шалгаж, холимог бичвэрүүдэд өгүүлбэрийн түвшний шошгыг бүртгэв.</p>
+<p>Бид (i) нээлттэй орос хэлний загвараар тооцоолсон перплекси болон бөөгнөрөл (burstiness) шинжийн логистик регресс, (ii) 140 стилометрийн шинж дээрх градиент бүстинг ангилагч, (iii) сургалтын хэсэг дээр нарийвчлан тааруулсан олон хэлт трансформер кодлогч болон (iv) ерөнхий зориулалтын арилжааны илрүүлэгчийг харьцуулав. Ерөнхийлөх чадварыг үнэлэхэд нэг үүсгэгчийг хасах (leave-one-generator-out) протокол ашигласан.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Үр дүн</title>
+<p>Баримт бичгийн түвшний үр дүнг 1-р хүснэгтэд нэгтгэв. Нарийвчлан тааруулсан ангилагч тархалт доторх хамгийн өндөр F1 буюу 0.91-д хүрсэн бол перплексийн загвар (0.82) удаалж байна. Орос хэлний эрдэм шинжилгээний бичвэрт сургаагүй арилжааны илрүүлэгч 0.69-д хүрсэн. Өөрөөр найруулсан хураангуй бүх аргын хувьд хамгийн хэцүү ангилал байв.</p>
+<fig id="f1" position="float"><caption><p>Зураг 1. Тархалт доторх болон үзээгүй үүсгэгч дээрх баримт бичгийн түвшний F1</p></caption></fig>
+<p>Урьд өмнө үзээгүй үүсгэгч рүү ерөнхийлөх нь гүйцэтгэлийг мэдэгдэхүйц бууруулав (1-р зураг). Орос хэл нь хоёр дахь хэл болох зохиогчдын бичсэн 400 хураангуйн тусдаа багц дээр нарийвчлан тааруулсан ангилагч 11%-ийг машинаар үүсгэсэн гэж тэмдэглэсэн бол төрөлх хэлтэй зохиогчдын хураангуйд энэ нь 3% байв.</p>
+<table-wrap id="t1" position="float"><caption><p>Хүснэгт 1. Баримт бичиг болон өгүүлбэрийн түвшний илрүүлэлтийн гүйцэтгэл</p></caption><table><thead><tr><th>Арга</th><th>F1 (баримт)</th><th>F1 (өгүүлбэр)</th><th>FPR, L2 зохиогчид</th></tr></thead><tbody><tr><td>Перплексийн шинж</td><td>0.82</td><td>0.61</td><td>0.14</td></tr><tr><td>Стилометрийн шинж</td><td>0.77</td><td>0.55</td><td>0.09</td></tr><tr><td>Нарийвчлан тааруулсан трансформер</td><td>0.91</td><td>0.68</td><td>0.11</td></tr><tr><td>Арилжааны илрүүлэгч</td><td>0.69</td><td>—</td><td>0.17</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Хэлэлцүүлэг</title>
+<p>Бидний үр дүн англи хэлний хувьд гарсан санаа зовнилтой давхцаж байна: танил үүсгэгч дээр сайн ажилладаг илрүүлэгчид шинэ үүсгэгч дээр муудаж, үгсийн сангийн хувьд бага олон янз найруулгатай байх хандлагатай, төрөлх хэлтэн бус зохиогчдын бичвэрийг харьцангуй хэт олноор тэмдэглэдэг. Шинэ загварууд хурдацтай гарч байгааг харгалзвал тархалт доторх нарийвчлал нь бодит нөхцөл дэх найдвартай байдлын муу үзүүлэлт юм.</p>
+<p>Редакцийн практикийн хувьд энэ нь илрүүлэгчийн оноо хамгийн ихдээ зохиогчидтой ярилцах шалтгаан болох ёстой бөгөөд хариуцлага тооцох үндэслэл болох ёсгүй гэсэн үг юм. Ил тод мэдэгдэх тодорхой бодлого болон шинжлэх ухааны агуулгын чанарт анхаарах нь илүү найдвартай баталгаа хэвээр байна.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Дүгнэлт</title>
+<p>Бид орос хэл дээрх эрдэм шинжилгээний 12 000 хураангуйн жишиг өгөгдлийн багцыг нийтэлж, одоогийн илрүүлэгчид хэрэгтэй хэдий ч шинэ үүсгэгчид тэсвэртэй биш, төрөлх хэлтэн бус зохиогчдод шударга бус болохыг харууллаа. Автомат илрүүлэлт нь редакцийн дүгнэлтийг орлох бус, харин нөхөх ёстой.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ном зүй</title>
+<ref id="r1"><mixed-citation>Vaswani A., Shazeer N., Parmar N. et al. Attention is all you need // Advances in Neural Information Processing Systems. 2017. Vol. 30. P. 5998–6008.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Devlin J., Chang M.-W., Lee K., Toutanova K. BERT: pre-training of deep bidirectional transformers for language understanding // Proceedings of NAACL-HLT 2019. Minneapolis, 2019. P. 4171–4186.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Abdullaev S. R. Perplexity-based detection of generated text in morphologically rich languages // Computational Linguistics Letters. 2024. Vol. 9, no. 1. P. 22–37.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Lebedeva A. V., Karimov T. R. Stylometric profiles of Russian academic prose // Corpus Methods Quarterly. 2023. Vol. 14, no. 3. P. 201–219.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Moreau C., Banerjee R. Generalisation failures of machine-generated text detectors // Journal of AI Evaluation. 2024. Vol. 3. P. 77–96.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Каримов Т. Р., Лебедева А. В. Языковые модели в научной коммуникации: риски и редакционные политики // Научный редактор и издатель. 2024. Т. 9, № 2. С. 112–125.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Holt E., Nguyen T. Bias of AI-text detectors against non-native writers // Language and Technology Review. 2023. Vol. 12, no. 4. P. 300–318.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Абдуллаев С. Р. Корпусы для оценки детекторов сгенерированного текста: требования и практика // Вычислительная лингвистика и интеллектуальные технологии. 2025. Т. 4, № 1. С. 15–30.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

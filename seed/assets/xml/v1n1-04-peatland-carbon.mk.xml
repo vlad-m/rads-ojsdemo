@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="mk">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Списание за интердисциплинарни истражувања (демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демо-списание на Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>„Цифра“ ДОО</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Прегледен труд</subject></subj-group></article-categories>
+<title-group>
+<article-title>Јаглероден биланс на бореалните тресетишта: преглед на методите за проценка</article-title>
+<trans-title-group xml:lang="en"><trans-title>Carbon Balance of Boreal Peatlands: A Review of Assessment Methods</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Нурланова</surname><given-names>Айгерим</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.nurlanova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Тихомиров</surname><given-names>Николай</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Касписки институт за еколошки истражувања</institution>, <country country="KZ">Казахстан</country></aff>
+<aff id="aff2"><institution>Северна станица за мочуришта, Државен универзитет во Новобор</institution>, <country country="RU">Русија</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>15</fpage><lpage>17</lpage>
+<history><date date-type="received" iso-8601-date="2024-08-19"><day>19</day><month>08</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-15"><day>15</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Айгерим Нурланова, Николай Тихомиров</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Лиценцирано под CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="mk"><p>Бореалните тресетишта покриваат околу 3% од копнената површина, а складираат до една третина од светскиот почвен јаглерод, па точната проценка на нивниот јаглероден биланс е важна за климатската политика и за националното известување за стакленички гасови. Овој преглед ги систематизира главните методи за проценка на јаглеродните флуксеви во тресетиштата: методот на комори, вртложната коваријанса (eddy covariance), пресметката врз основа на стапките на акумулација на тресет и далечинските пристапи засновани на сателитски индекси и модели на продуктивност. Врз основа на 87 публикации од периодот 2000–2024, се разгледуваат просторниот и временскиот опфат на секој метод, неговите извори на неизвесност и барањата за опрема и стручност на персоналот. Проценките на нето-размената во екосистемот за исто тресетиште добиени со различни методи можат да се разликуваат од 1,5 до 2 пати, при што најголемиот дел од несовпаѓањето произлегува од третманот на флуксевите на метан и на растворен органски јаглерод. Посебно внимание се посветува на исушените и повторно навлажнетите тресетишта, за кои постојат многу помалку податоци отколку за ненарушените екосистеми. Прегледот заклучува дека е потребен комбиниран пристап, во кој долгорочните набљудувања со вртложна коваријанса на референтни локации се дополнуваат со мерења со комори и со далечинско надградување на размерот. Предложена е шема за одлучување за избор на метод според целта на истражувањето и расположливите ресурси.</p></abstract>
+<trans-abstract xml:lang="en"><p>Boreal peatlands cover about 3% of the land surface yet store up to a third of the world's soil carbon, so accurate assessment of their carbon balance matters for climate policy and national greenhouse gas reporting. This review systematises the main methods for estimating carbon fluxes in peatlands: the chamber method, eddy covariance, calculation from peat accumulation rates, and remote-sensing approaches based on satellite indices and productivity models. Drawing on 87 publications from 2000–2024, it considers the spatial and temporal scale of each method, its sources of uncertainty and its requirements for equipment and staff expertise. Estimates of net ecosystem exchange for the same peatland obtained by different methods can differ by a factor of 1.5 to 2, with most of the discrepancy arising from the treatment of methane and dissolved organic carbon fluxes. Particular attention is paid to drained and rewetted peatlands, for which far fewer data exist than for undisturbed ecosystems. The review concludes that a combined approach is needed, in which long-term eddy covariance observations at reference sites are complemented by chamber measurements and remote-sensing upscaling. A decision scheme for choosing a method according to the research goal and available resources is proposed.</p></trans-abstract>
+<kwd-group xml:lang="mk" kwd-group-type="author"><kwd>тресетишта</kwd><kwd>јаглероден биланс</kwd><kwd>метан</kwd><kwd>вртложна коваријанса</kwd><kwd>метод на комори</kwd><kwd>бореална зона</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>peatlands</kwd><kwd>carbon balance</kwd><kwd>methane</kwd><kwd>eddy covariance</kwd><kwd>chamber method</kwd><kwd>boreal zone</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Вовед</title>
+<p>Тресетиштата се единствениот тип копнени екосистеми способни во текот на милениуми да акумулираат јаглерод во форма на тресет. Притоа, тие се природен извор на метан, стакленички гас со висок потенцијал за глобално затоплување. Конечниот климатски ефект на тресетиштето се определува од односот меѓу овие процеси и е чувствителен на нивото на подземните води.</p>
+<p>Исушувањето на тресетиштата за експлоатација на тресет, за земјоделство и за шумарство ги претвора од понор во извор на CO₂. Растечкиот интерес за обновување (повторно навлажнување) на нарушените тресетишта како климатска мерка бара сигурни методи за проценка на јаглеродниот биланс. Целта на овој преглед е да се споредат постојните методи, нивните можности и ограничувања.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материјали и методи</title>
+<p>Пребарувањето публикации беше спроведено во библиографски бази на податоци според комбинации на клучните зборови „тресетиште“, „јаглероден биланс“, „флукс на CO₂“, „метан“ и нивните англиски еквиваленти за периодот 2000–2024 година. Од 412 пронајдени трудови, по анализата на апстрактите и на целосните текстови, беа избрани 87 што содржат квантитативни проценки на флуксевите и опис на методологијата.</p>
+<p>За секој труд беа евидентирани типот на тресетиштето, неговата состојба (ненарушена, исушена, во обнова), методот на мерење, времетраењето на набљудувањата и опфатените компоненти на билансот. Проценките на нето-размената во екосистемот беа сведени на единици g C/m² годишно.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Резултати</title>
+<p>Распределбата на трудовите според методите е нерамномерна (сл. 1): речиси половина од истражувањата се засноваат на методот на комори, а околу една третина на методот на вртложна коваријанса. Далечинските пристапи се применуваат претежно за надградување на размерот, а не како самостоен извор на проценки.</p>
+<fig id="f1" position="float"><caption><p>Сл. 1. Распределба на анализираните трудови според главниот метод на проценка (n = 87)</p></caption></fig>
+<p>Споредбените карактеристики на методите се прикажани во таб. 1. Методот на комори овозможува раздвојување на флуксевите според микропределите, но слабо ја опишува временската варијабилност; методот на вртложна коваријанса дава континуирани серии, но бара хомогена локација и скапа опрема.</p>
+<table-wrap id="t1" position="float"><caption><p>Табела 1. Споредба на методите за проценка на јаглеродниот биланс на тресетиштата</p></caption><table><thead><tr><th>Метод</th><th>Размер</th><th>Временска резолуција</th><th>Главна неизвесност</th></tr></thead><tbody><tr><td>Со комори</td><td>0,1–1 m²</td><td>Повремена</td><td>Интерполација во времето</td></tr><tr><td>Вртложна коваријанса</td><td>0,1–1 km²</td><td>30 min</td><td>Ноќни флуксеви, нехомогеност</td></tr><tr><td>Акумулација на тресет</td><td>Јадро (керн)</td><td>Векови</td><td>Датирање, разградување</td></tr><tr><td>Далечински</td><td>Регион</td><td>Денови–недели</td><td>Калибрација на моделите</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Дискусија</title>
+<p>Значителните несовпаѓања меѓу методите се објаснуваат не толку со грешките во мерењето, колку со разликите во опфатените компоненти на билансот. Трудовите што не го земаат предвид изнесувањето на растворениот органски јаглерод со водите од тресетиштето систематски го преценуваат понорот на јаглерод за 10–25%.</p>
+<p>Најмалку проучени остануваат тресетиштата во обнова: во првите години по повторното навлажнување емисијата на метан може привремено да се зголеми, што е важно да се земе предвид при проценката на климатскиот ефект на проектите за обнова.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Заклучок</title>
+<p>Ниту еден од методите не обезбедува целосна проценка на јаглеродниот биланс на тресетиштата. Оптимална се чини мрежа од референтни локации со долгорочни набљудувања со методот на вртложна коваријанса, дополнета со мерења со комори и со далечинско надградување на размерот.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Библиографија</title>
+<ref id="r1"><mixed-citation>Gorham E. Northern peatlands: role in the carbon cycle and probable responses to climatic warming // Ecological Applications. 1991. Vol. 1, no. 2. P. 182–195.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Baldocchi D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems // Global Change Biology. 2003. Vol. 9, no. 4. P. 479–492.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Тихомиров Н. В. Многолетняя динамика потоков CO₂ на верховом болоте северной тайги // Болотоведение и торф. 2020. Т. 18, № 2. С. 60–78.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Нурланова А. Н., Сейткали Д. М. Эмиссия метана с осушенных торфяников: обзор полевых данных // Экосистемы и климат. 2022. Т. 4, № 1. С. 15–34.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Kowalczyk P., Aarnio T. Dissolved organic carbon export from boreal mires // Hydrology and Biogeochemistry. 2019. Vol. 33. P. 410–427.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тихомиров Н. В., Ерёменко В. А. Камерные измерения потоков парниковых газов: методическое пособие. Новобор: НГУ, 2018. 96 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Lund S., Petersen R. Upscaling peatland carbon fluxes with satellite data: opportunities and pitfalls // Remote Sensing of Wetlands. 2021. Vol. 9, no. 3. P. 200–221.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Нурланова А. Н. Восстановление нарушенных болот и климатическая политика // Вопросы экологической политики. 2023. № 2. С. 47–63.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Hart G., Lin W. Long-term apparent rates of carbon accumulation in boreal peat // Quaternary Carbon Studies. 2018. Vol. 21. P. 55–70.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

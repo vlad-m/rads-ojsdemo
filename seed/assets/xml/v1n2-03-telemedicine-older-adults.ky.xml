@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="ky">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Дисциплиналар аралык изилдөөлөр журналы (демоверсия)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems платформасындагы демо журнал</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ЖЧК</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Илимий макала</subject></subj-group></article-categories>
+<title-group>
+<article-title>Чакан шаарлардагы улгайган адамдардын телемедицинаны колдонушу: аралаш методдор менен изилдөө</article-title>
+<trans-title-group xml:lang="en"><trans-title>Telemedicine Uptake among Older Adults in Small Towns: A Mixed-Methods Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author"><name name-style="western"><surname>Василенко</surname><given-names>Ольга</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vasilenko</surname><given-names>Olga</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Йованович</surname><given-names>Мирослав</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Jovanović</surname><given-names>Miroslav</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/><email>m.jovanovic@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Аркадьева</surname><given-names>Наталья</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Arkadyeva</surname><given-names>Natalia</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>«Вита» коомдук саламаттык сактоо илимий-изилдөө институту</institution>, <country country="RU">Россия</country></aff>
+<aff id="aff2"><institution>Дунай калктын саламаттыгын изилдөө борбору</institution>, <country country="RS">Сербия</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>11</fpage><lpage>13</lpage>
+<history><date date-type="received" iso-8601-date="2025-03-04"><day>04</day><month>03</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-15"><day>15</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Ольга Василенко, Мирослав Йованович, Наталья Аркадьева</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензиясы боюнча таратылат</license-p></license></permissions>
+<abstract xml:lang="ky"><p>Телемедициналык консультациялар адис дарыгерлердин жетишсиздиги өзгөчө курч сезилген чакан шаарлардын улгайган тургундары үчүн медициналык жардамдын жеткиликтүүлүгүн жакшырта алат. Бирок улгайган адамдардын арасында мындай кызматтарды колдонуу деңгээли төмөн бойдон калууда, ал эми анын себептери жетиштүү изилдене элек. Бул аралаш методдор менен жүргүзүлгөн изилдөөдө төрт анонимдештирилген чакан шаардагы 60 жаштан жогорку адамдардын телемедицинаны колдонушу менен байланышкан факторлор талданат. Сандык этап 812 респонденттин телефондук сурамжылоосун камтыды; сапаттык этап бейтаптар менен 28 жарым-жартылай структураланган интервьюдан жана медицина кызматкерлери менен 9 интервьюдан турду. Акыркы жыл ичинде респонденттердин 19% ы телемедициналык кызматтарды колдонушкан. Көп өлчөмдүү логистикалык моделде колдонуу ыктымалдыгы смартфонго ээ болуу, жаш туугандары менен бирге жашоо жана үзгүлтүксүз көзөмөлдү талап кылган өнөкөт оорулардын болушу менен байланыштуу болду, ал эми жаш менен байланыш бул факторлорго оңдоо киргизилгенден кийин алсызданды. Интервьюлар үч негизги тоскоолдукту аныктады: ден соолуктун абалын аралыктан баалоого ишенбөөчүлүк, жазылуунун жана аутентификациянын татаал процедуралары, ошондой эле жеке кабыл алуусуз дарыгердин убактысын бекер коротуп коюудан коркуу. Медицина кызматкерлери телемедицина кайталап консультациялар жана дарылоону оңдоо үчүн эң пайдалуу экенин белгилешти. Жөнөкөйлөтүлгөн интерфейстер жана медайымдардын колдоосу улгайган адамдардын арасында телемедицинаны колдонууну бир топ кеңейте алат деген жыйынтыкка келдик.</p></abstract>
+<trans-abstract xml:lang="en"><p>Telemedicine consultations can improve access to healthcare for older residents of small towns, where the shortage of specialist physicians is particularly acute. However, uptake of such services among older people remains low, and the reasons are insufficiently understood. This mixed-methods study analyses the factors associated with telemedicine use among people aged 60 and over in four anonymised small towns. The quantitative phase comprised a telephone survey of 812 respondents; the qualitative phase consisted of 28 semi-structured interviews with patients and 9 interviews with healthcare workers. Over the past year, 19% of respondents had used telemedicine services. In a multivariable logistic model, the probability of use was associated with smartphone ownership, living with younger relatives and having chronic conditions requiring regular monitoring, whereas the association with age weakened after adjustment for these factors. Interviews revealed three key barriers: distrust of remote assessment of health status, complex booking and authentication procedures, and a fear of wasting the doctor's time without an in-person visit. Healthcare workers noted that telemedicine is most valuable for follow-up consultations and adjusting treatment. We conclude that simplified interfaces and support from nurses could substantially broaden telemedicine use among older adults.</p></trans-abstract>
+<kwd-group xml:lang="ky" kwd-group-type="author"><kwd>телемедицина</kwd><kwd>улгайган адамдар</kwd><kwd>чакан шаарлар</kwd><kwd>санариптик ажырым</kwd><kwd>аралаш методдор</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>telemedicine</kwd><kwd>older adults</kwd><kwd>small towns</kwd><kwd>digital divide</kwd><kwd>mixed methods</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Киришүү</title>
+<p>Чакан шаарлар адис дарыгерлердин туруктуу жетишсиздигине туш болушат, ал эми улгайган тургундар консультация үчүн көп учурда аймактык борборлорго барууга аргасыз. Дарыгерлер менен видео же телефон аркылуу консультациялар түрүндөгү телемедицина бул боштукту толтуруунун жолу катары илгерилетилип келет, ал эми аралыктан консультациялардын инфраструктурасы 2020-жылдан кийин бир топ кеңейди.</p>
+<p>Ага карабастан, андан эң көп пайда ала турган улгайган адамдар телемедицинаны башка жаш топторуна караганда азыраак колдонушат. Түшүндүрмөлөр көбүнчө санариптик көндүмдөргө басым жасайт, бирок мамилелерге, үй-бүлөлүк жагдайларга жана кызматтарды уюштурууга азыраак көңүл бурулган. Бул изилдөө чакан шаарлардын улгайган тургундарынын телемедицинаны колдонушу тууралуу толук түшүнүк берүү үчүн сурамжылоо маалыматтарын жана интервьюларды айкалыштырат.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалдар жана методдор</title>
+<p>Сандык этап 2024-жылдын март–май айларында калкынын саны 18 000–45 000 болгон төрт шаарда (Ш1–Ш4 деп коддолгон) компьютердин жардамы менен жүргүзүлгөн телефондук сурамжылоо болду. Стационардык жана мобилдик номерлердин кокус тандоосу 60 жаштан жогорку тургундар менен 812 толук интервьюну берди (жооп берүү деңгээли 37%). Негизги натыйжа катары акыркы 12 айда телемедицинаны колдонуу алынды; коварианттарга демографиялык мүнөздөмөлөр, ден соолуктун абалы, түзмөктөргө ээ болуу жана үй-бүлөнүн курамы кирди.</p>
+<p>Сапаттык этапта сурамжылоонун 28 катышуучусу (14 колдонуучу жана 14 колдонбогон адам) жана 9 медицина кызматкери жарым-жартылай структураланган интервьюларга катышты. Транскрипттер эки изилдөөчү тарабынан өз алдынча тематикалык жактан талданып, айырмачылыктар талкуулоо аркылуу чечилди.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Натыйжалар</title>
+<p>Жалпысынан респонденттердин 19% ы акыркы жылы жок дегенде бир телемедициналык консультацияга кайрылганын билдиришти. Колдонуу деңгээли үзгүлтүксүз көзөмөлдү талап кылган өнөкөт оорулары бар адамдардын арасында эң жогору (27%), ал эми смартфону жок жалгыз жашагандардын арасында эң төмөн (6%) болду (1-сүрөт).</p>
+<fig id="f1" position="float"><caption><p>1-сүрөт. Респонденттердин топтору боюнча акыркы 12 айда телемедицинаны колдонуу, %</p></caption></fig>
+<p>1-таблицада оңдолгон мүмкүнчүлүктөрдүн катыштары берилген. Смартфонго ээ болуу колдонуу мүмкүнчүлүгүн үч эседен ашык көбөйттү, ал эми жаш туугандары менен бирге жашоо аны эки эсеге көбөйттү. Түзмөккө ээ болууга жана үй-бүлөнүн курамына оңдоо киргизилгенден кийин жаштын эффекти алсызданып, статистикалык маанилүүлүгүн жоготту.</p>
+<table-wrap id="t1" position="float"><caption><p>1-таблица. Телемедицинаны колдонуу менен байланышкан факторлор (логистикалык регрессия, n = 812)</p></caption><table><thead><tr><th>Фактор</th><th>Оңдолгон МК</th><th>95% ИИ</th><th>p</th></tr></thead><tbody><tr><td>Смартфону бар</td><td>3.4</td><td>2.1–5.5</td><td>&lt;0.001</td></tr><tr><td>Жаш туугандары менен жашайт</td><td>2.0</td><td>1.3–3.0</td><td>0.001</td></tr><tr><td>Өнөкөт оору, үзгүлтүксүз көзөмөл</td><td>1.8</td><td>1.2–2.7</td><td>0.004</td></tr><tr><td>Жашы (ар бир 5 жылга)</td><td>0.89</td><td>0.76–1.04</td><td>0.140</td></tr><tr><td>Аял</td><td>1.1</td><td>0.8–1.6</td><td>0.520</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Талкуу</title>
+<p>Интервьюлар бул байланыштарды чечмелөөгө жардам берди. Жаш туугандар көбүнчө ортомчу болуп, консультацияларга жазып, түзмөктөрдү орнотуп беришкен. Колдонбогондор дарыгер аларды текшербей туруп абалын баалай аларына көп учурда шек саноолорун билдиришти, ал эми бир нечеси аралыктан консультация ансыз да ашыкча жүктөлгөн дарыгерге оордук келтирет деп сезишерин айтышты.</p>
+<p>Медицина кызматкерлери телемедицинаны кайталап кабыл алуулар жана дары-дармектерди оңдоо үчүн эң пайдалуу деп эсептешти жана медайымдар бейтаптарга клиникадан же үйдөн туташууга жардам бере аларын сунушташты. Бул жыйынтыктар таза технологиялык эмес, уюштуруучулук чечимдерге көңүл бурат.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Корутунду</title>
+<p>Чакан шаарлардагы улгайган адамдардын телемедицинаны колдонушу жаштын өзүнөн көрө түзмөктөргө жеткиликтүүлүк, үй-бүлөнүн колдоосу жана ишеним менен көбүрөөк чектелет. Жазылуу процедураларын жөнөкөйлөтүү жана медайымдардын жардамы менен өткөрүлгөн консультациялар аны колдонууну кеңейтүүнүн келечектүү жолдору болуп саналат.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Адабияттар тизмеси</title>
+<ref id="r1"><mixed-citation>Creswell J. W., Plano Clark V. L. Designing and Conducting Mixed Methods Research. 3rd ed. Thousand Oaks: SAGE, 2017. 492 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Braun V., Clarke V. Using thematic analysis in psychology // Qualitative Research in Psychology. 2006. Vol. 3, no. 2. P. 77–101.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Vasilenko O. P., Arkadyeva N. S. Access to specialist care in small towns: a regional survey // Public Health Perspectives. 2022. Vol. 11, no. 3. P. 201–214.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Jovanović M., Petrović S. Digital health literacy among older Europeans // Ageing and Technology. 2021. Vol. 6, no. 1. P. 15–33.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Hale R., Moreno C. Barriers to video consultations in rural primary care: a qualitative synthesis // Rural Health Review. 2022. Vol. 14. P. 88–104.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Аркадьева Н. С. Телемедицина в системе первичной медико-санитарной помощи: организационные модели // Здравоохранение и общество. 2023. № 2. С. 26–41.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Lindholm K., Saar T. Nurse-facilitated telehealth for older patients: a pilot evaluation // Journal of Community Nursing Research. 2020. Vol. 9, no. 4. P. 310–322.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Vasilenko O. P. Chronic disease monitoring and remote consultations: early evidence // Digital Health Notes. 2023. Vol. 2. P. 40–52.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

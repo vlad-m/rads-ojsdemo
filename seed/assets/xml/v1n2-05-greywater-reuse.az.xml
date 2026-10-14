@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="az">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fənlərarası Tədqiqatlar Jurnalı (demo versiya)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems platformasında demo jurnal</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Tsifra» MMC</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Qısa məlumat</subject></subj-group></article-categories>
+<title-group>
+<article-title>Çoxmənzilli yaşayış məhəlləsində boz suların təkrar istifadəsi: pilot qiymətləndirmə</article-title>
+<trans-title-group xml:lang="en"><trans-title>Greywater Reuse in a Multi-Apartment Residential Block: A Pilot Assessment</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Dyakonov</surname><given-names>Roman</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Dyakonov</surname><given-names>Roman</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>r.dyakonov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Safina</surname><given-names>Alina</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Safina</surname><given-names>Alina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>«Polis» Ali Urbanistika Məktəbi</institution>, <country country="RU">Rusiya</country></aff>
+<aff id="aff2"><institution>Volqaboyu Tətbiqi Analitika İnstitutu</institution>, <country country="RU">Rusiya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>17</fpage><lpage>19</lpage>
+<history><date date-type="received" iso-8601-date="2025-05-14"><day>14</day><month>05</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-08-05"><day>05</day><month>08</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Roman Dyakonov, Alina Safina</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 lisenziyası əsasında yayılır</license-p></license></permissions>
+<abstract xml:lang="az"><p>Az çirklənmiş məişət tullantı sularının, yəni boz suların təkrar istifadəsi şəhər su təchizatı və kanalizasiya sistemlərinə düşən yükün azaldılması yollarından biri kimi nəzərdən keçirilir. Bu qısa məlumatda üç çoxmənzilli binadan (412 sakin) ibarət yaşayış məhəlləsində boz suların təmizlənməsi sisteminin pilot istismarının nəticələri təqdim edilir. Duşxanalardan və əlyuyanlardan gələn boz sular mexaniki filtrasiya, membran bioreaktor və ultrabənövşəyi zərərsizləşdirmədən ibarət kompakt qurğuda təmizlənmiş, sonra isə unitazların yuyulmasına və həyətyanı ərazinin suvarılmasına verilmişdir. 12 ay ərzində həcmlər gündəlik qeydə alınmış, təmizlənmiş suyun keyfiyyəti isə həftəlik yoxlanılmışdır. Təkrar istifadə içməli su sərfini orta hesabla 27%, yay aylarında isə suvarma hesabına 34%-ə qədər azaltmağa imkan vermişdir. Təmizlənmiş su bulanıqlıq, oksigenə biokimyəvi tələbat və mikrobioloji göstəricilər üzrə texniki su təchizatı normativlərinə sabit şəkildə uyğun gəlmişdir. Xüsusi istismar xərcləri bir kubmetr üçün təxminən 38 rubl təşkil etmiş, mövcud tariflər şəraitində özünüödəmə müddəti 9–11 il qiymətləndirilir. Sakinlər arasında aparılmış sorğu suyun iyi və rəngi olmamaq şərtilə texnologiyanın yüksək səviyyədə qəbul edildiyini (82% müsbət qiymət) göstərmişdir. Belə nəticəyə gəlinmişdir ki, boz suların təkrar istifadəsi sistemlərinin yeni yaşayış tikintisi layihələrinə daxil edilməsi məqsədəuyğundur.</p></abstract>
+<trans-abstract xml:lang="en"><p>The reuse of lightly polluted domestic wastewater, or greywater, is regarded as one way to reduce the load on urban water supply and sewerage systems. This short communication presents the results of a pilot operation of a greywater treatment system in a residential block of three multi-apartment buildings (412 residents). Greywater from showers and washbasins was treated in a compact unit comprising mechanical filtration, a membrane bioreactor and ultraviolet disinfection, and then supplied for toilet flushing and irrigation of the surrounding grounds. Over 12 months, volumes were recorded daily and the quality of treated water was monitored weekly. Reuse reduced potable water consumption by 27% on average and by up to 34% in summer months owing to irrigation. Treated water consistently met the standards for non-potable water supply in terms of turbidity, biochemical oxygen demand and microbiological indicators. Specific operating costs were about 38 roubles per cubic metre, and the payback period at current tariffs is estimated at 9–11 years. A survey of residents showed a high level of acceptance of the technology (82% positive ratings), provided the water had no odour or discolouration. We conclude that greywater reuse systems are worth including in new residential development projects.</p></trans-abstract>
+<kwd-group xml:lang="az" kwd-group-type="author"><kwd>boz sular</kwd><kwd>suyun təkrar istifadəsi</kwd><kwd>membran bioreaktor</kwd><kwd>suya qənaət</kwd><kwd>yaşayış tikintisi</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>greywater</kwd><kwd>water reuse</kwd><kwd>membrane bioreactor</kwd><kwd>water saving</kwd><kwd>residential development</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Giriş</title>
+<p>Yaşayış binalarında istehlak edilən içməli suyun təxminən üçdə biri unitazların yuyulmasına və suvarmaya — içməli su keyfiyyəti tələb olunmayan ehtiyaclara sərf edilir. Duşxanalardan və əlyuyanlardan gələn boz sular məişət tullantı sularının 60%-ə qədərini təşkil edir və nisbətən az çirklənmişdir ki, bu da onları texniki su təchizatı üçün cəlbedici mənbəyə çevirir.</p>
+<p>Məlumatın məqsədi çoxmənzilli məhəllədə boz suların təkrar istifadəsi sisteminin bir illik pilot istismarının nəticələrini təqdim etmək və onun səmərəliliyini, qənaətliliyini və sakinlər tərəfindən qəbul edilməsini qiymətləndirməkdir.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar və metodlar</title>
+<p>Pilot məhəllə boz və qara tullantı suları üçün ayrıca daxili kanalizasiyası olan üç onmərtəbəli binadan ibarətdir. Məhsuldarlığı 25 m³/sutka olan təmizləyici qurğu zirzəmi binasında yerləşdirilmişdir. Daxil olan boz suların, təmizlənmiş suyun və şəhər şəbəkəsindən əlavə qidalanmanın həcmləri avtomatik sərfölçənlərlə qeydə alınmış, təmizlənmiş suyun keyfiyyəti isə akkreditə olunmuş laboratoriya tərəfindən həftəlik yoxlanılmışdır. Dövrün sonunda sakinlər arasında anket sorğusu aparılmışdır (n = 163).</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Nəticələr</title>
+<p>Təkrar istifadə edilmiş suyun orta sutkalıq həcmi 14,6 m³ təşkil etmişdir. İçməli suyun əvəzlənməsinin aylıq payı Şəkil 1-də göstərilmişdir: minimal qiymətlər qışda (22–24%), maksimal qiymətlər isə iyul və avqust aylarında (33–34%) qeydə alınmışdır. Təmizlənmiş suyun keyfiyyət göstəriciləri Cədvəl 1-də verilmişdir.</p>
+<fig id="f1" position="float"><caption><p>Şəkil 1. Aylar üzrə içməli suyun təmizlənmiş boz sularla əvəzlənməsinin payı, %</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>Cədvəl 1. Təmizlənmiş suyun keyfiyyəti (52 həftə üzrə orta)</p></caption><table><thead><tr><th>Göstərici</th><th>Boz sular</th><th>Təmizləmədən sonra</th><th>Normativ</th></tr></thead><tbody><tr><td>Bulanıqlıq, FNU</td><td>68</td><td>0,9</td><td>≤ 2</td></tr><tr><td>BOT₅, mq/l</td><td>142</td><td>4,1</td><td>≤ 10</td></tr><tr><td>Asılı maddələr, mq/l</td><td>95</td><td>&lt; 2</td><td>≤ 10</td></tr><tr><td>E. coli, KƏV/100 ml</td><td>10⁴–10⁵</td><td>aşkar edilməyib</td><td>olmamalıdır</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Müzakirə</title>
+<p>Əldə edilmiş əvəzlənmə payı bu tikinti tipi üçün nəzəri potensiala yaxındır. İqtisadi səmərəlilik su təchizatı tariflərindən güclü asılıdır: onlar artdıqda özünüödəmə müddəti 6–7 ilə qədər qısalır. Vacibdir ki, sakinlər texnologiyanı müsbət qarşılayırlar, lakin suyun orqanoleptik xassələrindəki istənilən kənarlaşma etimadı tez azaldır; buna görə də zərərsizləşdirmənin və monitorinqin etibarlılığı həlledici əhəmiyyət daşıyır.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Yekun</title>
+<p>Boz suların təkrar istifadəsi sistemi təmizlənmiş suyun normativlərə sabit uyğunluğu şəraitində içməli su sərfini dörddə bir azaltmağa imkan vermişdir. Texnologiya yeni çoxmənzilli tikinti üçün tövsiyə edilə bilər.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ədəbiyyat siyahısı</title>
+<ref id="r1"><mixed-citation>Дьяконов Р. В. Децентрализованные системы водоотведения в жилой застройке: зарубежный опыт // Городское хозяйство и инфраструктура. 2022. № 6. С. 33–47.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Eriksson E., Auffarth K., Henze M., Ledin A. Characteristics of grey wastewater // Urban Water. 2002. Vol. 4, no. 1. P. 85–104.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Сафина А. Р., Дьяконов Р. В. Экономическая оценка проектов водосбережения в многоквартирных домах // Пространственная экономика и политика. 2023. № 2. С. 58–72.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Okoro N., Lindahl S. Membrane bioreactors for decentralised greywater treatment: a performance review // Water Technology Letters. 2021. Vol. 13. P. 140–158.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Mendes T., Haas R. Public acceptance of recycled water for domestic uses // Journal of Water and Society. 2020. Vol. 8, no. 2. P. 99–117.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Дьяконов Р. В. Водный баланс жилого квартала: методика расчёта. Новобор: Полис, 2021. 92 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

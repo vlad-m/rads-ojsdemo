@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="pt">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista de Investigação Interdisciplinar (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revista de demonstração em Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra, Lda.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Artigo de revisão</subject></subj-group></article-categories>
+<title-group>
+<article-title>A economia circular nas pequenas e médias empresas: uma revisão sistemática das barreiras e dos fatores impulsionadores</article-title>
+<trans-title-group xml:lang="en"><trans-title>The Circular Economy in Small and Medium-Sized Enterprises: A Systematic Review of Barriers and Drivers</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Sedov</surname><given-names>Evgeny</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sedov</surname><given-names>Evgeny</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sedov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Yakovleva</surname><given-names>Tatiana</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Yakovleva</surname><given-names>Tatiana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Instituto Meridian de Economia e Desenvolvimento Territorial</institution>, <country country="RU">Rússia</country></aff>
+<aff id="aff2"><institution>Instituto Bielorrusso de Desenvolvimento Sustentável Ecopolis</institution>, <country country="BY">Bielorrússia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>11</fpage><lpage>13</lpage>
+<history><date date-type="received" iso-8601-date="2025-07-07"><day>07</day><month>07</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-12-16"><day>16</day><month>12</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2026 Evgeny Sedov, Tatiana Yakovleva</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licenciado ao abrigo da CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="pt"><p>A transição para uma economia circular, assente na reutilização, na reparação e na reciclagem de recursos, exige a participação não só das grandes empresas, mas também das pequenas e médias empresas, responsáveis por uma grande parte do emprego e do impacto ambiental. Esta revisão sistemática sintetiza a investigação empírica sobre as barreiras e os fatores impulsionadores da adoção de práticas circulares nas pequenas e médias empresas. Uma pesquisa orientada pelas diretrizes PRISMA identificou 1146 publicações de 2015–2025, das quais 72 estudos de 28 países cumpriam os critérios de inclusão. As barreiras e os fatores impulsionadores foram classificados em cinco grupos: financeiros, tecnológicos, de mercado, institucionais e organizacionais-culturais. As barreiras mais frequentemente referidas foram os elevados custos iniciais e o acesso limitado ao financiamento (78% dos estudos), a falta de competências técnicas (61%) e a fraca procura, por parte dos consumidores, de produtos fabricados com matérias-primas secundárias (47%). Os principais fatores impulsionadores são a poupança nos custos de matérias-primas e de eliminação de resíduos, as exigências dos grandes clientes nas cadeias de abastecimento e os valores pessoais dos proprietários. O papel do apoio público é avaliado de forma ambígua: os subsídios são eficazes sobretudo quando combinados com serviços de aconselhamento. Foi identificada uma lacuna considerável na investigação proveniente da Europa de Leste e da Ásia Central. São formuladas recomendações para as políticas de apoio e orientações para investigação futura.</p></abstract>
+<trans-abstract xml:lang="en"><p>The transition to a circular economy based on the reuse, repair and recycling of resources requires the participation not only of large corporations but also of small and medium-sized enterprises, which account for a large share of employment and environmental impact. This systematic review synthesises empirical research on the barriers to and drivers of adopting circular practices in small and medium-sized businesses. A PRISMA-guided search identified 1,146 publications from 2015–2025, of which 72 studies from 28 countries met the inclusion criteria. Barriers and drivers were classified into five groups: financial, technological, market, institutional and organisational-cultural. The most frequently cited barriers were high upfront costs and limited access to finance (78% of studies), a lack of technical competence (61%) and low consumer demand for products made from secondary raw materials (47%). The key drivers are savings on raw material and disposal costs, requirements of large customers in supply chains and the personal values of owners. The role of government support is assessed ambiguously: subsidies are effective mainly in combination with advisory services. A substantial gap in research from Eastern Europe and Central Asia was identified. Recommendations for support policies and directions for further research are formulated.</p></trans-abstract>
+<kwd-group xml:lang="pt" kwd-group-type="author"><kwd>economia circular</kwd><kwd>pequenas e médias empresas</kwd><kwd>revisão sistemática</kwd><kwd>desenvolvimento sustentável</kwd><kwd>cadeias de abastecimento</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>circular economy</kwd><kwd>small and medium-sized enterprises</kwd><kwd>systematic review</kwd><kwd>sustainable development</kwd><kwd>supply chains</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introdução</title>
+<p>O conceito de economia circular pressupõe o abandono do modelo linear «extrair — produzir — deitar fora» em favor de ciclos fechados, nos quais os produtos e os materiais conservam o seu valor durante o maior tempo possível. Uma parte significativa da investigação e dos programas políticos centra-se nas grandes empresas, que dispõem de recursos para reestruturar os processos de produção.</p>
+<p>As pequenas e médias empresas enfrentam outras restrições: dispõem de menos capital, menos competências e menor poder negocial nas cadeias de abastecimento. Ao mesmo tempo, são mais flexíveis e estão mais próximas das comunidades locais. O objetivo da revisão é sistematizar os dados empíricos sobre os fatores que dificultam e favorecem a adoção de práticas circulares nas pequenas e médias empresas.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiais e métodos</title>
+<p>A revisão foi realizada de acordo com as recomendações PRISMA 2020. A pesquisa foi efetuada em bases de dados bibliográficas com combinações dos termos «economia circular», «pequenas e médias empresas» e dos seus equivalentes em inglês. Foram incluídos estudos empíricos (inquéritos, estudos de caso, entrevistas, trabalhos econométricos) publicados em 2015–2025 em inglês ou em russo.</p>
+<p>Dos 1146 registos encontrados, após a eliminação de duplicados e a triagem dos resumos, 214 trabalhos foram avaliados em texto integral, dos quais 72 cumpriam os critérios de inclusão. As barreiras e os fatores impulsionadores foram codificados por dois investigadores de forma independente, segundo um esquema previamente definido; a concordância entre codificadores foi de κ = 0,79.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Resultados</title>
+<p>Os estudos incluídos abrangem 28 países; contudo, 61 % foram realizados com dados de países da Europa Ocidental. Os trabalhos sobre países da Europa de Leste e da Ásia Central são apenas cinco. A frequência de referência às principais barreiras é apresentada na fig. 1.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Frequência de referência às barreiras nos estudos incluídos, % (n = 72)</p></caption></fig>
+<p>Os fatores impulsionadores da adoção de práticas circulares estão agrupados no quadro 1. As motivações económicas — a redução dos custos de matérias-primas e de eliminação de resíduos — são as mais frequentemente referidas; no entanto, nos estudos sobre empresas familiares, os valores dos proprietários desempenham um papel importante.</p>
+<table-wrap id="t1" position="float"><caption><p>Quadro 1. Principais fatores impulsionadores da adoção de práticas circulares</p></caption><table><thead><tr><th>Grupo de fatores</th><th>Exemplo</th><th>Número de estudos</th><th>Proporção, %</th></tr></thead><tbody><tr><td>Financeiros</td><td>Poupança em matérias-primas e eliminação de resíduos</td><td>51</td><td>71</td></tr><tr><td>De mercado</td><td>Exigências dos grandes clientes</td><td>38</td><td>53</td></tr><tr><td>Organizacionais-culturais</td><td>Valores dos proprietários</td><td>31</td><td>43</td></tr><tr><td>Institucionais</td><td>Subsídios e aconselhamento</td><td>26</td><td>36</td></tr><tr><td>Tecnológicos</td><td>Plataformas digitais de troca</td><td>17</td><td>24</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussão</title>
+<p>O predomínio das barreiras e dos fatores impulsionadores financeiros mostra que, para as pequenas empresas, a circularidade é sobretudo uma questão económica e não de agenda ambiental. Por isso, as medidas de apoio que reduzem os custos e os riscos iniciais são as mais procuradas. Ao mesmo tempo, os subsídios sem apoio consultivo muitas vezes não conduzem a mudanças duradouras.</p>
+<p>O desequilíbrio geográfico da base de evidência limita a transferibilidade das conclusões: o enquadramento institucional, o acesso ao financiamento e a infraestrutura de reciclagem variam consideravelmente entre países. Colmatar esta lacuna é uma tarefa importante para a investigação regional.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusão</title>
+<p>A adoção de práticas circulares nas pequenas e médias empresas é determinada sobretudo por incentivos económicos e pelas exigências das cadeias de abastecimento. Uma política eficaz deve combinar o apoio financeiro com o desenvolvimento de competências e de infraestruturas.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Referências bibliográficas</title>
+<ref id="r1"><mixed-citation>Page M. J., McKenzie J. E., Bossuyt P. M. et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews // BMJ. 2021. Vol. 372. Art. n71.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Kirchherr J., Reike D., Hekkert M. Conceptualizing the circular economy: an analysis of 114 definitions // Resources, Conservation and Recycling. 2017. Vol. 127. P. 221–232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Седов Е. В. Циркулярные бизнес-модели: типология и экономические эффекты // Пространственная экономика и политика. 2023. № 1. С. 31–50.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Яковлева Т. Н. Политика поддержки зелёного предпринимательства в странах ЕАЭС // Экономика устойчивого развития. 2024. Т. 12, № 3. С. 66–83.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Rizos V., Behrens A., Kafyeke T. et al. The circular economy: barriers and opportunities for SMEs. Brussels: CEPS, 2015. 22 p.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindner P., Costa R. Supply-chain pressure and circular practices in small manufacturers // Journal of Sustainable Enterprise. 2022. Vol. 11, no. 2. P. 115–134.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седов Е. В., Громов П. А. Малый бизнес и переработка отходов: результаты регионального обследования // Регион: экономика и общество. 2024. № 5. С. 20–37.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Oduya K., Brandt M. Owner values and environmental strategy in family firms // Small Business and Society. 2021. Vol. 7. P. 50–68.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

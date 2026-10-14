@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="az">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fənlərarası Tədqiqatlar Jurnalı (demo versiya)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems platformasında demo jurnal</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Tsifra» MMC</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Elmi məqalə</subject></subj-group></article-categories>
+<title-group>
+<article-title>Nəqliyyat əlçatanlığı və mənzil qiymətləri: şəhər aqlomerasiyası üçün hedonik model</article-title>
+<subtitle>Yeni sürətli tramvay xəttinin açılması nümunəsində</subtitle>
+<trans-title-group xml:lang="en"><trans-title>Transit Accessibility and Housing Prices: A Hedonic Model for an Urban Agglomeration</trans-title><trans-subtitle>Evidence from the Opening of a New Light Rail Line</trans-subtitle></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Melnikov</surname><given-names>Artyom</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.melnikov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Gromov</surname><given-names>Pavel</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Polyakova</surname><given-names>Daria</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Polyakova</surname><given-names>Daria</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Sedov</surname><given-names>Evgeny</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sedov</surname><given-names>Evgeny</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>«Polis» Ali Urbanistika Məktəbi</institution>, <country country="RU">Rusiya</country></aff>
+<aff id="aff2"><institution>«Meridian» İqtisadiyyat və Məkan İnkişafı İnstitutu</institution>, <country country="RU">Rusiya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>7</lpage>
+<history><date date-type="received" iso-8601-date="2025-09-02"><day>02</day><month>09</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-01-19"><day>19</day><month>01</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Artyom Melnikov, Pavel Gromov, Daria Polyakova, Evgeny Sedov</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 lisenziyası əsasında yayılır</license-p></license></permissions>
+<abstract xml:lang="az"><p>İctimai nəqliyyata investisiyalar şəhərin məkan strukturunu dəyişdirir və bunun ən əyani təzahürlərindən biri yeni stansiyaların yaxınlığında mənzil qiymətlərinin dəyişməsidir. Məqalədə əhalisi təxminən 1,2 milyon nəfər olan anonimləşdirilmiş aqlomerasiyada uzunluğu 17 km olan sürətli tramvay xəttinin açılmasının mənzil qiymətlərinə təsiri qiymətləndirilir. 2018–2024-cü illərə aid geokodlaşdırılmış və binaların və ətraf mühitin xüsusiyyətləri ilə tamamlanmış 46 min əqd və satış elanı haqqında məlumatlardan istifadə edilmişdir. Nəqliyyat əlçatanlığı xəttin açılmasından əvvəl və sonra ictimai nəqliyyatla 45 dəqiqə ərzində çatıla bilən iş yerlərinin sayı kimi hesablanmışdır. Effekti müəyyənləşdirmək üçün eksperimental qrupu yeni stansiyalardan 800 m radiusda yerləşən mənzillərin təşkil etdiyi hedonik fərqlərin fərqi modeli tətbiq edilmişdir. Xətt açıldıqdan sonra təsir zonasında mənzil qiymətləri nəzarət zonasına nisbətən 6,8% çox artmış, effekt isə artıq tikinti elan edildikdən sonra özünü göstərməyə başlamışdır. Effekt ilkin əlçatanlığı aşağı olan periferik rayonlardakı mənzillər üçün daha güclüdür və mərkəzdə praktik olaraq yoxdur. Əlçatanlığın 10 min iş yeri qədər artması kvadratmetrin qiymətinin 1,9% artması ilə əlaqəlidir. Nəticələr torpaq dəyəri artımının bir hissəsinin nəqliyyat infrastrukturunun maliyyələşdirilməsinə yönəldilməsi (land value capture) mexanizmlərinin əsaslandırılması üçün istifadə oluna bilər.</p></abstract>
+<trans-abstract xml:lang="en"><p>Investment in public transport reshapes the spatial structure of a city, and one of the most visible manifestations of this is the change in housing prices near new stations. This article estimates the effect of opening a 17-km light rail line on apartment prices in an anonymised agglomeration with a population of about 1.2 million. The data comprise 46,000 transactions and sale listings for 2018–2024, geocoded and supplemented with building and neighbourhood characteristics. Transit accessibility was measured as the number of jobs reachable within 45 minutes by public transport before and after the opening of the line. The effect was identified with a hedonic difference-in-differences model in which the treatment group consists of apartments within 800 m of the new stations. After the line opened, apartment prices in the catchment area increased by 6.8% more than in the control area, and the effect began to appear as early as the announcement of construction. The effect is stronger for apartments in peripheral districts with initially low accessibility and practically absent in the centre. An increase in accessibility of 10,000 jobs is associated with a 1.9% increase in the price per square metre. The results can be used to justify land value capture mechanisms for financing transport infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="az" kwd-group-type="author"><kwd>nəqliyyat əlçatanlığı</kwd><kwd>hedonik model</kwd><kwd>mənzil bazarı</kwd><kwd>sürətli tramvay</kwd><kwd>torpaq dəyəri artımının qaytarılması</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>transit accessibility</kwd><kwd>hedonic model</kwd><kwd>housing market</kwd><kwd>light rail</kwd><kwd>land value capture</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Giriş</title>
+<p>Nəqliyyat əlçatanlığı ilə daşınmaz əmlakın dəyəri arasındakı əlaqə şəhər iqtisadiyyatının fundamental mövzularından biridir. Monosentrik şəhərin klassik modeli nəqliyyat xərclərinin azalmasının mərkəzdən uzaq sahələrin dəyərini artırdığını proqnozlaşdırır. Müxtəlif ölkələrdə aparılmış empirik tədqiqatlar bunu ümumilikdə təsdiqləyir, lakin effektin qiymətləndirmələri əhəmiyyətli dərəcədə fərqlənir.</p>
+<p>2022-ci ildə tədqiq edilən aqlomerasiyada yeni sürətli tramvay xəttinin açılması təbii eksperiment yaratmışdır. İşin məqsədi onun səbəb olduğu mənzil qiymətləri dəyişikliyini qiymətləndirmək, onun zaman və məkan üzrə dinamikasını izləmək və onu iş yerlərinin əlçatanlığının dəyişməsi ilə əlaqələndirməkdir.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar və metodlar</title>
+<p>İlkin məlumatlara 2018–2024-cü illər üzrə 18 min qeydiyyata alınmış əqd və mənzil satışı haqqında 28 min elan daxildir. Elanlar üçün dərcdən çıxarılmazdan əvvəlki son qiymətlərdən istifadə edilmişdir. Bütün obyektlər geokodlaşdırılmış və xüsusiyyətlərlə tamamlanmışdır: sahə, mərtəbə, binanın tikildiyi il və materialı, mərkəzə, parklara və məktəblərə qədər məsafə.</p>
+<p>İş yerlərinin əlçatanlığı ictimai nəqliyyatın hərəkət cədvəlləri və məşğulluğun yerləşməsinə dair məlumatlar əsasında hesablanmışdır. Kvadratmetr qiymətinin loqarifmi üçün hedonik model obyektin xüsusiyyətlərini, rayonların və rüb-dövrlərin sabit effektlərini, həmçinin təsir zonası indikatorunun (stansiyadan 800 m-ə qədər) «elan», «tikinti» və «istismar» dövrləri ilə qarşılıqlı təsirini əhatə edir.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Nəticələr</title>
+<p>Təsir zonası ilə nəzarət zonası arasındakı qiymət fərqinin dinamikası Şəkil 1-də göstərilmişdir. Tikinti elan edilənədək fərqlər statistik cəhətdən əhəmiyyətsizdir ki, bu da paralel trendlər fərziyyəsini təsdiqləyir. 2019-cu ildə elan edildikdən sonra fərq artmağa başlayır və istismar dövründə 6,8%-ə çatır.</p>
+<fig id="f1" position="float"><caption><p>Şəkil 1. İllər üzrə təsir zonası ilə nəzarət zonası arasında kvadratmetr qiymətlərinin fərqi, %</p></caption></fig>
+<p>Əsas modelin və onun modifikasiyalarının qiymətləndirmələri Cədvəl 1-də verilmişdir. Periferik rayonlar üçün effekt orta zonaya nisbətən təxminən üç dəfə böyükdür, mərkəzdə isə statistik cəhətdən sıfırdan fərqlənmir.</p>
+<table-wrap id="t1" position="float"><caption><p>Cədvəl 1. Fərqlərin fərqi ilə hedonik modelin qiymətləndirmələri (asılı dəyişən — m² qiymətinin loqarifmi)</p></caption><table><thead><tr><th>Spesifikasiya</th><th>Effekt, %</th><th>Standart xəta</th><th>N</th></tr></thead><tbody><tr><td>Bütün rayonlar</td><td>6,8</td><td>1,3</td><td>46 112</td></tr><tr><td>Periferiya</td><td>11,2</td><td>2,1</td><td>17 840</td></tr><tr><td>Orta zona</td><td>4,1</td><td>1,6</td><td>19 305</td></tr><tr><td>Mərkəz</td><td>0,9</td><td>2,4</td><td>8 967</td></tr><tr><td>Yalnız əqdlər</td><td>6,1</td><td>1,8</td><td>18 024</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Müzakirə</title>
+<p>Effektin böyüklüyü sürətli relsli nəqliyyata dair xarici tədqiqatlar üçün səciyyəvi olan diapazonun ortasındadır. Qiymətlərin hələ xətt açılmazdan əvvəl artması bazarın gözləntiləri kapitallaşdırdığını göstərir və bu, torpaq dəyəri artımının qaytarılması mexanizmlərinin tətbiq anının seçilməsi üçün vacibdir.</p>
+<p>Effektin zonalar üzrə qeyri-bircinsliyi nəzəriyyə ilə uzlaşır: əlçatanlığın artıq yüksək olduğu yerlərdə yeni xətt az şey əlavə edir. İşin məhdudiyyəti nümunənin bir hissəsi üçün elan qiymətlərindən istifadə edilməsidir, lakin yalnız əqdlər üzrə qiymətləndirmə əsas qiymətləndirməyə yaxındır.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Yekun</title>
+<p>Sürətli tramvay xəttinin açılması təsir zonasında mənzil qiymətlərini 6,8% artırmış, ən böyük effekt isə periferiyada müşahidə olunmuşdur. Bu, dəyər artımının bir hissəsinin nəqliyyat layihələrinin maliyyələşdirilməsinə qaytarılması alətlərinin tətbiqini əsaslandırır.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ədəbiyyat siyahısı</title>
+<ref id="r1"><mixed-citation>Rosen S. Hedonic prices and implicit markets: product differentiation in pure competition // Journal of Political Economy. 1974. Vol. 82, no. 1. P. 34–55.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Hansen W. G. How accessibility shapes land use // Journal of the American Institute of Planners. 1959. Vol. 25, no. 2. P. 73–76.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Мельников А. С. Метрики транспортной доступности на основе расписаний общественного транспорта // Геоинформатика и общество. 2023. № 2. С. 5–21.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Громов П. А., Седов Е. В. Капитализация инфраструктурных инвестиций в цены жилья: обзор эмпирических исследований // Пространственная экономика и политика. 2022. № 4. С. 9–30.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Debrezion G., Pels E., Rietveld P. The impact of railway stations on residential and commercial property value: a meta-analysis // Journal of Real Estate Finance and Economics. 2007. Vol. 35, no. 2. P. 161–180.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Полякова Д. И. Анонсирование инфраструктурных проектов и ожидания рынка жилья // Городские исследования. 2024. Т. 8, № 1. С. 44–61.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Ng W., Carvalho F. Land value capture for light rail: international practice // Transport Finance Review. 2021. Vol. 10. P. 71–90.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мельников А. С., Полякова Д. И. Геокодирование объявлений о продаже жилья: методы и ошибки // Прикладная аналитика. 2023. Т. 7, № 4. С. 63–79.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

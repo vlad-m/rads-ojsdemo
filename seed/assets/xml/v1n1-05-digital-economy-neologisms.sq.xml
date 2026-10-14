@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="sq">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista e Kërkimeve Ndërdisiplinore (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revistë demonstruese në Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra sh.p.k.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Komunikim i shkurtër</subject></subj-group></article-categories>
+<title-group>
+<article-title>Neologjizmat e ekonomisë dixhitale në mediat e biznesit në gjuhën ruse: një studim korpusor</article-title>
+<trans-title-group xml:lang="en"><trans-title>Digital Economy Neologisms in Russian-Language Business Media: A Corpus Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Lebedeva</surname><given-names>Anna</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Lebedeva</surname><given-names>Anna</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.lebedeva@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Instituti i Gjuhës dhe Komunikimit «Lexis»</institution>, <country country="RU">Rusi</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>18</fpage><lpage>20</lpage>
+<history><date date-type="received" iso-8601-date="2024-12-02"><day>02</day><month>12</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-20"><day>20</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Anna Lebedeva</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licencuar sipas CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="sq"><p>Dixhitalizimi i ekonomisë është shoqëruar me shfaqjen e shpejtë të një leksiku të ri, pjesa më e madhe e të cilit huazohet nga anglishtja. Ky komunikim i shkurtër paraqet rezultatet e para të një studimi korpusor të neologjizmave të ekonomisë dixhitale në mediat e biznesit në gjuhën ruse. Një korpus i ndërtuar posaçërisht përmban rreth 18 milionë njësi tekstore (tokens) nga botimet e gjashtë mediave të biznesit të anonimizuara për periudhën 2015–2024. Neologjizmat kandidatë u përzgjodhën me një kriter frekuence, të ndjekur nga verifikimi i ekspertëve; lista përfundimtare përmban 214 njësi. Për secilën u përcaktuan viti i dëshmisë së parë, modeli fjalëformues dhe dinamika e frekuencës. Huazimet e drejtpërdrejta (si marketpleys, startap dhe kraudfanding) përbëjnë 58% të njësive të reja, formimet hibride me ndajshtesa ruse 27%, ndërsa kalket dhe shprehjet përshkruese 15%. Kulmi i njësive të reja bie në vitet 2018–2020. Për një numër huazimesh, shkrimi me alfabet latin po zëvendësohet gradualisht nga shkrimi me alfabet cirilik, gjë që tregon asimilimin e tyre në gjuhë. Rezultatet mund të përdoren në hartimin e fjalorëve terminologjikë dhe në mësimdhënien e rusishtes së biznesit. Puna e mëtejshme do ta zgjerojë korpusin me media rajonale dhe kanale Telegram.</p></abstract>
+<trans-abstract xml:lang="en"><p>The digitalisation of the economy has been accompanied by the rapid emergence of new vocabulary, much of it borrowed from English. This short communication presents the first results of a corpus study of digital economy neologisms in Russian-language business media. A purpose-built corpus comprises about 18 million tokens from the publications of six anonymised business outlets for 2015–2024. Candidate neologisms were selected using a frequency criterion followed by expert verification; the final list contains 214 items. For each, the year of first attestation, the word-formation pattern and the frequency dynamics were determined. Direct borrowings (such as marketpleys, startap and kraudfanding) account for 58% of new items, hybrid formations with Russian affixes for 27%, and calques and descriptive expressions for 15%. The peak of new items falls in 2018–2020. For a number of borrowings, Latin-script spellings are gradually being replaced by Cyrillic ones, indicating their assimilation into the language. The results can be used in compiling terminological dictionaries and in teaching business Russian. Further work will extend the corpus to regional outlets and Telegram channels.</p></trans-abstract>
+<kwd-group xml:lang="sq" kwd-group-type="author"><kwd>neologjizma</kwd><kwd>gjuhësi e korpusit</kwd><kwd>huazime</kwd><kwd>ekonomi dixhitale</kwd><kwd>media të biznesit</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>neologisms</kwd><kwd>corpus linguistics</kwd><kwd>borrowings</kwd><kwd>digital economy</kwd><kwd>business media</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Hyrje</title>
+<p>Shtypi i biznesit shërben si një nga kanalet kryesore të përhapjes së terminologjisë ekonomike: konceptet e reja shfaqen në të më herët se në fjalorë dhe tekste mësimore. Gjatë periudhës 2015–2024, dixhitalizimi i tregtisë, i financave dhe i punës u shoqërua me një pasurim veçanërisht intensiv të leksikut.</p>
+<p>Qëllimi i këtij komunikimi është të përshkruajë përbërjen dhe dinamikën e neologjizmave të ekonomisë dixhitale në mediat e biznesit dhe të karakterizojë mënyrat kryesore të formimit të tyre.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materialet dhe metodat</title>
+<p>Korpusi u formua nga botime të disponueshme lirisht të gjashtë mediave të biznesit (të shënuara M1–M6) dhe u anotua morfologjikisht. Neologjizmat kandidatë u përzgjodhën si lema që mungonin në nënkorpusin e viteve 2010–2014 dhe që shfaqeshin të paktën 20 herë në vitet 2015–2024. Më pas, dy ekspertë verifikuan në mënyrë të pavarur përkatësinë e njësive në tematikën e ekonomisë dixhitale; përputhshmëria ndërmjet ekspertëve (κ e Cohen-it) ishte 0,82.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Rezultatet</title>
+<p>Lista përfundimtare përfshin 214 njësi. Shpërndarja sipas vitit të dëshmisë së parë tregohet në fig. 1: kulmi bie në vitet 2018–2020, që përkon me periudhën e zhvillimit intensiv të tregtisë në internet dhe të punësimit nëpërmjet platformave. Shpërndarja sipas mënyrave të formimit jepet në tab. 1.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Numri i njësive të reja sipas vitit të dëshmisë së parë në korpus</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>Tabela 1. Neologjizmat sipas mënyrës së formimit</p></caption><table><thead><tr><th>Mënyra e formimit</th><th>Numri</th><th>Përqindja, %</th><th>Shembuj</th></tr></thead><tbody><tr><td>Huazim i drejtpërdrejtë</td><td>124</td><td>58</td><td>marketpleys, startap</td></tr><tr><td>Formim hibrid</td><td>58</td><td>27</td><td>zafandrayzit, lidogeneratsiya</td></tr><tr><td>Kalk, shprehje përshkruese</td><td>32</td><td>15</td><td>tsifrovoy sled («gjurmë dixhitale»), umnyy kontrakt («kontratë inteligjente»)</td></tr><tr><td>Gjithsej</td><td>214</td><td>100</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Diskutimi</title>
+<p>Mbizotërimi i huazimeve të drejtpërdrejta është i pritshëm për një fushë lëndore që zhvillohet me shpejtësi. Megjithatë, përqindja e lartë e formimeve hibride tregon se temat e huazuara përfshihen shpejt në sistemin fjalëformues të rusishtes. Zëvendësimi i shkrimeve me alfabet latin nga ato me alfabet cirilik (për shembull, për fjalën «startap» përqindja e shkrimit me alfabet latin ra nga 34% në vitin 2015 në 3% në vitin 2024) shërben si tregues i asimilimit.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Përfundimi</title>
+<p>Qasja korpusore lejon datimin objektiv të shfaqjes dhe të asimilimit të leksikut të ri ekonomik. Lista e përftuar e neologjizmave mund të bëhet bazë për një fjalor të specializuar.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Bibliografia</title>
+<ref id="r1"><mixed-citation>Лебедева А. В. Терминологические инновации в языке экономики: корпусный подход // Вопросы терминоведения. 2021. Т. 7, № 1. С. 9–27.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Sinclair J. Corpus, Concordance, Collocation. Oxford: Oxford University Press, 1991. 179 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Кожевникова Р. Л. Англицизмы в русской деловой прессе: этапы освоения // Русская речь сегодня. 2019. № 5. С. 31–44.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Ferrand M., Holm B. Measuring lexical novelty in news corpora // Corpus Methods Quarterly. 2020. Vol. 11, no. 2. P. 145–163.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Лебедева А. В., Огнева Т. П. Графическая адаптация заимствований: латиница и кириллица в медиатексте // Лингвистика и медиа. 2022. Т. 3, № 4. С. 70–86.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Огнева Т. П. Словообразовательная активность заимствованных основ в современном русском языке. М.: Лексис, 2020. 236 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

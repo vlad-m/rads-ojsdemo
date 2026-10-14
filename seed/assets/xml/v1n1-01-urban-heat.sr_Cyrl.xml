@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="sr">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Часопис за интердисциплинарна истраживања (демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демо-часопис на платформи Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>ДОО „Цифра“</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Оригинални научни рад</subject></subj-group></article-categories>
+<title-group>
+<article-title>Урбана топлотна острва у градовима средње величине: анализа података Landsat за период 2000–2023.</article-title>
+<trans-title-group xml:lang="en"><trans-title>Urban Heat Islands in Medium-Sized Cities: An Analysis of Landsat Data for 2000–2023</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Соколовская</surname><given-names>Елена</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sokolovskaya@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Мельников</surname><given-names>Артём</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Ким</surname><given-names>Светлана</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kim</surname><given-names>Svetlana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Државни универзитет у Новобору</institution>, <country country="RU">Русија</country></aff>
+<aff id="aff2"><institution>Висока школа за урбане студије „Полис“</institution>, <country country="RU">Русија</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>8</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-14"><day>14</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-28"><day>28</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Елена Соколовская, Артём Мельников, Светлана Ким</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Лиценца CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="sr"><p>Истраживања урбаних топлотних острва традиционално су усмерена на највеће метрополитенске области, док су градови средње величине, у којима живи значајан део становништва, и даље слабо проучени. У овој студији процењују се интензитет и динамика површинског урбаног топлотног острва у дванаест анонимизованих градова са 100.000 до 500.000 становника у умереном климатском појасу. Температура површине тла добијена је из снимака Landsat 5, 7 и 8 за летње месеце у периоду 2000–2023, а за сваки град израчуната је разлика између изграђеног подручја и приградске тампон-зоне. Као коваријате коришћени су нормализовани диференцијални вегетациони индекс (NDVI), удео непропусних површина и густина изграђености добијена из отворених картографских података. Просечан дневни интензитет топлотног острва износио је 3,4 °C, а током проучаваног периода повећао се у просеку за 0,9 °C. Највећи допринос овој промени даје губитак зелених површина у периферним зонама нове стамбене изградње, док се веза са бројем становника показала слабом. Регресиони модел са мешовитим ефектима објашњава 71% варијације између градова и између година. Резултати показују да градови средње величине нису ништа мање рањиви на прегревање од великих градова и да су урбанистичке одлуке у зонама нове изградње кључни инструмент прилагођавања. Предложена метода може се применити на било који град коришћењем отворених података.</p></abstract>
+<trans-abstract xml:lang="en"><p>Research on urban heat islands has traditionally focused on the largest metropolitan areas, while medium-sized cities, home to a substantial share of the population, remain poorly studied. This study assesses the intensity and dynamics of the surface urban heat island in twelve anonymised cities with populations of 100,000 to 500,000 in the temperate climate zone. Land surface temperature was retrieved from Landsat 5, 7 and 8 scenes for the summer months of 2000–2023, and for each city the difference between the built-up area and a suburban buffer zone was calculated. The normalised difference vegetation index (NDVI), the share of impervious surfaces and building density derived from open map data were used as covariates. The mean daytime heat island intensity was 3.4 °C, and over the study period it increased by 0.9 °C on average. The largest contribution to this change comes from the loss of green space in peripheral areas of new residential development, whereas the association with population size proved weak. A mixed-effects regression model explains 71% of the between-city and between-year variation. The results show that medium-sized cities are no less vulnerable to overheating than large ones and that planning decisions in new development zones are a key adaptation tool. The proposed method can be reproduced for any city using open data.</p></trans-abstract>
+<kwd-group xml:lang="sr" kwd-group-type="author"><kwd>урбано топлотно острво</kwd><kwd>даљинска детекција</kwd><kwd>Landsat</kwd><kwd>температура површине тла</kwd><kwd>зелена инфраструктура</kwd><kwd>градови средње величине</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>urban heat island</kwd><kwd>remote sensing</kwd><kwd>Landsat</kwd><kwd>land surface temperature</kwd><kwd>green infrastructure</kwd><kwd>medium-sized cities</kwd></kwd-group>
+<funding-group><award-group><funding-source>Фондација за подршку интердисциплинарним истраживањима „Хоризонт“</funding-source></award-group></funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Увод</title>
+<p>Урбано топлотно острво – виша температура ваздуха и подлоге у граду у односу на околно сеоско подручје – једна је од најпроученијих манифестација антропогене трансформације климе. Класични радови повезују ову појаву са променом топлотног биланса: замена вегетације непропусним површинама смањује евапорацију, геометрија изграђености смањује ноћно израчивање, а антропогени извори додају топлоту приземном слоју ваздуха.</p>
+<p>Огромна већина емпиријских процена, међутим, добијена је за градове са више од милион становника. Градови средње величине, са 100.000–500.000 становника, често се сматрају „премалим“ да би се у њима формирало изражено топлотно острво, иако се управо у њима током последње две деценије одвија интензивна изградња на периферији. Овај рад попуњава ту празнину: процењујемо интензитет површинског топлотног острва у дванаест градова средње величине и утврђујемо чиниоце његове промене у периоду 2000–2023.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материјал и методе</title>
+<p>Истраживање обухвата дванаест градова умереног појаса, који су у раду означени шифрама Г1–Г12. За сваки град из архива Landsat одабрани су снимци без облака за период јун–август (у просеку 4,6 снимака по граду годишње, укупно 1.318 снимака). Температура подлоге добијена је из термалног канала уз корекцију емисивности на основу NDVI.</p>
+<p>Интензитет топлотног острва (ИТО) одређен је као разлика медијалне температуре изграђеног подручја и приградског тампон-прстена ширине 5 km, без водених површина. Као објашњавајуће променљиве коришћени су просечан NDVI, удео непропусних површина, густина изграђености и број становника. Веза је процењена регресионим моделом са мешовитим ефектима, са случајним слободним чланом за град и фиксним ефектом године.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Резултати</title>
+<p>Просечан дневни ИТО у целом узорку износио је 3,4 ± 0,8 °C. Најниже вредности карактеристичне су за градове са развијеном мрежом долина и очуваним шумопарковима (2,1–2,6 °C), а највише за градове степске зоне са густом изградњом од монтажних панелних зграда (4,5–4,9 °C). На сл. 1 приказана је динамика просечног интензитета по петогодишњим периодима.</p>
+<fig id="f1" position="float"><caption><p>Слика 1. Просечан дневни интензитет површинског топлотног острва по петогодишњим периодима, °C</p></caption></fig>
+<p>У регресионом моделу (таб. 1) највећи ефекат има NDVI: смањење индекса за 0,1 повезано је са порастом ИТО за 0,62 °C. Удео непропусних површина је значајан, али је његов ефекат у великој мери посредован вегетацијом. Број становника, након контроле морфолошких показатеља, није статистички значајан.</p>
+<table-wrap id="t1" position="float"><caption><p>Табела 1. Оцене модела са мешовитим ефектима (зависна променљива – ИТО, °C)</p></caption><table><thead><tr><th>Променљива</th><th>Коефицијент</th><th>Станд. грешка</th><th>p</th></tr></thead><tbody><tr><td>NDVI (за 0,1)</td><td>−0,62</td><td>0,09</td><td>&lt;0,001</td></tr><tr><td>Непропусне површине (за 10%)</td><td>0,31</td><td>0,11</td><td>0,006</td></tr><tr><td>Густина изграђености (за 1.000 m²/ha)</td><td>0,18</td><td>0,07</td><td>0,012</td></tr><tr><td>Становништво (log)</td><td>0,07</td><td>0,15</td><td>0,640</td></tr><tr><td>Условни R²</td><td>0,71</td><td>—</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Дискусија</title>
+<p>Добијене процене интензитета упоредиве су са објављеним вредностима за европске градове сличне величине и само су за 1–1,5 °C ниже од вредности за највеће агломерације. То доводи у питање распрострањено схватање да је топлотни ризик у градовима средње величине занемарљив.</p>
+<p>Најважнији резултат рада јесте водећа улога вегетације на периферији. Нови стамбени блокови, изграђени после 2010. године на месту пољопривредног земљишта и пустара, одликују се минималним озелењавањем, и управо је ту пораст температуре подлоге најуочљивији. Ограничење истраживања представља коришћење искључиво дневних снимака: ноћно топлотно острво, које је најзначајније за здравље, захтева друге изворе података.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Закључак</title>
+<p>Градови средње величине формирају изражена површинска топлотна острва, чији интензитет расте. Очување и подизање зелених површина у зонама нове изградње најделотворнија је полуга прилагођавања. Предложени отворени алгоритам општине могу да користе за праћење.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Литература</title>
+<ref id="r1"><mixed-citation>Oke T. R. The energetic basis of the urban heat island // Quarterly Journal of the Royal Meteorological Society. 1982. Vol. 108, no. 455. P. 1–24.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Voogt J. A., Oke T. R. Thermal remote sensing of urban climates // Remote Sensing of Environment. 2003. Vol. 86, no. 3. P. 370–384.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Соколовская Е. В. Пространственные закономерности теплового режима малых и средних городов // Вопросы пространственного анализа. 2021. Т. 9, № 2. С. 34–51.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Мельников А. С., Ким С. Ю. Открытые картографические данные как источник показателей плотности застройки // Геоинформатика и общество. 2022. № 4. С. 18–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Harding P., Lindqvist M. Surface heat islands beyond the megacity: evidence from European mid-sized towns // Urban Climate Letters. 2020. Vol. 7. P. 112–127.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Орехова Т. Н. Методы восстановления температуры подстилающей поверхности по данным теплового канала. М.: Академия, 2019. 212 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Chen Y., Moreau L. Vegetation loss and the intensification of surface heat islands in suburban fringes // Journal of Applied Urban Ecology. 2021. Vol. 15, no. 3. P. 201–219.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Соколовская Е. В., Брагин И. А. Зелёная инфраструктура и адаптация городов к экстремальной жаре: обзор практик // Вестник Новоборского университета. Серия: Науки о Земле. 2023. Т. 11, № 1. С. 5–22.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

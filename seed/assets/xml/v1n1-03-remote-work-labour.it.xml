@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="it">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Rivista di ricerca interdisciplinare (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Rivista dimostrativa su Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra S.r.l.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Articolo di ricerca</subject></subj-group></article-categories>
+<title-group>
+<article-title>Lavoro da remoto e mercati del lavoro regionali: evidenze dagli annunci di lavoro online</article-title>
+<trans-title-group xml:lang="en"><trans-title>Remote Work and Regional Labour Markets: Evidence from Online Vacancies</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Gromov</surname><given-names>Pavel</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>p.gromov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Becker</surname><given-names>Laura</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Becker</surname><given-names>Laura</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Istituto di economia e sviluppo territoriale «Meridian»</institution>, <country country="RU">Russia</country></aff>
+<aff id="aff2"><institution>Centro di ricerca economica applicata «Ostland»</institution>, <country country="DE">Germania</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>12</fpage><lpage>14</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-21"><day>21</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-14"><day>14</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Pavel Gromov, Laura Becker</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Distribuito con licenza CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="it"><p>La diffusione del lavoro da remoto dopo il 2020 può potenzialmente ridisegnare la struttura spaziale dei mercati del lavoro, consentendo ai residenti dei centri minori di accedere alle offerte pubblicate dai datori di lavoro della capitale. Sulla base di 2,4 milioni di annunci di lavoro pubblicati su una grande piattaforma online nel periodo 2019–2023, l’articolo stima in quale misura le offerte di lavoro da remoto ridistribuiscano la domanda di lavoro tra le regioni. Gli annunci sono stati classificati con un modello basato su dizionario, seguito dalla validazione manuale di un campione casuale. La quota di offerte interamente da remoto è passata dal 2,1% nel 2019 al 9,7% nel 2023, con una crescita concentrata nei settori delle tecnologie dell’informazione, del marketing e dei servizi finanziari. Un disegno difference-in-differences mostra che nelle regioni con una quota più elevata di occupati in questi settori la retribuzione media offerta è cresciuta del 4,3% più rapidamente che in regioni comparabili. Al tempo stesso, le offerte di lavoro da remoto richiedono livelli più elevati di esperienza e di istruzione, il che ne limita l’accesso per una larga parte dei lavoratori. L’effetto perequativo sui differenziali retributivi interregionali è statisticamente significativo ma moderato. I risultati suggeriscono che il lavoro da remoto può fungere da strumento di politica regionale solo se associato a programmi di riqualificazione professionale e allo sviluppo delle infrastrutture digitali.</p></abstract>
+<trans-abstract xml:lang="en"><p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="it" kwd-group-type="author"><kwd>lavoro da remoto</kwd><kwd>mercato del lavoro regionale</kwd><kwd>annunci di lavoro online</kwd><kwd>retribuzioni</kwd><kwd>difference-in-differences</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>remote work</kwd><kwd>regional labour market</kwd><kwd>online vacancies</kwd><kwd>wages</kwd><kwd>difference-in-differences</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introduzione</title>
+<p>Il rapido passaggio al lavoro da remoto nel corso del 2020 è stato inizialmente considerato una risposta temporanea alla pandemia. Quattro anni dopo, una quota consistente di datori di lavoro continua a offrire posizioni interamente da remoto, il che solleva la questione se la localizzazione determini ancora l’accesso a posti di lavoro ben retribuiti. Se i lavoratori dei centri minori possono competere per le offerte pubblicate nella capitale, i divari retributivi interregionali potrebbero ridursi senza una migrazione fisica.</p>
+<p>Le evidenze esistenti su questo tema provengono principalmente da indagini sui lavoratori. I dati sugli annunci di lavoro online offrono una prospettiva complementare dal lato della domanda, con un’elevata risoluzione temporale e spaziale. L’articolo utilizza tali dati per documentare la crescita delle offerte di lavoro da remoto, caratterizzarne i requisiti e stimarne l’effetto sulla dinamica delle retribuzioni regionali.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiali e metodi</title>
+<p>Il dataset comprende 2,4 milioni di annunci pubblicati tra gennaio 2019 e dicembre 2023 su una grande piattaforma di ricerca di lavoro. Ogni record include il titolo della posizione, la descrizione, la regione, il settore, la fascia retributiva offerta e i requisiti. Le offerte da remoto sono state individuate mediante un dizionario di 46 espressioni; un campione casuale di 2000 annunci codificato manualmente ha mostrato una precisione di 0,94 e un richiamo di 0,91.</p>
+<p>Per stimare l’effetto sulle retribuzioni, le regioni sono state suddivise in base alla quota di occupazione, prima della pandemia, nei settori ad alta intensità di lavoro da remoto. Un modello difference-in-differences con effetti fissi di regione e di mese confronta l’evoluzione della retribuzione mediana offerta prima e dopo marzo 2020, controllando per la composizione professionale delle offerte.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Risultati</title>
+<p>La quota di offerte interamente da remoto è cresciuta costantemente dal 2,1% nel 2019 al 9,7% nel 2023 (fig. 1). La crescita è stata più marcata nelle tecnologie dell’informazione, dove le posizioni da remoto hanno raggiunto il 31% di tutti gli annunci, seguite dal marketing e dalla finanza. Nel manifatturiero, nel commercio al dettaglio e nella sanità la quota è rimasta inferiore al 2%.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Quota di offerte di lavoro interamente da remoto per anno, %</p></caption></fig>
+<p>La tabella 1 riporta le stime principali. Nelle regioni con un’elevata esposizione ai settori ad alta intensità di lavoro da remoto, la retribuzione mediana offerta è aumentata del 4,3% in più rispetto alle regioni con bassa esposizione. Le offerte da remoto avevano una probabilità 1,6 volte maggiore di richiedere un titolo di istruzione superiore e richiedevano in media 1,2 anni di esperienza in più.</p>
+<table-wrap id="t1" position="float"><caption><p>Tabella 1. Stime difference-in-differences (variabile dipendente: log della retribuzione mediana offerta)</p></caption><table><thead><tr><th>Specificazione</th><th>Stima</th><th>Errore std.</th><th>N (regioni-mesi)</th></tr></thead><tbody><tr><td>Modello base</td><td>0.043</td><td>0.012</td><td>4,980</td></tr><tr><td>+ controlli per professione</td><td>0.037</td><td>0.011</td><td>4,980</td></tr><tr><td>Esclusa la regione della capitale</td><td>0.041</td><td>0.013</td><td>4,920</td></tr><tr><td>Placebo (cesura nel 2018)</td><td>0.004</td><td>0.010</td><td>4,980</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussione</title>
+<p>I nostri risultati indicano che il lavoro da remoto esercita effettivamente una pressione perequativa sulle retribuzioni regionali, ma di entità moderata. L’effetto si concentra nelle regioni che già disponevano di un bacino di lavoratori in professioni ad alta intensità di lavoro da remoto, il che suggerisce che il lavoro da remoto amplifichi il capitale umano esistente anziché creare nuove opportunità.</p>
+<p>I requisiti di competenza più elevati delle offerte da remoto costituiscono un vincolo fondamentale. Le misure di policy che combinano investimenti nelle infrastrutture digitali e riqualificazione professionale hanno maggiori probabilità di tradurre il potenziale del lavoro da remoto in benefici diffusi. Un limite dello studio è che i dati sugli annunci riflettono le retribuzioni offerte e non quelle effettivamente percepite.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusioni</title>
+<p>Le offerte di lavoro da remoto sono diventate una caratteristica stabile del mercato del lavoro e riducono in misura modesta i divari retributivi interregionali. I loro benefici, tuttavia, vanno principalmente ai lavoratori altamente qualificati e il loro ruolo come strumento di sviluppo regionale dipende da politiche complementari.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Bibliografia</title>
+<ref id="r1"><mixed-citation>Angrist J. D., Pischke J.-S. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009. 392 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Moretti E. The New Geography of Jobs. Boston: Houghton Mifflin Harcourt, 2012. 294 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Gromov P. A. Online vacancy data as a source of regional labour market statistics // Regional Economics Review. 2021. Vol. 14, no. 2. P. 55–73.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Becker L., Vogt H. Remote-eligible jobs and the spatial distribution of labour demand // Journal of Labour and Space. 2022. Vol. 8, no. 1. P. 1–24.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Громов П. А., Седова Е. К. Межрегиональная дифференциация заработной платы: факторы и тенденции // Пространственная экономика и политика. 2020. № 3. С. 22–40.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindgren A., Torres M. Skill requirements in remote job postings // Labour Market Analytics. 2023. Vol. 5. P. 140–158.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седова Е. К. Цифровая инфраструктура и занятость в малых городах. М.: Меридиан, 2022. 168 с.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Hartmann F. Text classification of job advertisements: a practical comparison // Computational Social Science Letters. 2021. Vol. 3, no. 4. P. 88–101.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

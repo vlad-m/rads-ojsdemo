@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="az">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fənlərarası Tədqiqatlar Jurnalı (demo versiya)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems platformasında demo jurnal</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Tsifra» MMC</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>İcmal</subject></subj-group></article-categories>
+<title-group>
+<article-title>Boreal zonanın torf bataqlıqlarının karbon balansı: qiymətləndirmə metodlarının icmalı</article-title>
+<trans-title-group xml:lang="en"><trans-title>Carbon Balance of Boreal Peatlands: A Review of Assessment Methods</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.nurlanova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Xəzər Ekoloji Tədqiqatlar İnstitutu</institution>, <country country="KZ">Qazaxıstan</country></aff>
+<aff id="aff2"><institution>Novobor Dövlət Universitetinin Şimal Bataqlıq Stansiyası</institution>, <country country="RU">Rusiya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>15</fpage><lpage>17</lpage>
+<history><date date-type="received" iso-8601-date="2024-08-19"><day>19</day><month>08</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-15"><day>15</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Aigerim Nurlanova, Nikolay Tikhomirov</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 lisenziyası əsasında yayılır</license-p></license></permissions>
+<abstract xml:lang="az"><p>Boreal torf bataqlıqları quru səthinin təxminən 3%-ni tutsa da, planetin torpaq karbonunun üçdə birinə qədərini saxlayır; buna görə də onların karbon balansının dəqiq qiymətləndirilməsi iqlim siyasəti və istixana qazları üzrə milli hesabatlılıq üçün vacibdir. İcmalda bataqlıqlarda karbon axınlarının qiymətləndirilməsinin əsas metodları sistemləşdirilir: kamera metodu, turbulent pulsasiyalar (eddi-kovariasiya) metodu, torfun toplanma sürəti üzrə hesablama, həmçinin peyk indekslərinə və məhsuldarlıq modellərinə əsaslanan məsafədən zondlama yanaşmaları. 2000–2024-cü illərə aid 87 nəşrin təhlili əsasında hər bir metodun məkan və zaman miqyası, qeyri-müəyyənlik mənbələri, avadanlığa və heyətin ixtisasına dair tələbləri nəzərdən keçirilir. Eyni bataqlıq üçün müxtəlif metodlarla əldə edilmiş xalis ekosistem mübadiləsi qiymətləndirmələri bir yarım–iki dəfə fərqlənə bilər və uyğunsuzluqların əsas hissəsi metan və həll olmuş üzvi karbon axınlarının nəzərə alınması ilə bağlıdır. Pozulmamış ekosistemlərlə müqayisədə məlumatların xeyli az olduğu qurudulmuş və yenidən sulaşdırılmış bataqlıqlara xüsusi diqqət yetirilir. İcmalda belə nəticəyə gəlinir ki, dayaq məntəqələrində turbulent pulsasiyalar metodu ilə uzunmüddətli müşahidələrin kamera ölçmələri və məsafədən zondlama vasitəsilə miqyaslandırma ilə tamamlandığı kombinə edilmiş yanaşma zəruridir. Tədqiqatın məqsədindən və mövcud resurslardan asılı olaraq metodun seçilməsi sxemi təklif edilir.</p></abstract>
+<trans-abstract xml:lang="en"><p>Boreal peatlands cover about 3% of the land surface yet store up to a third of the world's soil carbon, so accurate assessment of their carbon balance matters for climate policy and national greenhouse gas reporting. This review systematises the main methods for estimating carbon fluxes in peatlands: the chamber method, eddy covariance, calculation from peat accumulation rates, and remote-sensing approaches based on satellite indices and productivity models. Drawing on 87 publications from 2000–2024, it considers the spatial and temporal scale of each method, its sources of uncertainty and its requirements for equipment and staff expertise. Estimates of net ecosystem exchange for the same peatland obtained by different methods can differ by a factor of 1.5 to 2, with most of the discrepancy arising from the treatment of methane and dissolved organic carbon fluxes. Particular attention is paid to drained and rewetted peatlands, for which far fewer data exist than for undisturbed ecosystems. The review concludes that a combined approach is needed, in which long-term eddy covariance observations at reference sites are complemented by chamber measurements and remote-sensing upscaling. A decision scheme for choosing a method according to the research goal and available resources is proposed.</p></trans-abstract>
+<kwd-group xml:lang="az" kwd-group-type="author"><kwd>torf bataqlıqları</kwd><kwd>karbon balansı</kwd><kwd>metan</kwd><kwd>eddi-kovariasiya</kwd><kwd>kamera metodu</kwd><kwd>boreal zona</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>peatlands</kwd><kwd>carbon balance</kwd><kwd>methane</kwd><kwd>eddy covariance</kwd><kwd>chamber method</kwd><kwd>boreal zone</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Giriş</title>
+<p>Bataqlıqlar minilliklər boyu karbonu torf şəklində toplaya bilən yeganə quru ekosistemi tipidir. Bununla yanaşı, onlar qlobal istiləşmə potensialı yüksək olan istixana qazı — metanın təbii mənbəyidir. Bataqlığın yekun iqlim effekti bu proseslərin nisbəti ilə müəyyən edilir və qrunt sularının səviyyəsinə həssasdır.</p>
+<p>Bataqlıqların torf hasilatı, kənd və meşə təsərrüfatı məqsədilə qurudulması onları CO₂ udulma yerindən onun mənbəyinə çevirir. Pozulmuş bataqlıqların bərpasına (yenidən sulaşdırılmasına) iqlim tədbiri kimi artan maraq karbon balansının qiymətləndirilməsinin etibarlı metodlarını tələb edir. Bu icmalın məqsədi mövcud metodları, onların imkanlarını və məhdudiyyətlərini müqayisə etməkdir.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar və metodlar</title>
+<p>Nəşrlərin axtarışı biblioqrafik verilənlər bazalarında 2000–2024-cü illər üzrə «torf bataqlığı», «karbon balansı», «CO₂ axını», «metan» açar sözlərinin birləşmələri və onların ingilisdilli ekvivalentləri əsasında aparılmışdır. Tapılmış 412 işdən annotasiyaların və tam mətnlərin təhlilindən sonra axınların kəmiyyət qiymətləndirmələrini və metodikanın təsvirini ehtiva edən 87 iş seçilmişdir.</p>
+<p>Hər bir iş üçün bataqlığın tipi, onun vəziyyəti (pozulmamış, qurudulmuş, bərpa olunan), ölçmə metodu, müşahidələrin müddəti və nəzərə alınan balans komponentləri qeydə alınmışdır. Xalis ekosistem mübadiləsi qiymətləndirmələri ildə q C/m² vahidlərinə gətirilmişdir.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Nəticələr</title>
+<p>İşlərin metodlar üzrə bölgüsü qeyri-bərabərdir (Şəkil 1): tədqiqatların təxminən yarısı kamera metoduna, təxminən üçdə biri isə turbulent pulsasiyalar metoduna əsaslanır. Məsafədən zondlama yanaşmaları əsasən qiymətləndirmələrin müstəqil mənbəyi kimi deyil, miqyaslandırma üçün tətbiq edilir.</p>
+<fig id="f1" position="float"><caption><p>Şəkil 1. Təhlil edilmiş işlərin əsas qiymətləndirmə metodu üzrə bölgüsü (n = 87)</p></caption></fig>
+<p>Metodların müqayisəli xüsusiyyətləri Cədvəl 1-də verilmişdir. Kamera metodu axınları mikrolandşaftlar üzrə ayırmağa imkan verir, lakin zaman dəyişkənliyini zəif təsvir edir; turbulent pulsasiyalar metodu fasiləsiz sıralar verir, lakin homogen sahə və bahalı avadanlıq tələb edir.</p>
+<table-wrap id="t1" position="float"><caption><p>Cədvəl 1. Bataqlıqların karbon balansının qiymətləndirilməsi metodlarının müqayisəsi</p></caption><table><thead><tr><th>Metod</th><th>Miqyas</th><th>Zaman ayırdetməsi</th><th>Əsas qeyri-müəyyənlik</th></tr></thead><tbody><tr><td>Kamera</td><td>0,1–1 m²</td><td>Epizodik</td><td>Zaman üzrə interpolyasiya</td></tr><tr><td>Turbulent pulsasiyalar</td><td>0,1–1 km²</td><td>30 dəq</td><td>Gecə axınları, qeyri-homogenlik</td></tr><tr><td>Torfun toplanması</td><td>Kern</td><td>Əsrlər</td><td>Tarixləndirmə, parçalanma</td></tr><tr><td>Məsafədən zondlama</td><td>Region</td><td>Günlər–həftələr</td><td>Modellərin kalibrlənməsi</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Müzakirə</title>
+<p>Metodlar arasındakı əhəmiyyətli uyğunsuzluqlar ölçmə xətalarından çox nəzərə alınan balans komponentlərindəki fərqlərlə izah olunur. Bataqlıq suları ilə həll olmuş üzvi karbonun aparılmasını nəzərə almayan işlər karbonun udulmasını sistematik olaraq 10–25% şişirdir.</p>
+<p>Bərpa olunan bataqlıqlar ən az öyrənilmiş olaraq qalır: yenidən sulaşdırmadan sonrakı ilk illərdə metan emissiyası müvəqqəti olaraq arta bilər ki, bunu da bərpa layihələrinin iqlim effektini qiymətləndirərkən nəzərə almaq vacibdir.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Yekun</title>
+<p>Metodların heç biri bataqlıqların karbon balansının tam qiymətləndirilməsini təmin etmir. Turbulent pulsasiyalar metodu ilə uzunmüddətli müşahidələr aparılan, kamera ölçmələri və məsafədən zondlama vasitəsilə miqyaslandırma ilə tamamlanan dayaq məntəqələri şəbəkəsi optimal görünür.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ədəbiyyat siyahısı</title>
+<ref id="r1"><mixed-citation>Gorham E. Northern peatlands: role in the carbon cycle and probable responses to climatic warming // Ecological Applications. 1991. Vol. 1, no. 2. P. 182–195.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Baldocchi D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems // Global Change Biology. 2003. Vol. 9, no. 4. P. 479–492.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Тихомиров Н. В. Многолетняя динамика потоков CO₂ на верховом болоте северной тайги // Болотоведение и торф. 2020. Т. 18, № 2. С. 60–78.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Нурланова А. Н., Сейткали Д. М. Эмиссия метана с осушенных торфяников: обзор полевых данных // Экосистемы и климат. 2022. Т. 4, № 1. С. 15–34.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Kowalczyk P., Aarnio T. Dissolved organic carbon export from boreal mires // Hydrology and Biogeochemistry. 2019. Vol. 33. P. 410–427.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тихомиров Н. В., Ерёменко В. А. Камерные измерения потоков парниковых газов: методическое пособие. Новобор: НГУ, 2018. 96 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Lund S., Petersen R. Upscaling peatland carbon fluxes with satellite data: opportunities and pitfalls // Remote Sensing of Wetlands. 2021. Vol. 9, no. 3. P. 200–221.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Нурланова А. Н. Восстановление нарушенных болот и климатическая политика // Вопросы экологической политики. 2023. № 2. С. 47–63.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Hart G., Lin W. Long-term apparent rates of carbon accumulation in boreal peat // Quaternary Carbon Studies. 2018. Vol. 21. P. 55–70.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

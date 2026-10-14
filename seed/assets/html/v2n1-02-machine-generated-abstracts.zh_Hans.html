@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>俄语科学摘要中机器生成片段的检测</title>
+<style>
+:root { --primary: #0072A6; --dark: #00507A; --accent: #F7901E; --ink: #1d1d1f; --muted: #6b6f7a; --line: #e5e1d8; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #fbfaf7; color: var(--ink); font: 17px/1.65 "Source Serif 4", "PT Serif", Georgia, "Noto Serif", "Noto Serif CJK SC", serif; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 32px 24px 64px; }
+.mast { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; padding-bottom: 10px; border-bottom: 3px solid var(--dark); font: 500 13px/1.4 Inter, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: var(--dark); }
+.mast b { color: var(--accent); letter-spacing: .1em; text-transform: uppercase; font-size: 11px; }
+.kind { margin: 28px 0 8px; font: 600 12px Inter, Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--primary); }
+h1 { margin: 0 0 6px; font: 600 32px/1.2 Montserrat, Inter, Arial, sans-serif; color: var(--dark); }
+.subtitle { margin: 0 0 12px; font-style: italic; font-size: 20px; color: var(--dark); }
+.authors { margin: 18px 0 4px; font-weight: 600; font-size: 18px; }
+.authors sup, .affs sup { color: var(--primary); font: 600 11px Inter, Arial, sans-serif; }
+.affs { margin: 0; padding: 0; list-style: none; font: 14px/1.5 Inter, Arial, sans-serif; color: var(--muted); }
+.corr { font: 14px Inter, Arial, sans-serif; color: var(--muted); margin-top: 4px; }
+.dates { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 18px 0; padding: 10px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font: 14px Inter, Arial, sans-serif; }
+.dates b { color: var(--dark); }
+.abs { margin: 0 0 18px; padding: 16px 20px; background: #f1f5f8; border-left: 4px solid var(--primary); border-radius: 4px; }
+.abs.alt { background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--accent); }
+.abs h3, nav h3 { margin: 0 0 6px; font: 600 12px Inter, Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--dark); }
+.abs .t { font-weight: 600; color: var(--dark); margin-bottom: 6px; }
+.abs p { margin: 0 0 8px; }
+.kw { font-size: 15px; }
+.kw b { font: 600 13px Inter, Arial, sans-serif; color: var(--dark); }
+.cite { font: 14px/1.5 Inter, Arial, sans-serif; color: var(--muted); }
+.cite b { color: var(--dark); }
+nav { margin: 24px 0; padding: 14px 20px; background: #fff; border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: 4px; }
+nav ol { margin: 0; padding-left: 0; list-style: none; columns: 2; font: 15px/1.8 Inter, Arial, sans-serif; }
+a { color: var(--primary); }
+h2 { margin: 36px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line); font: 600 22px/1.3 Montserrat, Inter, Arial, sans-serif; color: var(--dark); }
+h2 .n { color: var(--accent); }
+section p { margin: 0 0 14px; text-align: justify; hyphens: auto; }
+figure { margin: 24px 0; }
+.fig { padding: 16px; background: #fff; border: 1px solid var(--line); border-radius: 4px; text-align: center; }
+.fig svg { width: 100%; max-width: 640px; height: auto; }
+.legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 20px; margin-top: 6px; font: 13px Inter, Arial, sans-serif; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+figcaption { font: 14px/1.5 Inter, Arial, sans-serif; text-align: left; margin: 8px 0; }
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font: 14px/1.45 Inter, Arial, sans-serif; background: #fff; }
+th { background: var(--dark); color: #fff; text-align: left; padding: 8px 10px; }
+td { padding: 7px 10px; border-bottom: 1px solid var(--line); }
+tbody tr:nth-child(even) td { background: #f7f5f0; }
+ol.refs { padding-left: 24px; font-size: 15px; }
+ol.refs li { margin-bottom: 6px; }
+.licence { margin-top: 40px; padding-top: 12px; border-top: 1px solid var(--line); font: 13px Inter, Arial, sans-serif; color: var(--muted); }
+@media (max-width: 600px) { body { font-size: 16px; } h1 { font-size: 25px; } nav ol { columns: 1; } .wrap { padding: 20px 16px 48px; } }
+</style>
+</head>
+<body>
+<article class="wrap">
+<header class="mast"><span><b>齐夫拉有限责任公司</b><br>跨学科研究学报（演示版）</span><span>第 2 卷第 1 期（2026） · 页 8–10<br>ISSN 0000-0000 (在线)</span></header>
+<div class="kind">研究论文</div>
+<h1>俄语科学摘要中机器生成片段的检测</h1>
+
+<p class="authors"><span class="au">Timur Karimov<sup>1</sup></span>, <span class="au">Anna Lebedeva<sup>2</sup></span>, <span class="au">Sanzhar Abdullaev<sup>3</sup></span></p>
+<ul class="affs"><li><sup>1</sup> 伏尔加应用分析研究所, 俄罗斯</li><li><sup>2</sup> “列克西斯”语言与传播研究所, 俄罗斯</li><li><sup>3</sup> 撒马尔罕计算语言学研究所, 乌兹别克斯坦</li></ul>
+<p class="corr">✉ 通讯作者: Sanzhar Abdullaev, <a href="mailto:s.abdullaev@example.org">s.abdullaev@example.org</a></p>
+<div class="dates"><span><b>收稿日期:</b> 2025年8月18日</span><span><b>录用日期:</b> 2026年1月27日</span><span><b>发表日期:</b> 2026年3月18日</span></div>
+<section class="abs" lang="zh-Hans"><h3>摘要</h3><p>大语言模型的广泛应用使学术期刊面临识别全部或部分由自动化手段生成的文本这一任务。现有的检测工具大多针对英语开发，其对俄语科学文本的适用性尚不清楚。本文提出了一个包含 12,000 篇俄语科学论文摘要的新标注语料库，其中一半由人工撰写，另一半包含由三种不同语言模型在不同提示词下生成的片段。在该语料库上比较了四类方法：统计困惑度特征、文体计量特征、经微调的基于 Transformer 的分类器以及一款通用商业检测工具。经微调的分类器表现最佳（文档级 F1 = 0.91），但在测试训练中未见过的模型所生成的文本时，其性能降至 0.74。在句子级别上，所有方法的表现均明显较差，而对于以非俄语为母语的作者所撰写的摘要，误报率高达 11%。这些结果表明，自动检测工具不能作为编辑决策的唯一依据。语料库和代码已公开，供进一步研究使用。</p><p class="kw"><b>关键词:</b> 大语言模型; 机器生成文本检测; 科学摘要; 俄语; 科研诚信</p></section>
+<section class="abs alt" lang="en"><h3>Abstract</h3><div class="t">Detecting Machine-Generated Passages in Russian-Language Scientific Abstracts</div><p>The widespread adoption of large language models has confronted scholarly journals with the task of identifying texts created wholly or partly by automated means. Most existing detectors were developed for English, and their applicability to Russian-language scientific texts is poorly understood. This article presents a new annotated corpus of 12,000 abstracts of scientific articles in Russian, half of which were written by humans and half of which contain passages generated by three different language models under different prompts. Four classes of methods are compared on this corpus: statistical perplexity features, stylometric features, a fine-tuned transformer-based classifier and a general-purpose commercial detector. The fine-tuned classifier performed best (document-level F1 = 0.91), but its performance fell to 0.74 when tested on texts generated by a model not seen during training. At the sentence level, all methods perform considerably worse, and the false-positive rate on abstracts written by authors for whom Russian is not a first language reaches 11%. These results indicate that automated detectors cannot serve as the sole basis for editorial decisions. The corpus and code are openly available for further research.</p><p class="kw"><b>Keywords:</b> large language models; machine-generated text detection; scientific abstracts; Russian language; research integrity</p></section>
+<p class="cite"><b>引用格式:</b> Karimov T., Lebedeva A., Abdullaev S. 俄语科学摘要中机器生成片段的检测. Open Journal Systems 演示期刊 2026;2(1):8–10.</p>
+<nav><ol><li><a href="#intro">1. 引言</a></li><li><a href="#methods">2. 材料与方法</a></li><li><a href="#results">3. 结果</a></li><li><a href="#discussion">4. 讨论</a></li><li><a href="#conclusion">5. 结论</a></li><li><a href="#refs">参考文献</a></li></ol></nav>
+<section id="intro"><h2><span class="n">1.</span> 引言</h2><p>自 2023 年以来，学术期刊编辑越来越多地遇到部分文本似乎由大语言模型生成的稿件。虽然使用此类工具进行语言润色通常是可以接受的，但未经披露地生成实质性内容则引发了对科研诚信的担忧。许多出版商已出台要求披露的政策，而自动检测工具正作为执行手段被推向市场。</p><p>然而，这些检测工具主要是基于英语文本开发和评估的。俄语形态丰富，学术语体独特，因而带来了不同的挑战。本研究旨在构建一个贴近现实的俄语科学摘要基准数据集，并评估现有检测方法在该数据集上的表现，尤其关注泛化能力和公平性。</p></section>
+<section id="methods"><h2><span class="n">2.</span> 材料与方法</h2><p>人工撰写的摘要（n = 6,000）抽样自 2021 年以前出版的俄语开放获取期刊，并按八大学科门类分层。对于生成部分，分别提示三种语言模型根据标题和关键词撰写完整摘要、续写人工撰写的开头句，或改写人工撰写的摘要。每篇生成文本均由一名标注员检查其流畅性，并对混合文本记录句子级标签。</p><p>我们比较了：（i）基于开放俄语语言模型计算的困惑度和突发性特征的 logistic 回归；（ii）基于 140 个文体计量特征的梯度提升分类器；（iii）在训练集上微调的多语言 Transformer 编码器；（iv）一款通用商业检测工具。采用留一生成器交叉验证方案评估泛化能力。</p></section>
+<section id="results"><h2><span class="n">3.</span> 结果</h2><p>文档级结果汇总于表 1。经微调的分类器在同分布条件下取得了最高的 F1（0.91），其次是困惑度模型（0.82）。未经俄语科学文本训练的商业检测工具达到 0.69。对所有方法而言，改写摘要都是最难识别的类别。</p><figure class="fig" id="fig1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 230" width="447.2" height="197.79999999999998" font-family="InterW, Inter, sans-serif" font-size="9.5"><line x1="46" y1="186" x2="508" y2="186" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="189.5" text-anchor="end" fill="#6b6f7a">0</text><line x1="46" y1="143" x2="508" y2="143" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="146.5" text-anchor="end" fill="#6b6f7a">0.25</text><line x1="46" y1="100" x2="508" y2="100" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="103.5" text-anchor="end" fill="#6b6f7a">0.5</text><line x1="46" y1="57" x2="508" y2="57" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="60.5" text-anchor="end" fill="#6b6f7a">0.75</text><line x1="46" y1="14" x2="508" y2="14" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="17.5" text-anchor="end" fill="#6b6f7a">1</text><line x1="46" y1="186" x2="508" y2="186" stroke="#1d1d1f" stroke-width="0.8"/><text x="103.75" y="200" text-anchor="middle" fill="#1d1d1f">困惑度</text><text x="219.25" y="200" text-anchor="middle" fill="#1d1d1f">文体计量</text><text x="334.75" y="200" text-anchor="middle" fill="#1d1d1f">微调模型</text><text x="450.25" y="200" text-anchor="middle" fill="#1d1d1f">商业工具</text><rect x="63.325" y="44.96000000000001" width="38.925" height="141.04" fill="#00507A" rx="1"/><text x="82.7875" y="41.96000000000001" text-anchor="middle" fill="#1d1d1f" font-size="8.5">0.82</text><rect x="178.825" y="53.56" width="38.925" height="132.44" fill="#00507A" rx="1"/><text x="198.2875" y="50.56" text-anchor="middle" fill="#1d1d1f" font-size="8.5">0.77</text><rect x="294.325" y="29.47999999999999" width="38.925" height="156.52" fill="#00507A" rx="1"/><text x="313.78749999999997" y="26.47999999999999" text-anchor="middle" fill="#1d1d1f" font-size="8.5">0.91</text><rect x="409.825" y="67.32000000000001" width="38.925" height="118.67999999999999" fill="#00507A" rx="1"/><text x="429.28749999999997" y="64.32000000000001" text-anchor="middle" fill="#1d1d1f" font-size="8.5">0.69</text><rect x="103.75" y="63.88000000000001" width="38.925" height="122.11999999999999" fill="#0072A6" rx="1"/><text x="123.2125" y="60.88000000000001" text-anchor="middle" fill="#1d1d1f" font-size="8.5">0.71</text><rect x="219.25" y="72.47999999999999" width="38.925" height="113.52000000000001" fill="#0072A6" rx="1"/><text x="238.7125" y="69.47999999999999" text-anchor="middle" fill="#1d1d1f" font-size="8.5">0.66</text><rect x="334.75" y="58.72" width="38.925" height="127.28" fill="#0072A6" rx="1"/><text x="354.2125" y="55.72" text-anchor="middle" fill="#1d1d1f" font-size="8.5">0.74</text><rect x="450.25" y="75.92" width="38.925" height="110.08" fill="#0072A6" rx="1"/><text x="469.7125" y="72.92" text-anchor="middle" fill="#1d1d1f" font-size="8.5">0.64</text><text transform="translate(11,100) rotate(-90)" text-anchor="middle" fill="#6b6f7a">F1</text></svg><div class="legend"><span><i style="background:#00507A"></i>已见生成器</span><span><i style="background:#0072A6"></i>未见生成器</span></div><figcaption>图 1　同分布条件下和未见生成器上的文档级 F1</figcaption></figure><p>泛化到未见过的生成器时，性能大幅下降（图 1）。在另一组由以俄语为第二语言的作者撰写的 400 篇人工摘要上，经微调的分类器将其中 11% 标记为机器生成，而对母语者撰写的摘要，这一比例为 3%。</p><figure class="tbl" id="tab1"><figcaption>表 1　文档级和句子级检测性能</figcaption><div class="scroll"><table><thead><tr><th>方法</th><th>F1（文档）</th><th>F1（句子）</th><th>FPR（二语作者）</th></tr></thead><tbody><tr><td>困惑度特征</td><td>0.82</td><td>0.61</td><td>0.14</td></tr><tr><td>文体计量特征</td><td>0.77</td><td>0.55</td><td>0.09</td></tr><tr><td>微调 Transformer</td><td>0.91</td><td>0.68</td><td>0.11</td></tr><tr><td>商业检测工具</td><td>0.69</td><td>—</td><td>0.17</td></tr></tbody></table></div></figure></section>
+<section id="discussion"><h2><span class="n">4.</span> 讨论</h2><p>我们的发现与针对英语提出的担忧相呼应：在熟悉的生成器上表现良好的检测工具，在新生成器上性能会下降；而且它们会不成比例地标记非母语写作者的文本，因为这类文本的词汇往往不够丰富。鉴于新模型的快速发布，同分布条件下的准确率并不能很好地反映现实中的可靠性。</p><p>对编辑实践而言，这意味着检测工具的得分至多只能作为与作者沟通的契机，而不应作为实施处罚的依据。明确的披露政策和对科学实质质量的关注仍是更为可靠的保障。</p></section>
+<section id="conclusion"><h2><span class="n">5.</span> 结论</h2><p>我们发布了一个包含 12,000 篇俄语科学摘要的基准数据集，并表明现有检测工具虽然有用，但对新生成器既不够稳健，对非母语作者也不够公平。自动检测应作为编辑判断的补充，而非替代。</p></section>
+<section id="refs"><h2>参考文献</h2><ol class="refs"><li>Vaswani A., Shazeer N., Parmar N. et al. Attention is all you need // Advances in Neural Information Processing Systems. 2017. Vol. 30. P. 5998–6008.</li><li>Devlin J., Chang M.-W., Lee K., Toutanova K. BERT: pre-training of deep bidirectional transformers for language understanding // Proceedings of NAACL-HLT 2019. Minneapolis, 2019. P. 4171–4186.</li><li>Abdullaev S. R. Perplexity-based detection of generated text in morphologically rich languages // Computational Linguistics Letters. 2024. Vol. 9, no. 1. P. 22–37.</li><li>Lebedeva A. V., Karimov T. R. Stylometric profiles of Russian academic prose // Corpus Methods Quarterly. 2023. Vol. 14, no. 3. P. 201–219.</li><li>Moreau C., Banerjee R. Generalisation failures of machine-generated text detectors // Journal of AI Evaluation. 2024. Vol. 3. P. 77–96.</li><li>Каримов Т. Р., Лебедева А. В. Языковые модели в научной коммуникации: риски и редакционные политики // Научный редактор и издатель. 2024. Т. 9, № 2. С. 112–125.</li><li>Holt E., Nguyen T. Bias of AI-text detectors against non-native writers // Language and Technology Review. 2023. Vol. 12, no. 4. P. 300–318.</li><li>Абдуллаев С. Р. Корпусы для оценки детекторов сгенерированного текста: требования и практика // Вычислительная лингвистика и интеллектуальные технологии. 2025. Т. 4, № 1. С. 15–30.</li></ol></section>
+<p class="licence">依据 CC BY 4.0 许可协议发布 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+</article>
+</body>
+</html>

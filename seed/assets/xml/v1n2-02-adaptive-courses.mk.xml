@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="mk">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Списание за интердисциплинарни истражувања (демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демо-списание на Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>„Цифра“ ДОО</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Научна статија</subject></subj-group></article-categories>
+<title-group>
+<article-title>Адаптивни онлајн-курсеви и академскиот успех на студентите од прва година: квазиекспериментална студија</article-title>
+<trans-title-group xml:lang="en"><trans-title>Adaptive Online Courses and First-Year Students' Academic Performance: A Quasi-Experimental Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Федорова</surname><given-names>Ирина</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Fedorova</surname><given-names>Irina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>i.fedorova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Коваленко</surname><given-names>Максим</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kovalenko</surname><given-names>Maxim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Педагошки универзитет во Лесногорск</institution>, <country country="RU">Русија</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>8</fpage><lpage>10</lpage>
+<history><date date-type="received" iso-8601-date="2025-02-26"><day>26</day><month>02</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-01"><day>01</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Ирина Федорова, Максим Коваленко</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Лиценцирано под CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="mk"><p>Првата година на универзитетот носи најголем ризик од академски неуспех и напуштање на студиите, особено по математика, каде што разликите во училишната подготвеност на студентите се особено големи. Оваа статија го оценува ефектот на адаптивен онлајн-курс по математичка анализа врз успехот на студентите од прва година на педагошки универзитет. Адаптивниот систем избираше вежби и наставни материјали врз основа на дијагноза на тековното ниво на знаење и на грешките на студентот. Студијата користеше квазиекспериментален дизајн: студентите од две групи во академската 2023/24 година (n = 214) го користеа адаптивниот курс, додека студентите од две групи од претходната година (n = 198) учеа според традиционалната шема со истите предавачи. За подобрување на споредливоста на групите беше применето спарување според оценка на склоност (propensity score matching) врз основа на резултатите од приемниот испит, полот и видот на училиштето. Средниот резултат на завршниот испит во експерименталната група беше повисок за 7,4 поени од 100, а уделот на студентите што не го положиле испитот од првиот обид се намали од 23% на 14%. Најголемиот ефект беше забележан кај студентите со ниски резултати на приемниот испит. Анализата на дигиталните траги покажа дека клучен предиктор на успехот беше редовноста на работата со системот, а не вкупното време поминато во него. Заклучуваме дека адаптивните курсеви се вредна алатка за изедначување на почетните можности на студентите од прва година.</p></abstract>
+<trans-abstract xml:lang="en"><p>The first year at university carries the highest risk of academic failure and dropout, especially in mathematics, where differences in students' school preparation are particularly large. This article evaluates the effect of an adaptive online course in calculus on the performance of first-year students at a pedagogical university. The adaptive system selected exercises and learning materials based on a diagnosis of the student's current level of knowledge and errors. The study used a quasi-experimental design: students in two cohorts of the 2023/24 academic year (n = 214) used the adaptive course, while students in two cohorts of the previous year (n = 198) studied under the traditional scheme with the same instructors. To improve group comparability, propensity score matching was applied on entrance examination results, gender and school type. The mean final examination score in the experimental group was 7.4 points higher out of 100, and the share of students failing the examination at the first attempt fell from 23% to 14%. The largest effect was observed among students with low entrance scores. Analysis of digital traces showed that the key predictor of success was the regularity of work with the system rather than the total time spent in it. We conclude that adaptive courses are a worthwhile tool for levelling first-year students' starting opportunities.</p></trans-abstract>
+<kwd-group xml:lang="mk" kwd-group-type="author"><kwd>адаптивно учење</kwd><kwd>онлајн-курсеви</kwd><kwd>академски успех</kwd><kwd>студенти од прва година</kwd><kwd>аналитика на учењето</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>adaptive learning</kwd><kwd>online courses</kwd><kwd>academic performance</kwd><kwd>first-year students</kwd><kwd>learning analytics</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Вовед</title>
+<p>Преминот од училиште на универзитет е придружен со нагла промена на барањата во поглед на самостојноста на студентот. Според податоците на многу високообразовни установи, токму во првата година се исклучува најголемиот дел од студентите, а математичките предмети стануваат главен „филтер“. Причината во голема мера лежи во нехомогеноста на училишната подготвеност, која тешко се компензира во рамките на фронталната настава.</p>
+<p>Адаптивните системи за учење, кои ги избираат задачите според индивидуалното ниво на студентот, се сметаат за начин да се приближи ефектот на индивидуалното менторство. Сепак, строгите проценки на нивната ефикасност во руските високообразовни установи се малку. Ова истражување го проценува влијанието на адаптивен курс по математичка анализа врз резултатите на студентите од прва година.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материјали и методи</title>
+<p>Адаптивниот курс опфаќаше 14 тематски модули и банка од 1.860 задачи со означени типични грешки. По секоја задача системот ја ажурираше проценката за усвоеноста на вештините според моделот на бејзовско следење на знаењето (Bayesian knowledge tracing) и нудеше следна задача или објаснувачки материјал. Курсот се користеше како задолжителен дел од самостојната работа.</p>
+<p>Експерименталната група ја сочинуваа 214 студенти запишани во 2023 година, а контролната 198 студенти запишани во 2022 година, кои учеа кај истите предавачи според истата програма со традиционални домашни задачи. За спарувањето беше користена оценка на склоност, проценета со логистичка регресија врз основа на збирот на поените од приемниот испит, полот и видот на училиштето; по спарувањето во анализата влегоа 181 пар.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Резултати</title>
+<p>По спарувањето, средниот резултат на завршниот испит изнесуваше 68,9 во експерименталната и 61,5 во контролната група (разлика од 7,4 поени; 95% ИД: 4,1–10,7). Распределбата на ефектот по квартили на поените од приемниот испит е прикажана на сл. 1: најголем пораст се забележува во најнискиот квартил.</p>
+<fig id="f1" position="float"><caption><p>Сл. 1. Среден резултат на испитот по квартили на поените од приемниот испит</p></caption></fig>
+<p>Анализата на дневниците на системот покажа дека бројот на недели со активна работа е посилно поврзан со конечниот резултат (r = 0,52) отколку вкупното време на работа (r = 0,29). Главните резултати се прикажани во таб. 1.</p>
+<table-wrap id="t1" position="float"><caption><p>Табела 1. Резултати од завршниот испит (спарени примероци, 181 пар)</p></caption><table><thead><tr><th>Показател</th><th>Контрола</th><th>Адаптивен курс</th><th>Разлика</th></tr></thead><tbody><tr><td>Среден резултат</td><td>61,5</td><td>68,9</td><td>+7,4</td></tr><tr><td>Не положиле од прв обид, %</td><td>23</td><td>14</td><td>−9 п. п.</td></tr><tr><td>Оценка „одличен“, %</td><td>12</td><td>17</td><td>+5 п. п.</td></tr><tr><td>Исклучени по првата испитна сесија, %</td><td>8,3</td><td>5,0</td><td>−3,3 п. п.</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Дискусија</title>
+<p>Добиениот ефект е споредлив со резултатите од странските метаанализи на адаптивната практика во високото образование. Неговата концентрација во групата студенти со послаба подготвеност укажува дека адаптивните курсеви можат делумно да ги компензираат разликите во почетните услови.</p>
+<p>Квазиекспериментниот дизајн не овозможува целосно да се исклучи влијанието на разликите меѓу генерациите од различни години што не се земени предвид при спарувањето. Сепак, совпаѓањето на предавачите, програмата и формата на испитот го намалува ризикот од пристрасност. Резултатот за значењето на редовноста на работата има директна практична последица: неделните контролни точки можат да го засилат ефектот.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Заклучок</title>
+<p>Адаптивниот онлајн-курс по математичка анализа го подобри успехот на студентите од прва година и го намали уделот на незадоволителни резултати, особено кај студентите со ниски поени на приемниот испит. Се препорачува адаптивните курсеви да се комбинираат со механизми за поддршка на редовната работа.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Библиографија</title>
+<ref id="r1"><mixed-citation>Bloom B. S. The 2 sigma problem: the search for methods of group instruction as effective as one-to-one tutoring // Educational Researcher. 1984. Vol. 13, no. 6. P. 4–16.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Rosenbaum P. R., Rubin D. B. The central role of the propensity score in observational studies for causal effects // Biometrika. 1983. Vol. 70, no. 1. P. 41–55.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Федорова И. С. Адаптивные системы обучения в высшей школе: модели и практики // Цифровая дидактика. 2022. Т. 5, № 2. С. 7–25.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Коваленко М. Ю., Федорова И. С. Цифровые следы студентов как источник данных для прогнозирования успеваемости // Образование и аналитика. 2023. № 1. С. 44–59.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Reyes M., Ahlberg J. Adaptive practice and mathematics achievement in higher education: a meta-analysis // Journal of Learning Technologies. 2021. Vol. 19, no. 2. P. 133–152.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тарасова Н. В. Математическая подготовка первокурсников: проблемы перехода от школы к вузу. Лесногорск: ЛПУ, 2020. 176 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Hughes D., Varga E. Spacing and regularity in online learning: evidence from log data // Learning Analytics Review. 2022. Vol. 8. P. 60–79.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

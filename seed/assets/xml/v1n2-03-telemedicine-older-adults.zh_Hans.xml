@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="zh">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>跨学科研究学报（演示版）</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems 演示期刊</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>齐夫拉有限责任公司</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>研究论文</subject></subj-group></article-categories>
+<title-group>
+<article-title>小城镇老年人对远程医疗的使用：一项混合方法研究</article-title>
+<trans-title-group xml:lang="en"><trans-title>Telemedicine Uptake among Older Adults in Small Towns: A Mixed-Methods Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author"><name name-style="western"><surname>Vasilenko</surname><given-names>Olga</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vasilenko</surname><given-names>Olga</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Jovanović</surname><given-names>Miroslav</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Jovanović</surname><given-names>Miroslav</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/><email>m.jovanovic@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Arkadyeva</surname><given-names>Natalia</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Arkadyeva</surname><given-names>Natalia</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>“维塔”公共卫生研究所</institution>, <country country="RU">俄罗斯</country></aff>
+<aff id="aff2"><institution>多瑙河人群健康研究中心</institution>, <country country="RS">塞尔维亚</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>11</fpage><lpage>13</lpage>
+<history><date date-type="received" iso-8601-date="2025-03-04"><day>04</day><month>03</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-15"><day>15</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Olga Vasilenko, Miroslav Jovanović, Natalia Arkadyeva</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>依据 CC BY 4.0 许可协议发布</license-p></license></permissions>
+<abstract xml:lang="zh"><p>远程医疗咨询可以改善小城镇老年居民获得医疗服务的机会，而这些地区专科医生短缺的问题尤为突出。然而，老年人对此类服务的使用率仍然较低，其原因尚未得到充分认识。本混合方法研究分析了四座匿名小城镇中 60 岁及以上人群使用远程医疗的相关因素。定量阶段对 812 名受访者进行了电话调查；定性阶段包括对患者的 28 次半结构化访谈和对医务人员的 9 次访谈。过去一年中，19% 的受访者使用过远程医疗服务。在多变量 logistic 模型中，使用概率与拥有智能手机、与年轻亲属同住以及患有需要定期监测的慢性病相关，而在对上述因素进行校正后，与年龄的关联减弱。访谈揭示了三大主要障碍：对远程评估健康状况的不信任、预约和身份验证程序复杂，以及担心在不亲自就诊的情况下“浪费医生的时间”。医务人员指出，远程医疗对于复诊和调整治疗方案最有价值。我们得出结论：简化界面并由护士提供支持，可大幅扩大老年人对远程医疗的使用。</p></abstract>
+<trans-abstract xml:lang="en"><p>Telemedicine consultations can improve access to healthcare for older residents of small towns, where the shortage of specialist physicians is particularly acute. However, uptake of such services among older people remains low, and the reasons are insufficiently understood. This mixed-methods study analyses the factors associated with telemedicine use among people aged 60 and over in four anonymised small towns. The quantitative phase comprised a telephone survey of 812 respondents; the qualitative phase consisted of 28 semi-structured interviews with patients and 9 interviews with healthcare workers. Over the past year, 19% of respondents had used telemedicine services. In a multivariable logistic model, the probability of use was associated with smartphone ownership, living with younger relatives and having chronic conditions requiring regular monitoring, whereas the association with age weakened after adjustment for these factors. Interviews revealed three key barriers: distrust of remote assessment of health status, complex booking and authentication procedures, and a fear of wasting the doctor's time without an in-person visit. Healthcare workers noted that telemedicine is most valuable for follow-up consultations and adjusting treatment. We conclude that simplified interfaces and support from nurses could substantially broaden telemedicine use among older adults.</p></trans-abstract>
+<kwd-group xml:lang="zh" kwd-group-type="author"><kwd>远程医疗</kwd><kwd>老年人</kwd><kwd>小城镇</kwd><kwd>数字鸿沟</kwd><kwd>混合方法</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>telemedicine</kwd><kwd>older adults</kwd><kwd>small towns</kwd><kwd>digital divide</kwd><kwd>mixed methods</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>引言</title>
+<p>小城镇长期面临专科医生短缺的问题，老年居民往往需要前往地区中心城市就诊。以与医生进行视频或电话问诊为形式的远程医疗被推广为弥补这一差距的途径，2020 年后远程问诊的基础设施得到了显著扩展。</p>
+<p>尽管如此，最有可能从中受益的老年人使用远程医疗的比例却低于其他年龄组。常见的解释集中于数字技能，而对态度、家庭状况和服务组织方式的关注较少。本研究结合调查数据和访谈，力图更全面地呈现小城镇老年居民使用远程医疗的情况。</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>材料与方法</title>
+<p>定量阶段为 2024 年 3 月至 5 月在四座人口为 18,000～45,000 的城镇（编码为 T1—T4）开展的计算机辅助电话调查。通过对固定电话和移动电话号码进行随机抽样，共完成 812 份 60 岁及以上居民的访问（应答率 37%）。主要结局为过去 12 个月内是否使用远程医疗；协变量包括人口学特征、健康状况、设备拥有情况和家庭构成。</p>
+<p>在定性阶段，28 名调查参与者（14 名使用者和 14 名非使用者）和 9 名医务人员参加了半结构化访谈。访谈转录文本由两名研究人员独立进行主题分析，分歧通过讨论解决。</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>结果</title>
+<p>总体而言，19% 的受访者报告在过去一年中至少接受过一次远程问诊。患有需要定期随访的慢性病者使用率最高（27%），而独居且无智能手机者使用率最低（6%）（图 1）。</p>
+<fig id="f1" position="float"><caption><p>图 1　各受访者群体过去 12 个月内远程医疗的使用率，%</p></caption></fig>
+<p>表 1 列出了校正后的比值比。拥有智能手机使使用的几率增加两倍以上，与年轻亲属同住使其增加一倍。在对设备拥有情况和家庭构成进行校正后，年龄的效应减弱并失去统计学显著性。</p>
+<table-wrap id="t1" position="float"><caption><p>表 1　与远程医疗使用相关的因素（logistic 回归，n = 812）</p></caption><table><thead><tr><th>因素</th><th>校正 OR</th><th>95% CI</th><th>p</th></tr></thead><tbody><tr><td>拥有智能手机</td><td>3.4</td><td>2.1–5.5</td><td>&lt;0.001</td></tr><tr><td>与年轻亲属同住</td><td>2.0</td><td>1.3–3.0</td><td>0.001</td></tr><tr><td>患慢性病，需定期监测</td><td>1.8</td><td>1.2–2.7</td><td>0.004</td></tr><tr><td>年龄（每 5 岁）</td><td>0.89</td><td>0.76–1.04</td><td>0.140</td></tr><tr><td>女性</td><td>1.1</td><td>0.8–1.6</td><td>0.520</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>讨论</title>
+<p>访谈有助于解释上述关联。年轻亲属常常充当中间人，帮助预约问诊和设置设备。非使用者经常对医生能否在不进行检查的情况下评估其病情表示怀疑，还有几位受访者表示，觉得远程问诊会给本已不堪重负的医生增添负担。</p>
+<p>医务人员认为，远程医疗在复诊和调整用药方面最为有用，并建议由护士帮助患者在诊所或家中接入问诊。这些发现表明，解决方案应着眼于服务组织层面，而不仅仅是技术层面。</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>结论</title>
+<p>制约小城镇老年人使用远程医疗的，与其说是年龄本身，不如说是设备可及性、家庭支持和信任。简化预约程序和由护士协助问诊是扩大其使用的有效途径。</p>
+</sec>
+</body>
+<back>
+<ref-list><title>参考文献</title>
+<ref id="r1"><mixed-citation>Creswell J. W., Plano Clark V. L. Designing and Conducting Mixed Methods Research. 3rd ed. Thousand Oaks: SAGE, 2017. 492 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Braun V., Clarke V. Using thematic analysis in psychology // Qualitative Research in Psychology. 2006. Vol. 3, no. 2. P. 77–101.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Vasilenko O. P., Arkadyeva N. S. Access to specialist care in small towns: a regional survey // Public Health Perspectives. 2022. Vol. 11, no. 3. P. 201–214.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Jovanović M., Petrović S. Digital health literacy among older Europeans // Ageing and Technology. 2021. Vol. 6, no. 1. P. 15–33.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Hale R., Moreno C. Barriers to video consultations in rural primary care: a qualitative synthesis // Rural Health Review. 2022. Vol. 14. P. 88–104.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Аркадьева Н. С. Телемедицина в системе первичной медико-санитарной помощи: организационные модели // Здравоохранение и общество. 2023. № 2. С. 26–41.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Lindholm K., Saar T. Nurse-facilitated telehealth for older patients: a pilot evaluation // Journal of Community Nursing Research. 2020. Vol. 9, no. 4. P. 310–322.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Vasilenko O. P. Chronic disease monitoring and remote consultations: early evidence // Digital Health Notes. 2023. Vol. 2. P. 40–52.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

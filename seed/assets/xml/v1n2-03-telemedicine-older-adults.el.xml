@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="el">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Περιοδικό Διεπιστημονικής Έρευνας (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Επιδεικτικό περιοδικό σε Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Τσίφρα» ΕΠΕ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Ερευνητικό άρθρο</subject></subj-group></article-categories>
+<title-group>
+<article-title>Χρήση της τηλεϊατρικής από ηλικιωμένους σε μικρές πόλεις: μελέτη μικτών μεθόδων</article-title>
+<trans-title-group xml:lang="en"><trans-title>Telemedicine Uptake among Older Adults in Small Towns: A Mixed-Methods Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author"><name name-style="western"><surname>Vasilenko</surname><given-names>Olga</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vasilenko</surname><given-names>Olga</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Jovanović</surname><given-names>Miroslav</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Jovanović</surname><given-names>Miroslav</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/><email>m.jovanovic@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Arkadyeva</surname><given-names>Natalia</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Arkadyeva</surname><given-names>Natalia</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Ερευνητικό Ινστιτούτο Δημόσιας Υγείας «Βίτα»</institution>, <country country="RU">Ρωσία</country></aff>
+<aff id="aff2"><institution>Κέντρο Ερευνών για την Υγεία του Πληθυσμού του Δούναβη</institution>, <country country="RS">Σερβία</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>11</fpage><lpage>13</lpage>
+<history><date date-type="received" iso-8601-date="2025-03-04"><day>04</day><month>03</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-15"><day>15</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Olga Vasilenko, Miroslav Jovanović, Natalia Arkadyeva</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Με άδεια CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="el"><p>Οι ιατρικές συμβουλευτικές συνεδρίες εξ αποστάσεως μπορούν να βελτιώσουν την πρόσβαση στην υγειονομική περίθαλψη για τους ηλικιωμένους κατοίκους μικρών πόλεων, όπου η έλλειψη ειδικευμένων ιατρών είναι ιδιαίτερα οξεία. Ωστόσο, η χρήση τέτοιων υπηρεσιών από τους ηλικιωμένους παραμένει χαμηλή και οι λόγοι δεν είναι επαρκώς κατανοητοί. Η παρούσα μελέτη μικτών μεθόδων αναλύει τους παράγοντες που συνδέονται με τη χρήση της τηλεϊατρικής από άτομα ηλικίας 60 ετών και άνω σε τέσσερις ανωνυμοποιημένες μικρές πόλεις. Η ποσοτική φάση περιελάμβανε τηλεφωνική έρευνα σε 812 ερωτώμενους· η ποιοτική φάση αποτελούνταν από 28 ημιδομημένες συνεντεύξεις με ασθενείς και 9 συνεντεύξεις με επαγγελματίες υγείας. Κατά το τελευταίο έτος, το 19% των ερωτώμενων είχε χρησιμοποιήσει υπηρεσίες τηλεϊατρικής. Σε πολυμεταβλητό λογιστικό μοντέλο, η πιθανότητα χρήσης συνδεόταν με την κατοχή έξυπνου τηλεφώνου, τη συγκατοίκηση με νεότερους συγγενείς και την ύπαρξη χρόνιων παθήσεων που απαιτούν τακτική παρακολούθηση, ενώ η συσχέτιση με την ηλικία εξασθενούσε μετά την προσαρμογή για τους παράγοντες αυτούς. Οι συνεντεύξεις ανέδειξαν τρία βασικά εμπόδια: τη δυσπιστία απέναντι στην εξ αποστάσεως εκτίμηση της κατάστασης της υγείας, τις πολύπλοκες διαδικασίες κράτησης ραντεβού και ταυτοποίησης, καθώς και τον φόβο ότι σπαταλούν τον χρόνο του ιατρού χωρίς δια ζώσης επίσκεψη. Οι επαγγελματίες υγείας επισήμαναν ότι η τηλεϊατρική είναι πολυτιμότερη για επανεξετάσεις και την προσαρμογή της θεραπείας. Συμπεραίνουμε ότι απλουστευμένες διεπαφές και η υποστήριξη από νοσηλευτές θα μπορούσαν να διευρύνουν σημαντικά τη χρήση της τηλεϊατρικής από τους ηλικιωμένους.</p></abstract>
+<trans-abstract xml:lang="en"><p>Telemedicine consultations can improve access to healthcare for older residents of small towns, where the shortage of specialist physicians is particularly acute. However, uptake of such services among older people remains low, and the reasons are insufficiently understood. This mixed-methods study analyses the factors associated with telemedicine use among people aged 60 and over in four anonymised small towns. The quantitative phase comprised a telephone survey of 812 respondents; the qualitative phase consisted of 28 semi-structured interviews with patients and 9 interviews with healthcare workers. Over the past year, 19% of respondents had used telemedicine services. In a multivariable logistic model, the probability of use was associated with smartphone ownership, living with younger relatives and having chronic conditions requiring regular monitoring, whereas the association with age weakened after adjustment for these factors. Interviews revealed three key barriers: distrust of remote assessment of health status, complex booking and authentication procedures, and a fear of wasting the doctor's time without an in-person visit. Healthcare workers noted that telemedicine is most valuable for follow-up consultations and adjusting treatment. We conclude that simplified interfaces and support from nurses could substantially broaden telemedicine use among older adults.</p></trans-abstract>
+<kwd-group xml:lang="el" kwd-group-type="author"><kwd>τηλεϊατρική</kwd><kwd>ηλικιωμένοι</kwd><kwd>μικρές πόλεις</kwd><kwd>ψηφιακό χάσμα</kwd><kwd>μικτές μέθοδοι</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>telemedicine</kwd><kwd>older adults</kwd><kwd>small towns</kwd><kwd>digital divide</kwd><kwd>mixed methods</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Εισαγωγή</title>
+<p>Οι μικρές πόλεις αντιμετωπίζουν διαρκή έλλειψη ειδικευμένων ιατρών και οι ηλικιωμένοι κάτοικοι συχνά αναγκάζονται να μεταβαίνουν σε περιφερειακά κέντρα για ιατρικές επισκέψεις. Η τηλεϊατρική, με τη μορφή βιντεοκλήσεων ή τηλεφωνικών συνεδριών με ιατρούς, προωθείται ως τρόπος γεφύρωσης αυτού του κενού, ενώ οι υποδομές για εξ αποστάσεως ιατρικές συνεδρίες επεκτάθηκαν σημαντικά μετά το 2020.</p>
+<p>Παρά ταύτα, οι ηλικιωμένοι, που έχουν τα περισσότερα να κερδίσουν, χρησιμοποιούν την τηλεϊατρική λιγότερο από άλλες ηλικιακές ομάδες. Οι ερμηνείες συνήθως εστιάζουν στις ψηφιακές δεξιότητες, ενώ μικρότερη προσοχή έχει δοθεί στις στάσεις, στις συνθήκες του νοικοκυριού και στην οργάνωση των υπηρεσιών. Η μελέτη αυτή συνδυάζει δεδομένα έρευνας και συνεντεύξεων ώστε να δώσει μια πληρέστερη εικόνα της χρήσης της τηλεϊατρικής από τους ηλικιωμένους κατοίκους μικρών πόλεων.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Υλικά και μέθοδοι</title>
+<p>Η ποσοτική φάση ήταν τηλεφωνική έρευνα με υποστήριξη υπολογιστή, που διεξήχθη τον Μάρτιο–Μάιο του 2024 σε τέσσερις πόλεις με πληθυσμό 18.000–45.000 κατοίκων (κωδικοί Τ1–Τ4). Ένα τυχαίο δείγμα αριθμών σταθερής και κινητής τηλεφωνίας απέδωσε 812 ολοκληρωμένες συνεντεύξεις με κατοίκους ηλικίας 60 ετών και άνω (ποσοστό ανταπόκρισης 37%). Κύρια έκβαση ήταν η χρήση τηλεϊατρικής κατά τους τελευταίους 12 μήνες· οι συμμεταβλητές περιλάμβαναν δημογραφικά χαρακτηριστικά, κατάσταση υγείας, κατοχή συσκευών και σύνθεση του νοικοκυριού.</p>
+<p>Στην ποιοτική φάση, 28 συμμετέχοντες στην έρευνα (14 χρήστες και 14 μη χρήστες) και 9 επαγγελματίες υγείας έλαβαν μέρος σε ημιδομημένες συνεντεύξεις. Τα απομαγνητοφωνημένα κείμενα αναλύθηκαν θεματικά από δύο ερευνητές ανεξάρτητα, ενώ οι αποκλίσεις επιλύθηκαν με συζήτηση.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Αποτελέσματα</title>
+<p>Συνολικά, το 19% των ερωτώμενων ανέφερε τουλάχιστον μία συνεδρία τηλεϊατρικής κατά το τελευταίο έτος. Η χρήση ήταν υψηλότερη μεταξύ όσων είχαν χρόνιες παθήσεις που απαιτούν τακτική παρακολούθηση (27%) και χαμηλότερη μεταξύ όσων ζούσαν μόνοι χωρίς έξυπνο τηλέφωνο (6%) (Σχ. 1).</p>
+<fig id="f1" position="float"><caption><p>Σχ. 1. Χρήση τηλεϊατρικής κατά τους τελευταίους 12 μήνες ανά ομάδα ερωτώμενων, %</p></caption></fig>
+<p>Ο Πίνακας 1 παρουσιάζει τους προσαρμοσμένους λόγους σχετικών πιθανοτήτων. Η κατοχή έξυπνου τηλεφώνου υπερτριπλασίαζε τη σχετική πιθανότητα χρήσης, ενώ η συγκατοίκηση με νεότερους συγγενείς τη διπλασίαζε. Η επίδραση της ηλικίας εξασθένησε και έχασε τη στατιστική της σημαντικότητα μετά την προσαρμογή για την κατοχή συσκευών και τη σύνθεση του νοικοκυριού.</p>
+<table-wrap id="t1" position="float"><caption><p>Πίνακας 1. Παράγοντες που συνδέονται με τη χρήση τηλεϊατρικής (λογιστική παλινδρόμηση, n = 812)</p></caption><table><thead><tr><th>Παράγοντας</th><th>Προσαρμοσμένος OR</th><th>95% ΔΕ</th><th>p</th></tr></thead><tbody><tr><td>Διαθέτει έξυπνο τηλέφωνο</td><td>3.4</td><td>2.1–5.5</td><td>&lt;0.001</td></tr><tr><td>Ζει με νεότερους συγγενείς</td><td>2.0</td><td>1.3–3.0</td><td>0.001</td></tr><tr><td>Χρόνια πάθηση, τακτική παρακολούθηση</td><td>1.8</td><td>1.2–2.7</td><td>0.004</td></tr><tr><td>Ηλικία (ανά 5 έτη)</td><td>0.89</td><td>0.76–1.04</td><td>0.140</td></tr><tr><td>Γυναίκα</td><td>1.1</td><td>0.8–1.6</td><td>0.520</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Συζήτηση</title>
+<p>Οι συνεντεύξεις βοήθησαν στην ερμηνεία αυτών των συσχετίσεων. Οι νεότεροι συγγενείς συχνά λειτουργούσαν ως διαμεσολαβητές, κλείνοντας ραντεβού και ρυθμίζοντας τις συσκευές. Οι μη χρήστες εξέφραζαν συχνά αμφιβολίες ότι ένας ιατρός μπορεί να εκτιμήσει την κατάστασή τους χωρίς κλινική εξέταση, ενώ αρκετοί περιέγραψαν την αίσθηση ότι μια εξ αποστάσεως συνεδρία θα επιβάρυνε έναν ήδη υπερφορτωμένο ιατρό.</p>
+<p>Οι επαγγελματίες υγείας θεωρούσαν την τηλεϊατρική ιδιαίτερα χρήσιμη για επανεξετάσεις και προσαρμογές της φαρμακευτικής αγωγής και πρότειναν οι νοσηλευτές να βοηθούν τους ασθενείς να συνδέονται από το ιατρείο ή από το σπίτι. Τα ευρήματα αυτά παραπέμπουν σε οργανωτικές και όχι αμιγώς τεχνολογικές λύσεις.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Συμπεράσματα</title>
+<p>Η χρήση της τηλεϊατρικής από τους ηλικιωμένους σε μικρές πόλεις περιορίζεται λιγότερο από την ίδια την ηλικία και περισσότερο από την πρόσβαση σε συσκευές, την υποστήριξη από το νοικοκυριό και την εμπιστοσύνη. Οι απλουστευμένες διαδικασίες κράτησης ραντεβού και οι συνεδρίες με τη διευκόλυνση νοσηλευτών αποτελούν πολλά υποσχόμενους τρόπους διεύρυνσης της χρήσης της.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Βιβλιογραφία</title>
+<ref id="r1"><mixed-citation>Creswell J. W., Plano Clark V. L. Designing and Conducting Mixed Methods Research. 3rd ed. Thousand Oaks: SAGE, 2017. 492 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Braun V., Clarke V. Using thematic analysis in psychology // Qualitative Research in Psychology. 2006. Vol. 3, no. 2. P. 77–101.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Vasilenko O. P., Arkadyeva N. S. Access to specialist care in small towns: a regional survey // Public Health Perspectives. 2022. Vol. 11, no. 3. P. 201–214.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Jovanović M., Petrović S. Digital health literacy among older Europeans // Ageing and Technology. 2021. Vol. 6, no. 1. P. 15–33.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Hale R., Moreno C. Barriers to video consultations in rural primary care: a qualitative synthesis // Rural Health Review. 2022. Vol. 14. P. 88–104.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Аркадьева Н. С. Телемедицина в системе первичной медико-санитарной помощи: организационные модели // Здравоохранение и общество. 2023. № 2. С. 26–41.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Lindholm K., Saar T. Nurse-facilitated telehealth for older patients: a pilot evaluation // Journal of Community Nursing Research. 2020. Vol. 9, no. 4. P. 310–322.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Vasilenko O. P. Chronic disease monitoring and remote consultations: early evidence // Digital Health Notes. 2023. Vol. 2. P. 40–52.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

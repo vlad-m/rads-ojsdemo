@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="el">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Περιοδικό Διεπιστημονικής Έρευνας (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Επιδεικτικό περιοδικό σε Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Τσίφρα» ΕΠΕ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Ερευνητικό άρθρο</subject></subj-group></article-categories>
+<title-group>
+<article-title>Βαθμονόμηση αισθητήρων PM2.5 χαμηλού κόστους με μηχανική μάθηση σε έντονα ηπειρωτικό κλίμα</article-title>
+<trans-title-group xml:lang="en"><trans-title>Machine-Learning Calibration of Low-Cost PM2.5 Sensors in a Sharply Continental Climate</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Karimov</surname><given-names>Timur</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Karimov</surname><given-names>Timur</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>t.karimov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Vasilenko</surname><given-names>Olga</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vasilenko</surname><given-names>Olga</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Ινστιτούτο Εφαρμοσμένης Αναλυτικής του Βόλγα</institution>, <country country="RU">Ρωσία</country></aff>
+<aff id="aff2"><institution>Ερευνητικό Ινστιτούτο Δημόσιας Υγείας «Βίτα»</institution>, <country country="RU">Ρωσία</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>9</fpage><lpage>11</lpage>
+<history><date date-type="received" iso-8601-date="2024-09-30"><day>30</day><month>09</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-03"><day>03</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Timur Karimov, Olga Vasilenko</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Με άδεια CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="el"><p>Οι οπτικοί αισθητήρες λεπτόκοκκων αιωρούμενων σωματιδίων χαμηλού κόστους μπορούν να αυξήσουν σημαντικά την πυκνότητα των δικτύων παρακολούθησης της ποιότητας του αέρα, όμως οι μετρήσεις τους εξαρτώνται έντονα από την υγρασία και τη θερμοκρασία και αποκλίνουν συστηματικά από τις μετρήσεις αναφοράς. Η παρούσα μελέτη συγκρίνει μεθόδους βαθμονόμησης τέτοιων αισθητήρων σε έντονα ηπειρωτικό κλίμα με μεγάλο ετήσιο θερμοκρασιακό εύρος. Επί 14 μήνες, οκτώ αισθητήρες λειτούργησαν δίπλα σε σταθμό αναφοράς με σταθμική μέθοδο, παρέχοντας περισσότερες από 76.000 ωριαίες παρατηρήσεις. Συγκρίθηκαν η γραμμική παλινδρόμηση, η πολλαπλή παλινδρόμηση με διόρθωση για τη σχετική υγρασία, τα τυχαία δάση (random forest) και η ενίσχυση κλίσης (gradient boosting). Η απόδοση αξιολογήθηκε με διασταυρωμένη επικύρωση σε εβδομαδιαία μπλοκ, η οποία αποτρέπει τη διαρροή πληροφορίας μεταξύ των δειγμάτων εκπαίδευσης και ελέγχου. Χωρίς βαθμονόμηση, το μέσο απόλυτο σφάλμα ήταν 11,8 µg/m³· μετά τη γραμμική διόρθωση μειώθηκε σε 6,4 µg/m³, ενώ η ενίσχυση κλίσης το περιόρισε σε 3,1 µg/m³. Τα σημαντικότερα χαρακτηριστικά ήταν η σχετική υγρασία, η θερμοκρασία και οι μετρήσεις των γειτονικών αισθητήρων. Τα μοντέλα που εκπαιδεύτηκαν μόνο με θερινά δεδομένα μεταφέρθηκαν πλημμελώς στη χειμερινή περίοδο, γεγονός που υπογραμμίζει την ανάγκη για βαθμονόμηση καθ' όλη τη διάρκεια του έτους. Συμπεραίνουμε ότι, εφόσον βαθμονομηθούν με μεθόδους μηχανικής μάθησης, οι αισθητήρες χαμηλού κόστους είναι κατάλληλοι για την εκτίμηση της ημερήσιας δυναμικής της ρύπανσης και τον εντοπισμό τοπικών πηγών. Ο κώδικας και τα ανωνυμοποιημένα δεδομένα είναι ελεύθερα διαθέσιμα για επαναχρησιμοποίηση.</p></abstract>
+<trans-abstract xml:lang="en"><p>Low-cost optical sensors of fine particulate matter can substantially increase the density of air-quality monitoring networks, but their readings depend strongly on humidity and temperature and deviate systematically from reference measurements. This study compares calibration methods for such sensors in a sharply continental climate with a large annual temperature range. For 14 months, eight sensors were co-located with a gravimetric reference station, yielding more than 76,000 hourly observations. Linear regression, multiple regression with a relative-humidity correction, random forest and gradient boosting were compared. Performance was assessed with weekly blocked cross-validation that prevents information leakage between training and test samples. Without calibration, the mean absolute error was 11.8 µg/m³; after linear correction it fell to 6.4 µg/m³, and gradient boosting reduced it to 3.1 µg/m³. The most important features were relative humidity, temperature and the readings of neighbouring sensors. Models trained on summer data alone transferred poorly to the winter period, underlining the need for year-round calibration. We conclude that, once calibrated with machine-learning methods, low-cost sensors are suitable for assessing the diurnal dynamics of pollution and identifying local sources. The code and anonymised data are openly available for reuse.</p></trans-abstract>
+<kwd-group xml:lang="el" kwd-group-type="author"><kwd>ποιότητα του αέρα</kwd><kwd>PM2.5</kwd><kwd>αισθητήρες χαμηλού κόστους</kwd><kwd>βαθμονόμηση</kwd><kwd>ενίσχυση κλίσης</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>air quality</kwd><kwd>PM2.5</kwd><kwd>low-cost sensors</kwd><kwd>calibration</kwd><kwd>gradient boosting</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Εισαγωγή</title>
+<p>Τα λεπτόκοκκα σωματίδια PM2.5 αποτελούν έναν από τους κυριότερους παράγοντες κινδύνου για την υγεία που συνδέονται με τη ρύπανση του ατμοσφαιρικού αέρα. Οι σταθμοί παρακολούθησης αναφοράς είναι δαπανηροί και λιγοστοί: σε μια τυπική πόλη μισού εκατομμυρίου κατοίκων υπάρχουν ένας ή δύο. Οι οπτικοί αισθητήρες χαμηλού κόστους, που κοστίζουν μερικές χιλιάδες ρούβλια, επιτρέπουν τη δημιουργία πυκνού δικτύου, όμως οι μετρήσεις τους απαιτούν βαθμονόμηση.</p>
+<p>Η κύρια αιτία των σφαλμάτων είναι η υγροσκοπική διόγκωση των σωματιδίων σε υψηλή υγρασία, εξαιτίας της οποίας ο αισθητήρας υπερεκτιμά τη συγκέντρωση μάζας. Στο έντονα ηπειρωτικό κλίμα προστίθενται οι χαμηλές χειμερινές θερμοκρασίες, οι οποίες επηρεάζουν τη λειτουργία των ηλεκτρονικών κυκλωμάτων. Στόχος της εργασίας είναι η σύγκριση μεθόδων βαθμονόμησης και η αξιολόγηση της μεταφερσιμότητάς τους μεταξύ εποχών.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Υλικά και μέθοδοι</title>
+<p>Οκτώ αισθητήρες του ίδιου μοντέλου εγκαταστάθηκαν στην οροφή του περιπτέρου του σταθμού αναφοράς σε ύψος 3 m. Η περίοδος παρατήρησης ήταν από τον Οκτώβριο του 2022 έως τον Νοέμβριο του 2023. Τα δεδομένα συναθροίστηκαν σε ωριαίες τιμές· οι ώρες με ελλιπείς καταγραφές (λιγότερο από 45 λεπτά) εξαιρέθηκαν. Το τελικό δείγμα περιλαμβάνει 76.412 ζεύγη παρατηρήσεων.</p>
+<p>Συγκρίθηκαν τέσσερα μοντέλα: απλή γραμμική παλινδρόμηση στο αρχικό σήμα· πολλαπλή παλινδρόμηση με τη σχετική υγρασία, τη θερμοκρασία και την αλληλεπίδρασή τους· τυχαίο δάσος (500 δέντρα)· ενίσχυση κλίσης (βάθος 6, ρυθμός μάθησης 0,05). Για την αξιολόγηση της απόδοσης χρησιμοποιήθηκε διασταυρωμένη επικύρωση σε μπλοκ: τα δεδομένα χωρίστηκαν σε εβδομαδιαία μπλοκ και κάθε μπλοκ χρησίμευε διαδοχικά ως δείγμα ελέγχου.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Αποτελέσματα</title>
+<p>Τα αποτελέσματα της σύγκρισης παρουσιάζονται στον Πίν. 1 και στο Σχ. 1. Όλες οι μέθοδοι βαθμονόμησης μειώνουν σημαντικά το σφάλμα· η διαφορά μεταξύ της γραμμικής παλινδρόμησης με διόρθωση για την υγρασία και των μεθόδων συνόλου (ensemble) είναι ιδιαίτερα μεγάλη σε σχετική υγρασία άνω του 80%.</p>
+<fig id="f1" position="float"><caption><p>Σχ. 1. Μέσο απόλυτο σφάλμα (MAE) διαφόρων μεθόδων βαθμονόμησης, µg/m³</p></caption></fig>
+<p>Όταν η εκπαίδευση γινόταν μόνο με θερινά δεδομένα και ο έλεγχος με χειμερινά, το μέσο απόλυτο σφάλμα της ενίσχυσης κλίσης αυξανόταν σε 7,9 µg/m³, τιμή μόνο ελαφρώς καλύτερη από τη γραμμική διόρθωση. Η προσθήκη έστω και ενός χειμερινού μήνα στο δείγμα εκπαίδευσης μείωνε το σφάλμα σε 3,6 µg/m³.</p>
+<table-wrap id="t1" position="float"><caption><p>Πίνακας 1. Απόδοση των μεθόδων βαθμονόμησης (διασταυρωμένη επικύρωση σε εβδομαδιαία μπλοκ)</p></caption><table><thead><tr><th>Μέθοδος</th><th>MAE, µg/m³</th><th>RMSE, µg/m³</th><th>R²</th></tr></thead><tbody><tr><td>Χωρίς βαθμονόμηση</td><td>11,8</td><td>17,2</td><td>0,58</td></tr><tr><td>Γραμμική παλινδρόμηση</td><td>6,4</td><td>9,9</td><td>0,74</td></tr><tr><td>Γραμμική + υγρασία</td><td>4,7</td><td>7,3</td><td>0,85</td></tr><tr><td>Τυχαίο δάσος</td><td>3,4</td><td>5,6</td><td>0,91</td></tr><tr><td>Ενίσχυση κλίσης</td><td>3,1</td><td>5,1</td><td>0,93</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Συζήτηση</title>
+<p>Οι τιμές σφάλματος που προέκυψαν μετά τη βαθμονόμηση είναι συγκρίσιμες με τις ανοχές για ενδεικτικές μετρήσεις και επιτρέπουν τη χρήση δικτύου αισθητήρων χαμηλού κόστους για την εκτίμηση των ημερήσιων προφίλ και τον εντοπισμό τοπικών πηγών, όπως λεβητοστάσια, αυτοκινητόδρομοι και περιοχές μονοκατοικιών με θέρμανση από σόμπες.</p>
+<p>Η εποχική μη μεταφερσιμότητα των μοντέλων αποτελεί σημαντικό πρακτικό περιορισμό. Μια βαθμονόμηση που πραγματοποιείται το καλοκαίρι μπορεί να οδηγεί σε συστηματικά σφάλματα τον χειμώνα, όταν η ρύπανση είναι πιο επικίνδυνη. Συνιστούμε περίοδο κοινών μετρήσεων τουλάχιστον ενός έτους πριν από την ανάπτυξη του δικτύου.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Συμπεράσματα</title>
+<p>Οι μέθοδοι συνόλου της μηχανικής μάθησης μειώνουν το σφάλμα των αισθητήρων PM2.5 χαμηλού κόστους σχεδόν κατά τέσσερις φορές. Βασική προϋπόθεση για ορθή βαθμονόμηση είναι η ύπαρξη στο δείγμα εκπαίδευσης δεδομένων από όλες τις εποχές του έτους.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Βιβλιογραφία</title>
+<ref id="r1"><mixed-citation>Breiman L. Random forests // Machine Learning. 2001. Vol. 45, no. 1. P. 5–32.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Friedman J. H. Greedy function approximation: a gradient boosting machine // Annals of Statistics. 2001. Vol. 29, no. 5. P. 1189–1232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Каримов Т. Р. Блочная кросс-валидация для пространственно-временных данных: практическое руководство // Прикладная аналитика. 2022. Т. 6, № 3. С. 41–58.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Holloway R., Nakamura E. Humidity effects on optical particle counters: a field evaluation // Atmospheric Measurement Notes. 2019. Vol. 12. P. 233–248.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Василенко О. П., Аркадьева Н. С. Кратковременное воздействие PM2.5 и обращаемость за медицинской помощью: обзор исследований // Экология человека и среда. 2021. № 7. С. 4–19.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Petrescu D., Olsen K. Transferability of calibration models for low-cost air sensors across seasons // Environmental Sensing Review. 2022. Vol. 4, no. 2. P. 77–95.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Захаров Л. Е. Сети мониторинга атмосферного воздуха: принципы проектирования. Новобор: Академия, 2020. 184 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

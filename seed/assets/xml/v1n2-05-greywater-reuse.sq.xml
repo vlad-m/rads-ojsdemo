@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="sq">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista e Kërkimeve Ndërdisiplinore (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revistë demonstruese në Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra sh.p.k.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Komunikim i shkurtër</subject></subj-group></article-categories>
+<title-group>
+<article-title>Ripërdorimi i ujërave gri në një bllok banimi me pallate shumëkatëshe: një vlerësim pilot</article-title>
+<trans-title-group xml:lang="en"><trans-title>Greywater Reuse in a Multi-Apartment Residential Block: A Pilot Assessment</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Dyakonov</surname><given-names>Roman</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Dyakonov</surname><given-names>Roman</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>r.dyakonov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Safina</surname><given-names>Alina</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Safina</surname><given-names>Alina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Shkolla e Studimeve të Avancuara Urbane «Polis»</institution>, <country country="RU">Rusi</country></aff>
+<aff id="aff2"><institution>Instituti i Analitikës së Aplikuar i Vollgës</institution>, <country country="RU">Rusi</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>17</fpage><lpage>19</lpage>
+<history><date date-type="received" iso-8601-date="2025-05-14"><day>14</day><month>05</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-08-05"><day>05</day><month>08</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Roman Dyakonov, Alina Safina</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licencuar sipas CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="sq"><p>Ripërdorimi i ujërave të zeza shtëpiake pak të ndotura, ose ujërave gri, konsiderohet si një nga mënyrat për të ulur ngarkesën mbi sistemet urbane të furnizimit me ujë dhe të kanalizimeve. Ky komunikim i shkurtër paraqet rezultatet e funksionimit pilot të një sistemi trajtimi të ujërave gri në një bllok banimi me tri pallate shumëkatëshe (412 banorë). Ujërat gri nga dushet dhe lavamanët trajtoheshin në një njësi kompakte që përfshinte filtrim mekanik, bioreaktor membranor dhe dezinfektim me rreze ultravjollcë, dhe më pas furnizoheshin për shkarkimin e tualeteve dhe për ujitjen e hapësirave përreth. Gjatë 12 muajve, vëllimet u regjistruan çdo ditë dhe cilësia e ujit të trajtuar u monitorua çdo javë. Ripërdorimi e uli konsumin e ujit të pijshëm mesatarisht me 27% dhe deri në 34% në muajt e verës për shkak të ujitjes. Uji i trajtuar përmbushte vazhdimisht standardet për furnizimin me ujë jo të pijshëm për sa i përket turbullirës, kërkesës biokimike për oksigjen dhe treguesve mikrobiologjikë. Kostot specifike të funksionimit ishin rreth 38 rubla për metër kub, ndërsa periudha e shlyerjes me tarifat aktuale vlerësohet në 9–11 vjet. Një anketë me banorët tregoi një nivel të lartë pranimi të teknologjisë (82% vlerësime pozitive), me kusht që uji të mos kishte erë apo ndryshim ngjyre. Arrijmë në përfundimin se sistemet e ripërdorimit të ujërave gri ia vlen të përfshihen në projektet e reja të ndërtimit të banesave.</p></abstract>
+<trans-abstract xml:lang="en"><p>The reuse of lightly polluted domestic wastewater, or greywater, is regarded as one way to reduce the load on urban water supply and sewerage systems. This short communication presents the results of a pilot operation of a greywater treatment system in a residential block of three multi-apartment buildings (412 residents). Greywater from showers and washbasins was treated in a compact unit comprising mechanical filtration, a membrane bioreactor and ultraviolet disinfection, and then supplied for toilet flushing and irrigation of the surrounding grounds. Over 12 months, volumes were recorded daily and the quality of treated water was monitored weekly. Reuse reduced potable water consumption by 27% on average and by up to 34% in summer months owing to irrigation. Treated water consistently met the standards for non-potable water supply in terms of turbidity, biochemical oxygen demand and microbiological indicators. Specific operating costs were about 38 roubles per cubic metre, and the payback period at current tariffs is estimated at 9–11 years. A survey of residents showed a high level of acceptance of the technology (82% positive ratings), provided the water had no odour or discolouration. We conclude that greywater reuse systems are worth including in new residential development projects.</p></trans-abstract>
+<kwd-group xml:lang="sq" kwd-group-type="author"><kwd>ujëra gri</kwd><kwd>ripërdorim i ujit</kwd><kwd>bioreaktor membranor</kwd><kwd>kursim i ujit</kwd><kwd>ndërtim banesash</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>greywater</kwd><kwd>water reuse</kwd><kwd>membrane bioreactor</kwd><kwd>water saving</kwd><kwd>residential development</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Hyrje</title>
+<p>Rreth një e treta e ujit të pijshëm që konsumohet në ndërtesat e banimit shpenzohet për shkarkimin e tualeteve dhe për ujitje — nevoja për të cilat nuk kërkohet cilësia e ujit të pijshëm. Ujërat gri nga dushet dhe lavamanët përbëjnë deri në 60% të ujërave të zeza shtëpiake dhe janë relativisht pak të ndotura, gjë që i bën ato një burim tërheqës për furnizimin me ujë teknik.</p>
+<p>Qëllimi i këtij komunikimi është të paraqesë rezultatet e funksionimit pilot njëvjeçar të një sistemi ripërdorimi të ujërave gri në një bllok banimi me pallate shumëkatëshe dhe të vlerësojë efektivitetin, ekonomicitetin dhe perceptimin e tij nga banorët.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materialet dhe metodat</title>
+<p>Blloku pilot përfshin tri pallate dhjetëkatëshe me kanalizim të brendshëm të ndarë për ujërat gri dhe ujërat e zeza. Impianti i trajtimit me kapacitet 25 m³/ditë është vendosur në bodrum. Vëllimet e ujërave gri në hyrje, të ujit të trajtuar dhe të plotësimit nga rrjeti i qytetit u regjistruan me matës automatikë të prurjes; cilësia e ujit të trajtuar u kontrollua çdo javë nga një laborator i akredituar. Në fund të periudhës u krye një anketë me pyetësor me banorët (n = 163).</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Rezultatet</title>
+<p>Vëllimi mesatar ditor i ujit të ripërdorur ishte 14,6 m³. Përqindja mujore e zëvendësimit të ujit të pijshëm tregohet në fig. 1: vlerat minimale u shënuan në dimër (22–24%), ndërsa vlerat maksimale në korrik dhe gusht (33–34%). Treguesit e cilësisë së ujit të trajtuar jepen në tab. 1.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Përqindja e zëvendësimit të ujit të pijshëm me ujëra gri të trajtuara sipas muajve, %</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>Tabela 1. Cilësia e ujit të trajtuar (mesatarja për 52 javë)</p></caption><table><thead><tr><th>Treguesi</th><th>Ujërat gri</th><th>Pas trajtimit</th><th>Norma</th></tr></thead><tbody><tr><td>Turbullira, FNU</td><td>68</td><td>0,9</td><td>≤ 2</td></tr><tr><td>KBO₅, mg/l</td><td>142</td><td>4,1</td><td>≤ 10</td></tr><tr><td>Lëndë pezull, mg/l</td><td>95</td><td>&lt; 2</td><td>≤ 10</td></tr><tr><td>E. coli, NJFK/100 ml</td><td>10⁴–10⁵</td><td>nuk u zbulua</td><td>mungesë</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Diskutimi</title>
+<p>Përqindja e përftuar e zëvendësimit është e afërt me potencialin teorik për këtë lloj ndërtimi. Efektiviteti ekonomik varet fort nga tarifat e furnizimit me ujë: me rritjen e tyre, periudha e shlyerjes shkurtohet në 6–7 vjet. Është e rëndësishme që banorët e perceptojnë teknologjinë pozitivisht, por çdo devijim në vetitë organoleptike të ujit e ul shpejt besimin; prandaj besueshmëria e dezinfektimit dhe e monitorimit është kritike.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Përfundimi</title>
+<p>Sistemi i ripërdorimit të ujërave gri bëri të mundur uljen e konsumit të ujit të pijshëm me një të katërtën, me përputhje të qëndrueshme të ujit të trajtuar me normat. Teknologjia mund të rekomandohet për ndërtimet e reja të banimit me pallate shumëkatëshe.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Bibliografia</title>
+<ref id="r1"><mixed-citation>Дьяконов Р. В. Децентрализованные системы водоотведения в жилой застройке: зарубежный опыт // Городское хозяйство и инфраструктура. 2022. № 6. С. 33–47.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Eriksson E., Auffarth K., Henze M., Ledin A. Characteristics of grey wastewater // Urban Water. 2002. Vol. 4, no. 1. P. 85–104.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Сафина А. Р., Дьяконов Р. В. Экономическая оценка проектов водосбережения в многоквартирных домах // Пространственная экономика и политика. 2023. № 2. С. 58–72.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Okoro N., Lindahl S. Membrane bioreactors for decentralised greywater treatment: a performance review // Water Technology Letters. 2021. Vol. 13. P. 140–158.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Mendes T., Haas R. Public acceptance of recycled water for domestic uses // Journal of Water and Society. 2020. Vol. 8, no. 2. P. 99–117.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Дьяконов Р. В. Водный баланс жилого квартала: методика расчёта. Новобор: Полис, 2021. 92 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

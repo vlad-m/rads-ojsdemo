@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="sr">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Часопис за интердисциплинарна истраживања (демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демо-часопис на платформи Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>ДОО „Цифра“</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Оригинални научни рад</subject></subj-group></article-categories>
+<title-group>
+<article-title>Откривање машински генерисаних пасуса у научним апстрактима на руском језику</article-title>
+<trans-title-group xml:lang="en"><trans-title>Detecting Machine-Generated Passages in Russian-Language Scientific Abstracts</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author"><name name-style="western"><surname>Каримов</surname><given-names>Тимур</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Karimov</surname><given-names>Timur</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Лебедева</surname><given-names>Анна</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Lebedeva</surname><given-names>Anna</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Абдуллаев</surname><given-names>Санжар</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Abdullaev</surname><given-names>Sanzhar</given-names></name></name-alternatives><xref ref-type="aff" rid="aff3"/><email>s.abdullaev@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Волшки институт за примењену аналитику</institution>, <country country="RU">Русија</country></aff>
+<aff id="aff2"><institution>Институт за језик и комуникацију „Лексис“</institution>, <country country="RU">Русија</country></aff>
+<aff id="aff3"><institution>Самаркандски институт за рачунарску лингвистику</institution>, <country country="UZ">Узбекистан</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>8</fpage><lpage>10</lpage>
+<history><date date-type="received" iso-8601-date="2025-08-18"><day>18</day><month>08</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-01-27"><day>27</day><month>01</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Тимур Каримов, Анна Лебедева, Санжар Абдуллаев</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Лиценца CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="sr"><p>Широко усвајање великих језичких модела суочило је научне часописе са задатком препознавања текстова који су у целини или делимично настали аутоматизованим путем. Већина постојећих детектора развијена је за енглески језик, а њихова применљивост на научне текстове на руском језику слабо је истражена. У овом раду представљен је нови анотирани корпус од 12.000 апстраката научних чланака на руском језику, од којих су половину написали људи, а половина садржи пасусе које су генерисала три различита језичка модела на основу различитих упита. На овом корпусу упоређују се четири класе метода: статистичка обележја перплексности, стилометријска обележја, додатно обучени класификатор заснован на трансформеру и комерцијални детектор опште намене. Најбоље резултате постигао је додатно обучени класификатор (F1 = 0,91 на нивоу документа), али је његов учинак опао на 0,74 при тестирању на текстовима које је генерисао модел са којим се није сусрео током обуке. На нивоу реченице све методе дају знатно лошије резултате, а стопа лажно позитивних налаза на апстрактима аутора којима руски није матерњи језик достиже 11%. Ови резултати указују на то да аутоматизовани детектори не могу бити једина основа за уредничке одлуке. Корпус и код слободно су доступни за даља истраживања.</p></abstract>
+<trans-abstract xml:lang="en"><p>The widespread adoption of large language models has confronted scholarly journals with the task of identifying texts created wholly or partly by automated means. Most existing detectors were developed for English, and their applicability to Russian-language scientific texts is poorly understood. This article presents a new annotated corpus of 12,000 abstracts of scientific articles in Russian, half of which were written by humans and half of which contain passages generated by three different language models under different prompts. Four classes of methods are compared on this corpus: statistical perplexity features, stylometric features, a fine-tuned transformer-based classifier and a general-purpose commercial detector. The fine-tuned classifier performed best (document-level F1 = 0.91), but its performance fell to 0.74 when tested on texts generated by a model not seen during training. At the sentence level, all methods perform considerably worse, and the false-positive rate on abstracts written by authors for whom Russian is not a first language reaches 11%. These results indicate that automated detectors cannot serve as the sole basis for editorial decisions. The corpus and code are openly available for further research.</p></trans-abstract>
+<kwd-group xml:lang="sr" kwd-group-type="author"><kwd>велики језички модели</kwd><kwd>откривање машински генерисаног текста</kwd><kwd>научни апстракти</kwd><kwd>руски језик</kwd><kwd>научни интегритет</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>large language models</kwd><kwd>machine-generated text detection</kwd><kwd>scientific abstracts</kwd><kwd>Russian language</kwd><kwd>research integrity</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Увод</title>
+<p>Од 2023. године уредници научних часописа све чешће наилазе на рукописе у којима су делови текста, по свему судећи, настали помоћу великих језичких модела. Иако је употреба таквих алата за језичку редактуру често прихватљива, необјављено генерисање суштинског садржаја изазива забринутост у погледу научног интегритета. Многи издавачи усвојили су политике које захтевају обелодањивање, а аутоматизовани детектори нуде се на тржишту као средство за њихово спровођење.</p>
+<p>Ови детектори, међутим, развијени су и евалуирани првенствено на текстовима на енглеском језику. Руски језик, са богатом морфологијом и специфичним академским регистром, представља другачији изазов. Циљеви ове студије јесу да се изгради реалистичан референтни скуп научних апстраката на руском језику и да се процени колико добро постојеће методе откривања функционишу на њему, уз посебну пажњу посвећену генерализацији и праведности.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материјал и методе</title>
+<p>Апстракти које су написали људи (n = 6.000) узорковани су из руских часописа са отвореним приступом објављених пре 2021. године, стратификовано по осам ширих дисциплина. За генерисану половину, три језичка модела добила су упит да напишу целокупан апстракт на основу наслова и кључних речи, да наставе уводну реченицу коју је написао човек или да парафразирају апстракт који је написао човек. Анотатор је проверио течност сваког генерисаног текста, а за мешовите текстове забележене су ознаке на нивоу реченице.</p>
+<p>Упоредили смо (i) логистичку регресију на обележјима перплексности и неравномерности (burstiness) израчунатим помоћу отвореног руског језичког модела, (ii) класификатор са градијентним бустингом на 140 стилометријских обележја, (iii) вишејезични трансформерски енкодер додатно обучен на скупу за обуку и (iv) комерцијални детектор опште намене. За процену генерализације коришћен је протокол изостављања по једног генератора (leave-one-generator-out).</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Резултати</title>
+<p>Резултати на нивоу документа сумирани су у табели 1. Додатно обучени класификатор постигао је највећу вредност F1 унутар дистрибуције, 0,91, а следи га модел перплексности (0,82). Комерцијални детектор, који није обучаван на руским научним текстовима, достигао је 0,69. Парафразирани апстракти били су најтежа категорија за све методе.</p>
+<fig id="f1" position="float"><caption><p>Слика 1. F1 на нивоу документа унутар дистрибуције и на непознатом генератору</p></caption></fig>
+<p>Генерализација на непознати генератор знатно је смањила учинак (сл. 1). На засебном скупу од 400 апстраката које су написали аутори којима је руски други језик, додатно обучени класификатор означио је 11% као машински генерисане, у поређењу са 3% код апстраката изворних говорника.</p>
+<table-wrap id="t1" position="float"><caption><p>Табела 1. Учинак откривања на нивоу документа и реченице</p></caption><table><thead><tr><th>Метода</th><th>F1 (документ)</th><th>F1 (реченица)</th><th>FPR, аутори L2</th></tr></thead><tbody><tr><td>Обележја перплексности</td><td>0.82</td><td>0.61</td><td>0.14</td></tr><tr><td>Стилометријска обележја</td><td>0.77</td><td>0.55</td><td>0.09</td></tr><tr><td>Додатно обучени трансформер</td><td>0.91</td><td>0.68</td><td>0.11</td></tr><tr><td>Комерцијални детектор</td><td>0.69</td><td>—</td><td>0.17</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Дискусија</title>
+<p>Наши налази одражавају забринутост изражену у вези са енглеским језиком: детектори који добро функционишу на познатим генераторима слабе на новим и несразмерно често означавају текстове аутора којима језик није матерњи, чија је проза лексички мање разноврсна. С обзиром на брзо објављивање нових модела, тачност унутар дистрибуције лош је показатељ поузданости у стварним условима.</p>
+<p>За уредничку праксу то значи да резултати детектора могу у најбољем случају бити повод за разговор са ауторима, а не основ за санкције. Јасне политике обелодањивања и пажња посвећена суштинском научном квалитету остају поузданије заштитне мере.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Закључак</title>
+<p>Објављујемо референтни скуп од 12.000 руских научних апстраката и показујемо да постојећи детектори, иако корисни, нису ни отпорни на нове генераторе ни праведни према ауторима којима руски није матерњи језик. Аутоматизовано откривање треба да допуни, а не да замени уредничку процену.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Литература</title>
+<ref id="r1"><mixed-citation>Vaswani A., Shazeer N., Parmar N. et al. Attention is all you need // Advances in Neural Information Processing Systems. 2017. Vol. 30. P. 5998–6008.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Devlin J., Chang M.-W., Lee K., Toutanova K. BERT: pre-training of deep bidirectional transformers for language understanding // Proceedings of NAACL-HLT 2019. Minneapolis, 2019. P. 4171–4186.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Abdullaev S. R. Perplexity-based detection of generated text in morphologically rich languages // Computational Linguistics Letters. 2024. Vol. 9, no. 1. P. 22–37.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Lebedeva A. V., Karimov T. R. Stylometric profiles of Russian academic prose // Corpus Methods Quarterly. 2023. Vol. 14, no. 3. P. 201–219.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Moreau C., Banerjee R. Generalisation failures of machine-generated text detectors // Journal of AI Evaluation. 2024. Vol. 3. P. 77–96.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Каримов Т. Р., Лебедева А. В. Языковые модели в научной коммуникации: риски и редакционные политики // Научный редактор и издатель. 2024. Т. 9, № 2. С. 112–125.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Holt E., Nguyen T. Bias of AI-text detectors against non-native writers // Language and Technology Review. 2023. Vol. 12, no. 4. P. 300–318.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Абдуллаев С. Р. Корпусы для оценки детекторов сгенерированного текста: требования и практика // Вычислительная лингвистика и интеллектуальные технологии. 2025. Т. 4, № 1. С. 15–30.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

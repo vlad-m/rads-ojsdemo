@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="mn">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Салбар дундын судалгааны сэтгүүл (Демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems-ийн демо сэтгүүл</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ХХК</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Тойм</subject></subj-group></article-categories>
+<title-group>
+<article-title>Жижиг, дунд үйлдвэрийн тойрог эдийн засаг: саад тотгор ба хөдөлгөгч хүчний системчилсэн тойм</article-title>
+<trans-title-group xml:lang="en"><trans-title>The Circular Economy in Small and Medium-Sized Enterprises: A Systematic Review of Barriers and Drivers</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Седов</surname><given-names>Евгений</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sedov</surname><given-names>Evgeny</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sedov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Яковлева</surname><given-names>Татьяна</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Yakovleva</surname><given-names>Tatiana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Эдийн засаг ба орон зайн хөгжлийн «Меридиан» хүрээлэн</institution>, <country country="RU">Орос</country></aff>
+<aff id="aff2"><institution>Тогтвортой хөгжлийн «Экополис» Беларусийн хүрээлэн</institution>, <country country="BY">Беларусь</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>11</fpage><lpage>13</lpage>
+<history><date date-type="received" iso-8601-date="2025-07-07"><day>07</day><month>07</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-12-16"><day>16</day><month>12</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2026 Евгений Седов, Татьяна Яковлева</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензийн дагуу түгээгдэнэ</license-p></license></permissions>
+<abstract xml:lang="mn"><p>Нөөцийг дахин ашиглах, засварлах, дахин боловсруулахад суурилсан тойрог эдийн засагт шилжихэд зөвхөн томоохон корпорацууд бус, хөдөлмөр эрхлэлт болон байгаль орчинд үзүүлэх нөлөөний томоохон хувийг эзэлдэг жижиг, дунд үйлдвэрүүдийн оролцоо шаардлагатай. Энэхүү системчилсэн тоймд жижиг, дунд бизнест тойрог эдийн засгийн практикийг нэвтрүүлэхэд тулгарах саад тотгор болон хөдөлгөгч хүчний эмпирик судалгааг нэгтгэв. PRISMA удирдамжийн дагуу хийсэн хайлтаар 2015–2025 оны 1 146 бүтээл илэрсэн бөгөөд тэдгээрээс 28 орны 72 судалгаа сонгон оруулах шалгуурыг хангасан. Саад тотгор ба хөдөлгөгч хүчийг санхүүгийн, технологийн, зах зээлийн, институцийн, байгууллагын соёлын гэсэн таван бүлэгт ангилав. Хамгийн олон дурдагдсан саад тотгор нь анхны өндөр зардал ба санхүүжилтийн хязгаарлагдмал хүртээмж (судалгааны 78%), техникийн ур чадварын дутагдал (61%), хоёрдогч түүхий эдээр хийсэн бүтээгдэхүүний хэрэглэгчийн эрэлт бага (47%) байв. Гол хөдөлгөгч хүч нь түүхий эд болон хог хаягдал зайлуулах зардлын хэмнэлт, нийлүүлэлтийн сүлжээн дэх томоохон захиалагчдын шаардлага, эзэмшигчдийн хувийн үнэт зүйлс юм. Төрийн дэмжлэгийн үүргийг хоёрдмол байдлаар үнэлдэг: татаас голчлон зөвлөх үйлчилгээтэй хослуулсан үед үр дүнтэй. Зүүн Европ болон Төв Азийн судалгаанд мэдэгдэхүйц цоорхой байгааг тогтоов. Дэмжлэгийн бодлогын зөвлөмж болон цаашдын судалгааны чиглэлийг томьёолов.</p></abstract>
+<trans-abstract xml:lang="en"><p>The transition to a circular economy based on the reuse, repair and recycling of resources requires the participation not only of large corporations but also of small and medium-sized enterprises, which account for a large share of employment and environmental impact. This systematic review synthesises empirical research on the barriers to and drivers of adopting circular practices in small and medium-sized businesses. A PRISMA-guided search identified 1,146 publications from 2015–2025, of which 72 studies from 28 countries met the inclusion criteria. Barriers and drivers were classified into five groups: financial, technological, market, institutional and organisational-cultural. The most frequently cited barriers were high upfront costs and limited access to finance (78% of studies), a lack of technical competence (61%) and low consumer demand for products made from secondary raw materials (47%). The key drivers are savings on raw material and disposal costs, requirements of large customers in supply chains and the personal values of owners. The role of government support is assessed ambiguously: subsidies are effective mainly in combination with advisory services. A substantial gap in research from Eastern Europe and Central Asia was identified. Recommendations for support policies and directions for further research are formulated.</p></trans-abstract>
+<kwd-group xml:lang="mn" kwd-group-type="author"><kwd>тойрог эдийн засаг</kwd><kwd>жижиг, дунд үйлдвэр</kwd><kwd>системчилсэн тойм</kwd><kwd>тогтвортой хөгжил</kwd><kwd>нийлүүлэлтийн сүлжээ</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>circular economy</kwd><kwd>small and medium-sized enterprises</kwd><kwd>systematic review</kwd><kwd>sustainable development</kwd><kwd>supply chains</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Удиртгал</title>
+<p>Тойрог эдийн засгийн үзэл баримтлал нь «олборлох — үйлдвэрлэх — хаях» шугаман загвараас татгалзаж, бүтээгдэхүүн болон материал үнэ цэнээ аль болох удаан хадгалдаг битүү мөчлөгт шилжихийг санал болгодог. Судалгаа болон бодлогын хөтөлбөрийн ихэнх нь үйлдвэрлэлийн үйл явцаа өөрчлөх нөөцтэй томоохон компаниудад чиглэсэн байдаг.</p>
+<p>Жижиг, дунд үйлдвэрүүд өөр төрлийн хязгаарлалттай тулгардаг: тэдэнд капитал, ур чадвар, нийлүүлэлтийн сүлжээн дэх хэлэлцээрийн хүч бага байдаг. Үүний зэрэгцээ тэд илүү уян хатан бөгөөд орон нутгийн иргэдэд ойр байдаг. Тоймын зорилго нь жижиг, дунд бизнест тойрог эдийн засгийн практикийг нэвтрүүлэхэд саад болж буй болон дэмжиж буй хүчин зүйлсийн эмпирик өгөгдлийг системчлэх явдал юм.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материал ба арга зүй</title>
+<p>Тоймыг PRISMA 2020 зөвлөмжийн дагуу гүйцэтгэв. Хайлтыг ном зүйн мэдээллийн сангуудаас «тойрог эдийн засаг», «жижиг, дунд бизнес» гэсэн нэр томьёо болон тэдгээрийн англи хэл дээрх дүйцлийн хослолоор хийв. 2015–2025 онд англи эсвэл орос хэлээр хэвлэгдсэн эмпирик судалгааг (санал асуулга, кейс судалгаа, ярилцлага, эконометрикийн бүтээл) оруулсан.</p>
+<p>Олдсон 1 146 бичлэгээс давхардлыг хасаж, хураангуйг шүүсний дараа 214 бүтээлийг бүрэн эхээр үнэлж, тэдгээрээс 72 нь сонгон оруулах шалгуурыг хангав. Саад тотгор болон хөдөлгөгч хүчийг хоёр судлаач урьдчилан боловсруулсан схемийн дагуу бие даан кодчилсон; кодлогчдын санал нийцэл κ = 0.79 байв.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Үр дүн</title>
+<p>Сонгон оруулсан судалгаа 28 орныг хамарсан боловч тэдгээрийн 61% нь Баруун Европын орнуудын материал дээр хийгдсэн. Зүүн Европ болон Төв Азийн орнуудын талаарх бүтээл ердөө тав байна. Үндсэн саад тотгорын дурдагдсан давтамжийг 1-р зурагт үзүүлэв.</p>
+<fig id="f1" position="float"><caption><p>Зураг 1. Сонгон оруулсан судалгаанд саад тотгорууд дурдагдсан давтамж, % (n = 72)</p></caption></fig>
+<p>Тойрог эдийн засгийн практикийг нэвтрүүлэх хөдөлгөгч хүчийг 1-р хүснэгтэд бүлэглэв. Эдийн засгийн сэдэл — түүхий эд болон хог хаягдал зайлуулах зардлыг бууруулах нь хамгийн олон дурдагддаг боловч гэр бүлийн аж ахуйн нэгжийн судалгаанд эзэмшигчдийн үнэт зүйлс чухал үүрэг гүйцэтгэдэг.</p>
+<table-wrap id="t1" position="float"><caption><p>Хүснэгт 1. Тойрог эдийн засгийн практикийг нэвтрүүлэх гол хөдөлгөгч хүч</p></caption><table><thead><tr><th>Хөдөлгөгч хүчний бүлэг</th><th>Жишээ</th><th>Судалгааны тоо</th><th>Эзлэх хувь, %</th></tr></thead><tbody><tr><td>Санхүүгийн</td><td>Түүхий эд болон хаягдал зайлуулалтын хэмнэлт</td><td>51</td><td>71</td></tr><tr><td>Зах зээлийн</td><td>Томоохон захиалагчдын шаардлага</td><td>38</td><td>53</td></tr><tr><td>Байгууллагын соёлын</td><td>Эзэмшигчдийн үнэт зүйлс</td><td>31</td><td>43</td></tr><tr><td>Институцийн</td><td>Татаас ба зөвлөгөө</td><td>26</td><td>36</td></tr><tr><td>Технологийн</td><td>Солилцооны дижитал платформ</td><td>17</td><td>24</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Хэлэлцүүлэг</title>
+<p>Санхүүгийн саад тотгор болон хөдөлгөгч хүч давамгайлж байгаа нь жижиг бизнесийн хувьд тойрог эдийн засаг нь байгаль орчны хэлэлцэх асуудал гэхээсээ илүү юуны өмнө эдийн засгийн асуудал болохыг харуулж байна. Тиймээс анхны зардал болон эрсдэлийг бууруулах дэмжлэгийн арга хэмжээ хамгийн их эрэлттэй байна. Үүний зэрэгцээ зөвлөх үйлчилгээний дэмжлэггүй татаас ихэнхдээ тогтвортой өөрчлөлтөд хүргэдэггүй.</p>
+<p>Нотолгооны суурийн газарзүйн хазайлт нь дүгнэлтийг бусад нөхцөлд шилжүүлэх боломжийг хязгаарладаг: институцийн орчин, санхүүжилтийн хүртээмж, дахин боловсруулах дэд бүтэц өөр өөр оронд ихээхэн ялгаатай. Энэ цоорхойг нөхөх нь бүс нутгийн судалгааны чухал зорилт юм.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Дүгнэлт</title>
+<p>Жижиг, дунд бизнест тойрог эдийн засгийн практикийг нэвтрүүлэх нь юуны өмнө эдийн засгийн хөшүүрэг болон нийлүүлэлтийн сүлжээний шаардлагаар тодорхойлогддог. Үр дүнтэй бодлого нь санхүүгийн дэмжлэгийг ур чадвар болон дэд бүтцийн хөгжилтэй хослуулах ёстой.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ном зүй</title>
+<ref id="r1"><mixed-citation>Page M. J., McKenzie J. E., Bossuyt P. M. et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews // BMJ. 2021. Vol. 372. Art. n71.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Kirchherr J., Reike D., Hekkert M. Conceptualizing the circular economy: an analysis of 114 definitions // Resources, Conservation and Recycling. 2017. Vol. 127. P. 221–232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Седов Е. В. Циркулярные бизнес-модели: типология и экономические эффекты // Пространственная экономика и политика. 2023. № 1. С. 31–50.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Яковлева Т. Н. Политика поддержки зелёного предпринимательства в странах ЕАЭС // Экономика устойчивого развития. 2024. Т. 12, № 3. С. 66–83.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Rizos V., Behrens A., Kafyeke T. et al. The circular economy: barriers and opportunities for SMEs. Brussels: CEPS, 2015. 22 p.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindner P., Costa R. Supply-chain pressure and circular practices in small manufacturers // Journal of Sustainable Enterprise. 2022. Vol. 11, no. 2. P. 115–134.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седов Е. В., Громов П. А. Малый бизнес и переработка отходов: результаты регионального обследования // Регион: экономика и общество. 2024. № 5. С. 20–37.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Oduya K., Brandt M. Owner values and environmental strategy in family firms // Small Business and Society. 2021. Vol. 7. P. 50–68.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

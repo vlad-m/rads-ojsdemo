@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="el">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Περιοδικό Διεπιστημονικής Έρευνας (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Επιδεικτικό περιοδικό σε Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Τσίφρα» ΕΠΕ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Ανασκόπηση</subject></subj-group></article-categories>
+<title-group>
+<article-title>Τα υπολογιστικά κέντρα των δεκαετιών 1950–1970 ως επιστημονικά ιδρύματα: ιστοριογραφική ανασκόπηση</article-title>
+<trans-title-group xml:lang="en"><trans-title>Computing Centres of the 1950s–1970s as Scientific Institutions: A Historiographical Review</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Vershinin</surname><given-names>Leonid</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vershinin</surname><given-names>Leonid</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>l.vershinin@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Κέντρο Ιστορίας της Επιστήμης και της Τεχνολογίας «Χρόνος»</institution>, <country country="RU">Ρωσία</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-01-20"><day>20</day><month>01</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-06-10"><day>10</day><month>06</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Leonid Vershinin</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Με άδεια CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="el"><p>Τα υπολογιστικά κέντρα, που ιδρύθηκαν στα μέσα του εικοστού αιώνα σε ερευνητικά ινστιτούτα, πανεπιστήμια και βιομηχανικές επιχειρήσεις, διαδραμάτισαν καθοριστικό ρόλο στη μετατροπή του υπολογισμού σε αυτοτελές εργαλείο επιστημονικής έρευνας. Η παρούσα ανασκόπηση εξετάζει πώς οι ιστορικοί της επιστήμης και της τεχνολογίας μελέτησαν αυτά τα ιδρύματα κατά τα τελευταία πενήντα χρόνια. Με βάση την ανάλυση 64 μονογραφιών, άρθρων και συλλογικών τόμων, εντοπίζονται τρεις κύριες ιστοριογραφικές προσεγγίσεις. Η πρώτη, τεχνικο-βιογραφική, επικεντρώνεται στην κατασκευή συγκεκριμένων υπολογιστών και στο έργο των σχεδιαστών τους. Η δεύτερη, θεσμική, αντιμετωπίζει τα υπολογιστικά κέντρα ως οργανισμούς με τη δική τους δομή, πολιτική στελέχωσης και σχέσεις με τους πελάτες. Η τρίτη, που αναδύθηκε τις δύο τελευταίες δεκαετίες, ερευνά τις υπολογιστικές πρακτικές: πώς αλληλεπιδρούσαν οι προγραμματιστές, οι χειριστές και οι χρήστες με τις μηχανές και πώς ο υπολογισμός μετασχημάτισε τις μεθόδους επιμέρους επιστημονικών κλάδων, από τη μετεωρολογία έως τη γλωσσολογία. Τα λιγότερο μελετημένα θέματα παραμένουν η καθημερινή λειτουργία των υπολογιστικών κέντρων, ο ρόλος των γυναικών προγραμματιστριών και χειριστριών, καθώς και τα περιφερειακά κέντρα εκτός των μεγαλύτερων επιστημονικών πόλεων. Χωριστά συζητούνται τα προβλήματα της βάσης πηγών, όπως η διατήρηση της τεχνικής τεκμηρίωσης, των ημερολογίων χρόνου μηχανής και των προγραμμάτων. Η ανασκόπηση καταλήγει ότι ο συνδυασμός της αρχειακής έρευνας με μεθόδους προφορικής ιστορίας είναι πολλά υποσχόμενος όσο οι συμμετέχοντες σε αυτά τα γεγονότα βρίσκονται ακόμη εν ζωή.</p></abstract>
+<trans-abstract xml:lang="en"><p>Computing centres, established in the mid-twentieth century at research institutes, universities and industrial enterprises, played a key role in turning computation into an independent instrument of scientific inquiry. This review examines how historians of science and technology have studied these institutions over the past fifty years. Based on an analysis of 64 monographs, articles and edited volumes, three main historiographical approaches are identified. The first, technical-biographical, focuses on the construction of particular computers and the work of their designers. The second, institutional, treats computing centres as organisations with their own structure, staffing policies and relations with clients. The third, which has emerged over the last two decades, investigates computing practices: how programmers, operators and users interacted with machines and how computation transformed the methods of individual disciplines, from meteorology to linguistics. The least studied topics remain the everyday work of computing centres, the role of women programmers and operators, and regional centres outside the largest science cities. Problems of the source base are discussed separately, including the preservation of technical documentation, machine-time logs and programs. The review concludes that combining archival research with oral history methods is promising while participants in these events are still alive.</p></trans-abstract>
+<kwd-group xml:lang="el" kwd-group-type="author"><kwd>ιστορία της επιστήμης</kwd><kwd>ιστορία της πληροφορικής</kwd><kwd>υπολογιστικά κέντρα</kwd><kwd>ιστοριογραφία</kwd><kwd>προφορική ιστορία</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>history of science</kwd><kwd>history of computing</kwd><kwd>computing centres</kwd><kwd>historiography</kwd><kwd>oral history</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Εισαγωγή</title>
+<p>Η εμφάνιση των ηλεκτρονικών υπολογιστών στα τέλη της δεκαετίας του 1940 και τη δεκαετία του 1950 απαίτησε τη δημιουργία ειδικών ιδρυμάτων: οι μηχανές ήταν ακριβές, καταλάμβαναν ολόκληρες αίθουσες και χρειάζονταν συντήρηση όλο το εικοσιτετράωρο. Τα υπολογιστικά κέντρα έγιναν ο τόπος όπου συναντιούνταν μηχανικοί, μαθηματικοί και επιστήμονες-χρήστες και όπου σταδιακά διαμορφώθηκαν νέα επαγγέλματα, όπως του προγραμματιστή και του χειριστή.</p>
+<p>Η ιστοριογραφία των υπολογιστικών κέντρων αναπτύχθηκε μαζί με την ίδια την ιστορία της υπολογιστικής τεχνολογίας ως επιστημονικού κλάδου. Στόχος της ανασκόπησης είναι η συστηματοποίηση των προσεγγίσεων στη μελέτη αυτών των ιδρυμάτων, ο εντοπισμός των ελάχιστα μελετημένων θεμάτων και η συζήτηση της κατάστασης της βάσης πηγών.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Υλικά και μέθοδοι</title>
+<p>Το σώμα της ανασκόπησης καταρτίστηκε με βάση τις βιβλιογραφίες βασικών εργασιών και τα θεματικά ευρετήρια εξειδικευμένων περιοδικών ιστορίας της επιστήμης και της τεχνολογίας. Συμπεριλήφθηκαν μελέτες στις οποίες το υπολογιστικό κέντρο (και όχι μια μεμονωμένη μηχανή ή προσωπικότητα) αποτελεί αντικείμενο ανάλυσης σε τουλάχιστον ένα κεφάλαιο ή ενότητα. Το τελικό σώμα περιλαμβάνει 64 εργασίες που δημοσιεύθηκαν από το 1975 έως το 2024.</p>
+<p>Κάθε εργασία ταξινομήθηκε ως προς την κυρίαρχη προσέγγιση, τον τύπο των πηγών που χρησιμοποιούνται και τη γεωγραφία των ιδρυμάτων που μελετώνται. Η ταξινόμηση πραγματοποιήθηκε από τον συγγραφέα και επανελέγχθηκε έναν χρόνο αργότερα για την αξιολόγηση της σταθερότητάς της.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Αποτελέσματα</title>
+<p>Η κατανομή των εργασιών ανά δεκαετία και προσέγγιση παρουσιάζεται στο Σχ. 1. Έως τη δεκαετία του 1990 κυριαρχούσε η τεχνικο-βιογραφική προσέγγιση, που εκπροσωπείται κυρίως από απομνημονεύματα συμμετεχόντων στα γεγονότα και επετειακές εκδόσεις. Οι θεσμικές μελέτες έγιναν αισθητές τις δεκαετίες του 1990 και του 2000, ενώ οι μελέτες πρακτικών μετά το 2010.</p>
+<fig id="f1" position="float"><caption><p>Σχ. 1. Αριθμός εργασιών ανά δεκαετία δημοσίευσης και κυρίαρχη προσέγγιση</p></caption></fig>
+<p>Ο Πίν. 1 δείχνει ποιες πηγές χρησιμοποιούνται στο πλαίσιο των διαφόρων προσεγγίσεων. Αξιοσημείωτο είναι ότι τα ημερολόγια χρόνου μηχανής και τα διασωθέντα κείμενα προγραμμάτων αξιοποιούνται μόνο σε μικρό μέρος των εργασιών, παρότι επιτρέπουν την ανασύνθεση του πραγματικού φόρτου των μηχανών και του είδους των προβλημάτων που επιλύονταν.</p>
+<table-wrap id="t1" position="float"><caption><p>Πίνακας 1. Τύποι πηγών ανά ιστοριογραφική προσέγγιση (ποσοστό εργασιών, %)</p></caption><table><thead><tr><th>Τύπος πηγής</th><th>Τεχνικο-βιογρ.</th><th>Θεσμική</th><th>Πρακτικές</th></tr></thead><tbody><tr><td>Απομνημονεύματα και συνεντεύξεις</td><td>84</td><td>48</td><td>72</td></tr><tr><td>Διοικητικά έγγραφα των ιδρυμάτων</td><td>28</td><td>86</td><td>56</td></tr><tr><td>Τεχνική τεκμηρίωση</td><td>76</td><td>31</td><td>44</td></tr><tr><td>Ημερολόγια χρόνου μηχανής</td><td>4</td><td>17</td><td>39</td></tr><tr><td>Κείμενα προγραμμάτων</td><td>8</td><td>3</td><td>33</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Συζήτηση</title>
+<p>Η εναλλαγή των προσεγγίσεων αντανακλά τη γενικότερη εξέλιξη της ιστορίας της επιστήμης από την ιστορία των ανακαλύψεων και των εφευρετών προς την κοινωνική ιστορία της γνώσης και την ιστορία των πρακτικών. Ταυτόχρονα, οι τεχνικο-βιογραφικές εργασίες διατηρούν την αξία τους ως πηγή πραγματολογικών στοιχείων, ιδίως όταν βασίζονται σε έγγραφα μη προσβάσιμα στους ερευνητές.</p>
+<p>Τα κύρια κενά αφορούν τους «αόρατους» συμμετέχοντες στην υπολογιστική εργασία —χειριστές, διατρήτριες καρτών, προγραμματιστές, πολλοί από τους οποίους ήταν γυναίκες— καθώς και τα περιφερειακά κέντρα. Ο χρόνος για την καταγραφή συνεντεύξεων με συμμετέχοντες στα γεγονότα είναι περιορισμένος, γεγονός που καθιστά τα προγράμματα προφορικής ιστορίας ιδιαίτερα επίκαιρα.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Συμπεράσματα</title>
+<p>Η ιστοριογραφία των υπολογιστικών κέντρων διένυσε την πορεία από την ιστορία των μηχανών στην ιστορία των πρακτικών. Η περαιτέρω πρόοδος απαιτεί διεύρυνση της βάσης πηγών —συστηματική αναζήτηση ημερολογίων χρόνου μηχανής και προγραμμάτων— και συνδυασμό της αρχειακής εργασίας με την προφορική ιστορία.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Βιβλιογραφία</title>
+<ref id="r1"><mixed-citation>Campbell-Kelly M., Aspray W., Ensmenger N., Yost J. R. Computer: A History of the Information Machine. 3rd ed. Boulder: Westview Press, 2014. 360 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Ensmenger N. The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise. Cambridge, MA: MIT Press, 2010. 336 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Вершинин Л. А. Вычислительный центр как научное учреждение: опыт институционального анализа // Вопросы истории науки и техники. 2019. Т. 40, № 3. С. 77–96.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Вершинин Л. А., Гладкова З. Н. Журналы машинного времени как исторический источник // Архивы и история техники. 2021. № 2. С. 12–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Haigh T., Priestley M. Computing practices and the history of software: an agenda // Annals of Computing History Review. 2020. Vol. 12, no. 1. P. 3–21.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Гладкова З. Н. Женщины в программировании 1950–1970-х гг.: материалы устной истории // Наука и общество в истории. 2022. Т. 6, № 4. С. 101–118.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Abbate J. Recoding Gender: Women's Changing Participation in Computing. Cambridge, MA: MIT Press, 2012. 264 p.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мирский Е. Б. Региональные вычислительные центры и научная политика. М.: Хронос, 2018. 304 с.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Dahl K., Ostrowski P. Numerical weather prediction and the making of a computing community // Science in Context Studies. 2019. Vol. 27. P. 210–233.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

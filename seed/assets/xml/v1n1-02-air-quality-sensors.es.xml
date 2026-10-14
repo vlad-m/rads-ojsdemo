@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista de Investigación Interdisciplinaria (demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revista de demostración en Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra S.R.L.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Artículo de investigación</subject></subj-group></article-categories>
+<title-group>
+<article-title>Calibración mediante aprendizaje automático de sensores de PM2.5 de bajo coste en un clima marcadamente continental</article-title>
+<trans-title-group xml:lang="en"><trans-title>Machine-Learning Calibration of Low-Cost PM2.5 Sensors in a Sharply Continental Climate</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Karimov</surname><given-names>Timur</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Karimov</surname><given-names>Timur</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>t.karimov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Vasilenko</surname><given-names>Olga</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vasilenko</surname><given-names>Olga</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Instituto de Analítica Aplicada del Volga</institution>, <country country="RU">Rusia</country></aff>
+<aff id="aff2"><institution>Instituto de Investigación en Salud Pública Vita</institution>, <country country="RU">Rusia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>9</fpage><lpage>11</lpage>
+<history><date date-type="received" iso-8601-date="2024-09-30"><day>30</day><month>09</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-03"><day>03</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Timur Karimov, Olga Vasilenko</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Publicado bajo licencia CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="es"><p>Los sensores ópticos de bajo coste de partículas finas pueden aumentar considerablemente la densidad de las redes de monitorización de la calidad del aire, pero sus lecturas dependen en gran medida de la humedad y la temperatura y se desvían sistemáticamente de las mediciones de referencia. Este estudio compara métodos de calibración de dichos sensores en un clima marcadamente continental con una gran amplitud térmica anual. Durante 14 meses se coubicaron ocho sensores con una estación de referencia gravimétrica, lo que proporcionó más de 76 000 observaciones horarias. Se compararon la regresión lineal, la regresión múltiple con corrección por humedad relativa, el bosque aleatorio y el potenciado de gradiente (gradient boosting). El rendimiento se evaluó mediante validación cruzada por bloques semanales, que impide la fuga de información entre las muestras de entrenamiento y de prueba. Sin calibración, el error absoluto medio fue de 11,8 µg/m³; tras la corrección lineal descendió a 6,4 µg/m³, y el potenciado de gradiente lo redujo a 3,1 µg/m³. Las variables más importantes fueron la humedad relativa, la temperatura y las lecturas de los sensores vecinos. Los modelos entrenados únicamente con datos de verano se transfirieron mal al periodo invernal, lo que subraya la necesidad de una calibración durante todo el año. Concluimos que, una vez calibrados con métodos de aprendizaje automático, los sensores de bajo coste son adecuados para evaluar la dinámica diaria de la contaminación e identificar fuentes locales. El código y los datos anonimizados están disponibles en abierto para su reutilización.</p></abstract>
+<trans-abstract xml:lang="en"><p>Low-cost optical sensors of fine particulate matter can substantially increase the density of air-quality monitoring networks, but their readings depend strongly on humidity and temperature and deviate systematically from reference measurements. This study compares calibration methods for such sensors in a sharply continental climate with a large annual temperature range. For 14 months, eight sensors were co-located with a gravimetric reference station, yielding more than 76,000 hourly observations. Linear regression, multiple regression with a relative-humidity correction, random forest and gradient boosting were compared. Performance was assessed with weekly blocked cross-validation that prevents information leakage between training and test samples. Without calibration, the mean absolute error was 11.8 µg/m³; after linear correction it fell to 6.4 µg/m³, and gradient boosting reduced it to 3.1 µg/m³. The most important features were relative humidity, temperature and the readings of neighbouring sensors. Models trained on summer data alone transferred poorly to the winter period, underlining the need for year-round calibration. We conclude that, once calibrated with machine-learning methods, low-cost sensors are suitable for assessing the diurnal dynamics of pollution and identifying local sources. The code and anonymised data are openly available for reuse.</p></trans-abstract>
+<kwd-group xml:lang="es" kwd-group-type="author"><kwd>calidad del aire</kwd><kwd>PM2.5</kwd><kwd>sensores de bajo coste</kwd><kwd>calibración</kwd><kwd>potenciado de gradiente</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>air quality</kwd><kwd>PM2.5</kwd><kwd>low-cost sensors</kwd><kwd>calibration</kwd><kwd>gradient boosting</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introducción</title>
+<p>Las partículas finas PM2.5 son uno de los principales factores de riesgo para la salud asociados a la contaminación del aire ambiente. Las estaciones de monitorización de referencia son caras y escasas: en una ciudad típica de medio millón de habitantes hay una o dos. Los sensores ópticos de bajo coste, que cuestan unos pocos miles de rublos, permiten crear una red densa, pero sus lecturas requieren calibración.</p>
+<p>La principal causa de error es el crecimiento higroscópico de las partículas con humedad elevada, que hace que el sensor sobrestime la concentración másica. En un clima marcadamente continental se suman a ello las bajas temperaturas invernales, que afectan al funcionamiento de la electrónica. El objetivo del trabajo es comparar métodos de calibración y evaluar su transferibilidad entre estaciones del año.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiales y métodos</title>
+<p>Se instalaron ocho sensores del mismo modelo en el techo de la caseta de la estación de referencia, a 3 m de altura. El periodo de observación se extendió de octubre de 2022 a noviembre de 2023. Los datos se agregaron a valores horarios; se excluyeron las horas con registros incompletos (menos de 45 minutos). La muestra final consta de 76 412 pares de observaciones.</p>
+<p>Se compararon cuatro modelos: regresión lineal simple sobre la señal bruta; regresión múltiple con humedad relativa, temperatura y su interacción; bosque aleatorio (500 árboles); potenciado de gradiente (profundidad 6, tasa de aprendizaje 0,05). Para evaluar el rendimiento se utilizó validación cruzada por bloques: los datos se dividieron en bloques semanales y cada bloque sirvió sucesivamente como muestra de prueba.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Resultados</title>
+<p>Los resultados de la comparación se presentan en la tabla 1 y en la figura 1. Todos los métodos de calibración reducen considerablemente el error; la diferencia entre la regresión lineal con corrección por humedad y los métodos de conjunto es especialmente grande con humedades relativas superiores al 80 %.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Error absoluto medio (MAE) de los distintos métodos de calibración, µg/m³</p></caption></fig>
+<p>Cuando el modelo se entrenaba solo con datos de verano y se evaluaba con datos de invierno, el error absoluto medio del potenciado de gradiente aumentaba hasta 7,9 µg/m³, apenas algo mejor que la corrección lineal. La inclusión en la muestra de entrenamiento de al menos un mes de invierno reducía el error a 3,6 µg/m³.</p>
+<table-wrap id="t1" position="float"><caption><p>Tabla 1. Rendimiento de los métodos de calibración (validación cruzada por bloques semanales)</p></caption><table><thead><tr><th>Método</th><th>MAE, µg/m³</th><th>RMSE, µg/m³</th><th>R²</th></tr></thead><tbody><tr><td>Sin calibración</td><td>11,8</td><td>17,2</td><td>0,58</td></tr><tr><td>Regresión lineal</td><td>6,4</td><td>9,9</td><td>0,74</td></tr><tr><td>Lineal + humedad</td><td>4,7</td><td>7,3</td><td>0,85</td></tr><tr><td>Bosque aleatorio</td><td>3,4</td><td>5,6</td><td>0,91</td></tr><tr><td>Potenciado de gradiente</td><td>3,1</td><td>5,1</td><td>0,93</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discusión</title>
+<p>Los valores de error obtenidos tras la calibración son comparables a las tolerancias de las mediciones indicativas y permiten utilizar la red de sensores de bajo coste para estimar perfiles diarios e identificar fuentes locales: salas de calderas, autopistas o zonas de viviendas unifamiliares con calefacción de estufa.</p>
+<p>La falta de transferibilidad estacional de los modelos es una limitación práctica importante. Una calibración realizada en verano puede producir errores sistemáticos en invierno, cuando la contaminación es más peligrosa. Recomendamos un periodo de mediciones conjuntas de al menos un año antes del despliegue de la red.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusiones</title>
+<p>Los métodos de aprendizaje automático de conjunto reducen casi a la cuarta parte el error de los sensores de PM2.5 de bajo coste. La condición clave para una calibración correcta es que la muestra de entrenamiento incluya datos de todas las estaciones del año.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Referencias</title>
+<ref id="r1"><mixed-citation>Breiman L. Random forests // Machine Learning. 2001. Vol. 45, no. 1. P. 5–32.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Friedman J. H. Greedy function approximation: a gradient boosting machine // Annals of Statistics. 2001. Vol. 29, no. 5. P. 1189–1232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Каримов Т. Р. Блочная кросс-валидация для пространственно-временных данных: практическое руководство // Прикладная аналитика. 2022. Т. 6, № 3. С. 41–58.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Holloway R., Nakamura E. Humidity effects on optical particle counters: a field evaluation // Atmospheric Measurement Notes. 2019. Vol. 12. P. 233–248.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Василенко О. П., Аркадьева Н. С. Кратковременное воздействие PM2.5 и обращаемость за медицинской помощью: обзор исследований // Экология человека и среда. 2021. № 7. С. 4–19.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Petrescu D., Olsen K. Transferability of calibration models for low-cost air sensors across seasons // Environmental Sensing Review. 2022. Vol. 4, no. 2. P. 77–95.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Захаров Л. Е. Сети мониторинга атмосферного воздуха: принципы проектирования. Новобор: Академия, 2020. 184 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="fr">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revue de recherche interdisciplinaire (démo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revue de démonstration sous Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>SARL Tsifra</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Article de recherche</subject></subj-group></article-categories>
+<title-group>
+<article-title>Étalonnage par apprentissage automatique de capteurs PM2.5 à bas coût en climat fortement continental</article-title>
+<trans-title-group xml:lang="en"><trans-title>Machine-Learning Calibration of Low-Cost PM2.5 Sensors in a Sharply Continental Climate</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Karimov</surname><given-names>Timur</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Karimov</surname><given-names>Timur</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>t.karimov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Vasilenko</surname><given-names>Olga</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vasilenko</surname><given-names>Olga</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Institut d’analytique appliquée de la Volga</institution>, <country country="RU">Russie</country></aff>
+<aff id="aff2"><institution>Institut de recherche en santé publique « Vita »</institution>, <country country="RU">Russie</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>9</fpage><lpage>11</lpage>
+<history><date date-type="received" iso-8601-date="2024-09-30"><day>30</day><month>09</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-03"><day>03</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Timur Karimov, Olga Vasilenko</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Diffusé sous licence CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="fr"><p>Les capteurs optiques à bas coût de particules fines permettent d’accroître sensiblement la densité des réseaux de surveillance de la qualité de l’air, mais leurs mesures dépendent fortement de l’humidité et de la température et s’écartent systématiquement des mesures de référence. Cette étude compare des méthodes d’étalonnage de tels capteurs dans un climat fortement continental caractérisé par une grande amplitude thermique annuelle. Pendant 14 mois, huit capteurs ont été colocalisés avec une station de référence gravimétrique, ce qui a fourni plus de 76 000 observations horaires. La régression linéaire, la régression multiple avec correction de l’humidité relative, la forêt aléatoire et le gradient boosting ont été comparés. Les performances ont été évaluées par une validation croisée par blocs hebdomadaires qui empêche toute fuite d’information entre les échantillons d’apprentissage et de test. Sans étalonnage, l’erreur absolue moyenne était de 11,8 µg/m³ ; après correction linéaire, elle est tombée à 6,4 µg/m³, et le gradient boosting l’a réduite à 3,1 µg/m³. Les variables les plus importantes étaient l’humidité relative, la température et les mesures des capteurs voisins. Les modèles entraînés sur les seules données estivales se transposaient mal à la période hivernale, ce qui souligne la nécessité d’un étalonnage sur l’ensemble de l’année. Nous concluons qu’une fois étalonnés par des méthodes d’apprentissage automatique, les capteurs à bas coût conviennent à l’évaluation de la dynamique journalière de la pollution et à l’identification des sources locales. Le code et les données anonymisées sont librement accessibles en vue de leur réutilisation.</p></abstract>
+<trans-abstract xml:lang="en"><p>Low-cost optical sensors of fine particulate matter can substantially increase the density of air-quality monitoring networks, but their readings depend strongly on humidity and temperature and deviate systematically from reference measurements. This study compares calibration methods for such sensors in a sharply continental climate with a large annual temperature range. For 14 months, eight sensors were co-located with a gravimetric reference station, yielding more than 76,000 hourly observations. Linear regression, multiple regression with a relative-humidity correction, random forest and gradient boosting were compared. Performance was assessed with weekly blocked cross-validation that prevents information leakage between training and test samples. Without calibration, the mean absolute error was 11.8 µg/m³; after linear correction it fell to 6.4 µg/m³, and gradient boosting reduced it to 3.1 µg/m³. The most important features were relative humidity, temperature and the readings of neighbouring sensors. Models trained on summer data alone transferred poorly to the winter period, underlining the need for year-round calibration. We conclude that, once calibrated with machine-learning methods, low-cost sensors are suitable for assessing the diurnal dynamics of pollution and identifying local sources. The code and anonymised data are openly available for reuse.</p></trans-abstract>
+<kwd-group xml:lang="fr" kwd-group-type="author"><kwd>qualité de l’air</kwd><kwd>PM2.5</kwd><kwd>capteurs à bas coût</kwd><kwd>étalonnage</kwd><kwd>gradient boosting</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>air quality</kwd><kwd>PM2.5</kwd><kwd>low-cost sensors</kwd><kwd>calibration</kwd><kwd>gradient boosting</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introduction</title>
+<p>Les particules fines PM2.5 constituent l’un des principaux facteurs de risque sanitaire liés à la pollution de l’air ambiant. Les stations de surveillance de référence sont coûteuses et peu nombreuses : une ville typique d’un demi-million d’habitants en compte une ou deux. Des capteurs optiques à bas coût, valant quelques milliers de roubles, permettent de constituer un réseau dense, mais leurs mesures nécessitent un étalonnage.</p>
+<p>La principale source d’erreur est la croissance hygroscopique des particules par forte humidité, qui conduit le capteur à surestimer la concentration massique. En climat fortement continental s’y ajoutent les basses températures hivernales, qui affectent le fonctionnement de l’électronique. L’objectif de ce travail est de comparer des méthodes d’étalonnage et d’évaluer leur transposabilité d’une saison à l’autre.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Matériel et méthodes</title>
+<p>Huit capteurs d’un même modèle ont été installés sur le toit de l’abri de la station de référence, à 3 m de hauteur. La période d’observation s’étend d’octobre 2022 à novembre 2023. Les données ont été agrégées en valeurs horaires ; les heures aux enregistrements incomplets (moins de 45 minutes) ont été exclues. L’échantillon final compte 76 412 paires d’observations.</p>
+<p>Quatre modèles ont été comparés : une régression linéaire simple sur le signal brut ; une régression multiple intégrant l’humidité relative, la température et leur interaction ; une forêt aléatoire (500 arbres) ; un gradient boosting (profondeur 6, taux d’apprentissage 0,05). Les performances ont été évaluées par validation croisée par blocs : les données ont été découpées en blocs hebdomadaires, chaque bloc servant tour à tour d’échantillon de test.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Résultats</title>
+<p>Les résultats de la comparaison figurent dans le tableau 1 et la figure 1. Toutes les méthodes d’étalonnage réduisent sensiblement l’erreur ; l’écart entre la régression linéaire avec correction de l’humidité et les méthodes d’ensemble est particulièrement important lorsque l’humidité relative dépasse 80 %.</p>
+<fig id="f1" position="float"><caption><p>Figure 1. Erreur absolue moyenne (MAE) des différentes méthodes d’étalonnage, µg/m³</p></caption></fig>
+<p>Avec un apprentissage sur les seules données estivales et un test sur les données hivernales, l’erreur absolue moyenne du gradient boosting atteignait 7,9 µg/m³, ce qui n’est guère meilleur que la correction linéaire. L’ajout d’un seul mois d’hiver à l’échantillon d’apprentissage ramenait l’erreur à 3,6 µg/m³.</p>
+<table-wrap id="t1" position="float"><caption><p>Tableau 1. Performances des méthodes d’étalonnage (validation croisée par blocs hebdomadaires)</p></caption><table><thead><tr><th>Méthode</th><th>MAE, µg/m³</th><th>RMSE, µg/m³</th><th>R²</th></tr></thead><tbody><tr><td>Sans étalonnage</td><td>11,8</td><td>17,2</td><td>0,58</td></tr><tr><td>Régression linéaire</td><td>6,4</td><td>9,9</td><td>0,74</td></tr><tr><td>Linéaire + humidité</td><td>4,7</td><td>7,3</td><td>0,85</td></tr><tr><td>Forêt aléatoire</td><td>3,4</td><td>5,6</td><td>0,91</td></tr><tr><td>Gradient boosting</td><td>3,1</td><td>5,1</td><td>0,93</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussion</title>
+<p>Les erreurs obtenues après étalonnage sont compatibles avec les tolérances admises pour les mesures indicatives et permettent d’utiliser un réseau de capteurs à bas coût pour évaluer les profils journaliers et identifier les sources locales : chaufferies, axes routiers, secteurs d’habitat individuel chauffés au poêle.</p>
+<p>La non-transposabilité saisonnière des modèles constitue une limite pratique importante. Un étalonnage réalisé en été peut produire des erreurs systématiques en hiver, lorsque la pollution est la plus dangereuse. Nous recommandons une période de mesures colocalisées d’au moins un an avant le déploiement du réseau.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusion</title>
+<p>Les méthodes d’apprentissage automatique d’ensemble divisent par près de quatre l’erreur des capteurs PM2.5 à bas coût. La condition essentielle d’un étalonnage correct est la présence, dans l’échantillon d’apprentissage, de données couvrant toutes les saisons de l’année.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Références bibliographiques</title>
+<ref id="r1"><mixed-citation>Breiman L. Random forests // Machine Learning. 2001. Vol. 45, no. 1. P. 5–32.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Friedman J. H. Greedy function approximation: a gradient boosting machine // Annals of Statistics. 2001. Vol. 29, no. 5. P. 1189–1232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Каримов Т. Р. Блочная кросс-валидация для пространственно-временных данных: практическое руководство // Прикладная аналитика. 2022. Т. 6, № 3. С. 41–58.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Holloway R., Nakamura E. Humidity effects on optical particle counters: a field evaluation // Atmospheric Measurement Notes. 2019. Vol. 12. P. 233–248.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Василенко О. П., Аркадьева Н. С. Кратковременное воздействие PM2.5 и обращаемость за медицинской помощью: обзор исследований // Экология человека и среда. 2021. № 7. С. 4–19.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Petrescu D., Olsen K. Transferability of calibration models for low-cost air sensors across seasons // Environmental Sensing Review. 2022. Vol. 4, no. 2. P. 77–95.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Захаров Л. Е. Сети мониторинга атмосферного воздуха: принципы проектирования. Новобор: Академия, 2020. 184 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

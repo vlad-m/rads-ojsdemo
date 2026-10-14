@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="mn">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Салбар дундын судалгааны сэтгүүл (Демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems-ийн демо сэтгүүл</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ХХК</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Судалгааны өгүүлэл</subject></subj-group></article-categories>
+<title-group>
+<article-title>Нийтийн тээврийн хүртээмж ба орон сууцны үнэ: хот суурин бөөгнөрлийн гедоник загвар</article-title>
+<subtitle>Шинэ хөнгөн төмөр замын шугам нээгдсэн туршлагаас</subtitle>
+<trans-title-group xml:lang="en"><trans-title>Transit Accessibility and Housing Prices: A Hedonic Model for an Urban Agglomeration</trans-title><trans-subtitle>Evidence from the Opening of a New Light Rail Line</trans-subtitle></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Мельников</surname><given-names>Артём</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.melnikov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Громов</surname><given-names>Павел</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Полякова</surname><given-names>Дарья</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Polyakova</surname><given-names>Daria</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Седов</surname><given-names>Евгений</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sedov</surname><given-names>Evgeny</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Хот судлалын «Полис» дээд сургууль</institution>, <country country="RU">Орос</country></aff>
+<aff id="aff2"><institution>Эдийн засаг ба орон зайн хөгжлийн «Меридиан» хүрээлэн</institution>, <country country="RU">Орос</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>7</lpage>
+<history><date date-type="received" iso-8601-date="2025-09-02"><day>02</day><month>09</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-01-19"><day>19</day><month>01</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Артём Мельников, Павел Громов, Дарья Полякова, Евгений Седов</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензийн дагуу түгээгдэнэ</license-p></license></permissions>
+<abstract xml:lang="mn"><p>Нийтийн тээврийн хөрөнгө оруулалт хотын орон зайн бүтцийг өөрчилдөг бөгөөд үүний хамгийн илэрхий хэлбэрүүдийн нэг нь шинэ буудлын ойролцоох орон сууцны үнийн өөрчлөлт юм. Энэхүү өгүүлэлд ойролцоогоор 1.2 сая хүн амтай, нэрийг нь нууцалсан хот суурин бөөгнөрөлд 17 км урт хөнгөн төмөр замын шугам нээгдсэн нь орон сууцны үнэд үзүүлэх нөлөөг үнэлэв. Өгөгдөл нь 2018–2024 оны 46 000 хэлцэл болон худалдааны зараас бүрдэх бөгөөд газарзүйн кодчилол хийж, барилга болон хорооллын шинж чанараар нөхсөн. Тээврийн хүртээмжийг шугам нээгдэхээс өмнө болон дараа нийтийн тээврээр 45 минутын дотор хүрэх боломжтой ажлын байрны тоогоор хэмжив. Нөлөөг гедоник ялгаврын ялгавар загвараар тодорхойлсон бөгөөд туршилтын бүлэгт шинэ буудлуудаас 800 м-ийн дотор байрлах орон сууцууд багтсан. Шугам нээгдсэний дараа үйлчилгээний бүсэд орон сууцны үнэ хяналтын бүсээс 6.8%-иар илүү өссөн бөгөөд нөлөө нь барилгын ажил эхлэхийг зарласан үеэс аль хэдийн илэрч эхэлсэн. Анхнаасаа хүртээмж муу байсан захын дүүргүүдийн орон сууцанд нөлөө илүү хүчтэй, харин төвд бараг ажиглагдаагүй. Хүртээмж 10 000 ажлын байраар нэмэгдэх нь нэг метр квадратын үнэ 1.9%-иар өсөхтэй холбоотой. Үр дүнг тээврийн дэд бүтцийг санхүүжүүлэх газрын үнэ цэнийн өсөлтийг татах (land value capture) механизмыг үндэслэхэд ашиглаж болно.</p></abstract>
+<trans-abstract xml:lang="en"><p>Investment in public transport reshapes the spatial structure of a city, and one of the most visible manifestations of this is the change in housing prices near new stations. This article estimates the effect of opening a 17-km light rail line on apartment prices in an anonymised agglomeration with a population of about 1.2 million. The data comprise 46,000 transactions and sale listings for 2018–2024, geocoded and supplemented with building and neighbourhood characteristics. Transit accessibility was measured as the number of jobs reachable within 45 minutes by public transport before and after the opening of the line. The effect was identified with a hedonic difference-in-differences model in which the treatment group consists of apartments within 800 m of the new stations. After the line opened, apartment prices in the catchment area increased by 6.8% more than in the control area, and the effect began to appear as early as the announcement of construction. The effect is stronger for apartments in peripheral districts with initially low accessibility and practically absent in the centre. An increase in accessibility of 10,000 jobs is associated with a 1.9% increase in the price per square metre. The results can be used to justify land value capture mechanisms for financing transport infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="mn" kwd-group-type="author"><kwd>нийтийн тээврийн хүртээмж</kwd><kwd>гедоник загвар</kwd><kwd>орон сууцны зах зээл</kwd><kwd>хөнгөн төмөр зам</kwd><kwd>газрын үнэ цэнийн өсөлтийг татах</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>transit accessibility</kwd><kwd>hedonic model</kwd><kwd>housing market</kwd><kwd>light rail</kwd><kwd>land value capture</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Удиртгал</title>
+<p>Тээврийн хүртээмж болон үл хөдлөх хөрөнгийн үнийн хоорондын холбоо нь хотын эдийн засгийн суурь сэдвүүдийн нэг юм. Моноцентрик хотын сонгодог загвар тээврийн зардал буурах нь төвөөс алслагдсан газрын үнэ цэнийг өсгөнө гэж таамагладаг. Өөр өөр оронд хийсэн эмпирик судалгаа ерөнхийдөө үүнийг баталдаг боловч нөлөөний үнэлгээ ихээхэн ялгаатай байдаг.</p>
+<p>2022 онд судалж буй хот суурин бөөгнөрөлд хурдан трамвайн шинэ шугам нээгдсэн нь байгалийн туршилтыг бий болгосон. Бүтээлийн зорилго нь үүнээс үүдэлтэй орон сууцны үнийн өөрчлөлтийг үнэлж, түүний цаг хугацаа болон орон зай дахь динамикийг мөрдөж, ажлын байрны хүртээмжийн өөрчлөлттэй холбох явдал юм.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материал ба арга зүй</title>
+<p>Анхдагч өгөгдөлд 2018–2024 оны 18 мянган бүртгэгдсэн хэлцэл болон орон сууц худалдах тухай 28 мянган зар багтсан. Зарын хувьд нийтлэлээс хасагдахаас өмнөх сүүлийн үнийг ашигласан. Бүх объектод газарзүйн кодчилол хийж, шинж чанараар нөхсөн: талбай, давхар, барилгын ашиглалтад орсон он ба материал, төв, цэцэрлэгт хүрээлэн, сургууль хүртэлх зай.</p>
+<p>Ажлын байрны хүртээмжийг нийтийн тээврийн хуваарь болон хөдөлмөр эрхлэлтийн байршлын өгөгдлөөр тооцоолов. Нэг метр квадратын үнийн логарифмын гедоник загварт объектын шинж чанар, дүүрэг болон хороолол-хугацааны тогтмол нөлөө, мөн нөлөөллийн бүсийн индикатор (буудлаас 800 м хүртэл) болон «зарласан», «барилгын ажил», «ашиглалт» үеүдийн харилцан үйлчлэл багтсан.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Үр дүн</title>
+<p>Нөлөөллийн бүс болон хяналтын бүсийн үнийн зөрүүний динамикийг 1-р зурагт үзүүлэв. Барилгын ажлыг зарлахаас өмнө ялгаа статистикийн хувьд ач холбогдолгүй байгаа нь зэрэгцээ чиг хандлагын таамаглалыг баталж байна. 2019 онд зарласны дараа зөрүү өсч эхэлж, ашиглалтын үед 6.8%-д хүрдэг.</p>
+<fig id="f1" position="float"><caption><p>Зураг 1. Нөлөөллийн бүс болон хяналтын бүсийн хоорондох нэг метр квадратын үнийн зөрүү, оноор, %</p></caption></fig>
+<p>Үндсэн загвар болон түүний хувилбаруудын үнэлгээг 1-р хүснэгтэд үзүүлэв. Захын дүүргүүдэд нөлөө дунд бүсийнхээс бараг гурав дахин их, харин төвд статистикийн хувьд тэгээс ялгаагүй байна.</p>
+<table-wrap id="t1" position="float"><caption><p>Хүснэгт 1. Ялгаврын ялгавар бүхий гедоник загварын үнэлгээ (хамааран хувьсагч — м² үнийн log)</p></caption><table><thead><tr><th>Тодорхойлолт</th><th>Нөлөө, %</th><th>Стандарт алдаа</th><th>N</th></tr></thead><tbody><tr><td>Бүх дүүрэг</td><td>6,8</td><td>1,3</td><td>46 112</td></tr><tr><td>Захын хэсэг</td><td>11,2</td><td>2,1</td><td>17 840</td></tr><tr><td>Дунд бүс</td><td>4,1</td><td>1,6</td><td>19 305</td></tr><tr><td>Төв</td><td>0,9</td><td>2,4</td><td>8 967</td></tr><tr><td>Зөвхөн хэлцэл</td><td>6,1</td><td>1,8</td><td>18 024</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Хэлэлцүүлэг</title>
+<p>Нөлөөний хэмжээ хурдан төмөр замын тээврийн гадаадын судалгаанд түгээмэл ажиглагддаг хүрээний дунд орчимд байна. Шугам нээгдэхээс өмнө үнэ өссөн нь зах зээл хүлээлтийг капиталжуулдгийг гэрчлэх бөгөөд энэ нь газрын үнэ цэнийн өсөлтийг татах механизмыг хэрэглэх цаг хугацааг сонгоход чухал.</p>
+<p>Нөлөө бүсээр нэгэн төрлийн бус байгаа нь онолтой нийцэж байна: хүртээмж аль хэдийн өндөр байсан газарт шинэ шугам төдийлөн юм нэмдэггүй. Бүтээлийн хязгаарлалт нь түүврийн нэг хэсэгт зарын үнийг ашигласан явдал боловч зөвхөн хэлцлээр хийсэн үнэлгээ үндсэн үнэлгээнд ойрхон байна.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Дүгнэлт</title>
+<p>Хурдан трамвайн шугам нээгдсэн нь нөлөөллийн бүсэд орон сууцны үнийг 6.8%-иар өсгөсөн бөгөөд хамгийн их нөлөө захын хэсэгт ажиглагдсан. Энэ нь тээврийн төслийг санхүүжүүлэхэд үнэ цэнийн өсөлтийн нэг хэсгийг буцаан татах хэрэгслийг ашиглахыг үндэслэж байна.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ном зүй</title>
+<ref id="r1"><mixed-citation>Rosen S. Hedonic prices and implicit markets: product differentiation in pure competition // Journal of Political Economy. 1974. Vol. 82, no. 1. P. 34–55.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Hansen W. G. How accessibility shapes land use // Journal of the American Institute of Planners. 1959. Vol. 25, no. 2. P. 73–76.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Мельников А. С. Метрики транспортной доступности на основе расписаний общественного транспорта // Геоинформатика и общество. 2023. № 2. С. 5–21.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Громов П. А., Седов Е. В. Капитализация инфраструктурных инвестиций в цены жилья: обзор эмпирических исследований // Пространственная экономика и политика. 2022. № 4. С. 9–30.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Debrezion G., Pels E., Rietveld P. The impact of railway stations on residential and commercial property value: a meta-analysis // Journal of Real Estate Finance and Economics. 2007. Vol. 35, no. 2. P. 161–180.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Полякова Д. И. Анонсирование инфраструктурных проектов и ожидания рынка жилья // Городские исследования. 2024. Т. 8, № 1. С. 44–61.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Ng W., Carvalho F. Land value capture for light rail: international practice // Transport Finance Review. 2021. Vol. 10. P. 71–90.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мельников А. С., Полякова Д. И. Геокодирование объявлений о продаже жилья: методы и ошибки // Прикладная аналитика. 2023. Т. 7, № 4. С. 63–79.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

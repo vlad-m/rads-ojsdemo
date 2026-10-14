@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="sr">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Часопис за интердисциплинарна истраживања (демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демо-часопис на платформи Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>ДОО „Цифра“</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Оригинални научни рад</subject></subj-group></article-categories>
+<title-group>
+<article-title>Коришћење телемедицине међу старијим особама у малим градовима: студија мешовитих метода</article-title>
+<trans-title-group xml:lang="en"><trans-title>Telemedicine Uptake among Older Adults in Small Towns: A Mixed-Methods Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author"><name name-style="western"><surname>Василенко</surname><given-names>Ольга</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vasilenko</surname><given-names>Olga</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Йованович</surname><given-names>Мирослав</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Jovanović</surname><given-names>Miroslav</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/><email>m.jovanovic@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Аркадьева</surname><given-names>Наталья</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Arkadyeva</surname><given-names>Natalia</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Научноистраживачки институт за јавно здравље „Вита“</institution>, <country country="RU">Русија</country></aff>
+<aff id="aff2"><institution>Подунавски центар за истраживање здравља становништва</institution>, <country country="RS">Србија</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>11</fpage><lpage>13</lpage>
+<history><date date-type="received" iso-8601-date="2025-03-04"><day>04</day><month>03</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-15"><day>15</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Ольга Василенко, Мирослав Йованович, Наталья Аркадьева</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Лиценца CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="sr"><p>Телемедицинске консултације могу побољшати доступност здравствене заштите старијим становницима малих градова, где је недостатак лекара специјалиста посебно изражен. Међутим, коришћење таквих услуга међу старијим особама и даље је ниско, а разлози за то нису довољно истражени. У овој студији мешовитих метода анализирају се чиниоци повезани са коришћењем телемедицине код особа старих 60 и више година у четири анонимизована мала града. Квантитативна фаза обухватила је телефонско анкетирање 812 испитаника; квалитативна фаза састојала се од 28 полуструктурираних интервјуа са пацијентима и 9 интервјуа са здравственим радницима. Током протекле године телемедицинске услуге користило је 19% испитаника. У мултиваријабилном логистичком моделу вероватноћа коришћења била је повезана са поседовањем паметног телефона, животом са млађим сродницима и постојањем хроничних обољења која захтевају редовно праћење, док је веза са узрастом слабила након контроле ових чинилаца. Интервјуи су открили три кључне препреке: неповерење у процену здравственог стања на даљину, сложене поступке заказивања и аутентификације и страх да се лекару „одузме време“ без личног прегледа. Здравствени радници истакли су да је телемедицина највреднија за контролне консултације и корекцију терапије. Закључујемо да би поједностављени интерфејси и подршка медицинских сестара могли знатно да прошире коришћење телемедицине међу старијим особама.</p></abstract>
+<trans-abstract xml:lang="en"><p>Telemedicine consultations can improve access to healthcare for older residents of small towns, where the shortage of specialist physicians is particularly acute. However, uptake of such services among older people remains low, and the reasons are insufficiently understood. This mixed-methods study analyses the factors associated with telemedicine use among people aged 60 and over in four anonymised small towns. The quantitative phase comprised a telephone survey of 812 respondents; the qualitative phase consisted of 28 semi-structured interviews with patients and 9 interviews with healthcare workers. Over the past year, 19% of respondents had used telemedicine services. In a multivariable logistic model, the probability of use was associated with smartphone ownership, living with younger relatives and having chronic conditions requiring regular monitoring, whereas the association with age weakened after adjustment for these factors. Interviews revealed three key barriers: distrust of remote assessment of health status, complex booking and authentication procedures, and a fear of wasting the doctor's time without an in-person visit. Healthcare workers noted that telemedicine is most valuable for follow-up consultations and adjusting treatment. We conclude that simplified interfaces and support from nurses could substantially broaden telemedicine use among older adults.</p></trans-abstract>
+<kwd-group xml:lang="sr" kwd-group-type="author"><kwd>телемедицина</kwd><kwd>старије особе</kwd><kwd>мали градови</kwd><kwd>дигитални јаз</kwd><kwd>мешовите методе</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>telemedicine</kwd><kwd>older adults</kwd><kwd>small towns</kwd><kwd>digital divide</kwd><kwd>mixed methods</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Увод</title>
+<p>Мали градови суочавају се са трајним недостатком лекара специјалиста, а старији становници често морају да путују у регионалне центре ради консултација. Телемедицина, у облику видео или телефонских консултација са лекарима, промовише се као начин да се овај јаз премости, а инфраструктура за консултације на даљину знатно је проширена после 2020. године.</p>
+<p>Упркос томе, старије особе, које би од ње имале највише користи, користе телемедицину мање од других старосних група. Објашњења се обично усредсређују на дигиталне вештине, док је мање пажње посвећено ставовима, околностима у домаћинству и организацији услуга. Ова студија комбинује податке из анкете и интервјуа како би пружила потпунију слику коришћења телемедицине међу старијим становницима малих градова.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материјал и методе</title>
+<p>Квантитативна фаза била је рачунаром подржана телефонска анкета спроведена у периоду март–мај 2024. године у четири града са 18.000–45.000 становника (шифре Т1–Т4). Случајни узорак фиксних и мобилних бројева дао је 812 обављених интервјуа са становницима старим 60 и више година (стопа одзива 37%). Коришћење телемедицине у претходних 12 месеци била је главна исходна варијабла; коваријате су обухватале демографске податке, здравствено стање, поседовање уређаја и састав домаћинства.</p>
+<p>У квалитативној фази у полуструктурираним интервјуима учествовало је 28 учесника анкете (14 корисника и 14 некорисника) и 9 здравствених радника. Транскрипте су тематски анализирала два истраживача независно, а неслагања су разрешена дискусијом.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Резултати</title>
+<p>Укупно 19% испитаника пријавило је најмање једну телемедицинску консултацију у протеклој години. Коришћење је било највеће међу онима са хроничним обољењима која захтевају редовно праћење (27%), а најмање међу онима који живе сами без паметног телефона (6%) (сл. 1).</p>
+<fig id="f1" position="float"><caption><p>Слика 1. Коришћење телемедицине у претходних 12 месеци по групама испитаника, %</p></caption></fig>
+<p>Табела 1 приказује прилагођене количнике шанси. Поседовање паметног телефона више него је утростручило шансе за коришћење, а живот са млађим сродницима удвостручио их је. Ефекат узраста ослабио је и изгубио статистичку значајност након прилагођавања за поседовање уређаја и састав домаћинства.</p>
+<table-wrap id="t1" position="float"><caption><p>Табела 1. Чиниоци повезани са коришћењем телемедицине (логистичка регресија, n = 812)</p></caption><table><thead><tr><th>Чинилац</th><th>Прилагођени OR</th><th>95% ИП</th><th>p</th></tr></thead><tbody><tr><td>Поседује паметни телефон</td><td>3.4</td><td>2.1–5.5</td><td>&lt;0.001</td></tr><tr><td>Живи са млађим сродницима</td><td>2.0</td><td>1.3–3.0</td><td>0.001</td></tr><tr><td>Хронично обољење, редовно праћење</td><td>1.8</td><td>1.2–2.7</td><td>0.004</td></tr><tr><td>Узраст (на сваких 5 година)</td><td>0.89</td><td>0.76–1.04</td><td>0.140</td></tr><tr><td>Женски пол</td><td>1.1</td><td>0.8–1.6</td><td>0.520</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Дискусија</title>
+<p>Интервјуи су помогли у тумачењу ових веза. Млађи сродници често су деловали као посредници, заказујући консултације и подешавајући уређаје. Некорисници су често изражавали сумњу да лекар може да процени њихово стање без прегледа, а неколицина је описала осећај да би консултација на даљину била терет за ионако преоптерећеног лекара.</p>
+<p>Здравствени радници сматрали су телемедицину најкориснијом за контролне прегледе и корекцију терапије и предложили су да медицинске сестре помажу пацијентима да се повежу из амбуланте или од куће. Ови налази упућују на организациона, а не искључиво технолошка решења.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Закључак</title>
+<p>Коришћење телемедицине међу старијим особама у малим градовима мање је ограничено самим узрастом него приступом уређајима, подршком у домаћинству и поверењем. Поједностављени поступци заказивања и консултације уз посредовање медицинских сестара обећавајући су начини да се њена примена прошири.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Литература</title>
+<ref id="r1"><mixed-citation>Creswell J. W., Plano Clark V. L. Designing and Conducting Mixed Methods Research. 3rd ed. Thousand Oaks: SAGE, 2017. 492 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Braun V., Clarke V. Using thematic analysis in psychology // Qualitative Research in Psychology. 2006. Vol. 3, no. 2. P. 77–101.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Vasilenko O. P., Arkadyeva N. S. Access to specialist care in small towns: a regional survey // Public Health Perspectives. 2022. Vol. 11, no. 3. P. 201–214.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Jovanović M., Petrović S. Digital health literacy among older Europeans // Ageing and Technology. 2021. Vol. 6, no. 1. P. 15–33.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Hale R., Moreno C. Barriers to video consultations in rural primary care: a qualitative synthesis // Rural Health Review. 2022. Vol. 14. P. 88–104.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Аркадьева Н. С. Телемедицина в системе первичной медико-санитарной помощи: организационные модели // Здравоохранение и общество. 2023. № 2. С. 26–41.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Lindholm K., Saar T. Nurse-facilitated telehealth for older patients: a pilot evaluation // Journal of Community Nursing Research. 2020. Vol. 9, no. 4. P. 310–322.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Vasilenko O. P. Chronic disease monitoring and remote consultations: early evidence // Digital Health Notes. 2023. Vol. 2. P. 40–52.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

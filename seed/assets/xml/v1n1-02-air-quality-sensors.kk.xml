@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="kk">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Пәнаралық зерттеулер журналы (демонұсқа)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems платформасындағы журналдың демонұсқасы</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ЖШС</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Зерттеу мақаласы</subject></subj-group></article-categories>
+<title-group>
+<article-title>Күрт континенттік климат жағдайында арзан PM2.5 сенсорларын машиналық оқыту әдістерімен калибрлеу</article-title>
+<trans-title-group xml:lang="en"><trans-title>Machine-Learning Calibration of Low-Cost PM2.5 Sensors in a Sharply Continental Climate</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Каримов</surname><given-names>Тимур</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Karimov</surname><given-names>Timur</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>t.karimov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Василенко</surname><given-names>Ольга</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vasilenko</surname><given-names>Olga</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Волга қолданбалы аналитика институты</institution>, <country country="RU">Ресей</country></aff>
+<aff id="aff2"><institution>«Вита» қоғамдық денсаулық ғылыми-зерттеу институты</institution>, <country country="RU">Ресей</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>9</fpage><lpage>11</lpage>
+<history><date date-type="received" iso-8601-date="2024-09-30"><day>30</day><month>09</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-03"><day>03</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Тимур Каримов, Ольга Василенко</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензиясы бойынша таратылады</license-p></license></permissions>
+<abstract xml:lang="kk"><p>Ұсақ дисперсті бөлшектерге арналған арзан оптикалық сенсорлар ауа сапасын бақылау желілерінің тығыздығын айтарлықтай арттыра алады, бірақ олардың көрсеткіштері ылғалдылық пен температураға қатты тәуелді және эталондық өлшемдерден жүйелі түрде ауытқиды. Бұл зерттеуде жылдық температура амплитудасы үлкен күрт континенттік климат жағдайында осындай сенсорларды калибрлеу әдістері салыстырылады. 14 ай бойы сегіз сенсор гравиметриялық эталондық станциямен бір орында орналастырылды, нәтижесінде 76 000-нан астам сағаттық бақылау алынды. Сызықтық регрессия, салыстырмалы ылғалдылыққа түзету енгізілген көптік регрессия, кездейсоқ орман және градиенттік бустинг салыстырылды. Сапа оқыту және тест іріктемелері арасында ақпараттың ағып кетуіне жол бермейтін апталық блоктық кросс-валидация арқылы бағаланды. Калибрлеусіз орташа абсолюттік қате 11,8 мкг/м³ болды; сызықтық түзетуден кейін ол 6,4 мкг/м³-ге дейін төмендеді, ал градиенттік бустинг оны 3,1 мкг/м³-ге дейін азайтты. Ең маңызды белгілер салыстырмалы ылғалдылық, температура және көршілес сенсорлардың көрсеткіштері болды. Тек жазғы деректер бойынша оқытылған модельдер қысқы кезеңге нашар ауыстырылды, бұл жыл бойғы калибрлеудің қажеттігін айқындайды. Машиналық оқыту әдістерімен калибрленгеннен кейін арзан сенсорлар ластанудың тәуліктік динамикасын бағалауға және жергілікті көздерді анықтауға жарамды деген қорытындыға келдік. Код пен анонимделген деректер қайта пайдалану үшін ашық қолжетімді.</p></abstract>
+<trans-abstract xml:lang="en"><p>Low-cost optical sensors of fine particulate matter can substantially increase the density of air-quality monitoring networks, but their readings depend strongly on humidity and temperature and deviate systematically from reference measurements. This study compares calibration methods for such sensors in a sharply continental climate with a large annual temperature range. For 14 months, eight sensors were co-located with a gravimetric reference station, yielding more than 76,000 hourly observations. Linear regression, multiple regression with a relative-humidity correction, random forest and gradient boosting were compared. Performance was assessed with weekly blocked cross-validation that prevents information leakage between training and test samples. Without calibration, the mean absolute error was 11.8 µg/m³; after linear correction it fell to 6.4 µg/m³, and gradient boosting reduced it to 3.1 µg/m³. The most important features were relative humidity, temperature and the readings of neighbouring sensors. Models trained on summer data alone transferred poorly to the winter period, underlining the need for year-round calibration. We conclude that, once calibrated with machine-learning methods, low-cost sensors are suitable for assessing the diurnal dynamics of pollution and identifying local sources. The code and anonymised data are openly available for reuse.</p></trans-abstract>
+<kwd-group xml:lang="kk" kwd-group-type="author"><kwd>ауа сапасы</kwd><kwd>PM2.5</kwd><kwd>арзан сенсорлар</kwd><kwd>калибрлеу</kwd><kwd>градиенттік бустинг</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>air quality</kwd><kwd>PM2.5</kwd><kwd>low-cost sensors</kwd><kwd>calibration</kwd><kwd>gradient boosting</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Кіріспе</title>
+<p>PM2.5 ұсақ дисперсті бөлшектері — атмосфералық ауаның ластануымен байланысты денсаулыққа төнетін негізгі қауіп факторларының бірі. Эталондық мониторинг станциялары қымбат әрі саны аз: халқы жарты миллион адам болатын әдеттегі қалада олар бір-екеу ғана. Құны бірнеше мың рубль болатын арзан оптикалық датчиктер тығыз желі құруға мүмкіндік береді, бірақ олардың көрсеткіштері калибрлеуді қажет етеді.</p>
+<p>Қателіктердің негізгі себебі — жоғары ылғалдылық кезінде бөлшектердің гигроскопиялық өсуі, соның салдарынан датчик массалық концентрацияны асыра көрсетеді. Күрт континенттік климатта бұған электрониканың жұмысына әсер ететін қыстың төмен температуралары қосылады. Жұмыстың мақсаты — калибрлеу әдістерін салыстыру және олардың маусымдар арасында ауыстырылу мүмкіндігін бағалау.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалдар мен әдістер</title>
+<p>Бір модельдегі сегіз датчик эталондық станция павильонының төбесіне 3 м биіктікте орнатылды. Бақылау кезеңі — 2022 жылғы қазаннан 2023 жылғы қарашаға дейін. Деректер сағаттық мәндерге дейін агрегатталды; жазбалары толық емес сағаттар (45 минуттан аз) алынып тасталды. Қорытынды іріктеме — 76 412 бақылау жұбы.</p>
+<p>Төрт модель салыстырылды: бастапқы сигнал бойынша қарапайым сызықтық регрессия; салыстырмалы ылғалдылық, температура және олардың өзара әрекеттесуі ескерілген көптік регрессия; кездейсоқ орман (500 ағаш); градиенттік бустинг (тереңдігі 6, оқыту жылдамдығы 0,05). Сапаны бағалау үшін блоктық кросс-валидация қолданылды: деректер апталық блоктарға бөлініп, әр блок кезекпен тест іріктемесі ретінде пайдаланылды.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Нәтижелер</title>
+<p>Салыстыру нәтижелері 1-кестеде және 1-суретте келтірілген. Калибрлеудің барлық әдісі қатені айтарлықтай азайтады; ылғалдылыққа түзету енгізілген сызықтық регрессия мен ансамбльдік әдістер арасындағы айырмашылық салыстырмалы ылғалдылық 80%-дан жоғары болғанда ерекше үлкен.</p>
+<fig id="f1" position="float"><caption><p>1-сурет. Түрлі калибрлеу әдістерінің орташа абсолюттік қатесі (MAE), мкг/м³</p></caption></fig>
+<p>Тек жазғы деректер бойынша оқытылып, қысқы деректерде тексерілгенде градиенттік бустингтің орташа абсолюттік қатесі 7,9 мкг/м³-ге дейін өсті, бұл сызықтық түзетуден сәл ғана жақсы. Оқыту іріктемесіне кем дегенде бір қыс айының деректерін қосу қатені 3,6 мкг/м³-ге дейін төмендетті.</p>
+<table-wrap id="t1" position="float"><caption><p>1-кесте. Калибрлеу әдістерінің сапасы (апталар бойынша блоктық кросс-валидация)</p></caption><table><thead><tr><th>Әдіс</th><th>MAE, мкг/м³</th><th>RMSE, мкг/м³</th><th>R²</th></tr></thead><tbody><tr><td>Калибрлеусіз</td><td>11,8</td><td>17,2</td><td>0,58</td></tr><tr><td>Сызықтық регрессия</td><td>6,4</td><td>9,9</td><td>0,74</td></tr><tr><td>Сызықтық + ылғалдылық</td><td>4,7</td><td>7,3</td><td>0,85</td></tr><tr><td>Кездейсоқ орман</td><td>3,4</td><td>5,6</td><td>0,91</td></tr><tr><td>Градиенттік бустинг</td><td>3,1</td><td>5,1</td><td>0,93</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Талқылау</title>
+<p>Калибрлеуден кейін алынған қате мәндері индикативтік өлшемдерге арналған рұқсат етілген шектермен салыстырмалы және арзан датчиктер желісін тәуліктік профильдерді бағалау мен жергілікті көздерді — қазандықтарды, автомагистральдарды, пешпен жылытылатын жеке секторды — анықтау үшін пайдалануға мүмкіндік береді.</p>
+<p>Модельдердің маусымдар арасында ауыстырылмауы — маңызды практикалық шектеу. Жазда жүргізілген калибрлеу ластану ең қауіпті болатын қыс мезгілінде жүйелі қателер беруі мүмкін. Желіні өрістетпес бұрын кем дегенде бір жылдық бірлескен өлшеу кезеңін жүргізуді ұсынамыз.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Қорытынды</title>
+<p>Машиналық оқытудың ансамбльдік әдістері арзан PM2.5 датчиктерінің қатесін төрт есеге жуық азайтады. Дұрыс калибрлеудің негізгі шарты — оқыту іріктемесінде жылдың барлық маусымдарына арналған деректердің болуы.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Әдебиеттер тізімі</title>
+<ref id="r1"><mixed-citation>Breiman L. Random forests // Machine Learning. 2001. Vol. 45, no. 1. P. 5–32.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Friedman J. H. Greedy function approximation: a gradient boosting machine // Annals of Statistics. 2001. Vol. 29, no. 5. P. 1189–1232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Каримов Т. Р. Блочная кросс-валидация для пространственно-временных данных: практическое руководство // Прикладная аналитика. 2022. Т. 6, № 3. С. 41–58.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Holloway R., Nakamura E. Humidity effects on optical particle counters: a field evaluation // Atmospheric Measurement Notes. 2019. Vol. 12. P. 233–248.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Василенко О. П., Аркадьева Н. С. Кратковременное воздействие PM2.5 и обращаемость за медицинской помощью: обзор исследований // Экология человека и среда. 2021. № 7. С. 4–19.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Petrescu D., Olsen K. Transferability of calibration models for low-cost air sensors across seasons // Environmental Sensing Review. 2022. Vol. 4, no. 2. P. 77–95.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Захаров Л. Е. Сети мониторинга атмосферного воздуха: принципы проектирования. Новобор: Академия, 2020. 184 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

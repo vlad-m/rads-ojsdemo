@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista de Investigación Interdisciplinaria (demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revista de demostración en Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra S.R.L.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Revisión</subject></subj-group></article-categories>
+<title-group>
+<article-title>Balance de carbono de las turberas boreales: una revisión de los métodos de evaluación</article-title>
+<trans-title-group xml:lang="en"><trans-title>Carbon Balance of Boreal Peatlands: A Review of Assessment Methods</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.nurlanova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Instituto Caspio de Estudios Ambientales</institution>, <country country="KZ">Kazajistán</country></aff>
+<aff id="aff2"><institution>Estación de Turberas del Norte, Universidad Estatal de Novobor</institution>, <country country="RU">Rusia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>15</fpage><lpage>17</lpage>
+<history><date date-type="received" iso-8601-date="2024-08-19"><day>19</day><month>08</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-15"><day>15</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Aigerim Nurlanova, Nikolay Tikhomirov</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Publicado bajo licencia CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="es"><p>Las turberas boreales cubren alrededor del 3 % de la superficie terrestre, pero almacenan hasta un tercio del carbono edáfico mundial, por lo que la evaluación precisa de su balance de carbono es importante para la política climática y para los inventarios nacionales de gases de efecto invernadero. Esta revisión sistematiza los principales métodos de estimación de los flujos de carbono en turberas: el método de cámaras, la covarianza de remolinos (eddy covariance), el cálculo a partir de las tasas de acumulación de turba y los enfoques de teledetección basados en índices satelitales y modelos de productividad. A partir de 87 publicaciones de 2000–2024, se analizan la escala espacial y temporal de cada método, sus fuentes de incertidumbre y sus requisitos de equipamiento y de cualificación del personal. Las estimaciones del intercambio neto del ecosistema para una misma turbera obtenidas con distintos métodos pueden diferir en un factor de 1,5 a 2, y la mayor parte de la discrepancia se debe al tratamiento de los flujos de metano y de carbono orgánico disuelto. Se presta especial atención a las turberas drenadas y rehumedecidas, para las que existen muchos menos datos que para los ecosistemas no alterados. La revisión concluye que es necesario un enfoque combinado, en el que las observaciones de covarianza de remolinos a largo plazo en sitios de referencia se complementen con mediciones de cámara y con el escalado mediante teledetección. Se propone un esquema de decisión para elegir el método en función del objetivo de la investigación y de los recursos disponibles.</p></abstract>
+<trans-abstract xml:lang="en"><p>Boreal peatlands cover about 3% of the land surface yet store up to a third of the world's soil carbon, so accurate assessment of their carbon balance matters for climate policy and national greenhouse gas reporting. This review systematises the main methods for estimating carbon fluxes in peatlands: the chamber method, eddy covariance, calculation from peat accumulation rates, and remote-sensing approaches based on satellite indices and productivity models. Drawing on 87 publications from 2000–2024, it considers the spatial and temporal scale of each method, its sources of uncertainty and its requirements for equipment and staff expertise. Estimates of net ecosystem exchange for the same peatland obtained by different methods can differ by a factor of 1.5 to 2, with most of the discrepancy arising from the treatment of methane and dissolved organic carbon fluxes. Particular attention is paid to drained and rewetted peatlands, for which far fewer data exist than for undisturbed ecosystems. The review concludes that a combined approach is needed, in which long-term eddy covariance observations at reference sites are complemented by chamber measurements and remote-sensing upscaling. A decision scheme for choosing a method according to the research goal and available resources is proposed.</p></trans-abstract>
+<kwd-group xml:lang="es" kwd-group-type="author"><kwd>turberas</kwd><kwd>balance de carbono</kwd><kwd>metano</kwd><kwd>covarianza de remolinos</kwd><kwd>método de cámaras</kwd><kwd>zona boreal</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>peatlands</kwd><kwd>carbon balance</kwd><kwd>methane</kwd><kwd>eddy covariance</kwd><kwd>chamber method</kwd><kwd>boreal zone</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introducción</title>
+<p>Las turberas son el único tipo de ecosistema terrestre capaz de acumular carbono en forma de turba a lo largo de milenios. Al mismo tiempo, constituyen una fuente natural de metano, un gas de efecto invernadero con un elevado potencial de calentamiento global. El efecto climático neto de una turbera depende del equilibrio entre estos procesos y es sensible al nivel freático.</p>
+<p>El drenaje de las turberas para la extracción de turba y para usos agrícolas y forestales las transforma de sumidero en fuente de CO₂. El creciente interés por la restauración (rehumectación) de las turberas alteradas como medida climática exige métodos fiables de evaluación del balance de carbono. El objetivo de la presente revisión es comparar los métodos existentes, sus posibilidades y sus limitaciones.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiales y métodos</title>
+<p>La búsqueda de publicaciones se realizó en bases de datos bibliográficas mediante combinaciones de las palabras clave «turbera», «balance de carbono», «flujo de CO₂», «metano» y sus equivalentes en inglés para 2000–2024. De los 412 trabajos encontrados, tras el análisis de los resúmenes y los textos completos se seleccionaron 87 que contenían estimaciones cuantitativas de los flujos y una descripción de la metodología.</p>
+<p>Para cada trabajo se registraron el tipo de turbera, su estado (no alterada, drenada o en restauración), el método de medición, la duración de las observaciones y los componentes del balance considerados. Las estimaciones del intercambio neto del ecosistema se expresaron en g C/m² al año.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Resultados</title>
+<p>La distribución de los trabajos por métodos es desigual (fig. 1): casi la mitad de los estudios se basan en el método de cámaras y alrededor de un tercio, en la covarianza de remolinos. Los enfoques de teledetección se aplican principalmente para el escalado y no como fuente autónoma de estimaciones.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Distribución de los trabajos analizados según el método principal de estimación (n = 87)</p></caption></fig>
+<p>Las características comparativas de los métodos se presentan en la tabla 1. El método de cámaras permite separar los flujos por microrrelieves, pero describe mal la variabilidad temporal; la covarianza de remolinos proporciona series continuas, pero requiere un emplazamiento homogéneo y un equipamiento costoso.</p>
+<table-wrap id="t1" position="float"><caption><p>Tabla 1. Comparación de los métodos de evaluación del balance de carbono de las turberas</p></caption><table><thead><tr><th>Método</th><th>Escala</th><th>Resolución temporal</th><th>Principal fuente de incertidumbre</th></tr></thead><tbody><tr><td>Cámaras</td><td>0,1–1 m²</td><td>Episódica</td><td>Interpolación temporal</td></tr><tr><td>Covarianza de remolinos</td><td>0,1–1 km²</td><td>30 min</td><td>Flujos nocturnos, heterogeneidad</td></tr><tr><td>Acumulación de turba</td><td>Testigo</td><td>Siglos</td><td>Datación, descomposición</td></tr><tr><td>Teledetección</td><td>Región</td><td>Días–semanas</td><td>Calibración de modelos</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discusión</title>
+<p>Las discrepancias sustanciales entre métodos no se explican tanto por los errores de medición como por las diferencias en los componentes del balance considerados. Los trabajos que no tienen en cuenta la exportación de carbono orgánico disuelto con las aguas de la turbera sobrestiman sistemáticamente el sumidero de carbono en un 10–25 %.</p>
+<p>Las turberas en restauración siguen siendo las menos estudiadas: en los primeros años tras la rehumectación, las emisiones de metano pueden aumentar temporalmente, lo cual es importante tener en cuenta al evaluar el efecto climático de los proyectos de restauración.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusiones</title>
+<p>Ninguno de los métodos permite una evaluación completa del balance de carbono de las turberas. La opción óptima parece ser una red de sitios de referencia con observaciones de covarianza de remolinos a largo plazo, complementada con mediciones de cámara y escalado mediante teledetección.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Referencias</title>
+<ref id="r1"><mixed-citation>Gorham E. Northern peatlands: role in the carbon cycle and probable responses to climatic warming // Ecological Applications. 1991. Vol. 1, no. 2. P. 182–195.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Baldocchi D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems // Global Change Biology. 2003. Vol. 9, no. 4. P. 479–492.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Тихомиров Н. В. Многолетняя динамика потоков CO₂ на верховом болоте северной тайги // Болотоведение и торф. 2020. Т. 18, № 2. С. 60–78.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Нурланова А. Н., Сейткали Д. М. Эмиссия метана с осушенных торфяников: обзор полевых данных // Экосистемы и климат. 2022. Т. 4, № 1. С. 15–34.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Kowalczyk P., Aarnio T. Dissolved organic carbon export from boreal mires // Hydrology and Biogeochemistry. 2019. Vol. 33. P. 410–427.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тихомиров Н. В., Ерёменко В. А. Камерные измерения потоков парниковых газов: методическое пособие. Новобор: НГУ, 2018. 96 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Lund S., Petersen R. Upscaling peatland carbon fluxes with satellite data: opportunities and pitfalls // Remote Sensing of Wetlands. 2021. Vol. 9, no. 3. P. 200–221.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Нурланова А. Н. Восстановление нарушенных болот и климатическая политика // Вопросы экологической политики. 2023. № 2. С. 47–63.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Hart G., Lin W. Long-term apparent rates of carbon accumulation in boreal peat // Quaternary Carbon Studies. 2018. Vol. 21. P. 55–70.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

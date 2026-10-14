@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="sq">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista e Kërkimeve Ndërdisiplinore (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revistë demonstruese në Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra sh.p.k.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Vështrim</subject></subj-group></article-categories>
+<title-group>
+<article-title>Ekonomia qarkulluese në ndërmarrjet e vogla dhe të mesme: një vështrim sistematik i pengesave dhe i faktorëve nxitës</article-title>
+<trans-title-group xml:lang="en"><trans-title>The Circular Economy in Small and Medium-Sized Enterprises: A Systematic Review of Barriers and Drivers</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Sedov</surname><given-names>Evgeny</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sedov</surname><given-names>Evgeny</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sedov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Yakovleva</surname><given-names>Tatiana</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Yakovleva</surname><given-names>Tatiana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Instituti «Meridian» për Ekonominë dhe Zhvillimin Hapësinor</institution>, <country country="RU">Rusi</country></aff>
+<aff id="aff2"><institution>Instituti Bjellorus për Zhvillim të Qëndrueshëm «Ecopolis»</institution>, <country country="BY">Bjellorusi</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>11</fpage><lpage>13</lpage>
+<history><date date-type="received" iso-8601-date="2025-07-07"><day>07</day><month>07</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-12-16"><day>16</day><month>12</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2026 Evgeny Sedov, Tatiana Yakovleva</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licencuar sipas CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="sq"><p>Kalimi në një ekonomi qarkulluese, të bazuar në ripërdorimin, riparimin dhe riciklimin e burimeve, kërkon pjesëmarrjen jo vetëm të korporatave të mëdha, por edhe të ndërmarrjeve të vogla dhe të mesme, të cilat përbëjnë një pjesë të madhe të punësimit dhe të ndikimit mjedisor. Ky vështrim sistematik sintetizon kërkimet empirike mbi pengesat dhe faktorët nxitës të adoptimit të praktikave qarkulluese në bizneset e vogla dhe të mesme. Një kërkim i udhëhequr nga PRISMA identifikoi 1146 botime të periudhës 2015–2025, nga të cilat 72 studime nga 28 vende përmbushën kriteret e përfshirjes. Pengesat dhe faktorët nxitës u klasifikuan në pesë grupe: financiarë, teknologjikë, të tregut, institucionalë dhe organizativo-kulturorë. Pengesat e përmendura më shpesh ishin kostot e larta fillestare dhe qasja e kufizuar në financim (78% e studimeve), mungesa e kompetencës teknike (61%) dhe kërkesa e ulët e konsumatorëve për produkte të prodhuara nga lëndë të para dytësore (47%). Faktorët kryesorë nxitës janë kursimet në kostot e lëndëve të para dhe të asgjësimit, kërkesat e klientëve të mëdhenj në zinxhirët e furnizimit dhe vlerat personale të pronarëve. Roli i mbështetjes shtetërore vlerësohet në mënyrë të paqartë: subvencionet janë efektive kryesisht në kombinim me shërbimet këshillimore. U identifikua një boshllëk i konsiderueshëm në kërkimet nga Evropa Lindore dhe Azia Qendrore. Formulohen rekomandime për politikat mbështetëse dhe drejtime për kërkime të mëtejshme.</p></abstract>
+<trans-abstract xml:lang="en"><p>The transition to a circular economy based on the reuse, repair and recycling of resources requires the participation not only of large corporations but also of small and medium-sized enterprises, which account for a large share of employment and environmental impact. This systematic review synthesises empirical research on the barriers to and drivers of adopting circular practices in small and medium-sized businesses. A PRISMA-guided search identified 1,146 publications from 2015–2025, of which 72 studies from 28 countries met the inclusion criteria. Barriers and drivers were classified into five groups: financial, technological, market, institutional and organisational-cultural. The most frequently cited barriers were high upfront costs and limited access to finance (78% of studies), a lack of technical competence (61%) and low consumer demand for products made from secondary raw materials (47%). The key drivers are savings on raw material and disposal costs, requirements of large customers in supply chains and the personal values of owners. The role of government support is assessed ambiguously: subsidies are effective mainly in combination with advisory services. A substantial gap in research from Eastern Europe and Central Asia was identified. Recommendations for support policies and directions for further research are formulated.</p></trans-abstract>
+<kwd-group xml:lang="sq" kwd-group-type="author"><kwd>ekonomi qarkulluese</kwd><kwd>ndërmarrje të vogla dhe të mesme</kwd><kwd>vështrim sistematik</kwd><kwd>zhvillim i qëndrueshëm</kwd><kwd>zinxhirë furnizimi</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>circular economy</kwd><kwd>small and medium-sized enterprises</kwd><kwd>systematic review</kwd><kwd>sustainable development</kwd><kwd>supply chains</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Hyrje</title>
+<p>Koncepti i ekonomisë qarkulluese nënkupton braktisjen e modelit linear «nxirr — prodho — hidh» në favor të cikleve të mbyllura, në të cilat produktet dhe materialet e ruajnë vlerën e tyre sa më gjatë që të jetë e mundur. Një pjesë e konsiderueshme e kërkimeve dhe e programeve të politikave orientohet drejt kompanive të mëdha, që zotërojnë burime për ristrukturimin e proceseve të prodhimit.</p>
+<p>Ndërmarrjet e vogla dhe të mesme përballen me kufizime të tjera: ato kanë më pak kapital, kompetenca dhe fuqi negociuese në zinxhirët e furnizimit. Njëkohësisht, ato janë më fleksibile dhe më pranë komuniteteve lokale. Qëllimi i vështrimit është të sistematizojë të dhënat empirike për faktorët që pengojnë dhe nxitin futjen e praktikave qarkulluese në bizneset e vogla dhe të mesme.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materialet dhe metodat</title>
+<p>Vështrimi u krye në përputhje me rekomandimet PRISMA 2020. Kërkimi u bë në bazat e të dhënave bibliografike sipas kombinimeve të termave «ekonomi qarkulluese», «biznes i vogël dhe i mesëm» dhe ekuivalentëve të tyre në anglisht. U përfshinë studime empirike (anketa, studime rasti, intervista, punime ekonometrike) të botuara në vitet 2015–2025 në anglisht ose rusisht.</p>
+<p>Nga 1146 regjistrime të gjetura, pas heqjes së dublikatave dhe shqyrtimit të abstrakteve, vlerësimin e tekstit të plotë e kaluan 214 punime, nga të cilat 72 përmbushën kriteret e përfshirjes. Pengesat dhe faktorët nxitës u koduan nga dy studiues në mënyrë të pavarur sipas një skeme të hartuar paraprakisht; përputhshmëria ndërmjet koduesve ishte κ = 0,79.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Rezultatet</title>
+<p>Studimet e përfshira mbulojnë 28 vende, por 61% e tyre janë kryer mbi materiale nga vendet e Evropës Perëndimore. Punimet për vendet e Evropës Lindore dhe të Azisë Qendrore janë gjithsej pesë. Shpeshtësia e përmendjes së pengesave kryesore paraqitet në fig. 1.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Shpeshtësia e përmendjes së pengesave në studimet e përfshira, % (n = 72)</p></caption></fig>
+<p>Faktorët nxitës të futjes së praktikave qarkulluese grupohen në tab. 1. Motivet ekonomike — ulja e kostove të lëndëve të para dhe të asgjësimit të mbetjeve — përmenden më shpesh, por në studimet e ndërmarrjeve familjare një rol të rëndësishëm luajnë vlerat e pronarëve.</p>
+<table-wrap id="t1" position="float"><caption><p>Tabela 1. Faktorët kryesorë nxitës të futjes së praktikave qarkulluese</p></caption><table><thead><tr><th>Grupi i faktorëve nxitës</th><th>Shembull</th><th>Numri i studimeve</th><th>Përqindja, %</th></tr></thead><tbody><tr><td>Financiarë</td><td>Kursime në lëndë të para dhe asgjësim</td><td>51</td><td>71</td></tr><tr><td>Të tregut</td><td>Kërkesat e klientëve të mëdhenj</td><td>38</td><td>53</td></tr><tr><td>Organizativo-kulturorë</td><td>Vlerat e pronarëve</td><td>31</td><td>43</td></tr><tr><td>Institucionalë</td><td>Subvencione dhe këshillim</td><td>26</td><td>36</td></tr><tr><td>Teknologjikë</td><td>Platforma dixhitale shkëmbimi</td><td>17</td><td>24</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Diskutimi</title>
+<p>Mbizotërimi i pengesave dhe i faktorëve nxitës financiarë tregon se për bizneset e vogla qarkullueshmëria është para së gjithash çështje ekonomike dhe jo e axhendës mjedisore. Prandaj masat mbështetëse që ulin kostot dhe rreziqet fillestare janë më të kërkuarat. Megjithatë, subvencionet pa mbështetje këshillimore shpesh nuk çojnë në ndryshime të qëndrueshme.</p>
+<p>Anshmëria gjeografike e bazës së provave kufizon transferueshmërinë e përfundimeve: mjedisi institucional, qasja në financim dhe infrastruktura e riciklimit ndryshojnë ndjeshëm nga një vend në tjetrin. Mbushja e këtij boshllëku është një detyrë e rëndësishme për kërkimet rajonale.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Përfundimi</title>
+<p>Futja e praktikave qarkulluese në bizneset e vogla dhe të mesme përcaktohet para së gjithash nga stimujt ekonomikë dhe nga kërkesat e zinxhirëve të furnizimit. Një politikë efektive duhet të kombinojë mbështetjen financiare me zhvillimin e kompetencave dhe të infrastrukturës.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Bibliografia</title>
+<ref id="r1"><mixed-citation>Page M. J., McKenzie J. E., Bossuyt P. M. et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews // BMJ. 2021. Vol. 372. Art. n71.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Kirchherr J., Reike D., Hekkert M. Conceptualizing the circular economy: an analysis of 114 definitions // Resources, Conservation and Recycling. 2017. Vol. 127. P. 221–232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Седов Е. В. Циркулярные бизнес-модели: типология и экономические эффекты // Пространственная экономика и политика. 2023. № 1. С. 31–50.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Яковлева Т. Н. Политика поддержки зелёного предпринимательства в странах ЕАЭС // Экономика устойчивого развития. 2024. Т. 12, № 3. С. 66–83.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Rizos V., Behrens A., Kafyeke T. et al. The circular economy: barriers and opportunities for SMEs. Brussels: CEPS, 2015. 22 p.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindner P., Costa R. Supply-chain pressure and circular practices in small manufacturers // Journal of Sustainable Enterprise. 2022. Vol. 11, no. 2. P. 115–134.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седов Е. В., Громов П. А. Малый бизнес и переработка отходов: результаты регионального обследования // Регион: экономика и общество. 2024. № 5. С. 20–37.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Oduya K., Brandt M. Owner values and environmental strategy in family firms // Small Business and Society. 2021. Vol. 7. P. 50–68.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

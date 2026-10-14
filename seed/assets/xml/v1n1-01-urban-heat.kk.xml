@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="kk">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Пәнаралық зерттеулер журналы (демонұсқа)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems платформасындағы журналдың демонұсқасы</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ЖШС</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Зерттеу мақаласы</subject></subj-group></article-categories>
+<title-group>
+<article-title>Орта қалалардағы қалалық жылу аралдары: 2000–2023 жылдардағы Landsat деректерін талдау</article-title>
+<trans-title-group xml:lang="en"><trans-title>Urban Heat Islands in Medium-Sized Cities: An Analysis of Landsat Data for 2000–2023</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Соколовская</surname><given-names>Елена</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sokolovskaya@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Мельников</surname><given-names>Артём</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Ким</surname><given-names>Светлана</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kim</surname><given-names>Svetlana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Новобор мемлекеттік университеті</institution>, <country country="RU">Ресей</country></aff>
+<aff id="aff2"><institution>«Полис» урбанистика жоғары мектебі</institution>, <country country="RU">Ресей</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>8</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-14"><day>14</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-28"><day>28</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Елена Соколовская, Артём Мельников, Светлана Ким</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензиясы бойынша таратылады</license-p></license></permissions>
+<abstract xml:lang="kk"><p>Қалалық жылу аралдарын зерттеу дәстүрлі түрде ең ірі агломерацияларға шоғырланып келді, ал халықтың едәуір бөлігі тұратын орта қалалар әлі де аз зерттелген. Бұл зерттеуде қоңыржай климат белдеуінде орналасқан, халқы 100 000-нан 500 000-ға дейінгі он екі анонимделген қаладағы жер бетіндегі қалалық жылу аралының қарқындылығы мен динамикасы бағаланады. Жер бетінің температурасы 2000–2023 жылдардың жазғы айларына арналған Landsat 5, 7 және 8 түсірілімдері бойынша анықталды, әрі әр қала үшін құрылыс салынған аумақ пен қала маңындағы буферлік аймақ арасындағы айырма есептелді. Қосалқы айнымалылар ретінде нормаланған айырмашылық вегетациялық индексі (NDVI), су өткізбейтін беттердің үлесі және ашық карта деректерінен алынған құрылыс тығыздығы пайдаланылды. Күндізгі жылу аралының орташа қарқындылығы 3,4 °C болды, ал зерттеу кезеңінде ол орта есеппен 0,9 °C-қа артты. Бұл өзгеріске ең үлкен үлесті жаңа тұрғын үй құрылысы жүргізілетін шеткі аудандардағы жасыл желектің азаюы қосады, ал халық санымен байланыс әлсіз болып шықты. Аралас әсерлі регрессиялық модель қалааралық және жылдар арасындағы вариацияның 71%-ын түсіндіреді. Нәтижелер орта қалалардың шамадан тыс қызуға ірі қалалардан кем осал емес екенін және жаңа құрылыс аймақтарындағы қала құрылысы шешімдерінің бейімделудің негізгі құралы екенін көрсетеді. Ұсынылған әдісті ашық деректерді пайдалана отырып кез келген қала үшін қайталауға болады.</p></abstract>
+<trans-abstract xml:lang="en"><p>Research on urban heat islands has traditionally focused on the largest metropolitan areas, while medium-sized cities, home to a substantial share of the population, remain poorly studied. This study assesses the intensity and dynamics of the surface urban heat island in twelve anonymised cities with populations of 100,000 to 500,000 in the temperate climate zone. Land surface temperature was retrieved from Landsat 5, 7 and 8 scenes for the summer months of 2000–2023, and for each city the difference between the built-up area and a suburban buffer zone was calculated. The normalised difference vegetation index (NDVI), the share of impervious surfaces and building density derived from open map data were used as covariates. The mean daytime heat island intensity was 3.4 °C, and over the study period it increased by 0.9 °C on average. The largest contribution to this change comes from the loss of green space in peripheral areas of new residential development, whereas the association with population size proved weak. A mixed-effects regression model explains 71% of the between-city and between-year variation. The results show that medium-sized cities are no less vulnerable to overheating than large ones and that planning decisions in new development zones are a key adaptation tool. The proposed method can be reproduced for any city using open data.</p></trans-abstract>
+<kwd-group xml:lang="kk" kwd-group-type="author"><kwd>қалалық жылу аралы</kwd><kwd>қашықтықтан зондтау</kwd><kwd>Landsat</kwd><kwd>жер бетінің температурасы</kwd><kwd>жасыл инфрақұрылым</kwd><kwd>орта қалалар</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>urban heat island</kwd><kwd>remote sensing</kwd><kwd>Landsat</kwd><kwd>land surface temperature</kwd><kwd>green infrastructure</kwd><kwd>medium-sized cities</kwd></kwd-group>
+<funding-group><award-group><funding-source>«Горизонт» пәнаралық зерттеулерді қолдау қоры</funding-source></award-group></funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Кіріспе</title>
+<p>Қалалық жылу аралы — қаладағы ауа мен төсеніш беттің температурасының қоршаған ауылдық жерлердегіден жоғары болуы — климаттың антропогендік трансформациясының ең көп зерттелген көріністерінің бірі. Классикалық еңбектер бұл құбылысты жылу балансының өзгеруімен байланыстырады: өсімдік жамылғысының су өткізбейтін жабындармен алмастырылуы булануды азайтады, құрылыс геометриясы түнгі сәулеленуді төмендетеді, ал антропогендік көздер жер бетіне жақын қабатқа қосымша жылу береді.</p>
+<p>Алайда эмпирикалық бағалаулардың басым көпшілігі халқы миллионнан асатын қалалар үшін алынған. Халқы 100–500 мың адам болатын орта қалалар айқын жылу аралын қалыптастыру үшін «тым кішкентай» деп жиі есептеледі, дегенмен соңғы екі онжылдықта шеткі аудандарда белсенді құрылыс дәл осы қалаларда жүріп жатыр. Бұл жұмыс осы олқылықтың орнын толтырады: біз он екі орта қаладағы жер бетіндегі жылу аралының қарқындылығын бағалап, оның 2000–2023 жылдардағы өзгеру факторларын анықтаймыз.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалдар мен әдістер</title>
+<p>Зерттеу мақалада Қ1–Қ12 кодтарымен белгіленген қоңыржай белдеудегі он екі қаланы қамтиды. Әр қала үшін Landsat мұрағатынан маусым–тамыз айларына арналған бұлтсыз түсірілімдер іріктелді (жылына бір қалаға орта есеппен 4,6 түсірілім, барлығы 1 318 түсірілім). Төсеніш беттің температурасы NDVI негізінде сәуле шығару қабілетін түзете отырып, жылулық арна бойынша қалпына келтірілді.</p>
+<p>Жылу аралының қарқындылығы (ЖАҚ) су объектілерін есептен шығара отырып, құрылыс салынған аумақ пен ені 5 км болатын қала маңындағы буферлік сақинаның медианалық температураларының айырмасы ретінде анықталды. Түсіндіруші айнымалылар ретінде орташа NDVI, су өткізбейтін жабындардың үлесі, құрылыс тығыздығы және халық саны пайдаланылды. Байланыс қала үшін кездейсоқ бос мүшесі және жылдың тіркелген әсері бар аралас әсерлі регрессиялық модель арқылы бағаланды.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Нәтижелер</title>
+<p>Бүкіл іріктеме бойынша күндізгі орташа ЖАҚ 3,4 ± 0,8 °C болды. Ең төменгі мәндер дамыған аңғарлық желісі мен сақталған орманды саябақтары бар қалаларға тән (2,1–2,6 °C), ең жоғарғы мәндер — тығыз панельдік құрылысы бар дала белдеуіндегі қалаларға (4,5–4,9 °C). 1-суретте бесжылдық кезеңдер бойынша орташа қарқындылық динамикасы көрсетілген.</p>
+<fig id="f1" position="float"><caption><p>1-сурет. Бесжылдық кезеңдер бойынша жер бетіндегі жылу аралының күндізгі орташа қарқындылығы, °C</p></caption></fig>
+<p>Регрессиялық модельде (1-кесте) шамасы бойынша ең үлкен әсерге NDVI ие: индекстің 0,1-ге төмендеуі ЖАҚ-тың 0,62 °C-қа артуымен байланысты. Су өткізбейтін жабындардың үлесі маңызды, бірақ оның әсері едәуір дәрежеде өсімдік жамылғысы арқылы жанама түрде көрінеді. Морфологиялық көрсеткіштерді ескергеннен кейін халық саны статистикалық тұрғыдан маңызды емес.</p>
+<table-wrap id="t1" position="float"><caption><p>1-кесте. Аралас әсерлі модельдің бағалаулары (тәуелді айнымалы — ЖАҚ, °C)</p></caption><table><thead><tr><th>Айнымалы</th><th>Коэффициент</th><th>Стандартты қате</th><th>p</th></tr></thead><tbody><tr><td>NDVI (0,1-ге)</td><td>−0,62</td><td>0,09</td><td>&lt;0,001</td></tr><tr><td>Су өткізбейтін жабындар (10%-ға)</td><td>0,31</td><td>0,11</td><td>0,006</td></tr><tr><td>Құрылыс тығыздығы (1 мың м²/га-ға)</td><td>0,18</td><td>0,07</td><td>0,012</td></tr><tr><td>Халық саны (log)</td><td>0,07</td><td>0,15</td><td>0,640</td></tr><tr><td>Шартты R²</td><td>0,71</td><td>—</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Талқылау</title>
+<p>Алынған қарқындылық бағалаулары өлшемі ұқсас еуропалық қалалар үшін жарияланған мәндермен салыстырмалы және ең ірі агломерациялардың мәндерінен небәрі 1–1,5 °C-қа төмен. Бұл орта қалалардағы жылу қаупі елеусіз деген кең таралған түсінікке күмән келтіреді.</p>
+<p>Жұмыстың ең маңызды нәтижесі — шеткі аудандардағы өсімдік жамылғысының жетекші рөлі. 2010 жылдан кейін ауыл шаруашылығы жерлері мен бос алаңдардың орнында салынған жаңа тұрғын үй кварталдары ең аз көгалдандырумен сипатталады, әрі жер беті температурасының өсуі дәл осы жерлерде айқын байқалады. Зерттеудің шектеуі — тек күндізгі түсірілімдердің пайдаланылуы: денсаулық үшін аса маңызды түнгі жылу аралы басқа деректер көздерін қажет етеді.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Қорытынды</title>
+<p>Орта қалалар қарқындылығы өсіп келе жатқан айқын жер бетіндегі жылу аралдарын қалыптастырады. Жаңа құрылыс аудандарында жасыл желектерді сақтау және отырғызу бейімделудің ең тиімді тетігі болып табылады. Ұсынылған ашық алгоритмді муниципалитеттер мониторинг үшін пайдалана алады.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Әдебиеттер тізімі</title>
+<ref id="r1"><mixed-citation>Oke T. R. The energetic basis of the urban heat island // Quarterly Journal of the Royal Meteorological Society. 1982. Vol. 108, no. 455. P. 1–24.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Voogt J. A., Oke T. R. Thermal remote sensing of urban climates // Remote Sensing of Environment. 2003. Vol. 86, no. 3. P. 370–384.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Соколовская Е. В. Пространственные закономерности теплового режима малых и средних городов // Вопросы пространственного анализа. 2021. Т. 9, № 2. С. 34–51.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Мельников А. С., Ким С. Ю. Открытые картографические данные как источник показателей плотности застройки // Геоинформатика и общество. 2022. № 4. С. 18–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Harding P., Lindqvist M. Surface heat islands beyond the megacity: evidence from European mid-sized towns // Urban Climate Letters. 2020. Vol. 7. P. 112–127.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Орехова Т. Н. Методы восстановления температуры подстилающей поверхности по данным теплового канала. М.: Академия, 2019. 212 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Chen Y., Moreau L. Vegetation loss and the intensification of surface heat islands in suburban fringes // Journal of Applied Urban Ecology. 2021. Vol. 15, no. 3. P. 201–219.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Соколовская Е. В., Брагин И. А. Зелёная инфраструктура и адаптация городов к экстремальной жаре: обзор практик // Вестник Новоборского университета. Серия: Науки о Земле. 2023. Т. 11, № 1. С. 5–22.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

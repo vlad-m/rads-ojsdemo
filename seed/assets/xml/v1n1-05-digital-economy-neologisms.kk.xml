@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="kk">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Пәнаралық зерттеулер журналы (демонұсқа)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems платформасындағы журналдың демонұсқасы</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ЖШС</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Қысқа хабарлама</subject></subj-group></article-categories>
+<title-group>
+<article-title>Орыс тілді іскерлік БАҚ-тағы цифрлық экономика неологизмдері: корпустық зерттеу</article-title>
+<trans-title-group xml:lang="en"><trans-title>Digital Economy Neologisms in Russian-Language Business Media: A Corpus Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Лебедева</surname><given-names>Анна</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Lebedeva</surname><given-names>Anna</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.lebedeva@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>«Лексис» тіл және коммуникация институты</institution>, <country country="RU">Ресей</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>18</fpage><lpage>20</lpage>
+<history><date date-type="received" iso-8601-date="2024-12-02"><day>02</day><month>12</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-20"><day>20</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Анна Лебедева</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензиясы бойынша таратылады</license-p></license></permissions>
+<abstract xml:lang="kk"><p>Экономиканың цифрлануы жаңа лексиканың, оның ішінде едәуір бөлігі ағылшын тілінен енген сөздердің жедел пайда болуымен қатар жүріп келеді. Бұл қысқа хабарламада орыс тілді іскерлік БАҚ-тағы цифрлық экономика неологизмдерін корпустық зерттеудің алғашқы нәтижелері ұсынылады. Арнайы жинақталған корпус алты анонимделген іскерлік басылымның 2015–2024 жылдардағы жарияланымдарынан алынған шамамен 18 миллион сөзқолданысты қамтиды. Неологизмге үміткер сөздер жиілік өлшемі бойынша іріктеліп, кейін сарапшылық тексеруден өткізілді; қорытынды тізім 214 бірліктен тұрады. Олардың әрқайсысы үшін алғаш тіркелген жылы, сөзжасамдық үлгісі және жиілік динамикасы анықталды. Тікелей кірме сөздер (мысалы, «маркетплейс», «стартап», «краудфандинг») жаңа бірліктердің 58%-ын, орыс аффикстері бар гибридті туындылар 27%-ын, ал калькалар мен сипаттамалы тіркестер 15%-ын құрайды. Жаңа бірліктердің пайда болу шыңы 2018–2020 жылдарға келеді. Бірқатар кірме сөздер үшін латын графикасындағы жазылу нұсқалары біртіндеп кириллицадағы нұсқалармен ығыстырылып келеді, бұл олардың тілде игерілгенін көрсетеді. Нәтижелерді терминологиялық сөздіктер құрастыруда және іскерлік орыс тілін оқытуда пайдалануға болады. Алдағы жұмыста корпусты өңірлік басылымдар мен Telegram арналары есебінен кеңейту жоспарлануда.</p></abstract>
+<trans-abstract xml:lang="en"><p>The digitalisation of the economy has been accompanied by the rapid emergence of new vocabulary, much of it borrowed from English. This short communication presents the first results of a corpus study of digital economy neologisms in Russian-language business media. A purpose-built corpus comprises about 18 million tokens from the publications of six anonymised business outlets for 2015–2024. Candidate neologisms were selected using a frequency criterion followed by expert verification; the final list contains 214 items. For each, the year of first attestation, the word-formation pattern and the frequency dynamics were determined. Direct borrowings (such as marketpleys, startap and kraudfanding) account for 58% of new items, hybrid formations with Russian affixes for 27%, and calques and descriptive expressions for 15%. The peak of new items falls in 2018–2020. For a number of borrowings, Latin-script spellings are gradually being replaced by Cyrillic ones, indicating their assimilation into the language. The results can be used in compiling terminological dictionaries and in teaching business Russian. Further work will extend the corpus to regional outlets and Telegram channels.</p></trans-abstract>
+<kwd-group xml:lang="kk" kwd-group-type="author"><kwd>неологизмдер</kwd><kwd>корпустық лингвистика</kwd><kwd>кірме сөздер</kwd><kwd>цифрлық экономика</kwd><kwd>іскерлік БАҚ</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>neologisms</kwd><kwd>corpus linguistics</kwd><kwd>borrowings</kwd><kwd>digital economy</kwd><kwd>business media</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Кіріспе</title>
+<p>Іскерлік баспасөз экономикалық терминологияны таратудың негізгі арналарының бірі болып табылады: жаңа ұғымдар онда сөздіктер мен оқулықтарға қарағанда ертерек пайда болады. 2015–2024 жылдар аралығында сауданың, қаржының және еңбектің цифрлануы лексиканың ерекше қарқынды толығуымен қатар жүрді.</p>
+<p>Хабарламаның мақсаты — іскерлік БАҚ-тағы цифрлық экономика неологизмдерінің құрамы мен динамикасын сипаттау және олардың жасалуының негізгі тәсілдеріне сипаттама беру.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалдар мен әдістер</title>
+<p>Корпус алты іскерлік басылымның (Б1–Б6 деп белгіленген) ашық қолжетімді жарияланымдарынан құрылып, морфологиялық тұрғыдан белгіленді. Неологизмге үміткерлер 2010–2014 жылдардағы ішкі корпуста кездеспеген және 2015–2024 жылдары кемінде 20 рет кездескен леммалар ретінде іріктелді. Содан кейін екі сарапшы бірліктердің цифрлық экономика тақырыбына қатыстылығын тәуелсіз түрде тексерді; сарапшылардың келісімі (Коэннің κ) 0,82 болды.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Нәтижелер</title>
+<p>Қорытынды тізім 214 бірлікті қамтиды. Алғаш тіркелген жылдар бойынша бөлінуі 1-суретте көрсетілген: ең жоғары мән 2018–2020 жылдарға келеді, бұл онлайн сауда мен платформалық жұмыспен қамтудың белсенді даму кезеңімен сәйкес келеді. Жасалу тәсілдері бойынша бөлінуі 1-кестеде келтірілген.</p>
+<fig id="f1" position="float"><caption><p>1-сурет. Корпуста алғаш тіркелген жылы бойынша жаңа бірліктер саны</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>1-кесте. Жасалу тәсілі бойынша неологизмдер</p></caption><table><thead><tr><th>Жасалу тәсілі</th><th>Саны</th><th>Үлесі, %</th><th>Мысалдар</th></tr></thead><tbody><tr><td>Тікелей кірме сөз</td><td>124</td><td>58</td><td>маркетплейс, стартап</td></tr><tr><td>Гибридті туынды</td><td>58</td><td>27</td><td>зафандрайзить, лидогенерация</td></tr><tr><td>Калька, сипаттамалы тіркес</td><td>32</td><td>15</td><td>цифровой след (цифрлық із), умный контракт (ақылды келісімшарт)</td></tr><tr><td>Барлығы</td><td>214</td><td>100</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Талқылау</title>
+<p>Тікелей кірме сөздердің басым болуы қарқынды дамып жатқан пәндік сала үшін күтілген жағдай. Сонымен бірге гибридті туындылардың жоғары үлесі кірме түбірлердің орыс тілінің сөзжасам жүйесіне тез енетінін көрсетеді. Латын графикасындағы жазылулардың кириллицадағы жазылулармен ығыстырылуы (мысалы, «стартап» сөзінде латын графикасының үлесі 2015 жылғы 34%-дан 2024 жылы 3%-ға дейін төмендеді) игерілудің индикаторы қызметін атқарады.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Қорытынды</title>
+<p>Корпустық тәсіл жаңа экономикалық лексиканың пайда болуы мен игерілуін объективті түрде мерзімдеуге мүмкіндік береді. Алынған неологизмдер тізімі арнайы сөздіктің негізі бола алады.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Әдебиеттер тізімі</title>
+<ref id="r1"><mixed-citation>Лебедева А. В. Терминологические инновации в языке экономики: корпусный подход // Вопросы терминоведения. 2021. Т. 7, № 1. С. 9–27.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Sinclair J. Corpus, Concordance, Collocation. Oxford: Oxford University Press, 1991. 179 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Кожевникова Р. Л. Англицизмы в русской деловой прессе: этапы освоения // Русская речь сегодня. 2019. № 5. С. 31–44.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Ferrand M., Holm B. Measuring lexical novelty in news corpora // Corpus Methods Quarterly. 2020. Vol. 11, no. 2. P. 145–163.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Лебедева А. В., Огнева Т. П. Графическая адаптация заимствований: латиница и кириллица в медиатексте // Лингвистика и медиа. 2022. Т. 3, № 4. С. 70–86.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Огнева Т. П. Словообразовательная активность заимствованных основ в современном русском языке. М.: Лексис, 2020. 236 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="uz">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fanlararo tadqiqotlar jurnali (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems demo jurnali</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>“Tsifra” MChJ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Ilmiy maqola</subject></subj-group></article-categories>
+<title-group>
+<article-title>Oʻrta kattalikdagi shaharlarda shahar issiqlik orollari: 2000–2023-yillar Landsat maʼlumotlari tahlili</article-title>
+<trans-title-group xml:lang="en"><trans-title>Urban Heat Islands in Medium-Sized Cities: An Analysis of Landsat Data for 2000–2023</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sokolovskaya@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Melnikov</surname><given-names>Artyom</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Kim</surname><given-names>Svetlana</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kim</surname><given-names>Svetlana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Novobor davlat universiteti</institution>, <country country="RU">Rossiya</country></aff>
+<aff id="aff2"><institution>“Polis” urbanistika oliy maktabi</institution>, <country country="RU">Rossiya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>8</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-14"><day>14</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-28"><day>28</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Elena Sokolovskaya, Artyom Melnikov, Svetlana Kim</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 litsenziyasi asosida tarqatiladi</license-p></license></permissions>
+<abstract xml:lang="uz"><p>Shahar issiqlik orollari boʻyicha tadqiqotlar anʼanaviy ravishda eng yirik megapolislarga qaratilgan boʻlib, aholining salmoqli qismi istiqomat qiladigan oʻrta kattalikdagi shaharlar yetarlicha oʻrganilmagan. Ushbu tadqiqotda moʻtadil iqlim mintaqasida joylashgan, aholisi 100 000 dan 500 000 kishigacha boʻlgan oʻn ikkita anonimlashtirilgan shaharda yer usti shahar issiqlik orolining intensivligi va dinamikasi baholanadi. Yer yuzasi harorati 2000–2023-yillarning yoz oylari uchun Landsat 5, 7 va 8 tasvirlaridan olindi va har bir shahar uchun qurilgan hudud bilan shahar atrofidagi bufer zona oʻrtasidagi farq hisoblandi. Kovariatalar sifatida normallashtirilgan vegetatsiya farqi indeksi (NDVI), suv oʻtkazmaydigan qoplamalar ulushi va ochiq xarita maʼlumotlari asosida aniqlangan qurilish zichligi qoʻllanildi. Kunduzgi issiqlik orolining oʻrtacha intensivligi 3,4 °C ni tashkil etdi va tadqiqot davrida u oʻrtacha 0,9 °C ga oshdi. Bu oʻzgarishga eng katta hissani yangi turar-joy qurilishi boʻlayotgan chekka hududlarda yashil maydonlarning qisqarishi qoʻshadi, aholi soni bilan bogʻliqlik esa zaif boʻlib chiqdi. Aralash effektli regressiya modeli shaharlararo va yillararo oʻzgaruvchanlikning 71% ini tushuntiradi. Natijalar oʻrta kattalikdagi shaharlar haddan tashqari qizib ketishga yirik shaharlardan kam boʻlmagan darajada zaif ekanini va yangi qurilish zonalaridagi shaharsozlik qarorlari moslashuvning asosiy vositasi ekanini koʻrsatadi. Taklif etilgan usulni ochiq maʼlumotlar yordamida istalgan shahar uchun takrorlash mumkin.</p></abstract>
+<trans-abstract xml:lang="en"><p>Research on urban heat islands has traditionally focused on the largest metropolitan areas, while medium-sized cities, home to a substantial share of the population, remain poorly studied. This study assesses the intensity and dynamics of the surface urban heat island in twelve anonymised cities with populations of 100,000 to 500,000 in the temperate climate zone. Land surface temperature was retrieved from Landsat 5, 7 and 8 scenes for the summer months of 2000–2023, and for each city the difference between the built-up area and a suburban buffer zone was calculated. The normalised difference vegetation index (NDVI), the share of impervious surfaces and building density derived from open map data were used as covariates. The mean daytime heat island intensity was 3.4 °C, and over the study period it increased by 0.9 °C on average. The largest contribution to this change comes from the loss of green space in peripheral areas of new residential development, whereas the association with population size proved weak. A mixed-effects regression model explains 71% of the between-city and between-year variation. The results show that medium-sized cities are no less vulnerable to overheating than large ones and that planning decisions in new development zones are a key adaptation tool. The proposed method can be reproduced for any city using open data.</p></trans-abstract>
+<kwd-group xml:lang="uz" kwd-group-type="author"><kwd>shahar issiqlik oroli</kwd><kwd>masofaviy zondlash</kwd><kwd>Landsat</kwd><kwd>yer yuzasi harorati</kwd><kwd>yashil infratuzilma</kwd><kwd>oʻrta kattalikdagi shaharlar</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>urban heat island</kwd><kwd>remote sensing</kwd><kwd>Landsat</kwd><kwd>land surface temperature</kwd><kwd>green infrastructure</kwd><kwd>medium-sized cities</kwd></kwd-group>
+<funding-group><award-group><funding-source>“Gorizont” fanlararo tadqiqotlarni qoʻllab-quvvatlash jamgʻarmasi</funding-source></award-group></funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Kirish</title>
+<p>Shahar issiqlik oroli — shahardagi havo va yer yuzasi haroratining atrofdagi qishloq hududlariga nisbatan yuqoriligi — iqlimning antropogen transformatsiyasining eng koʻp oʻrganilgan koʻrinishlaridan biridir. Klassik ishlar bu hodisani issiqlik balansining oʻzgarishi bilan bogʻlaydi: oʻsimliklarning suv oʻtkazmaydigan qoplamalar bilan almashtirilishi bugʻlanishni kamaytiradi, qurilish geometriyasi tungi nurlanishni pasaytiradi, antropogen manbalar esa yer usti qatlamiga qoʻshimcha issiqlik qoʻshadi.</p>
+<p>Biroq empirik baholarning mutlaq koʻpchiligi aholisi million kishidan ortiq boʻlgan shaharlar uchun olingan. Aholisi 100–500 ming kishi boʻlgan oʻrta shaharlar koʻpincha yaqqol issiqlik oroli shakllanishi uchun “juda kichik” deb hisoblanadi, holbuki aynan ularda soʻnggi yigirma yil ichida chekka hududlarda faol qurilish kuzatilmoqda. Ushbu ish shu boʻshliqni toʻldiradi: biz oʻn ikkita oʻrta shaharda yer usti issiqlik orolining intensivligini baholaymiz va 2000–2023-yillarda uning oʻzgarishiga sabab boʻlgan omillarni aniqlaymiz.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar va usullar</title>
+<p>Tadqiqot moʻtadil mintaqadagi oʻn ikkita shaharni qamrab oladi; maqolada ular Sh1–Sh12 kodlari bilan belgilangan. Har bir shahar uchun Landsat arxividan iyun–avgust oylariga oid bulutsiz tasvirlar tanlab olindi (yiliga har bir shaharga oʻrtacha 4,6 ta tasvir, jami 1 318 ta tasvir). Yer yuzasi harorati issiqlik kanali boʻyicha NDVI asosida nurlanish qobiliyatiga tuzatish kiritilgan holda tiklandi.</p>
+<p>Issiqlik oroli intensivligi (IOI) suv obyektlari chiqarib tashlangan holda qurilgan hudud va kengligi 5 km boʻlgan shahar atrofi bufer halqasining mediana haroratlari oʻrtasidagi farq sifatida aniqlandi. Tushuntiruvchi oʻzgaruvchilar sifatida oʻrtacha NDVI, suv oʻtkazmaydigan qoplamalar ulushi, qurilish zichligi va aholi soni foydalanildi. Bogʻliqlik shahar uchun tasodifiy ozod had va yilning qatʼiy effekti bilan aralash effektli regressiya modeli yordamida baholandi.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Natijalar</title>
+<p>Butun tanlanma boʻyicha oʻrtacha kunduzgi IOI 3,4 ± 0,8 °C ni tashkil etdi. Eng past qiymatlar rivojlangan vodiy tarmogʻi va saqlanib qolgan oʻrmon-bogʻlarga ega shaharlarga (2,1–2,6 °C), eng yuqori qiymatlar esa zich panel uylar qurilgan dasht zonasidagi shaharlarga (4,5–4,9 °C) xos. 1-rasmda besh yillik davrlar boʻyicha oʻrtacha intensivlik dinamikasi koʻrsatilgan.</p>
+<fig id="f1" position="float"><caption><p>1-rasm. Besh yillik davrlar boʻyicha yer usti issiqlik orolining oʻrtacha kunduzgi intensivligi, °C</p></caption></fig>
+<p>Regressiya modelida (1-jadval) eng katta effekt NDVI ga tegishli: indeksning 0,1 ga kamayishi IOI ning 0,62 °C ga oshishi bilan bogʻliq. Suv oʻtkazmaydigan qoplamalar ulushi ahamiyatli, biroq uning effekti katta darajada oʻsimliklar orqali vositalangan. Morfologik koʻrsatkichlar hisobga olingandan soʻng aholi soni statistik jihatdan ahamiyatsiz.</p>
+<table-wrap id="t1" position="float"><caption><p>1-jadval. Aralash effektli model baholari (bogʻliq oʻzgaruvchi — IOI, °C)</p></caption><table><thead><tr><th>Oʻzgaruvchi</th><th>Koeffitsiyent</th><th>Std. xato</th><th>p</th></tr></thead><tbody><tr><td>NDVI (0,1 ga)</td><td>−0,62</td><td>0,09</td><td>&lt;0,001</td></tr><tr><td>Suv oʻtkazmaydigan qoplamalar (10% ga)</td><td>0,31</td><td>0,11</td><td>0,006</td></tr><tr><td>Qurilish zichligi (1 ming m²/ga ga)</td><td>0,18</td><td>0,07</td><td>0,012</td></tr><tr><td>Aholi (log)</td><td>0,07</td><td>0,15</td><td>0,640</td></tr><tr><td>Shartli R²</td><td>0,71</td><td>—</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Muhokama</title>
+<p>Olingan intensivlik baholari Yevropaning shunga oʻxshash kattalikdagi shaharlari uchun eʼlon qilingan baholar bilan taqqoslanadigan darajada boʻlib, eng yirik aglomeratsiyalar qiymatlaridan atigi 1–1,5 °C past. Bu oʻrta shaharlarda issiqlik xavfi ahamiyatsiz degan keng tarqalgan qarashni shubha ostiga qoʻyadi.</p>
+<p>Ishning eng muhim natijasi — chekka hududlarda oʻsimliklarning yetakchi roli. 2010-yildan keyin qishloq xoʻjaligi yerlari va boʻsh maydonlar oʻrnida qurilgan yangi turar-joy mavzelari minimal koʻkalamzorlashtirish bilan tavsiflanadi va yer yuzasi haroratining oʻsishi aynan shu yerda eng sezilarli. Tadqiqotning cheklovi faqat kunduzgi tasvirlardan foydalanilganidir: salomatlik uchun eng ahamiyatli boʻlgan tungi issiqlik oroli boshqa maʼlumot manbalarini talab qiladi.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Xulosa</title>
+<p>Oʻrta shaharlar intensivligi oʻsib borayotgan yaqqol yer usti issiqlik orollarini shakllantiradi. Yangi qurilish hududlarida yashil daraxtzorlarni saqlash va barpo etish moslashuvning eng samarali vositasidir. Taklif etilgan ochiq algoritmdan munitsipalitetlar monitoring uchun foydalanishi mumkin.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Adabiyotlar roʻyxati</title>
+<ref id="r1"><mixed-citation>Oke T. R. The energetic basis of the urban heat island // Quarterly Journal of the Royal Meteorological Society. 1982. Vol. 108, no. 455. P. 1–24.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Voogt J. A., Oke T. R. Thermal remote sensing of urban climates // Remote Sensing of Environment. 2003. Vol. 86, no. 3. P. 370–384.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Соколовская Е. В. Пространственные закономерности теплового режима малых и средних городов // Вопросы пространственного анализа. 2021. Т. 9, № 2. С. 34–51.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Мельников А. С., Ким С. Ю. Открытые картографические данные как источник показателей плотности застройки // Геоинформатика и общество. 2022. № 4. С. 18–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Harding P., Lindqvist M. Surface heat islands beyond the megacity: evidence from European mid-sized towns // Urban Climate Letters. 2020. Vol. 7. P. 112–127.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Орехова Т. Н. Методы восстановления температуры подстилающей поверхности по данным теплового канала. М.: Академия, 2019. 212 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Chen Y., Moreau L. Vegetation loss and the intensification of surface heat islands in suburban fringes // Journal of Applied Urban Ecology. 2021. Vol. 15, no. 3. P. 201–219.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Соколовская Е. В., Брагин И. А. Зелёная инфраструктура и адаптация городов к экстремальной жаре: обзор практик // Вестник Новоборского университета. Серия: Науки о Земле. 2023. Т. 11, № 1. С. 5–22.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

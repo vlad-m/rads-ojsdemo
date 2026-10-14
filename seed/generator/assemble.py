@@ -18,7 +18,7 @@ OUT_JSON = os.path.join(SEED, "content", "journal.json")
 OUT_BODIES = os.path.join(HERE, "bodies.json")
 
 ARTICLE_KEYS = ["slug", "section", "locale", "title", "subtitle", "abstract", "keywords", "authors",
-                "pages", "dateSubmitted", "dateAccepted", "citations", "pdf", "fundingAgency", "stage"]
+                "pages", "dateSubmitted", "dateAccepted", "citations", "pdf", "html", "xml", "fundingAgency", "stage"]
 
 
 def load(name):
@@ -57,6 +57,9 @@ def main():
         a["pdf"] = {l: f"pdf/{a['slug']}.{l}.pdf" for l in order if l in bodies[a["slug"]]}
         if published:
             a["pages"] = old_pages.get(a["slug"], a.get("pages", ""))
+            # web (HTML) and JATS XML editions next to the PDFs
+            a["html"] = {l: f"html/{a['slug']}.{l}.html" for l in a["pdf"]}
+            a["xml"] = {l: f"xml/{a['slug']}.{l}.xml" for l in a["pdf"]}
         else:
             a.pop("pages", None)
             a.pop("dateAccepted", None)

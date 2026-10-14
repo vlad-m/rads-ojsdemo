@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="az">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fənlərarası Tədqiqatlar Jurnalı (demo versiya)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems platformasında demo jurnal</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Tsifra» MMC</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Elmi məqalə</subject></subj-group></article-categories>
+<title-group>
+<article-title>Orta böyüklükdə şəhərlərdə şəhər istilik adaları: 2000–2023-cü illər üzrə Landsat məlumatlarının təhlili</article-title>
+<trans-title-group xml:lang="en"><trans-title>Urban Heat Islands in Medium-Sized Cities: An Analysis of Landsat Data for 2000–2023</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sokolovskaya@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Melnikov</surname><given-names>Artyom</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Kim</surname><given-names>Svetlana</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kim</surname><given-names>Svetlana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Novobor Dövlət Universiteti</institution>, <country country="RU">Rusiya</country></aff>
+<aff id="aff2"><institution>«Polis» Ali Urbanistika Məktəbi</institution>, <country country="RU">Rusiya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>8</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-14"><day>14</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-28"><day>28</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Elena Sokolovskaya, Artyom Melnikov, Svetlana Kim</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 lisenziyası əsasında yayılır</license-p></license></permissions>
+<abstract xml:lang="az"><p>Şəhər istilik adalarına dair tədqiqatlar ənənəvi olaraq ən iri aqlomerasiyalara yönəlmişdir, halbuki əhalinin əhəmiyyətli hissəsinin yaşadığı orta böyüklükdə şəhərlər zəif öyrənilmiş qalır. Bu tədqiqatda mülayim iqlim qurşağında yerləşən, əhalisi 100 mindən 500 minə qədər olan on iki anonimləşdirilmiş şəhərdə səth şəhər istilik adasının intensivliyi və dinamikası qiymətləndirilir. 2000–2023-cü illərin yay aylarına aid Landsat 5, 7 və 8 səhnələri əsasında yer səthinin temperaturu bərpa edilmiş, hər bir şəhər üçün tikili ərazi ilə şəhərətrafı bufer zona arasındakı fərq hesablanmışdır. Kovariatlar kimi normallaşdırılmış fərq vegetasiya indeksi (NDVI), su keçirməyən örtüklərin payı və açıq xəritə məlumatları əsasında müəyyən edilmiş tikinti sıxlığından istifadə olunmuşdur. Gündüz saatlarında istilik adasının orta intensivliyi 3,4 °C təşkil etmiş, tədqiqat dövründə isə orta hesabla 0,9 °C artmışdır. Bu dəyişikliyə ən böyük töhfəni yeni yaşayış tikintisinin periferik rayonlarında yaşıllıq sahələrinin azalması verir, əhalinin sayı ilə əlaqə isə zəif olmuşdur. Qarışıq effektli reqressiya modeli şəhərlərarası və illərarası variasiyanın 71%-ni izah edir. Nəticələr göstərir ki, orta böyüklükdə şəhərlər həddindən artıq istiləşməyə qarşı iri şəhərlərdən az həssas deyil və yeni tikinti zonalarında şəhərsalma qərarları uyğunlaşmanın əsas alətidir. Təklif olunan metodika açıq məlumatlardan istifadə etməklə istənilən şəhər üçün təkrarlana bilər.</p></abstract>
+<trans-abstract xml:lang="en"><p>Research on urban heat islands has traditionally focused on the largest metropolitan areas, while medium-sized cities, home to a substantial share of the population, remain poorly studied. This study assesses the intensity and dynamics of the surface urban heat island in twelve anonymised cities with populations of 100,000 to 500,000 in the temperate climate zone. Land surface temperature was retrieved from Landsat 5, 7 and 8 scenes for the summer months of 2000–2023, and for each city the difference between the built-up area and a suburban buffer zone was calculated. The normalised difference vegetation index (NDVI), the share of impervious surfaces and building density derived from open map data were used as covariates. The mean daytime heat island intensity was 3.4 °C, and over the study period it increased by 0.9 °C on average. The largest contribution to this change comes from the loss of green space in peripheral areas of new residential development, whereas the association with population size proved weak. A mixed-effects regression model explains 71% of the between-city and between-year variation. The results show that medium-sized cities are no less vulnerable to overheating than large ones and that planning decisions in new development zones are a key adaptation tool. The proposed method can be reproduced for any city using open data.</p></trans-abstract>
+<kwd-group xml:lang="az" kwd-group-type="author"><kwd>şəhər istilik adası</kwd><kwd>məsafədən zondlama</kwd><kwd>Landsat</kwd><kwd>yer səthinin temperaturu</kwd><kwd>yaşıl infrastruktur</kwd><kwd>orta böyüklükdə şəhərlər</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>urban heat island</kwd><kwd>remote sensing</kwd><kwd>Landsat</kwd><kwd>land surface temperature</kwd><kwd>green infrastructure</kwd><kwd>medium-sized cities</kwd></kwd-group>
+<funding-group><award-group><funding-source>«Horizont» Fənlərarası Tədqiqatlara Dəstək Fondu</funding-source></award-group></funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Giriş</title>
+<p>Şəhər istilik adası — şəhərdə hava və yer səthi temperaturunun ətrafdakı kənd ərazisinə nisbətən yüksək olması — iqlimin antropogen transformasiyasının ən çox öyrənilmiş təzahürlərindən biridir. Klassik əsərlər bu hadisəni istilik balansının dəyişməsi ilə əlaqələndirir: bitki örtüyünün su keçirməyən örtüklərlə əvəzlənməsi buxarlanmanı azaldır, tikililərin həndəsəsi gecə şüalanmasını zəiflədir, antropogen mənbələr isə yerüstü təbəqəyə əlavə istilik verir.</p>
+<p>Lakin empirik qiymətləndirmələrin böyük əksəriyyəti milyonçu şəhərlər üçün əldə edilmişdir. Əhalisi 100–500 min nəfər olan orta böyüklükdə şəhərlər çox vaxt nəzərəçarpan istilik adasının formalaşması üçün «çox kiçik» hesab edilir, halbuki son iki onillikdə periferiyada fəal tikinti məhz onlarda müşahidə olunur. Bu iş həmin boşluğu doldurur: biz on iki orta böyüklükdə şəhərdə səth istilik adasının intensivliyini qiymətləndirir və 2000–2023-cü illər ərzində onun dəyişməsinin amillərini müəyyən edirik.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar və metodlar</title>
+<p>Tədqiqat məqalədə Ş1–Ş12 kodları ilə işarələnmiş mülayim qurşağın on iki şəhərini əhatə edir. Hər bir şəhər üçün Landsat arxivindən iyun–avqust aylarına aid buludsuz səhnələr seçilmişdir (orta hesabla ildə hər şəhər üçün 4,6 səhnə, cəmi 1 318 səhnə). Yer səthinin temperaturu NDVI əsasında şüalandırma qabiliyyətinin korreksiyası ilə istilik kanalı üzrə bərpa edilmişdir.</p>
+<p>İstilik adasının intensivliyi (İAİ) tikili ərazinin və su obyektləri çıxılmaqla eni 5 km olan şəhərətrafı bufer halqanın median temperaturları arasındakı fərq kimi müəyyən edilmişdir. İzahedici dəyişənlər kimi orta NDVI, su keçirməyən örtüklərin payı, tikinti sıxlığı və əhalinin sayından istifadə olunmuşdur. Əlaqə şəhər üçün təsadüfi sabit hədd və il üçün sabit effekt daxil olan qarışıq effektli reqressiya modeli ilə qiymətləndirilmişdir.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Nəticələr</title>
+<p>Bütün nümunə üzrə orta gündüz İAİ 3,4 ± 0,8 °C təşkil etmişdir. Minimal qiymətlər inkişaf etmiş vadi şəbəkəsi və qorunub saxlanmış meşəparkları olan şəhərlər (2,1–2,6 °C), maksimal qiymətlər isə sıx panel tikililəri olan çöl zonası şəhərləri (4,5–4,9 °C) üçün səciyyəvidir. Şəkil 1-də beşillik dövrlər üzrə orta intensivliyin dinamikası göstərilmişdir.</p>
+<fig id="f1" position="float"><caption><p>Şəkil 1. Beşillik dövrlər üzrə səth istilik adasının orta gündüz intensivliyi, °C</p></caption></fig>
+<p>Reqressiya modelində (Cədvəl 1) böyüklüyünə görə ən güclü effekt NDVI-yə aiddir: indeksin 0,1 azalması İAİ-nin 0,62 °C artması ilə əlaqəlidir. Su keçirməyən örtüklərin payı əhəmiyyətlidir, lakin onun effekti böyük ölçüdə bitki örtüyü vasitəsilə ötürülür. Morfoloji göstəricilər nəzərə alındıqdan sonra əhalinin sayı statistik cəhətdən əhəmiyyətsizdir.</p>
+<table-wrap id="t1" position="float"><caption><p>Cədvəl 1. Qarışıq effektli modelin qiymətləndirmələri (asılı dəyişən — İAİ, °C)</p></caption><table><thead><tr><th>Dəyişən</th><th>Əmsal</th><th>Standart xəta</th><th>p</th></tr></thead><tbody><tr><td>NDVI (0,1 üzrə)</td><td>−0,62</td><td>0,09</td><td>&lt;0,001</td></tr><tr><td>Su keçirməyən örtüklər (10% üzrə)</td><td>0,31</td><td>0,11</td><td>0,006</td></tr><tr><td>Tikinti sıxlığı (1 min m²/ha üzrə)</td><td>0,18</td><td>0,07</td><td>0,012</td></tr><tr><td>Əhali (log)</td><td>0,07</td><td>0,15</td><td>0,640</td></tr><tr><td>Şərti R²</td><td>0,71</td><td>—</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Müzakirə</title>
+<p>Əldə edilmiş intensivlik qiymətləndirmələri oxşar ölçülü Avropa şəhərləri üçün dərc edilmiş göstəricilərlə müqayisə ediləndir və ən iri aqlomerasiyalar üçün qiymətlərdən cəmi 1–1,5 °C aşağıdır. Bu, orta böyüklükdə şəhərlərdə istilik riskinin əhəmiyyətsiz olması barədə geniş yayılmış təsəvvürü şübhə altına alır.</p>
+<p>İşin ən mühüm nəticəsi periferiyada bitki örtüyünün aparıcı roludur. 2010-cu ildən sonra kənd təsərrüfatı torpaqlarının və boş ərazilərin yerində tikilmiş yeni yaşayış məhəllələri minimal yaşıllaşdırma ilə səciyyələnir və səth temperaturunun artımı məhz burada daha nəzərəçarpandır. Tədqiqatın məhdudiyyəti yalnız gündüz səhnələrindən istifadə edilməsidir: sağlamlıq üçün ən əhəmiyyətli olan gecə istilik adası başqa məlumat mənbələri tələb edir.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Yekun</title>
+<p>Orta böyüklükdə şəhərlər intensivliyi artan nəzərəçarpan səth istilik adaları formalaşdırır. Yeni tikinti rayonlarında yaşıllıqların qorunması və salınması uyğunlaşmanın ən effektiv vasitəsidir. Təklif olunan açıq alqoritm bələdiyyələr tərəfindən monitorinq üçün istifadə edilə bilər.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ədəbiyyat siyahısı</title>
+<ref id="r1"><mixed-citation>Oke T. R. The energetic basis of the urban heat island // Quarterly Journal of the Royal Meteorological Society. 1982. Vol. 108, no. 455. P. 1–24.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Voogt J. A., Oke T. R. Thermal remote sensing of urban climates // Remote Sensing of Environment. 2003. Vol. 86, no. 3. P. 370–384.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Соколовская Е. В. Пространственные закономерности теплового режима малых и средних городов // Вопросы пространственного анализа. 2021. Т. 9, № 2. С. 34–51.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Мельников А. С., Ким С. Ю. Открытые картографические данные как источник показателей плотности застройки // Геоинформатика и общество. 2022. № 4. С. 18–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Harding P., Lindqvist M. Surface heat islands beyond the megacity: evidence from European mid-sized towns // Urban Climate Letters. 2020. Vol. 7. P. 112–127.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Орехова Т. Н. Методы восстановления температуры подстилающей поверхности по данным теплового канала. М.: Академия, 2019. 212 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Chen Y., Moreau L. Vegetation loss and the intensification of surface heat islands in suburban fringes // Journal of Applied Urban Ecology. 2021. Vol. 15, no. 3. P. 201–219.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Соколовская Е. В., Брагин И. А. Зелёная инфраструктура и адаптация городов к экстремальной жаре: обзор практик // Вестник Новоборского университета. Серия: Науки о Земле. 2023. Т. 11, № 1. С. 5–22.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

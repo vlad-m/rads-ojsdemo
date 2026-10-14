@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="it">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Rivista di ricerca interdisciplinare (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Rivista dimostrativa su Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra S.r.l.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Articolo di ricerca</subject></subj-group></article-categories>
+<title-group>
+<article-title>Accessibilità al trasporto pubblico e prezzi delle abitazioni: un modello edonico per un’agglomerazione urbana</article-title>
+<subtitle>Evidenze dall’apertura di una nuova linea di metrotranvia</subtitle>
+<trans-title-group xml:lang="en"><trans-title>Transit Accessibility and Housing Prices: A Hedonic Model for an Urban Agglomeration</trans-title><trans-subtitle>Evidence from the Opening of a New Light Rail Line</trans-subtitle></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Melnikov</surname><given-names>Artyom</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.melnikov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Gromov</surname><given-names>Pavel</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Polyakova</surname><given-names>Daria</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Polyakova</surname><given-names>Daria</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Sedov</surname><given-names>Evgeny</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sedov</surname><given-names>Evgeny</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Scuola superiore di studi urbani «Polis»</institution>, <country country="RU">Russia</country></aff>
+<aff id="aff2"><institution>Istituto di economia e sviluppo territoriale «Meridian»</institution>, <country country="RU">Russia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>7</lpage>
+<history><date date-type="received" iso-8601-date="2025-09-02"><day>02</day><month>09</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-01-19"><day>19</day><month>01</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Artyom Melnikov, Pavel Gromov, Daria Polyakova, Evgeny Sedov</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Distribuito con licenza CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="it"><p>Gli investimenti nel trasporto pubblico ridisegnano la struttura spaziale di una città e una delle manifestazioni più evidenti di questo fenomeno è la variazione dei prezzi delle abitazioni in prossimità delle nuove stazioni. L’articolo stima l’effetto dell’apertura di una linea di metrotranvia di 17 km sui prezzi degli appartamenti in un’agglomerazione anonimizzata di circa 1,2 milioni di abitanti. I dati comprendono 46.000 compravendite e annunci di vendita del periodo 2018–2024, geocodificati e integrati con le caratteristiche degli edifici e del quartiere. L’accessibilità al trasporto pubblico è stata misurata come numero di posti di lavoro raggiungibili entro 45 minuti con i mezzi pubblici prima e dopo l’apertura della linea. L’effetto è stato identificato con un modello edonico difference-in-differences in cui il gruppo di trattamento è costituito dagli appartamenti situati entro 800 m dalle nuove stazioni. Dopo l’apertura della linea, i prezzi degli appartamenti nell’area di influenza sono aumentati del 6,8% in più rispetto all’area di controllo e l’effetto ha cominciato a manifestarsi già al momento dell’annuncio dei lavori. L’effetto è più marcato per gli appartamenti nei quartieri periferici con un’accessibilità inizialmente bassa ed è praticamente assente nel centro. Un aumento dell’accessibilità pari a 10.000 posti di lavoro è associato a un incremento dell’1,9% del prezzo al metro quadro. I risultati possono essere utilizzati per giustificare meccanismi di cattura del valore fondiario (land value capture) per il finanziamento delle infrastrutture di trasporto.</p></abstract>
+<trans-abstract xml:lang="en"><p>Investment in public transport reshapes the spatial structure of a city, and one of the most visible manifestations of this is the change in housing prices near new stations. This article estimates the effect of opening a 17-km light rail line on apartment prices in an anonymised agglomeration with a population of about 1.2 million. The data comprise 46,000 transactions and sale listings for 2018–2024, geocoded and supplemented with building and neighbourhood characteristics. Transit accessibility was measured as the number of jobs reachable within 45 minutes by public transport before and after the opening of the line. The effect was identified with a hedonic difference-in-differences model in which the treatment group consists of apartments within 800 m of the new stations. After the line opened, apartment prices in the catchment area increased by 6.8% more than in the control area, and the effect began to appear as early as the announcement of construction. The effect is stronger for apartments in peripheral districts with initially low accessibility and practically absent in the centre. An increase in accessibility of 10,000 jobs is associated with a 1.9% increase in the price per square metre. The results can be used to justify land value capture mechanisms for financing transport infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="it" kwd-group-type="author"><kwd>accessibilità al trasporto pubblico</kwd><kwd>modello edonico</kwd><kwd>mercato immobiliare residenziale</kwd><kwd>metrotranvia</kwd><kwd>cattura del valore fondiario</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>transit accessibility</kwd><kwd>hedonic model</kwd><kwd>housing market</kwd><kwd>light rail</kwd><kwd>land value capture</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introduzione</title>
+<p>La relazione tra accessibilità dei trasporti e valore degli immobili è uno dei temi fondamentali dell’economia urbana. Il modello classico della città monocentrica prevede che la riduzione dei costi di trasporto aumenti il valore dei terreni lontani dal centro. Gli studi empirici condotti in diversi paesi lo confermano nel complesso, ma le stime dell’effetto variano considerevolmente.</p>
+<p>L’apertura di una nuova linea di metrotranvia nell’agglomerazione studiata, avvenuta nel 2022, ha creato un esperimento naturale. Scopo del lavoro è stimare la variazione dei prezzi delle abitazioni che ne è derivata, seguirne la dinamica nel tempo e nello spazio e collegarla alla variazione dell’accessibilità ai posti di lavoro.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiali e metodi</title>
+<p>I dati di partenza comprendono 18.000 compravendite registrate e 28.000 annunci di vendita di appartamenti del periodo 2018–2024. Per gli annunci sono stati utilizzati gli ultimi prezzi prima della rimozione dalla pubblicazione. Tutti gli immobili sono stati geocodificati e integrati con le relative caratteristiche: superficie, piano, anno di costruzione e materiale dell’edificio, distanza dal centro, dai parchi e dalle scuole.</p>
+<p>L’accessibilità ai posti di lavoro è stata calcolata sulla base degli orari del trasporto pubblico e dei dati sulla localizzazione dell’occupazione. Il modello edonico per il logaritmo del prezzo al metro quadro include le caratteristiche dell’immobile, effetti fissi di quartiere e di trimestre, nonché l’interazione dell’indicatore dell’area di influenza (fino a 800 m dalla stazione) con i periodi «annuncio», «costruzione» ed «esercizio».</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Risultati</title>
+<p>La dinamica della differenza di prezzo tra l’area di influenza e l’area di controllo è illustrata nella fig. 1. Prima dell’annuncio dei lavori le differenze non sono statisticamente significative, il che conferma l’ipotesi di trend paralleli. Dopo l’annuncio, nel 2019, la differenza comincia a crescere e raggiunge il 6,8% nel periodo di esercizio.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Differenza del prezzo al metro quadro tra l’area di influenza e l’area di controllo per anno, %</p></caption></fig>
+<p>Le stime del modello principale e delle sue varianti sono riportate nella tab. 1. L’effetto nei quartieri periferici è quasi tre volte maggiore che nella zona intermedia, mentre nel centro non è statisticamente diverso da zero.</p>
+<table-wrap id="t1" position="float"><caption><p>Tabella 1. Stime del modello edonico difference-in-differences (variabile dipendente: log del prezzo al m²)</p></caption><table><thead><tr><th>Specificazione</th><th>Effetto, %</th><th>Errore std.</th><th>N</th></tr></thead><tbody><tr><td>Tutti i quartieri</td><td>6,8</td><td>1,3</td><td>46 112</td></tr><tr><td>Periferia</td><td>11,2</td><td>2,1</td><td>17 840</td></tr><tr><td>Zona intermedia</td><td>4,1</td><td>1,6</td><td>19 305</td></tr><tr><td>Centro</td><td>0,9</td><td>2,4</td><td>8 967</td></tr><tr><td>Solo compravendite</td><td>6,1</td><td>1,8</td><td>18 024</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussione</title>
+<p>L’entità dell’effetto si colloca a metà dell’intervallo tipico degli studi internazionali sul trasporto rapido su rotaia. L’aumento dei prezzi già prima dell’apertura della linea indica che il mercato capitalizza le aspettative, elemento importante per scegliere il momento in cui applicare i meccanismi di cattura del valore fondiario.</p>
+<p>L’eterogeneità dell’effetto tra le zone è coerente con la teoria: dove l’accessibilità era già elevata, la nuova linea aggiunge poco. Un limite del lavoro è l’uso dei prezzi degli annunci per una parte del campione; tuttavia, la stima basata sulle sole compravendite è vicina a quella principale.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusioni</title>
+<p>L’apertura della linea di metrotranvia ha aumentato i prezzi delle abitazioni nell’area di influenza del 6,8%, con l’effetto maggiore osservato in periferia. Ciò giustifica il ricorso a strumenti di cattura di parte dell’incremento di valore per il finanziamento dei progetti di trasporto.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Bibliografia</title>
+<ref id="r1"><mixed-citation>Rosen S. Hedonic prices and implicit markets: product differentiation in pure competition // Journal of Political Economy. 1974. Vol. 82, no. 1. P. 34–55.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Hansen W. G. How accessibility shapes land use // Journal of the American Institute of Planners. 1959. Vol. 25, no. 2. P. 73–76.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Мельников А. С. Метрики транспортной доступности на основе расписаний общественного транспорта // Геоинформатика и общество. 2023. № 2. С. 5–21.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Громов П. А., Седов Е. В. Капитализация инфраструктурных инвестиций в цены жилья: обзор эмпирических исследований // Пространственная экономика и политика. 2022. № 4. С. 9–30.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Debrezion G., Pels E., Rietveld P. The impact of railway stations on residential and commercial property value: a meta-analysis // Journal of Real Estate Finance and Economics. 2007. Vol. 35, no. 2. P. 161–180.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Полякова Д. И. Анонсирование инфраструктурных проектов и ожидания рынка жилья // Городские исследования. 2024. Т. 8, № 1. С. 44–61.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Ng W., Carvalho F. Land value capture for light rail: international practice // Transport Finance Review. 2021. Vol. 10. P. 71–90.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мельников А. С., Полякова Д. И. Геокодирование объявлений о продаже жилья: методы и ошибки // Прикладная аналитика. 2023. Т. 7, № 4. С. 63–79.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

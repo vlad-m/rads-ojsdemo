@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista de Investigación Interdisciplinaria (demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revista de demostración en Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra S.R.L.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Artículo de investigación</subject></subj-group></article-categories>
+<title-group>
+<article-title>Estabilidad de películas de perovskita sometidas a ciclado térmico: el papel de los aditivos orgánicos</article-title>
+<trans-title-group xml:lang="en"><trans-title>Stability of Perovskite Films under Thermal Cycling: The Role of Organic Additives</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Orlov</surname><given-names>Dmitry</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Orlov</surname><given-names>Dmitry</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>d.orlov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Shestakova</surname><given-names>Vera</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Shestakova</surname><given-names>Vera</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Avetisyan</surname><given-names>Georgy</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Avetisyan</surname><given-names>Georgy</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Centro de Ciencia de Materiales Kristall de los Urales</institution>, <country country="RU">Rusia</country></aff>
+<aff id="aff2"><institution>Instituto de Física de la Materia Condensada de Ereván</institution>, <country country="AM">Armenia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>5</fpage><lpage>7</lpage>
+<history><date date-type="received" iso-8601-date="2025-03-11"><day>11</day><month>03</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-22"><day>22</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Dmitry Orlov, Vera Shestakova, Georgy Avetisyan</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Publicado bajo licencia CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="es"><p>Las perovskitas de haluro se consideran uno de los materiales más prometedores para la fotovoltaica de capa fina, pero su uso práctico se ve frenado por una estabilidad insuficiente frente a las fluctuaciones de temperatura propias de las condiciones reales de funcionamiento. Este estudio examina el efecto de tres aditivos orgánicos —fenetilamonio, tiourea y polivinilpirrolidona— sobre la degradación de películas de perovskita de catión mixto sometidas a ciclado térmico entre −20 y +85 °C. Las películas se prepararon por recubrimiento por centrifugación asistido por antisolvente y se caracterizaron mediante difracción de rayos X, microscopía electrónica de barrido y espectroscopia de fotoluminiscencia después de 0, 50, 100 y 200 ciclos. En las muestras de control aparece una fase de yoduro de plomo tras solo 100 ciclos, se forman microfisuras a lo largo de los límites de grano y la intensidad de la fotoluminiscencia cae casi a la mitad. La adición de fenetilamonio al 1,5 % molar ralentiza la degradación: tras 200 ciclos se conserva el 87 % de la intensidad inicial de fotoluminiscencia y no se detectan fases secundarias. La tiourea aumenta el tamaño de grano, pero apenas influye en la resistencia al ciclado térmico, mientras que la polivinilpirrolidona suprime eficazmente el agrietamiento. Se propone un mecanismo que vincula el efecto estabilizador de los aditivos con la pasivación de los defectos superficiales y la relajación de las tensiones mecánicas. Los resultados pueden orientar el desarrollo de formulaciones para módulos solares flexibles.</p></abstract>
+<trans-abstract xml:lang="en"><p>Halide perovskites are regarded as one of the most promising materials for thin-film photovoltaics, but their practical use is held back by insufficient stability under the temperature fluctuations typical of real operating conditions. This study examines the effect of three organic additives, phenethylammonium, thiourea and polyvinylpyrrolidone, on the degradation of mixed-cation perovskite films under thermal cycling between −20 and +85 °C. Films were prepared by antisolvent-assisted spin coating and characterised by X-ray diffraction, scanning electron microscopy and photoluminescence spectroscopy after 0, 50, 100 and 200 cycles. In control samples, a lead iodide phase appears after only 100 cycles, microcracks form along grain boundaries, and photoluminescence intensity drops by almost half. Adding phenethylammonium at 1.5 mol% slows degradation: after 200 cycles, 87% of the initial photoluminescence intensity is retained and no secondary phases are detected. Thiourea increases grain size but has little effect on resistance to thermal cycling, whereas polyvinylpyrrolidone effectively suppresses cracking. A mechanism is proposed that links the stabilising effect of the additives to the passivation of surface defects and the relaxation of mechanical stress. The results can inform the development of formulations for flexible solar modules.</p></trans-abstract>
+<kwd-group xml:lang="es" kwd-group-type="author"><kwd>perovskitas</kwd><kwd>películas delgadas</kwd><kwd>ciclado térmico</kwd><kwd>degradación</kwd><kwd>pasivación de defectos</kwd><kwd>fotovoltaica</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>perovskites</kwd><kwd>thin films</kwd><kwd>thermal cycling</kwd><kwd>degradation</kwd><kwd>defect passivation</kwd><kwd>photovoltaics</kwd></kwd-group>
+<funding-group><award-group><funding-source>Fundación Horizon para la Investigación Interdisciplinaria</funding-source></award-group></funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introducción</title>
+<p>En los últimos quince años, la eficiencia de conversión de las células solares de perovskita ha pasado de unos pocos puntos porcentuales a valores comparables a los del silicio. El principal obstáculo para su comercialización sigue siendo la estabilidad: bajo la acción de la humedad, la luz y la temperatura, la red cristalina de la perovskita se descompone con liberación de yoduro de plomo.</p>
+<p>El ciclado térmico —las variaciones repetidas de temperatura— es una de las pruebas más exigentes, ya que la diferencia entre los coeficientes de dilatación térmica de la película y del sustrato provoca la acumulación de tensiones mecánicas. El objetivo del trabajo es comparar la eficacia de tres aditivos orgánicos de distinta naturaleza para aumentar la resistencia de las películas al ciclado térmico.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiales y métodos</title>
+<p>Las películas de perovskita de catión mixto basada en cesio, formamidinio y metilamonio (CsFAMA), con sustitución parcial del yodo por bromo (15 %), se depositaron sobre sustratos de vidrio con recubrimiento conductor mediante recubrimiento por centrifugación con goteo de antisolvente y se recocieron a 100 °C. Los aditivos se incorporaron a la solución precursora: yoduro de fenetilamonio (PEA, 1,5 % molar), tiourea (TU, 3 % molar) y polivinilpirrolidona (PVP, 0,5 % en masa).</p>
+<p>El ciclado térmico se llevó a cabo en una cámara climática en atmósfera inerte: cada ciclo comprendía un mantenimiento de 15 min a −20 °C y de 15 min a +85 °C, con una velocidad de cambio de temperatura de 5 °C/min. Después de 0, 50, 100 y 200 ciclos, las muestras se analizaron mediante difracción de rayos X, microscopía electrónica y fotoluminiscencia estacionaria.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Resultados</title>
+<p>La variación de la intensidad integrada de fotoluminiscencia en función del número de ciclos se muestra en la figura 1. En las muestras de control, la intensidad desciende al 54 % del valor inicial tras 100 ciclos y al 31 % tras 200 ciclos; al mismo tiempo, en los difractogramas aparece el pico del yoduro de plomo a 2θ = 12,7°.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Intensidad relativa de fotoluminiscencia de las películas en función del número de ciclos térmicos, %</p></caption></fig>
+<p>La mayor estabilidad la mostraron las películas con PEA, en las que no se detectaron fases secundarias ni siquiera tras 200 ciclos. La adición de PVP suprime casi por completo la formación de microfisuras, pero no impide la disminución gradual de la intensidad de fotoluminiscencia. Las características resumidas se presentan en la tabla 1.</p>
+<table-wrap id="t1" position="float"><caption><p>Tabla 1. Características de las películas antes y después de 200 ciclos</p></caption><table><thead><tr><th>Muestra</th><th>Tamaño de grano, nm</th><th>FL tras 200 ciclos, %</th><th>Fase PbI₂</th><th>Fisuras</th></tr></thead><tbody><tr><td>Control</td><td>310</td><td>31</td><td>sí</td><td>abundantes</td></tr><tr><td>PEA 1,5 % molar</td><td>340</td><td>87</td><td>no</td><td>aisladas</td></tr><tr><td>TU 3 % molar</td><td>520</td><td>39</td><td>sí</td><td>abundantes</td></tr><tr><td>PVP 0,5 % en masa</td><td>290</td><td>66</td><td>trazas</td><td>no</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discusión</title>
+<p>El efecto estabilizador del PEA puede explicarse por la formación, en la superficie de los granos, de una fina capa de perovskita bidimensional que pasiva los defectos e impide la migración de los iones haluro. La PVP parece actuar de otro modo: las cadenas poliméricas localizadas en los límites de grano relajan parcialmente las tensiones mecánicas e impiden el agrietamiento.</p>
+<p>La diferencia de mecanismos abre la posibilidad de un uso combinado de los aditivos. Los experimentos preliminares con la incorporación simultánea de PEA y PVP muestran que se conserva el 91 % de la intensidad de fotoluminiscencia tras 200 ciclos, lo que requiere una verificación adicional en células solares completas.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusiones</title>
+<p>El fenetilamonio es el más eficaz de los aditivos estudiados para aumentar la resistencia de las películas de perovskita al ciclado térmico, y la polivinilpirrolidona suprime eficazmente el agrietamiento. La combinación de aditivos con distintos mecanismos de acción se perfila como una estrategia prometedora.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Referencias</title>
+<ref id="r1"><mixed-citation>Kojima A., Teshima K., Shirai Y., Miyasaka T. Organometal halide perovskites as visible-light sensitizers for photovoltaic cells // Journal of the American Chemical Society. 2009. Vol. 131, no. 17. P. 6050–6051.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Орлов Д. С., Шестакова В. А. Морфология плёнок смешанных галогенидных перовскитов, полученных с антирастворителем // Неорганические материалы и покрытия. 2022. Т. 14, № 5. С. 412–423.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Brenner M., Ito K. Thermal stress and grain-boundary cracking in hybrid perovskite films // Thin Film Engineering. 2021. Vol. 28, no. 3. P. 301–315.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Аветисян Г. Р. Пассивация поверхностных дефектов в перовскитах органическими катионами // Физика конденсированных сред. 2023. Т. 9, № 2. С. 88–104.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Liang Q., Fischer A. Polymer additives for mechanically robust perovskite layers // Advanced Coatings Letters. 2022. Vol. 6. P. 55–67.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Шестакова В. А. Методы ускоренных климатических испытаний тонкоплёночных солнечных элементов. Екатеринбург: Кристалл, 2021. 148 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Okafor C., Duarte P. Photoluminescence as a probe of perovskite degradation // Optical Materials Review. 2020. Vol. 17, no. 4. P. 220–236.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Орлов Д. С. Рентгенофазовый анализ продуктов деградации галогенидных перовскитов // Заводская лаборатория. Диагностика материалов. 2021. Т. 87, № 9. С. 31–38.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="uz">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fanlararo tadqiqotlar jurnali (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems demo jurnali</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>“Tsifra” MChJ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Ilmiy maqola</subject></subj-group></article-categories>
+<title-group>
+<article-title>Keskin kontinental iqlim sharoitida arzon PM2.5 sensorlarini mashinali oʻqitish yordamida kalibrlash</article-title>
+<trans-title-group xml:lang="en"><trans-title>Machine-Learning Calibration of Low-Cost PM2.5 Sensors in a Sharply Continental Climate</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Karimov</surname><given-names>Timur</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Karimov</surname><given-names>Timur</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>t.karimov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Vasilenko</surname><given-names>Olga</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vasilenko</surname><given-names>Olga</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Volga amaliy tahlil instituti</institution>, <country country="RU">Rossiya</country></aff>
+<aff id="aff2"><institution>“Vita” jamoat salomatligi ilmiy-tadqiqot instituti</institution>, <country country="RU">Rossiya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>9</fpage><lpage>11</lpage>
+<history><date date-type="received" iso-8601-date="2024-09-30"><day>30</day><month>09</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-03"><day>03</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Timur Karimov, Olga Vasilenko</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 litsenziyasi asosida tarqatiladi</license-p></license></permissions>
+<abstract xml:lang="uz"><p>Mayda dispers zarrachalarning arzon optik sensorlari havo sifatini monitoring qilish tarmoqlari zichligini sezilarli darajada oshirishi mumkin, biroq ularning koʻrsatkichlari namlik va haroratga kuchli bogʻliq boʻlib, etalon oʻlchovlardan muntazam ravishda chetga chiqadi. Ushbu tadqiqotda yillik harorat amplitudasi katta boʻlgan keskin kontinental iqlim sharoitida bunday sensorlarni kalibrlash usullari taqqoslanadi. 14 oy davomida sakkizta sensor gravimetrik etalon stansiya bilan bir joyda oʻrnatildi va natijada 76 000 dan ortiq soatlik kuzatuv olindi. Chiziqli regressiya, nisbiy namlikka tuzatish kiritilgan koʻp omilli regressiya, tasodifiy oʻrmon va gradiyentli busting taqqoslandi. Samaradorlik oʻqitish va test tanlanmalari oʻrtasida axborot sizib chiqishining oldini oluvchi haftalik bloklarga asoslangan kross-validatsiya yordamida baholandi. Kalibrlashsiz oʻrtacha absolyut xato 11,8 µg/m³ ni tashkil etdi; chiziqli tuzatishdan soʻng u 6,4 µg/m³ gacha kamaydi, gradiyentli busting esa uni 3,1 µg/m³ gacha tushirdi. Eng muhim belgilar nisbiy namlik, harorat va qoʻshni sensorlarning koʻrsatkichlari boʻldi. Faqat yozgi maʼlumotlarda oʻqitilgan modellar qishki davrga yomon koʻchirildi, bu esa yil davomida kalibrlash zarurligini taʼkidlaydi. Xulosa qilib aytganda, mashinali oʻqitish usullari bilan kalibrlangan arzon sensorlar ifloslanishning sutkalik dinamikasini baholash va mahalliy manbalarni aniqlash uchun yaroqli. Kod va anonimlashtirilgan maʼlumotlar qayta foydalanish uchun ochiq holda taqdim etilgan.</p></abstract>
+<trans-abstract xml:lang="en"><p>Low-cost optical sensors of fine particulate matter can substantially increase the density of air-quality monitoring networks, but their readings depend strongly on humidity and temperature and deviate systematically from reference measurements. This study compares calibration methods for such sensors in a sharply continental climate with a large annual temperature range. For 14 months, eight sensors were co-located with a gravimetric reference station, yielding more than 76,000 hourly observations. Linear regression, multiple regression with a relative-humidity correction, random forest and gradient boosting were compared. Performance was assessed with weekly blocked cross-validation that prevents information leakage between training and test samples. Without calibration, the mean absolute error was 11.8 µg/m³; after linear correction it fell to 6.4 µg/m³, and gradient boosting reduced it to 3.1 µg/m³. The most important features were relative humidity, temperature and the readings of neighbouring sensors. Models trained on summer data alone transferred poorly to the winter period, underlining the need for year-round calibration. We conclude that, once calibrated with machine-learning methods, low-cost sensors are suitable for assessing the diurnal dynamics of pollution and identifying local sources. The code and anonymised data are openly available for reuse.</p></trans-abstract>
+<kwd-group xml:lang="uz" kwd-group-type="author"><kwd>havo sifati</kwd><kwd>PM2.5</kwd><kwd>arzon sensorlar</kwd><kwd>kalibrlash</kwd><kwd>gradiyentli busting</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>air quality</kwd><kwd>PM2.5</kwd><kwd>low-cost sensors</kwd><kwd>calibration</kwd><kwd>gradient boosting</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Kirish</title>
+<p>Mayda dispers PM2.5 zarrachalari atmosfera havosining ifloslanishi bilan bogʻliq salomatlik uchun asosiy xavf omillaridan biridir. Etalon monitoring stansiyalari qimmat va soni kam: aholisi yarim million kishi boʻlgan odatiy shaharda ular bitta-ikkita boʻladi. Narxi bir necha ming rubl boʻlgan arzon optik sensorlar zich tarmoq yaratish imkonini beradi, biroq ularning koʻrsatkichlari kalibrlashni talab qiladi.</p>
+<p>Xatoliklarning asosiy sababi — yuqori namlikda zarrachalarning gigroskopik oʻsishi boʻlib, buning natijasida sensor massaviy konsentratsiyani oshirib koʻrsatadi. Keskin kontinental iqlimda bunga elektronika ishiga taʼsir qiluvchi past qishki haroratlar ham qoʻshiladi. Ishning maqsadi — kalibrlash usullarini taqqoslash va ularning fasllar oʻrtasida koʻchirilish imkoniyatini baholash.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar va usullar</title>
+<p>Bir xil modeldagi sakkizta sensor etalon stansiya paviloni tomida 3 m balandlikda oʻrnatildi. Kuzatuv davri — 2022-yil oktabridan 2023-yil noyabrigacha. Maʼlumotlar soatlik qiymatlargacha agregatsiya qilindi; yozuvlari toʻliq boʻlmagan (45 daqiqadan kam) soatlar chiqarib tashlandi. Yakuniy tanlanma — 76 412 juft kuzatuv.</p>
+<p>Toʻrtta model taqqoslandi: xom signal boʻyicha oddiy chiziqli regressiya; nisbiy namlik, harorat va ularning oʻzaro taʼsiri bilan koʻp omilli regressiya; tasodifiy oʻrmon (500 ta daraxt); gradiyentli busting (chuqurlik 6, oʻqitish tezligi 0,05). Sifatni baholash uchun bloklarga asoslangan kross-validatsiya qoʻllanildi: maʼlumotlar haftalik bloklarga boʻlindi va har bir blok navbatma-navbat test tanlanmasi vazifasini bajardi.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Natijalar</title>
+<p>Taqqoslash natijalari 1-jadval va 1-rasmda keltirilgan. Barcha kalibrlash usullari xatoni sezilarli darajada kamaytiradi; namlikka tuzatish kiritilgan chiziqli regressiya va ansambl usullari oʻrtasidagi farq nisbiy namlik 80% dan yuqori boʻlganda ayniqsa katta.</p>
+<fig id="f1" position="float"><caption><p>1-rasm. Turli kalibrlash usullarining oʻrtacha absolyut xatosi (MAE), µg/m³</p></caption></fig>
+<p>Faqat yozgi maʼlumotlarda oʻqitilib, qishki maʼlumotlarda sinovdan oʻtkazilganda gradiyentli bustingning oʻrtacha absolyut xatosi 7,9 µg/m³ gacha oshdi, bu chiziqli tuzatishdan atigi biroz yaxshiroqdir. Oʻqitish tanlanmasiga hech boʻlmaganda bitta qish oyining qoʻshilishi xatoni 3,6 µg/m³ gacha kamaytirdi.</p>
+<table-wrap id="t1" position="float"><caption><p>1-jadval. Kalibrlash usullarining sifati (haftalik bloklar boʻyicha kross-validatsiya)</p></caption><table><thead><tr><th>Usul</th><th>MAE, µg/m³</th><th>RMSE, µg/m³</th><th>R²</th></tr></thead><tbody><tr><td>Kalibrlashsiz</td><td>11,8</td><td>17,2</td><td>0,58</td></tr><tr><td>Chiziqli regressiya</td><td>6,4</td><td>9,9</td><td>0,74</td></tr><tr><td>Chiziqli + namlik</td><td>4,7</td><td>7,3</td><td>0,85</td></tr><tr><td>Tasodifiy oʻrmon</td><td>3,4</td><td>5,6</td><td>0,91</td></tr><tr><td>Gradiyentli busting</td><td>3,1</td><td>5,1</td><td>0,93</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Muhokama</title>
+<p>Kalibrlashdan keyin olingan xato qiymatlari indikativ oʻlchovlar uchun ruxsat etilgan chegaralar bilan taqqoslanadigan darajada boʻlib, arzon sensorlar tarmogʻidan sutkalik profillarni baholash va mahalliy manbalar — qozonxonalar, avtomagistrallar, pechka bilan isitiladigan xususiy uy-joy sektorini aniqlash uchun foydalanish imkonini beradi.</p>
+<p>Modellarning fasllar oʻrtasida koʻchirilmasligi muhim amaliy cheklovdir. Yozda bajarilgan kalibrlash ifloslanish eng xavfli boʻlgan qishda muntazam xatolar berishi mumkin. Biz tarmoqni joriy etishdan oldin kamida bir yillik birgalikdagi oʻlchovlar davrini tavsiya etamiz.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Xulosa</title>
+<p>Mashinali oʻqitishning ansambl usullari arzon PM2.5 sensorlari xatosini qariyb toʻrt baravar kamaytiradi. Toʻgʻri kalibrlashning asosiy sharti — oʻqitish tanlanmasida yilning barcha fasllariga oid maʼlumotlarning mavjudligi.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Adabiyotlar roʻyxati</title>
+<ref id="r1"><mixed-citation>Breiman L. Random forests // Machine Learning. 2001. Vol. 45, no. 1. P. 5–32.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Friedman J. H. Greedy function approximation: a gradient boosting machine // Annals of Statistics. 2001. Vol. 29, no. 5. P. 1189–1232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Каримов Т. Р. Блочная кросс-валидация для пространственно-временных данных: практическое руководство // Прикладная аналитика. 2022. Т. 6, № 3. С. 41–58.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Holloway R., Nakamura E. Humidity effects on optical particle counters: a field evaluation // Atmospheric Measurement Notes. 2019. Vol. 12. P. 233–248.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Василенко О. П., Аркадьева Н. С. Кратковременное воздействие PM2.5 и обращаемость за медицинской помощью: обзор исследований // Экология человека и среда. 2021. № 7. С. 4–19.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Petrescu D., Olsen K. Transferability of calibration models for low-cost air sensors across seasons // Environmental Sensing Review. 2022. Vol. 4, no. 2. P. 77–95.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Захаров Л. Е. Сети мониторинга атмосферного воздуха: принципы проектирования. Новобор: Академия, 2020. 184 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

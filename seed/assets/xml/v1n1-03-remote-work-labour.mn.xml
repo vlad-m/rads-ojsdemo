@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="mn">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Салбар дундын судалгааны сэтгүүл (Демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems-ийн демо сэтгүүл</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ХХК</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Судалгааны өгүүлэл</subject></subj-group></article-categories>
+<title-group>
+<article-title>Зайнаас ажиллах хөдөлмөр ба бүс нутгийн хөдөлмөрийн зах зээл: онлайн ажлын байрны зарын өгөгдөлд үндэслэсэн нотолгоо</article-title>
+<trans-title-group xml:lang="en"><trans-title>Remote Work and Regional Labour Markets: Evidence from Online Vacancies</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Громов</surname><given-names>Павел</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>p.gromov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Беккер</surname><given-names>Лаура</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Becker</surname><given-names>Laura</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Эдийн засаг ба орон зайн хөгжлийн «Меридиан» хүрээлэн</institution>, <country country="RU">Орос</country></aff>
+<aff id="aff2"><institution>Хэрэглээний эдийн засгийн судалгааны «Остланд» төв</institution>, <country country="DE">Герман</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>12</fpage><lpage>14</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-21"><day>21</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-14"><day>14</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Павел Громов, Лаура Беккер</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензийн дагуу түгээгдэнэ</license-p></license></permissions>
+<abstract xml:lang="mn"><p>2020 оноос хойш зайнаас ажиллах хэлбэр түгэн дэлгэрсэн нь жижиг хотын оршин суугчдад нийслэлийн ажил олгогчдын зарласан ажлын байранд хандах боломж олгосноор хөдөлмөрийн зах зээлийн орон зайн бүтцийг өөрчлөх чадамжтай юм. Энэхүү өгүүлэлд 2019–2023 онд томоохон онлайн платформд нийтлэгдсэн 2.4 сая ажлын байрны зарыг ашиглан зайнаас ажиллах ажлын байр хөдөлмөрийн эрэлтийг бүс нутаг хооронд хэрхэн дахин хуваарилж буйг үнэлэв. Зарыг толь бичигт суурилсан загвараар ангилж, дараа нь санамсаргүй түүврийг гараар баталгаажуулав. Бүрэн зайнаас ажиллах ажлын байрны эзлэх хувь 2019 онд 2.1% байснаа 2023 онд 9.7% болж өссөн бөгөөд өсөлт нь мэдээллийн технологи, маркетинг, санхүүгийн үйлчилгээнд төвлөрсөн. Ялгаврын ялгавар (difference-in-differences) загвараас харахад эдгээр салбарт ажиллагсдын эзлэх хувь өндөр бүс нутагт санал болгож буй дундаж цалин харьцуулж болохуйц бүс нутгуудаас 4.3%-иар хурдан өссөн байна. Үүний зэрэгцээ зайнаас ажиллах ажлын байр туршлага, боловсролд илүү өндөр шаардлага тавьдаг нь ажилчдын томоохон хэсгийн хандах боломжийг хязгаарладаг. Бүс нутаг хоорондын цалингийн ялгааг тэгшитгэх нөлөө статистикийн хувьд ач холбогдолтой боловч дунд зэрэг байна. Үр дүнгээс үзэхэд зайнаас ажиллах хөдөлмөр нь зөвхөн давтан сургалтын хөтөлбөр болон дижитал дэд бүтцийн хөгжилтэй хослуулсан тохиолдолд бүс нутгийн бодлогын хэрэгсэл болж чадна.</p></abstract>
+<trans-abstract xml:lang="en"><p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="mn" kwd-group-type="author"><kwd>зайнаас ажиллах хөдөлмөр</kwd><kwd>бүс нутгийн хөдөлмөрийн зах зээл</kwd><kwd>онлайн ажлын байрны зар</kwd><kwd>цалин хөлс</kwd><kwd>ялгаврын ялгавар</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>remote work</kwd><kwd>regional labour market</kwd><kwd>online vacancies</kwd><kwd>wages</kwd><kwd>difference-in-differences</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Удиртгал</title>
+<p>2020 онд зайнаас ажиллах хэлбэрт хурдацтай шилжсэнийг анх цар тахлын түр зуурын хариу арга хэмжээ гэж үзэж байсан. Дөрвөн жилийн дараа ч ажил олгогчдын нэлээд хэсэг бүрэн зайнаас ажиллах ажлын байрыг санал болгосоор байгаа нь байршил өндөр цалинтай ажилд хандах боломжийг тодорхойлсоор байгаа эсэх асуултыг дагуулж байна. Хэрэв жижиг хотын ажилчид нийслэлд зарласан ажлын байрны төлөө өрсөлдөх боломжтой бол бүс нутаг хоорондын цалингийн ялгаа биечлэн шилжин суурьшилгүйгээр багасч болох юм.</p>
+<p>Энэ асуудлаарх одоо байгаа нотолгоо голчлон ажилчдын дунд хийсэн санал асуулгаас гаралтай. Онлайн ажлын байрны зарын өгөгдөл нь цаг хугацаа болон орон зайн өндөр нарийвчлалтай, эрэлтийн талаас нь харах нэмэлт өнцгийг санал болгодог. Энэхүү өгүүлэлд ийм өгөгдлийг ашиглан зайнаас ажиллах ажлын байрны өсөлтийг баримтжуулж, тэдгээрийн шаардлагыг тодорхойлж, бүс нутгийн цалингийн динамикт үзүүлэх нөлөөг үнэлэв.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материал ба арга зүй</title>
+<p>Өгөгдлийн багц нь 2019 оны 1-р сараас 2023 оны 12-р сарын хооронд томоохон ажлын байрны платформд нийтлэгдсэн 2.4 сая зараас бүрдэнэ. Бичлэг бүр албан тушаалын нэр, тодорхойлолт, бүс нутаг, салбар, санал болгож буй цалингийн хүрээ болон шаардлагыг агуулна. Зайнаас ажиллах ажлын байрыг 46 хэллэг бүхий толь бичгээр тодорхойлсон; гараар кодчилсон 2 000 зарын санамсаргүй түүвэр 0.94 нарийвчлал (precision), 0.91 бүрэн байдал (recall) харуулав.</p>
+<p>Цалинд үзүүлэх нөлөөг үнэлэхийн тулд бүс нутгуудыг цар тахлын өмнөх үеийн зайнаас ажиллах хэлбэр түгээмэл салбаруудын хөдөлмөр эрхлэлтийн эзлэх хувиар нь хуваав. Бүс нутаг болон сарын тогтмол нөлөө бүхий ялгаврын ялгавар загвар нь ажлын байрны мэргэжлийн бүтцийг хянаж, 2020 оны 3-р сараас өмнөх болон дараах санал болгож буй медиан цалингийн хувьслыг харьцуулдаг.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Үр дүн</title>
+<p>Бүрэн зайнаас ажиллах ажлын байрны эзлэх хувь 2019 онд 2.1% байснаа 2023 онд 9.7% болж тогтвортой өссөн (1-р зураг). Өсөлт мэдээллийн технологид хамгийн хүчтэй байсан бөгөөд тэнд зайнаас ажиллах ажлын байр нийт зарын 31%-д хүрсэн, дараа нь маркетинг болон санхүү орж байна. Боловсруулах үйлдвэрлэл, жижиглэн худалдаа, эрүүл мэндийн салбарт энэ хувь 2%-иас доогуур хэвээр байв.</p>
+<fig id="f1" position="float"><caption><p>Зураг 1. Бүрэн зайнаас ажиллах ажлын байрны эзлэх хувь, оноор, %</p></caption></fig>
+<p>1-р хүснэгтэд үндсэн үнэлгээг үзүүлэв. Зайнаас ажиллах хэлбэр түгээмэл салбаруудын нөлөөлөл өндөр бүс нутагт санал болгож буй медиан цалин нөлөөлөл багатай бүс нутгуудаас 4.3%-иар илүү өссөн. Зайнаас ажиллах ажлын байр дээд боловсрол шаардах магадлал 1.6 дахин өндөр бөгөөд дунджаар 1.2 жилээр илүү туршлага шаарддаг байв.</p>
+<table-wrap id="t1" position="float"><caption><p>Хүснэгт 1. Ялгаврын ялгавар загварын үнэлгээ (хамааран хувьсагч: санал болгож буй медиан цалингийн логарифм)</p></caption><table><thead><tr><th>Тодорхойлолт</th><th>Үнэлгээ</th><th>Стандарт алдаа</th><th>N (бүс нутаг-сар)</th></tr></thead><tbody><tr><td>Үндсэн</td><td>0.043</td><td>0.012</td><td>4,980</td></tr><tr><td>+ мэргэжлийн хяналтын хувьсагч</td><td>0.037</td><td>0.011</td><td>4,980</td></tr><tr><td>Нийслэлийн бүсийг хассан</td><td>0.041</td><td>0.013</td><td>4,920</td></tr><tr><td>Плацебо (2018 оны таслал)</td><td>0.004</td><td>0.010</td><td>4,980</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Хэлэлцүүлэг</title>
+<p>Бидний үр дүнгээс харахад зайнаас ажиллах хөдөлмөр нь бүс нутгийн цалинг тэгшитгэх дарамт үзүүлдэг нь үнэн боловч хэмжээ нь дунд зэрэг байна. Нөлөө нь зайнаас ажиллах хэлбэр түгээмэл мэргэжлийн ажилчдын нөөц аль хэдийн бүрдсэн бүс нутгуудад төвлөрч байгаа нь зайнаас ажиллах хөдөлмөр шинэ боломж бий болгохоос илүү одоо байгаа хүний капиталыг өсгөдөг болохыг илтгэнэ.</p>
+<p>Зайнаас ажиллах ажлын байрны ур чадварт тавих өндөр шаардлага нь гол хязгаарлагч хүчин зүйл юм. Дижитал дэд бүтцийн хөрөнгө оруулалтыг давтан сургалттай хослуулсан бодлогын арга хэмжээ зайнаас ажиллах хөдөлмөрийн боломжийг өргөн хүрээний ашиг тус болгон хувиргах магадлал илүү өндөр. Судалгааны хязгаарлалт нь ажлын байрны зарын өгөгдөл бодитоор олгосон бус харин санал болгосон цалинг тусгадаг явдал юм.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Дүгнэлт</title>
+<p>Зайнаас ажиллах ажлын байр хөдөлмөрийн зах зээлийн тогтвортой шинж болж, бүс нутаг хоорондын цалингийн ялгааг бага зэрэг бууруулж байна. Гэвч тэдгээрийн ашиг тус голчлон өндөр ур чадвартай ажилчдад ногддог бөгөөд бүс нутгийн хөгжлийн хэрэгсэл болох үүрэг нь нөхөх бодлогоос хамаарна.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ном зүй</title>
+<ref id="r1"><mixed-citation>Angrist J. D., Pischke J.-S. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009. 392 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Moretti E. The New Geography of Jobs. Boston: Houghton Mifflin Harcourt, 2012. 294 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Gromov P. A. Online vacancy data as a source of regional labour market statistics // Regional Economics Review. 2021. Vol. 14, no. 2. P. 55–73.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Becker L., Vogt H. Remote-eligible jobs and the spatial distribution of labour demand // Journal of Labour and Space. 2022. Vol. 8, no. 1. P. 1–24.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Громов П. А., Седова Е. К. Межрегиональная дифференциация заработной платы: факторы и тенденции // Пространственная экономика и политика. 2020. № 3. С. 22–40.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindgren A., Torres M. Skill requirements in remote job postings // Labour Market Analytics. 2023. Vol. 5. P. 140–158.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седова Е. К. Цифровая инфраструктура и занятость в малых городах. М.: Меридиан, 2022. 168 с.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Hartmann F. Text classification of job advertisements: a practical comparison // Computational Social Science Letters. 2021. Vol. 3, no. 4. P. 88–101.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

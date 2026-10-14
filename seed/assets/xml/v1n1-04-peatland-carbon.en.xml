@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Journal of Interdisciplinary Research (Demo)</journal-title><abbrev-journal-title>Open Journal Systems demo journal</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra LLC</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories>
+<title-group>
+<article-title>Carbon Balance of Boreal Peatlands: A Review of Assessment Methods</article-title>
+<trans-title-group xml:lang="ru"><trans-title>Углеродный баланс торфяных болот бореальной зоны: обзор методов оценки</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name><xref ref-type="aff" rid="aff1"/><email>a.nurlanova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Caspian Institute of Environmental Studies</institution>, <country country="KZ">Kazakhstan</country></aff>
+<aff id="aff2"><institution>Northern Mire Station, Novobor State University</institution>, <country country="RU">Russia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>15</fpage><lpage>17</lpage>
+<history><date date-type="received" iso-8601-date="2024-08-19"><day>19</day><month>08</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-15"><day>15</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Aigerim Nurlanova, Nikolay Tikhomirov</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licensed under CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="en"><p>Boreal peatlands cover about 3% of the land surface yet store up to a third of the world's soil carbon, so accurate assessment of their carbon balance matters for climate policy and national greenhouse gas reporting. This review systematises the main methods for estimating carbon fluxes in peatlands: the chamber method, eddy covariance, calculation from peat accumulation rates, and remote-sensing approaches based on satellite indices and productivity models. Drawing on 87 publications from 2000–2024, it considers the spatial and temporal scale of each method, its sources of uncertainty and its requirements for equipment and staff expertise. Estimates of net ecosystem exchange for the same peatland obtained by different methods can differ by a factor of 1.5 to 2, with most of the discrepancy arising from the treatment of methane and dissolved organic carbon fluxes. Particular attention is paid to drained and rewetted peatlands, for which far fewer data exist than for undisturbed ecosystems. The review concludes that a combined approach is needed, in which long-term eddy covariance observations at reference sites are complemented by chamber measurements and remote-sensing upscaling. A decision scheme for choosing a method according to the research goal and available resources is proposed.</p></abstract>
+<trans-abstract xml:lang="ru"><p>Торфяные болота бореальной зоны занимают около 3 % поверхности суши, но хранят до трети почвенного углерода планеты, поэтому точная оценка их углеродного баланса важна для климатической политики и национальной отчётности о парниковых газах. В обзоре систематизированы основные методы оценки потоков углерода на болотах: камерный метод, метод турбулентных пульсаций, расчёт по скорости аккумуляции торфа и дистанционные методы, основанные на спутниковых индексах и моделях продуктивности. На основе анализа 87 публикаций за 2000–2024 гг. рассмотрены пространственный и временной масштаб каждого метода, источники неопределённости, требования к оборудованию и квалификации персонала. Показано, что оценки чистого экосистемного обмена для одного и того же болота, полученные разными методами, могут различаться в полтора–два раза, причём основная часть расхождений связана с учётом потоков метана и растворённого органического углерода. Особое внимание уделено осушенным и восстанавливаемым болотам, для которых данных существенно меньше, чем для ненарушенных экосистем. Сделан вывод о необходимости комбинированного подхода, в котором долговременные наблюдения методом турбулентных пульсаций на опорных площадках сочетаются с камерными измерениями и дистанционным масштабированием. Предложена схема выбора метода в зависимости от цели исследования и доступных ресурсов.</p></trans-abstract>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>peatlands</kwd><kwd>carbon balance</kwd><kwd>methane</kwd><kwd>eddy covariance</kwd><kwd>chamber method</kwd><kwd>boreal zone</kwd></kwd-group>
+<kwd-group xml:lang="ru" kwd-group-type="author"><kwd>торфяные болота</kwd><kwd>углеродный баланс</kwd><kwd>метан</kwd><kwd>турбулентные пульсации</kwd><kwd>камерный метод</kwd><kwd>бореальная зона</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introduction</title>
+<p>Peatlands are the only type of terrestrial ecosystem capable of accumulating carbon in the form of peat over millennia. At the same time, they are a natural source of methane, a greenhouse gas with a high global warming potential. The net climatic effect of a peatland is determined by the balance between these processes and is sensitive to the water table level.</p>
+<p>Drainage of peatlands for peat extraction, agriculture and forestry turns them from a sink into a source of CO₂. The growing interest in the restoration (rewetting) of disturbed peatlands as a climate measure calls for reliable methods of assessing the carbon balance. The aim of this review is to compare existing methods, their capabilities and limitations.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materials and Methods</title>
+<p>Publications were searched for in bibliographic databases using combinations of the keywords “peat bog”, “carbon balance”, “CO₂ flux”, “methane” and their Russian-language equivalents for 2000–2024. Of the 412 studies retrieved, 87 containing quantitative flux estimates and a description of the methodology were selected after screening of abstracts and full texts.</p>
+<p>For each study, the peatland type, its condition (undisturbed, drained, under restoration), the measurement method, the duration of observations and the balance components accounted for were recorded. Estimates of net ecosystem exchange were converted to units of g C/m² per year.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Results</title>
+<p>The distribution of studies by method is uneven (Fig. 1): almost half of the studies are based on the chamber method, and about a third on the eddy covariance method. Remote sensing approaches are used mainly for upscaling rather than as a stand-alone source of estimates.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Distribution of the reviewed studies by primary assessment method (n = 87)</p></caption></fig>
+<p>Comparative characteristics of the methods are given in Table 1. The chamber method makes it possible to partition fluxes by microlandscape but describes temporal variability poorly; the eddy covariance method yields continuous time series but requires a homogeneous site and expensive equipment.</p>
+<table-wrap id="t1" position="float"><caption><p>Table 1. Comparison of methods for assessing the carbon balance of peatlands</p></caption><table><thead><tr><th>Method</th><th>Scale</th><th>Temporal resolution</th><th>Main uncertainty</th></tr></thead><tbody><tr><td>Chamber</td><td>0.1–1 m²</td><td>Episodic</td><td>Temporal interpolation</td></tr><tr><td>Eddy covariance</td><td>0.1–1 km²</td><td>30 min</td><td>Night-time fluxes, heterogeneity</td></tr><tr><td>Peat accumulation</td><td>Core</td><td>Centuries</td><td>Dating, decomposition</td></tr><tr><td>Remote sensing</td><td>Region</td><td>Days to weeks</td><td>Model calibration</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussion</title>
+<p>The substantial discrepancies between methods are explained not so much by measurement errors as by differences in the balance components accounted for. Studies that do not account for the export of dissolved organic carbon with peatland waters systematically overestimate the carbon sink by 10–25%.</p>
+<p>Peatlands under restoration remain the least studied: in the first years after rewetting, methane emissions may temporarily increase, which must be taken into account when assessing the climatic effect of restoration projects.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusion</title>
+<p>None of the methods provides a complete assessment of the carbon balance of peatlands. The optimal solution appears to be a network of reference sites with long-term eddy covariance observations, supplemented by chamber measurements and remote sensing upscaling.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>References</title>
+<ref id="r1"><mixed-citation>Gorham E. Northern peatlands: role in the carbon cycle and probable responses to climatic warming // Ecological Applications. 1991. Vol. 1, no. 2. P. 182–195.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Baldocchi D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems // Global Change Biology. 2003. Vol. 9, no. 4. P. 479–492.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Тихомиров Н. В. Многолетняя динамика потоков CO₂ на верховом болоте северной тайги // Болотоведение и торф. 2020. Т. 18, № 2. С. 60–78.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Нурланова А. Н., Сейткали Д. М. Эмиссия метана с осушенных торфяников: обзор полевых данных // Экосистемы и климат. 2022. Т. 4, № 1. С. 15–34.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Kowalczyk P., Aarnio T. Dissolved organic carbon export from boreal mires // Hydrology and Biogeochemistry. 2019. Vol. 33. P. 410–427.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тихомиров Н. В., Ерёменко В. А. Камерные измерения потоков парниковых газов: методическое пособие. Новобор: НГУ, 2018. 96 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Lund S., Petersen R. Upscaling peatland carbon fluxes with satellite data: opportunities and pitfalls // Remote Sensing of Wetlands. 2021. Vol. 9, no. 3. P. 200–221.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Нурланова А. Н. Восстановление нарушенных болот и климатическая политика // Вопросы экологической политики. 2023. № 2. С. 47–63.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Hart G., Lin W. Long-term apparent rates of carbon accumulation in boreal peat // Quaternary Carbon Studies. 2018. Vol. 21. P. 55–70.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

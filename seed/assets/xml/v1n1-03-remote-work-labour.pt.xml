@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="pt">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista de Investigação Interdisciplinar (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revista de demonstração em Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra, Lda.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Artigo de investigação</subject></subj-group></article-categories>
+<title-group>
+<article-title>Teletrabalho e mercados de trabalho regionais: evidência a partir de ofertas de emprego em linha</article-title>
+<trans-title-group xml:lang="en"><trans-title>Remote Work and Regional Labour Markets: Evidence from Online Vacancies</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Gromov</surname><given-names>Pavel</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>p.gromov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Becker</surname><given-names>Laura</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Becker</surname><given-names>Laura</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Instituto Meridian de Economia e Desenvolvimento Territorial</institution>, <country country="RU">Rússia</country></aff>
+<aff id="aff2"><institution>Centro Ostland de Investigação Económica Aplicada</institution>, <country country="DE">Alemanha</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>12</fpage><lpage>14</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-21"><day>21</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-14"><day>14</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Pavel Gromov, Laura Becker</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licenciado ao abrigo da CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="pt"><p>A difusão do teletrabalho após 2020 pode reconfigurar a estrutura espacial dos mercados de trabalho, ao dar aos residentes de cidades mais pequenas acesso a ofertas de emprego publicadas por empregadores da capital. Com base em 2,4 milhões de anúncios de emprego publicados numa grande plataforma em linha em 2019–2023, este artigo estima em que medida as ofertas de teletrabalho redistribuem a procura de trabalho entre regiões. Os anúncios foram classificados com um modelo baseado em dicionário, seguido de validação manual de uma amostra aleatória. A proporção de ofertas em regime de teletrabalho integral aumentou de 2,1% em 2019 para 9,7% em 2023, com um crescimento concentrado nas tecnologias da informação, no marketing e nos serviços financeiros. Um desenho de diferenças em diferenças mostra que, nas regiões com maior proporção de emprego nestes setores, o salário médio oferecido cresceu 4,3% mais depressa do que em regiões comparáveis. Ao mesmo tempo, as ofertas de teletrabalho impõem requisitos mais exigentes de experiência e de habilitações, o que limita o acesso de uma grande parte dos trabalhadores. O efeito equalizador sobre as diferenças salariais inter-regionais é estatisticamente significativo, mas moderado. Os resultados sugerem que o teletrabalho só pode servir de instrumento de política regional quando combinado com programas de requalificação e com o desenvolvimento das infraestruturas digitais.</p></abstract>
+<trans-abstract xml:lang="en"><p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="pt" kwd-group-type="author"><kwd>teletrabalho</kwd><kwd>mercado de trabalho regional</kwd><kwd>ofertas de emprego em linha</kwd><kwd>salários</kwd><kwd>diferenças em diferenças</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>remote work</kwd><kwd>regional labour market</kwd><kwd>online vacancies</kwd><kwd>wages</kwd><kwd>difference-in-differences</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introdução</title>
+<p>A rápida transição para o teletrabalho em 2020 foi inicialmente vista como uma resposta temporária à pandemia. Quatro anos depois, uma parte considerável dos empregadores continua a oferecer postos de trabalho em regime de teletrabalho integral, o que levanta a questão de saber se a localização ainda determina o acesso a empregos bem remunerados. Se os trabalhadores das cidades mais pequenas puderem concorrer a ofertas publicadas na capital, as disparidades salariais inter-regionais poderão diminuir sem migração física.</p>
+<p>A evidência existente sobre esta questão provém sobretudo de inquéritos aos trabalhadores. Os dados de ofertas de emprego em linha proporcionam uma perspetiva complementar, do lado da procura, com elevada resolução temporal e espacial. Este artigo utiliza esses dados para documentar o crescimento das ofertas de teletrabalho, caracterizar os seus requisitos e estimar o seu efeito na dinâmica salarial regional.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiais e métodos</title>
+<p>O conjunto de dados abrange 2,4 milhões de anúncios publicados entre janeiro de 2019 e dezembro de 2023 numa grande plataforma de emprego. Cada registo inclui a designação do posto, a descrição, a região, o setor de atividade, o intervalo salarial oferecido e os requisitos. As ofertas de teletrabalho foram identificadas com um dicionário de 46 expressões; uma amostra aleatória de 2000 anúncios codificada manualmente revelou uma precisão de 0,94 e uma sensibilidade (recall) de 0,91.</p>
+<p>Para estimar o efeito sobre os salários, as regiões foram divididas de acordo com a proporção de emprego, antes da pandemia, em setores com forte componente de teletrabalho. Um modelo de diferenças em diferenças com efeitos fixos de região e de mês compara a evolução do salário mediano oferecido antes e depois de março de 2020, controlando a composição profissional das ofertas.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Resultados</title>
+<p>A proporção de ofertas em regime de teletrabalho integral cresceu de forma constante, de 2,1% em 2019 para 9,7% em 2023 (fig. 1). O crescimento foi mais acentuado nas tecnologias da informação, onde os postos em teletrabalho atingiram 31% de todos os anúncios, seguindo-se o marketing e as finanças. Na indústria transformadora, no comércio a retalho e na saúde, a proporção manteve-se abaixo dos 2%.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Proporção de ofertas em regime de teletrabalho integral por ano, %</p></caption></fig>
+<p>O quadro 1 apresenta as principais estimativas. Nas regiões com elevada exposição a setores com forte componente de teletrabalho, o salário mediano oferecido aumentou 4,3% mais do que nas regiões com baixa exposição. As ofertas de teletrabalho tinham uma probabilidade 1,6 vezes maior de exigir ensino superior e pediam, em média, mais 1,2 anos de experiência.</p>
+<table-wrap id="t1" position="float"><caption><p>Quadro 1. Estimativas de diferenças em diferenças (variável dependente: log do salário mediano oferecido)</p></caption><table><thead><tr><th>Especificação</th><th>Estimativa</th><th>Erro-padrão</th><th>N (região-meses)</th></tr></thead><tbody><tr><td>Base</td><td>0.043</td><td>0.012</td><td>4,980</td></tr><tr><td>+ controlos profissionais</td><td>0.037</td><td>0.011</td><td>4,980</td></tr><tr><td>Excluindo a região da capital</td><td>0.041</td><td>0.013</td><td>4,920</td></tr><tr><td>Placebo (quebra em 2018)</td><td>0.004</td><td>0.010</td><td>4,980</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussão</title>
+<p>Os nossos resultados indicam que o teletrabalho exerce, de facto, uma pressão equalizadora sobre os salários regionais, mas de magnitude moderada. O efeito concentra-se nas regiões que já dispunham de uma reserva de trabalhadores em profissões com forte componente de teletrabalho, o que sugere que o teletrabalho amplifica o capital humano existente em vez de criar novas oportunidades.</p>
+<p>Os requisitos de qualificação mais elevados das ofertas de teletrabalho constituem uma restrição fundamental. As medidas de política que combinam o investimento em infraestruturas digitais com a requalificação têm maior probabilidade de converter o potencial do teletrabalho em ganhos generalizados. Uma limitação do estudo é o facto de os dados das ofertas refletirem os salários oferecidos e não os salários efetivamente praticados.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusão</title>
+<p>As ofertas de teletrabalho tornaram-se uma característica estável do mercado de trabalho e reduzem moderadamente as disparidades salariais inter-regionais. Os seus benefícios, porém, revertem sobretudo para os trabalhadores altamente qualificados, e o seu papel como instrumento de desenvolvimento regional depende de políticas complementares.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Referências bibliográficas</title>
+<ref id="r1"><mixed-citation>Angrist J. D., Pischke J.-S. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009. 392 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Moretti E. The New Geography of Jobs. Boston: Houghton Mifflin Harcourt, 2012. 294 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Gromov P. A. Online vacancy data as a source of regional labour market statistics // Regional Economics Review. 2021. Vol. 14, no. 2. P. 55–73.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Becker L., Vogt H. Remote-eligible jobs and the spatial distribution of labour demand // Journal of Labour and Space. 2022. Vol. 8, no. 1. P. 1–24.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Громов П. А., Седова Е. К. Межрегиональная дифференциация заработной платы: факторы и тенденции // Пространственная экономика и политика. 2020. № 3. С. 22–40.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindgren A., Torres M. Skill requirements in remote job postings // Labour Market Analytics. 2023. Vol. 5. P. 140–158.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седова Е. К. Цифровая инфраструктура и занятость в малых городах. М.: Меридиан, 2022. 168 с.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Hartmann F. Text classification of job advertisements: a practical comparison // Computational Social Science Letters. 2021. Vol. 3, no. 4. P. 88–101.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

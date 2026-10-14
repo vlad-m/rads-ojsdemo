@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="uz">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fanlararo tadqiqotlar jurnali (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems demo jurnali</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>“Tsifra” MChJ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Qisqa xabar</subject></subj-group></article-categories>
+<title-group>
+<article-title>Rusiyzabon biznes ommaviy axborot vositalarida raqamli iqtisodiyot neologizmlari: korpus tadqiqoti</article-title>
+<trans-title-group xml:lang="en"><trans-title>Digital Economy Neologisms in Russian-Language Business Media: A Corpus Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Lebedeva</surname><given-names>Anna</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Lebedeva</surname><given-names>Anna</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.lebedeva@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>“Leksis” til va kommunikatsiya instituti</institution>, <country country="RU">Rossiya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>18</fpage><lpage>20</lpage>
+<history><date date-type="received" iso-8601-date="2024-12-02"><day>02</day><month>12</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-20"><day>20</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Anna Lebedeva</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 litsenziyasi asosida tarqatiladi</license-p></license></permissions>
+<abstract xml:lang="uz"><p>Iqtisodiyotning raqamlashtirilishi yangi leksikaning, asosan ingliz tilidan oʻzlashtirilgan soʻzlarning jadal paydo boʻlishi bilan kechmoqda. Ushbu qisqa xabarda rusiyzabon biznes ommaviy axborot vositalaridagi raqamli iqtisodiyot neologizmlarining korpus tadqiqoti dastlabki natijalari taqdim etiladi. Maxsus tuzilgan korpus 2015–2024-yillarda oltita anonimlashtirilgan biznes nashrida chop etilgan materiallardan olingan taxminan 18 million soʻz qoʻllanishini (token) oʻz ichiga oladi. Neologizm nomzodlari chastota mezoni asosida tanlanib, soʻngra ekspertlar tomonidan tekshirildi; yakuniy roʻyxat 214 birlikdan iborat. Har bir birlik uchun birinchi qayd etilgan yili, soʻz yasalish modeli va chastota dinamikasi aniqlandi. Bevosita oʻzlashmalar (masalan, marketpleys, startap va kraudfanding) yangi birliklarning 58% ini, rus affikslari bilan hosil qilingan gibrid yasalmalar 27% ini, kalkalar va tasviriy birikmalar esa 15% ini tashkil etadi. Yangi birliklar paydo boʻlishining choʻqqisi 2018–2020-yillarga toʻgʻri keladi. Bir qator oʻzlashmalarda lotin yozuvidagi imlo asta-sekin kirill yozuvidagi imlo bilan almashtirilmoqda, bu ularning tilga oʻzlashib borayotganidan dalolat beradi. Natijalardan terminologik lugʻatlar tuzishda va biznes sohasidagi rus tilini oʻqitishda foydalanish mumkin. Keyingi ishlarda korpus mintaqaviy nashrlar va Telegram kanallari hisobiga kengaytiriladi.</p></abstract>
+<trans-abstract xml:lang="en"><p>The digitalisation of the economy has been accompanied by the rapid emergence of new vocabulary, much of it borrowed from English. This short communication presents the first results of a corpus study of digital economy neologisms in Russian-language business media. A purpose-built corpus comprises about 18 million tokens from the publications of six anonymised business outlets for 2015–2024. Candidate neologisms were selected using a frequency criterion followed by expert verification; the final list contains 214 items. For each, the year of first attestation, the word-formation pattern and the frequency dynamics were determined. Direct borrowings (such as marketpleys, startap and kraudfanding) account for 58% of new items, hybrid formations with Russian affixes for 27%, and calques and descriptive expressions for 15%. The peak of new items falls in 2018–2020. For a number of borrowings, Latin-script spellings are gradually being replaced by Cyrillic ones, indicating their assimilation into the language. The results can be used in compiling terminological dictionaries and in teaching business Russian. Further work will extend the corpus to regional outlets and Telegram channels.</p></trans-abstract>
+<kwd-group xml:lang="uz" kwd-group-type="author"><kwd>neologizmlar</kwd><kwd>korpus lingvistikasi</kwd><kwd>oʻzlashmalar</kwd><kwd>raqamli iqtisodiyot</kwd><kwd>biznes ommaviy axborot vositalari</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>neologisms</kwd><kwd>corpus linguistics</kwd><kwd>borrowings</kwd><kwd>digital economy</kwd><kwd>business media</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Kirish</title>
+<p>Biznes matbuoti iqtisodiy terminologiyani tarqatishning asosiy kanallaridan biri boʻlib xizmat qiladi: yangi tushunchalar unda lugʻat va darsliklardan oldinroq paydo boʻladi. 2015–2024-yillarda savdo, moliya va mehnatning raqamlashtirilishi leksikaning ayniqsa jadal boyishi bilan kechdi.</p>
+<p>Xabarning maqsadi — biznes ommaviy axborot vositalaridagi raqamli iqtisodiyot neologizmlarining tarkibi va dinamikasini tasvirlash hamda ularning hosil boʻlishining asosiy usullarini tavsiflab berish.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar va usullar</title>
+<p>Korpus oltita biznes nashrining (N1–N6 deb belgilangan) ochiq foydalanish mumkin boʻlgan materiallaridan shakllantirilgan va morfologik jihatdan belgilangan. Neologizm nomzodlari 2010–2014-yillar subkorpusida uchramagan va 2015–2024-yillarda kamida 20 marta qayd etilgan lemmalar sifatida tanlab olindi. Soʻngra ikki ekspert birliklarning raqamli iqtisodiyot mavzusiga mansubligini mustaqil ravishda tekshirdi; ekspertlar kelishuvi (Koen κ) 0,82 ni tashkil etdi.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Natijalar</title>
+<p>Yakuniy roʻyxat 214 birlikni oʻz ichiga oladi. Birinchi qayd etilgan yillar boʻyicha taqsimot 1-rasmda koʻrsatilgan: maksimum 2018–2020-yillarga toʻgʻri keladi, bu onlayn savdo va platforma bandligining faol rivojlanish davriga mos keladi. Hosil boʻlish usullari boʻyicha taqsimot 1-jadvalda keltirilgan.</p>
+<fig id="f1" position="float"><caption><p>1-rasm. Korpusda birinchi qayd etilgan yil boʻyicha yangi birliklar soni</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>1-jadval. Hosil boʻlish usuli boʻyicha neologizmlar</p></caption><table><thead><tr><th>Hosil boʻlish usuli</th><th>Soni</th><th>Ulushi, %</th><th>Misollar</th></tr></thead><tbody><tr><td>Bevosita oʻzlashma</td><td>124</td><td>58</td><td>marketpleys, startap</td></tr><tr><td>Gibrid yasalma</td><td>58</td><td>27</td><td>zafandrayzit, lidogeneratsiya</td></tr><tr><td>Kalka, tasviriy birikma</td><td>32</td><td>15</td><td>tsifrovoy sled (“raqamli iz”), umnyy kontrakt (“aqlli shartnoma”)</td></tr><tr><td>Jami</td><td>214</td><td>100</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Muhokama</title>
+<p>Tez rivojlanayotgan predmet sohasi uchun bevosita oʻzlashmalarning ustunligi kutilgan holdir. Shu bilan birga gibrid yasalmalarning yuqori ulushi oʻzlashtirilgan oʻzaklar rus tilining soʻz yasalish tizimiga tez kirib borishini koʻrsatadi. Lotin yozuvidagi imloning kirill yozuvidagi imlo bilan siqib chiqarilishi (masalan, “startap” soʻzida lotin yozuvi ulushi 2015-yildagi 34% dan 2024-yilda 3% gacha kamaygan) oʻzlashish koʻrsatkichi boʻlib xizmat qiladi.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Xulosa</title>
+<p>Korpus yondashuvi yangi iqtisodiy leksikaning paydo boʻlishi va oʻzlashishini obyektiv sanalash imkonini beradi. Olingan neologizmlar roʻyxati ixtisoslashgan lugʻat uchun asos boʻlishi mumkin.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Adabiyotlar roʻyxati</title>
+<ref id="r1"><mixed-citation>Лебедева А. В. Терминологические инновации в языке экономики: корпусный подход // Вопросы терминоведения. 2021. Т. 7, № 1. С. 9–27.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Sinclair J. Corpus, Concordance, Collocation. Oxford: Oxford University Press, 1991. 179 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Кожевникова Р. Л. Англицизмы в русской деловой прессе: этапы освоения // Русская речь сегодня. 2019. № 5. С. 31–44.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Ferrand M., Holm B. Measuring lexical novelty in news corpora // Corpus Methods Quarterly. 2020. Vol. 11, no. 2. P. 145–163.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Лебедева А. В., Огнева Т. П. Графическая адаптация заимствований: латиница и кириллица в медиатексте // Лингвистика и медиа. 2022. Т. 3, № 4. С. 70–86.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Огнева Т. П. Словообразовательная активность заимствованных основ в современном русском языке. М.: Лексис, 2020. 236 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

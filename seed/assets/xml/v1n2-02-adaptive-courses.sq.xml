@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="sq">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista e Kërkimeve Ndërdisiplinore (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revistë demonstruese në Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra sh.p.k.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Artikull kërkimor</subject></subj-group></article-categories>
+<title-group>
+<article-title>Kurset adaptive në internet dhe rezultatet akademike të studentëve të vitit të parë: një studim kuazieksperimental</article-title>
+<trans-title-group xml:lang="en"><trans-title>Adaptive Online Courses and First-Year Students' Academic Performance: A Quasi-Experimental Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Fedorova</surname><given-names>Irina</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Fedorova</surname><given-names>Irina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>i.fedorova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Kovalenko</surname><given-names>Maxim</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kovalenko</surname><given-names>Maxim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Universiteti Pedagogjik i Lesnogorskut</institution>, <country country="RU">Rusi</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>8</fpage><lpage>10</lpage>
+<history><date date-type="received" iso-8601-date="2025-02-26"><day>26</day><month>02</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-01"><day>01</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Irina Fedorova, Maxim Kovalenko</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licencuar sipas CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="sq"><p>Viti i parë në universitet mbart rrezikun më të lartë të dështimit akademik dhe të braktisjes së studimeve, veçanërisht në matematikë, ku ndryshimet në përgatitjen shkollore të studentëve janë veçanërisht të mëdha. Ky artikull vlerëson efektin e një kursi adaptiv në internet në analizë matematike mbi rezultatet e studentëve të vitit të parë në një universitet pedagogjik. Sistemi adaptiv përzgjidhte ushtrimet dhe materialet mësimore në bazë të diagnostikimit të nivelit aktual të njohurive dhe të gabimeve të studentit. Studimi përdori një model kuazieksperimental: studentët e dy grupeve të vitit akademik 2023/24 (n = 214) përdorën kursin adaptiv, ndërsa studentët e dy grupeve të vitit paraardhës (n = 198) mësuan sipas skemës tradicionale me të njëjtët pedagogë. Për të përmirësuar krahasueshmërinë e grupeve, u zbatua çiftimi sipas pikës së prirjes (propensity score matching) në bazë të rezultateve të provimeve pranuese, gjinisë dhe llojit të shkollës. Pikët mesatare në provimin përfundimtar në grupin eksperimental ishin 7,4 pikë më të larta nga 100, ndërsa përqindja e studentëve që nuk e kaluan provimin në përpjekjen e parë ra nga 23% në 14%. Efekti më i madh u vërejt te studentët me pikë të ulëta pranimi. Analiza e gjurmëve dixhitale tregoi se parashikuesi kyç i suksesit ishte rregullsia e punës me sistemin dhe jo koha e përgjithshme e kaluar në të. Arrijmë në përfundimin se kurset adaptive janë një instrument i vlefshëm për barazimin e mundësive fillestare të studentëve të vitit të parë.</p></abstract>
+<trans-abstract xml:lang="en"><p>The first year at university carries the highest risk of academic failure and dropout, especially in mathematics, where differences in students' school preparation are particularly large. This article evaluates the effect of an adaptive online course in calculus on the performance of first-year students at a pedagogical university. The adaptive system selected exercises and learning materials based on a diagnosis of the student's current level of knowledge and errors. The study used a quasi-experimental design: students in two cohorts of the 2023/24 academic year (n = 214) used the adaptive course, while students in two cohorts of the previous year (n = 198) studied under the traditional scheme with the same instructors. To improve group comparability, propensity score matching was applied on entrance examination results, gender and school type. The mean final examination score in the experimental group was 7.4 points higher out of 100, and the share of students failing the examination at the first attempt fell from 23% to 14%. The largest effect was observed among students with low entrance scores. Analysis of digital traces showed that the key predictor of success was the regularity of work with the system rather than the total time spent in it. We conclude that adaptive courses are a worthwhile tool for levelling first-year students' starting opportunities.</p></trans-abstract>
+<kwd-group xml:lang="sq" kwd-group-type="author"><kwd>mësim adaptiv</kwd><kwd>kurse në internet</kwd><kwd>rezultate akademike</kwd><kwd>studentë të vitit të parë</kwd><kwd>analitikë e të nxënit</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>adaptive learning</kwd><kwd>online courses</kwd><kwd>academic performance</kwd><kwd>first-year students</kwd><kwd>learning analytics</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Hyrje</title>
+<p>Kalimi nga shkolla në universitet shoqërohet me një ndryshim të menjëhershëm të kërkesave për pavarësinë e studentit. Sipas të dhënave të shumë universiteteve, pikërisht në vitin e parë largohet përqindja më e madhe e studentëve, ndërsa lëndët matematikore bëhen «filtri» kryesor. Shkaku qëndron në masë të madhe në johomogjenitetin e përgatitjes shkollore, i cili është i vështirë të kompensohet në kuadër të mësimit frontal.</p>
+<p>Sistemet adaptive të të nxënit, të cilat i përzgjedhin detyrat sipas nivelit individual të studentit, konsiderohen si një mënyrë për t’iu afruar efektit të mësimit individual privat. Megjithatë, vlerësimet rigoroze të efektivitetit të tyre në universitetet ruse janë të pakta. Ky studim vlerëson ndikimin e një kursi adaptiv të analizës matematike në rezultatet e studentëve të vitit të parë.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materialet dhe metodat</title>
+<p>Kursi adaptiv përfshinte 14 module tematike dhe një bankë prej 1860 detyrash me gabimet tipike të shënuara. Pas çdo detyre, sistemi përditësonte vlerësimin e zotërimit të aftësive sipas modelit bajesian të gjurmimit të njohurive (Bayesian knowledge tracing) dhe propozonte detyrën e radhës ose material shpjegues. Kursi përdorej si pjesë e detyrueshme e punës së pavarur.</p>
+<p>Grupin eksperimental e përbënin 214 studentë të pranimit të vitit 2023, ndërsa grupin e kontrollit 198 studentë të pranimit të vitit 2022, të cilët mësuan me të njëjtët pedagogë sipas të njëjtit program me detyra shtëpie tradicionale. Për çiftimin u përdor pika e prirjes, e vlerësuar me regresion logjistik sipas shumës së pikëve të pranimit, gjinisë dhe llojit të shkollës; pas çiftimit, në analizë hynë 181 çifte.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Rezultatet</title>
+<p>Pas çiftimit, pikët mesatare në provimin përfundimtar ishin 68,9 në grupin eksperimental dhe 61,5 në grupin e kontrollit (diferenca 7,4 pikë; IB 95%: 4,1–10,7). Shpërndarja e efektit sipas kuartileve të pikëve të pranimit tregohet në fig. 1: rritja më e madhe vërehet në kuartilin e poshtëm.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Pikët mesatare në provim sipas kuartileve të pikëve të pranimit</p></caption></fig>
+<p>Analiza e regjistrave të sistemit tregoi se numri i javëve me punë aktive lidhet më fort me pikët përfundimtare (r = 0,52) sesa koha e përgjithshme e punës (r = 0,29). Rezultatet kryesore jepen në tab. 1.</p>
+<table-wrap id="t1" position="float"><caption><p>Tabela 1. Rezultatet e provimit përfundimtar (mostra të çiftuara, 181 çifte)</p></caption><table><thead><tr><th>Treguesi</th><th>Kontrolli</th><th>Kurs adaptiv</th><th>Diferenca</th></tr></thead><tbody><tr><td>Pikët mesatare</td><td>61,5</td><td>68,9</td><td>+7,4</td></tr><tr><td>Nuk e kaluan në përpjekjen e parë, %</td><td>23</td><td>14</td><td>−9 p.p.</td></tr><tr><td>Nota «shkëlqyeshëm», %</td><td>12</td><td>17</td><td>+5 p.p.</td></tr><tr><td>Të përjashtuar pas sesionit të 1-rë, %</td><td>8,3</td><td>5,0</td><td>−3,3 p.p.</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Diskutimi</title>
+<p>Efekti i përftuar është i krahasueshëm me rezultatet e meta-analizave të huaja të praktikës adaptive në arsimin e lartë. Përqendrimi i tij në grupin e studentëve me përgatitje të dobët tregon se kurset adaptive janë të afta të kompensojnë pjesërisht dallimet në kushtet fillestare.</p>
+<p>Modeli kuazieksperimental nuk lejon përjashtimin e plotë të ndikimit të dallimeve ndërmjet pranimeve të viteve të ndryshme që nuk janë marrë parasysh në çiftim. Megjithatë, përputhja e pedagogëve, e programit dhe e formës së provimit e ul rrezikun e zhvendosjes (bias). Rezultati mbi rëndësinë e rregullsisë së punës ka një pasojë të drejtpërdrejtë praktike: pikat e kontrollit javore mund ta përforcojnë efektin.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Përfundimi</title>
+<p>Kursi adaptiv në internet i analizës matematike i përmirësoi rezultatet akademike të studentëve të vitit të parë dhe uli përqindjen e rezultateve të pamjaftueshme, veçanërisht te studentët me pikë të ulëta pranimi. Rekomandohet që kurset adaptive të kombinohen me mekanizma që mbështesin punën e rregullt.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Bibliografia</title>
+<ref id="r1"><mixed-citation>Bloom B. S. The 2 sigma problem: the search for methods of group instruction as effective as one-to-one tutoring // Educational Researcher. 1984. Vol. 13, no. 6. P. 4–16.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Rosenbaum P. R., Rubin D. B. The central role of the propensity score in observational studies for causal effects // Biometrika. 1983. Vol. 70, no. 1. P. 41–55.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Федорова И. С. Адаптивные системы обучения в высшей школе: модели и практики // Цифровая дидактика. 2022. Т. 5, № 2. С. 7–25.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Коваленко М. Ю., Федорова И. С. Цифровые следы студентов как источник данных для прогнозирования успеваемости // Образование и аналитика. 2023. № 1. С. 44–59.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Reyes M., Ahlberg J. Adaptive practice and mathematics achievement in higher education: a meta-analysis // Journal of Learning Technologies. 2021. Vol. 19, no. 2. P. 133–152.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тарасова Н. В. Математическая подготовка первокурсников: проблемы перехода от школы к вузу. Лесногорск: ЛПУ, 2020. 176 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Hughes D., Varga E. Spacing and regularity in online learning: evidence from log data // Learning Analytics Review. 2022. Vol. 8. P. 60–79.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

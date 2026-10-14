@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="mk">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Списание за интердисциплинарни истражувања (демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демо-списание на Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>„Цифра“ ДОО</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Кратко соопштение</subject></subj-group></article-categories>
+<title-group>
+<article-title>Неологизми од дигиталната економија во руските деловни медиуми: корпусна студија</article-title>
+<trans-title-group xml:lang="en"><trans-title>Digital Economy Neologisms in Russian-Language Business Media: A Corpus Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Лебедева</surname><given-names>Анна</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Lebedeva</surname><given-names>Anna</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.lebedeva@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Институт за јазик и комуникација „Лексис“</institution>, <country country="RU">Русија</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>18</fpage><lpage>20</lpage>
+<history><date date-type="received" iso-8601-date="2024-12-02"><day>02</day><month>12</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-20"><day>20</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Анна Лебедева</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Лиценцирано под CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="mk"><p>Дигитализацијата на економијата е придружена со брзо појавување нов вокабулар, во голема мера позајмен од англискиот јазик. Ова кратко соопштение ги претставува првите резултати од корпусната студија на неологизмите од дигиталната економија во руските деловни медиуми. Наменски изградениот корпус опфаќа околу 18 милиони токени од публикациите на шест анонимизирани деловни медиуми за периодот 2015–2024. Кандидатите за неологизми беа избрани со фреквенциски критериум, по што следеше експертска верификација; конечниот список содржи 214 единици. За секоја од нив беа утврдени годината на првата потврда, зборообразувачкиот модел и динамиката на фреквенцијата. Директните заемки (како „маркетплейс“, „стартап“ и „краудфандинг“) сочинуваат 58% од новите единици, хибридните творби со руски афикси 27%, а калките и описните изрази 15%. Врвот на новите единици паѓа во периодот 2018–2020. Кај голем број заемки латиничното пишување постепено се заменува со кириличното, што укажува на нивната асимилација во јазикот. Резултатите можат да се користат при составувањето терминолошки речници и во наставата по деловен руски јазик. Понатамошната работа ќе го прошири корпусот со регионални медиуми и канали на Telegram.</p></abstract>
+<trans-abstract xml:lang="en"><p>The digitalisation of the economy has been accompanied by the rapid emergence of new vocabulary, much of it borrowed from English. This short communication presents the first results of a corpus study of digital economy neologisms in Russian-language business media. A purpose-built corpus comprises about 18 million tokens from the publications of six anonymised business outlets for 2015–2024. Candidate neologisms were selected using a frequency criterion followed by expert verification; the final list contains 214 items. For each, the year of first attestation, the word-formation pattern and the frequency dynamics were determined. Direct borrowings (such as marketpleys, startap and kraudfanding) account for 58% of new items, hybrid formations with Russian affixes for 27%, and calques and descriptive expressions for 15%. The peak of new items falls in 2018–2020. For a number of borrowings, Latin-script spellings are gradually being replaced by Cyrillic ones, indicating their assimilation into the language. The results can be used in compiling terminological dictionaries and in teaching business Russian. Further work will extend the corpus to regional outlets and Telegram channels.</p></trans-abstract>
+<kwd-group xml:lang="mk" kwd-group-type="author"><kwd>неологизми</kwd><kwd>корпусна лингвистика</kwd><kwd>заемки</kwd><kwd>дигитална економија</kwd><kwd>деловни медиуми</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>neologisms</kwd><kwd>corpus linguistics</kwd><kwd>borrowings</kwd><kwd>digital economy</kwd><kwd>business media</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Вовед</title>
+<p>Деловниот печат е еден од главните канали за ширење на економската терминологија: новите поими се појавуваат во него порано отколку во речниците и учебниците. Во периодот 2015–2024 година дигитализацијата на трговијата, финансиите и трудот беше придружена со особено интензивно збогатување на лексиката.</p>
+<p>Целта на соопштението е да се опишат составот и динамиката на неологизмите од дигиталната економија во деловните медиуми и да се карактеризираат главните начини на нивното образување.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материјали и методи</title>
+<p>Корпусот е формиран од отворено достапни публикации на шест деловни медиуми (означени со И1–И6) и е морфолошки анотиран. Кандидатите за неологизми беа избрани како леми што отсуствуваат во поткорпусот од 2010–2014 година и што се појавуваат најмалку 20 пати во периодот 2015–2024 година. Потоа двајца експерти независно проверуваа дали единиците припаѓаат на тематиката на дигиталната економија; согласноста меѓу експертите (Коеновата κ) изнесуваше 0,82.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Резултати</title>
+<p>Конечниот список опфаќа 214 единици. Распределбата според годината на првата потврда е прикажана на сл. 1: максимумот паѓа во периодот 2018–2020 година, што се совпаѓа со периодот на интензивен развој на онлајн-трговијата и на платформската вработеност. Распределбата според начинот на образување е прикажана во таб. 1.</p>
+<fig id="f1" position="float"><caption><p>Сл. 1. Број на нови единици според годината на првата потврда во корпусот</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>Табела 1. Неологизми според начинот на образување</p></caption><table><thead><tr><th>Начин на образување</th><th>Број</th><th>Удел, %</th><th>Примери</th></tr></thead><tbody><tr><td>Директна заемка</td><td>124</td><td>58</td><td>маркетплейс, стартап</td></tr><tr><td>Хибридна творба</td><td>58</td><td>27</td><td>зафандрайзить, лидогенерация</td></tr><tr><td>Калка, описен израз</td><td>32</td><td>15</td><td>цифровой след (дигитална трага), умный контракт (паметен договор)</td></tr><tr><td>Вкупно</td><td>214</td><td>100</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Дискусија</title>
+<p>Доминацијата на директните заемки е очекувана за предметна област што брзо се развива. Истовремено, високиот удел на хибридните творби покажува дека позајмените основи брзо се вклучуваат во рускиот зборообразувачки систем. Потиснувањето на латиничното пишување од кириличното (на пример, кај зборот „стартап“ уделот на латиницата се намали од 34% во 2015 година на 3% во 2024 година) служи како показател за асимилацијата.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Заклучок</title>
+<p>Корпусниот пристап овозможува објективно датирање на појавата и асимилацијата на новата економска лексика. Добиениот список неологизми може да стане основа за специјализиран речник.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Библиографија</title>
+<ref id="r1"><mixed-citation>Лебедева А. В. Терминологические инновации в языке экономики: корпусный подход // Вопросы терминоведения. 2021. Т. 7, № 1. С. 9–27.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Sinclair J. Corpus, Concordance, Collocation. Oxford: Oxford University Press, 1991. 179 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Кожевникова Р. Л. Англицизмы в русской деловой прессе: этапы освоения // Русская речь сегодня. 2019. № 5. С. 31–44.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Ferrand M., Holm B. Measuring lexical novelty in news corpora // Corpus Methods Quarterly. 2020. Vol. 11, no. 2. P. 145–163.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Лебедева А. В., Огнева Т. П. Графическая адаптация заимствований: латиница и кириллица в медиатексте // Лингвистика и медиа. 2022. Т. 3, № 4. С. 70–86.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Огнева Т. П. Словообразовательная активность заимствованных основ в современном русском языке. М.: Лексис, 2020. 236 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

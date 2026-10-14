@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="el">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Περιοδικό Διεπιστημονικής Έρευνας (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Επιδεικτικό περιοδικό σε Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Τσίφρα» ΕΠΕ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Σύντομη ανακοίνωση</subject></subj-group></article-categories>
+<title-group>
+<article-title>Νεολογισμοί της ψηφιακής οικονομίας στα ρωσόφωνα επιχειρηματικά μέσα ενημέρωσης: μελέτη βάσει σώματος κειμένων</article-title>
+<trans-title-group xml:lang="en"><trans-title>Digital Economy Neologisms in Russian-Language Business Media: A Corpus Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Lebedeva</surname><given-names>Anna</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Lebedeva</surname><given-names>Anna</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.lebedeva@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Ινστιτούτο Γλώσσας και Επικοινωνίας «Λέξις»</institution>, <country country="RU">Ρωσία</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>18</fpage><lpage>20</lpage>
+<history><date date-type="received" iso-8601-date="2024-12-02"><day>02</day><month>12</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-20"><day>20</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Anna Lebedeva</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Με άδεια CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="el"><p>Η ψηφιοποίηση της οικονομίας συνοδεύτηκε από την ταχεία εμφάνιση νέου λεξιλογίου, σε μεγάλο βαθμό δανεισμένου από τα αγγλικά. Η παρούσα σύντομη ανακοίνωση παρουσιάζει τα πρώτα αποτελέσματα μιας μελέτης βάσει σώματος κειμένων για τους νεολογισμούς της ψηφιακής οικονομίας στα ρωσόφωνα επιχειρηματικά μέσα ενημέρωσης. Ένα ειδικά καταρτισμένο σώμα κειμένων περιλαμβάνει περίπου 18 εκατομμύρια λεκτικές μονάδες από τις δημοσιεύσεις έξι ανωνυμοποιημένων επιχειρηματικών μέσων για την περίοδο 2015–2024. Οι υποψήφιοι νεολογισμοί επιλέχθηκαν με κριτήριο συχνότητας και στη συνέχεια επαληθεύτηκαν από ειδικούς· ο τελικός κατάλογος περιλαμβάνει 214 λήμματα. Για καθένα προσδιορίστηκαν το έτος πρώτης μαρτυρίας, το λεξιπλαστικό πρότυπο και η δυναμική της συχνότητας. Τα άμεσα δάνεια (όπως marketpleys, startap και kraudfanding) αντιστοιχούν στο 58% των νέων λημμάτων, οι υβριδικοί σχηματισμοί με ρωσικά προσφύματα στο 27% και τα μεταφραστικά δάνεια και οι περιφραστικές εκφράσεις στο 15%. Η κορύφωση των νέων λημμάτων σημειώνεται την περίοδο 2018–2020. Για ορισμένα δάνεια, η γραφή με λατινικούς χαρακτήρες αντικαθίσταται σταδιακά από την κυριλλική, γεγονός που υποδηλώνει την αφομοίωσή τους στη γλώσσα. Τα αποτελέσματα μπορούν να αξιοποιηθούν στην κατάρτιση ορολογικών λεξικών και στη διδασκαλία της επιχειρηματικής ρωσικής γλώσσας. Η περαιτέρω έρευνα θα επεκτείνει το σώμα κειμένων σε περιφερειακά μέσα και κανάλια Telegram.</p></abstract>
+<trans-abstract xml:lang="en"><p>The digitalisation of the economy has been accompanied by the rapid emergence of new vocabulary, much of it borrowed from English. This short communication presents the first results of a corpus study of digital economy neologisms in Russian-language business media. A purpose-built corpus comprises about 18 million tokens from the publications of six anonymised business outlets for 2015–2024. Candidate neologisms were selected using a frequency criterion followed by expert verification; the final list contains 214 items. For each, the year of first attestation, the word-formation pattern and the frequency dynamics were determined. Direct borrowings (such as marketpleys, startap and kraudfanding) account for 58% of new items, hybrid formations with Russian affixes for 27%, and calques and descriptive expressions for 15%. The peak of new items falls in 2018–2020. For a number of borrowings, Latin-script spellings are gradually being replaced by Cyrillic ones, indicating their assimilation into the language. The results can be used in compiling terminological dictionaries and in teaching business Russian. Further work will extend the corpus to regional outlets and Telegram channels.</p></trans-abstract>
+<kwd-group xml:lang="el" kwd-group-type="author"><kwd>νεολογισμοί</kwd><kwd>γλωσσολογία σωμάτων κειμένων</kwd><kwd>δάνεια</kwd><kwd>ψηφιακή οικονομία</kwd><kwd>επιχειρηματικά μέσα ενημέρωσης</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>neologisms</kwd><kwd>corpus linguistics</kwd><kwd>borrowings</kwd><kwd>digital economy</kwd><kwd>business media</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Εισαγωγή</title>
+<p>Ο επιχειρηματικός Τύπος αποτελεί ένα από τα κύρια κανάλια διάδοσης της οικονομικής ορολογίας: οι νέες έννοιες εμφανίζονται σε αυτόν νωρίτερα απ' ό,τι στα λεξικά και τα εγχειρίδια. Την περίοδο 2015–2024 η ψηφιοποίηση του εμπορίου, των χρηματοοικονομικών και της εργασίας συνοδεύτηκε από ιδιαίτερα έντονο εμπλουτισμό του λεξιλογίου.</p>
+<p>Στόχος της ανακοίνωσης είναι να περιγράψει τη σύνθεση και τη δυναμική των νεολογισμών της ψηφιακής οικονομίας στα επιχειρηματικά μέσα ενημέρωσης και να χαρακτηρίσει τους κύριους τρόπους σχηματισμού τους.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Υλικά και μέθοδοι</title>
+<p>Το σώμα κειμένων καταρτίστηκε από ελεύθερα προσβάσιμες δημοσιεύσεις έξι επιχειρηματικών εντύπων (συμβολίζονται Ε1–Ε6) και επισημειώθηκε μορφολογικά. Ως υποψήφιοι νεολογισμοί επιλέχθηκαν λήμματα που απουσίαζαν από το υποσώμα της περιόδου 2010–2014 και εμφανίζονταν τουλάχιστον 20 φορές την περίοδο 2015–2024. Στη συνέχεια δύο ειδικοί έλεγξαν ανεξάρτητα αν οι μονάδες ανήκουν στη θεματική της ψηφιακής οικονομίας· η συμφωνία των ειδικών (κ του Cohen) ήταν 0,82.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Αποτελέσματα</title>
+<p>Ο τελικός κατάλογος περιλαμβάνει 214 μονάδες. Η κατανομή ανά έτος πρώτης μαρτυρίας παρουσιάζεται στο Σχ. 1: η κορύφωση σημειώνεται την περίοδο 2018–2020, η οποία συμπίπτει με την περίοδο ραγδαίας ανάπτυξης του ηλεκτρονικού εμπορίου και της απασχόλησης μέσω πλατφορμών. Η κατανομή ανά τρόπο σχηματισμού δίνεται στον Πίν. 1.</p>
+<fig id="f1" position="float"><caption><p>Σχ. 1. Αριθμός νέων μονάδων ανά έτος πρώτης μαρτυρίας στο σώμα κειμένων</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>Πίνακας 1. Νεολογισμοί ανά τρόπο σχηματισμού</p></caption><table><thead><tr><th>Τρόπος σχηματισμού</th><th>Αριθμός</th><th>Ποσοστό, %</th><th>Παραδείγματα</th></tr></thead><tbody><tr><td>Άμεσο δάνειο</td><td>124</td><td>58</td><td>marketpleys, startap</td></tr><tr><td>Υβριδικός σχηματισμός</td><td>58</td><td>27</td><td>zafandrayzit' («συγκεντρώνω χρήματα»), lidogeneratsiya («δημιουργία δυνητικών πελατών»)</td></tr><tr><td>Μεταφραστικό δάνειο, περιφραστική έκφραση</td><td>32</td><td>15</td><td>tsifrovoy sled («ψηφιακό αποτύπωμα»), umnyy kontrakt («έξυπνο συμβόλαιο»)</td></tr><tr><td>Σύνολο</td><td>214</td><td>100</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Συζήτηση</title>
+<p>Η επικράτηση των άμεσων δανείων είναι αναμενόμενη για ένα ταχέως αναπτυσσόμενο θεματικό πεδίο. Ταυτόχρονα, το υψηλό ποσοστό των υβριδικών σχηματισμών δείχνει ότι τα δάνεια θέματα εντάσσονται γρήγορα στο ρωσικό λεξιπλαστικό σύστημα. Η εκτόπιση της γραφής με λατινικούς χαρακτήρες από την κυριλλική (για παράδειγμα, για τη λέξη «стартап» το ποσοστό της λατινικής γραφής μειώθηκε από 34% το 2015 σε 3% το 2024) αποτελεί δείκτη αφομοίωσης.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Συμπεράσματα</title>
+<p>Η προσέγγιση βάσει σώματος κειμένων επιτρέπει την αντικειμενική χρονολόγηση της εμφάνισης και της αφομοίωσης του νέου οικονομικού λεξιλογίου. Ο κατάλογος νεολογισμών που προέκυψε μπορεί να αποτελέσει τη βάση για ένα εξειδικευμένο λεξικό.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Βιβλιογραφία</title>
+<ref id="r1"><mixed-citation>Лебедева А. В. Терминологические инновации в языке экономики: корпусный подход // Вопросы терминоведения. 2021. Т. 7, № 1. С. 9–27.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Sinclair J. Corpus, Concordance, Collocation. Oxford: Oxford University Press, 1991. 179 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Кожевникова Р. Л. Англицизмы в русской деловой прессе: этапы освоения // Русская речь сегодня. 2019. № 5. С. 31–44.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Ferrand M., Holm B. Measuring lexical novelty in news corpora // Corpus Methods Quarterly. 2020. Vol. 11, no. 2. P. 145–163.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Лебедева А. В., Огнева Т. П. Графическая адаптация заимствований: латиница и кириллица в медиатексте // Лингвистика и медиа. 2022. Т. 3, № 4. С. 70–86.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Огнева Т. П. Словообразовательная активность заимствованных основ в современном русском языке. М.: Лексис, 2020. 236 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

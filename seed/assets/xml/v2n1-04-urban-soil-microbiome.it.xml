@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="it">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Rivista di ricerca interdisciplinare (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Rivista dimostrativa su Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra S.r.l.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Comunicazione breve</subject></subj-group></article-categories>
+<title-group>
+<article-title>Il microbioma del suolo dei parchi urbani: primi risultati di metabarcoding</article-title>
+<trans-title-group xml:lang="en"><trans-title>The Soil Microbiome of Urban Parks: First Results of Metabarcoding</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author"><name name-style="western"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Guseva</surname><given-names>Polina</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Guseva</surname><given-names>Polina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/><email>p.guseva@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Istituto caspico di studi ambientali</institution>, <country country="KZ">Kazakistan</country></aff>
+<aff id="aff2"><institution>Università statale di Novobor</institution>, <country country="RU">Russia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-10-28"><day>28</day><month>10</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-02-09"><day>09</day><month>02</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Aigerim Nurlanova, Polina Guseva</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Distribuito con licenza CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="it"><p>I suoli dei parchi urbani svolgono importanti funzioni ecosistemiche, regolando il deflusso, immagazzinando carbonio e sostenendo la crescita delle piante, eppure le loro comunità microbiche sono state studiate molto meno di quelle dei suoli naturali. La presente comunicazione breve illustra i primi risultati del metabarcoding delle comunità batteriche nei suoli di sei parchi di una grande città anonimizzata, che differiscono per età e intensità dell’uso ricreativo. Sono stati prelevati settantadue campioni dello strato superficiale del suolo da prati, aree sotto copertura arborea e lungo i sentieri pedonali. La composizione delle comunità è stata determinata mediante sequenziamento della regione variabile V4 del gene 16S rRNA; parallelamente sono stati misurati pH, contenuto di carbonio organico, densità apparente del suolo e concentrazioni di metalli pesanti. L’alfa-diversità batterica è risultata massima sotto copertura arborea nei parchi più antichi e minima lungo i sentieri compattati. La struttura delle comunità differiva significativamente tra i tipi di sito (PERMANOVA, R² = 0,21) e, in misura minore, tra i parchi. I fattori più importanti nel determinare la composizione delle comunità sono stati il pH e la densità apparente, mentre l’effetto dei metalli pesanti alle concentrazioni studiate è risultato debole. Questi dati suggeriscono che la gestione e l’assetto dei parchi influenzano la diversità microbica del suolo almeno quanto l’inquinamento. Il lavoro prosegue con un campione ampliato e l’inclusione delle comunità fungine.</p></abstract>
+<trans-abstract xml:lang="en"><p>The soils of urban parks perform important ecosystem functions, regulating runoff, storing carbon and supporting plant growth, yet their microbial communities have been studied far less than those of natural soils. This short communication presents the first results of metabarcoding of bacterial communities in the soils of six parks in an anonymised large city that differ in age and intensity of recreational use. Seventy-two samples of the topsoil were collected from lawns, areas under tree cover and along footpaths. Community composition was determined by sequencing the V4 variable region of the 16S rRNA gene; pH, organic carbon content, soil bulk density and heavy metal concentrations were measured in parallel. Bacterial alpha diversity was highest under tree cover in older parks and lowest along compacted paths. Community structure differed significantly between site types (PERMANOVA, R² = 0.21) and to a lesser extent between parks. The most important factors shaping community composition were pH and bulk density, whereas the effect of heavy metals at the concentrations studied was weak. These data suggest that park management and layout influence soil microbial diversity at least as much as pollution does. Work is continuing with an expanded sample and the inclusion of fungal communities.</p></trans-abstract>
+<kwd-group xml:lang="it" kwd-group-type="author"><kwd>suoli urbani</kwd><kwd>microbioma</kwd><kwd>metabarcoding</kwd><kwd>16S rRNA</kwd><kwd>parchi urbani</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>urban soils</kwd><kwd>microbiome</kwd><kwd>metabarcoding</kwd><kwd>16S rRNA</kwd><kwd>urban parks</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introduzione</title>
+<p>I microrganismi del suolo determinano i cicli del carbonio e dell’azoto, la struttura del suolo e la salute delle piante. In città i suoli subiscono un forte impatto antropico (compattazione, inquinamento, apporto di terreni di riporto); i parchi, tuttavia, soprattutto quelli più antichi, possono fungere da riserve di diversità microbica.</p>
+<p>Scopo della comunicazione è presentare i primi dati sulla composizione e sulla diversità delle comunità batteriche dei suoli dei parchi urbani e individuare i principali fattori che ne determinano la struttura.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiali e metodi</title>
+<p>In sei parchi (P1–P6) di età compresa tra 15 e 120 anni sono stati prelevati, per ciascuno dei tre tipi di sito (prato, copertura arborea, bordo del sentiero), quattro campioni compositi dallo strato 0–10 cm. Il DNA è stato estratto con un kit commerciale e la regione V4 del gene 16S rRNA è stata amplificata e sequenziata. Le sequenze sono state elaborate individuando le varianti di sequenza degli ampliconi; la diversità è stata valutata con l’indice di Shannon e le differenze nella struttura delle comunità mediante PERMANOVA sulla matrice delle distanze di Bray-Curtis.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Risultati</title>
+<p>L’indice di Shannon differiva tra i tipi di sito (fig. 1): i valori più elevati si registrano sotto copertura arborea, quelli più bassi lungo i sentieri, dove la densità apparente del suolo raggiungeva 1,55 g/cm³. I risultati dell’analisi PERMANOVA sono riportati nella tab. 1.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Indice di Shannon delle comunità batteriche per tipo di sito nei parchi giovani e antichi</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>Tabella 1. Fattori della struttura delle comunità batteriche (PERMANOVA, 999 permutazioni)</p></caption><table><thead><tr><th>Fattore</th><th>R²</th><th>F</th><th>p</th></tr></thead><tbody><tr><td>Tipo di sito</td><td>0,21</td><td>9,4</td><td>0,001</td></tr><tr><td>Parco</td><td>0,12</td><td>2,1</td><td>0,003</td></tr><tr><td>pH</td><td>0,09</td><td>8,0</td><td>0,001</td></tr><tr><td>Densità apparente del suolo</td><td>0,07</td><td>6,3</td><td>0,001</td></tr><tr><td>Somma dei metalli pesanti</td><td>0,02</td><td>1,6</td><td>0,092</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussione</title>
+<p>La forte influenza del tipo di sito e della densità apparente del suolo indica che la compattazione dovuta all’uso ricreativo è il principale fattore di impoverimento delle comunità microbiche. Ciò è coerente con i dati relativi alle aree ricreative naturali. La debole influenza dei metalli pesanti può essere spiegata dalle loro concentrazioni moderate nei parchi studiati. La conclusione pratica è che la progettazione della rete di viali e sentieri e la protezione delle zone radicali degli alberi dal calpestio favoriscono la conservazione della biodiversità del suolo.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusioni</title>
+<p>La diversità batterica dei suoli dei parchi urbani è determinata soprattutto dal tipo di sito, dal pH e dalla compattazione del suolo. I parchi antichi con un popolamento arboreo conservato costituiscono importanti riserve di diversità microbica del suolo.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Bibliografia</title>
+<ref id="r1"><mixed-citation>Fierer N., Jackson R. B. The diversity and biogeography of soil bacterial communities // Proceedings of the National Academy of Sciences of the USA. 2006. Vol. 103, no. 3. P. 626–631.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Anderson M. J. A new method for non-parametric multivariate analysis of variance // Austral Ecology. 2001. Vol. 26, no. 1. P. 32–46.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Гусева П. А. Физические свойства почв городских рекреационных территорий // Почвы и урбанизация. 2023. Т. 5, № 2. С. 40–55.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Нурланова А. Н., Гусева П. А. Тяжёлые металлы в почвах парков: пространственная изменчивость // Экосистемы и климат. 2024. Т. 6, № 3. С. 77–91.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Reese A., Kowal M. Trampling effects on soil bacterial diversity in recreational areas // Urban Ecosystems Letters. 2021. Vol. 9. P. 133–148.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Saldana P., Wu J. Park age and soil microbial community assembly // Journal of Urban Soil Science. 2022. Vol. 4, no. 1. P. 1–17.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

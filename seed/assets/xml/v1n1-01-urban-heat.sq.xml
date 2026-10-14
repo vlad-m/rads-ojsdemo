@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="sq">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista e Kërkimeve Ndërdisiplinore (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revistë demonstruese në Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra sh.p.k.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Artikull kërkimor</subject></subj-group></article-categories>
+<title-group>
+<article-title>Ishujt urbanë të nxehtësisë në qytetet e mesme: një analizë e të dhënave Landsat për periudhën 2000–2023</article-title>
+<trans-title-group xml:lang="en"><trans-title>Urban Heat Islands in Medium-Sized Cities: An Analysis of Landsat Data for 2000–2023</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sokolovskaya@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Melnikov</surname><given-names>Artyom</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Kim</surname><given-names>Svetlana</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kim</surname><given-names>Svetlana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Universiteti Shtetëror i Novoborit</institution>, <country country="RU">Rusi</country></aff>
+<aff id="aff2"><institution>Shkolla e Studimeve të Avancuara Urbane «Polis»</institution>, <country country="RU">Rusi</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>8</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-14"><day>14</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-28"><day>28</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Elena Sokolovskaya, Artyom Melnikov, Svetlana Kim</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licencuar sipas CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="sq"><p>Kërkimet mbi ishujt urbanë të nxehtësisë janë përqendruar tradicionalisht në zonat më të mëdha metropolitane, ndërsa qytetet e mesme, ku jeton një pjesë e konsiderueshme e popullsisë, mbeten pak të studiuara. Ky studim vlerëson intensitetin dhe dinamikën e ishullit urban sipërfaqësor të nxehtësisë në dymbëdhjetë qytete të anonimizuara me popullsi nga 100 000 deri në 500 000 banorë në zonën e klimës së butë. Temperatura e sipërfaqes tokësore u përftua nga skenat Landsat 5, 7 dhe 8 për muajt e verës të periudhës 2000–2023, dhe për secilin qytet u llogarit diferenca ndërmjet zonës së ndërtuar dhe një zone tampon periurbane. Si kovariabla u përdorën indeksi i normalizuar i diferencës së vegjetacionit (NDVI), përqindja e sipërfaqeve të papërshkueshme dhe dendësia e ndërtimeve, e nxjerrë nga të dhëna hartografike të hapura. Intensiteti mesatar ditor i ishullit të nxehtësisë ishte 3,4 °C dhe gjatë periudhës së studimit ai u rrit mesatarisht me 0,9 °C. Kontributin më të madh në këtë ndryshim e jep humbja e hapësirave të gjelbra në zonat periferike të ndërtimeve të reja të banimit, ndërsa lidhja me madhësinë e popullsisë rezultoi e dobët. Një model regresioni me efekte të përziera shpjegon 71% të variacionit ndërmjet qyteteve dhe ndërmjet viteve. Rezultatet tregojnë se qytetet e mesme nuk janë më pak të cenueshme ndaj mbinxehjes sesa qytetet e mëdha dhe se vendimet planifikuese në zonat e ndërtimeve të reja janë një instrument kyç përshtatjeje. Metoda e propozuar mund të riprodhohet për çdo qytet duke përdorur të dhëna të hapura.</p></abstract>
+<trans-abstract xml:lang="en"><p>Research on urban heat islands has traditionally focused on the largest metropolitan areas, while medium-sized cities, home to a substantial share of the population, remain poorly studied. This study assesses the intensity and dynamics of the surface urban heat island in twelve anonymised cities with populations of 100,000 to 500,000 in the temperate climate zone. Land surface temperature was retrieved from Landsat 5, 7 and 8 scenes for the summer months of 2000–2023, and for each city the difference between the built-up area and a suburban buffer zone was calculated. The normalised difference vegetation index (NDVI), the share of impervious surfaces and building density derived from open map data were used as covariates. The mean daytime heat island intensity was 3.4 °C, and over the study period it increased by 0.9 °C on average. The largest contribution to this change comes from the loss of green space in peripheral areas of new residential development, whereas the association with population size proved weak. A mixed-effects regression model explains 71% of the between-city and between-year variation. The results show that medium-sized cities are no less vulnerable to overheating than large ones and that planning decisions in new development zones are a key adaptation tool. The proposed method can be reproduced for any city using open data.</p></trans-abstract>
+<kwd-group xml:lang="sq" kwd-group-type="author"><kwd>ishull urban i nxehtësisë</kwd><kwd>teledetektim</kwd><kwd>Landsat</kwd><kwd>temperatura e sipërfaqes tokësore</kwd><kwd>infrastrukturë e gjelbër</kwd><kwd>qytete të mesme</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>urban heat island</kwd><kwd>remote sensing</kwd><kwd>Landsat</kwd><kwd>land surface temperature</kwd><kwd>green infrastructure</kwd><kwd>medium-sized cities</kwd></kwd-group>
+<funding-group><award-group><funding-source>Fondacioni «Horizont» për Kërkime Ndërdisiplinore</funding-source></award-group></funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Hyrje</title>
+<p>Ishulli urban i nxehtësisë — tejkalimi i temperaturës së ajrit dhe të sipërfaqes nënshtresore në qytet në krahasim me zonën rurale përreth — është një nga shfaqjet më të studiuara të transformimit antropogjen të klimës. Punimet klasike e lidhin këtë dukuri me ndryshimin e bilancit termik: zëvendësimi i vegjetacionit me mbulesa të papërshkueshme ul avullimin, gjeometria e ndërtimeve zvogëlon rrezatimin natën, ndërsa burimet antropogjene shtojnë nxehtësi në shtresën përdhese të ajrit.</p>
+<p>Megjithatë, shumica dërrmuese e vlerësimeve empirike janë përftuar për qytetet me mbi një milion banorë. Qytetet e mesme me popullsi 100–500 mijë banorë shpesh konsiderohen «shumë të vogla» për formimin e një ishulli të theksuar nxehtësie, megjithëse pikërisht në to gjatë dy dekadave të fundit vërehet ndërtim intensiv në periferi. Ky punim e plotëson këtë boshllëk: vlerësojmë intensitetin e ishullit sipërfaqësor të nxehtësisë në dymbëdhjetë qytete të mesme dhe identifikojmë faktorët e ndryshimit të tij gjatë periudhës 2000–2023.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materialet dhe metodat</title>
+<p>Studimi përfshin dymbëdhjetë qytete të zonës së butë, të shënuara në artikull me kodet Q1–Q12. Për secilin qytet, nga arkivi Landsat u përzgjodhën skena pa re për periudhën qershor–gusht (mesatarisht 4,6 skena për qytet në vit, gjithsej 1318 skena). Temperatura e sipërfaqes nënshtresore u rikonstruktua nga kanali termik me korrigjim të emisivitetit në bazë të NDVI.</p>
+<p>Intensiteti i ishullit të nxehtësisë (IIN) u përcaktua si diferenca ndërmjet temperaturës mediane të territorit të ndërtuar dhe asaj të unazës tampon periurbane me gjerësi 5 km, duke përjashtuar trupat ujorë. Si variabla shpjeguese u përdorën NDVI mesatar, përqindja e mbulesave të papërshkueshme, dendësia e ndërtimeve dhe numri i popullsisë. Lidhja u vlerësua me një model regresioni me efekte të përziera, me konstante të rastësishme për qytetin dhe efekt fiks të vitit.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Rezultatet</title>
+<p>IIN mesatar ditor për të gjithë mostrën ishte 3,4 ± 0,8 °C. Vlerat minimale janë karakteristike për qytetet me rrjet të zhvilluar luginash dhe me pyje-parqe të ruajtura (2,1–2,6 °C), ndërsa vlerat maksimale për qytetet e zonës së stepës me ndërtime të dendura me panele (4,5–4,9 °C). Në fig. 1 tregohet dinamika e intensitetit mesatar sipas periudhave pesëvjeçare.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Intensiteti mesatar ditor i ishullit sipërfaqësor të nxehtësisë sipas periudhave pesëvjeçare, °C</p></caption></fig>
+<p>Në modelin e regresionit (tab. 1), efektin më të madh për nga madhësia e ka NDVI: ulja e indeksit me 0,1 lidhet me rritjen e IIN me 0,62 °C. Përqindja e mbulesave të papërshkueshme është e rëndësishme, por efekti i saj ndërmjetësohet në masë të madhe nga vegjetacioni. Numri i popullsisë, pas marrjes parasysh të treguesve morfologjikë, është statistikisht i parëndësishëm.</p>
+<table-wrap id="t1" position="float"><caption><p>Tabela 1. Vlerësimet e modelit me efekte të përziera (variabli i varur — IIN, °C)</p></caption><table><thead><tr><th>Variabli</th><th>Koeficienti</th><th>Gabimi std.</th><th>p</th></tr></thead><tbody><tr><td>NDVI (për 0,1)</td><td>−0,62</td><td>0,09</td><td>&lt;0,001</td></tr><tr><td>Mbulesa të papërshkueshme (për 10%)</td><td>0,31</td><td>0,11</td><td>0,006</td></tr><tr><td>Dendësia e ndërtimeve (për 1 mijë m²/ha)</td><td>0,18</td><td>0,07</td><td>0,012</td></tr><tr><td>Popullsia (log)</td><td>0,07</td><td>0,15</td><td>0,640</td></tr><tr><td>R² kushtor</td><td>0,71</td><td>—</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Diskutimi</title>
+<p>Vlerësimet e përftuara të intensitetit janë të krahasueshme me ato të publikuara për qytetet evropiane me madhësi të ngjashme dhe vetëm 1–1,5 °C më të ulëta se vlerat për aglomeratet më të mëdha. Kjo vë në dyshim pikëpamjen e përhapur për rrezikun termik të parëndësishëm në qytetet e mesme.</p>
+<p>Rezultati më i rëndësishëm i punimit është roli kryesor i vegjetacionit në periferi. Lagjet e reja të banimit, të ndërtuara pas vitit 2010 në vend të tokave bujqësore dhe të truallit të lirë, karakterizohen nga gjelbërim minimal dhe pikërisht këtu rritja e temperaturës së sipërfaqes është më e dukshme. Kufizim i studimit është përdorimi vetëm i skenave ditore: ishulli i nxehtësisë natën, më i rëndësishmi për shëndetin, kërkon burime të tjera të dhënash.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Përfundimi</title>
+<p>Qytetet e mesme formojnë ishuj sipërfaqësorë nxehtësie të theksuar, intensiteti i të cilëve po rritet. Ruajtja dhe krijimi i hapësirave të gjelbra në zonat e ndërtimeve të reja është leva më efektive e përshtatjes. Algoritmi i hapur i propozuar mund të përdoret nga bashkitë për monitorim.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Bibliografia</title>
+<ref id="r1"><mixed-citation>Oke T. R. The energetic basis of the urban heat island // Quarterly Journal of the Royal Meteorological Society. 1982. Vol. 108, no. 455. P. 1–24.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Voogt J. A., Oke T. R. Thermal remote sensing of urban climates // Remote Sensing of Environment. 2003. Vol. 86, no. 3. P. 370–384.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Соколовская Е. В. Пространственные закономерности теплового режима малых и средних городов // Вопросы пространственного анализа. 2021. Т. 9, № 2. С. 34–51.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Мельников А. С., Ким С. Ю. Открытые картографические данные как источник показателей плотности застройки // Геоинформатика и общество. 2022. № 4. С. 18–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Harding P., Lindqvist M. Surface heat islands beyond the megacity: evidence from European mid-sized towns // Urban Climate Letters. 2020. Vol. 7. P. 112–127.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Орехова Т. Н. Методы восстановления температуры подстилающей поверхности по данным теплового канала. М.: Академия, 2019. 212 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Chen Y., Moreau L. Vegetation loss and the intensification of surface heat islands in suburban fringes // Journal of Applied Urban Ecology. 2021. Vol. 15, no. 3. P. 201–219.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Соколовская Е. В., Брагин И. А. Зелёная инфраструктура и адаптация городов к экстремальной жаре: обзор практик // Вестник Новоборского университета. Серия: Науки о Земле. 2023. Т. 11, № 1. С. 5–22.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

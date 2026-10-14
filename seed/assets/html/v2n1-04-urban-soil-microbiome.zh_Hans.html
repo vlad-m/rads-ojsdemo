@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>城市公园土壤微生物组：宏条形码分析的初步结果</title>
+<style>
+:root { --primary: #0072A6; --dark: #00507A; --accent: #F7901E; --ink: #1d1d1f; --muted: #6b6f7a; --line: #e5e1d8; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #fbfaf7; color: var(--ink); font: 17px/1.65 "Source Serif 4", "PT Serif", Georgia, "Noto Serif", "Noto Serif CJK SC", serif; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 32px 24px 64px; }
+.mast { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; padding-bottom: 10px; border-bottom: 3px solid var(--dark); font: 500 13px/1.4 Inter, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: var(--dark); }
+.mast b { color: var(--accent); letter-spacing: .1em; text-transform: uppercase; font-size: 11px; }
+.kind { margin: 28px 0 8px; font: 600 12px Inter, Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--primary); }
+h1 { margin: 0 0 6px; font: 600 32px/1.2 Montserrat, Inter, Arial, sans-serif; color: var(--dark); }
+.subtitle { margin: 0 0 12px; font-style: italic; font-size: 20px; color: var(--dark); }
+.authors { margin: 18px 0 4px; font-weight: 600; font-size: 18px; }
+.authors sup, .affs sup { color: var(--primary); font: 600 11px Inter, Arial, sans-serif; }
+.affs { margin: 0; padding: 0; list-style: none; font: 14px/1.5 Inter, Arial, sans-serif; color: var(--muted); }
+.corr { font: 14px Inter, Arial, sans-serif; color: var(--muted); margin-top: 4px; }
+.dates { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 18px 0; padding: 10px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font: 14px Inter, Arial, sans-serif; }
+.dates b { color: var(--dark); }
+.abs { margin: 0 0 18px; padding: 16px 20px; background: #f1f5f8; border-left: 4px solid var(--primary); border-radius: 4px; }
+.abs.alt { background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--accent); }
+.abs h3, nav h3 { margin: 0 0 6px; font: 600 12px Inter, Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: var(--dark); }
+.abs .t { font-weight: 600; color: var(--dark); margin-bottom: 6px; }
+.abs p { margin: 0 0 8px; }
+.kw { font-size: 15px; }
+.kw b { font: 600 13px Inter, Arial, sans-serif; color: var(--dark); }
+.cite { font: 14px/1.5 Inter, Arial, sans-serif; color: var(--muted); }
+.cite b { color: var(--dark); }
+nav { margin: 24px 0; padding: 14px 20px; background: #fff; border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: 4px; }
+nav ol { margin: 0; padding-left: 0; list-style: none; columns: 2; font: 15px/1.8 Inter, Arial, sans-serif; }
+a { color: var(--primary); }
+h2 { margin: 36px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line); font: 600 22px/1.3 Montserrat, Inter, Arial, sans-serif; color: var(--dark); }
+h2 .n { color: var(--accent); }
+section p { margin: 0 0 14px; text-align: justify; hyphens: auto; }
+figure { margin: 24px 0; }
+.fig { padding: 16px; background: #fff; border: 1px solid var(--line); border-radius: 4px; text-align: center; }
+.fig svg { width: 100%; max-width: 640px; height: auto; }
+.legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 20px; margin-top: 6px; font: 13px Inter, Arial, sans-serif; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+figcaption { font: 14px/1.5 Inter, Arial, sans-serif; text-align: left; margin: 8px 0; }
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font: 14px/1.45 Inter, Arial, sans-serif; background: #fff; }
+th { background: var(--dark); color: #fff; text-align: left; padding: 8px 10px; }
+td { padding: 7px 10px; border-bottom: 1px solid var(--line); }
+tbody tr:nth-child(even) td { background: #f7f5f0; }
+ol.refs { padding-left: 24px; font-size: 15px; }
+ol.refs li { margin-bottom: 6px; }
+.licence { margin-top: 40px; padding-top: 12px; border-top: 1px solid var(--line); font: 13px Inter, Arial, sans-serif; color: var(--muted); }
+@media (max-width: 600px) { body { font-size: 16px; } h1 { font-size: 25px; } nav ol { columns: 1; } .wrap { padding: 20px 16px 48px; } }
+</style>
+</head>
+<body>
+<article class="wrap">
+<header class="mast"><span><b>齐夫拉有限责任公司</b><br>跨学科研究学报（演示版）</span><span>第 2 卷第 1 期（2026） · 页 14–16<br>ISSN 0000-0000 (在线)</span></header>
+<div class="kind">简报</div>
+<h1>城市公园土壤微生物组：宏条形码分析的初步结果</h1>
+
+<p class="authors"><span class="au">Aigerim Nurlanova<sup>1</sup></span>, <span class="au">Polina Guseva<sup>2</sup></span></p>
+<ul class="affs"><li><sup>1</sup> 里海环境研究所, 哈萨克斯坦</li><li><sup>2</sup> 诺沃博尔国立大学, 俄罗斯</li></ul>
+<p class="corr">✉ 通讯作者: Polina Guseva, <a href="mailto:p.guseva@example.org">p.guseva@example.org</a></p>
+<div class="dates"><span><b>收稿日期:</b> 2025年10月28日</span><span><b>录用日期:</b> 2026年2月9日</span><span><b>发表日期:</b> 2026年3月18日</span></div>
+<section class="abs" lang="zh-Hans"><h3>摘要</h3><p>城市公园土壤承担着调节径流、储存碳和支持植物生长等重要生态系统功能，但与自然土壤相比，其微生物群落研究要少得多。本简报介绍了对某匿名大城市中六座公园土壤细菌群落进行宏条形码分析的初步结果，这些公园在建园年代和游憩利用强度方面各不相同。从草坪、林冠下区域和步道沿线共采集了 72 份表层土壤样品。通过对 16S rRNA 基因 V4 可变区进行测序确定群落组成；同时测定了 pH、有机碳含量、土壤容重和重金属浓度。细菌 α 多样性在老公园的林冠下最高，在压实的步道沿线最低。群落结构在不同样地类型之间存在显著差异（PERMANOVA，R² = 0.21），在不同公园之间的差异则较小。决定群落组成的最重要因素是 pH 和土壤容重，而在所研究的浓度范围内，重金属的影响较弱。这些数据表明，公园的管理方式和空间布局对土壤微生物多样性的影响至少不亚于污染。目前研究仍在继续，将扩大样本并纳入真菌群落。</p><p class="kw"><b>关键词:</b> 城市土壤; 微生物组; 宏条形码; 16S rRNA; 城市公园</p></section>
+<section class="abs alt" lang="en"><h3>Abstract</h3><div class="t">The Soil Microbiome of Urban Parks: First Results of Metabarcoding</div><p>The soils of urban parks perform important ecosystem functions, regulating runoff, storing carbon and supporting plant growth, yet their microbial communities have been studied far less than those of natural soils. This short communication presents the first results of metabarcoding of bacterial communities in the soils of six parks in an anonymised large city that differ in age and intensity of recreational use. Seventy-two samples of the topsoil were collected from lawns, areas under tree cover and along footpaths. Community composition was determined by sequencing the V4 variable region of the 16S rRNA gene; pH, organic carbon content, soil bulk density and heavy metal concentrations were measured in parallel. Bacterial alpha diversity was highest under tree cover in older parks and lowest along compacted paths. Community structure differed significantly between site types (PERMANOVA, R² = 0.21) and to a lesser extent between parks. The most important factors shaping community composition were pH and bulk density, whereas the effect of heavy metals at the concentrations studied was weak. These data suggest that park management and layout influence soil microbial diversity at least as much as pollution does. Work is continuing with an expanded sample and the inclusion of fungal communities.</p><p class="kw"><b>Keywords:</b> urban soils; microbiome; metabarcoding; 16S rRNA; urban parks</p></section>
+<p class="cite"><b>引用格式:</b> Nurlanova A., Guseva P. 城市公园土壤微生物组：宏条形码分析的初步结果. Open Journal Systems 演示期刊 2026;2(1):14–16.</p>
+<nav><ol><li><a href="#intro">1. 引言</a></li><li><a href="#methods">2. 材料与方法</a></li><li><a href="#results">3. 结果</a></li><li><a href="#discussion">4. 讨论</a></li><li><a href="#conclusion">5. 结论</a></li><li><a href="#refs">参考文献</a></li></ol></nav>
+<section id="intro"><h2><span class="n">1.</span> 引言</h2><p>土壤微生物决定着碳和氮的循环、土壤结构以及植物健康。在城市中，土壤受到压实、污染、外来填土等强烈的人为影响，但公园（尤其是老公园）可以成为微生物多样性的保护地。</p><p>本简报的目的是介绍关于城市公园土壤细菌群落组成和多样性的初步数据，并识别决定其结构的主要因素。</p></section>
+<section id="methods"><h2><span class="n">2.</span> 材料与方法</h2><p>在六座建园 15 至 120 年的公园（P1—P6）中，于三种样地类型（草坪、乔木林下、步道路肩）中各采集四份 0～10 cm 土层的混合样品。采用商业试剂盒提取 DNA，对 16S rRNA 基因的 V4 区进行扩增和测序。序列经处理后划分扩增子序列变体；以 Shannon 指数评估多样性，并基于 Bray-Curtis 距离矩阵采用 PERMANOVA 方法分析群落结构差异。</p></section>
+<section id="results"><h2><span class="n">3.</span> 结果</h2><p>Shannon 指数在不同样地类型之间存在差异（图 1）：乔木林下最高，步道沿线最低，后者的土壤容重高达 1.55 g/cm³。PERMANOVA 分析结果见表 1。</p><figure class="fig" id="fig1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 230" width="447.2" height="197.79999999999998" font-family="InterW, Inter, sans-serif" font-size="9.5"><line x1="46" y1="186" x2="508" y2="186" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="189.5" text-anchor="end" fill="#6b6f7a">0</text><line x1="46" y1="143" x2="508" y2="143" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="146.5" text-anchor="end" fill="#6b6f7a">2</text><line x1="46" y1="100" x2="508" y2="100" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="103.5" text-anchor="end" fill="#6b6f7a">4</text><line x1="46" y1="57" x2="508" y2="57" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="60.5" text-anchor="end" fill="#6b6f7a">6</text><line x1="46" y1="14" x2="508" y2="14" stroke="#e4e1d8" stroke-width="0.7"/><text x="40" y="17.5" text-anchor="end" fill="#6b6f7a">8</text><line x1="46" y1="186" x2="508" y2="186" stroke="#1d1d1f" stroke-width="0.8"/><text x="123" y="200" text-anchor="middle" fill="#1d1d1f">草坪</text><text x="277" y="200" text-anchor="middle" fill="#1d1d1f">乔木林下</text><text x="431" y="200" text-anchor="middle" fill="#1d1d1f">步道路肩</text><rect x="69.1" y="54.849999999999994" width="52.4" height="131.15" fill="#00507A" rx="1"/><text x="95.3" y="51.849999999999994" text-anchor="middle" fill="#1d1d1f" font-size="8.5">6.1</text><rect x="223.1" y="48.400000000000006" width="52.4" height="137.6" fill="#00507A" rx="1"/><text x="249.29999999999998" y="45.400000000000006" text-anchor="middle" fill="#1d1d1f" font-size="8.5">6.4</text><rect x="377.1" y="72.05" width="52.4" height="113.95" fill="#00507A" rx="1"/><text x="403.3" y="69.05" text-anchor="middle" fill="#1d1d1f" font-size="8.5">5.3</text><rect x="123" y="48.400000000000006" width="52.4" height="137.6" fill="#0072A6" rx="1"/><text x="149.2" y="45.400000000000006" text-anchor="middle" fill="#1d1d1f" font-size="8.5">6.4</text><rect x="277" y="35.5" width="52.4" height="150.5" fill="#0072A6" rx="1"/><text x="303.2" y="32.5" text-anchor="middle" fill="#1d1d1f" font-size="8.5">7</text><rect x="431" y="67.75" width="52.4" height="118.25" fill="#0072A6" rx="1"/><text x="457.2" y="64.75" text-anchor="middle" fill="#1d1d1f" font-size="8.5">5.5</text><text transform="translate(11,100) rotate(-90)" text-anchor="middle" fill="#6b6f7a">Shannon 指数</text></svg><div class="legend"><span><i style="background:#00507A"></i>新公园（&lt; 40 年）</span><span><i style="background:#0072A6"></i>老公园（&gt; 80 年）</span></div><figcaption>图 1　新老公园中各样地类型细菌群落的 Shannon 指数</figcaption></figure><figure class="tbl" id="tab1"><figcaption>表 1　细菌群落结构的影响因素（PERMANOVA，999 次置换）</figcaption><div class="scroll"><table><thead><tr><th>因素</th><th>R²</th><th>F</th><th>p</th></tr></thead><tbody><tr><td>样地类型</td><td>0,21</td><td>9,4</td><td>0,001</td></tr><tr><td>公园</td><td>0,12</td><td>2,1</td><td>0,003</td></tr><tr><td>pH</td><td>0,09</td><td>8,0</td><td>0,001</td></tr><tr><td>土壤容重</td><td>0,07</td><td>6,3</td><td>0,001</td></tr><tr><td>重金属总量</td><td>0,02</td><td>1,6</td><td>0,092</td></tr></tbody></table></div></figure></section>
+<section id="discussion"><h2><span class="n">4.</span> 讨论</h2><p>样地类型和土壤容重的强烈影响表明，游憩活动造成的压实是导致微生物群落贫化的主导因素。这与自然游憩区的数据一致。重金属影响较弱，可能是由于其在所研究公园中的浓度适中。实践启示是：合理规划园路系统并保护树木根区免遭踩踏，有助于保护土壤生物多样性。</p></section>
+<section id="conclusion"><h2><span class="n">5.</span> 结论</h2><p>城市公园土壤的细菌多样性主要取决于样地类型、pH 和土壤压实程度。保留有原有林木的老公园是土壤微生物多样性的重要保护地。</p></section>
+<section id="refs"><h2>参考文献</h2><ol class="refs"><li>Fierer N., Jackson R. B. The diversity and biogeography of soil bacterial communities // Proceedings of the National Academy of Sciences of the USA. 2006. Vol. 103, no. 3. P. 626–631.</li><li>Anderson M. J. A new method for non-parametric multivariate analysis of variance // Austral Ecology. 2001. Vol. 26, no. 1. P. 32–46.</li><li>Гусева П. А. Физические свойства почв городских рекреационных территорий // Почвы и урбанизация. 2023. Т. 5, № 2. С. 40–55.</li><li>Нурланова А. Н., Гусева П. А. Тяжёлые металлы в почвах парков: пространственная изменчивость // Экосистемы и климат. 2024. Т. 6, № 3. С. 77–91.</li><li>Reese A., Kowal M. Trampling effects on soil bacterial diversity in recreational areas // Urban Ecosystems Letters. 2021. Vol. 9. P. 133–148.</li><li>Saldana P., Wu J. Park age and soil microbial community assembly // Journal of Urban Soil Science. 2022. Vol. 4, no. 1. P. 1–17.</li></ol></section>
+<p class="licence">依据 CC BY 4.0 许可协议发布 · <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+</article>
+</body>
+</html>

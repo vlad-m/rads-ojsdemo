@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="sq">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista e Kërkimeve Ndërdisiplinore (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revistë demonstruese në Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra sh.p.k.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Artikull kërkimor</subject></subj-group></article-categories>
+<title-group>
+<article-title>Qëndrueshmëria e filmave perovskitë nën ciklim termik: roli i aditivëve organikë</article-title>
+<trans-title-group xml:lang="en"><trans-title>Stability of Perovskite Films under Thermal Cycling: The Role of Organic Additives</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Orlov</surname><given-names>Dmitry</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Orlov</surname><given-names>Dmitry</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>d.orlov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Shestakova</surname><given-names>Vera</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Shestakova</surname><given-names>Vera</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Avetisyan</surname><given-names>Georgy</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Avetisyan</surname><given-names>Georgy</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Qendra Uralase e Shkencës së Materialeve «Kristall»</institution>, <country country="RU">Rusi</country></aff>
+<aff id="aff2"><institution>Instituti i Fizikës së Lëndës së Kondensuar i Jerevanit</institution>, <country country="AM">Armeni</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>5</fpage><lpage>7</lpage>
+<history><date date-type="received" iso-8601-date="2025-03-11"><day>11</day><month>03</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-22"><day>22</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Dmitry Orlov, Vera Shestakova, Georgy Avetisyan</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licencuar sipas CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="sq"><p>Perovskitët halogjenurë konsiderohen si një nga materialet më premtuese për fotovoltaikën me shtresa të holla, por përdorimi i tyre praktik pengohet nga qëndrueshmëria e pamjaftueshme ndaj luhatjeve të temperaturës, tipike për kushtet reale të funksionimit. Ky studim shqyrton efektin e tre aditivëve organikë, fenetilamoniumit, tioures dhe polivinilpirrolidonit, mbi degradimin e filmave perovskitë me katione të përziera nën ciklim termik ndërmjet −20 dhe +85 °C. Filmat u përgatitën me veshje me rrotullim (spin coating) me ndihmën e antitretësit dhe u karakterizuan me difraksion të rrezeve X, mikroskopi elektronike skanuese dhe spektroskopi fotolumineshence pas 0, 50, 100 dhe 200 cikleve. Në mostrat e kontrollit, faza e jodurit të plumbit shfaqet që pas 100 cikleve, përgjatë kufijve të kokrrizave formohen mikroçarje dhe intensiteti i fotolumineshencës bie pothuajse përgjysmë. Shtimi i fenetilamoniumit në 1,5% mol e ngadalëson degradimin: pas 200 cikleve ruhet 87% e intensitetit fillestar të fotolumineshencës dhe nuk zbulohen faza dytësore. Tiourea rrit madhësinë e kokrrizave, por ka pak efekt mbi rezistencën ndaj ciklimit termik, ndërsa polivinilpirrolidoni e shtyp në mënyrë efektive çarjen. Propozohet një mekanizëm që e lidh efektin stabilizues të aditivëve me pasivimin e defekteve sipërfaqësore dhe me relaksimin e sforcimeve mekanike. Rezultatet mund të shërbejnë për zhvillimin e formulimeve për module diellore fleksibile.</p></abstract>
+<trans-abstract xml:lang="en"><p>Halide perovskites are regarded as one of the most promising materials for thin-film photovoltaics, but their practical use is held back by insufficient stability under the temperature fluctuations typical of real operating conditions. This study examines the effect of three organic additives, phenethylammonium, thiourea and polyvinylpyrrolidone, on the degradation of mixed-cation perovskite films under thermal cycling between −20 and +85 °C. Films were prepared by antisolvent-assisted spin coating and characterised by X-ray diffraction, scanning electron microscopy and photoluminescence spectroscopy after 0, 50, 100 and 200 cycles. In control samples, a lead iodide phase appears after only 100 cycles, microcracks form along grain boundaries, and photoluminescence intensity drops by almost half. Adding phenethylammonium at 1.5 mol% slows degradation: after 200 cycles, 87% of the initial photoluminescence intensity is retained and no secondary phases are detected. Thiourea increases grain size but has little effect on resistance to thermal cycling, whereas polyvinylpyrrolidone effectively suppresses cracking. A mechanism is proposed that links the stabilising effect of the additives to the passivation of surface defects and the relaxation of mechanical stress. The results can inform the development of formulations for flexible solar modules.</p></trans-abstract>
+<kwd-group xml:lang="sq" kwd-group-type="author"><kwd>perovskitë</kwd><kwd>shtresa të holla</kwd><kwd>ciklim termik</kwd><kwd>degradim</kwd><kwd>pasivim i defekteve</kwd><kwd>fotovoltaikë</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>perovskites</kwd><kwd>thin films</kwd><kwd>thermal cycling</kwd><kwd>degradation</kwd><kwd>defect passivation</kwd><kwd>photovoltaics</kwd></kwd-group>
+<funding-group><award-group><funding-source>Fondacioni «Horizont» për Kërkime Ndërdisiplinore</funding-source></award-group></funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Hyrje</title>
+<p>Gjatë pesëmbëdhjetë viteve të fundit, rendimenti i qelizave diellore perovskite është rritur nga disa përqind në vlera të krahasueshme me ato të qelizave prej silici. Pengesa kryesore për komercializimin mbetet qëndrueshmëria: nën veprimin e lagështisë, dritës dhe temperaturës, rrjeta kristalore e perovskitit dekompozohet duke çliruar jodur plumbi.</p>
+<p>Ciklimi termik — ndryshimet e shumëfishta të temperaturës — është një nga testet më të rrepta, pasi ndryshimi i koeficientëve të zgjerimit termik të filmit dhe të nënshtresës çon në akumulimin e sforcimeve mekanike. Qëllimi i punimit është të krahasojë efektivitetin e tre aditivëve organikë me natyrë të ndryshme për rritjen e qëndrueshmërisë së filmave ndaj ciklimit termik.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materialet dhe metodat</title>
+<p>Filmat e perovskitit me katione të përziera me bazë ceziumi, formamidiniumi dhe metilamoniumi (CsFAMA), me zëvendësim të pjesshëm të jodit me brom (15%), u depozituan mbi nënshtresa qelqi me veshje përçuese me metodën e centrifugimit (spin coating) me shtim me pika të antitretësit dhe u pjekën në 100 °C. Aditivët u futën në tretësirën prekursore: jodur fenetilamoniumi (FEA, 1,5% mol), tiourea (TU, 3% mol) dhe polivinilpirrolidon (PVP, 0,5% në masë).</p>
+<p>Ciklimi termik u krye në një dhomë klimatike në atmosferë inerte: një cikël përfshinte mbajtje 15 min në −20 °C dhe 15 min në +85 °C, me shpejtësi ndryshimi të temperaturës 5 °C/min. Pas 0, 50, 100 dhe 200 cikleve, mostrat u studiuan me metodat e difraksionit të rrezeve X, të mikroskopisë elektronike dhe të fotolumineshencës stacionare.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Rezultatet</title>
+<p>Ndryshimi i intensitetit integral të fotolumineshencës në varësi të numrit të cikleve tregohet në fig. 1. Në mostrat e kontrollit, intensiteti bie në 54% të vlerës fillestare pas 100 cikleve dhe në 31% pas 200 cikleve; njëkohësisht, në difraktogramë shfaqet refleksi i jodurit të plumbit në 2θ = 12,7°.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Intensiteti relativ i fotolumineshencës së filmave në varësi të numrit të cikleve termike, %</p></caption></fig>
+<p>Qëndrueshmërinë më të lartë e treguan filmat me FEA, në të cilët nuk u zbuluan faza dytësore as pas 200 cikleve. Shtimi i PVP e shtyp pothuajse plotësisht formimin e mikroçarjeve, por nuk e parandalon uljen graduale të intensitetit të fotolumineshencës. Karakteristikat përmbledhëse jepen në tab. 1.</p>
+<table-wrap id="t1" position="float"><caption><p>Tabela 1. Karakteristikat e filmave para dhe pas 200 cikleve</p></caption><table><thead><tr><th>Mostra</th><th>Madhësia e kokrrizave, nm</th><th>FL pas 200 cikleve, %</th><th>Faza PbI₂</th><th>Çarjet</th></tr></thead><tbody><tr><td>Kontrolli</td><td>310</td><td>31</td><td>po</td><td>shumë</td></tr><tr><td>FEA 1,5% mol</td><td>340</td><td>87</td><td>jo</td><td>të veçuara</td></tr><tr><td>TU 3% mol</td><td>520</td><td>39</td><td>po</td><td>shumë</td></tr><tr><td>PVP 0,5% në masë</td><td>290</td><td>66</td><td>gjurmë</td><td>jo</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Diskutimi</title>
+<p>Veprimi stabilizues i FEA mund të shpjegohet me formimin në sipërfaqen e kokrrizave të një shtrese të hollë perovskiti dydimensional, e cila pasivon defektet dhe pengon migrimin e joneve të halogjeneve. PVP me sa duket vepron ndryshe: zinxhirët polimerikë, të lokalizuar në kufijtë e kokrrizave, relaksojnë pjesërisht sforcimet mekanike dhe parandalojnë çarjen.</p>
+<p>Dallimi i mekanizmave hap mundësinë e përdorimit të kombinuar të aditivëve. Eksperimentet paraprake me futjen njëkohësisht të FEA dhe PVP tregojnë ruajtjen e 91% të intensitetit të fotolumineshencës pas 200 cikleve, gjë që kërkon verifikim të mëtejshëm në qeliza diellore të plota.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Përfundimi</title>
+<p>Fenetilamoniumi është më efektivi ndër aditivët e studiuar për rritjen e qëndrueshmërisë së filmave perovskitë ndaj ciklimit termik, ndërsa polivinilpirrolidoni e shtyp në mënyrë efektive çarjen. Kombinimi i aditivëve me mekanizma të ndryshëm veprimi duket një strategji premtuese.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Bibliografia</title>
+<ref id="r1"><mixed-citation>Kojima A., Teshima K., Shirai Y., Miyasaka T. Organometal halide perovskites as visible-light sensitizers for photovoltaic cells // Journal of the American Chemical Society. 2009. Vol. 131, no. 17. P. 6050–6051.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Орлов Д. С., Шестакова В. А. Морфология плёнок смешанных галогенидных перовскитов, полученных с антирастворителем // Неорганические материалы и покрытия. 2022. Т. 14, № 5. С. 412–423.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Brenner M., Ito K. Thermal stress and grain-boundary cracking in hybrid perovskite films // Thin Film Engineering. 2021. Vol. 28, no. 3. P. 301–315.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Аветисян Г. Р. Пассивация поверхностных дефектов в перовскитах органическими катионами // Физика конденсированных сред. 2023. Т. 9, № 2. С. 88–104.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Liang Q., Fischer A. Polymer additives for mechanically robust perovskite layers // Advanced Coatings Letters. 2022. Vol. 6. P. 55–67.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Шестакова В. А. Методы ускоренных климатических испытаний тонкоплёночных солнечных элементов. Екатеринбург: Кристалл, 2021. 148 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Okafor C., Duarte P. Photoluminescence as a probe of perovskite degradation // Optical Materials Review. 2020. Vol. 17, no. 4. P. 220–236.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Орлов Д. С. Рентгенофазовый анализ продуктов деградации галогенидных перовскитов // Заводская лаборатория. Диагностика материалов. 2021. Т. 87, № 9. С. 31–38.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

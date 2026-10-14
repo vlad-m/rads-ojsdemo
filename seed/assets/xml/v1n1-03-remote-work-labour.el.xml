@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="el">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Περιοδικό Διεπιστημονικής Έρευνας (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Επιδεικτικό περιοδικό σε Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Τσίφρα» ΕΠΕ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Ερευνητικό άρθρο</subject></subj-group></article-categories>
+<title-group>
+<article-title>Εξ αποστάσεως εργασία και περιφερειακές αγορές εργασίας: στοιχεία από διαδικτυακές αγγελίες θέσεων εργασίας</article-title>
+<trans-title-group xml:lang="en"><trans-title>Remote Work and Regional Labour Markets: Evidence from Online Vacancies</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Gromov</surname><given-names>Pavel</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>p.gromov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Becker</surname><given-names>Laura</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Becker</surname><given-names>Laura</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Ινστιτούτο Οικονομικών και Χωρικής Ανάπτυξης «Μεριντιάν»</institution>, <country country="RU">Ρωσία</country></aff>
+<aff id="aff2"><institution>Κέντρο Εφαρμοσμένων Οικονομικών Ερευνών «Όστλαντ»</institution>, <country country="DE">Γερμανία</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>12</fpage><lpage>14</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-21"><day>21</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-14"><day>14</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Pavel Gromov, Laura Becker</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Με άδεια CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="el"><p>Η διάδοση της εξ αποστάσεως εργασίας μετά το 2020 μπορεί να αναδιαμορφώσει τη χωρική δομή των αγορών εργασίας, δίνοντας στους κατοίκους μικρότερων πόλεων πρόσβαση σε θέσεις εργασίας που προκηρύσσουν εργοδότες της πρωτεύουσας. Με βάση 2,4 εκατομμύρια αγγελίες θέσεων εργασίας που δημοσιεύθηκαν σε μεγάλη διαδικτυακή πλατφόρμα την περίοδο 2019–2023, το άρθρο εκτιμά τον βαθμό στον οποίο οι θέσεις εξ αποστάσεως εργασίας ανακατανέμουν τη ζήτηση εργασίας μεταξύ των περιφερειών. Οι αγγελίες ταξινομήθηκαν με μοντέλο βασισμένο σε λεξικό, ακολουθούμενο από χειροκίνητη επικύρωση ενός τυχαίου δείγματος. Το ποσοστό των θέσεων πλήρως εξ αποστάσεως εργασίας αυξήθηκε από 2,1% το 2019 σε 9,7% το 2023, με την αύξηση να συγκεντρώνεται στην πληροφορική, το μάρκετινγκ και τις χρηματοοικονομικές υπηρεσίες. Ένας σχεδιασμός διαφοράς στις διαφορές (difference-in-differences) δείχνει ότι στις περιφέρειες με υψηλότερο μερίδιο απασχόλησης σε αυτούς τους κλάδους ο μέσος προσφερόμενος μισθός αυξήθηκε κατά 4,3% ταχύτερα σε σχέση με συγκρίσιμες περιφέρειες. Ταυτόχρονα, οι θέσεις εξ αποστάσεως εργασίας θέτουν υψηλότερες απαιτήσεις εμπειρίας και εκπαίδευσης, γεγονός που περιορίζει την πρόσβαση για μεγάλο μέρος των εργαζομένων. Η εξισωτική επίδραση στις διαπεριφερειακές μισθολογικές διαφορές είναι στατιστικά σημαντική αλλά μέτρια. Τα αποτελέσματα υποδεικνύουν ότι η εξ αποστάσεως εργασία μπορεί να λειτουργήσει ως εργαλείο περιφερειακής πολιτικής μόνο σε συνδυασμό με προγράμματα επανεκπαίδευσης και την ανάπτυξη ψηφιακών υποδομών.</p></abstract>
+<trans-abstract xml:lang="en"><p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="el" kwd-group-type="author"><kwd>εξ αποστάσεως εργασία</kwd><kwd>περιφερειακή αγορά εργασίας</kwd><kwd>διαδικτυακές αγγελίες θέσεων εργασίας</kwd><kwd>μισθοί</kwd><kwd>διαφορά στις διαφορές</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>remote work</kwd><kwd>regional labour market</kwd><kwd>online vacancies</kwd><kwd>wages</kwd><kwd>difference-in-differences</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Εισαγωγή</title>
+<p>Η ταχεία μετάβαση στην εξ αποστάσεως εργασία κατά το 2020 θεωρήθηκε αρχικά προσωρινή αντίδραση στην πανδημία. Τέσσερα χρόνια αργότερα, σημαντικό μέρος των εργοδοτών εξακολουθεί να προσφέρει θέσεις πλήρως εξ αποστάσεως εργασίας, γεγονός που εγείρει το ερώτημα αν ο τόπος κατοικίας εξακολουθεί να καθορίζει την πρόσβαση σε καλά αμειβόμενες θέσεις εργασίας. Αν οι εργαζόμενοι σε μικρότερες πόλεις μπορούν να διεκδικούν θέσεις που προκηρύσσονται στην πρωτεύουσα, οι διαπεριφερειακές μισθολογικές διαφορές θα μπορούσαν να μειωθούν χωρίς φυσική μετανάστευση.</p>
+<p>Τα υπάρχοντα στοιχεία για το ζήτημα αυτό προέρχονται κυρίως από έρευνες σε εργαζομένους. Τα δεδομένα διαδικτυακών αγγελιών θέσεων εργασίας προσφέρουν μια συμπληρωματική οπτική από την πλευρά της ζήτησης, με υψηλή χρονική και χωρική ανάλυση. Το άρθρο χρησιμοποιεί τέτοια δεδομένα για να καταγράψει την αύξηση των θέσεων εξ αποστάσεως εργασίας, να χαρακτηρίσει τις απαιτήσεις τους και να εκτιμήσει την επίδρασή τους στη δυναμική των περιφερειακών μισθών.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Υλικά και μέθοδοι</title>
+<p>Το σύνολο δεδομένων περιλαμβάνει 2,4 εκατομμύρια αγγελίες που δημοσιεύθηκαν από τον Ιανουάριο του 2019 έως τον Δεκέμβριο του 2023 σε μεγάλη πλατφόρμα αναζήτησης εργασίας. Κάθε εγγραφή περιλαμβάνει τον τίτλο της θέσης, την περιγραφή, την περιφέρεια, τον κλάδο, το εύρος του προσφερόμενου μισθού και τις απαιτήσεις. Οι θέσεις εξ αποστάσεως εργασίας εντοπίστηκαν με λεξικό 46 φράσεων· ένα χειροκίνητα κωδικοποιημένο τυχαίο δείγμα 2.000 αγγελιών έδειξε ακρίβεια (precision) 0,94 και ανάκληση (recall) 0,91.</p>
+<p>Για την εκτίμηση της επίδρασης στους μισθούς, οι περιφέρειες χωρίστηκαν με βάση το προ της πανδημίας μερίδιο απασχόλησης σε κλάδους με υψηλή ένταση εξ αποστάσεως εργασίας. Ένα μοντέλο διαφοράς στις διαφορές με σταθερές επιδράσεις περιφέρειας και μήνα συγκρίνει την εξέλιξη του διάμεσου προσφερόμενου μισθού πριν και μετά τον Μάρτιο του 2020, ελέγχοντας για την επαγγελματική σύνθεση των θέσεων.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Αποτελέσματα</title>
+<p>Το ποσοστό των θέσεων πλήρως εξ αποστάσεως εργασίας αυξανόταν σταθερά από 2,1% το 2019 σε 9,7% το 2023 (Σχ. 1). Η αύξηση ήταν εντονότερη στην πληροφορική, όπου οι θέσεις εξ αποστάσεως έφθασαν το 31% του συνόλου των αγγελιών, ακολουθούμενη από το μάρκετινγκ και τα χρηματοοικονομικά. Στη μεταποίηση, το λιανικό εμπόριο και την υγειονομική περίθαλψη το ποσοστό παρέμεινε κάτω από 2%.</p>
+<fig id="f1" position="float"><caption><p>Σχ. 1. Ποσοστό θέσεων πλήρως εξ αποστάσεως εργασίας ανά έτος, %</p></caption></fig>
+<p>Ο Πίνακας 1 παρουσιάζει τις κύριες εκτιμήσεις. Στις περιφέρειες με υψηλή έκθεση σε κλάδους υψηλής έντασης εξ αποστάσεως εργασίας, ο διάμεσος προσφερόμενος μισθός αυξήθηκε κατά 4,3% περισσότερο από ό,τι στις περιφέρειες χαμηλής έκθεσης. Οι θέσεις εξ αποστάσεως εργασίας είχαν 1,6 φορές μεγαλύτερη πιθανότητα να απαιτούν ανώτατη εκπαίδευση και ζητούσαν κατά μέσο όρο 1,2 περισσότερα έτη εμπειρίας.</p>
+<table-wrap id="t1" position="float"><caption><p>Πίνακας 1. Εκτιμήσεις διαφοράς στις διαφορές (εξαρτημένη μεταβλητή: λογάριθμος του διάμεσου προσφερόμενου μισθού)</p></caption><table><thead><tr><th>Εξειδίκευση</th><th>Εκτίμηση</th><th>Τυπ. σφάλμα</th><th>N (περιφέρειες-μήνες)</th></tr></thead><tbody><tr><td>Βασικό μοντέλο</td><td>0.043</td><td>0.012</td><td>4,980</td></tr><tr><td>+ έλεγχος για επάγγελμα</td><td>0.037</td><td>0.011</td><td>4,980</td></tr><tr><td>Χωρίς την περιφέρεια της πρωτεύουσας</td><td>0.041</td><td>0.013</td><td>4,920</td></tr><tr><td>Εικονικός έλεγχος (τομή 2018)</td><td>0.004</td><td>0.010</td><td>4,980</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Συζήτηση</title>
+<p>Τα αποτελέσματά μας δείχνουν ότι η εξ αποστάσεως εργασία ασκεί πράγματι εξισωτική πίεση στους περιφερειακούς μισθούς, αλλά το μέγεθός της είναι μέτριο. Η επίδραση συγκεντρώνεται σε περιφέρειες που διέθεταν ήδη δεξαμενή εργαζομένων σε επαγγέλματα υψηλής έντασης εξ αποστάσεως εργασίας, γεγονός που υποδηλώνει ότι η εξ αποστάσεως εργασία ενισχύει το υπάρχον ανθρώπινο κεφάλαιο αντί να δημιουργεί νέες ευκαιρίες.</p>
+<p>Οι υψηλότερες απαιτήσεις δεξιοτήτων των θέσεων εξ αποστάσεως εργασίας αποτελούν βασικό περιορισμό. Μέτρα πολιτικής που συνδυάζουν επενδύσεις σε ψηφιακές υποδομές με επανεκπαίδευση είναι πιθανότερο να μετατρέψουν τις δυνατότητες της εξ αποστάσεως εργασίας σε ευρέως κατανεμημένα οφέλη. Περιορισμός της μελέτης είναι ότι τα δεδομένα των αγγελιών αντανακλούν τους προσφερόμενους και όχι τους πραγματικούς μισθούς.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Συμπεράσματα</title>
+<p>Οι θέσεις εξ αποστάσεως εργασίας έχουν γίνει σταθερό χαρακτηριστικό της αγοράς εργασίας και μειώνουν μετρίως τις διαπεριφερειακές μισθολογικές διαφορές. Τα οφέλη τους, ωστόσο, αφορούν κυρίως τους εργαζομένους υψηλής ειδίκευσης, και ο ρόλος τους ως εργαλείου περιφερειακής ανάπτυξης εξαρτάται από συμπληρωματικές πολιτικές.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Βιβλιογραφία</title>
+<ref id="r1"><mixed-citation>Angrist J. D., Pischke J.-S. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009. 392 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Moretti E. The New Geography of Jobs. Boston: Houghton Mifflin Harcourt, 2012. 294 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Gromov P. A. Online vacancy data as a source of regional labour market statistics // Regional Economics Review. 2021. Vol. 14, no. 2. P. 55–73.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Becker L., Vogt H. Remote-eligible jobs and the spatial distribution of labour demand // Journal of Labour and Space. 2022. Vol. 8, no. 1. P. 1–24.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Громов П. А., Седова Е. К. Межрегиональная дифференциация заработной платы: факторы и тенденции // Пространственная экономика и политика. 2020. № 3. С. 22–40.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindgren A., Torres M. Skill requirements in remote job postings // Labour Market Analytics. 2023. Vol. 5. P. 140–158.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седова Е. К. Цифровая инфраструктура и занятость в малых городах. М.: Меридиан, 2022. 168 с.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Hartmann F. Text classification of job advertisements: a practical comparison // Computational Social Science Letters. 2021. Vol. 3, no. 4. P. 88–101.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

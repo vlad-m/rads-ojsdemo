@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="el">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Περιοδικό Διεπιστημονικής Έρευνας (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Επιδεικτικό περιοδικό σε Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Τσίφρα» ΕΠΕ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Ανασκόπηση</subject></subj-group></article-categories>
+<title-group>
+<article-title>Ισοζύγιο άνθρακα των βόρειων τυρφώνων: ανασκόπηση των μεθόδων εκτίμησης</article-title>
+<trans-title-group xml:lang="en"><trans-title>Carbon Balance of Boreal Peatlands: A Review of Assessment Methods</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.nurlanova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Ινστιτούτο Περιβαλλοντικών Μελετών της Κασπίας</institution>, <country country="KZ">Καζακστάν</country></aff>
+<aff id="aff2"><institution>Βόρειος Σταθμός Ελών, Κρατικό Πανεπιστήμιο του Νόβομπορ</institution>, <country country="RU">Ρωσία</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>15</fpage><lpage>17</lpage>
+<history><date date-type="received" iso-8601-date="2024-08-19"><day>19</day><month>08</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-15"><day>15</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Aigerim Nurlanova, Nikolay Tikhomirov</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Με άδεια CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="el"><p>Οι βόρειοι (boreal) τυρφώνες καλύπτουν περίπου το 3% της χερσαίας επιφάνειας, αλλά αποθηκεύουν έως και το ένα τρίτο του παγκόσμιου εδαφικού άνθρακα· γι' αυτό η ακριβής εκτίμηση του ισοζυγίου άνθρακά τους έχει σημασία για την κλιματική πολιτική και τις εθνικές απογραφές αερίων του θερμοκηπίου. Η ανασκόπηση αυτή συστηματοποιεί τις κύριες μεθόδους εκτίμησης των ροών άνθρακα στους τυρφώνες: τη μέθοδο θαλάμων, τη συμμεταβλητότητα στροβίλων (eddy covariance), τον υπολογισμό από τους ρυθμούς συσσώρευσης τύρφης και τις τηλεπισκοπικές προσεγγίσεις που βασίζονται σε δορυφορικούς δείκτες και μοντέλα παραγωγικότητας. Με βάση 87 δημοσιεύσεις της περιόδου 2000–2024, εξετάζονται η χωρική και χρονική κλίμακα κάθε μεθόδου, οι πηγές αβεβαιότητάς της και οι απαιτήσεις της σε εξοπλισμό και εξειδίκευση προσωπικού. Οι εκτιμήσεις της καθαρής ανταλλαγής του οικοσυστήματος για τον ίδιο τυρφώνα που λαμβάνονται με διαφορετικές μεθόδους μπορεί να διαφέρουν κατά 1,5 έως 2 φορές, ενώ το μεγαλύτερο μέρος της απόκλισης οφείλεται στον χειρισμό των ροών μεθανίου και διαλυμένου οργανικού άνθρακα. Ιδιαίτερη προσοχή δίνεται στους αποστραγγισμένους και επαναπλημμυρισμένους τυρφώνες, για τους οποίους υπάρχουν πολύ λιγότερα δεδομένα από ό,τι για τα αδιατάρακτα οικοσυστήματα. Η ανασκόπηση καταλήγει ότι απαιτείται συνδυαστική προσέγγιση, στην οποία οι μακροχρόνιες παρατηρήσεις συμμεταβλητότητας στροβίλων σε θέσεις αναφοράς συμπληρώνονται από μετρήσεις θαλάμων και τηλεπισκοπική αναγωγή σε μεγαλύτερη κλίμακα. Προτείνεται σχήμα λήψης αποφάσεων για την επιλογή μεθόδου ανάλογα με τον ερευνητικό στόχο και τους διαθέσιμους πόρους.</p></abstract>
+<trans-abstract xml:lang="en"><p>Boreal peatlands cover about 3% of the land surface yet store up to a third of the world's soil carbon, so accurate assessment of their carbon balance matters for climate policy and national greenhouse gas reporting. This review systematises the main methods for estimating carbon fluxes in peatlands: the chamber method, eddy covariance, calculation from peat accumulation rates, and remote-sensing approaches based on satellite indices and productivity models. Drawing on 87 publications from 2000–2024, it considers the spatial and temporal scale of each method, its sources of uncertainty and its requirements for equipment and staff expertise. Estimates of net ecosystem exchange for the same peatland obtained by different methods can differ by a factor of 1.5 to 2, with most of the discrepancy arising from the treatment of methane and dissolved organic carbon fluxes. Particular attention is paid to drained and rewetted peatlands, for which far fewer data exist than for undisturbed ecosystems. The review concludes that a combined approach is needed, in which long-term eddy covariance observations at reference sites are complemented by chamber measurements and remote-sensing upscaling. A decision scheme for choosing a method according to the research goal and available resources is proposed.</p></trans-abstract>
+<kwd-group xml:lang="el" kwd-group-type="author"><kwd>τυρφώνες</kwd><kwd>ισοζύγιο άνθρακα</kwd><kwd>μεθάνιο</kwd><kwd>συμμεταβλητότητα στροβίλων</kwd><kwd>μέθοδος θαλάμων</kwd><kwd>βόρεια ζώνη</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>peatlands</kwd><kwd>carbon balance</kwd><kwd>methane</kwd><kwd>eddy covariance</kwd><kwd>chamber method</kwd><kwd>boreal zone</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Εισαγωγή</title>
+<p>Οι τυρφώνες είναι ο μοναδικός τύπος χερσαίων οικοσυστημάτων που μπορεί επί χιλιετίες να συσσωρεύει άνθρακα με τη μορφή τύρφης. Ταυτόχρονα αποτελούν φυσική πηγή μεθανίου, ενός αερίου του θερμοκηπίου με υψηλό δυναμικό πλανητικής θέρμανσης. Η τελική κλιματική επίδραση ενός τυρφώνα καθορίζεται από τη σχέση μεταξύ αυτών των διεργασιών και είναι ευαίσθητη στη στάθμη του υπόγειου νερού.</p>
+<p>Η αποστράγγιση των τυρφώνων για εξόρυξη τύρφης, γεωργία και δασοκομία τους μετατρέπει από καταβόθρα σε πηγή CO₂. Το αυξανόμενο ενδιαφέρον για την αποκατάσταση (επαναπλημμύριση) των διαταραγμένων τυρφώνων ως κλιματικού μέτρου απαιτεί αξιόπιστες μεθόδους εκτίμησης του ισοζυγίου άνθρακα. Στόχος της παρούσας ανασκόπησης είναι η αντιπαραβολή των υφιστάμενων μεθόδων, των δυνατοτήτων και των περιορισμών τους.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Υλικά και μέθοδοι</title>
+<p>Η αναζήτηση δημοσιεύσεων πραγματοποιήθηκε σε βιβλιογραφικές βάσεις δεδομένων με συνδυασμούς των λέξεων-κλειδιών «τυρφώνας», «ισοζύγιο άνθρακα», «ροή CO₂», «μεθάνιο» και των αγγλικών αντιστοίχων τους για την περίοδο 2000–2024. Από τις 412 εργασίες που εντοπίστηκαν, μετά την ανάλυση των περιλήψεων και των πλήρων κειμένων επιλέχθηκαν 87, οι οποίες περιείχαν ποσοτικές εκτιμήσεις ροών και περιγραφή της μεθοδολογίας.</p>
+<p>Για κάθε εργασία καταγράφηκαν ο τύπος του τυρφώνα, η κατάστασή του (αδιατάρακτος, αποστραγγισμένος, υπό αποκατάσταση), η μέθοδος μέτρησης, η διάρκεια των παρατηρήσεων και οι συνιστώσες του ισοζυγίου που λαμβάνονταν υπόψη. Οι εκτιμήσεις της καθαρής ανταλλαγής του οικοσυστήματος αναχθήκαν σε μονάδες g C/m² ανά έτος.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Αποτελέσματα</title>
+<p>Η κατανομή των εργασιών ανά μέθοδο είναι ανομοιόμορφη (Σχ. 1): σχεδόν οι μισές μελέτες βασίζονται στη μέθοδο θαλάμων και περίπου το ένα τρίτο στη μέθοδο συμμεταβλητότητας στροβίλων. Οι τηλεπισκοπικές προσεγγίσεις χρησιμοποιούνται κυρίως για αναγωγή σε μεγαλύτερη κλίμακα και όχι ως αυτοτελής πηγή εκτιμήσεων.</p>
+<fig id="f1" position="float"><caption><p>Σχ. 1. Κατανομή των εργασιών που αναλύθηκαν ανά κύρια μέθοδο εκτίμησης (n = 87)</p></caption></fig>
+<p>Τα συγκριτικά χαρακτηριστικά των μεθόδων παρουσιάζονται στον Πίν. 1. Η μέθοδος θαλάμων επιτρέπει τον διαχωρισμό των ροών ανά μικροτοπίο, αλλά περιγράφει ανεπαρκώς τη χρονική μεταβλητότητα· η μέθοδος συμμεταβλητότητας στροβίλων παρέχει συνεχείς χρονοσειρές, αλλά απαιτεί ομοιογενή θέση και δαπανηρό εξοπλισμό.</p>
+<table-wrap id="t1" position="float"><caption><p>Πίνακας 1. Σύγκριση των μεθόδων εκτίμησης του ισοζυγίου άνθρακα των τυρφώνων</p></caption><table><thead><tr><th>Μέθοδος</th><th>Κλίμακα</th><th>Χρονική ανάλυση</th><th>Κύρια αβεβαιότητα</th></tr></thead><tbody><tr><td>Θαλάμων</td><td>0,1–1 m²</td><td>Περιοδική</td><td>Χρονική παρεμβολή</td></tr><tr><td>Συμμεταβλητότητα στροβίλων</td><td>0,1–1 km²</td><td>30 λεπτά</td><td>Νυχτερινές ροές, ανομοιογένεια</td></tr><tr><td>Συσσώρευση τύρφης</td><td>Πυρήνας</td><td>Αιώνες</td><td>Χρονολόγηση, αποσύνθεση</td></tr><tr><td>Τηλεπισκοπική</td><td>Περιοχή</td><td>Ημέρες–εβδομάδες</td><td>Βαθμονόμηση μοντέλων</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Συζήτηση</title>
+<p>Οι σημαντικές αποκλίσεις μεταξύ των μεθόδων οφείλονται όχι τόσο σε σφάλματα μέτρησης όσο σε διαφορές στις συνιστώσες του ισοζυγίου που λαμβάνονται υπόψη. Οι εργασίες που δεν συνυπολογίζουν την απομάκρυνση διαλυμένου οργανικού άνθρακα με τα ύδατα του τυρφώνα υπερεκτιμούν συστηματικά τη δέσμευση άνθρακα κατά 10–25%.</p>
+<p>Οι λιγότερο μελετημένοι παραμένουν οι τυρφώνες υπό αποκατάσταση: τα πρώτα χρόνια μετά την επαναπλημμύριση οι εκπομπές μεθανίου μπορεί να αυξηθούν προσωρινά, κάτι που είναι σημαντικό να λαμβάνεται υπόψη κατά την εκτίμηση της κλιματικής επίδρασης των έργων αποκατάστασης.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Συμπεράσματα</title>
+<p>Καμία από τις μεθόδους δεν παρέχει πλήρη εκτίμηση του ισοζυγίου άνθρακα των τυρφώνων. Βέλτιστη λύση φαίνεται να είναι ένα δίκτυο θέσεων αναφοράς με μακροχρόνιες παρατηρήσεις συμμεταβλητότητας στροβίλων, συμπληρωμένο από μετρήσεις θαλάμων και τηλεπισκοπική αναγωγή σε μεγαλύτερη κλίμακα.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Βιβλιογραφία</title>
+<ref id="r1"><mixed-citation>Gorham E. Northern peatlands: role in the carbon cycle and probable responses to climatic warming // Ecological Applications. 1991. Vol. 1, no. 2. P. 182–195.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Baldocchi D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems // Global Change Biology. 2003. Vol. 9, no. 4. P. 479–492.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Тихомиров Н. В. Многолетняя динамика потоков CO₂ на верховом болоте северной тайги // Болотоведение и торф. 2020. Т. 18, № 2. С. 60–78.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Нурланова А. Н., Сейткали Д. М. Эмиссия метана с осушенных торфяников: обзор полевых данных // Экосистемы и климат. 2022. Т. 4, № 1. С. 15–34.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Kowalczyk P., Aarnio T. Dissolved organic carbon export from boreal mires // Hydrology and Biogeochemistry. 2019. Vol. 33. P. 410–427.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тихомиров Н. В., Ерёменко В. А. Камерные измерения потоков парниковых газов: методическое пособие. Новобор: НГУ, 2018. 96 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Lund S., Petersen R. Upscaling peatland carbon fluxes with satellite data: opportunities and pitfalls // Remote Sensing of Wetlands. 2021. Vol. 9, no. 3. P. 200–221.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Нурланова А. Н. Восстановление нарушенных болот и климатическая политика // Вопросы экологической политики. 2023. № 2. С. 47–63.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Hart G., Lin W. Long-term apparent rates of carbon accumulation in boreal peat // Quaternary Carbon Studies. 2018. Vol. 21. P. 55–70.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

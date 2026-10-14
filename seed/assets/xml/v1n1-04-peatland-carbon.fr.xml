@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="fr">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revue de recherche interdisciplinaire (démo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revue de démonstration sous Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>SARL Tsifra</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Article de synthèse</subject></subj-group></article-categories>
+<title-group>
+<article-title>Bilan carbone des tourbières boréales : revue des méthodes d’évaluation</article-title>
+<trans-title-group xml:lang="en"><trans-title>Carbon Balance of Boreal Peatlands: A Review of Assessment Methods</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.nurlanova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Institut caspien d’études environnementales</institution>, <country country="KZ">Kazakhstan</country></aff>
+<aff id="aff2"><institution>Station septentrionale d’étude des tourbières, Université d’État de Novobor</institution>, <country country="RU">Russie</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>15</fpage><lpage>17</lpage>
+<history><date date-type="received" iso-8601-date="2024-08-19"><day>19</day><month>08</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-15"><day>15</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Aigerim Nurlanova, Nikolay Tikhomirov</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Diffusé sous licence CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="fr"><p>Les tourbières boréales couvrent environ 3 % des terres émergées mais stockent jusqu’à un tiers du carbone des sols de la planète ; une évaluation précise de leur bilan carbone importe donc pour les politiques climatiques et les inventaires nationaux de gaz à effet de serre. Cette revue systématise les principales méthodes d’estimation des flux de carbone dans les tourbières : la méthode des chambres, la covariance des turbulences (eddy covariance), le calcul à partir des taux d’accumulation de la tourbe et les approches de télédétection fondées sur des indices satellitaires et des modèles de productivité. S’appuyant sur 87 publications parues entre 2000 et 2024, elle examine l’échelle spatiale et temporelle de chaque méthode, ses sources d’incertitude ainsi que ses exigences en matière d’équipement et de compétences du personnel. Les estimations de l’échange net de l’écosystème obtenues pour une même tourbière par différentes méthodes peuvent varier d’un facteur 1,5 à 2, l’essentiel de l’écart tenant à la prise en compte des flux de méthane et de carbone organique dissous. Une attention particulière est accordée aux tourbières drainées et réhumidifiées, pour lesquelles on dispose de bien moins de données que pour les écosystèmes non perturbés. La revue conclut à la nécessité d’une approche combinée, dans laquelle les observations de longue durée par covariance des turbulences sur des sites de référence sont complétées par des mesures en chambre et par une extrapolation fondée sur la télédétection. Un schéma décisionnel pour le choix de la méthode en fonction de l’objectif de recherche et des ressources disponibles est proposé.</p></abstract>
+<trans-abstract xml:lang="en"><p>Boreal peatlands cover about 3% of the land surface yet store up to a third of the world's soil carbon, so accurate assessment of their carbon balance matters for climate policy and national greenhouse gas reporting. This review systematises the main methods for estimating carbon fluxes in peatlands: the chamber method, eddy covariance, calculation from peat accumulation rates, and remote-sensing approaches based on satellite indices and productivity models. Drawing on 87 publications from 2000–2024, it considers the spatial and temporal scale of each method, its sources of uncertainty and its requirements for equipment and staff expertise. Estimates of net ecosystem exchange for the same peatland obtained by different methods can differ by a factor of 1.5 to 2, with most of the discrepancy arising from the treatment of methane and dissolved organic carbon fluxes. Particular attention is paid to drained and rewetted peatlands, for which far fewer data exist than for undisturbed ecosystems. The review concludes that a combined approach is needed, in which long-term eddy covariance observations at reference sites are complemented by chamber measurements and remote-sensing upscaling. A decision scheme for choosing a method according to the research goal and available resources is proposed.</p></trans-abstract>
+<kwd-group xml:lang="fr" kwd-group-type="author"><kwd>tourbières</kwd><kwd>bilan carbone</kwd><kwd>méthane</kwd><kwd>covariance des turbulences</kwd><kwd>méthode des chambres</kwd><kwd>zone boréale</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>peatlands</kwd><kwd>carbon balance</kwd><kwd>methane</kwd><kwd>eddy covariance</kwd><kwd>chamber method</kwd><kwd>boreal zone</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introduction</title>
+<p>Les tourbières sont le seul type d’écosystème terrestre capable d’accumuler du carbone sous forme de tourbe pendant des millénaires. Elles constituent en même temps une source naturelle de méthane, un gaz à effet de serre au potentiel de réchauffement global élevé. L’effet climatique net d’une tourbière dépend de l’équilibre entre ces processus et est sensible au niveau de la nappe phréatique.</p>
+<p>Le drainage des tourbières pour l’extraction de la tourbe, l’agriculture et la sylviculture les transforme de puits en sources de CO₂. L’intérêt croissant pour la restauration (réhumidification) des tourbières dégradées en tant que mesure climatique exige des méthodes fiables d’évaluation du bilan carbone. L’objectif de la présente revue est de comparer les méthodes existantes, leurs possibilités et leurs limites.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Matériel et méthodes</title>
+<p>La recherche des publications a été effectuée dans des bases de données bibliographiques à partir de combinaisons des mots-clés « tourbière », « bilan carbone », « flux de CO₂ », « méthane » et de leurs équivalents anglais, pour la période 2000-2024. Sur les 412 travaux trouvés, 87 ont été retenus après analyse des résumés et des textes intégraux, car ils contenaient des estimations quantitatives des flux et une description de la méthode.</p>
+<p>Pour chaque travail, on a relevé le type de tourbière, son état (non perturbée, drainée, en cours de restauration), la méthode de mesure, la durée des observations et les composantes du bilan prises en compte. Les estimations de l’échange net de l’écosystème ont été converties en g C/m² par an.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Résultats</title>
+<p>La répartition des travaux selon les méthodes est inégale (figure 1) : près de la moitié des études reposent sur la méthode des chambres, environ un tiers sur la covariance des turbulences. Les approches de télédétection sont principalement utilisées pour l’extrapolation spatiale et non comme source autonome d’estimations.</p>
+<fig id="f1" position="float"><caption><p>Figure 1. Répartition des travaux analysés selon la principale méthode d’évaluation (n = 87)</p></caption></fig>
+<p>Les caractéristiques comparées des méthodes figurent dans le tableau 1. La méthode des chambres permet de distinguer les flux selon les microformes du paysage, mais décrit mal la variabilité temporelle ; la covariance des turbulences fournit des séries continues, mais exige un site homogène et un équipement coûteux.</p>
+<table-wrap id="t1" position="float"><caption><p>Tableau 1. Comparaison des méthodes d’évaluation du bilan carbone des tourbières</p></caption><table><thead><tr><th>Méthode</th><th>Échelle</th><th>Résolution temporelle</th><th>Principale incertitude</th></tr></thead><tbody><tr><td>Chambres</td><td>0,1-1 m²</td><td>Ponctuelle</td><td>Interpolation temporelle</td></tr><tr><td>Covariance des turbulences</td><td>0,1-1 km²</td><td>30 min</td><td>Flux nocturnes, hétérogénéité</td></tr><tr><td>Accumulation de tourbe</td><td>Carotte</td><td>Siècles</td><td>Datation, décomposition</td></tr><tr><td>Télédétection</td><td>Région</td><td>Jours à semaines</td><td>Calage des modèles</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussion</title>
+<p>Les écarts importants entre méthodes s’expliquent moins par les erreurs de mesure que par les différences dans les composantes du bilan prises en compte. Les travaux qui négligent l’exportation de carbone organique dissous par les eaux de la tourbière surestiment systématiquement le puits de carbone de 10 à 25 %.</p>
+<p>Les tourbières en cours de restauration restent les moins étudiées : dans les premières années suivant la réhumidification, les émissions de méthane peuvent augmenter temporairement, ce qu’il importe de prendre en compte pour évaluer l’effet climatique des projets de restauration.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusion</title>
+<p>Aucune méthode ne permet à elle seule une évaluation complète du bilan carbone des tourbières. La solution optimale semble être un réseau de sites de référence dotés d’observations de longue durée par covariance des turbulences, complétées par des mesures en chambre et par une extrapolation fondée sur la télédétection.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Références bibliographiques</title>
+<ref id="r1"><mixed-citation>Gorham E. Northern peatlands: role in the carbon cycle and probable responses to climatic warming // Ecological Applications. 1991. Vol. 1, no. 2. P. 182–195.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Baldocchi D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems // Global Change Biology. 2003. Vol. 9, no. 4. P. 479–492.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Тихомиров Н. В. Многолетняя динамика потоков CO₂ на верховом болоте северной тайги // Болотоведение и торф. 2020. Т. 18, № 2. С. 60–78.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Нурланова А. Н., Сейткали Д. М. Эмиссия метана с осушенных торфяников: обзор полевых данных // Экосистемы и климат. 2022. Т. 4, № 1. С. 15–34.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Kowalczyk P., Aarnio T. Dissolved organic carbon export from boreal mires // Hydrology and Biogeochemistry. 2019. Vol. 33. P. 410–427.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тихомиров Н. В., Ерёменко В. А. Камерные измерения потоков парниковых газов: методическое пособие. Новобор: НГУ, 2018. 96 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Lund S., Petersen R. Upscaling peatland carbon fluxes with satellite data: opportunities and pitfalls // Remote Sensing of Wetlands. 2021. Vol. 9, no. 3. P. 200–221.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Нурланова А. Н. Восстановление нарушенных болот и климатическая политика // Вопросы экологической политики. 2023. № 2. С. 47–63.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Hart G., Lin W. Long-term apparent rates of carbon accumulation in boreal peat // Quaternary Carbon Studies. 2018. Vol. 21. P. 55–70.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

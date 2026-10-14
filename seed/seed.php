@@ -520,17 +520,20 @@ class DemoSeedTool extends CommandLineTool
         }
     }
 
-    /** Replace the stored PDFs of an existing demo article with the current assets (matched by galley language). */
+    /** Replace the stored galley files (PDF, HTML, XML) of an existing demo article with the current assets (matched by language and format). */
     protected function refreshSubmissionPdfs(Submission $submission, array $data): void
     {
-        $pdfs = $this->pdfFiles($data);
+        $sources = [];
+        foreach ($this->galleyFiles($data) as [$locale, $format, $path]) {
+            $sources[$locale][$format] = $path;
+        }
         $fileService = app()->get('file');
         $files = Repo::submissionFile()->getCollector()->filterBySubmissionIds([$submission->getId()])->getMany();
         foreach ($files as $submissionFile) {
             $locale = $submissionFile->getData('locale') ?: ($data['locale'] ?? 'ru');
-            $src = $pdfs[$locale] ?? null;
             $file = $fileService->get((int) $submissionFile->getData('fileId'));
-            if ($src && $file && str_ends_with(strtolower($file->path), '.pdf') && $fileService->fs->fileExists($file->path)) {
+            $src = $file ? ($sources[$locale][strtolower(pathinfo($file->path, PATHINFO_EXTENSION))] ?? null) : null;
+            if ($src && $fileService->fs->fileExists($file->path)) {
                 $fileService->fs->write($file->path, file_get_contents($src));
             }
         }
@@ -553,11 +556,17 @@ class DemoSeedTool extends CommandLineTool
             }
         }
         if ($submission->getData('status') == Submission::STATUS_PUBLISHED) {
-            $galleyLocales = [];
+            // one galley per language and format (PDF, HTML, XML)
+            $have = $want = [];
             foreach ($publication->getData('galleys') ?? [] as $galley) {
-                $galleyLocales[] = $galley->getData('locale');
+                $have[] = $galley->getData('locale');
             }
-            if (array_diff(array_keys($this->pdfFiles($data)), $galleyLocales)) {
+            foreach ($this->galleyFiles($data) as [$locale]) {
+                $want[] = $locale;
+            }
+            sort($have);
+            sort($want);
+            if ($have !== $want) {
                 return true;
             }
         }
@@ -603,6 +612,26 @@ class DemoSeedTool extends CommandLineTool
         foreach ($pdf as $locale => $rel) {
             if (in_array($locale, $this->uiLocales()) && is_file($this->assetsDir . '/' . $rel)) {
                 $out[$locale] = $this->assetsDir . '/' . $rel;
+            }
+        }
+        return $out;
+    }
+
+    /**
+     * Galley files of a published article: [locale, format, absolute path],
+     * PDFs first, then the HTML and JATS XML editions.
+     */
+    protected function galleyFiles(array $data): array
+    {
+        $out = [];
+        foreach ($this->pdfFiles($data) as $locale => $path) {
+            $out[] = [$locale, 'pdf', $path];
+        }
+        foreach (['html', 'xml'] as $format) {
+            foreach ((array) ($data[$format] ?? []) as $locale => $rel) {
+                if (in_array($locale, $this->uiLocales()) && is_file($this->assetsDir . '/' . $rel)) {
+                    $out[] = [$locale, $format, $this->assetsDir . '/' . $rel];
+                }
             }
         }
         return $out;
@@ -746,10 +775,14 @@ class DemoSeedTool extends CommandLineTool
             $publication = $submission->getCurrentPublication();
             $published = new DateTimeImmutable($publication->getData('datePublished') ?: '-12 months');
             $popularity = random_int(40, 140) / 100;
+            // downloads: most readers use the Russian and English PDFs
             $galleyFiles = [];
             foreach ($publication->getData('galleys') as $galley) {
                 if ($galley->getData('submissionFileId')) {
-                    $galleyFiles[] = [$galley->getId(), $galley->getData('submissionFileId')];
+                    $label = strtoupper((string) $galley->getLabel());
+                    [$fileType, $weight] = str_starts_with($label, 'HTML') ? [1, 0.35] : (str_starts_with($label, 'XML') ? [3, 0.05] : [2, 1.0]);
+                    $weight *= ['ru' => 0.55, 'en' => 0.3][$galley->getData('locale')] ?? 0.02;
+                    $galleyFiles[] = [$galley->getId(), $galley->getData('submissionFileId'), $fileType, $weight];
                 }
             }
             for ($day = $published; $day <= $end; $day = $day->modify('+1 day')) {
@@ -765,12 +798,12 @@ class DemoSeedTool extends CommandLineTool
                     ];
                     $total += $views;
                 }
-                foreach ($galleyFiles as [$galleyId, $fileId]) {
-                    $downloads = $this->poisson($base * 0.45);
+                foreach ($galleyFiles as [$galleyId, $fileId, $fileType, $weight]) {
+                    $downloads = $this->poisson($base * 0.5 * $weight);
                     if ($downloads > 0) {
                         $rows['metrics_submission'][] = [
                             'load_id' => 'demo_seed', 'context_id' => $contextId, 'submission_id' => $submission->getId(),
-                            'representation_id' => $galleyId, 'submission_file_id' => $fileId, 'file_type' => 2, // PDF
+                            'representation_id' => $galleyId, 'submission_file_id' => $fileId, 'file_type' => $fileType, // 1 HTML, 2 PDF, 3 other
                             'assoc_type' => Application::ASSOC_TYPE_SUBMISSION_FILE, 'date' => $day->format('Y-m-d'), 'metric' => $downloads,
                         ];
                     }
@@ -1108,15 +1141,17 @@ class DemoSeedTool extends CommandLineTool
         ]);
         $this->el($doc, $article, 'id', '1', ['type' => 'internal', 'advice' => 'ignore']);
 
-        // Galley files: one PDF per language for published articles; the
-        // manuscript in its own language for submissions in the workflow
-        $pdfs = $this->pdfFiles($data);
-        if (!$published) {
-            $pdfs = array_intersect_key($pdfs, [$locale => true]);
-        }
+        // Galley files: PDF, HTML and JATS XML per language for published
+        // articles; the manuscript PDF in its own language for submissions
+        // in the workflow
+        $galleyFiles = $published
+            ? $this->galleyFiles($data)
+            : array_map(fn ($path) => [$locale, 'pdf', $path], array_intersect_key($this->pdfFiles($data), [$locale => true]));
+        $mimeTypes = ['pdf' => 'application/pdf', 'html' => 'text/html', 'xml' => 'text/xml'];
         $fileIds = [];
-        foreach ($pdfs as $fileLocale => $pdfPath) {
-            $thisFileId = $fileIds[$fileLocale] = ++$fileId;
+        foreach ($galleyFiles as [$fileLocale, $format, $pdfPath]) {
+            $thisFileId = ++$fileId;
+            $fileIds[] = [$fileLocale, $format, $thisFileId];
             $pdf = file_get_contents($pdfPath);
             $submissionFile = $this->el($doc, $article, 'submission_file', null, [
                 'id' => $thisFileId,
@@ -1129,8 +1164,8 @@ class DemoSeedTool extends CommandLineTool
                 'updated_at' => $data['dateSubmitted'],
             ]);
             $this->el($doc, $submissionFile, 'name', basename($pdfPath), ['locale' => $fileLocale]);
-            $file = $this->el($doc, $submissionFile, 'file', null, ['id' => $thisFileId, 'filesize' => strlen($pdf), 'extension' => 'pdf']);
-            $this->el($doc, $file, 'embed', base64_encode($pdf), ['encoding' => 'base64', 'mime_type' => 'application/pdf']);
+            $file = $this->el($doc, $submissionFile, 'file', null, ['id' => $thisFileId, 'filesize' => strlen($pdf), 'extension' => $format]);
+            $this->el($doc, $file, 'embed', base64_encode($pdf), ['encoding' => 'base64', 'mime_type' => $mimeTypes[$format]]);
         }
 
         $publicationAttrs = [
@@ -1202,10 +1237,11 @@ class DemoSeedTool extends CommandLineTool
 
         if ($published) {
             $galleySeq = 0;
-            foreach ($fileIds as $fileLocale => $thisFileId) {
+            $labels = ['pdf' => 'PDF', 'html' => 'HTML', 'xml' => 'XML (JATS)'];
+            foreach ($fileIds as [$fileLocale, $format, $thisFileId]) {
                 $galley = $this->el($doc, $publication, 'article_galley', null, ['locale' => $fileLocale, 'approved' => 'true']);
                 $this->el($doc, $galley, 'id', (string) $thisFileId, ['type' => 'internal', 'advice' => 'ignore']);
-                $this->el($doc, $galley, 'name', 'PDF', ['locale' => $fileLocale]);
+                $this->el($doc, $galley, 'name', $labels[$format], ['locale' => $fileLocale]);
                 $this->el($doc, $galley, 'seq', (string) $galleySeq++);
                 $this->el($doc, $galley, 'submission_file_ref', null, ['id' => $thisFileId]);
             }

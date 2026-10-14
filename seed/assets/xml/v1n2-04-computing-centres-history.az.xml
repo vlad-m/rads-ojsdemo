@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="az">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fənlərarası Tədqiqatlar Jurnalı (demo versiya)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems platformasında demo jurnal</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Tsifra» MMC</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>İcmal</subject></subj-group></article-categories>
+<title-group>
+<article-title>1950–1970-ci illərin hesablama mərkəzləri elmi institutlar kimi: tarixşünaslıq icmalı</article-title>
+<trans-title-group xml:lang="en"><trans-title>Computing Centres of the 1950s–1970s as Scientific Institutions: A Historiographical Review</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Vershinin</surname><given-names>Leonid</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vershinin</surname><given-names>Leonid</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>l.vershinin@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>«Xronos» Elm və Texnika Tarixi Mərkəzi</institution>, <country country="RU">Rusiya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-01-20"><day>20</day><month>01</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-06-10"><day>10</day><month>06</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Leonid Vershinin</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 lisenziyası əsasında yayılır</license-p></license></permissions>
+<abstract xml:lang="az"><p>XX əsrin ortalarında elmi-tədqiqat institutları, universitetlər və sənaye müəssisələri nəzdində yaradılmış hesablama mərkəzləri hesablamaların elmi idrakın müstəqil alətinə çevrilməsində əsas rol oynamışdır. Bu icmalda elm və texnika tarixçilərinin son əlli il ərzində bu müəssisələri necə öyrəndiyi nəzərdən keçirilir. 64 monoqrafiya, məqalə və məqalələr toplusunun təhlili əsasında üç əsas tarixşünaslıq yanaşması ayırd edilir. Birincisi, texniki-bioqrafik yanaşma konkret hesablama maşınlarının yaradılmasına və onların konstruktorlarının fəaliyyətinə diqqət yetirir. İkincisi, institusional yanaşma hesablama mərkəzlərini öz strukturu, kadr siyasəti və sifarişçilərlə münasibətləri olan təşkilatlar kimi nəzərdən keçirir. Son iki onillikdə formalaşmış üçüncü yanaşma isə hesablama praktikalarını araşdırır: proqramçıların, operatorların və istifadəçilərin maşınlarla necə qarşılıqlı əlaqədə olduğunu və hesablamaların meteorologiyadan dilçiliyə qədər ayrı-ayrı fənlərin metodlarını necə dəyişdirdiyini. Hesablama mərkəzlərinin gündəlik işi, qadın proqramçıların və operatorların rolu, həmçinin ən iri elm şəhərlərindən kənarda yerləşən regional mərkəzlər ən az öyrənilmiş mövzular olaraq qalır. Mənbə bazasının problemləri, o cümlədən texniki sənədlərin, maşın vaxtı jurnallarının və proqramların qorunub saxlanması ayrıca müzakirə edilir. İcmalda belə nəticəyə gəlinir ki, hadisələrin iştirakçıları hələ sağ ikən arxiv tədqiqatlarını şifahi tarix metodları ilə birləşdirmək perspektivlidir.</p></abstract>
+<trans-abstract xml:lang="en"><p>Computing centres, established in the mid-twentieth century at research institutes, universities and industrial enterprises, played a key role in turning computation into an independent instrument of scientific inquiry. This review examines how historians of science and technology have studied these institutions over the past fifty years. Based on an analysis of 64 monographs, articles and edited volumes, three main historiographical approaches are identified. The first, technical-biographical, focuses on the construction of particular computers and the work of their designers. The second, institutional, treats computing centres as organisations with their own structure, staffing policies and relations with clients. The third, which has emerged over the last two decades, investigates computing practices: how programmers, operators and users interacted with machines and how computation transformed the methods of individual disciplines, from meteorology to linguistics. The least studied topics remain the everyday work of computing centres, the role of women programmers and operators, and regional centres outside the largest science cities. Problems of the source base are discussed separately, including the preservation of technical documentation, machine-time logs and programs. The review concludes that combining archival research with oral history methods is promising while participants in these events are still alive.</p></trans-abstract>
+<kwd-group xml:lang="az" kwd-group-type="author"><kwd>elm tarixi</kwd><kwd>hesablama texnikasının tarixi</kwd><kwd>hesablama mərkəzləri</kwd><kwd>tarixşünaslıq</kwd><kwd>şifahi tarix</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>history of science</kwd><kwd>history of computing</kwd><kwd>computing centres</kwd><kwd>historiography</kwd><kwd>oral history</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Giriş</title>
+<p>1940-cı illərin sonu — 1950-ci illərdə elektron hesablama maşınlarının meydana çıxması xüsusi müəssisələrin yaradılmasını tələb etdi: maşınlar bahalı idi, bütöv zalları tuturdu və gecə-gündüz texniki xidmət tələb edirdi. Hesablama mərkəzləri mühəndislərin, riyaziyyatçıların və istifadəçi alimlərin görüşdüyü və tədricən yeni peşələrin — proqramçı və operatorun formalaşdığı məkana çevrildi.</p>
+<p>Hesablama mərkəzlərinin tarixşünaslığı hesablama texnikası tarixinin özü ilə birlikdə bir fən kimi inkişaf etmişdir. İcmalın məqsədi bu müəssisələrin öyrənilməsinə dair yanaşmaları sistemləşdirmək, zəif öyrənilmiş mövzuları müəyyən etmək və mənbə bazasının vəziyyətini müzakirə etməkdir.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar və metodlar</title>
+<p>İcmalın korpusu əsas əsərlərin biblioqrafiyaları və elm və texnika tarixi üzrə ixtisaslaşmış jurnalların tematik göstəriciləri əsasında formalaşdırılmışdır. Hesablama mərkəzinin (ayrıca maşının və ya şəxsiyyətin deyil) ən azı bir fəsildə və ya bölmədə təhlil predmeti olduğu tədqiqatlar daxil edilmişdir. Yekun korpus 1975–2024-cü illərdə dərc edilmiş 64 əsərdən ibarət olmuşdur.</p>
+<p>Hər bir əsər aparıcı yanaşmaya, istifadə olunan mənbələrin növünə və tədqiq edilən müəssisələrin coğrafiyasına görə təsnif edilmişdir. Təsnifat müəllif tərəfindən aparılmış və sabitliyi qiymətləndirmək üçün bir il sonra təkrar yoxlanılmışdır.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Nəticələr</title>
+<p>Əsərlərin onilliklər və yanaşmalar üzrə bölgüsü Şəkil 1-də göstərilmişdir. 1990-cı illərə qədər əsasən hadisə iştirakçılarının xatirələri və yubiley nəşrləri ilə təmsil olunan texniki-bioqrafik yanaşma üstünlük təşkil edirdi. İnstitusional tədqiqatlar 1990–2000-ci illərdə, praktikaların tədqiqi isə 2010-cu ildən sonra nəzərəçarpan olmuşdur.</p>
+<fig id="f1" position="float"><caption><p>Şəkil 1. Nəşr onillikləri və aparıcı yanaşma üzrə əsərlərin sayı</p></caption></fig>
+<p>Cədvəl 1 müxtəlif yanaşmalar çərçivəsində hansı mənbələrdən istifadə edildiyini göstərir. Diqqətəlayiqdir ki, maşın vaxtı jurnallarına və qorunub saxlanmış proqram mətnlərinə əsərlərin yalnız kiçik bir hissəsində müraciət edilir, halbuki onlar maşınların real yüklənməsini və həll edilən məsələlərin tərkibini rekonstruksiya etməyə imkan verir.</p>
+<table-wrap id="t1" position="float"><caption><p>Cədvəl 1. Tarixşünaslıq yanaşmaları üzrə mənbə növləri (əsərlərin payı, %)</p></caption><table><thead><tr><th>Mənbə növü</th><th>Texniki-bioqr.</th><th>İnstitus.</th><th>Praktikalar</th></tr></thead><tbody><tr><td>Memuarlar və müsahibələr</td><td>84</td><td>48</td><td>72</td></tr><tr><td>Müəssisələrin kargüzarlıq sənədləri</td><td>28</td><td>86</td><td>56</td></tr><tr><td>Texniki sənədlər</td><td>76</td><td>31</td><td>44</td></tr><tr><td>Maşın vaxtı jurnalları</td><td>4</td><td>17</td><td>39</td></tr><tr><td>Proqram mətnləri</td><td>8</td><td>3</td><td>33</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Müzakirə</title>
+<p>Yanaşmaların dəyişməsi elm tarixinin kəşflər və ixtiraçılar tarixindən biliyin sosial tarixinə və praktikalar tarixinə doğru ümumi təkamülünü əks etdirir. Bununla yanaşı, texniki-bioqrafik əsərlər faktiki məlumat mənbəyi kimi, xüsusən tədqiqatçılar üçün əlçatmaz olan sənədlərə əsaslandıqda, dəyərini qoruyub saxlayır.</p>
+<p>Əsas boşluqlar hesablama işinin «görünməz» iştirakçıları — operatorlar, perfokart operatorları, proqramçılar (onların çoxu qadın idi) — və regional mərkəzlərlə bağlıdır. Hadisə iştirakçıları ilə müsahibələrin qeydə alınması üçün vaxt məhduddur ki, bu da şifahi tarix layihələrini xüsusilə aktual edir.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Yekun</title>
+<p>Hesablama mərkəzlərinin tarixşünaslığı maşınlar tarixindən praktikalar tarixinə qədər yol keçmişdir. Gələcək irəliləyiş mənbə bazasının genişləndirilməsini — maşın vaxtı jurnallarının və proqramların sistemli axtarışını — və arxiv işinin şifahi tarixlə birləşdirilməsini tələb edir.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ədəbiyyat siyahısı</title>
+<ref id="r1"><mixed-citation>Campbell-Kelly M., Aspray W., Ensmenger N., Yost J. R. Computer: A History of the Information Machine. 3rd ed. Boulder: Westview Press, 2014. 360 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Ensmenger N. The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise. Cambridge, MA: MIT Press, 2010. 336 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Вершинин Л. А. Вычислительный центр как научное учреждение: опыт институционального анализа // Вопросы истории науки и техники. 2019. Т. 40, № 3. С. 77–96.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Вершинин Л. А., Гладкова З. Н. Журналы машинного времени как исторический источник // Архивы и история техники. 2021. № 2. С. 12–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Haigh T., Priestley M. Computing practices and the history of software: an agenda // Annals of Computing History Review. 2020. Vol. 12, no. 1. P. 3–21.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Гладкова З. Н. Женщины в программировании 1950–1970-х гг.: материалы устной истории // Наука и общество в истории. 2022. Т. 6, № 4. С. 101–118.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Abbate J. Recoding Gender: Women's Changing Participation in Computing. Cambridge, MA: MIT Press, 2012. 264 p.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мирский Е. Б. Региональные вычислительные центры и научная политика. М.: Хронос, 2018. 304 с.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Dahl K., Ostrowski P. Numerical weather prediction and the making of a computing community // Science in Context Studies. 2019. Vol. 27. P. 210–233.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

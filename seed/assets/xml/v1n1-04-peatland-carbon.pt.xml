@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="pt">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista de Investigação Interdisciplinar (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revista de demonstração em Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra, Lda.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Artigo de revisão</subject></subj-group></article-categories>
+<title-group>
+<article-title>Balanço de carbono das turfeiras boreais: uma revisão dos métodos de avaliação</article-title>
+<trans-title-group xml:lang="en"><trans-title>Carbon Balance of Boreal Peatlands: A Review of Assessment Methods</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.nurlanova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Instituto Cáspio de Estudos Ambientais</institution>, <country country="KZ">Cazaquistão</country></aff>
+<aff id="aff2"><institution>Estação de Turfeiras do Norte, Universidade Estatal de Novobor</institution>, <country country="RU">Rússia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>15</fpage><lpage>17</lpage>
+<history><date date-type="received" iso-8601-date="2024-08-19"><day>19</day><month>08</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-15"><day>15</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Aigerim Nurlanova, Nikolay Tikhomirov</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licenciado ao abrigo da CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="pt"><p>As turfeiras boreais cobrem cerca de 3% da superfície terrestre, mas armazenam até um terço do carbono do solo a nível mundial, pelo que a avaliação rigorosa do seu balanço de carbono é importante para a política climática e para os inventários nacionais de gases com efeito de estufa. Esta revisão sistematiza os principais métodos de estimação dos fluxos de carbono nas turfeiras: o método das câmaras, a covariância turbulenta (eddy covariance), o cálculo a partir das taxas de acumulação de turfa e as abordagens de deteção remota baseadas em índices de satélite e em modelos de produtividade. Com base em 87 publicações de 2000–2024, analisa a escala espacial e temporal de cada método, as suas fontes de incerteza e os seus requisitos em termos de equipamento e de competências técnicas. As estimativas da troca líquida do ecossistema para uma mesma turfeira obtidas por métodos diferentes podem diferir num fator de 1,5 a 2, resultando a maior parte da discrepância do tratamento dos fluxos de metano e de carbono orgânico dissolvido. É dada especial atenção às turfeiras drenadas e reumedecidas, para as quais existem muito menos dados do que para os ecossistemas não perturbados. A revisão conclui que é necessária uma abordagem combinada, em que as observações de longo prazo por covariância turbulenta em locais de referência sejam complementadas por medições com câmaras e por extrapolação de escala por deteção remota. Propõe-se um esquema de decisão para a escolha do método em função do objetivo da investigação e dos recursos disponíveis.</p></abstract>
+<trans-abstract xml:lang="en"><p>Boreal peatlands cover about 3% of the land surface yet store up to a third of the world's soil carbon, so accurate assessment of their carbon balance matters for climate policy and national greenhouse gas reporting. This review systematises the main methods for estimating carbon fluxes in peatlands: the chamber method, eddy covariance, calculation from peat accumulation rates, and remote-sensing approaches based on satellite indices and productivity models. Drawing on 87 publications from 2000–2024, it considers the spatial and temporal scale of each method, its sources of uncertainty and its requirements for equipment and staff expertise. Estimates of net ecosystem exchange for the same peatland obtained by different methods can differ by a factor of 1.5 to 2, with most of the discrepancy arising from the treatment of methane and dissolved organic carbon fluxes. Particular attention is paid to drained and rewetted peatlands, for which far fewer data exist than for undisturbed ecosystems. The review concludes that a combined approach is needed, in which long-term eddy covariance observations at reference sites are complemented by chamber measurements and remote-sensing upscaling. A decision scheme for choosing a method according to the research goal and available resources is proposed.</p></trans-abstract>
+<kwd-group xml:lang="pt" kwd-group-type="author"><kwd>turfeiras</kwd><kwd>balanço de carbono</kwd><kwd>metano</kwd><kwd>covariância turbulenta</kwd><kwd>método das câmaras</kwd><kwd>zona boreal</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>peatlands</kwd><kwd>carbon balance</kwd><kwd>methane</kwd><kwd>eddy covariance</kwd><kwd>chamber method</kwd><kwd>boreal zone</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introdução</title>
+<p>As turfeiras são o único tipo de ecossistema terrestre capaz de acumular carbono sob a forma de turfa ao longo de milénios. Ao mesmo tempo, constituem uma fonte natural de metano, um gás com efeito de estufa com elevado potencial de aquecimento global. O efeito climático final de uma turfeira é determinado pelo equilíbrio entre estes processos e é sensível ao nível freático.</p>
+<p>A drenagem das turfeiras para extração de turfa e para fins agrícolas e florestais transforma-as de sumidouros em fontes de CO₂. O crescente interesse pelo restauro (reumedecimento) de turfeiras perturbadas como medida climática exige métodos fiáveis de avaliação do balanço de carbono. O objetivo da presente revisão é comparar os métodos existentes, as suas potencialidades e as suas limitações.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiais e métodos</title>
+<p>A pesquisa de publicações foi efetuada em bases de dados bibliográficas com combinações das palavras-chave «turfeira», «balanço de carbono», «fluxo de CO₂», «metano» e dos seus equivalentes em inglês, para o período de 2000–2024. Dos 412 trabalhos encontrados, após a análise dos resumos e dos textos integrais, foram selecionados 87 que continham estimativas quantitativas de fluxos e uma descrição da metodologia.</p>
+<p>Para cada trabalho, registaram-se o tipo de turfeira, o seu estado (não perturbada, drenada, em restauro), o método de medição, a duração das observações e as componentes do balanço consideradas. As estimativas da troca líquida do ecossistema foram convertidas para unidades de g C/m² por ano.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Resultados</title>
+<p>A distribuição dos trabalhos por método é desigual (fig. 1): quase metade dos estudos baseia-se no método das câmaras e cerca de um terço no método da covariância turbulenta. As abordagens de deteção remota são utilizadas sobretudo para extrapolação de escala e não como fonte autónoma de estimativas.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Distribuição dos trabalhos analisados pelo principal método de avaliação (n = 87)</p></caption></fig>
+<p>As características comparativas dos métodos são apresentadas no quadro 1. O método das câmaras permite separar os fluxos por micropaisagens, mas descreve mal a variabilidade temporal; o método da covariância turbulenta fornece séries contínuas, mas exige um local homogéneo e equipamento dispendioso.</p>
+<table-wrap id="t1" position="float"><caption><p>Quadro 1. Comparação dos métodos de avaliação do balanço de carbono das turfeiras</p></caption><table><thead><tr><th>Método</th><th>Escala</th><th>Resolução temporal</th><th>Principal incerteza</th></tr></thead><tbody><tr><td>Câmaras</td><td>0,1–1 m²</td><td>Episódica</td><td>Interpolação no tempo</td></tr><tr><td>Covariância turbulenta</td><td>0,1–1 km²</td><td>30 min</td><td>Fluxos noturnos, heterogeneidade</td></tr><tr><td>Acumulação de turfa</td><td>Testemunho</td><td>Séculos</td><td>Datação, decomposição</td></tr><tr><td>Deteção remota</td><td>Região</td><td>Dias a semanas</td><td>Calibração dos modelos</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussão</title>
+<p>As discrepâncias substanciais entre métodos explicam-se não tanto pelos erros de medição, mas sobretudo pelas diferenças nas componentes do balanço consideradas. Os trabalhos que não têm em conta a exportação de carbono orgânico dissolvido pelas águas da turfeira sobrestimam sistematicamente o sumidouro de carbono em 10–25 %.</p>
+<p>As turfeiras em restauro continuam a ser as menos estudadas: nos primeiros anos após o reumedecimento, as emissões de metano podem aumentar temporariamente, o que é importante ter em conta na avaliação do efeito climático dos projetos de restauro.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusão</title>
+<p>Nenhum dos métodos permite uma avaliação completa do balanço de carbono das turfeiras. A solução ótima afigura-se ser uma rede de locais de referência com observações de longo prazo pelo método da covariância turbulenta, complementada por medições com câmaras e por extrapolação de escala por deteção remota.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Referências bibliográficas</title>
+<ref id="r1"><mixed-citation>Gorham E. Northern peatlands: role in the carbon cycle and probable responses to climatic warming // Ecological Applications. 1991. Vol. 1, no. 2. P. 182–195.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Baldocchi D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems // Global Change Biology. 2003. Vol. 9, no. 4. P. 479–492.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Тихомиров Н. В. Многолетняя динамика потоков CO₂ на верховом болоте северной тайги // Болотоведение и торф. 2020. Т. 18, № 2. С. 60–78.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Нурланова А. Н., Сейткали Д. М. Эмиссия метана с осушенных торфяников: обзор полевых данных // Экосистемы и климат. 2022. Т. 4, № 1. С. 15–34.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Kowalczyk P., Aarnio T. Dissolved organic carbon export from boreal mires // Hydrology and Biogeochemistry. 2019. Vol. 33. P. 410–427.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тихомиров Н. В., Ерёменко В. А. Камерные измерения потоков парниковых газов: методическое пособие. Новобор: НГУ, 2018. 96 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Lund S., Petersen R. Upscaling peatland carbon fluxes with satellite data: opportunities and pitfalls // Remote Sensing of Wetlands. 2021. Vol. 9, no. 3. P. 200–221.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Нурланова А. Н. Восстановление нарушенных болот и климатическая политика // Вопросы экологической политики. 2023. № 2. С. 47–63.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Hart G., Lin W. Long-term apparent rates of carbon accumulation in boreal peat // Quaternary Carbon Studies. 2018. Vol. 21. P. 55–70.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

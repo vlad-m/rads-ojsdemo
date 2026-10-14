@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="mn">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Салбар дундын судалгааны сэтгүүл (Демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems-ийн демо сэтгүүл</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ХХК</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Тойм</subject></subj-group></article-categories>
+<title-group>
+<article-title>Бореал бүсийн хүлэрт намгийн нүүрстөрөгчийн тэнцэл: үнэлгээний аргуудын тойм</article-title>
+<trans-title-group xml:lang="en"><trans-title>Carbon Balance of Boreal Peatlands: A Review of Assessment Methods</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Нурланова</surname><given-names>Айгерим</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>a.nurlanova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Тихомиров</surname><given-names>Николай</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Tikhomirov</surname><given-names>Nikolay</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Каспийн байгаль орчин судлалын хүрээлэн</institution>, <country country="KZ">Казахстан</country></aff>
+<aff id="aff2"><institution>Новоборын Улсын их сургуулийн Хойд намаг судлалын станц</institution>, <country country="RU">Орос</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>15</fpage><lpage>17</lpage>
+<history><date date-type="received" iso-8601-date="2024-08-19"><day>19</day><month>08</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-15"><day>15</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Айгерим Нурланова, Николай Тихомиров</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензийн дагуу түгээгдэнэ</license-p></license></permissions>
+<abstract xml:lang="mn"><p>Бореал бүсийн хүлэрт намаг хуурай газрын гадаргуугийн ойролцоогоор 3%-ийг эзэлдэг ч дэлхийн хөрсний нүүрстөрөгчийн гуравны нэг хүртэлхийг хуримтлуулдаг тул тэдгээрийн нүүрстөрөгчийн тэнцлийг үнэн зөв үнэлэх нь уур амьсгалын бодлого болон хүлэмжийн хийн үндэсний тайлагналд чухал ач холбогдолтой. Энэхүү тоймд хүлэрт намаг дахь нүүрстөрөгчийн урсгалыг тооцох үндсэн аргуудыг системчилэв: камерын арга, эдди ковариац, хүлэр хуримтлалын хурдаас тооцох арга, мөн хиймэл дагуулын индекс болон бүтээмжийн загварт суурилсан зайнаас тандан судлалын аргууд. 2000–2024 оны 87 бүтээлд үндэслэн арга тус бүрийн орон зай, цаг хугацааны хэмжээс, тодорхойгүй байдлын эх үүсвэр, тоног төхөөрөмж болон ажилтны мэргэшилд тавигдах шаардлагыг авч үзэв. Нэг хүлэрт намгийн экосистемийн цэвэр солилцооны үнэлгээ өөр өөр аргаар 1.5–2 дахин зөрөх боломжтой бөгөөд зөрүүний ихэнх нь метан болон уусмал органик нүүрстөрөгчийн урсгалыг хэрхэн тооцсоноос үүдэлтэй. Хөндөгдөөгүй экосистемтэй харьцуулахад өгөгдөл хамаагүй цөөн байдаг ширгээсэн болон дахин усжуулсан хүлэрт намагт онцгой анхаарал хандуулав. Жишиг цэгүүд дэх эдди ковариацын урт хугацааны ажиглалтыг камерын хэмжилт болон зайнаас тандан судлалын масштабчлалаар нөхсөн хосолмол хандлага шаардлагатай гэж тоймд дүгнэв. Судалгааны зорилго болон боломжит нөөцөөс хамааран арга сонгох шийдвэрийн схемийг санал болгов.</p></abstract>
+<trans-abstract xml:lang="en"><p>Boreal peatlands cover about 3% of the land surface yet store up to a third of the world's soil carbon, so accurate assessment of their carbon balance matters for climate policy and national greenhouse gas reporting. This review systematises the main methods for estimating carbon fluxes in peatlands: the chamber method, eddy covariance, calculation from peat accumulation rates, and remote-sensing approaches based on satellite indices and productivity models. Drawing on 87 publications from 2000–2024, it considers the spatial and temporal scale of each method, its sources of uncertainty and its requirements for equipment and staff expertise. Estimates of net ecosystem exchange for the same peatland obtained by different methods can differ by a factor of 1.5 to 2, with most of the discrepancy arising from the treatment of methane and dissolved organic carbon fluxes. Particular attention is paid to drained and rewetted peatlands, for which far fewer data exist than for undisturbed ecosystems. The review concludes that a combined approach is needed, in which long-term eddy covariance observations at reference sites are complemented by chamber measurements and remote-sensing upscaling. A decision scheme for choosing a method according to the research goal and available resources is proposed.</p></trans-abstract>
+<kwd-group xml:lang="mn" kwd-group-type="author"><kwd>хүлэрт намаг</kwd><kwd>нүүрстөрөгчийн тэнцэл</kwd><kwd>метан</kwd><kwd>эдди ковариац</kwd><kwd>камерын арга</kwd><kwd>бореал бүс</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>peatlands</kwd><kwd>carbon balance</kwd><kwd>methane</kwd><kwd>eddy covariance</kwd><kwd>chamber method</kwd><kwd>boreal zone</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Удиртгал</title>
+<p>Хүлэрт намаг бол мянга мянган жилийн турш нүүрстөрөгчийг хүлэр хэлбэрээр хуримтлуулах чадвартай хуурай газрын экосистемийн цорын ганц төрөл юм. Үүний зэрэгцээ тэдгээр нь дэлхийн дулаарлын өндөр потенциалтай хүлэмжийн хий болох метаны байгалийн эх үүсвэр болдог. Намгийн уур амьсгалд үзүүлэх эцсийн нөлөө эдгээр үйл явцын харьцаагаар тодорхойлогдох бөгөөд гүний усны түвшинд мэдрэг байдаг.</p>
+<p>Хүлэр олборлолт, хөдөө аж ахуй, ойн аж ахуйн зорилгоор намгийг ширгээх нь тэдгээрийг CO₂-ийн шингээгчээс эх үүсвэр болгон хувиргадаг. Эвдэрсэн намгийг сэргээх (дахин усжуулах) нь уур амьсгалын арга хэмжээ болох сонирхол өсөж байгаа нь нүүрстөрөгчийн тэнцлийг үнэлэх найдвартай аргуудыг шаардаж байна. Энэхүү тоймын зорилго нь одоо байгаа аргууд, тэдгээрийн боломж, хязгаарлалтыг харьцуулах явдал юм.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материал ба арга зүй</title>
+<p>Бүтээлийн хайлтыг ном зүйн мэдээллийн сангуудаас 2000–2024 оны хугацаанд «хүлэрт намаг», «нүүрстөрөгчийн тэнцэл», «CO₂-ийн урсгал», «метан» гэсэн түлхүүр үгсийн хослол болон тэдгээрийн англи хэл дээрх дүйцэлээр хийв. Олдсон 412 бүтээлээс хураангуй болон бүрэн эхийн шинжилгээний дараа урсгалын тоон үнэлгээ болон арга зүйн тодорхойлолт агуулсан 87-г сонгов.</p>
+<p>Бүтээл тус бүрийн хувьд намгийн төрөл, түүний төлөв (хөндөгдөөгүй, ширгээсэн, сэргээж буй), хэмжилтийн арга, ажиглалтын үргэлжлэх хугацаа болон тооцсон тэнцлийн бүрэлдэхүүнийг тэмдэглэв. Экосистемийн цэвэр солилцооны үнэлгээг жилд г C/м² нэгжид шилжүүлэв.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Үр дүн</title>
+<p>Бүтээлүүд аргаар жигд бус хуваарилагдсан (1-р зураг): судалгааны бараг тал нь камерын аргад, гуравны нэг орчим нь эдди ковариацын (турбулент хэлбэлзлийн) аргад суурилсан. Зайнаас тандан судлалын хандлагыг үнэлгээний бие даасан эх сурвалж гэхээсээ илүү голчлон масштабчлалд ашигладаг.</p>
+<fig id="f1" position="float"><caption><p>Зураг 1. Шинжилсэн бүтээлүүдийн үнэлгээний үндсэн аргаар хуваарилагдсан байдал (n = 87)</p></caption></fig>
+<p>Аргуудын харьцуулсан шинж чанарыг 1-р хүснэгтэд үзүүлэв. Камерын арга урсгалыг бичил ландшафтаар ялгах боломж олгодог боловч цаг хугацааны хэлбэлзлийг муу тодорхойлдог; эдди ковариацын арга тасралтгүй цуваа өгдөг боловч нэгэн төрлийн талбай болон өндөр өртөгтэй тоног төхөөрөмж шаарддаг.</p>
+<table-wrap id="t1" position="float"><caption><p>Хүснэгт 1. Намгийн нүүрстөрөгчийн тэнцлийг үнэлэх аргуудын харьцуулалт</p></caption><table><thead><tr><th>Арга</th><th>Масштаб</th><th>Цаг хугацааны нарийвчлал</th><th>Тодорхойгүй байдлын гол эх үүсвэр</th></tr></thead><tbody><tr><td>Камерын</td><td>0.1–1 м²</td><td>Үе үе</td><td>Цаг хугацааны интерполяц</td></tr><tr><td>Эдди ковариац</td><td>0.1–1 км²</td><td>30 мин</td><td>Шөнийн урсгал, нэгэн төрлийн бус байдал</td></tr><tr><td>Хүлэр хуримтлал</td><td>Керн</td><td>Зуун жилүүд</td><td>Он тогтоолт, задрал</td></tr><tr><td>Зайнаас тандах</td><td>Бүс нутаг</td><td>Өдөр–долоо хоног</td><td>Загварын калибровк</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Хэлэлцүүлэг</title>
+<p>Аргуудын хоорондох мэдэгдэхүйц зөрүү нь хэмжилтийн алдаанаас гэхээсээ илүү тооцсон тэнцлийн бүрэлдэхүүний ялгаатай байдлаар тайлбарлагдана. Намгийн усаар уусмал органик нүүрстөрөгч зөөгдөхийг тооцоогүй бүтээлүүд нүүрстөрөгчийн шингээлтийг системтэйгээр 10–25%-иар хэтрүүлэн үнэлдэг.</p>
+<p>Сэргээж буй намаг хамгийн бага судлагдсан хэвээр байна: дахин усжуулснаас хойшхи эхний жилүүдэд метаны ялгарал түр хугацаанд нэмэгдэж болзошгүй бөгөөд сэргээх төслүүдийн уур амьсгалд үзүүлэх нөлөөг үнэлэхэд үүнийг тооцох нь чухал.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Дүгнэлт</title>
+<p>Аль ч арга намгийн нүүрстөрөгчийн тэнцлийн бүрэн үнэлгээг хангадаггүй. Эдди ковариацын аргаар урт хугацааны ажиглалт хийдэг, камерын хэмжилт болон зайнаас тандан судлалын масштабчлалаар нөхсөн жишиг талбайн сүлжээ хамгийн оновчтой гэж үзэж байна.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ном зүй</title>
+<ref id="r1"><mixed-citation>Gorham E. Northern peatlands: role in the carbon cycle and probable responses to climatic warming // Ecological Applications. 1991. Vol. 1, no. 2. P. 182–195.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Baldocchi D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems // Global Change Biology. 2003. Vol. 9, no. 4. P. 479–492.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Тихомиров Н. В. Многолетняя динамика потоков CO₂ на верховом болоте северной тайги // Болотоведение и торф. 2020. Т. 18, № 2. С. 60–78.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Нурланова А. Н., Сейткали Д. М. Эмиссия метана с осушенных торфяников: обзор полевых данных // Экосистемы и климат. 2022. Т. 4, № 1. С. 15–34.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Kowalczyk P., Aarnio T. Dissolved organic carbon export from boreal mires // Hydrology and Biogeochemistry. 2019. Vol. 33. P. 410–427.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тихомиров Н. В., Ерёменко В. А. Камерные измерения потоков парниковых газов: методическое пособие. Новобор: НГУ, 2018. 96 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Lund S., Petersen R. Upscaling peatland carbon fluxes with satellite data: opportunities and pitfalls // Remote Sensing of Wetlands. 2021. Vol. 9, no. 3. P. 200–221.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Нурланова А. Н. Восстановление нарушенных болот и климатическая политика // Вопросы экологической политики. 2023. № 2. С. 47–63.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Hart G., Lin W. Long-term apparent rates of carbon accumulation in boreal peat // Quaternary Carbon Studies. 2018. Vol. 21. P. 55–70.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

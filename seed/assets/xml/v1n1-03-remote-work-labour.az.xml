@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="az">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fənlərarası Tədqiqatlar Jurnalı (demo versiya)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems platformasında demo jurnal</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Tsifra» MMC</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Elmi məqalə</subject></subj-group></article-categories>
+<title-group>
+<article-title>Distant iş və regional əmək bazarları: onlayn vakansiyalar üzrə məlumatlar</article-title>
+<trans-title-group xml:lang="en"><trans-title>Remote Work and Regional Labour Markets: Evidence from Online Vacancies</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Gromov</surname><given-names>Pavel</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>p.gromov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Becker</surname><given-names>Laura</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Becker</surname><given-names>Laura</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>«Meridian» İqtisadiyyat və Məkan İnkişafı İnstitutu</institution>, <country country="RU">Rusiya</country></aff>
+<aff id="aff2"><institution>«Ostland» Tətbiqi İqtisadi Tədqiqatlar Mərkəzi</institution>, <country country="DE">Almaniya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>12</fpage><lpage>14</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-21"><day>21</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-14"><day>14</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Pavel Gromov, Laura Becker</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 lisenziyası əsasında yayılır</license-p></license></permissions>
+<abstract xml:lang="az"><p>2020-ci ildən sonra distant işin yayılması kiçik şəhərlərin sakinlərinə paytaxt işəgötürənlərinin vakansiyalarına çıxış imkanı verməklə əmək bazarlarının məkan strukturunu potensial olaraq dəyişdirə bilər. Məqalədə 2019–2023-cü illərdə iri onlayn platformada dərc edilmiş 2,4 milyon vakansiya elanı əsasında distant vakansiyaların əməyə tələbi regionlar arasında nə dərəcədə yenidən bölüşdürdüyü qiymətləndirilir. Elanların təsnifatı üçün lüğət əsaslı modeldən istifadə edilmiş, ardınca təsadüfi nümunə əl ilə yoxlanılmışdır. Tam distant vakansiyaların payı 2019-cu ildəki 2,1%-dən 2023-cü ildə 9,7%-ə yüksəlmiş, artım isə informasiya texnologiyaları, marketinq və maliyyə xidmətləri sahələrində cəmlənmişdir. Fərqlərin fərqi metodu göstərir ki, bu sahələrdə məşğul olanların payı daha yüksək olan regionlarda təklif edilən orta əmək haqqı müqayisə edilə bilən regionlara nisbətən 4,3% daha sürətlə artmışdır. Bununla yanaşı, distant vakansiyalar təcrübəyə və təhsilə daha yüksək tələblər qoyur ki, bu da işçilərin əhəmiyyətli hissəsi üçün onlara çıxışı məhdudlaşdırır. Əmək haqqında regionlararası fərqlərin bərabərləşdirilməsi effekti statistik cəhətdən əhəmiyyətli, lakin mülayim olmuşdur. Nəticələr göstərir ki, distant iş yalnız yenidənhazırlanma proqramları və rəqəmsal infrastrukturun inkişafı ilə birlikdə regional siyasətin alətinə çevrilə bilər.</p></abstract>
+<trans-abstract xml:lang="en"><p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="az" kwd-group-type="author"><kwd>distant iş</kwd><kwd>regional əmək bazarı</kwd><kwd>onlayn vakansiyalar</kwd><kwd>əmək haqqı</kwd><kwd>fərqlərin fərqi</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>remote work</kwd><kwd>regional labour market</kwd><kwd>online vacancies</kwd><kwd>wages</kwd><kwd>difference-in-differences</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Giriş</title>
+<p>2020-ci il ərzində distant işə sürətli keçid əvvəlcə pandemiyaya müvəqqəti reaksiya kimi qiymətləndirilirdi. Dörd il sonra işəgötürənlərin xeyli hissəsi tam distant vəzifələr təklif etməkdə davam edir ki, bu da yerləşmənin hələ də yüksək maaşlı işlərə çıxışı müəyyən edib-etmədiyi sualını doğurur. Əgər kiçik şəhərlərdəki işçilər paytaxtda elan edilmiş vakansiyalar uğrunda rəqabət apara bilirlərsə, regionlararası əmək haqqı fərqləri fiziki miqrasiya olmadan da azala bilər.</p>
+<p>Bu məsələyə dair mövcud sübutlar əsasən işçilər arasında aparılmış sorğulardan əldə edilir. Onlayn vakansiya məlumatları yüksək zaman və məkan ayırdetməsi ilə tələb tərəfindən tamamlayıcı perspektiv təqdim edir. Bu məqalədə belə məlumatlardan distant vakansiyaların artımını sənədləşdirmək, onların tələblərini səciyyələndirmək və regional əmək haqqı dinamikasına təsirini qiymətləndirmək üçün istifadə edilir.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar və metodlar</title>
+<p>Verilənlər toplusu 2019-cu ilin yanvarından 2023-cü ilin dekabrına qədər iri iş platformasında dərc edilmiş 2,4 milyon elandan ibarətdir. Hər bir qeyd vəzifənin adını, təsvirini, regionu, sahəni, təklif olunan əmək haqqı diapazonunu və tələbləri ehtiva edir. Distant vakansiyalar 46 ifadədən ibarət lüğət vasitəsilə müəyyən edilmişdir; əl ilə kodlaşdırılmış 2 000 elandan ibarət təsadüfi nümunə 0,94 dəqiqlik (precision) və 0,91 tamlıq (recall) göstərmişdir.</p>
+<p>Əmək haqqına təsiri qiymətləndirmək üçün regionlar pandemiyadan əvvəl distant iş intensiv sahələrdə məşğulluğun payına görə qruplara bölünmüşdür. Region və ay üzrə sabit effektlərə malik fərqlərin fərqi modeli vakansiyaların peşə tərkibinə nəzarət etməklə 2020-ci ilin martından əvvəl və sonra təklif edilən median əmək haqqının dəyişməsini müqayisə edir.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Nəticələr</title>
+<p>Tam distant vakansiyaların payı 2019-cu ildəki 2,1%-dən 2023-cü ildə 9,7%-ə qədər davamlı şəkildə artmışdır (Şəkil 1). Ən güclü artım distant vəzifələrin bütün elanların 31%-nə çatdığı informasiya texnologiyaları sahəsində, ardınca isə marketinq və maliyyə sahələrində müşahidə edilmişdir. Emal sənayesində, pərakəndə ticarətdə və səhiyyədə bu pay 2%-dən aşağı olaraq qalmışdır.</p>
+<fig id="f1" position="float"><caption><p>Şəkil 1. İllər üzrə tam distant vakansiyaların payı, %</p></caption></fig>
+<p>Əsas qiymətləndirmələr Cədvəl 1-də verilmişdir. Distant iş intensiv sahələrin təsirinə daha çox məruz qalan regionlarda təklif edilən median əmək haqqı az məruz qalan regionlara nisbətən 4,3% çox artmışdır. Distant vakansiyalarda ali təhsil tələbi 1,6 dəfə daha çox rast gəlinmiş və orta hesabla 1,2 il artıq iş təcrübəsi tələb olunmuşdur.</p>
+<table-wrap id="t1" position="float"><caption><p>Cədvəl 1. Fərqlərin fərqi qiymətləndirmələri (asılı dəyişən: təklif edilən median əmək haqqının loqarifmi)</p></caption><table><thead><tr><th>Spesifikasiya</th><th>Qiymətləndirmə</th><th>Standart xəta</th><th>N (region-ay)</th></tr></thead><tbody><tr><td>Baza modeli</td><td>0.043</td><td>0.012</td><td>4,980</td></tr><tr><td>+ peşə nəzarətləri</td><td>0.037</td><td>0.011</td><td>4,980</td></tr><tr><td>Paytaxt regionu istisna olmaqla</td><td>0.041</td><td>0.013</td><td>4,920</td></tr><tr><td>Plasebo (2018-ci il kəsilməsi)</td><td>0.004</td><td>0.010</td><td>4,980</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Müzakirə</title>
+<p>Nəticələrimiz göstərir ki, distant iş regional əmək haqlarına həqiqətən bərabərləşdirici təsir göstərir, lakin bu təsirin miqyası mülayimdir. Effekt distant iş intensiv peşələrdə artıq işçi ehtiyatı olan regionlarda cəmlənmişdir ki, bu da distant işin yeni imkanlar yaratmaqdan çox mövcud insan kapitalını gücləndirdiyini göstərir.</p>
+<p>Distant vakansiyaların daha yüksək ixtisas tələbləri əsas məhdudlaşdırıcı amildir. Rəqəmsal infrastruktura investisiyaları yenidənhazırlanma ilə birləşdirən siyasət tədbirlərinin distant işin potensialını geniş təbəqələr üçün faydaya çevirmə ehtimalı daha yüksəkdir. Tədqiqatın məhdudiyyəti vakansiya məlumatlarının faktiki deyil, təklif edilən əmək haqlarını əks etdirməsidir.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Yekun</title>
+<p>Distant vakansiyalar əmək bazarının sabit xüsusiyyətinə çevrilmiş və regionlararası əmək haqqı fərqlərini cüzi dərəcədə azaldır. Lakin onların faydaları əsasən yüksək ixtisaslı işçilərə düşür və regional inkişaf aləti kimi rolu tamamlayıcı siyasətlərdən asılıdır.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Ədəbiyyat siyahısı</title>
+<ref id="r1"><mixed-citation>Angrist J. D., Pischke J.-S. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009. 392 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Moretti E. The New Geography of Jobs. Boston: Houghton Mifflin Harcourt, 2012. 294 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Gromov P. A. Online vacancy data as a source of regional labour market statistics // Regional Economics Review. 2021. Vol. 14, no. 2. P. 55–73.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Becker L., Vogt H. Remote-eligible jobs and the spatial distribution of labour demand // Journal of Labour and Space. 2022. Vol. 8, no. 1. P. 1–24.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Громов П. А., Седова Е. К. Межрегиональная дифференциация заработной платы: факторы и тенденции // Пространственная экономика и политика. 2020. № 3. С. 22–40.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindgren A., Torres M. Skill requirements in remote job postings // Labour Market Analytics. 2023. Vol. 5. P. 140–158.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седова Е. К. Цифровая инфраструктура и занятость в малых городах. М.: Меридиан, 2022. 168 с.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Hartmann F. Text classification of job advertisements: a practical comparison // Computational Social Science Letters. 2021. Vol. 3, no. 4. P. 88–101.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

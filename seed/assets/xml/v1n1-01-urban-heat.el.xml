@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="el">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Περιοδικό Διεπιστημονικής Έρευνας (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Επιδεικτικό περιοδικό σε Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Τσίφρα» ΕΠΕ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Ερευνητικό άρθρο</subject></subj-group></article-categories>
+<title-group>
+<article-title>Αστικές θερμικές νησίδες σε πόλεις μεσαίου μεγέθους: ανάλυση δεδομένων Landsat για την περίοδο 2000–2023</article-title>
+<trans-title-group xml:lang="en"><trans-title>Urban Heat Islands in Medium-Sized Cities: An Analysis of Landsat Data for 2000–2023</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sokolovskaya@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Melnikov</surname><given-names>Artyom</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Kim</surname><given-names>Svetlana</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kim</surname><given-names>Svetlana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Κρατικό Πανεπιστήμιο του Νόβομπορ</institution>, <country country="RU">Ρωσία</country></aff>
+<aff id="aff2"><institution>Ανώτατη Σχολή Αστικών Σπουδών «Πόλις»</institution>, <country country="RU">Ρωσία</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>8</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-14"><day>14</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-28"><day>28</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Elena Sokolovskaya, Artyom Melnikov, Svetlana Kim</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Με άδεια CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="el"><p>Η έρευνα για τις αστικές θερμικές νησίδες έχει παραδοσιακά επικεντρωθεί στις μεγαλύτερες μητροπολιτικές περιοχές, ενώ οι πόλεις μεσαίου μεγέθους, όπου ζει σημαντικό μέρος του πληθυσμού, παραμένουν ελάχιστα μελετημένες. Η παρούσα μελέτη αποτιμά την ένταση και τη δυναμική της επιφανειακής αστικής θερμικής νησίδας σε δώδεκα ανωνυμοποιημένες πόλεις με πληθυσμό 100.000 έως 500.000 κατοίκων στην εύκρατη κλιματική ζώνη. Η θερμοκρασία της επιφάνειας του εδάφους ανακτήθηκε από σκηνές Landsat 5, 7 και 8 για τους θερινούς μήνες της περιόδου 2000–2023 και για κάθε πόλη υπολογίστηκε η διαφορά μεταξύ της δομημένης περιοχής και μιας περιαστικής ζώνης αναφοράς. Ως συμμεταβλητές χρησιμοποιήθηκαν ο κανονικοποιημένος δείκτης διαφοράς βλάστησης (NDVI), το ποσοστό των αδιαπέρατων επιφανειών και η πυκνότητα δόμησης, που προέκυψε από ανοικτά χαρτογραφικά δεδομένα. Η μέση ημερήσια ένταση της θερμικής νησίδας ήταν 3,4 °C και κατά την περίοδο μελέτης αυξήθηκε κατά μέσο όρο κατά 0,9 °C. Τη μεγαλύτερη συμβολή σε αυτή τη μεταβολή έχει η απώλεια χώρων πρασίνου στις περιφερειακές ζώνες νέας οικιστικής ανάπτυξης, ενώ η συσχέτιση με το μέγεθος του πληθυσμού αποδείχθηκε ασθενής. Ένα μοντέλο παλινδρόμησης μικτών επιδράσεων εξηγεί το 71% της διακύμανσης μεταξύ πόλεων και μεταξύ ετών. Τα αποτελέσματα δείχνουν ότι οι πόλεις μεσαίου μεγέθους δεν είναι λιγότερο ευάλωτες στην υπερθέρμανση από τις μεγάλες και ότι οι πολεοδομικές αποφάσεις στις ζώνες νέας ανάπτυξης αποτελούν βασικό εργαλείο προσαρμογής. Η προτεινόμενη μέθοδος μπορεί να αναπαραχθεί για οποιαδήποτε πόλη με τη χρήση ανοικτών δεδομένων.</p></abstract>
+<trans-abstract xml:lang="en"><p>Research on urban heat islands has traditionally focused on the largest metropolitan areas, while medium-sized cities, home to a substantial share of the population, remain poorly studied. This study assesses the intensity and dynamics of the surface urban heat island in twelve anonymised cities with populations of 100,000 to 500,000 in the temperate climate zone. Land surface temperature was retrieved from Landsat 5, 7 and 8 scenes for the summer months of 2000–2023, and for each city the difference between the built-up area and a suburban buffer zone was calculated. The normalised difference vegetation index (NDVI), the share of impervious surfaces and building density derived from open map data were used as covariates. The mean daytime heat island intensity was 3.4 °C, and over the study period it increased by 0.9 °C on average. The largest contribution to this change comes from the loss of green space in peripheral areas of new residential development, whereas the association with population size proved weak. A mixed-effects regression model explains 71% of the between-city and between-year variation. The results show that medium-sized cities are no less vulnerable to overheating than large ones and that planning decisions in new development zones are a key adaptation tool. The proposed method can be reproduced for any city using open data.</p></trans-abstract>
+<kwd-group xml:lang="el" kwd-group-type="author"><kwd>αστική θερμική νησίδα</kwd><kwd>τηλεπισκόπηση</kwd><kwd>Landsat</kwd><kwd>θερμοκρασία επιφάνειας εδάφους</kwd><kwd>πράσινες υποδομές</kwd><kwd>πόλεις μεσαίου μεγέθους</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>urban heat island</kwd><kwd>remote sensing</kwd><kwd>Landsat</kwd><kwd>land surface temperature</kwd><kwd>green infrastructure</kwd><kwd>medium-sized cities</kwd></kwd-group>
+<funding-group><award-group><funding-source>Ίδρυμα Υποστήριξης Διεπιστημονικής Έρευνας «Ορίζων»</funding-source></award-group></funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Εισαγωγή</title>
+<p>Η αστική θερμική νησίδα —η υπέρβαση της θερμοκρασίας του αέρα και της υποκείμενης επιφάνειας στην πόλη σε σχέση με την περιβάλλουσα αγροτική περιοχή— αποτελεί μία από τις πιο μελετημένες εκδηλώσεις του ανθρωπογενούς μετασχηματισμού του κλίματος. Οι κλασικές εργασίες συνδέουν το φαινόμενο με τη μεταβολή του θερμικού ισοζυγίου: η αντικατάσταση της βλάστησης από αδιαπέρατες επιφάνειες μειώνει την εξάτμιση, η γεωμετρία της δόμησης περιορίζει τη νυχτερινή ακτινοβολία, ενώ οι ανθρωπογενείς πηγές προσθέτουν θερμότητα στο επιφανειακό στρώμα.</p>
+<p>Η συντριπτική πλειονότητα των εμπειρικών εκτιμήσεων, ωστόσο, αφορά πόλεις με πληθυσμό άνω του ενός εκατομμυρίου. Οι πόλεις μεσαίου μεγέθους, με πληθυσμό 100–500 χιλιάδων κατοίκων, θεωρούνται συχνά «πολύ μικρές» για να σχηματίσουν έντονη θερμική νησίδα, παρότι ακριβώς σε αυτές παρατηρείται τις δύο τελευταίες δεκαετίες έντονη οικοδομική δραστηριότητα στην περιφέρεια. Η παρούσα εργασία καλύπτει αυτό το κενό: εκτιμούμε την ένταση της επιφανειακής θερμικής νησίδας σε δώδεκα πόλεις μεσαίου μεγέθους και προσδιορίζουμε τους παράγοντες της μεταβολής της την περίοδο 2000–2023.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Υλικά και μέθοδοι</title>
+<p>Η μελέτη καλύπτει δώδεκα πόλεις της εύκρατης ζώνης, οι οποίες στο άρθρο συμβολίζονται με τους κωδικούς Π1–Π12. Για κάθε πόλη επιλέχθηκαν από το αρχείο Landsat σκηνές χωρίς νεφοκάλυψη για τους μήνες Ιούνιο–Αύγουστο (κατά μέσο όρο 4,6 σκηνές ανά πόλη ανά έτος, συνολικά 1.318 σκηνές). Η θερμοκρασία της υποκείμενης επιφάνειας ανακτήθηκε από το θερμικό κανάλι με διόρθωση της ικανότητας εκπομπής βάσει του NDVI.</p>
+<p>Η ένταση της θερμικής νησίδας (ΕΘΝ) ορίστηκε ως η διαφορά της διάμεσης θερμοκρασίας της δομημένης περιοχής από εκείνη ενός περιαστικού δακτυλίου αναφοράς πλάτους 5 km, εξαιρουμένων των υδάτινων σωμάτων. Ως ερμηνευτικές μεταβλητές χρησιμοποιήθηκαν ο μέσος NDVI, το ποσοστό των αδιαπέρατων επιφανειών, η πυκνότητα δόμησης και ο πληθυσμός. Η σχέση εκτιμήθηκε με μοντέλο παλινδρόμησης μικτών επιδράσεων με τυχαίο σταθερό όρο για την πόλη και σταθερή επίδραση του έτους.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Αποτελέσματα</title>
+<p>Η μέση ημερήσια ΕΘΝ για το σύνολο του δείγματος ήταν 3,4 ± 0,8 °C. Οι ελάχιστες τιμές χαρακτηρίζουν πόλεις με ανεπτυγμένο δίκτυο κοιλάδων και διατηρημένα δασικά πάρκα (2,1–2,6 °C), ενώ οι μέγιστες πόλεις της στεππικής ζώνης με πυκνή δόμηση από προκατασκευασμένα πολυώροφα κτίρια (4,5–4,9 °C). Στο Σχ. 1 παρουσιάζεται η δυναμική της μέσης έντασης ανά πενταετείς περιόδους.</p>
+<fig id="f1" position="float"><caption><p>Σχ. 1. Μέση ημερήσια ένταση της επιφανειακής θερμικής νησίδας ανά πενταετείς περιόδους, °C</p></caption></fig>
+<p>Στο μοντέλο παλινδρόμησης (Πίν. 1) τη μεγαλύτερη σε μέγεθος επίδραση έχει ο NDVI: η μείωση του δείκτη κατά 0,1 συνδέεται με αύξηση της ΕΘΝ κατά 0,62 °C. Το ποσοστό των αδιαπέρατων επιφανειών είναι στατιστικά σημαντικό, αλλά η επίδρασή του διαμεσολαβείται σε μεγάλο βαθμό από τη βλάστηση. Ο πληθυσμός, μετά τον έλεγχο για τους μορφολογικούς δείκτες, δεν είναι στατιστικά σημαντικός.</p>
+<table-wrap id="t1" position="float"><caption><p>Πίνακας 1. Εκτιμήσεις του μοντέλου μικτών επιδράσεων (εξαρτημένη μεταβλητή: ΕΘΝ, °C)</p></caption><table><thead><tr><th>Μεταβλητή</th><th>Συντελεστής</th><th>Τυπ. σφάλμα</th><th>p</th></tr></thead><tbody><tr><td>NDVI (ανά 0,1)</td><td>−0,62</td><td>0,09</td><td>&lt;0,001</td></tr><tr><td>Αδιαπέρατες επιφάνειες (ανά 10%)</td><td>0,31</td><td>0,11</td><td>0,006</td></tr><tr><td>Πυκνότητα δόμησης (ανά 1.000 m²/ha)</td><td>0,18</td><td>0,07</td><td>0,012</td></tr><tr><td>Πληθυσμός (log)</td><td>0,07</td><td>0,15</td><td>0,640</td></tr><tr><td>Δεσμευμένος R²</td><td>0,71</td><td>—</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Συζήτηση</title>
+<p>Οι εκτιμήσεις της έντασης που προέκυψαν είναι συγκρίσιμες με όσες έχουν δημοσιευθεί για ευρωπαϊκές πόλεις παρόμοιου μεγέθους και μόλις κατά 1–1,5 °C χαμηλότερες από τις τιμές για τα μεγαλύτερα αστικά συγκροτήματα. Αυτό θέτει υπό αμφισβήτηση την ευρέως διαδεδομένη αντίληψη ότι ο θερμικός κίνδυνος στις πόλεις μεσαίου μεγέθους είναι αμελητέος.</p>
+<p>Το σημαντικότερο εύρημα της εργασίας είναι ο καθοριστικός ρόλος της βλάστησης στην περιφέρεια. Οι νέες οικιστικές συνοικίες που χτίστηκαν μετά το 2010 σε πρώην γεωργικές εκτάσεις και αδόμητα οικόπεδα χαρακτηρίζονται από ελάχιστο πράσινο, και ακριβώς εκεί η αύξηση της θερμοκρασίας της επιφάνειας είναι πιο αισθητή. Περιορισμό της μελέτης αποτελεί η χρήση μόνο ημερήσιων σκηνών: η νυχτερινή θερμική νησίδα, η οποία έχει τη μεγαλύτερη σημασία για την υγεία, απαιτεί άλλες πηγές δεδομένων.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Συμπεράσματα</title>
+<p>Οι πόλεις μεσαίου μεγέθους σχηματίζουν έντονες επιφανειακές θερμικές νησίδες, η ένταση των οποίων αυξάνεται. Η διατήρηση και η δημιουργία χώρων πρασίνου στις περιοχές νέας δόμησης αποτελεί τον πιο αποτελεσματικό μοχλό προσαρμογής. Ο προτεινόμενος ανοικτός αλγόριθμος μπορεί να χρησιμοποιηθεί από τους δήμους για σκοπούς παρακολούθησης.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Βιβλιογραφία</title>
+<ref id="r1"><mixed-citation>Oke T. R. The energetic basis of the urban heat island // Quarterly Journal of the Royal Meteorological Society. 1982. Vol. 108, no. 455. P. 1–24.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Voogt J. A., Oke T. R. Thermal remote sensing of urban climates // Remote Sensing of Environment. 2003. Vol. 86, no. 3. P. 370–384.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Соколовская Е. В. Пространственные закономерности теплового режима малых и средних городов // Вопросы пространственного анализа. 2021. Т. 9, № 2. С. 34–51.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Мельников А. С., Ким С. Ю. Открытые картографические данные как источник показателей плотности застройки // Геоинформатика и общество. 2022. № 4. С. 18–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Harding P., Lindqvist M. Surface heat islands beyond the megacity: evidence from European mid-sized towns // Urban Climate Letters. 2020. Vol. 7. P. 112–127.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Орехова Т. Н. Методы восстановления температуры подстилающей поверхности по данным теплового канала. М.: Академия, 2019. 212 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Chen Y., Moreau L. Vegetation loss and the intensification of surface heat islands in suburban fringes // Journal of Applied Urban Ecology. 2021. Vol. 15, no. 3. P. 201–219.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Соколовская Е. В., Брагин И. А. Зелёная инфраструктура и адаптация городов к экстремальной жаре: обзор практик // Вестник Новоборского университета. Серия: Науки о Земле. 2023. Т. 11, № 1. С. 5–22.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

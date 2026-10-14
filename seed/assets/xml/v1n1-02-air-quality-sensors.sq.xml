@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="sq">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista e Kërkimeve Ndërdisiplinore (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revistë demonstruese në Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra sh.p.k.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Artikull kërkimor</subject></subj-group></article-categories>
+<title-group>
+<article-title>Kalibrimi me mësim automatik i sensorëve me kosto të ulët të PM2.5 në një klimë thellësisht kontinentale</article-title>
+<trans-title-group xml:lang="en"><trans-title>Machine-Learning Calibration of Low-Cost PM2.5 Sensors in a Sharply Continental Climate</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Karimov</surname><given-names>Timur</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Karimov</surname><given-names>Timur</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>t.karimov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Vasilenko</surname><given-names>Olga</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vasilenko</surname><given-names>Olga</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Instituti i Analitikës së Aplikuar i Vollgës</institution>, <country country="RU">Rusi</country></aff>
+<aff id="aff2"><institution>Instituti Kërkimor i Shëndetit Publik «Vita»</institution>, <country country="RU">Rusi</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>9</fpage><lpage>11</lpage>
+<history><date date-type="received" iso-8601-date="2024-09-30"><day>30</day><month>09</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-03"><day>03</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Timur Karimov, Olga Vasilenko</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licencuar sipas CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="sq"><p>Sensorët optikë me kosto të ulët të grimcave të imta mund të rrisin ndjeshëm dendësinë e rrjeteve të monitorimit të cilësisë së ajrit, por leximet e tyre varen fort nga lagështia dhe temperatura dhe devijojnë sistematikisht nga matjet referuese. Ky studim krahason metodat e kalibrimit për sensorë të tillë në një klimë thellësisht kontinentale me amplitudë të madhe vjetore të temperaturës. Gjatë 14 muajve, tetë sensorë u vendosën pranë një stacioni referues gravimetrik, duke prodhuar më shumë se 76 000 vëzhgime orare. U krahasuan regresioni linear, regresioni i shumëfishtë me korrigjim për lagështinë relative, pylli i rastësishëm (random forest) dhe gradient boosting. Performanca u vlerësua me validim të kryqëzuar me blloqe javore, i cili parandalon rrjedhjen e informacionit ndërmjet mostrave të trajnimit dhe të testimit. Pa kalibrim, gabimi mesatar absolut ishte 11,8 µg/m³; pas korrigjimit linear ai ra në 6,4 µg/m³, ndërsa gradient boosting e uli në 3,1 µg/m³. Veçoritë më të rëndësishme ishin lagështia relative, temperatura dhe leximet e sensorëve fqinjë. Modelet e trajnuara vetëm me të dhëna verore u transferuan dobët në periudhën dimërore, gjë që nënvizon nevojën për kalibrim gjatë gjithë vitit. Arrijmë në përfundimin se, pasi kalibrohen me metoda të mësimit automatik, sensorët me kosto të ulët janë të përshtatshëm për vlerësimin e dinamikës ditore të ndotjes dhe për identifikimin e burimeve lokale. Kodi dhe të dhënat e anonimizuara janë të disponueshme lirisht për ripërdorim.</p></abstract>
+<trans-abstract xml:lang="en"><p>Low-cost optical sensors of fine particulate matter can substantially increase the density of air-quality monitoring networks, but their readings depend strongly on humidity and temperature and deviate systematically from reference measurements. This study compares calibration methods for such sensors in a sharply continental climate with a large annual temperature range. For 14 months, eight sensors were co-located with a gravimetric reference station, yielding more than 76,000 hourly observations. Linear regression, multiple regression with a relative-humidity correction, random forest and gradient boosting were compared. Performance was assessed with weekly blocked cross-validation that prevents information leakage between training and test samples. Without calibration, the mean absolute error was 11.8 µg/m³; after linear correction it fell to 6.4 µg/m³, and gradient boosting reduced it to 3.1 µg/m³. The most important features were relative humidity, temperature and the readings of neighbouring sensors. Models trained on summer data alone transferred poorly to the winter period, underlining the need for year-round calibration. We conclude that, once calibrated with machine-learning methods, low-cost sensors are suitable for assessing the diurnal dynamics of pollution and identifying local sources. The code and anonymised data are openly available for reuse.</p></trans-abstract>
+<kwd-group xml:lang="sq" kwd-group-type="author"><kwd>cilësia e ajrit</kwd><kwd>PM2.5</kwd><kwd>sensorë me kosto të ulët</kwd><kwd>kalibrim</kwd><kwd>gradient boosting</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>air quality</kwd><kwd>PM2.5</kwd><kwd>low-cost sensors</kwd><kwd>calibration</kwd><kwd>gradient boosting</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Hyrje</title>
+<p>Grimcat e imta PM2.5 janë një nga faktorët kryesorë të rrezikut për shëndetin që lidhen me ndotjen e ajrit atmosferik. Stacionet referuese të monitorimit janë të shtrenjta dhe të pakta në numër: në një qytet tipik me gjysmë milioni banorë ka një ose dy të tilla. Sensorët optikë me kosto të ulët, që kushtojnë disa mijëra rubla, bëjnë të mundur krijimin e një rrjeti të dendur, por leximet e tyre kërkojnë kalibrim.</p>
+<p>Shkaku kryesor i gabimeve është rritja higroskopike e grimcave në lagështi të lartë, për shkak të së cilës sensori e mbivlerëson përqendrimin masiv. Në klimën thellësisht kontinentale, kësaj i shtohen temperaturat e ulëta dimërore, që ndikojnë në funksionimin e elektronikës. Qëllimi i punimit është të krahasojë metodat e kalibrimit dhe të vlerësojë transferueshmërinë e tyre ndërmjet stinëve.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materialet dhe metodat</title>
+<p>Tetë sensorë të të njëjtit model u instaluan në çatinë e pavionit të stacionit referues në lartësinë 3 m. Periudha e vëzhgimeve — nga tetori 2022 deri në nëntor 2023. Të dhënat u agreguan në vlera orare; orët me regjistrime të paplota (më pak se 45 minuta) u përjashtuan. Mostra përfundimtare — 76 412 çifte vëzhgimesh.</p>
+<p>U krahasuan katër modele: regresioni linear i thjeshtë mbi sinjalin bruto; regresioni i shumëfishtë me lagështinë relative, temperaturën dhe ndërveprimin e tyre; pylli i rastësishëm (500 pemë); gradient boosting (thellësia 6, shpejtësia e të mësuarit 0,05). Për vlerësimin e cilësisë u përdor validimi i kryqëzuar me blloqe: të dhënat u ndanë në blloqe javore dhe secili bllok shërbeu me radhë si mostër testimi.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Rezultatet</title>
+<p>Rezultatet e krahasimit jepen në tab. 1 dhe në fig. 1. Të gjitha metodat e kalibrimit e ulin ndjeshëm gabimin; diferenca ndërmjet regresionit linear me korrigjim për lagështinë dhe metodave ansambël është veçanërisht e madhe kur lagështia relative është mbi 80%.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Gabimi mesatar absolut (MAE) i metodave të ndryshme të kalibrimit, µg/m³</p></caption></fig>
+<p>Kur trajnimi bëhej vetëm me të dhëna verore dhe testimi me të dhëna dimërore, gabimi mesatar absolut i gradient boosting rritej në 7,9 µg/m³, që është vetëm pak më mirë se korrigjimi linear. Shtimi në mostrën e trajnimit i qoftë edhe i një muaji dimëror e ulte gabimin në 3,6 µg/m³.</p>
+<table-wrap id="t1" position="float"><caption><p>Tabela 1. Cilësia e metodave të kalibrimit (validim i kryqëzuar me blloqe javore)</p></caption><table><thead><tr><th>Metoda</th><th>MAE, µg/m³</th><th>RMSE, µg/m³</th><th>R²</th></tr></thead><tbody><tr><td>Pa kalibrim</td><td>11,8</td><td>17,2</td><td>0,58</td></tr><tr><td>Regresion linear</td><td>6,4</td><td>9,9</td><td>0,74</td></tr><tr><td>Linear + lagështia</td><td>4,7</td><td>7,3</td><td>0,85</td></tr><tr><td>Pyll i rastësishëm</td><td>3,4</td><td>5,6</td><td>0,91</td></tr><tr><td>Gradient boosting</td><td>3,1</td><td>5,1</td><td>0,93</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Diskutimi</title>
+<p>Vlerat e gabimit të përftuara pas kalibrimit janë të krahasueshme me tolerancat për matjet indikative dhe lejojnë përdorimin e një rrjeti sensorësh me kosto të ulët për vlerësimin e profileve ditore dhe për identifikimin e burimeve lokale — impianteve të ngrohjes, autostradave, zonave me shtëpi private me ngrohje me sobë.</p>
+<p>Mostransferueshmëria sezonale e modeleve është një kufizim i rëndësishëm praktik. Kalibrimi i kryer në verë mund të japë gabime sistematike në dimër, kur ndotja është më e rrezikshme. Rekomandojmë të paktën një periudhë njëvjeçare matjesh të përbashkëta para vendosjes së rrjetit.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Përfundimi</title>
+<p>Metodat ansambël të mësimit automatik e ulin gabimin e sensorëve me kosto të ulët të PM2.5 pothuajse katër herë. Kushti kyç për një kalibrim korrekt është prania në mostrën e trajnimit e të dhënave për të gjitha stinët e vitit.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Bibliografia</title>
+<ref id="r1"><mixed-citation>Breiman L. Random forests // Machine Learning. 2001. Vol. 45, no. 1. P. 5–32.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Friedman J. H. Greedy function approximation: a gradient boosting machine // Annals of Statistics. 2001. Vol. 29, no. 5. P. 1189–1232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Каримов Т. Р. Блочная кросс-валидация для пространственно-временных данных: практическое руководство // Прикладная аналитика. 2022. Т. 6, № 3. С. 41–58.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Holloway R., Nakamura E. Humidity effects on optical particle counters: a field evaluation // Atmospheric Measurement Notes. 2019. Vol. 12. P. 233–248.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Василенко О. П., Аркадьева Н. С. Кратковременное воздействие PM2.5 и обращаемость за медицинской помощью: обзор исследований // Экология человека и среда. 2021. № 7. С. 4–19.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Petrescu D., Olsen K. Transferability of calibration models for low-cost air sensors across seasons // Environmental Sensing Review. 2022. Vol. 4, no. 2. P. 77–95.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Захаров Л. Е. Сети мониторинга атмосферного воздуха: принципы проектирования. Новобор: Академия, 2020. 184 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

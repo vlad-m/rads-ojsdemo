@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="pt">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista de Investigação Interdisciplinar (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revista de demonstração em Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra, Lda.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Artigo de investigação</subject></subj-group></article-categories>
+<title-group>
+<article-title>Ilhas de calor urbanas em cidades de média dimensão: uma análise de dados Landsat para 2000–2023</article-title>
+<trans-title-group xml:lang="en"><trans-title>Urban Heat Islands in Medium-Sized Cities: An Analysis of Landsat Data for 2000–2023</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sokolovskaya@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Melnikov</surname><given-names>Artyom</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Kim</surname><given-names>Svetlana</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kim</surname><given-names>Svetlana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Universidade Estatal de Novobor</institution>, <country country="RU">Rússia</country></aff>
+<aff id="aff2"><institution>Escola Superior de Estudos Urbanos Polis</institution>, <country country="RU">Rússia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>8</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-14"><day>14</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-28"><day>28</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Elena Sokolovskaya, Artyom Melnikov, Svetlana Kim</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licenciado ao abrigo da CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="pt"><p>A investigação sobre ilhas de calor urbanas tem-se centrado tradicionalmente nas maiores áreas metropolitanas, ao passo que as cidades de média dimensão, onde reside uma parte substancial da população, continuam pouco estudadas. Este estudo avalia a intensidade e a dinâmica da ilha de calor urbana de superfície em doze cidades anonimizadas, com populações entre 100 000 e 500 000 habitantes, situadas na zona de clima temperado. A temperatura da superfície terrestre foi obtida a partir de cenas Landsat 5, 7 e 8 relativas aos meses de verão de 2000–2023 e, para cada cidade, foi calculada a diferença entre a área edificada e uma zona tampão suburbana. O índice de vegetação por diferença normalizada (NDVI), a proporção de superfícies impermeáveis e a densidade de edificação, derivada de dados cartográficos abertos, foram utilizados como covariáveis. A intensidade média diurna da ilha de calor foi de 3,4 °C e, ao longo do período estudado, aumentou em média 0,9 °C. O maior contributo para esta variação provém da perda de espaços verdes nas zonas periféricas de novas urbanizações residenciais, ao passo que a associação com a dimensão da população se revelou fraca. Um modelo de regressão de efeitos mistos explica 71% da variação entre cidades e entre anos. Os resultados mostram que as cidades de média dimensão não são menos vulneráveis ao sobreaquecimento do que as grandes e que as decisões de planeamento nas zonas de nova construção constituem um instrumento fundamental de adaptação. O método proposto pode ser reproduzido para qualquer cidade com recurso a dados abertos.</p></abstract>
+<trans-abstract xml:lang="en"><p>Research on urban heat islands has traditionally focused on the largest metropolitan areas, while medium-sized cities, home to a substantial share of the population, remain poorly studied. This study assesses the intensity and dynamics of the surface urban heat island in twelve anonymised cities with populations of 100,000 to 500,000 in the temperate climate zone. Land surface temperature was retrieved from Landsat 5, 7 and 8 scenes for the summer months of 2000–2023, and for each city the difference between the built-up area and a suburban buffer zone was calculated. The normalised difference vegetation index (NDVI), the share of impervious surfaces and building density derived from open map data were used as covariates. The mean daytime heat island intensity was 3.4 °C, and over the study period it increased by 0.9 °C on average. The largest contribution to this change comes from the loss of green space in peripheral areas of new residential development, whereas the association with population size proved weak. A mixed-effects regression model explains 71% of the between-city and between-year variation. The results show that medium-sized cities are no less vulnerable to overheating than large ones and that planning decisions in new development zones are a key adaptation tool. The proposed method can be reproduced for any city using open data.</p></trans-abstract>
+<kwd-group xml:lang="pt" kwd-group-type="author"><kwd>ilha de calor urbana</kwd><kwd>deteção remota</kwd><kwd>Landsat</kwd><kwd>temperatura da superfície terrestre</kwd><kwd>infraestrutura verde</kwd><kwd>cidades de média dimensão</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>urban heat island</kwd><kwd>remote sensing</kwd><kwd>Landsat</kwd><kwd>land surface temperature</kwd><kwd>green infrastructure</kwd><kwd>medium-sized cities</kwd></kwd-group>
+<funding-group><award-group><funding-source>Fundação Horizonte para a Investigação Interdisciplinar</funding-source></award-group></funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introdução</title>
+<p>A ilha de calor urbana — o excesso da temperatura do ar e da superfície subjacente na cidade relativamente à área rural envolvente — é uma das manifestações mais estudadas da transformação antropogénica do clima. Os trabalhos clássicos associam este fenómeno a alterações do balanço térmico: a substituição da vegetação por revestimentos impermeáveis reduz a evaporação, a geometria do edificado diminui a radiação noturna e as fontes antropogénicas acrescentam calor à camada superficial.</p>
+<p>A grande maioria das estimativas empíricas, porém, foi obtida para cidades com mais de um milhão de habitantes. As cidades de média dimensão, com 100 a 500 mil habitantes, são muitas vezes consideradas «demasiado pequenas» para formar uma ilha de calor pronunciada, embora seja precisamente nelas que, nas duas últimas décadas, se tem verificado uma construção intensa na periferia. O presente trabalho colmata esta lacuna: avaliamos a intensidade da ilha de calor de superfície em doze cidades de média dimensão e identificamos os fatores da sua variação em 2000–2023.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiais e métodos</title>
+<p>O estudo abrange doze cidades da zona temperada, designadas no artigo pelos códigos C1–C12. Para cada cidade, foram selecionadas no arquivo Landsat cenas sem nuvens de junho a agosto (em média 4,6 cenas por cidade e por ano, num total de 1318 cenas). A temperatura da superfície subjacente foi obtida a partir do canal térmico, com correção da emissividade com base no NDVI.</p>
+<p>A intensidade da ilha de calor (IIC) foi definida como a diferença entre a temperatura mediana da área edificada e a de um anel tampão suburbano com 5 km de largura, excluindo as massas de água. Como variáveis explicativas, utilizaram-se o NDVI médio, a proporção de superfícies impermeáveis, a densidade de edificação e a população. A relação foi estimada por um modelo de regressão de efeitos mistos com ordenada na origem aleatória para a cidade e efeito fixo do ano.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Resultados</title>
+<p>A IIC diurna média para o conjunto da amostra foi de 3,4 ± 0,8 °C. Os valores mínimos são característicos das cidades com uma rede de vales desenvolvida e parques florestais preservados (2,1–2,6 °C), e os máximos das cidades da zona de estepe com edificado denso de painéis pré-fabricados (4,5–4,9 °C). A fig. 1 mostra a dinâmica da intensidade média por períodos de cinco anos.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Intensidade diurna média da ilha de calor de superfície por períodos de cinco anos, °C</p></caption></fig>
+<p>No modelo de regressão (quadro 1), o efeito de maior magnitude é o do NDVI: uma diminuição do índice de 0,1 está associada a um aumento da IIC de 0,62 °C. A proporção de superfícies impermeáveis é significativa, mas o seu efeito é em grande medida mediado pela vegetação. Depois de tidos em conta os indicadores morfológicos, a população não é estatisticamente significativa.</p>
+<table-wrap id="t1" position="float"><caption><p>Quadro 1. Estimativas do modelo de efeitos mistos (variável dependente: IIC, °C)</p></caption><table><thead><tr><th>Variável</th><th>Coeficiente</th><th>Erro-padrão</th><th>p</th></tr></thead><tbody><tr><td>NDVI (por 0,1)</td><td>−0,62</td><td>0,09</td><td>&lt;0,001</td></tr><tr><td>Superfícies impermeáveis (por 10 %)</td><td>0,31</td><td>0,11</td><td>0,006</td></tr><tr><td>Densidade de edificação (por 1000 m²/ha)</td><td>0,18</td><td>0,07</td><td>0,012</td></tr><tr><td>População (log)</td><td>0,07</td><td>0,15</td><td>0,640</td></tr><tr><td>R² condicional</td><td>0,71</td><td>—</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussão</title>
+<p>As estimativas de intensidade obtidas são comparáveis às publicadas para cidades europeias de dimensão semelhante e apenas 1–1,5 °C inferiores aos valores das maiores aglomerações. Este facto põe em causa a ideia generalizada de que o risco térmico nas cidades de média dimensão é insignificante.</p>
+<p>O resultado mais importante do trabalho é o papel determinante da vegetação na periferia. Os novos bairros residenciais, construídos depois de 2010 em antigos terrenos agrícolas e terrenos baldios, caracterizam-se por uma arborização mínima, e é precisamente aí que o aumento da temperatura de superfície é mais visível. Uma limitação do estudo é a utilização exclusiva de cenas diurnas: a ilha de calor noturna, a mais relevante para a saúde, exige outras fontes de dados.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusão</title>
+<p>As cidades de média dimensão formam ilhas de calor de superfície pronunciadas, cuja intensidade está a aumentar. A preservação e a criação de espaços verdes nas zonas de nova construção constituem a alavanca de adaptação mais eficaz. O algoritmo aberto proposto pode ser utilizado pelos municípios para fins de monitorização.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Referências bibliográficas</title>
+<ref id="r1"><mixed-citation>Oke T. R. The energetic basis of the urban heat island // Quarterly Journal of the Royal Meteorological Society. 1982. Vol. 108, no. 455. P. 1–24.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Voogt J. A., Oke T. R. Thermal remote sensing of urban climates // Remote Sensing of Environment. 2003. Vol. 86, no. 3. P. 370–384.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Соколовская Е. В. Пространственные закономерности теплового режима малых и средних городов // Вопросы пространственного анализа. 2021. Т. 9, № 2. С. 34–51.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Мельников А. С., Ким С. Ю. Открытые картографические данные как источник показателей плотности застройки // Геоинформатика и общество. 2022. № 4. С. 18–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Harding P., Lindqvist M. Surface heat islands beyond the megacity: evidence from European mid-sized towns // Urban Climate Letters. 2020. Vol. 7. P. 112–127.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Орехова Т. Н. Методы восстановления температуры подстилающей поверхности по данным теплового канала. М.: Академия, 2019. 212 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Chen Y., Moreau L. Vegetation loss and the intensification of surface heat islands in suburban fringes // Journal of Applied Urban Ecology. 2021. Vol. 15, no. 3. P. 201–219.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Соколовская Е. В., Брагин И. А. Зелёная инфраструктура и адаптация городов к экстремальной жаре: обзор практик // Вестник Новоборского университета. Серия: Науки о Земле. 2023. Т. 11, № 1. С. 5–22.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

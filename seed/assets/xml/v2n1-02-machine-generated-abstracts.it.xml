@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="it">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Rivista di ricerca interdisciplinare (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Rivista dimostrativa su Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra S.r.l.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Articolo di ricerca</subject></subj-group></article-categories>
+<title-group>
+<article-title>Riconoscimento di passaggi generati automaticamente negli abstract scientifici in lingua russa</article-title>
+<trans-title-group xml:lang="en"><trans-title>Detecting Machine-Generated Passages in Russian-Language Scientific Abstracts</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author"><name name-style="western"><surname>Karimov</surname><given-names>Timur</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Karimov</surname><given-names>Timur</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Lebedeva</surname><given-names>Anna</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Lebedeva</surname><given-names>Anna</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Abdullaev</surname><given-names>Sanzhar</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Abdullaev</surname><given-names>Sanzhar</given-names></name></name-alternatives><xref ref-type="aff" rid="aff3"/><email>s.abdullaev@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Istituto del Volga di analitica applicata</institution>, <country country="RU">Russia</country></aff>
+<aff id="aff2"><institution>Istituto di lingua e comunicazione «Lexis»</institution>, <country country="RU">Russia</country></aff>
+<aff id="aff3"><institution>Istituto di linguistica computazionale di Samarcanda</institution>, <country country="UZ">Uzbekistan</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>8</fpage><lpage>10</lpage>
+<history><date date-type="received" iso-8601-date="2025-08-18"><day>18</day><month>08</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-01-27"><day>27</day><month>01</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Timur Karimov, Anna Lebedeva, Sanzhar Abdullaev</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Distribuito con licenza CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="it"><p>La diffusione su larga scala dei grandi modelli linguistici ha posto le riviste scientifiche di fronte al compito di individuare i testi prodotti in tutto o in parte con mezzi automatici. La maggior parte dei rilevatori esistenti è stata sviluppata per l’inglese e la loro applicabilità ai testi scientifici in lingua russa è poco conosciuta. L’articolo presenta un nuovo corpus annotato di 12.000 abstract di articoli scientifici in russo, metà dei quali scritti da esseri umani e metà contenenti passaggi generati da tre diversi modelli linguistici con prompt differenti. Su questo corpus vengono confrontate quattro classi di metodi: indicatori statistici di perplessità, caratteristiche stilometriche, un classificatore basato su transformer sottoposto a fine-tuning e un rilevatore commerciale di uso generale. Il classificatore con fine-tuning ha ottenuto i risultati migliori (F1 a livello di documento = 0,91), ma le sue prestazioni sono scese a 0,74 nei test su testi generati da un modello non visto durante l’addestramento. A livello di singola frase tutti i metodi danno risultati notevolmente peggiori e il tasso di falsi positivi sugli abstract scritti da autori la cui prima lingua non è il russo raggiunge l’11%. Questi risultati indicano che i rilevatori automatici non possono costituire l’unico fondamento delle decisioni editoriali. Il corpus e il codice sono liberamente disponibili per ulteriori ricerche.</p></abstract>
+<trans-abstract xml:lang="en"><p>The widespread adoption of large language models has confronted scholarly journals with the task of identifying texts created wholly or partly by automated means. Most existing detectors were developed for English, and their applicability to Russian-language scientific texts is poorly understood. This article presents a new annotated corpus of 12,000 abstracts of scientific articles in Russian, half of which were written by humans and half of which contain passages generated by three different language models under different prompts. Four classes of methods are compared on this corpus: statistical perplexity features, stylometric features, a fine-tuned transformer-based classifier and a general-purpose commercial detector. The fine-tuned classifier performed best (document-level F1 = 0.91), but its performance fell to 0.74 when tested on texts generated by a model not seen during training. At the sentence level, all methods perform considerably worse, and the false-positive rate on abstracts written by authors for whom Russian is not a first language reaches 11%. These results indicate that automated detectors cannot serve as the sole basis for editorial decisions. The corpus and code are openly available for further research.</p></trans-abstract>
+<kwd-group xml:lang="it" kwd-group-type="author"><kwd>grandi modelli linguistici</kwd><kwd>rilevamento di testi generati automaticamente</kwd><kwd>abstract scientifici</kwd><kwd>lingua russa</kwd><kwd>integrità della ricerca</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>large language models</kwd><kwd>machine-generated text detection</kwd><kwd>scientific abstracts</kwd><kwd>Russian language</kwd><kwd>research integrity</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introduzione</title>
+<p>Dal 2023 gli editor delle riviste scientifiche si trovano sempre più spesso di fronte a manoscritti in cui parti del testo sembrano essere state prodotte da grandi modelli linguistici. Se l’uso di tali strumenti per la revisione linguistica è spesso accettabile, la generazione non dichiarata di contenuti sostanziali solleva preoccupazioni in merito all’integrità della ricerca. Molti editori hanno adottato politiche che impongono la dichiarazione di tale uso e i rilevatori automatici vengono commercializzati come strumento per farle rispettare.</p>
+<p>Questi rilevatori, tuttavia, sono stati sviluppati e valutati principalmente su testi in inglese. Il russo, con la sua ricca morfologia e il suo peculiare registro accademico, pone una sfida diversa. Gli obiettivi del presente studio sono costruire un benchmark realistico di abstract scientifici in lingua russa e valutare le prestazioni degli attuali metodi di rilevamento su di esso, con particolare attenzione alla capacità di generalizzazione e all’equità.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiali e metodi</title>
+<p>Gli abstract scritti da esseri umani (n = 6000) sono stati campionati da riviste russe ad accesso aperto pubblicate prima del 2021, con stratificazione in otto ampie aree disciplinari. Per la metà generata, a tre modelli linguistici è stato chiesto di scrivere un abstract completo a partire da un titolo e da parole chiave, di proseguire una frase iniziale scritta da un essere umano o di parafrasare un abstract scritto da un essere umano. Ciascun testo generato è stato controllato da un annotatore per verificarne la scorrevolezza e, per i testi misti, sono state registrate etichette a livello di frase.</p>
+<p>Abbiamo confrontato (i) una regressione logistica su indicatori di perplessità e di burstiness calcolati con un modello linguistico russo aperto, (ii) un classificatore gradient-boosted su 140 caratteristiche stilometriche, (iii) un encoder transformer multilingue sottoposto a fine-tuning sulla porzione di addestramento e (iv) un rilevatore commerciale di uso generale. Per valutare la capacità di generalizzazione è stato utilizzato un protocollo leave-one-generator-out.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Risultati</title>
+<p>I risultati a livello di documento sono sintetizzati nella tabella 1. Il classificatore con fine-tuning ha ottenuto il valore di F1 in-distribution più elevato, pari a 0,91, seguito dal modello basato sulla perplessità (0,82). Il rilevatore commerciale, non addestrato su testi scientifici in russo, ha raggiunto 0,69. Gli abstract parafrasati sono risultati la categoria più difficile per tutti i metodi.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. F1 a livello di documento in-distribution e su un generatore non visto</p></caption></fig>
+<p>La generalizzazione a un generatore non visto ha ridotto sensibilmente le prestazioni (fig. 1). Su un insieme separato di 400 abstract scritti da autori per i quali il russo è una seconda lingua, il classificatore con fine-tuning ha segnalato come generati automaticamente l’11% dei testi, contro il 3% degli abstract di madrelingua.</p>
+<table-wrap id="t1" position="float"><caption><p>Tabella 1. Prestazioni di rilevamento a livello di documento e di frase</p></caption><table><thead><tr><th>Metodo</th><th>F1 (doc.)</th><th>F1 (frase)</th><th>FPR, autori L2</th></tr></thead><tbody><tr><td>Indicatori di perplessità</td><td>0.82</td><td>0.61</td><td>0.14</td></tr><tr><td>Caratteristiche stilometriche</td><td>0.77</td><td>0.55</td><td>0.09</td></tr><tr><td>Transformer con fine-tuning</td><td>0.91</td><td>0.68</td><td>0.11</td></tr><tr><td>Rilevatore commerciale</td><td>0.69</td><td>—</td><td>0.17</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussione</title>
+<p>I nostri risultati fanno eco alle preoccupazioni sollevate per l’inglese: i rilevatori che funzionano bene sui generatori noti peggiorano su quelli nuovi e segnalano in misura sproporzionata i testi di autori non madrelingua, la cui prosa tende a essere lessicalmente meno varia. Dato il rapido rilascio di nuovi modelli, l’accuratezza in-distribution è un indicatore poco affidabile dell’affidabilità nelle condizioni reali.</p>
+<p>Per la pratica editoriale ciò implica che i punteggi dei rilevatori dovrebbero al massimo dare avvio a un dialogo con gli autori, e non far scattare sanzioni. Politiche chiare di dichiarazione e l’attenzione alla qualità scientifica sostanziale restano garanzie più solide.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusioni</title>
+<p>Rendiamo disponibile un benchmark di 12.000 abstract scientifici in russo e mostriamo che gli attuali rilevatori, pur utili, non sono né robusti rispetto ai nuovi generatori né equi nei confronti degli autori non madrelingua. Il rilevamento automatico dovrebbe integrare, e non sostituire, il giudizio editoriale.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Bibliografia</title>
+<ref id="r1"><mixed-citation>Vaswani A., Shazeer N., Parmar N. et al. Attention is all you need // Advances in Neural Information Processing Systems. 2017. Vol. 30. P. 5998–6008.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Devlin J., Chang M.-W., Lee K., Toutanova K. BERT: pre-training of deep bidirectional transformers for language understanding // Proceedings of NAACL-HLT 2019. Minneapolis, 2019. P. 4171–4186.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Abdullaev S. R. Perplexity-based detection of generated text in morphologically rich languages // Computational Linguistics Letters. 2024. Vol. 9, no. 1. P. 22–37.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Lebedeva A. V., Karimov T. R. Stylometric profiles of Russian academic prose // Corpus Methods Quarterly. 2023. Vol. 14, no. 3. P. 201–219.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Moreau C., Banerjee R. Generalisation failures of machine-generated text detectors // Journal of AI Evaluation. 2024. Vol. 3. P. 77–96.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Каримов Т. Р., Лебедева А. В. Языковые модели в научной коммуникации: риски и редакционные политики // Научный редактор и издатель. 2024. Т. 9, № 2. С. 112–125.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Holt E., Nguyen T. Bias of AI-text detectors against non-native writers // Language and Technology Review. 2023. Vol. 12, no. 4. P. 300–318.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Абдуллаев С. Р. Корпусы для оценки детекторов сгенерированного текста: требования и практика // Вычислительная лингвистика и интеллектуальные технологии. 2025. Т. 4, № 1. С. 15–30.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

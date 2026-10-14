@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="kk">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Пәнаралық зерттеулер журналы (демонұсқа)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems платформасындағы журналдың демонұсқасы</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ЖШС</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Зерттеу мақаласы</subject></subj-group></article-categories>
+<title-group>
+<article-title>Қашықтан жұмыс және өңірлік еңбек нарықтары: онлайн бос жұмыс орындары деректері бойынша талдау</article-title>
+<trans-title-group xml:lang="en"><trans-title>Remote Work and Regional Labour Markets: Evidence from Online Vacancies</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Громов</surname><given-names>Павел</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>p.gromov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Беккер</surname><given-names>Лаура</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Becker</surname><given-names>Laura</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>«Меридиан» экономика және кеңістіктік даму институты</institution>, <country country="RU">Ресей</country></aff>
+<aff id="aff2"><institution>«Остланд» қолданбалы экономикалық зерттеулер орталығы</institution>, <country country="DE">Германия</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>12</fpage><lpage>14</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-21"><day>21</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-14"><day>14</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Павел Громов, Лаура Беккер</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензиясы бойынша таратылады</license-p></license></permissions>
+<abstract xml:lang="kk"><p>2020 жылдан кейін қашықтан жұмыстың таралуы шағын қалалардың тұрғындарына астаналық жұмыс берушілер орналастырған бос жұмыс орындарына қол жеткізуге мүмкіндік бере отырып, еңбек нарықтарының кеңістіктік құрылымын өзгертуі мүмкін. Ірі онлайн платформада 2019–2023 жылдары жарияланған 2,4 миллион жұмыс туралы хабарландыру негізінде бұл мақалада қашықтан жұмыс орындарының еңбекке сұранысты өңірлер арасында қаншалықты қайта бөлетіні бағаланады. Хабарландырулар сөздікке негізделген модель арқылы жіктеліп, кейін кездейсоқ іріктеме қолмен тексерілді. Толық қашықтан жұмыс орындарының үлесі 2019 жылғы 2,1%-дан 2023 жылы 9,7%-ға дейін өсті, бұл өсім негізінен ақпараттық технологиялар, маркетинг және қаржылық қызметтер салаларына шоғырланды. «Айырмалар айырмасы» әдісі бұл салалардағы жұмыспен қамту үлесі жоғары өңірлерде ұсынылатын орташа жалақының салыстырмалы өңірлерге қарағанда 4,3%-ға жылдамырақ өскенін көрсетеді. Сонымен қатар қашықтан жұмыс орындары тәжірибе мен білімге жоғарырақ талаптар қояды, бұл қызметкерлердің едәуір бөлігі үшін қолжетімділікті шектейді. Өңіраралық жалақы айырмашылықтарына теңестіруші әсер статистикалық тұрғыдан маңызды, бірақ орташа деңгейде. Нәтижелер қашықтан жұмыстың қайта даярлау бағдарламаларымен және цифрлық инфрақұрылымды дамытумен ұштастырылған жағдайда ғана өңірлік саясаттың құралы бола алатынын көрсетеді.</p></abstract>
+<trans-abstract xml:lang="en"><p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="kk" kwd-group-type="author"><kwd>қашықтан жұмыс</kwd><kwd>өңірлік еңбек нарығы</kwd><kwd>онлайн бос жұмыс орындары</kwd><kwd>жалақы</kwd><kwd>айырмалар айырмасы</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>remote work</kwd><kwd>regional labour market</kwd><kwd>online vacancies</kwd><kwd>wages</kwd><kwd>difference-in-differences</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Кіріспе</title>
+<p>2020 жылы қашықтан жұмысқа жедел көшу бастапқыда пандемияға уақытша жауап ретінде қарастырылды. Төрт жылдан кейін жұмыс берушілердің едәуір бөлігі толық қашықтан жұмыс орындарын ұсынуды жалғастыруда, бұл орналасқан жердің жоғары жалақылы жұмысқа қол жеткізуді әлі де айқындай ма деген сұрақты туындатады. Егер шағын қалалардың қызметкерлері астанада орналастырылған бос жұмыс орындары үшін бәсекеге түсе алса, өңіраралық жалақы алшақтықтары физикалық көші-қонсыз-ақ қысқаруы мүмкін.</p>
+<p>Бұл мәселе бойынша қолда бар деректер негізінен қызметкерлер арасындағы сауалнамалардан алынған. Онлайн бос жұмыс орындары туралы деректер уақыттық және кеңістіктік ажыратымдылығы жоғары, сұраныс тарапынан толықтырушы көзқарас ұсынады. Бұл мақалада осындай деректер қашықтан жұмыс орындарының өсуін құжаттау, олардың талаптарын сипаттау және олардың өңірлік жалақы динамикасына әсерін бағалау үшін пайдаланылады.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалдар мен әдістер</title>
+<p>Деректер жиынтығы 2019 жылғы қаңтар мен 2023 жылғы желтоқсан аралығында ірі жұмыс платформасында жарияланған 2,4 миллион хабарландыруды қамтиды. Әр жазбада лауазым атауы, сипаттамасы, өңір, сала, ұсынылатын жалақы ауқымы және талаптар бар. Қашықтан жұмыс орындары 46 сөз тіркесінен тұратын сөздік арқылы анықталды; қолмен кодталған 2 000 хабарландырудан тұратын кездейсоқ іріктеме 0,94 дәлдікті (precision) және 0,91 толықтықты (recall) көрсетті.</p>
+<p>Жалақыға әсерді бағалау үшін өңірлер қашықтан жұмыс қарқынды салалардағы пандемияға дейінгі жұмыспен қамту үлесі бойынша бөлінді. Өңір мен айдың тіркелген әсерлері бар «айырмалар айырмасы» моделі бос жұмыс орындарының кәсіптік құрамын бақылай отырып, 2020 жылғы наурызға дейінгі және одан кейінгі ұсынылатын медианалық жалақының өзгерісін салыстырады.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Нәтижелер</title>
+<p>Толық қашықтан жұмыс орындарының үлесі 2019 жылғы 2,1%-дан 2023 жылы 9,7%-ға дейін тұрақты өсті (1-сурет). Ең қарқынды өсім ақпараттық технологияларда байқалды, онда қашықтан жұмыс орындары барлық хабарландырулардың 31%-ына жетті, одан кейін маркетинг пен қаржы салалары тұр. Өңдеу өнеркәсібінде, бөлшек саудада және денсаулық сақтауда бұл үлес 2%-дан төмен күйінде қалды.</p>
+<fig id="f1" position="float"><caption><p>1-сурет. Жылдар бойынша толық қашықтан жұмыс орындарының үлесі, %</p></caption></fig>
+<p>1-кестеде негізгі бағалаулар келтірілген. Қашықтан жұмыс қарқынды салалардың әсері жоғары өңірлерде ұсынылатын медианалық жалақы әсері төмен өңірлерге қарағанда 4,3%-ға көбірек өсті. Қашықтан жұмыс орындары жоғары білімді талап етуі 1,6 есе жиі болды және орта есеппен 1,2 жылға артық жұмыс тәжірибесін талап етті.</p>
+<table-wrap id="t1" position="float"><caption><p>1-кесте. «Айырмалар айырмасы» әдісімен алынған бағалаулар (тәуелді айнымалы — ұсынылатын медианалық жалақының логарифмі)</p></caption><table><thead><tr><th>Спецификация</th><th>Бағалау</th><th>Стандартты қате</th><th>N (өңір-айлар)</th></tr></thead><tbody><tr><td>Базалық</td><td>0.043</td><td>0.012</td><td>4,980</td></tr><tr><td>+ кәсіптік бақылау айнымалылары</td><td>0.037</td><td>0.011</td><td>4,980</td></tr><tr><td>Астаналық өңірді есептемегенде</td><td>0.041</td><td>0.013</td><td>4,920</td></tr><tr><td>Плацебо (2018 жылғы үзіліс)</td><td>0.004</td><td>0.010</td><td>4,980</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Талқылау</title>
+<p>Нәтижелеріміз қашықтан жұмыстың өңірлік жалақыға шынымен де теңестіруші қысым жасайтынын, бірақ оның ауқымы орташа екенін көрсетеді. Әсер қашықтан жұмыс қарқынды кәсіптерде істейтін қызметкерлер қоры бұрыннан бар өңірлерге шоғырланған, бұл қашықтан жұмыстың жаңа мүмкіндіктер жасаудан гөрі қолда бар адами капиталды күшейтетінін меңзейді.</p>
+<p>Қашықтан жұмыс орындарының біліктілікке қоятын жоғары талаптары — негізгі шектеу. Цифрлық инфрақұрылымға инвестицияларды қайта даярлаумен ұштастыратын саясат шаралары қашықтан жұмыстың әлеуетін кең ауқымды пайдаға айналдыруы ықтималырақ. Зерттеудің шектеуі — бос жұмыс орындары туралы деректердің нақты төленген жалақыны емес, ұсынылатын жалақыны көрсетуі.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Қорытынды</title>
+<p>Қашықтан жұмыс орындары еңбек нарығының тұрақты белгісіне айналды және өңіраралық жалақы алшақтықтарын шамалы қысқартады. Алайда олардың пайдасы негізінен жоғары білікті қызметкерлерге тиеді, ал олардың өңірлік даму құралы ретіндегі рөлі толықтырушы саясат шараларына байланысты.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Әдебиеттер тізімі</title>
+<ref id="r1"><mixed-citation>Angrist J. D., Pischke J.-S. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009. 392 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Moretti E. The New Geography of Jobs. Boston: Houghton Mifflin Harcourt, 2012. 294 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Gromov P. A. Online vacancy data as a source of regional labour market statistics // Regional Economics Review. 2021. Vol. 14, no. 2. P. 55–73.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Becker L., Vogt H. Remote-eligible jobs and the spatial distribution of labour demand // Journal of Labour and Space. 2022. Vol. 8, no. 1. P. 1–24.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Громов П. А., Седова Е. К. Межрегиональная дифференциация заработной платы: факторы и тенденции // Пространственная экономика и политика. 2020. № 3. С. 22–40.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindgren A., Torres M. Skill requirements in remote job postings // Labour Market Analytics. 2023. Vol. 5. P. 140–158.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седова Е. К. Цифровая инфраструктура и занятость в малых городах. М.: Меридиан, 2022. 168 с.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Hartmann F. Text classification of job advertisements: a practical comparison // Computational Social Science Letters. 2021. Vol. 3, no. 4. P. 88–101.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

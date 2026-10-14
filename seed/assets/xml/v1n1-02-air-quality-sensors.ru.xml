@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="ru">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Вестник междисциплинарных исследований (демоверсия)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демоверсия журнала на Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>ООО «Цифра»</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Научная статья</subject></subj-group></article-categories>
+<title-group>
+<article-title>Калибровка недорогих датчиков PM2.5 методами машинного обучения в условиях резко континентального климата</article-title>
+<trans-title-group xml:lang="en"><trans-title>Machine-Learning Calibration of Low-Cost PM2.5 Sensors in a Sharply Continental Climate</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Каримов</surname><given-names>Тимур</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Karimov</surname><given-names>Timur</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>t.karimov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Василенко</surname><given-names>Ольга</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vasilenko</surname><given-names>Olga</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Волжский институт прикладной аналитики</institution>, <country country="RU">Россия</country></aff>
+<aff id="aff2"><institution>НИИ общественного здоровья «Вита»</institution>, <country country="RU">Россия</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>9</fpage><lpage>11</lpage>
+<history><date date-type="received" iso-8601-date="2024-09-30"><day>30</day><month>09</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-03"><day>03</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Тимур Каримов, Ольга Василенко</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Распространяется по лицензии CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="ru"><p>Недорогие оптические датчики мелкодисперсных частиц позволяют существенно увеличить плотность сети мониторинга качества воздуха, однако их показания сильно зависят от влажности и температуры и систематически отклоняются от референтных измерений. В работе сравниваются методы калибровки таких датчиков в условиях резко континентального климата с большой годовой амплитудой температур. В течение 14 месяцев восемь датчиков были размещены рядом с референтной станцией гравиметрического типа; собрано более 76 тыс. часовых наблюдений. Сопоставлены линейная регрессия, множественная регрессия с поправкой на относительную влажность, случайный лес и градиентный бустинг. Качество оценивалось с помощью блочной кросс-валидации по неделям, исключающей утечку информации между обучающей и тестовой выборками. Без калибровки средняя абсолютная ошибка составила 11,8 мкг/м³, после линейной коррекции — 6,4 мкг/м³, а градиентный бустинг снизил её до 3,1 мкг/м³. Наиболее важными признаками оказались относительная влажность, температура и показания соседних датчиков. Модели, обученные только на летних данных, плохо переносились на зимний период, что подчёркивает необходимость круглогодичной калибровки. Сделан вывод о том, что недорогие датчики после калибровки методами машинного обучения пригодны для оценки суточной динамики загрязнения и выявления локальных источников. Код и обезличенные данные открыты для повторного использования.</p></abstract>
+<trans-abstract xml:lang="en"><p>Low-cost optical sensors of fine particulate matter can substantially increase the density of air-quality monitoring networks, but their readings depend strongly on humidity and temperature and deviate systematically from reference measurements. This study compares calibration methods for such sensors in a sharply continental climate with a large annual temperature range. For 14 months, eight sensors were co-located with a gravimetric reference station, yielding more than 76,000 hourly observations. Linear regression, multiple regression with a relative-humidity correction, random forest and gradient boosting were compared. Performance was assessed with weekly blocked cross-validation that prevents information leakage between training and test samples. Without calibration, the mean absolute error was 11.8 µg/m³; after linear correction it fell to 6.4 µg/m³, and gradient boosting reduced it to 3.1 µg/m³. The most important features were relative humidity, temperature and the readings of neighbouring sensors. Models trained on summer data alone transferred poorly to the winter period, underlining the need for year-round calibration. We conclude that, once calibrated with machine-learning methods, low-cost sensors are suitable for assessing the diurnal dynamics of pollution and identifying local sources. The code and anonymised data are openly available for reuse.</p></trans-abstract>
+<kwd-group xml:lang="ru" kwd-group-type="author"><kwd>качество воздуха</kwd><kwd>PM2.5</kwd><kwd>недорогие датчики</kwd><kwd>калибровка</kwd><kwd>градиентный бустинг</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>air quality</kwd><kwd>PM2.5</kwd><kwd>low-cost sensors</kwd><kwd>calibration</kwd><kwd>gradient boosting</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Введение</title>
+<p>Мелкодисперсные частицы PM2.5 — один из главных факторов риска для здоровья, связанных с загрязнением атмосферного воздуха. Референтные станции мониторинга дороги и немногочисленны: в типичном городе с населением полмиллиона человек их одна-две. Недорогие оптические датчики стоимостью в несколько тысяч рублей позволяют создать плотную сеть, но их показания требуют калибровки.</p>
+<p>Основная причина погрешностей — гигроскопический рост частиц при высокой влажности, из-за которого датчик завышает массовую концентрацию. В резко континентальном климате к этому добавляются низкие зимние температуры, влияющие на работу электроники. Цель работы — сравнить методы калибровки и оценить их переносимость между сезонами.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалы и методы</title>
+<p>Восемь датчиков одной модели установлены на крыше павильона референтной станции на высоте 3 м. Период наблюдений — с октября 2022 по ноябрь 2023 г. Данные агрегированы до часовых значений; часы с неполными записями (менее 45 минут) исключены. Итоговая выборка — 76 412 пар наблюдений.</p>
+<p>Сравнивались четыре модели: простая линейная регрессия по сырому сигналу; множественная регрессия с относительной влажностью, температурой и их взаимодействием; случайный лес (500 деревьев); градиентный бустинг (глубина 6, скорость обучения 0,05). Для оценки качества использована блочная кросс-валидация: данные разбивались на недельные блоки, и каждый блок поочерёдно служил тестовой выборкой.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Результаты</title>
+<p>Результаты сравнения приведены в табл. 1 и на рис. 1. Все методы калибровки существенно уменьшают ошибку; разница между линейной регрессией с поправкой на влажность и ансамблевыми методами особенно велика при относительной влажности выше 80 %.</p>
+<fig id="f1" position="float"><caption><p>Рис. 1. Средняя абсолютная ошибка (MAE) различных методов калибровки, мкг/м³</p></caption></fig>
+<p>При обучении только на летних данных и тестировании на зимних средняя абсолютная ошибка градиентного бустинга возрастала до 7,9 мкг/м³, что лишь немного лучше линейной коррекции. Добавление в обучающую выборку хотя бы одного зимнего месяца снижало ошибку до 3,6 мкг/м³.</p>
+<table-wrap id="t1" position="float"><caption><p>Таблица 1. Качество методов калибровки (блочная кросс-валидация по неделям)</p></caption><table><thead><tr><th>Метод</th><th>MAE, мкг/м³</th><th>RMSE, мкг/м³</th><th>R²</th></tr></thead><tbody><tr><td>Без калибровки</td><td>11,8</td><td>17,2</td><td>0,58</td></tr><tr><td>Линейная регрессия</td><td>6,4</td><td>9,9</td><td>0,74</td></tr><tr><td>Линейная + влажность</td><td>4,7</td><td>7,3</td><td>0,85</td></tr><tr><td>Случайный лес</td><td>3,4</td><td>5,6</td><td>0,91</td></tr><tr><td>Градиентный бустинг</td><td>3,1</td><td>5,1</td><td>0,93</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Обсуждение</title>
+<p>Полученные значения ошибки после калибровки сопоставимы с допусками для индикативных измерений и позволяют использовать сеть недорогих датчиков для оценки суточных профилей и выявления локальных источников — котельных, автомагистралей, частного сектора с печным отоплением.</p>
+<p>Сезонная непереносимость моделей — важное практическое ограничение. Калибровка, выполненная летом, может давать систематические ошибки зимой, когда загрязнение наиболее опасно. Мы рекомендуем как минимум годичный период совместных измерений перед развёртыванием сети.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Заключение</title>
+<p>Ансамблевые методы машинного обучения снижают ошибку недорогих датчиков PM2.5 почти в четыре раза. Ключевое условие корректной калибровки — наличие в обучающей выборке данных за все сезоны года.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Список литературы</title>
+<ref id="r1"><mixed-citation>Breiman L. Random forests // Machine Learning. 2001. Vol. 45, no. 1. P. 5–32.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Friedman J. H. Greedy function approximation: a gradient boosting machine // Annals of Statistics. 2001. Vol. 29, no. 5. P. 1189–1232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Каримов Т. Р. Блочная кросс-валидация для пространственно-временных данных: практическое руководство // Прикладная аналитика. 2022. Т. 6, № 3. С. 41–58.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Holloway R., Nakamura E. Humidity effects on optical particle counters: a field evaluation // Atmospheric Measurement Notes. 2019. Vol. 12. P. 233–248.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Василенко О. П., Аркадьева Н. С. Кратковременное воздействие PM2.5 и обращаемость за медицинской помощью: обзор исследований // Экология человека и среда. 2021. № 7. С. 4–19.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Petrescu D., Olsen K. Transferability of calibration models for low-cost air sensors across seasons // Environmental Sensing Review. 2022. Vol. 4, no. 2. P. 77–95.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Захаров Л. Е. Сети мониторинга атмосферного воздуха: принципы проектирования. Новобор: Академия, 2020. 184 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

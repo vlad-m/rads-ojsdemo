@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="it">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Rivista di ricerca interdisciplinare (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Rivista dimostrativa su Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra S.r.l.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Comunicazione breve</subject></subj-group></article-categories>
+<title-group>
+<article-title>Riutilizzo delle acque grigie in un complesso residenziale plurifamiliare: una valutazione pilota</article-title>
+<trans-title-group xml:lang="en"><trans-title>Greywater Reuse in a Multi-Apartment Residential Block: A Pilot Assessment</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Dyakonov</surname><given-names>Roman</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Dyakonov</surname><given-names>Roman</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>r.dyakonov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Safina</surname><given-names>Alina</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Safina</surname><given-names>Alina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Scuola superiore di studi urbani «Polis»</institution>, <country country="RU">Russia</country></aff>
+<aff id="aff2"><institution>Istituto del Volga di analitica applicata</institution>, <country country="RU">Russia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>17</fpage><lpage>19</lpage>
+<history><date date-type="received" iso-8601-date="2025-05-14"><day>14</day><month>05</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-08-05"><day>05</day><month>08</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Roman Dyakonov, Alina Safina</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Distribuito con licenza CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="it"><p>Il riutilizzo delle acque reflue domestiche poco inquinate, o acque grigie, è considerato uno dei modi per ridurre il carico sui sistemi urbani di approvvigionamento idrico e di fognatura. La presente comunicazione breve illustra i risultati dell’esercizio pilota di un sistema di trattamento delle acque grigie in un complesso residenziale di tre edifici plurifamiliari (412 residenti). Le acque grigie provenienti da docce e lavabi venivano trattate in un impianto compatto comprendente filtrazione meccanica, bioreattore a membrana e disinfezione a raggi ultravioletti, e quindi destinate allo scarico dei WC e all’irrigazione delle aree verdi circostanti. Per 12 mesi i volumi sono stati registrati quotidianamente e la qualità dell’acqua trattata è stata monitorata settimanalmente. Il riutilizzo ha ridotto il consumo di acqua potabile in media del 27% e fino al 34% nei mesi estivi grazie all’irrigazione. L’acqua trattata ha costantemente rispettato gli standard per gli usi non potabili in termini di torbidità, domanda biochimica di ossigeno e parametri microbiologici. I costi operativi specifici sono stati pari a circa 38 rubli per metro cubo e il periodo di ammortamento alle tariffe attuali è stimato in 9–11 anni. Un’indagine tra i residenti ha mostrato un elevato livello di accettazione della tecnologia (82% di giudizi positivi), a condizione che l’acqua sia priva di odori e di colorazione. Se ne conclude che i sistemi di riutilizzo delle acque grigie meritano di essere inclusi nei progetti di nuova edilizia residenziale.</p></abstract>
+<trans-abstract xml:lang="en"><p>The reuse of lightly polluted domestic wastewater, or greywater, is regarded as one way to reduce the load on urban water supply and sewerage systems. This short communication presents the results of a pilot operation of a greywater treatment system in a residential block of three multi-apartment buildings (412 residents). Greywater from showers and washbasins was treated in a compact unit comprising mechanical filtration, a membrane bioreactor and ultraviolet disinfection, and then supplied for toilet flushing and irrigation of the surrounding grounds. Over 12 months, volumes were recorded daily and the quality of treated water was monitored weekly. Reuse reduced potable water consumption by 27% on average and by up to 34% in summer months owing to irrigation. Treated water consistently met the standards for non-potable water supply in terms of turbidity, biochemical oxygen demand and microbiological indicators. Specific operating costs were about 38 roubles per cubic metre, and the payback period at current tariffs is estimated at 9–11 years. A survey of residents showed a high level of acceptance of the technology (82% positive ratings), provided the water had no odour or discolouration. We conclude that greywater reuse systems are worth including in new residential development projects.</p></trans-abstract>
+<kwd-group xml:lang="it" kwd-group-type="author"><kwd>acque grigie</kwd><kwd>riutilizzo delle acque</kwd><kwd>bioreattore a membrana</kwd><kwd>risparmio idrico</kwd><kwd>edilizia residenziale</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>greywater</kwd><kwd>water reuse</kwd><kwd>membrane bioreactor</kwd><kwd>water saving</kwd><kwd>residential development</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introduzione</title>
+<p>Circa un terzo dell’acqua potabile consumata negli edifici residenziali viene impiegato per lo scarico dei WC e per l’irrigazione, usi per i quali non è necessaria la qualità potabile. Le acque grigie provenienti da docce e lavabi costituiscono fino al 60% degli scarichi domestici e sono relativamente poco inquinate, il che ne fa una fonte interessante per gli usi non potabili.</p>
+<p>Scopo della comunicazione è presentare i risultati di un anno di esercizio pilota di un sistema di riutilizzo delle acque grigie in un complesso residenziale plurifamiliare e valutarne l’efficacia, l’economicità e la percezione da parte dei residenti.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiali e metodi</title>
+<p>Il complesso pilota comprende tre edifici di dieci piani con reti di scarico interne separate per le acque grigie e le acque nere. L’impianto di trattamento, con una capacità di 25 m³/giorno, è collocato in un locale seminterrato. I volumi di acque grigie in ingresso, di acqua trattata e di integrazione dalla rete urbana sono stati registrati mediante misuratori di portata automatici; la qualità dell’acqua trattata è stata controllata settimanalmente da un laboratorio accreditato. Al termine del periodo è stata condotta un’indagine mediante questionario tra i residenti (n = 163).</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Risultati</title>
+<p>Il volume medio giornaliero di acqua riutilizzata è stato di 14,6 m³. La quota mensile di sostituzione dell’acqua potabile è illustrata nella fig. 1: i valori minimi si registrano in inverno (22–24%), quelli massimi a luglio e agosto (33–34%). I parametri di qualità dell’acqua trattata sono riportati nella tab. 1.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Quota di sostituzione dell’acqua potabile con acque grigie trattate per mese, %</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>Tabella 1. Qualità dell’acqua trattata (media su 52 settimane)</p></caption><table><thead><tr><th>Parametro</th><th>Acque grigie</th><th>Dopo il trattamento</th><th>Valore limite</th></tr></thead><tbody><tr><td>Torbidità, FNU</td><td>68</td><td>0,9</td><td>≤ 2</td></tr><tr><td>BOD₅, mg/l</td><td>142</td><td>4,1</td><td>≤ 10</td></tr><tr><td>Solidi sospesi, mg/l</td><td>95</td><td>&lt; 2</td><td>≤ 10</td></tr><tr><td>E. coli, UFC/100 ml</td><td>10⁴–10⁵</td><td>non rilev.</td><td>assenza</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussione</title>
+<p>La quota di sostituzione ottenuta è vicina al potenziale teorico per questa tipologia edilizia. L’efficienza economica dipende fortemente dalle tariffe idriche: con il loro aumento il periodo di ammortamento si riduce a 6–7 anni. È importante che i residenti percepiscano positivamente la tecnologia; tuttavia, qualsiasi alterazione delle proprietà organolettiche dell’acqua riduce rapidamente la fiducia, per cui l’affidabilità della disinfezione e del monitoraggio è un fattore critico.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusioni</title>
+<p>Il sistema di riutilizzo delle acque grigie ha consentito di ridurre di un quarto il consumo di acqua potabile, con una conformità costante dell’acqua trattata ai valori limite. La tecnologia può essere raccomandata per la nuova edilizia residenziale plurifamiliare.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Bibliografia</title>
+<ref id="r1"><mixed-citation>Дьяконов Р. В. Децентрализованные системы водоотведения в жилой застройке: зарубежный опыт // Городское хозяйство и инфраструктура. 2022. № 6. С. 33–47.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Eriksson E., Auffarth K., Henze M., Ledin A. Characteristics of grey wastewater // Urban Water. 2002. Vol. 4, no. 1. P. 85–104.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Сафина А. Р., Дьяконов Р. В. Экономическая оценка проектов водосбережения в многоквартирных домах // Пространственная экономика и политика. 2023. № 2. С. 58–72.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Okoro N., Lindahl S. Membrane bioreactors for decentralised greywater treatment: a performance review // Water Technology Letters. 2021. Vol. 13. P. 140–158.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Mendes T., Haas R. Public acceptance of recycled water for domestic uses // Journal of Water and Society. 2020. Vol. 8, no. 2. P. 99–117.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Дьяконов Р. В. Водный баланс жилого квартала: методика расчёта. Новобор: Полис, 2021. 92 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

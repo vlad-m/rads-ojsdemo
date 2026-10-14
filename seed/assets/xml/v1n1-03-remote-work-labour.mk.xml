@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="mk">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Списание за интердисциплинарни истражувања (демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демо-списание на Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>„Цифра“ ДОО</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Научна статија</subject></subj-group></article-categories>
+<title-group>
+<article-title>Работата од далечина и регионалните пазари на труд: докази од онлајн-огласите за работа</article-title>
+<trans-title-group xml:lang="en"><trans-title>Remote Work and Regional Labour Markets: Evidence from Online Vacancies</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Громов</surname><given-names>Павел</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>p.gromov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Беккер</surname><given-names>Лаура</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Becker</surname><given-names>Laura</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Институт за економија и просторен развој „Меридијан“</institution>, <country country="RU">Русија</country></aff>
+<aff id="aff2"><institution>Центар за применети економски истражувања „Остланд“</institution>, <country country="DE">Германија</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>12</fpage><lpage>14</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-21"><day>21</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-14"><day>14</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Павел Громов, Лаура Беккер</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Лиценцирано под CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="mk"><p>Ширењето на работата од далечина по 2020 година има потенцијал да ја преобликува просторната структура на пазарите на труд, овозможувајќи им на жителите на помалите градови пристап до работните места што ги огласуваат работодавачите во главниот град. Користејќи 2,4 милиони огласи за работа објавени на голема онлајн-платформа во периодот 2019–2023, оваа статија проценува во која мера огласите за работа од далечина ја прераспределуваат побарувачката за труд меѓу регионите. Огласите беа класифицирани со модел заснован на речник, по што следеше рачна валидација на случаен примерок. Уделот на огласите за работа целосно од далечина се зголеми од 2,1% во 2019 година на 9,7% во 2023 година, при што растот беше концентриран во информатичката технологија, маркетингот и финансиските услуги. Дизајнот „разлика во разликите“ покажува дека во регионите со поголем удел на вработеност во овие дејности просечната понудена плата растела за 4,3% побрзо отколку во споредливите региони. Истовремено, огласите за работа од далечина поставуваат повисоки барања за искуство и образование, што го ограничува пристапот за голем дел од работниците. Изедначувачкиот ефект врз меѓурегионалните разлики во платите е статистички значаен, но умерен. Резултатите укажуваат дека работата од далечина може да послужи како инструмент на регионалната политика само ако се комбинира со програми за преквалификација и развој на дигиталната инфраструктура.</p></abstract>
+<trans-abstract xml:lang="en"><p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="mk" kwd-group-type="author"><kwd>работа од далечина</kwd><kwd>регионален пазар на труд</kwd><kwd>онлајн-огласи за работа</kwd><kwd>плати</kwd><kwd>разлика во разликите</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>remote work</kwd><kwd>regional labour market</kwd><kwd>online vacancies</kwd><kwd>wages</kwd><kwd>difference-in-differences</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Вовед</title>
+<p>Брзиот премин кон работа од далечина во текот на 2020 година првично беше сметан за привремен одговор на пандемијата. Четири години подоцна, значителен дел од работодавачите продолжуваат да нудат работни места целосно од далечина, што го отвора прашањето дали локацијата сè уште го определува пристапот до добро платени работни места. Ако работниците од помалите градови можат да конкурираат за огласите објавени во главниот град, меѓурегионалните разлики во платите би можеле да се намалат без физичка миграција.</p>
+<p>Постојните докази за ова прашање потекнуваат главно од анкети на работниците. Податоците за онлајн-огласите за работа нудат дополнителна перспектива од страната на побарувачката со висока временска и просторна резолуција. Оваа статија користи такви податоци за да го документира растот на огласите за работа од далечина, да ги карактеризира нивните барања и да го процени нивниот ефект врз регионалната динамика на платите.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материјали и методи</title>
+<p>Збирката податоци опфаќа 2,4 милиони огласи објавени меѓу јануари 2019 и декември 2023 година на голема платформа за вработување. Секој запис го содржи називот на работното место, описот, регионот, дејноста, понудениот опсег на плата и барањата. Огласите за работа од далечина беа идентификувани со речник од 46 фрази; рачно кодираниот случаен примерок од 2.000 огласи покажа прецизност од 0,94 и одзив (recall) од 0,91.</p>
+<p>За проценка на ефектот врз платите, регионите беа поделени според нивниот предпандемиски удел на вработеност во дејностите со висок потенцијал за работа од далечина. Моделот „разлика во разликите“ со фиксни ефекти за регионот и месецот го споредува развојот на медијаната на понудената плата пред и по март 2020 година, контролирајќи го професионалниот состав на огласите.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Резултати</title>
+<p>Уделот на огласите за работа целосно од далечина постојано растеше, од 2,1% во 2019 година на 9,7% во 2023 година (сл. 1). Растот беше најсилен во информатичката технологија, каде што работните места од далечина достигнаа 31% од сите огласи, а потоа следуваат маркетингот и финансиите. Во преработувачката индустрија, трговијата на мало и здравството уделот остана под 2%.</p>
+<fig id="f1" position="float"><caption><p>Сл. 1. Удел на огласите за работа целосно од далечина по години, %</p></caption></fig>
+<p>Во табела 1 се прикажани главните проценки. Во регионите со висока изложеност на дејностите со висок потенцијал за работа од далечина, медијаната на понудената плата се зголеми за 4,3% повеќе отколку во регионите со ниска изложеност. Кај огласите за работа од далечина веројатноста да се бара високо образование беше 1,6 пати поголема, а во просек се бараа 1,2 години повеќе работно искуство.</p>
+<table-wrap id="t1" position="float"><caption><p>Табела 1. Проценки според методот „разлика во разликите“ (зависна променлива: логаритам од медијаната на понудената плата)</p></caption><table><thead><tr><th>Спецификација</th><th>Проценка</th><th>Станд. грешка</th><th>N (регион-месеци)</th></tr></thead><tbody><tr><td>Основна</td><td>0.043</td><td>0.012</td><td>4,980</td></tr><tr><td>+ контроли за занимањето</td><td>0.037</td><td>0.011</td><td>4,980</td></tr><tr><td>Без регионот на главниот град</td><td>0.041</td><td>0.013</td><td>4,920</td></tr><tr><td>Плацебо (прекин во 2018)</td><td>0.004</td><td>0.010</td><td>4,980</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Дискусија</title>
+<p>Нашите резултати покажуваат дека работата од далечина навистина врши изедначувачки притисок врз регионалните плати, но со умерен обем. Ефектот е концентриран во регионите што веќе имале резерва на работници во занимања со висок потенцијал за работа од далечина, што укажува дека работата од далечина го засилува постојниот човечки капитал наместо да создава нови можности.</p>
+<p>Повисоките барања за квалификации кај огласите за работа од далечина се клучно ограничување. Мерките на политиката што ги комбинираат инвестициите во дигиталната инфраструктура со преквалификацијата имаат поголеми изгледи потенцијалот на работата од далечина да го претворат во широко распределени придобивки. Ограничување на студијата е тоа што податоците од огласите ги одразуваат понудените, а не реално остварените плати.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Заклучок</title>
+<p>Огласите за работа од далечина станаа трајна одлика на пазарот на труд и умерено ги намалуваат меѓурегионалните разлики во платите. Нивните придобивки, сепак, им припаѓаат главно на високо квалификуваните работници, а нивната улога како алатка за регионален развој зависи од дополнителните политики.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Библиографија</title>
+<ref id="r1"><mixed-citation>Angrist J. D., Pischke J.-S. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009. 392 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Moretti E. The New Geography of Jobs. Boston: Houghton Mifflin Harcourt, 2012. 294 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Gromov P. A. Online vacancy data as a source of regional labour market statistics // Regional Economics Review. 2021. Vol. 14, no. 2. P. 55–73.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Becker L., Vogt H. Remote-eligible jobs and the spatial distribution of labour demand // Journal of Labour and Space. 2022. Vol. 8, no. 1. P. 1–24.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Громов П. А., Седова Е. К. Межрегиональная дифференциация заработной платы: факторы и тенденции // Пространственная экономика и политика. 2020. № 3. С. 22–40.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindgren A., Torres M. Skill requirements in remote job postings // Labour Market Analytics. 2023. Vol. 5. P. 140–158.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седова Е. К. Цифровая инфраструктура и занятость в малых городах. М.: Меридиан, 2022. 168 с.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Hartmann F. Text classification of job advertisements: a practical comparison // Computational Social Science Letters. 2021. Vol. 3, no. 4. P. 88–101.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

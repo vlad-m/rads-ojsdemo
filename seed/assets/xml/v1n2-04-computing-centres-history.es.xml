@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista de Investigación Interdisciplinaria (demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revista de demostración en Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra S.R.L.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Revisión</subject></subj-group></article-categories>
+<title-group>
+<article-title>Los centros de cálculo de los años cincuenta a setenta como instituciones científicas: una revisión historiográfica</article-title>
+<trans-title-group xml:lang="en"><trans-title>Computing Centres of the 1950s–1970s as Scientific Institutions: A Historiographical Review</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Vershinin</surname><given-names>Leonid</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vershinin</surname><given-names>Leonid</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>l.vershinin@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Centro Chronos de Historia de la Ciencia y la Tecnología</institution>, <country country="RU">Rusia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-01-20"><day>20</day><month>01</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-06-10"><day>10</day><month>06</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Leonid Vershinin</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Publicado bajo licencia CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="es"><p>Los centros de cálculo, creados a mediados del siglo XX en institutos de investigación, universidades y empresas industriales, desempeñaron un papel clave en la conversión del cálculo en un instrumento autónomo de la investigación científica. Esta revisión examina cómo los historiadores de la ciencia y la tecnología han estudiado estas instituciones durante los últimos cincuenta años. A partir del análisis de 64 monografías, artículos y obras colectivas, se identifican tres enfoques historiográficos principales. El primero, técnico-biográfico, se centra en la construcción de ordenadores concretos y en la labor de sus diseñadores. El segundo, institucional, trata los centros de cálculo como organizaciones con su propia estructura, su política de personal y sus relaciones con los clientes. El tercero, surgido en las dos últimas décadas, investiga las prácticas de cálculo: cómo interactuaban los programadores, los operadores y los usuarios con las máquinas y cómo el cálculo transformó los métodos de disciplinas concretas, desde la meteorología hasta la lingüística. Los temas menos estudiados siguen siendo el trabajo cotidiano de los centros de cálculo, el papel de las mujeres programadoras y operadoras, y los centros regionales situados fuera de las grandes ciudades científicas. Se analizan por separado los problemas de la base documental, incluida la conservación de la documentación técnica, los registros de tiempo de máquina y los programas. La revisión concluye que la combinación de la investigación archivística con los métodos de la historia oral resulta prometedora mientras aún vivan los protagonistas de estos acontecimientos.</p></abstract>
+<trans-abstract xml:lang="en"><p>Computing centres, established in the mid-twentieth century at research institutes, universities and industrial enterprises, played a key role in turning computation into an independent instrument of scientific inquiry. This review examines how historians of science and technology have studied these institutions over the past fifty years. Based on an analysis of 64 monographs, articles and edited volumes, three main historiographical approaches are identified. The first, technical-biographical, focuses on the construction of particular computers and the work of their designers. The second, institutional, treats computing centres as organisations with their own structure, staffing policies and relations with clients. The third, which has emerged over the last two decades, investigates computing practices: how programmers, operators and users interacted with machines and how computation transformed the methods of individual disciplines, from meteorology to linguistics. The least studied topics remain the everyday work of computing centres, the role of women programmers and operators, and regional centres outside the largest science cities. Problems of the source base are discussed separately, including the preservation of technical documentation, machine-time logs and programs. The review concludes that combining archival research with oral history methods is promising while participants in these events are still alive.</p></trans-abstract>
+<kwd-group xml:lang="es" kwd-group-type="author"><kwd>historia de la ciencia</kwd><kwd>historia de la informática</kwd><kwd>centros de cálculo</kwd><kwd>historiografía</kwd><kwd>historia oral</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>history of science</kwd><kwd>history of computing</kwd><kwd>computing centres</kwd><kwd>historiography</kwd><kwd>oral history</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introducción</title>
+<p>La aparición de los ordenadores electrónicos a finales de los años cuarenta y en los cincuenta exigió la creación de instituciones específicas: las máquinas eran caras, ocupaban salas enteras y requerían mantenimiento las veinticuatro horas. Los centros de cálculo se convirtieron en el lugar donde confluían ingenieros, matemáticos y científicos usuarios, y donde fueron surgiendo gradualmente nuevas profesiones: la de programador y la de operador.</p>
+<p>La historiografía de los centros de cálculo se ha desarrollado a la par que la propia historia de la informática como disciplina. El objetivo de la revisión es sistematizar los enfoques del estudio de estas instituciones, identificar los temas poco estudiados y analizar el estado de la base documental.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiales y métodos</title>
+<p>El corpus de la revisión se elaboró a partir de las bibliografías de los trabajos clave y de los índices temáticos de las revistas especializadas en historia de la ciencia y la tecnología. Se incluyeron los estudios en los que el centro de cálculo (y no una máquina o una persona concreta) es objeto de análisis al menos en un capítulo o sección. El corpus final comprende 64 trabajos publicados entre 1975 y 2024.</p>
+<p>Cada trabajo se clasificó según su enfoque predominante, el tipo de fuentes utilizadas y la geografía de las instituciones estudiadas. La clasificación la realizó el autor y se volvió a comprobar un año después para evaluar su estabilidad.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Resultados</title>
+<p>La distribución de los trabajos por décadas y enfoques se muestra en la figura 1. Hasta los años noventa predominó el enfoque técnico-biográfico, representado principalmente por memorias de los protagonistas y publicaciones conmemorativas. Los estudios institucionales cobraron relevancia en las décadas de 1990 y 2000, y los estudios de prácticas, después de 2010.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Número de trabajos por década de publicación y enfoque predominante</p></caption></fig>
+<p>La tabla 1 muestra qué fuentes se utilizan en los distintos enfoques. Cabe destacar que los registros de tiempo de máquina y los textos de programas conservados se emplean solo en una pequeña parte de los trabajos, aunque permiten reconstruir la carga real de las máquinas y la composición de las tareas resueltas.</p>
+<table-wrap id="t1" position="float"><caption><p>Tabla 1. Tipos de fuentes según el enfoque historiográfico (proporción de trabajos, %)</p></caption><table><thead><tr><th>Tipo de fuente</th><th>Técnico-biogr.</th><th>Institucional</th><th>Prácticas</th></tr></thead><tbody><tr><td>Memorias y entrevistas</td><td>84</td><td>48</td><td>72</td></tr><tr><td>Documentación administrativa de las instituciones</td><td>28</td><td>86</td><td>56</td></tr><tr><td>Documentación técnica</td><td>76</td><td>31</td><td>44</td></tr><tr><td>Registros de tiempo de máquina</td><td>4</td><td>17</td><td>39</td></tr><tr><td>Textos de programas</td><td>8</td><td>3</td><td>33</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discusión</title>
+<p>El cambio de enfoques refleja la evolución general de la historia de la ciencia, desde la historia de los descubrimientos y los inventores hacia la historia social del conocimiento y la historia de las prácticas. Al mismo tiempo, los trabajos técnico-biográficos conservan su valor como fuente de información factual, sobre todo cuando se basan en documentos inaccesibles para los investigadores.</p>
+<p>Las principales lagunas se refieren a los participantes «invisibles» del trabajo de cálculo —operadores, perforistas y programadores, muchos de los cuales eran mujeres— y a los centros regionales. El tiempo disponible para grabar entrevistas con los protagonistas es limitado, lo que hace especialmente oportunos los proyectos de historia oral.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusiones</title>
+<p>La historiografía de los centros de cálculo ha recorrido el camino desde la historia de las máquinas hasta la historia de las prácticas. Para seguir avanzando es necesario ampliar la base documental —mediante la búsqueda sistemática de registros de tiempo de máquina y de programas— y combinar el trabajo de archivo con la historia oral.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Referencias</title>
+<ref id="r1"><mixed-citation>Campbell-Kelly M., Aspray W., Ensmenger N., Yost J. R. Computer: A History of the Information Machine. 3rd ed. Boulder: Westview Press, 2014. 360 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Ensmenger N. The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise. Cambridge, MA: MIT Press, 2010. 336 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Вершинин Л. А. Вычислительный центр как научное учреждение: опыт институционального анализа // Вопросы истории науки и техники. 2019. Т. 40, № 3. С. 77–96.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Вершинин Л. А., Гладкова З. Н. Журналы машинного времени как исторический источник // Архивы и история техники. 2021. № 2. С. 12–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Haigh T., Priestley M. Computing practices and the history of software: an agenda // Annals of Computing History Review. 2020. Vol. 12, no. 1. P. 3–21.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Гладкова З. Н. Женщины в программировании 1950–1970-х гг.: материалы устной истории // Наука и общество в истории. 2022. Т. 6, № 4. С. 101–118.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Abbate J. Recoding Gender: Women's Changing Participation in Computing. Cambridge, MA: MIT Press, 2012. 264 p.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мирский Е. Б. Региональные вычислительные центры и научная политика. М.: Хронос, 2018. 304 с.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Dahl K., Ostrowski P. Numerical weather prediction and the making of a computing community // Science in Context Studies. 2019. Vol. 27. P. 210–233.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

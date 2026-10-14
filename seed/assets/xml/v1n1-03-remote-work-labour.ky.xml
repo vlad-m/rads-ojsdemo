@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="ky">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Дисциплиналар аралык изилдөөлөр журналы (демоверсия)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems платформасындагы демо журнал</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ЖЧК</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Илимий макала</subject></subj-group></article-categories>
+<title-group>
+<article-title>Аралыктан иштөө жана аймактык эмгек рыноктору: онлайн вакансиялардын маалыматтары</article-title>
+<trans-title-group xml:lang="en"><trans-title>Remote Work and Regional Labour Markets: Evidence from Online Vacancies</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Громов</surname><given-names>Павел</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>p.gromov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Беккер</surname><given-names>Лаура</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Becker</surname><given-names>Laura</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>«Меридиан» экономика жана мейкиндик өнүгүү институту</institution>, <country country="RU">Россия</country></aff>
+<aff id="aff2"><institution>«Остланд» колдонмо экономикалык изилдөөлөр борбору</institution>, <country country="DE">Германия</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>12</fpage><lpage>14</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-21"><day>21</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-14"><day>14</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Павел Громов, Лаура Беккер</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензиясы боюнча таратылат</license-p></license></permissions>
+<abstract xml:lang="ky"><p>2020-жылдан кийин аралыктан иштөөнүн жайылышы чакан шаарлардын тургундарына борбордогу иш берүүчүлөрдүн вакансияларына жетүү мүмкүнчүлүгүн берүү менен эмгек рынокторунун мейкиндик түзүмүн өзгөртө алат. Бул макалада 2019–2023-жылдары ири онлайн аянтчада жарыяланган 2,4 миллион вакансия жөнүндө кулактандыруунун негизинде аралыктан иштөө вакансиялары эмгекке болгон суроо-талапты аймактар арасында канчалык деңгээлде кайра бөлүштүрөрү бааланат. Кулактандыруулар сөздүккө негизделген модель менен классификацияланып, андан кийин кокус тандоо кол менен текшерилди. Толугу менен аралыктан иштөө вакансияларынын үлүшү 2019-жылы 2,1% дан 2023-жылы 9,7% га чейин өстү, мында өсүш негизинен маалыматтык технологиялар, маркетинг жана финансылык кызматтар тармагында топтолду. «Айырмалардын айырмасы» методу бул тармактардагы иш менен камсыз болуунун үлүшү жогору аймактарда сунушталган орточо эмгек акы салыштырууга боло турган аймактарга караганда 4,3% га тезирээк өскөнүн көрсөтөт. Ошол эле учурда аралыктан иштөө вакансиялары тажрыйбага жана билимге карата жогорку талаптарды коёт, бул кызматкерлердин чоң бөлүгү үчүн жеткиликтүүлүктү чектейт. Аймактар аралык эмгек акы айырмачылыктарына тегиздөөчү таасир статистикалык жактан маанилүү, бирок орточо. Натыйжалар аралыктан иштөө кайра даярдоо программалары жана санариптик инфраструктураны өнүктүрүү менен айкалышканда гана аймактык саясаттын куралы боло аларын көрсөтөт.</p></abstract>
+<trans-abstract xml:lang="en"><p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="ky" kwd-group-type="author"><kwd>аралыктан иштөө</kwd><kwd>аймактык эмгек рыногу</kwd><kwd>онлайн вакансиялар</kwd><kwd>эмгек акы</kwd><kwd>айырмалардын айырмасы</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>remote work</kwd><kwd>regional labour market</kwd><kwd>online vacancies</kwd><kwd>wages</kwd><kwd>difference-in-differences</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Киришүү</title>
+<p>2020-жылы аралыктан иштөөгө тез өтүү алгач пандемияга убактылуу жооп катары каралган. Төрт жылдан кийин иш берүүчүлөрдүн олуттуу бөлүгү толугу менен аралыктан иштөө орундарын сунуштоону улантууда, бул жайгашкан жер дагы эле жакшы акы төлөнүүчү жумуштарга жеткиликтүүлүктү аныктайбы деген суроону жаратат. Эгерде чакан шаарлардын кызматкерлери борбордо жарыяланган вакансиялар үчүн атаандаша алышса, аймактар аралык эмгек акы айырмачылыктары физикалык миграциясыз эле кыскарышы мүмкүн.</p>
+<p>Бул маселе боюнча учурдагы маалыматтар негизинен кызматкерлерди сурамжылоодон алынган. Онлайн вакансиялардын маалыматтары убакыт жана мейкиндик боюнча жогорку чечилишке ээ болгон суроо-талап тараптан толуктоочу көз карашты сунуштайт. Бул макалада мындай маалыматтар аралыктан иштөө вакансияларынын өсүшүн документтештирүү, алардын талаптарын мүнөздөө жана алардын аймактык эмгек акы динамикасына тийгизген таасирин баалоо үчүн колдонулат.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалдар жана методдор</title>
+<p>Маалымат топтому 2019-жылдын январынан 2023-жылдын декабрына чейин ири жумуш аянтчасында жарыяланган 2,4 миллион кулактандырууну камтыйт. Ар бир жазуу кызмат ордунун аталышын, сыпаттамасын, аймагын, тармагын, сунушталган эмгек акынын диапазонун жана талаптарды камтыйт. Аралыктан иштөө вакансиялары 46 сөз айкашынан турган сөздүк менен аныкталды; кол менен коддолгон 2000 кулактандыруудан турган кокус тандоо 0,94 тактыкты жана 0,91 толуктукту көрсөттү.</p>
+<p>Эмгек акыга тийгизген таасирди баалоо үчүн аймактар пандемияга чейинки аралыктан иштөөгө ыңгайлуу тармактардагы иш менен камсыз болуунун үлүшү боюнча бөлүндү. Аймактын жана айдын туруктуу эффекттери бар «айырмалардын айырмасы» модели вакансиялардын кесиптик курамын көзөмөлдөө менен 2020-жылдын мартына чейинки жана андан кийинки медианалык сунушталган эмгек акынын өзгөрүшүн салыштырат.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Натыйжалар</title>
+<p>Толугу менен аралыктан иштөө вакансияларынын үлүшү 2019-жылы 2,1% дан 2023-жылы 9,7% га чейин туруктуу өстү (1-сүрөт). Өсүш маалыматтык технологияларда эң күчтүү болду, ал жерде аралыктан иштөө орундары бардык кулактандыруулардын 31% ына жетти, андан кийин маркетинг жана финансы турат. Өндүрүштө, чекене соодада жана саламаттык сактоодо бул үлүш 2% дан төмөн бойдон калды.</p>
+<fig id="f1" position="float"><caption><p>1-сүрөт. Жылдар боюнча толугу менен аралыктан иштөө вакансияларынын үлүшү, %</p></caption></fig>
+<p>1-таблицада негизги баалоолор берилген. Аралыктан иштөөгө ыңгайлуу тармактардын таасири жогору болгон аймактарда медианалык сунушталган эмгек акы таасири төмөн аймактарга караганда 4,3% га көбүрөөк өстү. Аралыктан иштөө вакансиялары жогорку билимди 1,6 эсе көбүрөөк талап кылды жана орточо 1,2 жыл көбүрөөк тажрыйбаны талап кылды.</p>
+<table-wrap id="t1" position="float"><caption><p>1-таблица. «Айырмалардын айырмасы» баалоолору (көз каранды өзгөрмө: медианалык сунушталган эмгек акынын логарифми)</p></caption><table><thead><tr><th>Спецификация</th><th>Баалоо</th><th>Стандарттык ката</th><th>N (аймак-айлар)</th></tr></thead><tbody><tr><td>Базалык</td><td>0.043</td><td>0.012</td><td>4,980</td></tr><tr><td>+ кесиптер боюнча көзөмөл</td><td>0.037</td><td>0.011</td><td>4,980</td></tr><tr><td>Борбордук аймакты эсепке албаганда</td><td>0.041</td><td>0.013</td><td>4,920</td></tr><tr><td>Плацебо (2018-жылдагы үзүлүш)</td><td>0.004</td><td>0.010</td><td>4,980</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Талкуу</title>
+<p>Биздин натыйжалар аралыктан иштөө аймактык эмгек акыга чындап эле тегиздөөчү басым көрсөтөрүн, бирок анын көлөмү орточо экенин көрсөтөт. Эффект аралыктан иштөөгө ыңгайлуу кесиптердеги кызматкерлердин запасы мурда эле бар болгон аймактарда топтолгон; бул аралыктан иштөө жаңы мүмкүнчүлүктөрдү түзгөндөн көрө, учурдагы адам капиталын күчөтөрүн көрсөтүп турат.</p>
+<p>Аралыктан иштөө вакансияларынын квалификацияга карата жогорку талаптары негизги чектөө болуп саналат. Санариптик инфраструктурага инвестицияларды кайра даярдоо менен айкалыштырган саясат чаралары аралыктан иштөөнүн потенциалын кеңири пайдага айландырышы ыктымалыраак. Изилдөөнүн чектөөсү — вакансиялардын маалыматтары иш жүзүндө төлөнгөн эмес, сунушталган эмгек акыны чагылдырат.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Корутунду</title>
+<p>Аралыктан иштөө вакансиялары эмгек рыногунун туруктуу өзгөчөлүгүнө айланды жана аймактар аралык эмгек акы айырмачылыктарын бир аз кыскартат. Бирок алардын пайдасы негизинен жогорку квалификациялуу кызматкерлерге тиет, ал эми алардын аймактык өнүгүүнүн куралы катары ролу толуктоочу саясат чараларына көз каранды.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Адабияттар тизмеси</title>
+<ref id="r1"><mixed-citation>Angrist J. D., Pischke J.-S. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009. 392 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Moretti E. The New Geography of Jobs. Boston: Houghton Mifflin Harcourt, 2012. 294 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Gromov P. A. Online vacancy data as a source of regional labour market statistics // Regional Economics Review. 2021. Vol. 14, no. 2. P. 55–73.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Becker L., Vogt H. Remote-eligible jobs and the spatial distribution of labour demand // Journal of Labour and Space. 2022. Vol. 8, no. 1. P. 1–24.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Громов П. А., Седова Е. К. Межрегиональная дифференциация заработной платы: факторы и тенденции // Пространственная экономика и политика. 2020. № 3. С. 22–40.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindgren A., Torres M. Skill requirements in remote job postings // Labour Market Analytics. 2023. Vol. 5. P. 140–158.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седова Е. К. Цифровая инфраструктура и занятость в малых городах. М.: Меридиан, 2022. 168 с.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Hartmann F. Text classification of job advertisements: a practical comparison // Computational Social Science Letters. 2021. Vol. 3, no. 4. P. 88–101.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

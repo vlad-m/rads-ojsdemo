@@ -78,6 +78,13 @@ for a in arts + subs:
             err(f"{s}: missing {rel}")
         elif os.path.getsize(os.path.join(ASSETS, rel)) > 600 * 1024:
             err(f"{s}: {rel} > 600 KB")
+    if a in arts:
+        for kind in ("html", "xml"):
+            if set(a.get(kind, {})) != set(a["pdf"]):
+                err(f"{s}: {kind} editions do not match the PDFs")
+            for rel in a.get(kind, {}).values():
+                if not os.path.isfile(os.path.join(ASSETS, rel)):
+                    err(f"{s}: missing {rel}")
     missing_pdf = set(J.get("contentLocales", [])) - set(a["pdf"])
     if missing_pdf:
         err(f"{s}: no PDF for {sorted(missing_pdf)}")

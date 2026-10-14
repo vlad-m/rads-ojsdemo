@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="zh">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>跨学科研究学报（演示版）</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems 演示期刊</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>齐夫拉有限责任公司</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>研究论文</subject></subj-group></article-categories>
+<title-group>
+<article-title>中等城市的城市热岛：基于 2000—2023 年 Landsat 数据的分析</article-title>
+<trans-title-group xml:lang="en"><trans-title>Urban Heat Islands in Medium-Sized Cities: An Analysis of Landsat Data for 2000–2023</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sokolovskaya@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Melnikov</surname><given-names>Artyom</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Kim</surname><given-names>Svetlana</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kim</surname><given-names>Svetlana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>诺沃博尔国立大学</institution>, <country country="RU">俄罗斯</country></aff>
+<aff id="aff2"><institution>“波利斯”城市研究高等学院</institution>, <country country="RU">俄罗斯</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>8</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-14"><day>14</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-28"><day>28</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Elena Sokolovskaya, Artyom Melnikov, Svetlana Kim</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>依据 CC BY 4.0 许可协议发布</license-p></license></permissions>
+<abstract xml:lang="zh"><p>城市热岛研究传统上集中于特大都市区，而居住着相当大比例人口的中等城市仍鲜有研究。本研究评估了温带气候区十二座人口为 10 万至 50 万的匿名城市的地表城市热岛强度及其动态变化。利用 Landsat 5、7 和 8 号卫星 2000—2023 年夏季月份的影像反演地表温度，并计算各城市建成区与郊区缓冲带之间的温差。以归一化植被指数（NDVI）、不透水面比例以及基于开放地图数据得出的建筑密度作为协变量。白天热岛平均强度为 3.4 °C，在研究期内平均上升了 0.9 °C。造成这一变化的最主要因素是新建住宅区周边地带绿地的减少，而热岛强度与人口规模的关联较弱。混合效应回归模型可解释城市间和年际间 71% 的变异。结果表明，中等城市面对过热问题的脆弱性并不低于大城市，新开发区域的规划决策是关键的适应手段。所提出的方法可利用开放数据在任何城市中复现。</p></abstract>
+<trans-abstract xml:lang="en"><p>Research on urban heat islands has traditionally focused on the largest metropolitan areas, while medium-sized cities, home to a substantial share of the population, remain poorly studied. This study assesses the intensity and dynamics of the surface urban heat island in twelve anonymised cities with populations of 100,000 to 500,000 in the temperate climate zone. Land surface temperature was retrieved from Landsat 5, 7 and 8 scenes for the summer months of 2000–2023, and for each city the difference between the built-up area and a suburban buffer zone was calculated. The normalised difference vegetation index (NDVI), the share of impervious surfaces and building density derived from open map data were used as covariates. The mean daytime heat island intensity was 3.4 °C, and over the study period it increased by 0.9 °C on average. The largest contribution to this change comes from the loss of green space in peripheral areas of new residential development, whereas the association with population size proved weak. A mixed-effects regression model explains 71% of the between-city and between-year variation. The results show that medium-sized cities are no less vulnerable to overheating than large ones and that planning decisions in new development zones are a key adaptation tool. The proposed method can be reproduced for any city using open data.</p></trans-abstract>
+<kwd-group xml:lang="zh" kwd-group-type="author"><kwd>城市热岛</kwd><kwd>遥感</kwd><kwd>Landsat</kwd><kwd>地表温度</kwd><kwd>绿色基础设施</kwd><kwd>中等城市</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>urban heat island</kwd><kwd>remote sensing</kwd><kwd>Landsat</kwd><kwd>land surface temperature</kwd><kwd>green infrastructure</kwd><kwd>medium-sized cities</kwd></kwd-group>
+<funding-group><award-group><funding-source>“地平线”跨学科研究基金会</funding-source></award-group></funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>引言</title>
+<p>城市热岛是指城市中的气温和下垫面温度高于周边农村地区的现象，它是人为因素导致气候变化的研究最为深入的表现之一。经典研究将这一现象与热量平衡的改变联系起来：以不透水面取代植被会减少蒸发，建筑群的几何形态会削弱夜间辐射，而人为热源则向近地层额外输入热量。</p>
+<p>然而，绝大多数实证估算均针对百万人口以上的城市。人口为 10 万至 50 万的中等城市常被认为“规模太小”而难以形成明显的热岛，尽管正是这些城市在过去二十年中城市外围建设十分活跃。本研究旨在填补这一空白：我们评估了十二座中等城市的地表热岛强度，并识别了 2000—2023 年间其变化的影响因素。</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>材料与方法</title>
+<p>本研究涵盖温带地区的十二座城市，文中以代码 C1—C12 表示。对于每座城市，从 Landsat 档案中选取 6 月至 8 月的无云影像（平均每座城市每年 4.6 景，共计 1,318 景）。利用热红外波段反演下垫面温度，并基于 NDVI 对地表比辐射率进行校正。</p>
+<p>热岛强度（UHII）定义为建成区与宽 5 公里的郊区缓冲环（扣除水体）的温度中位数之差。解释变量包括平均 NDVI、不透水面比例、建筑密度和人口数量。采用混合效应回归模型估计相互关系，其中城市为随机截距，年份为固定效应。</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>结果</title>
+<p>全部样本的白天平均 UHII 为 3.4 ± 0.8 °C。河谷网络发达且保留有森林公园的城市数值最低（2.1～2.6 °C），而草原地带中板式建筑密集的城市数值最高（4.5～4.9 °C）。图 1 显示了按五年期划分的平均强度变化动态。</p>
+<fig id="f1" position="float"><caption><p>图 1　按五年期划分的白天地表热岛平均强度，°C</p></caption></fig>
+<p>在回归模型（表 1）中，NDVI 的效应量最大：该指数每下降 0.1，UHII 升高 0.62 °C。不透水面比例具有显著性，但其效应在很大程度上以植被为中介。在控制形态学指标后，人口数量在统计上不显著。</p>
+<table-wrap id="t1" position="float"><caption><p>表 1　混合效应模型估计结果（因变量：UHII，°C）</p></caption><table><thead><tr><th>变量</th><th>系数</th><th>标准误</th><th>p</th></tr></thead><tbody><tr><td>NDVI（每 0.1）</td><td>−0,62</td><td>0,09</td><td>&lt;0,001</td></tr><tr><td>不透水面（每 10%）</td><td>0,31</td><td>0,11</td><td>0,006</td></tr><tr><td>建筑密度（每 1000 m²/ha）</td><td>0,18</td><td>0,07</td><td>0,012</td></tr><tr><td>人口（log）</td><td>0,07</td><td>0,15</td><td>0,640</td></tr><tr><td>条件 R²</td><td>0,71</td><td>—</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>讨论</title>
+<p>所得强度估算值与已发表的欧洲同等规模城市的数值相当，仅比特大城市群的数值低 1～1.5 °C。这对“中等城市热风险微不足道”的普遍看法提出了质疑。</p>
+<p>本研究最重要的发现是外围地区植被的主导作用。2010 年后在农业用地和荒地上建成的新住宅区绿化极少，而正是在这些地区地表温度上升最为明显。本研究的局限在于仅使用了白天影像：对健康影响最大的夜间热岛需要借助其他数据源进行研究。</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>结论</title>
+<p>中等城市会形成明显的地表热岛，且其强度不断增加。在新开发区域保护和营造绿地是最有效的适应手段。所提出的开放算法可供市政部门用于监测。</p>
+</sec>
+</body>
+<back>
+<ref-list><title>参考文献</title>
+<ref id="r1"><mixed-citation>Oke T. R. The energetic basis of the urban heat island // Quarterly Journal of the Royal Meteorological Society. 1982. Vol. 108, no. 455. P. 1–24.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Voogt J. A., Oke T. R. Thermal remote sensing of urban climates // Remote Sensing of Environment. 2003. Vol. 86, no. 3. P. 370–384.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Соколовская Е. В. Пространственные закономерности теплового режима малых и средних городов // Вопросы пространственного анализа. 2021. Т. 9, № 2. С. 34–51.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Мельников А. С., Ким С. Ю. Открытые картографические данные как источник показателей плотности застройки // Геоинформатика и общество. 2022. № 4. С. 18–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Harding P., Lindqvist M. Surface heat islands beyond the megacity: evidence from European mid-sized towns // Urban Climate Letters. 2020. Vol. 7. P. 112–127.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Орехова Т. Н. Методы восстановления температуры подстилающей поверхности по данным теплового канала. М.: Академия, 2019. 212 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Chen Y., Moreau L. Vegetation loss and the intensification of surface heat islands in suburban fringes // Journal of Applied Urban Ecology. 2021. Vol. 15, no. 3. P. 201–219.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Соколовская Е. В., Брагин И. А. Зелёная инфраструктура и адаптация городов к экстремальной жаре: обзор практик // Вестник Новоборского университета. Серия: Науки о Земле. 2023. Т. 11, № 1. С. 5–22.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

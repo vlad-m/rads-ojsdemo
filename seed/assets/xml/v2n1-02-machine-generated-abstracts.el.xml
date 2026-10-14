@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="el">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Περιοδικό Διεπιστημονικής Έρευνας (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Επιδεικτικό περιοδικό σε Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Τσίφρα» ΕΠΕ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Ερευνητικό άρθρο</subject></subj-group></article-categories>
+<title-group>
+<article-title>Εντοπισμός αποσπασμάτων παραγόμενων από μηχανή σε ρωσόγλωσσες επιστημονικές περιλήψεις</article-title>
+<trans-title-group xml:lang="en"><trans-title>Detecting Machine-Generated Passages in Russian-Language Scientific Abstracts</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author"><name name-style="western"><surname>Karimov</surname><given-names>Timur</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Karimov</surname><given-names>Timur</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Lebedeva</surname><given-names>Anna</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Lebedeva</surname><given-names>Anna</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Abdullaev</surname><given-names>Sanzhar</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Abdullaev</surname><given-names>Sanzhar</given-names></name></name-alternatives><xref ref-type="aff" rid="aff3"/><email>s.abdullaev@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Ινστιτούτο Εφαρμοσμένης Αναλυτικής του Βόλγα</institution>, <country country="RU">Ρωσία</country></aff>
+<aff id="aff2"><institution>Ινστιτούτο Γλώσσας και Επικοινωνίας «Λέξις»</institution>, <country country="RU">Ρωσία</country></aff>
+<aff id="aff3"><institution>Ινστιτούτο Υπολογιστικής Γλωσσολογίας της Σαμαρκάνδης</institution>, <country country="UZ">Ουζμπεκιστάν</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>8</fpage><lpage>10</lpage>
+<history><date date-type="received" iso-8601-date="2025-08-18"><day>18</day><month>08</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-01-27"><day>27</day><month>01</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Timur Karimov, Anna Lebedeva, Sanzhar Abdullaev</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Με άδεια CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="el"><p>Η ευρεία υιοθέτηση των μεγάλων γλωσσικών μοντέλων έφερε τα επιστημονικά περιοδικά αντιμέτωπα με το έργο του εντοπισμού κειμένων που έχουν δημιουργηθεί εν όλω ή εν μέρει με αυτοματοποιημένα μέσα. Οι περισσότεροι υπάρχοντες ανιχνευτές αναπτύχθηκαν για τα αγγλικά και η εφαρμοσιμότητά τους σε ρωσόγλωσσα επιστημονικά κείμενα είναι ελάχιστα γνωστή. Το άρθρο παρουσιάζει ένα νέο σχολιασμένο σώμα κειμένων με 12.000 περιλήψεις επιστημονικών άρθρων στα ρωσικά, εκ των οποίων οι μισές γράφτηκαν από ανθρώπους και οι άλλες μισές περιέχουν αποσπάσματα που παρήχθησαν από τρία διαφορετικά γλωσσικά μοντέλα με διαφορετικές εντολές (prompts). Στο σώμα αυτό συγκρίνονται τέσσερις κατηγορίες μεθόδων: στατιστικά χαρακτηριστικά διαπλοκής (perplexity), υφομετρικά χαρακτηριστικά, ένας ταξινομητής βασισμένος σε μετασχηματιστή (transformer) με λεπτομερή προσαρμογή και ένας εμπορικός ανιχνευτής γενικής χρήσης. Την καλύτερη απόδοση είχε ο ταξινομητής με λεπτομερή προσαρμογή (F1 σε επίπεδο εγγράφου = 0,91), όμως η απόδοσή του μειώθηκε σε 0,74 όταν ελέγχθηκε σε κείμενα που παρήχθησαν από μοντέλο το οποίο δεν είχε χρησιμοποιηθεί κατά την εκπαίδευση. Σε επίπεδο πρότασης όλες οι μέθοδοι αποδίδουν σημαντικά χειρότερα, ενώ το ποσοστό ψευδώς θετικών αποτελεσμάτων σε περιλήψεις συγγραφέων για τους οποίους τα ρωσικά δεν είναι η μητρική γλώσσα φθάνει το 11%. Τα αποτελέσματα αυτά δείχνουν ότι οι αυτοματοποιημένοι ανιχνευτές δεν μπορούν να αποτελούν τη μοναδική βάση για εκδοτικές αποφάσεις. Το σώμα κειμένων και ο κώδικας είναι ελεύθερα διαθέσιμα για περαιτέρω έρευνα.</p></abstract>
+<trans-abstract xml:lang="en"><p>The widespread adoption of large language models has confronted scholarly journals with the task of identifying texts created wholly or partly by automated means. Most existing detectors were developed for English, and their applicability to Russian-language scientific texts is poorly understood. This article presents a new annotated corpus of 12,000 abstracts of scientific articles in Russian, half of which were written by humans and half of which contain passages generated by three different language models under different prompts. Four classes of methods are compared on this corpus: statistical perplexity features, stylometric features, a fine-tuned transformer-based classifier and a general-purpose commercial detector. The fine-tuned classifier performed best (document-level F1 = 0.91), but its performance fell to 0.74 when tested on texts generated by a model not seen during training. At the sentence level, all methods perform considerably worse, and the false-positive rate on abstracts written by authors for whom Russian is not a first language reaches 11%. These results indicate that automated detectors cannot serve as the sole basis for editorial decisions. The corpus and code are openly available for further research.</p></trans-abstract>
+<kwd-group xml:lang="el" kwd-group-type="author"><kwd>μεγάλα γλωσσικά μοντέλα</kwd><kwd>εντοπισμός κειμένου παραγόμενου από μηχανή</kwd><kwd>επιστημονικές περιλήψεις</kwd><kwd>ρωσική γλώσσα</kwd><kwd>ερευνητική ακεραιότητα</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>large language models</kwd><kwd>machine-generated text detection</kwd><kwd>scientific abstracts</kwd><kwd>Russian language</kwd><kwd>research integrity</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Εισαγωγή</title>
+<p>Από το 2023 οι επιμελητές επιστημονικών περιοδικών συναντούν όλο και συχνότερα χειρόγραφα στα οποία τμήματα του κειμένου φαίνεται να έχουν παραχθεί από μεγάλα γλωσσικά μοντέλα. Ενώ η χρήση τέτοιων εργαλείων για γλωσσική επιμέλεια είναι συχνά αποδεκτή, η αδήλωτη παραγωγή ουσιαστικού περιεχομένου εγείρει ανησυχίες για την ερευνητική ακεραιότητα. Πολλοί εκδότες έχουν υιοθετήσει πολιτικές που απαιτούν τη δήλωση της χρήσης, ενώ αυτοματοποιημένοι ανιχνευτές διαφημίζονται ως μέσο επιβολής τους.</p>
+<p>Οι ανιχνευτές αυτοί, ωστόσο, έχουν αναπτυχθεί και αξιολογηθεί κυρίως σε αγγλικά κείμενα. Τα ρωσικά, με την πλούσια μορφολογία και το ιδιαίτερο ακαδημαϊκό ύφος τους, θέτουν διαφορετική πρόκληση. Στόχοι της μελέτης είναι η δημιουργία ενός ρεαλιστικού συνόλου αναφοράς ρωσόγλωσσων επιστημονικών περιλήψεων και η αξιολόγηση της απόδοσης των τρεχουσών μεθόδων ανίχνευσης σε αυτό, με ιδιαίτερη έμφαση στη γενίκευση και τη δικαιοσύνη.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Υλικά και μέθοδοι</title>
+<p>Οι περιλήψεις που γράφτηκαν από ανθρώπους (n = 6.000) επιλέχθηκαν από ρωσικά περιοδικά ανοικτής πρόσβασης που δημοσιεύθηκαν πριν από το 2021, με διαστρωμάτωση σε οκτώ ευρείς επιστημονικούς κλάδους. Για το παραγόμενο μισό, τρία γλωσσικά μοντέλα κλήθηκαν να γράψουν μια πλήρη περίληψη με βάση τίτλο και λέξεις-κλειδιά, να συνεχίσουν μια εισαγωγική πρόταση γραμμένη από άνθρωπο ή να παραφράσουν μια περίληψη γραμμένη από άνθρωπο. Κάθε παραγόμενο κείμενο ελέγχθηκε από επισημειωτή ως προς τη φυσικότητά του, ενώ για τα μικτά κείμενα καταγράφηκαν ετικέτες σε επίπεδο πρότασης.</p>
+<p>Συγκρίναμε (i) λογιστική παλινδρόμηση σε χαρακτηριστικά διαπλοκής (perplexity) και εκρηκτικότητας (burstiness) που υπολογίστηκαν με ένα ανοικτό ρωσικό γλωσσικό μοντέλο, (ii) ταξινομητή ενίσχυσης κλίσης σε 140 υφομετρικά χαρακτηριστικά, (iii) πολυγλωσσικό κωδικοποιητή μετασχηματιστή με λεπτομερή προσαρμογή στο υποσύνολο εκπαίδευσης και (iv) εμπορικό ανιχνευτή γενικής χρήσης. Για την αξιολόγηση της γενίκευσης χρησιμοποιήθηκε πρωτόκολλο εξαίρεσης ενός παραγωγού κάθε φορά (leave-one-generator-out).</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Αποτελέσματα</title>
+<p>Τα αποτελέσματα σε επίπεδο εγγράφου συνοψίζονται στον Πίνακα 1. Ο ταξινομητής με λεπτομερή προσαρμογή πέτυχε το υψηλότερο F1 εντός κατανομής, 0,91, ακολουθούμενος από το μοντέλο διαπλοκής (0,82). Ο εμπορικός ανιχνευτής, που δεν έχει εκπαιδευτεί σε ρωσικά επιστημονικά κείμενα, έφθασε το 0,69. Οι παραφρασμένες περιλήψεις ήταν η δυσκολότερη κατηγορία για όλες τις μεθόδους.</p>
+<fig id="f1" position="float"><caption><p>Σχ. 1. F1 σε επίπεδο εγγράφου εντός κατανομής και σε άγνωστο παραγωγό</p></caption></fig>
+<p>Η γενίκευση σε άγνωστο παραγωγό μείωσε σημαντικά την απόδοση (Σχ. 1). Σε ένα χωριστό σύνολο 400 περιλήψεων γραμμένων από συγγραφείς για τους οποίους τα ρωσικά είναι δεύτερη γλώσσα, ο ταξινομητής με λεπτομερή προσαρμογή χαρακτήρισε το 11% ως παραγόμενο από μηχανή, έναντι 3% για τις περιλήψεις φυσικών ομιλητών.</p>
+<table-wrap id="t1" position="float"><caption><p>Πίνακας 1. Απόδοση ανίχνευσης σε επίπεδο εγγράφου και πρότασης</p></caption><table><thead><tr><th>Μέθοδος</th><th>F1 (έγγραφο)</th><th>F1 (πρόταση)</th><th>FPR, συγγραφείς L2</th></tr></thead><tbody><tr><td>Χαρακτηριστικά διαπλοκής</td><td>0.82</td><td>0.61</td><td>0.14</td></tr><tr><td>Υφομετρικά χαρακτηριστικά</td><td>0.77</td><td>0.55</td><td>0.09</td></tr><tr><td>Μετασχηματιστής με λεπτομερή προσαρμογή</td><td>0.91</td><td>0.68</td><td>0.11</td></tr><tr><td>Εμπορικός ανιχνευτής</td><td>0.69</td><td>—</td><td>0.17</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Συζήτηση</title>
+<p>Τα ευρήματά μας αντηχούν ανησυχίες που έχουν διατυπωθεί για τα αγγλικά: οι ανιχνευτές που αποδίδουν καλά σε γνωστούς παραγωγούς υποβαθμίζονται σε νέους και επισημαίνουν δυσανάλογα συχνά κείμενα μη φυσικών ομιλητών, ο λόγος των οποίων τείνει να είναι λεξιλογικά λιγότερο ποικίλος. Δεδομένης της ταχείας κυκλοφορίας νέων μοντέλων, η ακρίβεια εντός κατανομής αποτελεί κακό οδηγό για την αξιοπιστία σε πραγματικές συνθήκες.</p>
+<p>Για την εκδοτική πρακτική, αυτό σημαίνει ότι οι βαθμολογίες των ανιχνευτών θα πρέπει το πολύ να αφορμούν μια συζήτηση με τους συγγραφείς και όχι να ενεργοποιούν κυρώσεις. Οι σαφείς πολιτικές δήλωσης και η προσοχή στην ουσιαστική επιστημονική ποιότητα παραμένουν πιο ισχυρές δικλίδες ασφαλείας.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Συμπεράσματα</title>
+<p>Δημοσιοποιούμε ένα σύνολο αναφοράς 12.000 ρωσικών επιστημονικών περιλήψεων και δείχνουμε ότι οι τρέχοντες ανιχνευτές, αν και χρήσιμοι, δεν είναι ούτε ανθεκτικοί σε νέους παραγωγούς ούτε δίκαιοι προς τους μη φυσικούς ομιλητές. Η αυτοματοποιημένη ανίχνευση θα πρέπει να συμπληρώνει και όχι να αντικαθιστά την εκδοτική κρίση.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Βιβλιογραφία</title>
+<ref id="r1"><mixed-citation>Vaswani A., Shazeer N., Parmar N. et al. Attention is all you need // Advances in Neural Information Processing Systems. 2017. Vol. 30. P. 5998–6008.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Devlin J., Chang M.-W., Lee K., Toutanova K. BERT: pre-training of deep bidirectional transformers for language understanding // Proceedings of NAACL-HLT 2019. Minneapolis, 2019. P. 4171–4186.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Abdullaev S. R. Perplexity-based detection of generated text in morphologically rich languages // Computational Linguistics Letters. 2024. Vol. 9, no. 1. P. 22–37.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Lebedeva A. V., Karimov T. R. Stylometric profiles of Russian academic prose // Corpus Methods Quarterly. 2023. Vol. 14, no. 3. P. 201–219.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Moreau C., Banerjee R. Generalisation failures of machine-generated text detectors // Journal of AI Evaluation. 2024. Vol. 3. P. 77–96.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Каримов Т. Р., Лебедева А. В. Языковые модели в научной коммуникации: риски и редакционные политики // Научный редактор и издатель. 2024. Т. 9, № 2. С. 112–125.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Holt E., Nguyen T. Bias of AI-text detectors against non-native writers // Language and Technology Review. 2023. Vol. 12, no. 4. P. 300–318.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Абдуллаев С. Р. Корпусы для оценки детекторов сгенерированного текста: требования и практика // Вычислительная лингвистика и интеллектуальные технологии. 2025. Т. 4, № 1. С. 15–30.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

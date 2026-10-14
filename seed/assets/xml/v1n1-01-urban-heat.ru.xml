@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="ru">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Вестник междисциплинарных исследований (демоверсия)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демоверсия журнала на Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>ООО «Цифра»</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Научная статья</subject></subj-group></article-categories>
+<title-group>
+<article-title>Городские острова тепла в средних городах: анализ спутниковых данных Landsat за 2000–2023 гг.</article-title>
+<trans-title-group xml:lang="en"><trans-title>Urban Heat Islands in Medium-Sized Cities: An Analysis of Landsat Data for 2000–2023</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Соколовская</surname><given-names>Елена</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sokolovskaya</surname><given-names>Elena</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sokolovskaya@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Мельников</surname><given-names>Артём</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Melnikov</surname><given-names>Artyom</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Ким</surname><given-names>Светлана</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kim</surname><given-names>Svetlana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Новоборский государственный университет</institution>, <country country="RU">Россия</country></aff>
+<aff id="aff2"><institution>Высшая школа урбанистики «Полис»</institution>, <country country="RU">Россия</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>5</fpage><lpage>8</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-14"><day>14</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-01-28"><day>28</day><month>01</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Елена Соколовская, Артём Мельников, Светлана Ким</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Распространяется по лицензии CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="ru"><p>Исследования городских островов тепла традиционно сосредоточены на крупнейших агломерациях, тогда как средние города, в которых проживает значительная часть населения, остаются изученными слабо. Цель работы — оценить интенсивность и динамику поверхностного острова тепла в двенадцати условных городах с населением от 100 до 500 тыс. человек в умеренном климатическом поясе. По сценам Landsat 5, 7 и 8 за летние месяцы 2000–2023 гг. восстановлена температура подстилающей поверхности; для каждого города рассчитана разница между застроенной территорией и пригородным буферным поясом. Дополнительно использованы индекс растительности NDVI, доля непроницаемых покрытий и плотность застройки по открытым картографическим данным. Средняя интенсивность острова тепла составила 3,4 °C в дневные часы, а за исследуемый период она выросла в среднем на 0,9 °C. Наибольший вклад в изменение интенсивности вносит сокращение площади зелёных насаждений в периферийных районах новой жилой застройки; связь с численностью населения оказалась слабой. Регрессионная модель со смешанными эффектами объясняет 71 % межгородской и межгодовой вариации. Полученные результаты показывают, что средние города не менее уязвимы к перегреву, чем крупные, и что градостроительные решения в зонах новой застройки являются ключевым инструментом адаптации. Предложенная методика может быть воспроизведена для любого города с использованием открытых данных.</p></abstract>
+<trans-abstract xml:lang="en"><p>Research on urban heat islands has traditionally focused on the largest metropolitan areas, while medium-sized cities, home to a substantial share of the population, remain poorly studied. This study assesses the intensity and dynamics of the surface urban heat island in twelve anonymised cities with populations of 100,000 to 500,000 in the temperate climate zone. Land surface temperature was retrieved from Landsat 5, 7 and 8 scenes for the summer months of 2000–2023, and for each city the difference between the built-up area and a suburban buffer zone was calculated. The normalised difference vegetation index (NDVI), the share of impervious surfaces and building density derived from open map data were used as covariates. The mean daytime heat island intensity was 3.4 °C, and over the study period it increased by 0.9 °C on average. The largest contribution to this change comes from the loss of green space in peripheral areas of new residential development, whereas the association with population size proved weak. A mixed-effects regression model explains 71% of the between-city and between-year variation. The results show that medium-sized cities are no less vulnerable to overheating than large ones and that planning decisions in new development zones are a key adaptation tool. The proposed method can be reproduced for any city using open data.</p></trans-abstract>
+<kwd-group xml:lang="ru" kwd-group-type="author"><kwd>городской остров тепла</kwd><kwd>дистанционное зондирование</kwd><kwd>Landsat</kwd><kwd>температура поверхности</kwd><kwd>зелёная инфраструктура</kwd><kwd>средние города</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>urban heat island</kwd><kwd>remote sensing</kwd><kwd>Landsat</kwd><kwd>land surface temperature</kwd><kwd>green infrastructure</kwd><kwd>medium-sized cities</kwd></kwd-group>
+<funding-group><award-group><funding-source>Фонд поддержки междисциплинарных исследований «Горизонт»</funding-source></award-group></funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Введение</title>
+<p>Городской остров тепла — превышение температуры воздуха и подстилающей поверхности в городе над окружающей сельской местностью — является одним из наиболее изученных проявлений антропогенной трансформации климата. Классические работы связывают это явление с изменением теплового баланса: замена растительности непроницаемыми покрытиями снижает испарение, геометрия застройки уменьшает ночное излучение, а антропогенные источники добавляют тепло в приземный слой.</p>
+<p>Подавляющее большинство эмпирических оценок, однако, получено для городов-миллионников. Средние города с населением 100–500 тыс. человек часто рассматриваются как «слишком маленькие» для формирования выраженного острова тепла, хотя именно в них в последние два десятилетия наблюдается активное строительство на периферии. Настоящая работа восполняет этот пробел: мы оцениваем интенсивность поверхностного острова тепла в двенадцати средних городах и выявляем факторы её изменения за 2000–2023 гг.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалы и методы</title>
+<p>Исследование охватывает двенадцать городов умеренного пояса, обозначенных в статье кодами Г1–Г12. Для каждого города по архиву Landsat отобраны безоблачные сцены за июнь–август (в среднем 4,6 сцены на город в год, всего 1 318 сцен). Температура подстилающей поверхности восстановлена по тепловому каналу с коррекцией излучательной способности на основе NDVI.</p>
+<p>Интенсивность острова тепла (ИОТ) определялась как разница медианной температуры застроенной территории и пригородного буферного кольца шириной 5 км за вычетом водных объектов. В качестве объясняющих переменных использованы средний NDVI, доля непроницаемых покрытий, плотность застройки и численность населения. Связь оценивалась регрессионной моделью со смешанными эффектами со случайным свободным членом для города и фиксированным эффектом года.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Результаты</title>
+<p>Средняя дневная ИОТ по всей выборке составила 3,4 ± 0,8 °C. Минимальные значения характерны для городов с развитой долинной сетью и сохранившимися лесопарками (2,1–2,6 °C), максимальные — для городов степной зоны с плотной панельной застройкой (4,5–4,9 °C). На рис. 1 показана динамика средней интенсивности по пятилетним периодам.</p>
+<fig id="f1" position="float"><caption><p>Рис. 1. Средняя дневная интенсивность поверхностного острова тепла по пятилетним периодам, °C</p></caption></fig>
+<p>В регрессионной модели (табл. 1) наибольший по величине эффект имеет NDVI: снижение индекса на 0,1 связано с ростом ИОТ на 0,62 °C. Доля непроницаемых покрытий значима, но её эффект в значительной мере опосредован растительностью. Численность населения после учёта морфологических показателей статистически незначима.</p>
+<table-wrap id="t1" position="float"><caption><p>Таблица 1. Оценки модели со смешанными эффектами (зависимая переменная — ИОТ, °C)</p></caption><table><thead><tr><th>Переменная</th><th>Коэффициент</th><th>Ст. ошибка</th><th>p</th></tr></thead><tbody><tr><td>NDVI (на 0,1)</td><td>−0,62</td><td>0,09</td><td>&lt;0,001</td></tr><tr><td>Непроницаемые покрытия (на 10 %)</td><td>0,31</td><td>0,11</td><td>0,006</td></tr><tr><td>Плотность застройки (на 1 тыс. м²/га)</td><td>0,18</td><td>0,07</td><td>0,012</td></tr><tr><td>Население (log)</td><td>0,07</td><td>0,15</td><td>0,640</td></tr><tr><td>Условный R²</td><td>0,71</td><td>—</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Обсуждение</title>
+<p>Полученные оценки интенсивности сопоставимы с опубликованными для европейских городов сходного размера и лишь на 1–1,5 °C ниже значений для крупнейших агломераций. Это ставит под сомнение распространённое представление о незначительности теплового риска в средних городах.</p>
+<p>Важнейший результат работы — ведущая роль растительности на периферии. Новые жилые кварталы, построенные после 2010 г. на месте сельскохозяйственных земель и пустырей, характеризуются минимальным озеленением, и именно здесь рост температуры поверхности наиболее заметен. Ограничением исследования является использование только дневных сцен: ночной остров тепла, наиболее значимый для здоровья, требует иных источников данных.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Заключение</title>
+<p>Средние города формируют выраженные поверхностные острова тепла, интенсивность которых растёт. Сохранение и создание зелёных насаждений в районах новой застройки является наиболее эффективным рычагом адаптации. Предложенный открытый алгоритм может использоваться муниципалитетами для мониторинга.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Список литературы</title>
+<ref id="r1"><mixed-citation>Oke T. R. The energetic basis of the urban heat island // Quarterly Journal of the Royal Meteorological Society. 1982. Vol. 108, no. 455. P. 1–24.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Voogt J. A., Oke T. R. Thermal remote sensing of urban climates // Remote Sensing of Environment. 2003. Vol. 86, no. 3. P. 370–384.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Соколовская Е. В. Пространственные закономерности теплового режима малых и средних городов // Вопросы пространственного анализа. 2021. Т. 9, № 2. С. 34–51.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Мельников А. С., Ким С. Ю. Открытые картографические данные как источник показателей плотности застройки // Геоинформатика и общество. 2022. № 4. С. 18–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Harding P., Lindqvist M. Surface heat islands beyond the megacity: evidence from European mid-sized towns // Urban Climate Letters. 2020. Vol. 7. P. 112–127.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Орехова Т. Н. Методы восстановления температуры подстилающей поверхности по данным теплового канала. М.: Академия, 2019. 212 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Chen Y., Moreau L. Vegetation loss and the intensification of surface heat islands in suburban fringes // Journal of Applied Urban Ecology. 2021. Vol. 15, no. 3. P. 201–219.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Соколовская Е. В., Брагин И. А. Зелёная инфраструктура и адаптация городов к экстремальной жаре: обзор практик // Вестник Новоборского университета. Серия: Науки о Земле. 2023. Т. 11, № 1. С. 5–22.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

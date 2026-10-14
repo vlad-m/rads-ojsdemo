@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="el">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Περιοδικό Διεπιστημονικής Έρευνας (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Επιδεικτικό περιοδικό σε Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Τσίφρα» ΕΠΕ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Ερευνητικό άρθρο</subject></subj-group></article-categories>
+<title-group>
+<article-title>Προσαρμοστικά διαδικτυακά μαθήματα και ακαδημαϊκή επίδοση πρωτοετών φοιτητών: μια οιονεί πειραματική μελέτη</article-title>
+<trans-title-group xml:lang="en"><trans-title>Adaptive Online Courses and First-Year Students' Academic Performance: A Quasi-Experimental Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Fedorova</surname><given-names>Irina</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Fedorova</surname><given-names>Irina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>i.fedorova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Kovalenko</surname><given-names>Maxim</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kovalenko</surname><given-names>Maxim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Παιδαγωγικό Πανεπιστήμιο του Λεσνογκόρσκ</institution>, <country country="RU">Ρωσία</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>8</fpage><lpage>10</lpage>
+<history><date date-type="received" iso-8601-date="2025-02-26"><day>26</day><month>02</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-01"><day>01</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Irina Fedorova, Maxim Kovalenko</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Με άδεια CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="el"><p>Το πρώτο έτος στο πανεπιστήμιο ενέχει τον υψηλότερο κίνδυνο ακαδημαϊκής αποτυχίας και εγκατάλειψης των σπουδών, ιδίως στα μαθηματικά, όπου οι διαφορές στη σχολική προετοιμασία των φοιτητών είναι ιδιαίτερα μεγάλες. Το άρθρο αξιολογεί την επίδραση ενός προσαρμοστικού διαδικτυακού μαθήματος απειροστικού λογισμού στην επίδοση πρωτοετών φοιτητών ενός παιδαγωγικού πανεπιστημίου. Το προσαρμοστικό σύστημα επέλεγε ασκήσεις και εκπαιδευτικό υλικό με βάση τη διάγνωση του τρέχοντος επιπέδου γνώσεων και των λαθών του φοιτητή. Η μελέτη ακολούθησε οιονεί πειραματικό σχεδιασμό: οι φοιτητές δύο τμημάτων του ακαδημαϊκού έτους 2023/24 (n = 214) χρησιμοποίησαν το προσαρμοστικό μάθημα, ενώ οι φοιτητές δύο τμημάτων του προηγούμενου έτους (n = 198) διδάχθηκαν με το παραδοσιακό σχήμα από τους ίδιους διδάσκοντες. Για τη βελτίωση της συγκρισιμότητας των ομάδων εφαρμόστηκε αντιστοίχιση με βάση τον δείκτη ροπής (propensity score matching) ως προς τα αποτελέσματα των εισαγωγικών εξετάσεων, το φύλο και τον τύπο σχολείου. Η μέση βαθμολογία στην τελική εξέταση στην πειραματική ομάδα ήταν υψηλότερη κατά 7,4 μονάδες στις 100, ενώ το ποσοστό των φοιτητών που απέτυχαν στην εξέταση με την πρώτη προσπάθεια μειώθηκε από 23% σε 14%. Η μεγαλύτερη επίδραση παρατηρήθηκε στους φοιτητές με χαμηλή βαθμολογία εισαγωγής. Η ανάλυση των ψηφιακών ιχνών έδειξε ότι βασικός προγνωστικός παράγοντας επιτυχίας ήταν η τακτικότητα της εργασίας με το σύστημα και όχι ο συνολικός χρόνος που δαπανήθηκε σε αυτό. Συμπεραίνουμε ότι τα προσαρμοστικά μαθήματα αποτελούν αξιόλογο εργαλείο για την εξίσωση των αφετηριακών ευκαιριών των πρωτοετών φοιτητών.</p></abstract>
+<trans-abstract xml:lang="en"><p>The first year at university carries the highest risk of academic failure and dropout, especially in mathematics, where differences in students' school preparation are particularly large. This article evaluates the effect of an adaptive online course in calculus on the performance of first-year students at a pedagogical university. The adaptive system selected exercises and learning materials based on a diagnosis of the student's current level of knowledge and errors. The study used a quasi-experimental design: students in two cohorts of the 2023/24 academic year (n = 214) used the adaptive course, while students in two cohorts of the previous year (n = 198) studied under the traditional scheme with the same instructors. To improve group comparability, propensity score matching was applied on entrance examination results, gender and school type. The mean final examination score in the experimental group was 7.4 points higher out of 100, and the share of students failing the examination at the first attempt fell from 23% to 14%. The largest effect was observed among students with low entrance scores. Analysis of digital traces showed that the key predictor of success was the regularity of work with the system rather than the total time spent in it. We conclude that adaptive courses are a worthwhile tool for levelling first-year students' starting opportunities.</p></trans-abstract>
+<kwd-group xml:lang="el" kwd-group-type="author"><kwd>προσαρμοστική μάθηση</kwd><kwd>διαδικτυακά μαθήματα</kwd><kwd>ακαδημαϊκή επίδοση</kwd><kwd>πρωτοετείς φοιτητές</kwd><kwd>αναλυτική της μάθησης</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>adaptive learning</kwd><kwd>online courses</kwd><kwd>academic performance</kwd><kwd>first-year students</kwd><kwd>learning analytics</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Εισαγωγή</title>
+<p>Η μετάβαση από το σχολείο στο πανεπιστήμιο συνοδεύεται από απότομη αλλαγή των απαιτήσεων ως προς την αυτονομία του φοιτητή. Σύμφωνα με στοιχεία πολλών ιδρυμάτων, ακριβώς στο πρώτο έτος διαγράφεται το μεγαλύτερο ποσοστό φοιτητών, ενώ τα μαθηματικά μαθήματα λειτουργούν ως το κύριο «φίλτρο». Η αιτία έγκειται σε μεγάλο βαθμό στην ανομοιογένεια της σχολικής προετοιμασίας, η οποία δύσκολα αντισταθμίζεται στο πλαίσιο της μετωπικής διδασκαλίας.</p>
+<p>Τα προσαρμοστικά συστήματα μάθησης, τα οποία επιλέγουν ασκήσεις ανάλογα με το ατομικό επίπεδο του φοιτητή, θεωρούνται τρόπος προσέγγισης του αποτελέσματος της εξατομικευμένης διδασκαλίας. Ωστόσο, οι αυστηρές εκτιμήσεις της αποτελεσματικότητάς τους στα ρωσικά πανεπιστήμια είναι λίγες. Η παρούσα μελέτη εκτιμά την επίδραση ενός προσαρμοστικού μαθήματος απειροστικού λογισμού στα αποτελέσματα των πρωτοετών φοιτητών.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Υλικά και μέθοδοι</title>
+<p>Το προσαρμοστικό μάθημα περιλάμβανε 14 θεματικές ενότητες και τράπεζα 1.860 ασκήσεων με επισημασμένα τυπικά λάθη. Μετά από κάθε άσκηση το σύστημα ενημέρωνε την εκτίμηση της κατάκτησης των δεξιοτήτων με βάση μοντέλο μπεϋζιανής ιχνηλάτησης γνώσης (Bayesian knowledge tracing) και πρότεινε την επόμενη άσκηση ή επεξηγηματικό υλικό. Το μάθημα χρησιμοποιήθηκε ως υποχρεωτικό μέρος της αυτοτελούς εργασίας.</p>
+<p>Την πειραματική ομάδα αποτέλεσαν 214 φοιτητές που εισήχθησαν το 2023 και την ομάδα ελέγχου 198 φοιτητές που εισήχθησαν το 2022, οι οποίοι διδάχθηκαν από τους ίδιους διδάσκοντες με το ίδιο πρόγραμμα και παραδοσιακές εργασίες για το σπίτι. Για την αντιστοίχιση χρησιμοποιήθηκε ο δείκτης ροπής, εκτιμημένος με λογιστική παλινδρόμηση ως προς το άθροισμα των βαθμών εισαγωγής, το φύλο και τον τύπο σχολείου· μετά την αντιστοίχιση στην ανάλυση συμπεριλήφθηκαν 181 ζεύγη.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Αποτελέσματα</title>
+<p>Μετά την αντιστοίχιση, η μέση βαθμολογία στην τελική εξέταση ήταν 68,9 στην πειραματική ομάδα και 61,5 στην ομάδα ελέγχου (διαφορά 7,4 μονάδες· 95% ΔΕ: 4,1–10,7). Η κατανομή της επίδρασης ανά τεταρτημόριο της βαθμολογίας εισαγωγής παρουσιάζεται στο Σχ. 1: η μεγαλύτερη βελτίωση παρατηρείται στο κατώτερο τεταρτημόριο.</p>
+<fig id="f1" position="float"><caption><p>Σχ. 1. Μέση βαθμολογία εξέτασης ανά τεταρτημόριο της βαθμολογίας εισαγωγής</p></caption></fig>
+<p>Η ανάλυση των αρχείων καταγραφής του συστήματος έδειξε ότι ο αριθμός των εβδομάδων με ενεργή εργασία συνδέεται ισχυρότερα με την τελική βαθμολογία (r = 0,52) από ό,τι ο συνολικός χρόνος εργασίας (r = 0,29). Τα κύρια αποτελέσματα παρουσιάζονται στον Πίν. 1.</p>
+<table-wrap id="t1" position="float"><caption><p>Πίνακας 1. Αποτελέσματα της τελικής εξέτασης (αντιστοιχισμένα δείγματα, 181 ζεύγη)</p></caption><table><thead><tr><th>Δείκτης</th><th>Έλεγχος</th><th>Προσαρμοστικό μάθημα</th><th>Διαφορά</th></tr></thead><tbody><tr><td>Μέση βαθμολογία</td><td>61,5</td><td>68,9</td><td>+7,4</td></tr><tr><td>Απέτυχαν με την πρώτη προσπάθεια, %</td><td>23</td><td>14</td><td>−9 π.μ.</td></tr><tr><td>Βαθμός «άριστα», %</td><td>12</td><td>17</td><td>+5 π.μ.</td></tr><tr><td>Διαγράφηκαν μετά την 1η εξεταστική, %</td><td>8,3</td><td>5,0</td><td>−3,3 π.μ.</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Συζήτηση</title>
+<p>Η επίδραση που προέκυψε είναι συγκρίσιμη με τα αποτελέσματα διεθνών μετα-αναλύσεων της προσαρμοστικής εξάσκησης στην ανώτατη εκπαίδευση. Η συγκέντρωσή της στην ομάδα των φοιτητών με ελλιπή προετοιμασία υποδεικνύει ότι τα προσαρμοστικά μαθήματα μπορούν να αντισταθμίσουν εν μέρει τις διαφορές στις αφετηριακές συνθήκες.</p>
+<p>Ο οιονεί πειραματικός σχεδιασμός δεν επιτρέπει τον πλήρη αποκλεισμό της επίδρασης διαφορών μεταξύ των φοιτητών διαφορετικών ετών εισαγωγής που δεν λήφθηκαν υπόψη στην αντιστοίχιση. Παρ' όλα αυτά, η ταύτιση των διδασκόντων, του προγράμματος και της μορφής της εξέτασης μειώνει τον κίνδυνο μεροληψίας. Το εύρημα για τη σημασία της τακτικής εργασίας έχει άμεση πρακτική συνέπεια: οι εβδομαδιαίοι έλεγχοι προόδου μπορούν να ενισχύσουν την επίδραση.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Συμπεράσματα</title>
+<p>Το προσαρμοστικό διαδικτυακό μάθημα απειροστικού λογισμού βελτίωσε την επίδοση των πρωτοετών φοιτητών και μείωσε το ποσοστό των αποτυχιών, ιδίως μεταξύ των φοιτητών με χαμηλή βαθμολογία εισαγωγής. Συνιστάται ο συνδυασμός των προσαρμοστικών μαθημάτων με μηχανισμούς υποστήριξης της τακτικής εργασίας.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Βιβλιογραφία</title>
+<ref id="r1"><mixed-citation>Bloom B. S. The 2 sigma problem: the search for methods of group instruction as effective as one-to-one tutoring // Educational Researcher. 1984. Vol. 13, no. 6. P. 4–16.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Rosenbaum P. R., Rubin D. B. The central role of the propensity score in observational studies for causal effects // Biometrika. 1983. Vol. 70, no. 1. P. 41–55.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Федорова И. С. Адаптивные системы обучения в высшей школе: модели и практики // Цифровая дидактика. 2022. Т. 5, № 2. С. 7–25.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Коваленко М. Ю., Федорова И. С. Цифровые следы студентов как источник данных для прогнозирования успеваемости // Образование и аналитика. 2023. № 1. С. 44–59.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Reyes M., Ahlberg J. Adaptive practice and mathematics achievement in higher education: a meta-analysis // Journal of Learning Technologies. 2021. Vol. 19, no. 2. P. 133–152.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тарасова Н. В. Математическая подготовка первокурсников: проблемы перехода от школы к вузу. Лесногорск: ЛПУ, 2020. 176 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Hughes D., Varga E. Spacing and regularity in online learning: evidence from log data // Learning Analytics Review. 2022. Vol. 8. P. 60–79.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

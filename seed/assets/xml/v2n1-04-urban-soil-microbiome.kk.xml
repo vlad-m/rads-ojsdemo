@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="kk">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Пәнаралық зерттеулер журналы (демонұсқа)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems платформасындағы журналдың демонұсқасы</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ЖШС</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Қысқа хабарлама</subject></subj-group></article-categories>
+<title-group>
+<article-title>Қалалық саябақтардың топырақ микробиомы: метабаркодтаудың алғашқы нәтижелері</article-title>
+<trans-title-group xml:lang="en"><trans-title>The Soil Microbiome of Urban Parks: First Results of Metabarcoding</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author"><name name-style="western"><surname>Нурланова</surname><given-names>Айгерим</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Nurlanova</surname><given-names>Aigerim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Гусева</surname><given-names>Полина</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Guseva</surname><given-names>Polina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/><email>p.guseva@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Каспий экологиялық зерттеулер институты</institution>, <country country="KZ">Қазақстан</country></aff>
+<aff id="aff2"><institution>Новобор мемлекеттік университеті</institution>, <country country="RU">Ресей</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-10-28"><day>28</day><month>10</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2026-02-09"><day>09</day><month>02</month><year>2026</year></date></history>
+<permissions><copyright-statement>© 2026 Айгерим Нурланова, Полина Гусева</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензиясы бойынша таратылады</license-p></license></permissions>
+<abstract xml:lang="kk"><p>Қалалық саябақтардың топырақтары маңызды экожүйелік функцияларды атқарады — ағынды реттейді, көміртекті сақтайды және өсімдіктердің өсуін қамтамасыз етеді, алайда олардың микробтық қауымдастықтары табиғи топырақтарға қарағанда әлдеқайда аз зерттелген. Бұл қысқа хабарламада анонимделген ірі қаланың жасы мен рекреациялық жүктеме қарқындылығы бойынша ерекшеленетін алты саябағының топырақтарындағы бактериялық қауымдастықтарды метабаркодтаудың алғашқы нәтижелері ұсынылады. Көгалдардан, ағаш жабыны астындағы учаскелерден және жаяу жүргінші жолдарының бойынан топырақтың жоғарғы қабатының жетпіс екі үлгісі алынды. Қауымдастықтардың құрамы 16S рРНҚ генінің V4 вариабельді аймағын секвенирлеу арқылы анықталды; қатар pH, органикалық көміртек мөлшері, топырақтың көлемдік тығыздығы және ауыр металдардың концентрациясы өлшенді. Бактериялардың альфа-әртүрлілігі ескі саябақтардағы ағаш жабыны астында ең жоғары, ал тапталған жолдар бойында ең төмен болды. Қауымдастық құрылымы учаске түрлері арасында айтарлықтай (PERMANOVA, R² = 0,21), ал саябақтар арасында азырақ дәрежеде ерекшеленді. Қауымдастық құрамын қалыптастыратын ең маңызды факторлар pH пен көлемдік тығыздық болды, ал зерттелген концентрациялардағы ауыр металдардың әсері әлсіз болды. Бұл деректер саябақтарды күтіп-ұстау мен жоспарлаудың топырақтың микробтық әртүрлілігіне ластанудан кем әсер етпейтінін көрсетеді. Жұмыс кеңейтілген іріктеме бойынша және саңырауқұлақ қауымдастықтарын қоса отырып жалғасуда.</p></abstract>
+<trans-abstract xml:lang="en"><p>The soils of urban parks perform important ecosystem functions, regulating runoff, storing carbon and supporting plant growth, yet their microbial communities have been studied far less than those of natural soils. This short communication presents the first results of metabarcoding of bacterial communities in the soils of six parks in an anonymised large city that differ in age and intensity of recreational use. Seventy-two samples of the topsoil were collected from lawns, areas under tree cover and along footpaths. Community composition was determined by sequencing the V4 variable region of the 16S rRNA gene; pH, organic carbon content, soil bulk density and heavy metal concentrations were measured in parallel. Bacterial alpha diversity was highest under tree cover in older parks and lowest along compacted paths. Community structure differed significantly between site types (PERMANOVA, R² = 0.21) and to a lesser extent between parks. The most important factors shaping community composition were pH and bulk density, whereas the effect of heavy metals at the concentrations studied was weak. These data suggest that park management and layout influence soil microbial diversity at least as much as pollution does. Work is continuing with an expanded sample and the inclusion of fungal communities.</p></trans-abstract>
+<kwd-group xml:lang="kk" kwd-group-type="author"><kwd>қалалық топырақтар</kwd><kwd>микробиом</kwd><kwd>метабаркодтау</kwd><kwd>16S рРНҚ</kwd><kwd>қалалық саябақтар</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>urban soils</kwd><kwd>microbiome</kwd><kwd>metabarcoding</kwd><kwd>16S rRNA</kwd><kwd>urban parks</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Кіріспе</title>
+<p>Топырақ микроорганизмдері көміртек пен азот айналымын, топырақ құрылымын және өсімдіктердің саулығын айқындайды. Қалада топырақтар күшті антропогендік әсерге — тапталуға, ластануға, үйінді топырақтардың әкелінуіне — ұшырайды, алайда саябақтар, әсіресе ескі саябақтар, микробтық әртүрліліктің резерваттары қызметін атқара алады.</p>
+<p>Хабарламаның мақсаты — қалалық саябақтар топырақтарындағы бактериялық қауымдастықтардың құрамы мен әртүрлілігі туралы алғашқы деректерді ұсыну және олардың құрылымын айқындайтын негізгі факторларды анықтау.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалдар мен әдістер</title>
+<p>Жасы 15 жылдан 120 жылға дейінгі алты саябақта (С1–С6) учаскелердің үш түрінің (көгал, ағаш өсімдіктері, жаяу жүргінші жолының жиегі) әрқайсысынан 0–10 см қабаттан төрт аралас үлгіден алынды. ДНҚ коммерциялық жиынтықпен бөлініп алынды, 16S рРНҚ генінің V4 аймағы амплификацияланып, секвенирленді. Тізбектер ампликон нұсқаларын бөле отырып өңделді; әртүрлілік Шеннон индексімен, ал қауымдастықтар құрылымындағы айырмашылықтар Брей — Кёртис қашықтықтары матрицасы бойынша PERMANOVA әдісімен бағаланды.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Нәтижелер</title>
+<p>Шеннон индексі учаске түрлері арасында ерекшеленді (1-сурет): ең жоғары мәндер ағаш өсімдіктерінің астында, ең төменгі мәндер топырақ тығыздығы 1,55 г/см³-ге жеткен жолдардың бойында байқалды. PERMANOVA талдауының нәтижелері 1-кестеде келтірілген.</p>
+<fig id="f1" position="float"><caption><p>1-сурет. Жас және ескі саябақтардағы учаске түрлері бойынша бактериялық қауымдастықтардың Шеннон индексі</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>1-кесте. Бактериялық қауымдастықтар құрылымының факторлары (PERMANOVA, 999 орын ауыстыру)</p></caption><table><thead><tr><th>Фактор</th><th>R²</th><th>F</th><th>p</th></tr></thead><tbody><tr><td>Учаске түрі</td><td>0,21</td><td>9,4</td><td>0,001</td></tr><tr><td>Саябақ</td><td>0,12</td><td>2,1</td><td>0,003</td></tr><tr><td>pH</td><td>0,09</td><td>8,0</td><td>0,001</td></tr><tr><td>Топырақ тығыздығы</td><td>0,07</td><td>6,3</td><td>0,001</td></tr><tr><td>Ауыр металдардың қосындысы</td><td>0,02</td><td>1,6</td><td>0,092</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Талқылау</title>
+<p>Учаске түрі мен топырақ тығыздығының күшті әсері рекреациялық тапталудың микробтық қауымдастықтардың кедейленуінің жетекші факторы екенін көрсетеді. Бұл табиғи рекреациялық аумақтар бойынша деректермен үйлеседі. Ауыр металдардың әлсіз әсері олардың зерттелген саябақтардағы орташа концентрацияларымен түсіндірілуі мүмкін. Практикалық қорытынды — жол-соқпақ желісін ұйымдастыру және ағаштардың тамыр аймақтарын таптаудан қорғау топырақтың биоәртүрлілігін сақтауға ықпал етеді.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Қорытынды</title>
+<p>Қалалық саябақтар топырақтарының бактериялық әртүрлілігі ең алдымен учаске түрімен, pH-пен және топырақтың тапталуымен айқындалады. Ағаш алқабы сақталған ескі саябақтар топырақтың микробтық әртүрлілігінің маңызды резерваттары болып табылады.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Әдебиеттер тізімі</title>
+<ref id="r1"><mixed-citation>Fierer N., Jackson R. B. The diversity and biogeography of soil bacterial communities // Proceedings of the National Academy of Sciences of the USA. 2006. Vol. 103, no. 3. P. 626–631.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Anderson M. J. A new method for non-parametric multivariate analysis of variance // Austral Ecology. 2001. Vol. 26, no. 1. P. 32–46.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Гусева П. А. Физические свойства почв городских рекреационных территорий // Почвы и урбанизация. 2023. Т. 5, № 2. С. 40–55.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Нурланова А. Н., Гусева П. А. Тяжёлые металлы в почвах парков: пространственная изменчивость // Экосистемы и климат. 2024. Т. 6, № 3. С. 77–91.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Reese A., Kowal M. Trampling effects on soil bacterial diversity in recreational areas // Urban Ecosystems Letters. 2021. Vol. 9. P. 133–148.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Saldana P., Wu J. Park age and soil microbial community assembly // Journal of Urban Soil Science. 2022. Vol. 4, no. 1. P. 1–17.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

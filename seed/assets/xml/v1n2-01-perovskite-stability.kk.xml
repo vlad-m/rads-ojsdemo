@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="kk">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Пәнаралық зерттеулер журналы (демонұсқа)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems платформасындағы журналдың демонұсқасы</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ЖШС</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Зерттеу мақаласы</subject></subj-group></article-categories>
+<title-group>
+<article-title>Термоциклдеу жағдайындағы перовскит қабықшаларының тұрақтылығы: органикалық қоспалардың рөлі</article-title>
+<trans-title-group xml:lang="en"><trans-title>Stability of Perovskite Films under Thermal Cycling: The Role of Organic Additives</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Орлов</surname><given-names>Дмитрий</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Orlov</surname><given-names>Dmitry</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>d.orlov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Шестакова</surname><given-names>Вера</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Shestakova</surname><given-names>Vera</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Аветисян</surname><given-names>Георгий</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Avetisyan</surname><given-names>Georgy</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>«Кристалл» Орал материалтану орталығы</institution>, <country country="RU">Ресей</country></aff>
+<aff id="aff2"><institution>Ереван конденсацияланған күй физикасы институты</institution>, <country country="AM">Армения</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>5</fpage><lpage>7</lpage>
+<history><date date-type="received" iso-8601-date="2025-03-11"><day>11</day><month>03</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-22"><day>22</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Дмитрий Орлов, Вера Шестакова, Георгий Аветисян</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензиясы бойынша таратылады</license-p></license></permissions>
+<abstract xml:lang="kk"><p>Галогенидті перовскиттер жұқа қабықшалы фотовольтаика үшін ең перспективалы материалдардың бірі болып саналады, алайда оларды іс жүзінде қолдануға нақты пайдалану жағдайларына тән температура ауытқуларына төзімділігінің жеткіліксіздігі кедергі келтіреді. Бұл зерттеуде үш органикалық қоспаның — фенэтиламмоний, тиомочевина және поливинилпирролидонның — −20-дан +85 °C-қа дейінгі аралықта термоциклдеу кезінде аралас катионды перовскит қабықшаларының деградациясына әсері қарастырылады. Қабықшалар антиеріткішті қолдана отырып центрифугалау әдісімен алынды және 0, 50, 100 және 200 циклден кейін рентгендік дифракция, сканерлеуші электрондық микроскопия және фотолюминесценциялық спектроскопия әдістерімен сипатталды. Бақылау үлгілерінде 100 циклден кейін-ақ қорғасын иодиді фазасы пайда болады, түйір шекаралары бойымен микрожарықтар түзіледі және фотолюминесценция қарқындылығы екі есеге жуық төмендейді. Фенэтиламмонийді 1,5 мол% мөлшерінде қосу деградацияны баяулатады: 200 циклден кейін фотолюминесценцияның бастапқы қарқындылығының 87%-ы сақталады және қосалқы фазалар анықталмайды. Тиомочевина түйір өлшемін ұлғайтады, бірақ термоциклдеуге төзімділікке аз әсер етеді, ал поливинилпирролидон жарықшақтануды тиімді басады. Қоспалардың тұрақтандырушы әсерін беттік ақауларды пассивациялаумен және механикалық кернеулердің релаксациясымен байланыстыратын механизм ұсынылады. Нәтижелерді икемді күн модульдеріне арналған құрамдарды әзірлеуде пайдалануға болады.</p></abstract>
+<trans-abstract xml:lang="en"><p>Halide perovskites are regarded as one of the most promising materials for thin-film photovoltaics, but their practical use is held back by insufficient stability under the temperature fluctuations typical of real operating conditions. This study examines the effect of three organic additives, phenethylammonium, thiourea and polyvinylpyrrolidone, on the degradation of mixed-cation perovskite films under thermal cycling between −20 and +85 °C. Films were prepared by antisolvent-assisted spin coating and characterised by X-ray diffraction, scanning electron microscopy and photoluminescence spectroscopy after 0, 50, 100 and 200 cycles. In control samples, a lead iodide phase appears after only 100 cycles, microcracks form along grain boundaries, and photoluminescence intensity drops by almost half. Adding phenethylammonium at 1.5 mol% slows degradation: after 200 cycles, 87% of the initial photoluminescence intensity is retained and no secondary phases are detected. Thiourea increases grain size but has little effect on resistance to thermal cycling, whereas polyvinylpyrrolidone effectively suppresses cracking. A mechanism is proposed that links the stabilising effect of the additives to the passivation of surface defects and the relaxation of mechanical stress. The results can inform the development of formulations for flexible solar modules.</p></trans-abstract>
+<kwd-group xml:lang="kk" kwd-group-type="author"><kwd>перовскиттер</kwd><kwd>жұқа қабықшалар</kwd><kwd>термоциклдеу</kwd><kwd>деградация</kwd><kwd>ақауларды пассивациялау</kwd><kwd>фотовольтаика</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>perovskites</kwd><kwd>thin films</kwd><kwd>thermal cycling</kwd><kwd>degradation</kwd><kwd>defect passivation</kwd><kwd>photovoltaics</kwd></kwd-group>
+<funding-group><award-group><funding-source>«Горизонт» пәнаралық зерттеулерді қолдау қоры</funding-source></award-group></funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Кіріспе</title>
+<p>Соңғы он бес жылда перовскит күн элементтерінің пайдалы әрекет коэффициенті бірнеше пайыздан кремний элементтерімен салыстырмалы мәндерге дейін өсті. Коммерцияландыруға негізгі кедергі тұрақтылық болып қала береді: ылғалдың, жарықтың және температураның әсерінен перовскиттің кристалдық торы қорғасын иодидін бөле отырып ыдырайды.</p>
+<p>Термоциклдеу — температураның көп мәрте өзгеруі — ең қатаң сынақтардың бірі болып табылады, өйткені қабықша мен төсеніштің жылулық ұлғаю коэффициенттерінің айырмашылығы механикалық кернеулердің жинақталуына әкеледі. Жұмыстың мақсаты — қабықшалардың термоциклдеуге төзімділігін арттыру үшін табиғаты әртүрлі үш органикалық қоспаның тиімділігін салыстыру.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалдар мен әдістер</title>
+<p>Йодтың бір бөлігі броммен (15%) алмастырылған цезий, формамидиний және метиламмоний негізіндегі аралас катионды перовскит (CsFAMA) қабықшалары өткізгіш жабыны бар шыны төсеніштерге антиеріткішті тамшылатып қосу арқылы центрифугалау әдісімен жағылып, 100 °C температурада күйдірілді. Қоспалар прекурсор ерітіндісіне енгізілді: фенилэтиламмоний иодиді (ФЭА, 1,5 мол%), тиомочевина (ТМ, 3 мол%) және поливинилпирролидон (ПВП, 0,5 масс.%).</p>
+<p>Термоциклдеу климаттық камерада инертті атмосферада жүргізілді: бір цикл температураның өзгеру жылдамдығы 5 °C/мин болғанда −20 °C-та 15 мин және +85 °C-та 15 мин ұстауды қамтыды. 0, 50, 100 және 200 циклден кейін үлгілер рентгендік дифракция, электрондық микроскопия және стационарлық фотолюминесценция әдістерімен зерттелді.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Нәтижелер</title>
+<p>Фотолюминесценцияның интегралдық қарқындылығының циклдер санына байланысты өзгерісі 1-суретте көрсетілген. Бақылау үлгілерінде қарқындылық 100 циклден кейін бастапқы мәннің 54%-ына, ал 200 циклден кейін 31%-ына дейін төмендейді; сонымен бір мезгілде дифрактограммаларда 2θ = 12,7° кезінде қорғасын иодидінің рефлексі пайда болады.</p>
+<fig id="f1" position="float"><caption><p>1-сурет. Қабықшалардың фотолюминесценциясының салыстырмалы қарқындылығының термоциклдер санына тәуелділігі, %</p></caption></fig>
+<p>Ең жоғары тұрақтылықты ФЭА қосылған қабықшалар көрсетті, оларда 200 циклден кейін де қосалқы фазалар анықталмады. ПВП қосу микрожарықтардың түзілуін іс жүзінде толығымен басады, бірақ фотолюминесценция қарқындылығының біртіндеп төмендеуіне жол бермей алмайды. Жиынтық сипаттамалар 1-кестеде келтірілген.</p>
+<table-wrap id="t1" position="float"><caption><p>1-кесте. Қабықшалардың 200 циклге дейінгі және одан кейінгі сипаттамалары</p></caption><table><thead><tr><th>Үлгі</th><th>Түйір өлшемі, нм</th><th>200 циклден кейінгі ФЛ, %</th><th>PbI₂ фазасы</th><th>Жарықтар</th></tr></thead><tbody><tr><td>Бақылау</td><td>310</td><td>31</td><td>бар</td><td>көп</td></tr><tr><td>ФЭА 1,5 мол%</td><td>340</td><td>87</td><td>жоқ</td><td>жекелеген</td></tr><tr><td>ТМ 3 мол%</td><td>520</td><td>39</td><td>бар</td><td>көп</td></tr><tr><td>ПВП 0,5 масс.%</td><td>290</td><td>66</td><td>іздері</td><td>жоқ</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Талқылау</title>
+<p>ФЭА-ның тұрақтандырушы әсерін түйірлердің бетінде ақауларды пассивациялайтын және галоген иондарының миграциясына кедергі келтіретін екіөлшемді перовскиттің жұқа қабатының түзілуімен түсіндіруге болады. ПВП басқаша әрекет ететін сияқты: түйір шекараларында орналасқан полимер тізбектері механикалық кернеулерді ішінара релаксациялап, жарықшақтанудың алдын алады.</p>
+<p>Механизмдердің әртүрлілігі қоспаларды бірлесіп қолдану мүмкіндігін ашады. ФЭА мен ПВП-ны бір мезгілде енгізу бойынша алдын ала тәжірибелер 200 циклден кейін фотолюминесценция қарқындылығының 91%-ы сақталатынын көрсетеді, бұл толыққанды күн элементтерінің құрамында әрі қарай тексеруді қажет етеді.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Қорытынды</title>
+<p>Фенилэтиламмоний перовскит қабықшаларының термоциклдеуге төзімділігін арттыру үшін зерттелген қоспалардың ішіндегі ең тиімдісі болып табылады, ал поливинилпирролидон жарықшақтануды тиімді басады. Әрекет ету механизмдері әртүрлі қоспаларды біріктіру перспективалы стратегия болып көрінеді.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Әдебиеттер тізімі</title>
+<ref id="r1"><mixed-citation>Kojima A., Teshima K., Shirai Y., Miyasaka T. Organometal halide perovskites as visible-light sensitizers for photovoltaic cells // Journal of the American Chemical Society. 2009. Vol. 131, no. 17. P. 6050–6051.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Орлов Д. С., Шестакова В. А. Морфология плёнок смешанных галогенидных перовскитов, полученных с антирастворителем // Неорганические материалы и покрытия. 2022. Т. 14, № 5. С. 412–423.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Brenner M., Ito K. Thermal stress and grain-boundary cracking in hybrid perovskite films // Thin Film Engineering. 2021. Vol. 28, no. 3. P. 301–315.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Аветисян Г. Р. Пассивация поверхностных дефектов в перовскитах органическими катионами // Физика конденсированных сред. 2023. Т. 9, № 2. С. 88–104.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Liang Q., Fischer A. Polymer additives for mechanically robust perovskite layers // Advanced Coatings Letters. 2022. Vol. 6. P. 55–67.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Шестакова В. А. Методы ускоренных климатических испытаний тонкоплёночных солнечных элементов. Екатеринбург: Кристалл, 2021. 148 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Okafor C., Duarte P. Photoluminescence as a probe of perovskite degradation // Optical Materials Review. 2020. Vol. 17, no. 4. P. 220–236.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Орлов Д. С. Рентгенофазовый анализ продуктов деградации галогенидных перовскитов // Заводская лаборатория. Диагностика материалов. 2021. Т. 87, № 9. С. 31–38.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

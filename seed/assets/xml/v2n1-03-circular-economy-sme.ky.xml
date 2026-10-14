@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="ky">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Дисциплиналар аралык изилдөөлөр журналы (демоверсия)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems платформасындагы демо журнал</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ЖЧК</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Сереп макала</subject></subj-group></article-categories>
+<title-group>
+<article-title>Чакан жана орто ишканалардагы айланма экономика: тоскоолдуктардын жана кыймылдаткыч факторлордун системалуу серептөөсү</article-title>
+<trans-title-group xml:lang="en"><trans-title>The Circular Economy in Small and Medium-Sized Enterprises: A Systematic Review of Barriers and Drivers</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Седов</surname><given-names>Евгений</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sedov</surname><given-names>Evgeny</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sedov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Яковлева</surname><given-names>Татьяна</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Yakovleva</surname><given-names>Tatiana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>«Меридиан» экономика жана мейкиндик өнүгүү институту</institution>, <country country="RU">Россия</country></aff>
+<aff id="aff2"><institution>«Экополис» Беларусь туруктуу өнүгүү институту</institution>, <country country="BY">Беларусь</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>11</fpage><lpage>13</lpage>
+<history><date date-type="received" iso-8601-date="2025-07-07"><day>07</day><month>07</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-12-16"><day>16</day><month>12</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2026 Евгений Седов, Татьяна Яковлева</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензиясы боюнча таратылат</license-p></license></permissions>
+<abstract xml:lang="ky"><p>Ресурстарды кайра пайдаланууга, оңдоого жана кайра иштетүүгө негизделген айланма экономикага өтүү ири корпорациялардын гана эмес, иш менен камсыз болуунун жана айлана-чөйрөгө тийгизилген таасирдин чоң үлүшүн түзгөн чакан жана орто ишканалардын да катышуусун талап кылат. Бул системалуу серепте чакан жана орто бизнесте айланма практикаларды киргизүүнүн тоскоолдуктары жана кыймылдаткыч факторлору боюнча эмпирикалык изилдөөлөр жалпыланат. PRISMA боюнча жүргүзүлгөн издөө 2015–2025-жылдардагы 1146 басылманы аныктады, алардын ичинен 28 өлкөдөгү 72 изилдөө киргизүү критерийлерине жооп берди. Тоскоолдуктар жана кыймылдаткыч факторлор беш топко бөлүндү: финансылык, технологиялык, рыноктук, институционалдык жана уюштуруучулук-маданий. Эң көп айтылган тоскоолдуктар — баштапкы чыгымдардын жогорулугу жана каржылоого жетүүнүн чектелүүсү (изилдөөлөрдүн 78% ы), техникалык компетенциянын жетишсиздиги (61%) жана экинчилик чийки заттан жасалган продукцияга керектөөчүлөрдүн суроо-талабынын төмөндүгү (47%). Негизги кыймылдаткыч факторлор — чийки затка жана калдыктарды утилдештирүүгө кеткен чыгымдарды үнөмдөө, жеткирүү чынжырларындагы ири буйрутмачылардын талаптары жана ээлеринин жеке баалуулуктары. Мамлекеттик колдоонун ролу эки ача бааланат: субсидиялар негизинен консультациялык кызматтар менен айкалышканда натыйжалуу. Чыгыш Европа жана Борбордук Азия боюнча изилдөөлөрдө олуттуу боштук аныкталды. Колдоо саясаты боюнча сунуштар жана андан аркы изилдөөлөрдүн багыттары түзүлдү.</p></abstract>
+<trans-abstract xml:lang="en"><p>The transition to a circular economy based on the reuse, repair and recycling of resources requires the participation not only of large corporations but also of small and medium-sized enterprises, which account for a large share of employment and environmental impact. This systematic review synthesises empirical research on the barriers to and drivers of adopting circular practices in small and medium-sized businesses. A PRISMA-guided search identified 1,146 publications from 2015–2025, of which 72 studies from 28 countries met the inclusion criteria. Barriers and drivers were classified into five groups: financial, technological, market, institutional and organisational-cultural. The most frequently cited barriers were high upfront costs and limited access to finance (78% of studies), a lack of technical competence (61%) and low consumer demand for products made from secondary raw materials (47%). The key drivers are savings on raw material and disposal costs, requirements of large customers in supply chains and the personal values of owners. The role of government support is assessed ambiguously: subsidies are effective mainly in combination with advisory services. A substantial gap in research from Eastern Europe and Central Asia was identified. Recommendations for support policies and directions for further research are formulated.</p></trans-abstract>
+<kwd-group xml:lang="ky" kwd-group-type="author"><kwd>айланма экономика</kwd><kwd>чакан жана орто ишканалар</kwd><kwd>системалуу сереп</kwd><kwd>туруктуу өнүгүү</kwd><kwd>жеткирүү чынжырлары</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>circular economy</kwd><kwd>small and medium-sized enterprises</kwd><kwd>systematic review</kwd><kwd>sustainable development</kwd><kwd>supply chains</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Киришүү</title>
+<p>Айланма экономика концепциясы «казып ал — өндүр — ыргыт» сызыктуу моделинен баш тартып, продукциялар жана материалдар өз баалуулугун мүмкүн болушунча узак сактаган туюк циклдерге өтүүнү болжолдойт. Изилдөөлөрдүн жана саясий программалардын олуттуу бөлүгү өндүрүш процесстерин кайра куруу үчүн ресурстарга ээ болгон ири компанияларга багытталган.</p>
+<p>Чакан жана орто ишканалар башка чектөөлөргө туш болушат: аларда капитал, компетенциялар жана жеткирүү чынжырларындагы сүйлөшүү күчү азыраак. Ошол эле учурда алар ийкемдүүрөөк жана жергиликтүү жамааттарга жакыныраак. Серептин максаты — чакан жана орто бизнесте айланма практикаларды киргизүүгө тоскоол болгон жана көмөктөшкөн факторлор жөнүндөгү эмпирикалык маалыматтарды системалаштыруу.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалдар жана методдор</title>
+<p>Сереп PRISMA 2020 сунуштарына ылайык аткарылды. Издөө библиографиялык маалымат базаларында «айланма экономика», «чакан жана орто бизнес» терминдеринин жана алардын англис тилдүү эквиваленттеринин айкалыштары боюнча жүргүзүлдү. 2015–2025-жылдары англис же орус тилинде жарыяланган эмпирикалык изилдөөлөр (сурамжылоолор, кейс-стадилер, интервьюлар, эконометрикалык эмгектер) киргизилди.</p>
+<p>Табылган 1146 жазуунун ичинен дубликаттарды алып салуудан жана аннотацияларды скринингден өткөрүүдөн кийин 214 эмгек толук тексттик баалоодон өттү, алардын 72си киргизүү критерийлерине жооп берди. Тоскоолдуктар жана кыймылдаткыч факторлор алдын ала иштелип чыккан схема боюнча эки изилдөөчү тарабынан өз алдынча коддолду; коддоочулардын макулдугу κ = 0,79 түздү.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Натыйжалар</title>
+<p>Киргизилген изилдөөлөр 28 өлкөнү камтыйт, бирок алардын 61% ы Батыш Европа өлкөлөрүнүн материалында аткарылган. Чыгыш Европа жана Борбордук Азия өлкөлөрү боюнча болгону беш эмгек бар. Негизги тоскоолдуктардын айтылуу жыштыгы 1-сүрөттө берилген.</p>
+<fig id="f1" position="float"><caption><p>1-сүрөт. Киргизилген изилдөөлөрдө тоскоолдуктардын айтылуу жыштыгы, % (n = 72)</p></caption></fig>
+<p>Айланма практикаларды киргизүүнүн кыймылдаткыч факторлору 1-таблицада топтоштурулган. Экономикалык мотивдер — чийки затка жана калдыктарды утилдештирүүгө кеткен чыгымдарды азайтуу — эң көп айтылат, бирок үй-бүлөлүк ишканаларды изилдөөлөрдө ээлеринин баалуулуктары олуттуу ролду ойнойт.</p>
+<table-wrap id="t1" position="float"><caption><p>1-таблица. Айланма практикаларды киргизүүнүн негизги кыймылдаткыч факторлору</p></caption><table><thead><tr><th>Кыймылдаткыч факторлордун тобу</th><th>Мисал</th><th>Изилдөөлөрдүн саны</th><th>Үлүшү, %</th></tr></thead><tbody><tr><td>Финансылык</td><td>Чийки затты жана утилдештирүүнү үнөмдөө</td><td>51</td><td>71</td></tr><tr><td>Рыноктук</td><td>Ири буйрутмачылардын талаптары</td><td>38</td><td>53</td></tr><tr><td>Уюштуруучулук-маданий</td><td>Ээлеринин баалуулуктары</td><td>31</td><td>43</td></tr><tr><td>Институционалдык</td><td>Субсидиялар жана консультациялар</td><td>26</td><td>36</td></tr><tr><td>Технологиялык</td><td>Алмашуунун санариптик аянтчалары</td><td>17</td><td>24</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Талкуу</title>
+<p>Финансылык тоскоолдуктардын жана кыймылдаткыч факторлордун басымдуулугу чакан бизнес үчүн айланма экономика экологиялык күн тартибинен мурда экономиканын маселеси экенин көрсөтөт. Ошондуктан баштапкы чыгымдарды жана тобокелдиктерди азайткан колдоо чаралары эң көп суралат. Ошол эле учурда консультациялык колдоосуз субсидиялар көп учурда туруктуу өзгөрүүлөргө алып келбейт.</p>
+<p>Далилдер базасынын географиялык бир жактуулугу жыйынтыктардын которулуучулугун чектейт: ар кайсы өлкөлөрдө институционалдык чөйрө, каржылоого жеткиликтүүлүк жана кайра иштетүү инфраструктурасы бир топ айырмаланат. Бул боштукту толтуруу — аймактык изилдөөлөр үчүн маанилүү милдет.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Корутунду</title>
+<p>Чакан жана орто бизнесте айланма практикаларды киргизүү биринчи кезекте экономикалык стимулдар жана жеткирүү чынжырларынын талаптары менен аныкталат. Натыйжалуу саясат финансылык колдоону компетенцияларды жана инфраструктураны өнүктүрүү менен айкалыштырышы керек.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Адабияттар тизмеси</title>
+<ref id="r1"><mixed-citation>Page M. J., McKenzie J. E., Bossuyt P. M. et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews // BMJ. 2021. Vol. 372. Art. n71.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Kirchherr J., Reike D., Hekkert M. Conceptualizing the circular economy: an analysis of 114 definitions // Resources, Conservation and Recycling. 2017. Vol. 127. P. 221–232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Седов Е. В. Циркулярные бизнес-модели: типология и экономические эффекты // Пространственная экономика и политика. 2023. № 1. С. 31–50.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Яковлева Т. Н. Политика поддержки зелёного предпринимательства в странах ЕАЭС // Экономика устойчивого развития. 2024. Т. 12, № 3. С. 66–83.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Rizos V., Behrens A., Kafyeke T. et al. The circular economy: barriers and opportunities for SMEs. Brussels: CEPS, 2015. 22 p.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindner P., Costa R. Supply-chain pressure and circular practices in small manufacturers // Journal of Sustainable Enterprise. 2022. Vol. 11, no. 2. P. 115–134.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седов Е. В., Громов П. А. Малый бизнес и переработка отходов: результаты регионального обследования // Регион: экономика и общество. 2024. № 5. С. 20–37.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Oduya K., Brandt M. Owner values and environmental strategy in family firms // Small Business and Society. 2021. Vol. 7. P. 50–68.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

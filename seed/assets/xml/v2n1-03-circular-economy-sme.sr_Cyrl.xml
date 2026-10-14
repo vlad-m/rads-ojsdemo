@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="sr">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Часопис за интердисциплинарна истраживања (демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демо-часопис на платформи Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>ДОО „Цифра“</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Прегледни рад</subject></subj-group></article-categories>
+<title-group>
+<article-title>Циркуларна економија у малим и средњим предузећима: систематски преглед препрека и покретача</article-title>
+<trans-title-group xml:lang="en"><trans-title>The Circular Economy in Small and Medium-Sized Enterprises: A Systematic Review of Barriers and Drivers</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Седов</surname><given-names>Евгений</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Sedov</surname><given-names>Evgeny</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>e.sedov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Яковлева</surname><given-names>Татьяна</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Yakovleva</surname><given-names>Tatiana</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Институт за економију и просторни развој „Меридијан“</institution>, <country country="RU">Русија</country></aff>
+<aff id="aff2"><institution>Белоруски институт за одрживи развој „Екополис“</institution>, <country country="BY">Белорусија</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-03-18"><day>18</day><month>03</month><year>2026</year></pub-date>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>11</fpage><lpage>13</lpage>
+<history><date date-type="received" iso-8601-date="2025-07-07"><day>07</day><month>07</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-12-16"><day>16</day><month>12</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2026 Евгений Седов, Татьяна Яковлева</copyright-statement><copyright-year>2026</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Лиценца CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="sr"><p>Прелазак на циркуларну економију засновану на поновној употреби, поправци и рециклажи ресурса захтева учешће не само великих корпорација већ и малих и средњих предузећа, на која отпада велики удео запослености и утицаја на животну средину. Овај систематски преглед синтетизује емпиријска истраживања препрека и покретача усвајања циркуларних пракси у малим и средњим предузећима. Претрага вођена смерницама PRISMA идентификовала је 1.146 публикација из периода 2015–2025, од којих је 72 студије из 28 земаља испунило критеријуме за укључивање. Препреке и покретачи разврстани су у пет група: финансијске, технолошке, тржишне, институционалне и организационо-културне. Најчешће навођене препреке биле су високи почетни трошкови и ограничен приступ финансирању (78% студија), недостатак техничких компетенција (61%) и ниска тражња потрошача за производима од секундарних сировина (47%). Кључни покретачи су уштеде на трошковима сировина и одлагања отпада, захтеви великих купаца у ланцима снабдевања и личне вредности власника. Улога државне подршке оцењује се двосмислено: субвенције су делотворне углавном у комбинацији са саветодавним услугама. Утврђен је значајан недостатак истраживања из источне Европе и централне Азије. Формулисане су препоруке за политике подршке и правци даљих истраживања.</p></abstract>
+<trans-abstract xml:lang="en"><p>The transition to a circular economy based on the reuse, repair and recycling of resources requires the participation not only of large corporations but also of small and medium-sized enterprises, which account for a large share of employment and environmental impact. This systematic review synthesises empirical research on the barriers to and drivers of adopting circular practices in small and medium-sized businesses. A PRISMA-guided search identified 1,146 publications from 2015–2025, of which 72 studies from 28 countries met the inclusion criteria. Barriers and drivers were classified into five groups: financial, technological, market, institutional and organisational-cultural. The most frequently cited barriers were high upfront costs and limited access to finance (78% of studies), a lack of technical competence (61%) and low consumer demand for products made from secondary raw materials (47%). The key drivers are savings on raw material and disposal costs, requirements of large customers in supply chains and the personal values of owners. The role of government support is assessed ambiguously: subsidies are effective mainly in combination with advisory services. A substantial gap in research from Eastern Europe and Central Asia was identified. Recommendations for support policies and directions for further research are formulated.</p></trans-abstract>
+<kwd-group xml:lang="sr" kwd-group-type="author"><kwd>циркуларна економија</kwd><kwd>мала и средња предузећа</kwd><kwd>систематски преглед</kwd><kwd>одрживи развој</kwd><kwd>ланци снабдевања</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>circular economy</kwd><kwd>small and medium-sized enterprises</kwd><kwd>systematic review</kwd><kwd>sustainable development</kwd><kwd>supply chains</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Увод</title>
+<p>Концепт циркуларне економије подразумева напуштање линеарног модела „извући – произвести – одбацити“ у корист затворених циклуса, у којима производи и материјали што дуже задржавају своју вредност. Значајан део истраживања и политичких програма усмерен је на велике компаније, које располажу ресурсима за преструктурирање производних процеса.</p>
+<p>Мала и средња предузећа суочавају се са другачијим ограничењима: располажу мањим капиталом, компетенцијама и преговарачком моћи у ланцима снабдевања. Истовремено, она су флексибилнија и ближа локалним заједницама. Циљ прегледа јесте да се систематизују емпиријски подаци о чиниоцима који ометају и подстичу увођење циркуларних пракси у малим и средњим предузећима.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материјал и методе</title>
+<p>Преглед је спроведен у складу са смерницама PRISMA 2020. Претрага је вршена у библиографским базама података према комбинацијама термина „циркуларна економија“, „мала и средња предузећа“ и њихових енглеских еквивалената. Укључена су емпиријска истраживања (анкете, студије случаја, интервјуи, економетријски радови) објављена у периоду 2015–2025. на енглеском или руском језику.</p>
+<p>Од 1.146 пронађених записа, након уклањања дупликата и скрининга апстраката, процену пуног текста прошло је 214 радова, а критеријуме за укључивање испунила су 72. Препреке и покретаче независно су кодирала два истраживача према унапред израђеној шеми; слагање кодера износило је κ = 0,79.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Резултати</title>
+<p>Укључена истраживања обухватају 28 земаља, али је 61% њих спроведено на подацима из земаља западне Европе. Радова о земљама источне Европе и централне Азије има свега пет. Учесталост помињања главних препрека приказана је на сл. 1.</p>
+<fig id="f1" position="float"><caption><p>Слика 1. Учесталост помињања препрека у укљученим истраживањима, % (n = 72)</p></caption></fig>
+<p>Покретачи увођења циркуларних пракси груписани су у таб. 1. Економски мотиви – смањење трошкова сировина и одлагања отпада – најчешће се помињу, али у истраживањима породичних предузећа значајну улогу имају вредности власника.</p>
+<table-wrap id="t1" position="float"><caption><p>Табела 1. Главни покретачи увођења циркуларних пракси</p></caption><table><thead><tr><th>Група покретача</th><th>Пример</th><th>Број истраживања</th><th>Удео, %</th></tr></thead><tbody><tr><td>Финансијски</td><td>Уштеде на сировинама и одлагању отпада</td><td>51</td><td>71</td></tr><tr><td>Тржишни</td><td>Захтеви великих купаца</td><td>38</td><td>53</td></tr><tr><td>Организационо-културни</td><td>Вредности власника</td><td>31</td><td>43</td></tr><tr><td>Институционални</td><td>Субвенције и саветовање</td><td>26</td><td>36</td></tr><tr><td>Технолошки</td><td>Дигиталне платформе за размену</td><td>17</td><td>24</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Дискусија</title>
+<p>Превласт финансијских препрека и покретача показује да је за мала предузећа циркуларност пре свега економско питање, а не питање еколошке агенде. Због тога су најтраженије мере подршке које смањују почетне трошкове и ризике. Истовремено, субвенције без саветодавне подршке често не доводе до трајних промена.</p>
+<p>Географска пристрасност доказне основе ограничава преносивост закључака: институционално окружење, приступ финансирању и инфраструктура за рециклажу знатно се разликују од земље до земље. Попуњавање ове празнине важан је задатак регионалних истраживања.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Закључак</title>
+<p>Увођење циркуларних пракси у малим и средњим предузећима одређено је пре свега економским подстицајима и захтевима ланаца снабдевања. Делотворна политика треба да комбинује финансијску подршку са развојем компетенција и инфраструктуре.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Литература</title>
+<ref id="r1"><mixed-citation>Page M. J., McKenzie J. E., Bossuyt P. M. et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews // BMJ. 2021. Vol. 372. Art. n71.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Kirchherr J., Reike D., Hekkert M. Conceptualizing the circular economy: an analysis of 114 definitions // Resources, Conservation and Recycling. 2017. Vol. 127. P. 221–232.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Седов Е. В. Циркулярные бизнес-модели: типология и экономические эффекты // Пространственная экономика и политика. 2023. № 1. С. 31–50.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Яковлева Т. Н. Политика поддержки зелёного предпринимательства в странах ЕАЭС // Экономика устойчивого развития. 2024. Т. 12, № 3. С. 66–83.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Rizos V., Behrens A., Kafyeke T. et al. The circular economy: barriers and opportunities for SMEs. Brussels: CEPS, 2015. 22 p.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindner P., Costa R. Supply-chain pressure and circular practices in small manufacturers // Journal of Sustainable Enterprise. 2022. Vol. 11, no. 2. P. 115–134.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седов Е. В., Громов П. А. Малый бизнес и переработка отходов: результаты регионального обследования // Регион: экономика и общество. 2024. № 5. С. 20–37.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Oduya K., Brandt M. Owner values and environmental strategy in family firms // Small Business and Society. 2021. Vol. 7. P. 50–68.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

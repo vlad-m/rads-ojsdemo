@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="sr">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Часопис за интердисциплинарна истраживања (демо)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Демо-часопис на платформи Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>ДОО „Цифра“</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Прегледни рад</subject></subj-group></article-categories>
+<title-group>
+<article-title>Рачунски центри педесетих–седамдесетих година XX века као научне институције: историографски преглед</article-title>
+<trans-title-group xml:lang="en"><trans-title>Computing Centres of the 1950s–1970s as Scientific Institutions: A Historiographical Review</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Вершинин</surname><given-names>Леонид</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vershinin</surname><given-names>Leonid</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>l.vershinin@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Центар за историју науке и технике „Хронос“</institution>, <country country="RU">Русија</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-01-20"><day>20</day><month>01</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-06-10"><day>10</day><month>06</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Леонид Вершинин</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Лиценца CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="sr"><p>Рачунски центри, основани средином XX века при научним институтима, универзитетима и индустријским предузећима, одиграли су кључну улогу у претварању рачунања у самосталан инструмент научног истраживања. Овај прегледни рад разматра како су историчари науке и технике проучавали ове институције током последњих педесет година. На основу анализе 64 монографије, чланка и зборника издвојена су три главна историографска приступа. Први, техничко-биографски, усредсређен је на конструисање појединих рачунара и рад њихових конструктора. Други, институционални, посматра рачунске центре као организације са сопственом структуром, кадровском политиком и односима са наручиоцима. Трећи, који се развио током последње две деценије, истражује рачунске праксе: како су програмери, оператери и корисници били у интеракцији са машинама и како је рачунање мењало методе појединих дисциплина, од метеорологије до лингвистике. Најмање проучене теме остају свакодневни рад рачунских центара, улога жена програмерки и оператерки, као и регионални центри изван највећих научних градова. Посебно се разматрају проблеми изворне грађе, укључујући очуваност техничке документације, дневника машинског времена и програма. У прегледу се закључује да је перспективно комбиновати архивска истраживања са методама усмене историје док су учесници тих догађаја још живи.</p></abstract>
+<trans-abstract xml:lang="en"><p>Computing centres, established in the mid-twentieth century at research institutes, universities and industrial enterprises, played a key role in turning computation into an independent instrument of scientific inquiry. This review examines how historians of science and technology have studied these institutions over the past fifty years. Based on an analysis of 64 monographs, articles and edited volumes, three main historiographical approaches are identified. The first, technical-biographical, focuses on the construction of particular computers and the work of their designers. The second, institutional, treats computing centres as organisations with their own structure, staffing policies and relations with clients. The third, which has emerged over the last two decades, investigates computing practices: how programmers, operators and users interacted with machines and how computation transformed the methods of individual disciplines, from meteorology to linguistics. The least studied topics remain the everyday work of computing centres, the role of women programmers and operators, and regional centres outside the largest science cities. Problems of the source base are discussed separately, including the preservation of technical documentation, machine-time logs and programs. The review concludes that combining archival research with oral history methods is promising while participants in these events are still alive.</p></trans-abstract>
+<kwd-group xml:lang="sr" kwd-group-type="author"><kwd>историја науке</kwd><kwd>историја рачунарства</kwd><kwd>рачунски центри</kwd><kwd>историографија</kwd><kwd>усмена историја</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>history of science</kwd><kwd>history of computing</kwd><kwd>computing centres</kwd><kwd>historiography</kwd><kwd>oral history</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Увод</title>
+<p>Појава електронских рачунара крајем четрдесетих и током педесетих година XX века захтевала је оснивање посебних установа: машине су биле скупе, заузимале су читаве сале и захтевале одржавање даноноћно. Рачунски центри постали су место сусрета инжењера, математичара и научника-корисника, у којем су се постепено формирале нове професије – програмер и оператер.</p>
+<p>Историографија рачунских центара развијала се упоредо са самом историјом рачунарства као дисциплином. Циљ овог прегледа јесте да се систематизују приступи проучавању ових установа, идентификују недовољно проучене теме и размотри стање изворне грађе.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материјал и методе</title>
+<p>Корпус прегледа формиран је на основу библиографија кључних радова и тематских регистара стручних часописа из историје науке и технике. Укључена су истраживања у којима је рачунски центар (а не појединачна машина или личност) предмет анализе барем у једном поглављу или одељку. Коначни корпус обухватио је 64 рада објављена од 1975. до 2024. године.</p>
+<p>Сваки рад класификован је према водећем приступу, типу коришћених извора и географији проучаваних установа. Класификацију је извршио аутор и поново је проверио након годину дана ради процене њене стабилности.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Резултати</title>
+<p>Расподела радова по деценијама и приступима приказана је на сл. 1. До деведесетих година доминирао је техничко-биографски приступ, заступљен углавном мемоарима учесника догађаја и јубиларним издањима. Институционална истраживања постала су приметна током деведесетих и двехиљадитих, а истраживања пракси после 2010. године.</p>
+<fig id="f1" position="float"><caption><p>Слика 1. Број радова по деценијама објављивања и водећем приступу</p></caption></fig>
+<p>Таб. 1 показује које се врсте извора користе у оквиру различитих приступа. Упадљиво је да се дневници машинског времена и сачувани текстови програма користе само у малом делу радова, иако омогућавају реконструкцију стварне искоришћености машина и састава решаваних задатака.</p>
+<table-wrap id="t1" position="float"><caption><p>Табела 1. Врсте извора према историографским приступима (удео радова, %)</p></caption><table><thead><tr><th>Врста извора</th><th>Техничко-биогр.</th><th>Институц.</th><th>Праксе</th></tr></thead><tbody><tr><td>Мемоари и интервјуи</td><td>84</td><td>48</td><td>72</td></tr><tr><td>Документација установа</td><td>28</td><td>86</td><td>56</td></tr><tr><td>Техничка документација</td><td>76</td><td>31</td><td>44</td></tr><tr><td>Дневници машинског времена</td><td>4</td><td>17</td><td>39</td></tr><tr><td>Текстови програма</td><td>8</td><td>3</td><td>33</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Дискусија</title>
+<p>Смена приступа одражава општу еволуцију историје науке од историје открића и проналазача ка друштвеној историји знања и историји пракси. Истовремено, техничко-биографски радови задржавају вредност као извор чињеничних података, нарочито када се заснивају на документима недоступним истраживачима.</p>
+<p>Главне празнине односе се на „невидљиве“ учеснике рачунског рада – оператере, бушачице картица, програмере, од којих су многи били жене – као и на регионалне центре. Време за снимање интервјуа са учесницима догађаја је ограничено, што пројекте усмене историје чини нарочито актуелним.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Закључак</title>
+<p>Историографија рачунских центара прешла је пут од историје машина до историје пракси. Даљи напредак захтева проширење изворне грађе – систематско трагање за дневницима машинског времена и програмима – и комбиновање архивског рада са усменом историјом.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Литература</title>
+<ref id="r1"><mixed-citation>Campbell-Kelly M., Aspray W., Ensmenger N., Yost J. R. Computer: A History of the Information Machine. 3rd ed. Boulder: Westview Press, 2014. 360 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Ensmenger N. The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise. Cambridge, MA: MIT Press, 2010. 336 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Вершинин Л. А. Вычислительный центр как научное учреждение: опыт институционального анализа // Вопросы истории науки и техники. 2019. Т. 40, № 3. С. 77–96.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Вершинин Л. А., Гладкова З. Н. Журналы машинного времени как исторический источник // Архивы и история техники. 2021. № 2. С. 12–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Haigh T., Priestley M. Computing practices and the history of software: an agenda // Annals of Computing History Review. 2020. Vol. 12, no. 1. P. 3–21.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Гладкова З. Н. Женщины в программировании 1950–1970-х гг.: материалы устной истории // Наука и общество в истории. 2022. Т. 6, № 4. С. 101–118.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Abbate J. Recoding Gender: Women's Changing Participation in Computing. Cambridge, MA: MIT Press, 2012. 264 p.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мирский Е. Б. Региональные вычислительные центры и научная политика. М.: Хронос, 2018. 304 с.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Dahl K., Ostrowski P. Numerical weather prediction and the making of a computing community // Science in Context Studies. 2019. Vol. 27. P. 210–233.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report" dtd-version="1.3" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Journal of Interdisciplinary Research (Demo)</journal-title><abbrev-journal-title>Open Journal Systems demo journal</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra LLC</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Short Communication</subject></subj-group></article-categories>
+<title-group>
+<article-title>Digital Economy Neologisms in Russian-Language Business Media: A Corpus Study</article-title>
+<trans-title-group xml:lang="ru"><trans-title>Неологизмы цифровой экономики в русскоязычных деловых СМИ: корпусное исследование</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Lebedeva</surname><given-names>Anna</given-names></name><xref ref-type="aff" rid="aff1"/><email>a.lebedeva@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Lexis Institute of Language and Communication</institution>, <country country="RU">Russia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>18</fpage><lpage>20</lpage>
+<history><date date-type="received" iso-8601-date="2024-12-02"><day>02</day><month>12</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-20"><day>20</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Anna Lebedeva</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licensed under CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="en"><p>The digitalisation of the economy has been accompanied by the rapid emergence of new vocabulary, much of it borrowed from English. This short communication presents the first results of a corpus study of digital economy neologisms in Russian-language business media. A purpose-built corpus comprises about 18 million tokens from the publications of six anonymised business outlets for 2015–2024. Candidate neologisms were selected using a frequency criterion followed by expert verification; the final list contains 214 items. For each, the year of first attestation, the word-formation pattern and the frequency dynamics were determined. Direct borrowings (such as marketpleys, startap and kraudfanding) account for 58% of new items, hybrid formations with Russian affixes for 27%, and calques and descriptive expressions for 15%. The peak of new items falls in 2018–2020. For a number of borrowings, Latin-script spellings are gradually being replaced by Cyrillic ones, indicating their assimilation into the language. The results can be used in compiling terminological dictionaries and in teaching business Russian. Further work will extend the corpus to regional outlets and Telegram channels.</p></abstract>
+<trans-abstract xml:lang="ru"><p>Цифровизация экономики сопровождается стремительным появлением новой лексики, значительная часть которой заимствуется из английского языка. В кратком сообщении представлены первые результаты корпусного исследования неологизмов цифровой экономики в русскоязычных деловых СМИ. Специально собранный корпус включает около 18 млн словоупотреблений из публикаций шести условных деловых изданий за 2015–2024 гг. Кандидаты в неологизмы отбирались по частотному критерию с последующей экспертной проверкой; итоговый список содержит 214 единиц. Для каждой из них определены год первой фиксации, способ образования и динамика частотности. Установлено, что прямые заимствования (например, «маркетплейс», «стартап», «краудфандинг») составляют 58 % новых единиц, гибридные образования с русскими аффиксами — 27 %, а калькированные и описательные обороты — 15 %. Пик появления новых единиц приходится на 2018–2020 гг. Для ряда заимствований наблюдается постепенное вытеснение графических вариантов на латинице кириллическими, что свидетельствует об их освоении языком. Результаты могут быть использованы при составлении терминологических словарей и при обучении деловому русскому языку. В дальнейшем планируется расширить корпус за счёт региональных изданий и телеграм-каналов.</p></trans-abstract>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>neologisms</kwd><kwd>corpus linguistics</kwd><kwd>borrowings</kwd><kwd>digital economy</kwd><kwd>business media</kwd></kwd-group>
+<kwd-group xml:lang="ru" kwd-group-type="author"><kwd>неологизмы</kwd><kwd>корпусная лингвистика</kwd><kwd>заимствования</kwd><kwd>цифровая экономика</kwd><kwd>деловые СМИ</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introduction</title>
+<p>The business press is one of the main channels for the dissemination of economic terminology: new concepts appear there earlier than in dictionaries and textbooks. In 2015–2024, the digitalisation of trade, finance and labour was accompanied by a particularly intensive expansion of the vocabulary.</p>
+<p>The aim of this communication is to describe the composition and dynamics of digital economy neologisms in the business media and to characterise the main ways in which they are formed.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materials and Methods</title>
+<p>The corpus was compiled from openly accessible publications of six business outlets (designated P1–P6) and morphologically annotated. Neologism candidates were selected as lemmas that were absent from the 2010–2014 subcorpus and occurred at least 20 times in 2015–2024. Two experts then independently verified whether the units belonged to the subject area of the digital economy; inter-expert agreement (Cohen’s κ) was 0.82.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Results</title>
+<p>The final list comprises 214 units. The distribution by year of first attestation is shown in Fig. 1: the peak falls in 2018–2020, which coincides with the period of active growth of online retail and platform employment. The distribution by method of formation is given in Table 1.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Number of new units by year of first attestation in the corpus</p></caption></fig>
+<table-wrap id="t1" position="float"><caption><p>Table 1. Neologisms by method of formation</p></caption><table><thead><tr><th>Method of formation</th><th>Number</th><th>Share, %</th><th>Examples</th></tr></thead><tbody><tr><td>Direct borrowing</td><td>124</td><td>58</td><td>маркетплейс ‘marketplace’, стартап ‘startup’</td></tr><tr><td>Hybrid formation</td><td>58</td><td>27</td><td>зафандрайзить ‘to fundraise’, лидогенерация ‘lead generation’</td></tr><tr><td>Calque, descriptive phrase</td><td>32</td><td>15</td><td>цифровой след ‘digital footprint’, умный контракт ‘smart contract’</td></tr><tr><td>Total</td><td>214</td><td>100</td><td>—</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussion</title>
+<p>The predominance of direct borrowings is to be expected in a rapidly developing subject area. At the same time, the high share of hybrid formations shows that borrowed stems are quickly integrated into the Russian word-formation system. The displacement of Latin-script spellings by Cyrillic ones (for example, for the word стартап ‘startup’ the share of Latin-script spellings fell from 34% in 2015 to 3% in 2024) serves as an indicator of assimilation.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusion</title>
+<p>The corpus-based approach makes it possible to date the emergence and assimilation of new economic vocabulary objectively. The resulting list of neologisms may serve as the basis for a specialised dictionary.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>References</title>
+<ref id="r1"><mixed-citation>Лебедева А. В. Терминологические инновации в языке экономики: корпусный подход // Вопросы терминоведения. 2021. Т. 7, № 1. С. 9–27.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Sinclair J. Corpus, Concordance, Collocation. Oxford: Oxford University Press, 1991. 179 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Кожевникова Р. Л. Англицизмы в русской деловой прессе: этапы освоения // Русская речь сегодня. 2019. № 5. С. 31–44.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Ferrand M., Holm B. Measuring lexical novelty in news corpora // Corpus Methods Quarterly. 2020. Vol. 11, no. 2. P. 145–163.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Лебедева А. В., Огнева Т. П. Графическая адаптация заимствований: латиница и кириллица в медиатексте // Лингвистика и медиа. 2022. Т. 3, № 4. С. 70–86.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Огнева Т. П. Словообразовательная активность заимствованных основ в современном русском языке. М.: Лексис, 2020. 236 с.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

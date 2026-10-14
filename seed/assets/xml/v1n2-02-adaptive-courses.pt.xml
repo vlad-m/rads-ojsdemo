@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="pt">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Revista de Investigação Interdisciplinar (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Revista de demonstração em Open Journal Systems</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>Tsifra, Lda.</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Artigo de investigação</subject></subj-group></article-categories>
+<title-group>
+<article-title>Cursos em linha adaptativos e desempenho académico dos estudantes do primeiro ano: um estudo quase experimental</article-title>
+<trans-title-group xml:lang="en"><trans-title>Adaptive Online Courses and First-Year Students' Academic Performance: A Quasi-Experimental Study</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Fedorova</surname><given-names>Irina</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Fedorova</surname><given-names>Irina</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>i.fedorova@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Kovalenko</surname><given-names>Maxim</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Kovalenko</surname><given-names>Maxim</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>Universidade Pedagógica de Lesnogorsk</institution>, <country country="RU">Rússia</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>8</fpage><lpage>10</lpage>
+<history><date date-type="received" iso-8601-date="2025-02-26"><day>26</day><month>02</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-07-01"><day>01</day><month>07</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Irina Fedorova, Maxim Kovalenko</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>Licenciado ao abrigo da CC BY 4.0</license-p></license></permissions>
+<abstract xml:lang="pt"><p>O primeiro ano na universidade comporta o maior risco de insucesso académico e de abandono, sobretudo em matemática, onde as diferenças na preparação escolar dos estudantes são particularmente acentuadas. Este artigo avalia o efeito de um curso em linha adaptativo de cálculo no desempenho dos estudantes do primeiro ano de uma universidade pedagógica. O sistema adaptativo selecionava exercícios e materiais de aprendizagem com base num diagnóstico do nível atual de conhecimentos e dos erros do estudante. O estudo utilizou um desenho quase experimental: os estudantes de duas turmas do ano letivo de 2023/24 (n = 214) utilizaram o curso adaptativo, enquanto os estudantes de duas turmas do ano anterior (n = 198) estudaram segundo o esquema tradicional com os mesmos docentes. Para melhorar a comparabilidade dos grupos, aplicou-se o emparelhamento por pontuação de propensão (propensity score matching) com base nos resultados dos exames de acesso, no sexo e no tipo de escola. A classificação média no exame final do grupo experimental foi 7,4 pontos superior, numa escala de 100, e a proporção de estudantes reprovados no exame à primeira tentativa desceu de 23% para 14%. O maior efeito foi observado entre os estudantes com classificações de acesso baixas. A análise dos rastos digitais mostrou que o principal preditor do sucesso foi a regularidade do trabalho com o sistema, e não o tempo total nele despendido. Concluímos que os cursos adaptativos são um instrumento útil para nivelar as oportunidades de partida dos estudantes do primeiro ano.</p></abstract>
+<trans-abstract xml:lang="en"><p>The first year at university carries the highest risk of academic failure and dropout, especially in mathematics, where differences in students' school preparation are particularly large. This article evaluates the effect of an adaptive online course in calculus on the performance of first-year students at a pedagogical university. The adaptive system selected exercises and learning materials based on a diagnosis of the student's current level of knowledge and errors. The study used a quasi-experimental design: students in two cohorts of the 2023/24 academic year (n = 214) used the adaptive course, while students in two cohorts of the previous year (n = 198) studied under the traditional scheme with the same instructors. To improve group comparability, propensity score matching was applied on entrance examination results, gender and school type. The mean final examination score in the experimental group was 7.4 points higher out of 100, and the share of students failing the examination at the first attempt fell from 23% to 14%. The largest effect was observed among students with low entrance scores. Analysis of digital traces showed that the key predictor of success was the regularity of work with the system rather than the total time spent in it. We conclude that adaptive courses are a worthwhile tool for levelling first-year students' starting opportunities.</p></trans-abstract>
+<kwd-group xml:lang="pt" kwd-group-type="author"><kwd>aprendizagem adaptativa</kwd><kwd>cursos em linha</kwd><kwd>desempenho académico</kwd><kwd>estudantes do primeiro ano</kwd><kwd>análise da aprendizagem</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>adaptive learning</kwd><kwd>online courses</kwd><kwd>academic performance</kwd><kwd>first-year students</kwd><kwd>learning analytics</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Introdução</title>
+<p>A transição da escola para a universidade é acompanhada de uma mudança brusca das exigências quanto à autonomia do estudante. Segundo dados de muitas instituições de ensino superior, é precisamente no primeiro ano que abandona a maior proporção de estudantes, e as disciplinas de matemática tornam-se o principal «filtro». A causa reside, em grande medida, na heterogeneidade da preparação escolar, difícil de compensar no âmbito das aulas expositivas.</p>
+<p>Os sistemas de aprendizagem adaptativa, que selecionam as tarefas em função do nível individual do estudante, são vistos como uma forma de se aproximar do efeito da tutoria individual. Contudo, existem poucas avaliações rigorosas da sua eficácia nas universidades russas. O presente estudo avalia o impacto de um curso adaptativo de análise matemática nos resultados dos estudantes do primeiro ano.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiais e métodos</title>
+<p>O curso adaptativo incluía 14 módulos temáticos e um banco de 1860 tarefas com os erros típicos anotados. Após cada tarefa, o sistema atualizava a estimativa do domínio das competências segundo um modelo bayesiano de acompanhamento do conhecimento (Bayesian knowledge tracing) e propunha a tarefa seguinte ou material explicativo. O curso era utilizado como parte obrigatória do trabalho autónomo.</p>
+<p>O grupo experimental foi constituído por 214 estudantes admitidos em 2023 e o grupo de controlo por 198 estudantes admitidos em 2022, que tiveram os mesmos docentes e o mesmo programa, com trabalhos de casa tradicionais. Para o emparelhamento, utilizou-se a pontuação de propensão estimada por regressão logística a partir da soma das classificações de acesso, do sexo e do tipo de escola; após o emparelhamento, foram incluídos na análise 181 pares.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Resultados</title>
+<p>Após o emparelhamento, a classificação média no exame final foi de 68,9 no grupo experimental e de 61,5 no grupo de controlo (diferença de 7,4 pontos; IC 95 %: 4,1–10,7). A distribuição do efeito por quartis das classificações de acesso é apresentada na fig. 1: o maior ganho observa-se no quartil inferior.</p>
+<fig id="f1" position="float"><caption><p>Fig. 1. Classificação média no exame por quartis das classificações de acesso</p></caption></fig>
+<p>A análise dos registos do sistema mostrou que o número de semanas de trabalho ativo está mais fortemente associado à classificação final (r = 0,52) do que o tempo total de trabalho (r = 0,29). Os principais resultados são apresentados no quadro 1.</p>
+<table-wrap id="t1" position="float"><caption><p>Quadro 1. Resultados do exame final (amostras emparelhadas, 181 pares)</p></caption><table><thead><tr><th>Indicador</th><th>Controlo</th><th>Curso adaptativo</th><th>Diferença</th></tr></thead><tbody><tr><td>Classificação média</td><td>61,5</td><td>68,9</td><td>+7,4</td></tr><tr><td>Reprovados à primeira tentativa, %</td><td>23</td><td>14</td><td>−9 p.p.</td></tr><tr><td>Classificação «excelente», %</td><td>12</td><td>17</td><td>+5 p.p.</td></tr><tr><td>Excluídos após a 1.ª época de exames, %</td><td>8,3</td><td>5,0</td><td>−3,3 p.p.</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Discussão</title>
+<p>O efeito obtido é comparável aos resultados de meta-análises internacionais sobre a prática adaptativa no ensino superior. A sua concentração no grupo de estudantes com preparação mais fraca indica que os cursos adaptativos são capazes de compensar parcialmente as diferenças nas condições de partida.</p>
+<p>O desenho quase experimental não permite excluir totalmente a influência de diferenças entre as coortes de anos distintos não consideradas no emparelhamento. Ainda assim, a coincidência dos docentes, do programa e do formato do exame reduz o risco de enviesamento. O resultado sobre a importância da regularidade do trabalho tem uma consequência prática direta: pontos de controlo semanais podem reforçar o efeito.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Conclusão</title>
+<p>O curso em linha adaptativo de análise matemática melhorou o desempenho dos estudantes do primeiro ano e reduziu a proporção de resultados negativos, sobretudo entre os estudantes com classificações de acesso baixas. Recomenda-se a combinação dos cursos adaptativos com mecanismos de apoio ao trabalho regular.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Referências bibliográficas</title>
+<ref id="r1"><mixed-citation>Bloom B. S. The 2 sigma problem: the search for methods of group instruction as effective as one-to-one tutoring // Educational Researcher. 1984. Vol. 13, no. 6. P. 4–16.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Rosenbaum P. R., Rubin D. B. The central role of the propensity score in observational studies for causal effects // Biometrika. 1983. Vol. 70, no. 1. P. 41–55.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Федорова И. С. Адаптивные системы обучения в высшей школе: модели и практики // Цифровая дидактика. 2022. Т. 5, № 2. С. 7–25.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Коваленко М. Ю., Федорова И. С. Цифровые следы студентов как источник данных для прогнозирования успеваемости // Образование и аналитика. 2023. № 1. С. 44–59.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Reyes M., Ahlberg J. Adaptive practice and mathematics achievement in higher education: a meta-analysis // Journal of Learning Technologies. 2021. Vol. 19, no. 2. P. 133–152.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Тарасова Н. В. Математическая подготовка первокурсников: проблемы перехода от школы к вузу. Лесногорск: ЛПУ, 2020. 176 с.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Hughes D., Varga E. Spacing and regularity in online learning: evidence from log data // Learning Analytics Review. 2022. Vol. 8. P. 60–79.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

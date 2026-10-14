@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.3" xml:lang="uz">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Fanlararo tadqiqotlar jurnali (Demo)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems demo jurnali</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>“Tsifra” MChJ</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Ilmiy maqola</subject></subj-group></article-categories>
+<title-group>
+<article-title>Masofaviy ish va mintaqaviy mehnat bozorlari: onlayn vakansiyalar maʼlumotlari asosida</article-title>
+<trans-title-group xml:lang="en"><trans-title>Remote Work and Regional Labour Markets: Evidence from Online Vacancies</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Gromov</surname><given-names>Pavel</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Gromov</surname><given-names>Pavel</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>p.gromov@example.org</email></contrib>
+<contrib contrib-type="author"><name name-style="western"><surname>Becker</surname><given-names>Laura</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Becker</surname><given-names>Laura</given-names></name></name-alternatives><xref ref-type="aff" rid="aff2"/></contrib>
+</contrib-group>
+<aff id="aff1"><institution>“Meridian” iqtisodiyot va hududiy rivojlanish instituti</institution>, <country country="RU">Rossiya</country></aff>
+<aff id="aff2"><institution>“Ostland” amaliy iqtisodiy tadqiqotlar markazi</institution>, <country country="DE">Germaniya</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-03-20"><day>20</day><month>03</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>12</fpage><lpage>14</lpage>
+<history><date date-type="received" iso-8601-date="2024-10-21"><day>21</day><month>10</month><year>2024</year></date><date date-type="accepted" iso-8601-date="2025-02-14"><day>14</day><month>02</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Pavel Gromov, Laura Becker</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 litsenziyasi asosida tarqatiladi</license-p></license></permissions>
+<abstract xml:lang="uz"><p>2020-yildan keyin masofaviy ishning keng tarqalishi kichik shaharlar aholisiga poytaxtdagi ish beruvchilar eʼlon qilgan vakansiyalardan foydalanish imkonini berib, mehnat bozorlarining hududiy tuzilishini oʻzgartirishi mumkin. Ushbu maqolada 2019–2023-yillarda yirik onlayn platformada eʼlon qilingan 2,4 million ish eʼlonlari asosida masofaviy vakansiyalar mehnatga boʻlgan talabni mintaqalar oʻrtasida qay darajada qayta taqsimlashi baholanadi. Eʼlonlar lugʻatga asoslangan model yordamida tasniflandi, soʻngra tasodifiy tanlanma qoʻlda tekshirildi. Toʻliq masofaviy vakansiyalar ulushi 2019-yildagi 2,1% dan 2023-yilda 9,7% gacha oshdi, oʻsish esa axborot texnologiyalari, marketing va moliyaviy xizmatlarda jamlandi. “Farqlar ichidagi farq” usuli shuni koʻrsatadiki, ushbu tarmoqlarda bandlik ulushi yuqori boʻlgan mintaqalarda taklif etilayotgan oʻrtacha ish haqi taqqoslanadigan mintaqalarga nisbatan 4,3% tezroq oʻsgan. Shu bilan birga, masofaviy vakansiyalar tajriba va maʼlumotga nisbatan yuqoriroq talablar qoʻyadi, bu esa ishchilarning katta qismi uchun ulardan foydalanish imkoniyatini cheklaydi. Mintaqalararo ish haqi farqlariga tenglashtiruvchi taʼsir statistik jihatdan ahamiyatli, ammo moʻtadil. Natijalar masofaviy ish faqat qayta tayyorlash dasturlari va raqamli infratuzilmani rivojlantirish bilan birgalikda mintaqaviy siyosat vositasi boʻlib xizmat qilishi mumkinligini koʻrsatadi.</p></abstract>
+<trans-abstract xml:lang="en"><p>The spread of remote work after 2020 has the potential to reshape the spatial structure of labour markets by giving residents of smaller towns access to vacancies posted by employers in the capital. Using 2.4 million job advertisements published on a large online platform in 2019–2023, this article estimates the extent to which remote vacancies redistribute labour demand across regions. Advertisements were classified with a dictionary-based model followed by manual validation of a random sample. The share of fully remote vacancies rose from 2.1% in 2019 to 9.7% in 2023, with growth concentrated in information technology, marketing and financial services. A difference-in-differences design shows that in regions with a higher share of employment in these industries, the average offered wage grew 4.3% faster than in comparable regions. At the same time, remote vacancies impose higher requirements for experience and education, which limits access for a large proportion of workers. The equalising effect on interregional wage differences is statistically significant but moderate. The results suggest that remote work can serve as an instrument of regional policy only when combined with retraining programmes and the development of digital infrastructure.</p></trans-abstract>
+<kwd-group xml:lang="uz" kwd-group-type="author"><kwd>masofaviy ish</kwd><kwd>mintaqaviy mehnat bozori</kwd><kwd>onlayn vakansiyalar</kwd><kwd>ish haqi</kwd><kwd>farqlar ichidagi farq</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>remote work</kwd><kwd>regional labour market</kwd><kwd>online vacancies</kwd><kwd>wages</kwd><kwd>difference-in-differences</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Kirish</title>
+<p>2020-yilda masofaviy ishga jadal oʻtish dastlab pandemiyaga vaqtinchalik javob sifatida qaralgan edi. Toʻrt yil oʻtib, ish beruvchilarning salmoqli qismi toʻliq masofaviy lavozimlarni taklif qilishda davom etmoqda, bu esa yuqori maoshli ish oʻrinlaridan foydalanish imkoniyatini hali ham joylashuv belgilaydimi, degan savolni tugʻdiradi. Agar kichik shaharlardagi ishchilar poytaxtda eʼlon qilingan vakansiyalar uchun raqobatlasha olsa, mintaqalararo ish haqi farqlari jismoniy migratsiyasiz ham qisqarishi mumkin.</p>
+<p>Bu masala boʻyicha mavjud dalillar asosan ishchilar oʻrtasida oʻtkazilgan soʻrovlardan olingan. Onlayn vakansiyalar maʼlumotlari yuqori vaqt va fazoviy aniqlikka ega boʻlgan, talab tomonidan qarashga imkon beruvchi qoʻshimcha manbadir. Ushbu maqolada bunday maʼlumotlar masofaviy vakansiyalar oʻsishini qayd etish, ularning talablarini tavsiflash va ularning mintaqaviy ish haqi dinamikasiga taʼsirini baholash uchun qoʻllaniladi.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Materiallar va usullar</title>
+<p>Maʼlumotlar toʻplami 2019-yil yanvaridan 2023-yil dekabrigacha yirik ish platformasida eʼlon qilingan 2,4 million eʼlonni oʻz ichiga oladi. Har bir yozuvda lavozim nomi, tavsif, mintaqa, tarmoq, taklif etilayotgan ish haqi diapazoni va talablar mavjud. Masofaviy vakansiyalar 46 ta iboradan iborat lugʻat yordamida aniqlandi; 2 000 ta eʼlondan iborat qoʻlda kodlangan tasodifiy tanlanma 0,94 aniqlik (precision) va 0,91 toʻliqlik (recall) koʻrsatdi.</p>
+<p>Ish haqiga taʼsirni baholash uchun mintaqalar pandemiyadan oldingi masofaviy ishga moyil tarmoqlardagi bandlik ulushiga koʻra guruhlarga ajratildi. Mintaqa va oyning qatʼiy effektlari bilan “farqlar ichidagi farq” modeli vakansiyalarning kasbiy tarkibini nazorat qilgan holda 2020-yil martigacha va undan keyin taklif etilayotgan mediana ish haqining oʻzgarishini taqqoslaydi.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Natijalar</title>
+<p>Toʻliq masofaviy vakansiyalar ulushi 2019-yildagi 2,1% dan 2023-yilda 9,7% gacha barqaror oʻsdi (1-rasm). Eng kuchli oʻsish axborot texnologiyalarida kuzatildi, u yerda masofaviy lavozimlar barcha eʼlonlarning 31% iga yetdi; undan keyin marketing va moliya sohalari turadi. Ishlab chiqarish, chakana savdo va sogʻliqni saqlashda bu ulush 2% dan past boʻlib qoldi.</p>
+<fig id="f1" position="float"><caption><p>1-rasm. Yillar boʻyicha toʻliq masofaviy vakansiyalar ulushi, %</p></caption></fig>
+<p>1-jadvalda asosiy baholar keltirilgan. Masofaviy ishga moyil tarmoqlar taʼsiri yuqori boʻlgan mintaqalarda taklif etilayotgan mediana ish haqi taʼsiri past boʻlgan mintaqalarga qaraganda 4,3% ga koʻproq oshdi. Masofaviy vakansiyalarda oliy maʼlumot talab qilinishi ehtimoli 1,6 baravar yuqori boʻlgan va ular oʻrtacha 1,2 yil koʻproq ish tajribasini talab qilgan.</p>
+<table-wrap id="t1" position="float"><caption><p>1-jadval. “Farqlar ichidagi farq” baholari (bogʻliq oʻzgaruvchi: taklif etilayotgan mediana ish haqining logarifmi)</p></caption><table><thead><tr><th>Spetsifikatsiya</th><th>Baho</th><th>Std. xato</th><th>N (mintaqa-oylar)</th></tr></thead><tbody><tr><td>Bazaviy</td><td>0.043</td><td>0.012</td><td>4,980</td></tr><tr><td>+ kasbiy nazorat oʻzgaruvchilari</td><td>0.037</td><td>0.011</td><td>4,980</td></tr><tr><td>Poytaxt mintaqasisiz</td><td>0.041</td><td>0.013</td><td>4,920</td></tr><tr><td>Platsebo (2018-yildagi uzilish)</td><td>0.004</td><td>0.010</td><td>4,980</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Muhokama</title>
+<p>Natijalarimiz masofaviy ish mintaqaviy ish haqiga haqiqatan ham tenglashtiruvchi bosim oʻtkazishini, biroq uning koʻlami moʻtadil ekanini koʻrsatadi. Taʼsir masofaviy ishga moyil kasblarda ishlovchilar zaxirasi allaqachon mavjud boʻlgan mintaqalarda jamlangan; bu masofaviy ish yangi imkoniyatlar yaratishdan koʻra mavjud inson kapitalini kuchaytirishidan dalolat beradi.</p>
+<p>Masofaviy vakansiyalarning yuqoriroq malaka talablari asosiy cheklovdir. Raqamli infratuzilmaga investitsiyalarni qayta tayyorlash bilan uygʻunlashtiruvchi siyosat choralari masofaviy ish salohiyatini keng qamrovli foydaga aylantirish ehtimoli koʻproq. Tadqiqotning cheklovi shundaki, vakansiyalar maʼlumotlari amalda toʻlangan emas, balki taklif etilgan ish haqini aks ettiradi.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Xulosa</title>
+<p>Masofaviy vakansiyalar mehnat bozorining barqaror xususiyatiga aylandi va mintaqalararo ish haqi farqlarini biroz qisqartiradi. Biroq ularning foydasi asosan yuqori malakali ishchilarga toʻgʻri keladi, ularning mintaqaviy rivojlanish vositasi sifatidagi roli esa qoʻshimcha siyosat choralariga bogʻliq.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Adabiyotlar roʻyxati</title>
+<ref id="r1"><mixed-citation>Angrist J. D., Pischke J.-S. Mostly Harmless Econometrics: An Empiricist's Companion. Princeton: Princeton University Press, 2009. 392 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Moretti E. The New Geography of Jobs. Boston: Houghton Mifflin Harcourt, 2012. 294 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Gromov P. A. Online vacancy data as a source of regional labour market statistics // Regional Economics Review. 2021. Vol. 14, no. 2. P. 55–73.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Becker L., Vogt H. Remote-eligible jobs and the spatial distribution of labour demand // Journal of Labour and Space. 2022. Vol. 8, no. 1. P. 1–24.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Громов П. А., Седова Е. К. Межрегиональная дифференциация заработной платы: факторы и тенденции // Пространственная экономика и политика. 2020. № 3. С. 22–40.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Lindgren A., Torres M. Skill requirements in remote job postings // Labour Market Analytics. 2023. Vol. 5. P. 140–158.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Седова Е. К. Цифровая инфраструктура и занятость в малых городах. М.: Меридиан, 2022. 168 с.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Hartmann F. Text classification of job advertisements: a practical comparison // Computational Social Science Letters. 2021. Vol. 3, no. 4. P. 88–101.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

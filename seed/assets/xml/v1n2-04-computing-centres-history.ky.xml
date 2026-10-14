@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article" dtd-version="1.3" xml:lang="ky">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">DEMO</journal-id>
+<journal-title-group><journal-title>Дисциплиналар аралык изилдөөлөр журналы (демоверсия)</journal-title><trans-title-group xml:lang="en"><trans-title>Journal of Interdisciplinary Research (Demo)</trans-title></trans-title-group><abbrev-journal-title>Open Journal Systems платформасындагы демо журнал</abbrev-journal-title></journal-title-group>
+<issn publication-format="electronic">0000-0000</issn>
+<publisher><publisher-name>«Цифра» ЖЧК</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-categories><subj-group subj-group-type="heading"><subject>Сереп макала</subject></subj-group></article-categories>
+<title-group>
+<article-title>1950–1970-жылдардагы эсептөө борборлору илимий мекемелер катары: историографиялык сереп</article-title>
+<trans-title-group xml:lang="en"><trans-title>Computing Centres of the 1950s–1970s as Scientific Institutions: A Historiographical Review</trans-title></trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Вершинин</surname><given-names>Леонид</given-names></name><name-alternatives><name name-style="western" xml:lang="en"><surname>Vershinin</surname><given-names>Leonid</given-names></name></name-alternatives><xref ref-type="aff" rid="aff1"/><email>l.vershinin@example.org</email></contrib>
+</contrib-group>
+<aff id="aff1"><institution>«Хронос» илим жана техника тарыхы борбору</institution>, <country country="RU">Россия</country></aff>
+<pub-date publication-format="electronic" date-type="pub" iso-8601-date="2025-09-25"><day>25</day><month>09</month><year>2025</year></pub-date>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>14</fpage><lpage>16</lpage>
+<history><date date-type="received" iso-8601-date="2025-01-20"><day>20</day><month>01</month><year>2025</year></date><date date-type="accepted" iso-8601-date="2025-06-10"><day>10</day><month>06</month><year>2025</year></date></history>
+<permissions><copyright-statement>© 2025 Леонид Вершинин</copyright-statement><copyright-year>2025</copyright-year><license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/"><license-p>CC BY 4.0 лицензиясы боюнча таратылат</license-p></license></permissions>
+<abstract xml:lang="ky"><p>Жыйырманчы кылымдын орто ченинде илимий-изилдөө институттарында, университеттерде жана өнөр жай ишканаларында түзүлгөн эсептөө борборлору эсептөөлөрдү илимий таанып-билүүнүн өз алдынча куралына айландырууда негизги ролду ойногон. Бул серепте акыркы элүү жылда илим жана техника тарыхчылары бул мекемелерди кантип изилдеп келгени каралат. 64 монографияны, макаланы жана жыйнакты талдоонун негизинде үч негизги историографиялык ыкма бөлүнүп көрсөтүлөт. Биринчиси — техникалык-биографиялык ыкма — айрым ЭЭМдердин түзүлүшүнө жана аларды иштеп чыккан конструкторлордун ишине басым жасайт. Экинчиси — институционалдык ыкма — эсептөө борборлорун өз түзүмү, кадр саясаты жана буйрутмачылар менен мамилелери бар уюмдар катары карайт. Акыркы жыйырма жылда калыптанган үчүнчүсү эсептөө практикаларын изилдейт: программисттер, операторлор жана колдонуучулар машиналар менен кантип өз ара аракеттенишкенин жана эсептөөлөр метеорологиядан тартып лингвистикага чейинки айрым дисциплиналардын методдорун кантип өзгөрткөнүн. Эсептөө борборлорунун күнүмдүк иши, аял программисттердин жана операторлордун ролу, ошондой эле эң ири илим шаарларынан тышкаркы аймактык борборлор эң аз изилденген темалар бойдон калууда. Булактык базанын маселелери, анын ичинде техникалык документациянын, машиналык убакыт журналдарынын жана программалардын сакталышы өзүнчө талкууланат. Серептин жыйынтыгында окуялардын катышуучулары азырынча тирүү турганда архивдик изилдөөлөрдү оозеки тарых методдору менен айкалыштыруу келечектүү экени белгиленет.</p></abstract>
+<trans-abstract xml:lang="en"><p>Computing centres, established in the mid-twentieth century at research institutes, universities and industrial enterprises, played a key role in turning computation into an independent instrument of scientific inquiry. This review examines how historians of science and technology have studied these institutions over the past fifty years. Based on an analysis of 64 monographs, articles and edited volumes, three main historiographical approaches are identified. The first, technical-biographical, focuses on the construction of particular computers and the work of their designers. The second, institutional, treats computing centres as organisations with their own structure, staffing policies and relations with clients. The third, which has emerged over the last two decades, investigates computing practices: how programmers, operators and users interacted with machines and how computation transformed the methods of individual disciplines, from meteorology to linguistics. The least studied topics remain the everyday work of computing centres, the role of women programmers and operators, and regional centres outside the largest science cities. Problems of the source base are discussed separately, including the preservation of technical documentation, machine-time logs and programs. The review concludes that combining archival research with oral history methods is promising while participants in these events are still alive.</p></trans-abstract>
+<kwd-group xml:lang="ky" kwd-group-type="author"><kwd>илимдин тарыхы</kwd><kwd>эсептөө техникасынын тарыхы</kwd><kwd>эсептөө борборлору</kwd><kwd>историография</kwd><kwd>оозеки тарых</kwd></kwd-group>
+<kwd-group xml:lang="en" kwd-group-type="author"><kwd>history of science</kwd><kwd>history of computing</kwd><kwd>computing centres</kwd><kwd>historiography</kwd><kwd>oral history</kwd></kwd-group>
+
+</article-meta>
+</front>
+<body>
+<sec id="sec-intro" sec-type="intro"><title>Киришүү</title>
+<p>1940-жылдардын аягы — 1950-жылдары электрондук эсептөө машиналарынын пайда болушу атайын мекемелерди түзүүнү талап кылды: машиналар кымбат болгон, бүтүндөй залдарды ээлеген жана сутка бою тейлөөнү талап кылган. Эсептөө борборлору инженерлер, математиктер жана колдонуучу окумуштуулар жолуккан жана акырындык менен жаңы кесиптер — программист жана оператор — калыптанган жайга айланган.</p>
+<p>Эсептөө борборлорунун историографиясы эсептөө техникасынын тарыхы дисциплина катары өнүгүшү менен бирге өнүккөн. Серептин максаты — бул мекемелерди изилдөөнүн ыкмаларын системалаштыруу, начар изилденген темаларды аныктоо жана булактык базанын абалын талкуулоо.</p>
+</sec>
+<sec id="sec-methods" sec-type="materials|methods"><title>Материалдар жана методдор</title>
+<p>Сереп корпусу негизги эмгектердин библиографиялары жана илим менен техниканын тарыхы боюнча адистештирилген журналдардын тематикалык көрсөткүчтөрү боюнча түзүлдү. Эсептөө борбору (өзүнчө машина же инсан эмес) жок дегенде бир главада же бөлүмдө талдоонун предмети болгон изилдөөлөр киргизилди. Акыркы корпус 1975-жылдан 2024-жылга чейин жарыяланган 64 эмгекти түздү.</p>
+<p>Ар бир эмгек жетектөөчү ыкмасы, колдонулган булактардын түрү жана изилденген мекемелердин географиясы боюнча классификацияланды. Классификацияны автор жүргүздү жана туруктуулугун баалоо үчүн бир жылдан кийин кайра текшерди.</p>
+</sec>
+<sec id="sec-results" sec-type="results"><title>Натыйжалар</title>
+<p>Эмгектердин он жылдыктар жана ыкмалар боюнча бөлүнүшү 1-сүрөттө көрсөтүлгөн. 1990-жылдарга чейин негизинен окуялардын катышуучуларынын эскерүүлөрү жана юбилейлик басылмалар менен берилген техникалык-биографиялык ыкма үстөмдүк кылган. Институционалдык изилдөөлөр 1990–2000-жылдары, ал эми практикаларды изилдөө 2010-жылдан кийин байкала баштады.</p>
+<fig id="f1" position="float"><caption><p>1-сүрөт. Жарыяланган он жылдыктары жана жетектөөчү ыкмасы боюнча эмгектердин саны</p></caption></fig>
+<p>1-таблица ар кандай ыкмалардын алкагында кайсы булактар колдонуларын көрсөтөт. Машиналык убакыт журналдары жана сакталып калган программалардын тексттери эмгектердин бир аз гана бөлүгүндө тартыларын белгилей кетүү керек, бирок алар машиналардын чыныгы жүктөмүн жана чечилген маселелердин курамын калыбына келтирүүгө мүмкүндүк берет.</p>
+<table-wrap id="t1" position="float"><caption><p>1-таблица. Историографиялык ыкмалар боюнча булактардын түрлөрү (эмгектердин үлүшү, %)</p></caption><table><thead><tr><th>Булактын түрү</th><th>Техникалык-биогр.</th><th>Институц.</th><th>Практикалар</th></tr></thead><tbody><tr><td>Мемуарлар жана интервьюлар</td><td>84</td><td>48</td><td>72</td></tr><tr><td>Мекемелердин иш кагаздары</td><td>28</td><td>86</td><td>56</td></tr><tr><td>Техникалык документация</td><td>76</td><td>31</td><td>44</td></tr><tr><td>Машиналык убакыт журналдары</td><td>4</td><td>17</td><td>39</td></tr><tr><td>Программалардын тексттери</td><td>8</td><td>3</td><td>33</td></tr></tbody></table></table-wrap>
+</sec>
+<sec id="sec-discussion" sec-type="discussion"><title>Талкуу</title>
+<p>Ыкмалардын алмашуусу илим тарыхынын ачылыштар жана ойлоп табуучулар тарыхынан билимдин социалдык тарыхына жана практикалар тарыхына карай жалпы эволюциясын чагылдырат. Ошол эле учурда техникалык-биографиялык эмгектер, өзгөчө изилдөөчүлөргө жеткиликсиз документтерге негизделгенде, фактылык маалыматтардын булагы катары баалуулугун сактайт.</p>
+<p>Негизги боштуктар эсептөө ишинин «көрүнбөгөн» катышуучулары — операторлор, перфоратор операторлору, программисттер, алардын көбү аялдар болгон — жана аймактык борборлор менен байланыштуу. Окуялардын катышуучулары менен интервью жазып алуу үчүн убакыт чектелүү, бул оозеки тарых долбоорлорун өзгөчө актуалдуу кылат.</p>
+</sec>
+<sec id="sec-conclusion" sec-type="conclusions"><title>Корутунду</title>
+<p>Эсептөө борборлорунун историографиясы машиналардын тарыхынан практикалардын тарыхына чейинки жолду басып өттү. Андан аркы прогресс булактык базаны кеңейтүүнү — машиналык убакыт журналдарын жана программаларды системалуу издөөнү — жана архивдик ишти оозеки тарых менен айкалыштырууну талап кылат.</p>
+</sec>
+</body>
+<back>
+<ref-list><title>Адабияттар тизмеси</title>
+<ref id="r1"><mixed-citation>Campbell-Kelly M., Aspray W., Ensmenger N., Yost J. R. Computer: A History of the Information Machine. 3rd ed. Boulder: Westview Press, 2014. 360 p.</mixed-citation></ref>
+<ref id="r2"><mixed-citation>Ensmenger N. The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise. Cambridge, MA: MIT Press, 2010. 336 p.</mixed-citation></ref>
+<ref id="r3"><mixed-citation>Вершинин Л. А. Вычислительный центр как научное учреждение: опыт институционального анализа // Вопросы истории науки и техники. 2019. Т. 40, № 3. С. 77–96.</mixed-citation></ref>
+<ref id="r4"><mixed-citation>Вершинин Л. А., Гладкова З. Н. Журналы машинного времени как исторический источник // Архивы и история техники. 2021. № 2. С. 12–29.</mixed-citation></ref>
+<ref id="r5"><mixed-citation>Haigh T., Priestley M. Computing practices and the history of software: an agenda // Annals of Computing History Review. 2020. Vol. 12, no. 1. P. 3–21.</mixed-citation></ref>
+<ref id="r6"><mixed-citation>Гладкова З. Н. Женщины в программировании 1950–1970-х гг.: материалы устной истории // Наука и общество в истории. 2022. Т. 6, № 4. С. 101–118.</mixed-citation></ref>
+<ref id="r7"><mixed-citation>Abbate J. Recoding Gender: Women's Changing Participation in Computing. Cambridge, MA: MIT Press, 2012. 264 p.</mixed-citation></ref>
+<ref id="r8"><mixed-citation>Мирский Е. Б. Региональные вычислительные центры и научная политика. М.: Хронос, 2018. 304 с.</mixed-citation></ref>
+<ref id="r9"><mixed-citation>Dahl K., Ostrowski P. Numerical weather prediction and the making of a computing community // Science in Context Studies. 2019. Vol. 27. P. 210–233.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>
