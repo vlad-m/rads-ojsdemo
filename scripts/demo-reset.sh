@@ -13,9 +13,10 @@ source "$(dirname "$0")/lib/common.sh"
 
 require_ojs "${1:-}"
 SNAP="${2:-$HOME/ojs-demo-snapshot}"
-for f in db.sql.gz files.tar.gz public.tar.gz; do
+for f in files.tar.gz public.tar.gz; do
 	[ -s "$SNAP/$f" ] || die "Snapshot file missing: $SNAP/$f (run demo-snapshot.sh first)"
 done
+[ -s "$SNAP/db.pgdata.gz" ] || [ -s "$SNAP/db.sql.gz" ] || die "Database snapshot missing in $SNAP (run demo-snapshot.sh first)"
 FILES_DIR="$(files_dir)"
 [ -n "$FILES_DIR" ] && [ "$FILES_DIR" != "/" ] && [ -d "$FILES_DIR" ] || die "Invalid files_dir: $FILES_DIR"
 
@@ -33,16 +34,23 @@ SNAP_ENGINE="$(sed -n 's/^db_engine=//p' "$SNAP/snapshot.info" 2>/dev/null)"
 
 step "$(date '+%Y-%m-%d %H:%M:%S') reset from $SNAP ($(sed -n 's/^date=//p' "$SNAP/snapshot.info" 2>/dev/null))"
 
-# Database: drop every table (also ones created after the snapshot), then load
-db_drop_all
-gzip -dc "$SNAP/db.sql.gz" | "${DB_CLI[@]}" >/dev/null
+if [ -s "$SNAP/db.pgdata.gz" ]; then
+	# PostgreSQL data snapshot (PHP/PDO): empty the tables and load the rows
+	"$PHP" "$REPO_DIR/scripts/lib/pg-data.php" restore "$OJS_DIR" "$SNAP/db.pgdata.gz" >/dev/null || die "database restore failed"
+	run_sql() { "$PHP" "$REPO_DIR/scripts/lib/pg-data.php" exec "$OJS_DIR" "$1"; }
+else
+	# SQL dump: drop every table (also ones created after the snapshot), then load
+	db_drop_all
+	gzip -dc "$SNAP/db.sql.gz" | "${DB_CLI[@]}" >/dev/null
+	run_sql() { db_sql "$1"; }
+fi
 # Keep open review requests "fresh" so the demo reviewer never sees them overdue
 if [ "$DB_ENGINE" = mysql ]; then
 	SHIFT="date_assigned = NOW() - INTERVAL 3 DAY, date_notified = NOW() - INTERVAL 3 DAY, date_response_due = NOW() + INTERVAL 4 DAY, date_due = NOW() + INTERVAL 25 DAY"
 else
 	SHIFT="date_assigned = NOW() - INTERVAL '3 days', date_notified = NOW() - INTERVAL '3 days', date_response_due = NOW() + INTERVAL '4 days', date_due = NOW() + INTERVAL '25 days'"
 fi
-db_sql "UPDATE review_assignments SET $SHIFT WHERE date_confirmed IS NULL AND date_completed IS NULL AND declined = 0 AND cancelled = 0" >/dev/null || true
+run_sql "UPDATE review_assignments SET $SHIFT WHERE date_confirmed IS NULL AND date_completed IS NULL AND declined = 0 AND cancelled = 0" >/dev/null || true
 ok "database restored"
 
 # Files: extract next to the live directory, then swap

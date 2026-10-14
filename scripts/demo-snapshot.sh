@@ -22,8 +22,16 @@ trap 'rm -rf "$TMP"' EXIT
 db_prepare "$TMP"
 
 step "Snapshot → $SNAP"
-"${DB_DUMP[@]}" | gzip -6 > "$TMP/db.sql.gz"
-ok "database $DB_NAME [$DB_ENGINE] ($(du -h "$TMP/db.sql.gz" | cut -f1))"
+if [ "$DB_ENGINE" = pgsql ]; then
+	# PHP/PDO instead of pg_dump: hosting often has client tools older than the server
+	DB_FILE=db.pgdata.gz
+	rows="$("$PHP" "$REPO_DIR/scripts/lib/pg-data.php" dump "$OJS_DIR" "$TMP/$DB_FILE")" || die "database snapshot failed"
+else
+	DB_FILE=db.sql.gz
+	"${DB_DUMP[@]}" | gzip -6 > "$TMP/$DB_FILE"
+	rows=""
+fi
+ok "database $DB_NAME [$DB_ENGINE] ($(du -h "$TMP/$DB_FILE" | cut -f1)${rows:+, $rows})"
 
 # The GeoIP database (~120 MB) is kept in place by demo-reset.sh, no need to archive it
 tar -czf "$TMP/files.tar.gz" -C "$FILES_DIR" --exclude=./usageStats/IPGeoDB.mmdb .
@@ -41,6 +49,7 @@ ok "public/ ($(du -h "$TMP/public.tar.gz" | cut -f1))"
 } > "$TMP/snapshot.info"
 
 rm -f "$TMP/my.cnf" "$TMP/pgpass"
-for f in db.sql.gz files.tar.gz public.tar.gz snapshot.info; do mv -f "$TMP/$f" "$SNAP/$f"; done
+rm -f "$SNAP/db.sql.gz" "$SNAP/db.pgdata.gz"
+for f in "$DB_FILE" files.tar.gz public.tar.gz snapshot.info; do mv -f "$TMP/$f" "$SNAP/$f"; done
 chmod 600 "$SNAP"/*
 ok "snapshot saved"

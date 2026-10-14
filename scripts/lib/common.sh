@@ -148,7 +148,7 @@ db_prepare() {
 		DB_CLI=(mysql --defaults-extra-file="$dir/my.cnf" "$DB_NAME")
 		DB_DUMP=(mysqldump --defaults-extra-file="$dir/my.cnf" --single-transaction --quick --no-tablespaces --skip-lock-tables --default-character-set=utf8mb4 "$DB_NAME")
 	else
-		command -v psql >/dev/null 2>&1 && command -v pg_dump >/dev/null 2>&1 || die "psql/pg_dump client not found."
+		# the snapshot scripts use PHP (lib/pg-data.php); psql is optional
 		export PGOPTIONS="--client-min-messages=warning"
 		PGPASSWORD="$(cfg database password)"
 		export PGPASSWORD PGHOST="$host" PGPORT="${port:-5432}" PGUSER="$(cfg database username)" PGDATABASE="$DB_NAME"
