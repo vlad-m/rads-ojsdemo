@@ -753,10 +753,19 @@ body.academic_theme {
 	}
 
 	.obj_galley_link {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4em;
 		border: 1.5px solid @ac-accent;
 		color: @ac-accent;
 		padding: 0.3rem 0.9rem;
 		font-size: 0.85rem;
+		line-height: 1.4;
+		white-space: nowrap;
+
+		&::before {
+			margin: 0;
+		}
 
 		&:hover,
 		&:focus {
@@ -1339,16 +1348,43 @@ body.academic_theme {
 			box-shadow: @ac-shadow;
 		}
 
+		// Full-text buttons (PDF, HTML, XML…): one per row, all the same size
+		.galleys_links {
+			display: grid;
+			grid-template-columns: minmax(0, 1fr);
+			gap: 0.5rem;
+			margin: 0;
+			padding: 0;
+
+			> li {
+				display: block;
+				width: 100%;
+				margin: 0;
+			}
+		}
+
 		.galleys_links .obj_galley_link {
-			display: block;
-			text-align: center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 0.5em;
+			width: 100%;
+			min-height: 2.75rem;
 			padding: 0.6rem 1rem;
 			background: @ac-accent;
+			border-color: @ac-accent;
 			color: #fff;
+			line-height: 1.2;
+			white-space: nowrap;
+
+			&::before {
+				margin: 0;
+			}
 
 			&:hover,
 			&:focus {
 				background: darken(@ac-accent, 8%);
+				border-color: darken(@ac-accent, 8%);
 			}
 		}
 	}
