@@ -406,6 +406,30 @@ ${body}
 `;
 }
 
+// The chart as one self-contained SVG (legend drawn inside), as a data URI.
+// The URI keeps ":" and "/" unescaped, so it contains the SVG namespace
+// "http://…": the Lens JATS viewer bundled with OJS only uses a figure URL
+// as it is when it contains "http://" (otherwise it prefixes the eLife CDN).
+function chartDataURI(fig, loc) {
+  const html = chartSVG(fig, loc);
+  const end = html.lastIndexOf('</svg>') + 6;
+  const W = 520, H = 230;
+  const inner = html.slice(0, end).replace(/^<svg [^>]*?viewBox="([^"]+)"[^>]*>/, `<svg x="0" y="0" width="${W}" height="${H}" viewBox="$1">`);
+  const pal = [C.navy, C.burgundy, C.gold, C.slate];
+  let legend = '', lh = 0;
+  if (fig.series.length > 1) {
+    lh = 24;
+    const widths = fig.series.map((sr) => 18 + sr.name.length * 6.2);
+    let x = (W - widths.reduce((a, b) => a + b + 16, -16)) / 2;
+    fig.series.forEach((sr, i) => {
+      legend += `<rect x="${x.toFixed(1)}" y="${H + 7}" width="10" height="10" rx="2" fill="${pal[i]}"/><text x="${(x + 15).toFixed(1)}" y="${H + 16}" font-size="11" fill="${C.ink}">${esc(sr.name)}</text>`;
+      x += widths[i] + 16;
+    });
+  }
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H + lh}" width="${W}" height="${H + lh}" font-family="Inter, Arial, sans-serif"><rect width="100%" height="100%" fill="#fff"/>${inner}${legend}</svg>`;
+  return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg).replace(/%3A/g, ':').replace(/%2F/g, '/');
+}
+
 // JATS 1.3 (Journal Publishing tag set)
 function articleJATS(a, ctx, loc) {
   const { T, b, issue, affs, authorAff, sections, alt } = articleParts(a, ctx, loc);
@@ -416,7 +440,7 @@ function articleJATS(a, ctx, loc) {
   const date = (type, iso) => { const [y, m, d] = iso.split('-'); return `<date date-type="${type}" iso-8601-date="${iso}"><day>${d}</day><month>${m}</month><year>${y}</year></date>`; };
   const [py, pm, pd] = issue.datePublished.split('-');
   const secType = { intro: 'intro', methods: 'materials|methods', results: 'results', discussion: 'discussion', conclusion: 'conclusions' };
-  const fig = b.figure ? `<fig id="f1" position="float"><caption><p>${x(b.figure.caption)}</p></caption></fig>` : '';
+  const fig = b.figure ? `<fig id="f1" position="float"><caption><p>${x(b.figure.caption)}</p></caption><graphic mimetype="image" mime-subtype="svg+xml" xlink:href="${x(chartDataURI(b.figure, loc))}"/></fig>` : '';
   const tbl = b.table ? `<table-wrap id="t1" position="float"><caption><p>${x(b.table.caption)}</p></caption><table><thead><tr>${b.table.head.map((h) => `<th>${x(h)}</th>`).join('')}</tr></thead><tbody>${b.table.rows.map((r) => `<tr>${r.map((c) => `<td>${x(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></table-wrap>` : '';
   const body = sections.map(([key, arr]) => {
     const ps = arr.map((t) => `<p>${x(t)}</p>`);
